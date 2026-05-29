@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "4e96add86e9640c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe8576f8fca62811",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d3775fe736f41f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书/查拉图斯特拉如是说.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "查拉图斯特拉如是说"
+            }
+          },
+          {
+            "id": "fed7ce1ae1ff7a2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "接水.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "接水"
+            }
+          },
+          {
+            "id": "09afad76fb74b429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "文献/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4100706ce706f63e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fef5d862b7dfa4da",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "92bc312c3fbbd9da",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "69e01523cc2a749c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "3f594ac4da3200cd",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "2acc54b392d10d7b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3bb3b6994f7e4df8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "066524fe3879cf3d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "9a1d0514f71d9f8c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "45192b90951d414a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "09afad76fb74b429",
+  "lastOpenFiles": [
+    "01-文献笔记/2024-Knoevenagel-water-mediated.md",
+    "01-文献笔记",
+    "06-模板/有机合成文献阅读模板.md",
+    "06-模板",
+    "02-概念卡片/水介导反应.md",
+    "02-概念卡片/活泼亚甲基化合物.md",
+    "02-概念卡片/Knoevenagel缩合.md",
+    "02-概念卡片/绿色化学指标.md",
+    "02-概念卡片",
+    "Claude阅读/2024-Knoevenagel-阅读感想.md",
+    "Claude阅读",
+    "99-附件PDF/d4ob01420k-中文翻译.md",
+    "99-附件PDF/d4ob01420k-中文翻译.pdf",
+    "99-附件PDF/d4ob01420k.pdf",
+    "99-附件PDF",
+    "03-实验条件/Knoevenagel水介导通用条件.md",
+    "03-实验条件",
+    "05-我的课题关联/Knoevenagel文献对查尔酮课题的启发.md",
+    "05-我的课题关联",
+    "乱七八糟/订阅.md",
+    "文献/未命名.md",
+    "文献",
+    "未命名.md",
+    "接水.md",
+    "读书/查拉图斯特拉如是说.md",
+    "你你你你.md",
+    "科研/阳离子和非离子胶束介质中通过绿色克莱森-施密特反应合成查尔酮.md",
+    "AI/基础知识.md",
+    "yunduan/查拉图斯特拉如是说.md",
+    "yunduan/欢迎.md",
+    "yunduan/欧丹森；赛络纺.md"
+  ]
+}

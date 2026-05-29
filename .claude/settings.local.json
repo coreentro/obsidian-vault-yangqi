@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Read(//c/Users/氧气/.claude/**)",
+      "WebSearch",
+      "WebFetch(domain:support.claude.com)"
+    ],
+    "defaultMode": "bypassPermissions"
+  }
+}
