@@ -23,6 +23,7 @@ tags:
 - 在线发表：2019-10-15
 - DOI：[10.1016/j.cej.2019.123192](https://doi.org/10.1016/j.cej.2019.123192)
 - 原始 PDF：[[科研/附件PDF/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z-scheme-LVFX.pdf|打开原始 PDF]]
+- 文献汇报 PPT：[[科研/PPT/ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报|打开 PPT 入口]]
 - 关键词：photocatalysis；magnetically separable；ZnFe2O4/NCDs/Ag2CO3；all-solid-state Z-scheme；Vis-NIR light response
 
 ## 2. 一句话总结

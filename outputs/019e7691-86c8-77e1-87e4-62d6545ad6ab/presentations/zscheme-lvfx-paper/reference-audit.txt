@@ -1,7 +1,0 @@
-No external reference deck supplied.
-Visual direction:
-- scientific editorial deck
-- dark ink cover and section framing
-- warm paper evidence slides
-- original paper figures as primary proof objects
-- coral for claims, teal for mechanisms, yellow for caution
