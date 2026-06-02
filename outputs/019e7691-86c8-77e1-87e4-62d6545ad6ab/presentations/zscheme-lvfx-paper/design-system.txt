@@ -1,0 +1,30 @@
+slide size: 1280x720
+backgrounds:
+- cover and mechanism slide: deep ink #14222B
+- evidence slides: warm paper #F5F1E8
+type:
+- title/body: PingFang SC
+- scientific labels: Arial
+palette:
+- ink #14222B
+- paper #F5F1E8
+- coral #E55D42
+- teal #2A9D8F
+- yellow #E9B949
+- muted #69767B
+chart grammar:
+- original paper figures retain scientific content
+- authored bars use direct labels and no legends
+diagram grammar:
+- flat rectangles, thin rules, no decorative containers
+- reading direction is left to right
+footer grammar:
+- DOI on lower left, page marker on lower right
+title grammar:
+- small uppercase role kicker
+- claim title above proof object
+banned motifs:
+- rounded-card dashboard grids
+- decorative gradients
+- pseudo-lab logos
+- unverified scientific claims

@@ -1,0 +1,14 @@
+{
+  "visible_degradation_percent": {
+    "ZnFe2O4": 11.82,
+    "Ag2CO3": 66.52,
+    "ZnFe2O4/NCDs/Ag2CO3": 88.75
+  },
+  "visible_k_min_minus_1": 0.02081,
+  "nir_degradation_percent": 22.53,
+  "nir_k_min_minus_1": 0.000561,
+  "toc_removal_percent": 44.75,
+  "cycle_4_degradation_percent": 82.56,
+  "magnetization_emu_g": 5.72,
+  "optimal_dosage_g_l": 0.60
+}

@@ -1,0 +1,20 @@
+thesis:
+The paper improves photocatalysis by organizing three material roles around a practical contradiction: stronger charge separation without sacrificing redox power, plus magnetic recovery.
+
+audience:
+research group meeting
+
+one-line arc:
+problem -> material division of labor -> synthesis -> proof of performance -> proof of mechanism -> application boundary -> lessons for our experiments
+
+slides:
+01 A three-component design turns activity, light harvesting and recovery into one system.
+02 The paper solves four practical contradictions through material division of labor.
+03 This is a surface-decorated heterojunction, not a strict continuous core-shell particle.
+04 A mild deposition-precipitation step assembles the ternary catalyst after preparing NCDs and ZnFe2O4.
+05 Under visible light, the ternary sample reaches 88.75% LVFX degradation in 90 minutes.
+06 The response range broadens to NIR, but the performance boundary remains visible.
+07 Charge-separation evidence, not surface area, explains the activity gain.
+08 The Z-scheme retains the strongest redox sites and generates three active species.
+09 Magnetic recovery is promising, while four limitations still matter for practical claims.
+10 The reusable lesson is an evidence chain for designing our next degradation experiment.
