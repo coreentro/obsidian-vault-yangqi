@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/X 上的 彭根辉：“这个AGENTS.md比那个AI大神的48行md还要厉害请你在回答前，先问我问题。要求：一次只问一个问题。根据我的回答，继续追问。直到你有95%的信心理解我的真实需求和目标，然后才给出方案”.md",
+                "file": "AI使用技巧/主页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "X 上的 彭根辉：“这个AGENTS.md比那个AI大神的48行md还要厉害请你在回答前，先问我问题。要求：一次只问一个问题。根据我的回答，继续追问。直到你有95%的信心理解我的真实需求和目标，然后才给出方案”"
+              "title": "主页"
             }
           }
         ]
@@ -187,7 +187,11 @@
   },
   "active": "1264dea725547ba5",
   "lastOpenFiles": [
-    "Clippings/X 上的 彭根辉：“这个AGENTS.md比那个AI大神的48行md还要厉害请你在回答前，先问我问题。要求：一次只问一个问题。根据我的回答，继续追问。直到你有95%的信心理解我的真实需求和目标，然后才给出方案”.md",
+    "AI使用技巧/X 上的 彭根辉：“这个AGENTS.md比那个AI大神的48行md还要厉害请你在回答前，先问我问题。要求：一次只问一个问题。根据我的回答，继续追问。直到你有95%的信心理解我的真实需求和目标，然后才给出方案”.md",
+    "AI使用技巧/主页.md",
+    "AI使用技巧.md",
+    "AI使用技巧",
+    "00-导航.md",
     "飞书+Linux.do+nodeseek+x.md",
     "科研/文献笔记/2020-Manríquez-MgO-CeO2-丙酮羟醛缩合.md",
     "本科生/降解实验步骤.md",
@@ -208,7 +212,6 @@
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-07.png",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/layout/final/slide-06.layout.json",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-06.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/layout/final/slide-05.layout.json",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-05.png",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-04.png",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-03.png",
@@ -225,13 +228,10 @@
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/agent-base/README.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/LICENSE.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/lucide/README.md",
-    "00-导航.md",
     "工具/飞书.md",
     "00-收件箱/待整理/未命名-旧.md",
     "00-收件箱/待整理/未命名.md",
     "00-收件箱/待整理/了.md",
-    "读书/查拉图斯特拉如是说.md",
-    "py.md",
-    "API.md"
+    "读书/查拉图斯特拉如是说.md"
   ]
 }
