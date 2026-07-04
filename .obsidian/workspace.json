@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/AI 用途自建 vps推荐.md",
+                "file": "Clippings/AI 用途自建 vps推荐 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI 用途自建 vps推荐"
+              "title": "AI 用途自建 vps推荐 3"
             }
           }
         ],
@@ -202,6 +202,9 @@
   },
   "active": "ef45039988991adf",
   "lastOpenFiles": [
+    "Clippings/AI 用途自建 vps推荐 2.md",
+    "Clippings/AI 用途自建 vps推荐 3.md",
+    "Clippings/AI 用途自建 vps推荐 1.md",
     "Clippings/AI 用途自建 vps推荐.md",
     "Clippings",
     "AI使用技巧/主页.md",
@@ -244,9 +247,6 @@
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/debug/README.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/agent-base/README.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/LICENSE.md",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/lucide/README.md",
-    "工具/飞书.md",
-    "00-收件箱/待整理/未命名-旧.md",
-    "00-收件箱/待整理/未命名.md"
+    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/lucide/README.md"
   ]
 }
