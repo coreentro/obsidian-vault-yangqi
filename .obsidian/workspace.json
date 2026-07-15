@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Any牌路由器使用清障！"
             }
+          },
+          {
+            "id": "0927e0ec2283c0c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,10 +214,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ef45039988991adf",
+  "active": "0927e0ec2283c0c0",
   "lastOpenFiles": [
-    "飞书+Linux.do+nodeseek+x.md",
     "Clippings/Any牌路由器使用清障！.md",
+    "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
+    "飞书+Linux.do+nodeseek+x.md",
     "NODESEEK.md",
     "Clippings/AI 用途自建 vps推荐 3.md",
     "Clippings/AI 用途自建 vps推荐 2.md",
@@ -211,7 +226,6 @@
     "Clippings/AI 用途自建 vps推荐.md",
     "Clippings",
     "AI使用技巧/主页.md",
-    "未命名.md",
     "AI使用技巧/X 上的 彭根辉：“这个AGENTS.md比那个AI大神的48行md还要厉害请你在回答前，先问我问题。要求：一次只问一个问题。根据我的回答，继续追问。直到你有95%的信心理解我的真实需求和目标，然后才给出方案”.md",
     "AI使用技巧.md",
     "AI使用技巧",
