@@ -1,7 +1,7 @@
  a的Base URL和实际可用模型名自己去这里找https://jianzhile.vip/
 a的apikey：sk-J5qK7gBW5sTF739Yw3MK8SHZ0td9cf6y02wEgKqk4SjbLQCQ
  b的Base URL和实际可用模型名自己去这里找https://api.denxio.top/
-a的apikey：sk-65b08c540cfd2671401c51d105da18c15dff8f0144fc497189aec59c82fa75ab
+b的apikey：sk-65b08c540cfd2671401c51d105da18c15dff8f0144fc497189aec59c82fa75ab
 c的apikey：sk-bNVKvFvrwwupGHUuQsWx1813ZfcxG5zc8srO20wmz8tmjrXX
  c的Base URL和实际可用模型名自己去这里找https://agentrouter.org/
 
