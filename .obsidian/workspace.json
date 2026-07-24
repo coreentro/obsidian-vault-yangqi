@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "接下来的要做的事.md",
+                "file": "Clippings/无穷的开始：世界进步的本源 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "接下来的要做的事"
+              "title": "无穷的开始：世界进步的本源 1"
             }
           }
         ],
@@ -244,10 +244,12 @@
   },
   "active": "0b40e83bafe90f14",
   "lastOpenFiles": [
+    "00-收件箱/华为云备忘录/华为云备忘录导出.md",
+    "Clippings/无穷的开始：世界进步的本源 1.md",
+    "接下来的要做的事.md",
     "NODESEEK.md",
     "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
     "Clippings/入门量化从哪里开始.md",
-    "接下来的要做的事.md",
     "Clippings/无穷的开始：世界进步的本源.md",
     "AI 工具.md",
     "Clippings/Any牌路由器使用清障！.md",
@@ -287,8 +289,6 @@
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/string-split-by/readme.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/skia-canvas/README.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/parenthesis/README.md",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/ms/readme.md",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/ms/license.md",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/https-proxy-agent/README.md"
+    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/ms/readme.md"
   ]
 }
