@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/What is something someone said to you years ago that completely changed your life, but they probably don't even remember saying it?           What is something someone said to you years ago that completely changed your life, but they probably do.md",
+                "file": "Clippings/有人一起打野吗 准备开源 - 开发调优.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is something someone said to you years ago that completely changed your life, but they probably don't even remember saying it?           What is something someone said to you years ago that completely changed your life, but they probably do"
+              "title": "有人一起打野吗 准备开源 - 开发调优"
             }
           }
         ],
@@ -244,8 +244,11 @@
   },
   "active": "0b40e83bafe90f14",
   "lastOpenFiles": [
-    "Clippings/无穷的开始：世界进步的本源 1.md",
+    "Clippings/嗯...想开个公益站！求推荐服务器 - 开发调优.md",
+    "Clippings/有人一起打野吗 准备开源 - 开发调优.md",
+    "Clippings/【虹桥API公益站】做公益站的想问一下号源.md",
     "Clippings/What is something someone said to you years ago that completely changed your life, but they probably don't even remember saying it?           What is something someone said to you years ago that completely changed your life, but they probably do.md",
+    "Clippings/无穷的开始：世界进步的本源 1.md",
     "我想学着用英语回答这个评论，但是我的英文很差，所以，我将会给你发一个很差的我自己写的英文回答，里面可能夹杂着中文，可能语法错误，可能表达的重复啰嗦不地道，希望你优化这个句子并且耐心的告诉我你是怎么优化的，接下来我怎么写更好.md",
     "我想学着用英语回答这个评论，但是我的英文很差，所以，我将会给你发一个很差的我自己写的英文回答，里面可能夹杂着中文，可能语法错误，可能表达的重复啰嗦不地道，希望你优化这个.md",
     "00-收件箱/华为云备忘录/华为云备忘录导出.md",
@@ -269,10 +272,8 @@
     "00-导航.md",
     "科研/文献笔记/2020-Manríquez-MgO-CeO2-丙酮羟醛缩合.md",
     "本科生/降解实验步骤.md",
-    "科研/文献笔记/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化.md",
     "科研/PPT/~$ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.pptx",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/qa/comeback-scorecard.txt",
-    "科研/PPT/ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.md",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/artifact-build-manifest.json",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/contact-sheet.png",
     "科研/PPT/ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.pptx",
@@ -288,7 +289,6 @@
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-05.png",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-04.png",
     "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-03.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-02.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/node_modules/@oai/artifact-tool/node_modules/string-split-by/readme.md"
+    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-02.png"
   ]
 }
