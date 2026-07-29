@@ -1,0 +1,437 @@
+---
+title: "Claude Skill &amp; 扣子 Skill &amp; Cherry Studio 以及 2026 年关于 AI 的一切"
+feishu_url: https://axsppz4oyvj.feishu.cn/wiki/N1wZwJqLoiAZFWksWiHcchGDnGg
+node_token: N1wZwJqLoiAZFWksWiHcchGDnGg
+obj_token: Tk79dQwZZo4qDIxUKnKcm68Xnhf
+obj_type: docx
+space_id: 7491877341887725572
+space_name: "Agent工程师之Coze实战课程"
+depth: 2
+breadcrumb:
+  - "【启程必看】从这里开始"
+  - "【加餐 3】有价值的直播和资料"
+  - "Claude Skill & 扣子 Skill & Cherry Studio 以及 2026 年关于 AI 的一切"
+obj_create_time: 
+obj_edit_time: 
+creator: 
+owner: 
+revision_id: 1813
+from_group_share: false
+migrated_from: 飞书云文档
+migrated_at: 2026-07-29
+tags:
+  - 飞书迁移
+  - 【启程必看】从这里开始
+---
+
+# Claude Skill &amp; 扣子 Skill &amp; Cherry Studio 以及 2026 年关于 AI 的一切
+
+> [!info] 位置
+> 【启程必看】从这里开始 › 【加餐 3】有价值的直播和资料
+
+<callout emoji="✨">
+务必观看下方视频
+</callout>
+
+<readonly-block href="https://axsppz4oyvj.feishu.cn/minutes/embed/obcnem4rhtbd35345r54r293?from=ccm" type="iframe"></readonly-block>
+
+**大家好，我是大圣**
+
+这场分享，本来想给大家做一个工具教程
+
+但写着写着，我发现它已经超出了工具的范畴，**这其实是我2026年对AI的核心认知**
+
+我非常确定，今天的分享，对大部分小伙伴来说，应该都会有价值
+
+---
+
+**每隔几个月，都会有新名词出来**
+
+每次出来，大家就焦虑一波：我是不是又落后了？我要不要学？
+
+今天我想告诉你：**这些东西名字虽然不一样，但本质从来没有变过。**
+
+大家可以看这张图
+
+> [!abstract]- 🖼 图片展示了“上下文 + Workflow，事情从来没有变过”的内容。20
+> 图片展示了“上下文 + Workflow，事情从来没有变过”的内容。2024年有Coze、Dify、Manus、Claude Skills等，核心是“本质不变：上下文 + Workflow”。下方有“输入（Input）”“处理（Process）”“输出（Output）”三个环节，分别对应素材、AI按流程执行、高质量产出。还分为“动作1：构建上下文”“动作2：打磨Workflow”，分别是疯狂写作沉淀素材、固化重复事成稳定流程。此图与上下文提到的2024 - 2026年AI概念变化无关，强调本质不变。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/ZXHlb0vfgoqLkDxHcqScZJ6onAc) · `ZXHlb0vfgoqLkDxHcqScZJ6onAc`
+
+2024年的Coze，2025年的Dify、n8n，各种Agent，再到2026年的Claude Skills、Coze Skills
+
+**我会告诉你，这些东西的本质，就两件事：**
+
+1. **上下文**
+2. **Workflow**
+
+**所有的新概念，都是这两件事的不同载体，**载体会变，工具会变，平台也会变。
+
+但上下文 + Workflow这个框架，短期内不会变
+
+**我希望通过今天的分享，能让大家少一些焦虑，看清楚本质**
+
+---
+
+所以今天这场分享，**我不讲操作细节，我讲逻辑**
+
+细节我有文档，会告诉大家去哪里找。但逻辑这个东西，你不建立起来，看再多教程也是懵的
+
+**今天我们聊这么几件事：**
+
+1. **Cherry Studio** ： 一个工具，帮你用上好用的模型，用上Claude Skills
+2. **Skill到底是什么** ：从Claude Skills、Coze Skills这些概念里，拆解它的本质
+3. 如何调用 Skill：通过 Claude Code、Cherry Studio和 Coze调用 Skill演示
+4. **上下文 + Workflow：**2026年，所有AI概念的底层框架
+5. **2026 年小白怎么学AI：**什么要学，什么不用学
+
+# 第一：Cherry Studio 这个工具
+
+Cherry Studio是一个客户端，本质是一个套壳软件，可以接入任何大模型的 API
+
+他能解决什么问题？为什么我要推荐这个工具
+
+一句话：**他能让你在不用解决网络、付费等问题的情况下，使用上好用的模型，而且是按需付费**
+
+而且有了他，你已经只要负责找到便宜、稳定、保真的 API中转站即可，而这些
+
+> [!abstract]- 🖼 图片展示了API中转站的原理。左侧是用户，中间是开源套壳，其连接着Gem
+> 图片展示了API中转站的原理。左侧是用户，中间是开源套壳，其连接着Gemini、GPT、DeepSeek、Claude等API，这些API再连接到API中转站。右侧是Google、OpenAI、深度求索、Anthropic等公司，它们也连接到API中转站。该图与上下文紧密相关，上下文提到有了Cherry Studio，用户只需负责找到便宜、稳定、保真的API中转站，此图直观呈现了API中转站的工作原理，帮助理解其在AI模型使用中的角色。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/AwewbLUxpompVwxAY3lc1j2Un7f) · `AwewbLUxpompVwxAY3lc1j2Un7f`
+
+原理我就不讲了，太多了，所以我专门写了一篇1.3 万字的文档来讲这个事情
+
+<cite doc-id="RdXtwwOEYiGLjWklL1tcIGtMnSf" file-type="wiki" title="国内如何使用海外大模型" type="doc"></cite>
+
+**这个文档已经被纯小白完全验证过，可以从 0-1 跑通整个流程，所以咱们就不在这里浪费时间了**
+
+最后强调一下，这个工具，强烈推荐，2026 年这会是我的主力工具之一
+
+我直接演示操作细节
+
+> [!abstract]- 🖼 图片展示的是Cherry Studio平台的界面。左侧为导航栏，有首页、
+> 图片展示的是Cherry Studio平台的界面。左侧为导航栏，有首页、助手、话题等选项，当前选中“助手”。下方有“直播演示使用助手”“朋友圈灵魂写手”“大圣的核心写作风格”“默认助手”等助手选项。右侧是聊天界面，显示“你好，我是默认助手，你可以立刻开始跟我聊天”。该图片与文档中介绍Cherry Studio工具的内容相关，直观呈现了平台助手功能的操作界面。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/OpjiblOT7oOsL2xkub1chsN3nic) · `OpjiblOT7oOsL2xkub1chsN3nic`
+
+# 第二：Skill 到底是什么？
+
+<callout emoji="✨">
+中文官方文档：https://code.claude.com/docs/zh-CN/skills
+</callout>
+
+## 2.1 我做过一个类似Skill的东西
+
+<cite doc-id="SC2MwTeLzi8D2CkrkbCcR90jnZg" file-type="wiki" title="《大圣的选题工作流总纲》" type="doc"></cite>
+
+<cite doc-id="O1xFwYaeZiuHVPkiHt9cGEjQnxh" file-type="wiki" title="《大圣的选题宪法》" type="doc"></cite>
+
+这个案例里面就蕴含着 Skill的设计理念
+
+## 2.2 一个简单的 Skill应该包含的几个内容
+
+细节去看这篇文章：<cite doc-id="QTPbwA5sHiWyP0kRmJ7cuuMhngg" file-type="wiki" title="什么是Skills技能?把它一层一层剥开看看长啥样" type="doc"></cite>
+
+> [!abstract]- 🖼 图片展示了“一个SKILL应该拆成四个部分”的内容，上方文字为标题。下方
+> 图片展示了“一个SKILL应该拆成四个部分”的内容，上方文字为标题。下方有四个文件夹图标，分别标注“SKILL.md”“reference”“examples”“scripts”，其中“SKILL.md”文件夹被红色圈出并打勾。该图片与上文提到的“一个简单的Skill应该包含的几个内容”相关，直观呈现了Skill设计中应包含的四个部分，即说明文件、参考文档、示例和脚本，强调了说明文件的重要性。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/RDcdbCadFonHUaxmCu2cv0V9nxh) · `RDcdbCadFonHUaxmCu2cv0V9nxh`
+
+> [!abstract]- 🖼 图片展示了AI技能项目结构解析图。项目根目录下有入口文件SKILL.md
+> 图片展示了AI技能项目结构解析图。项目根目录下有入口文件SKILL.md、参考文档reference.md、示例文件examples.md及scripts目录，其中scripts目录下有可执行脚本。AI Agent按需读取参考文档、示例文件及格式示范，AI输出参考结果，运行结果由可执行脚本提供。该图与上下文紧密相关，直观呈现了AI技能项目中各部分的结构及相互关系，帮助理解项目设计逻辑。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/N1BubF9fwoRpcxxVLOScRSV5ntb) · `N1BubF9fwoRpcxxVLOScRSV5ntb`
+
+> [!abstract]- 🖼 图片以脑部为设计元素，突出“SKILL.md是唯一必需的文件，也是整个技
+> 图片以脑部为设计元素，突出“SKILL.md是唯一必需的文件，也是整个技能的大脑”这一核心信息。脑部内标注“元数据”“指令”，并有红色箭头指向，强调其重要性。该图与上下文紧密相关，上下文在介绍Skill设计时提到SKILL.md是唯一必需文件，是技能的大脑，此图直观呈现了这一概念，帮助理解Skill设计中文件与技能核心的关系。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/THtVb1UbooTna2xx1m6cIaKaniF) · `THtVb1UbooTna2xx1m6cIaKaniF`
+
+> [!abstract]- 🖼 图片展示了Skill设计中文件关系的示意图。AI不会自动发现refere
+> 图片展示了Skill设计中文件关系的示意图。AI不会自动发现reference.md、script.py、examples.js等文件，需在SKILL.md中说明。其中，reference.md、examples.js被红色箭头指向，script.py被红色叉号标识，ignored.txt被红色圆圈和叉号标识。该图与上下文紧密相关，直观呈现了Skill设计中文件说明的必要性，解释了为何AI需在SKILL.md中说明这些文件，以确保Skill的正常运行。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/PYRMbX2p4ovAxmxCjDRcCe1lndQ) · `PYRMbX2p4ovAxmxCjDRcCe1lndQ`
+
+为什么要这么设计？为什么不在一个提示词中把所有流程加载出来？
+
+<callout emoji="✨">
+**渐进式披露 (Progressive Disclosure)：** 
+这是 Claude Skills 的一大特点。AI 不会一开始就加载所有技能，只有在确定需要时才读取相关指令，从而节省上下文空间并降低成本
+</callout>
+
+<callout emoji="✨">
+**Claude Skills，本质上是一套规范，一套描述语言**
+什么规范？它定义了一套目录结构、一套文档格式。你按照这个结构去写，AI就能读懂
+**读懂什么？读懂你的Workflow，读懂你的工作流程**
+**这就是你给 AI大模型写的操作手册**
+所以大家听到Claude Skills，不要以为这是Claude专属的东西。不是的
+它是Anthropic这家公司发明的一个约定、一个规范：但它已经要成为**行业标准**了
+现在很多工具都在适配这套规范：
+- Claude Code（Anthropic官方的）
+- Cherry Studio（我们今天讲的）
+- 还有Coze的Skills，底层逻辑也是一样的
+**大家都在往这个规范上靠。**所以你学会了这套思路，换个工具，换个平台，逻辑是通的
+</callout>
+
+## 2.3 Skill的目录存放规范
+
+**Skill的存放位置，也是有规范的**
+
+为什么要有规范？因为你的工具：不管是Claude Code还是Cherry Studio
+
+需要能**找到**这个Skill。你随便放，它找不到，就用不了
+
+Skill的存放分两种：
+
+> [!abstract]- 🖼 图片展示了Claude技能存放路径的相关内容。确保技能存放在当前项目根目
+> 图片展示了Claude技能存放路径的相关内容。确保技能存放在当前项目根目录的`.claude/skills/`文件夹下（项目级，当前项目有效）或用户根目录的`~/.claude/skills/`下（全局级，所有项目有效）。每个技能必须包含一个`SKILL.md`文件，其中定义的`name`和`description`是Claude决定何时唤起该技能的核心依据。该图片与上文介绍Skill存放规范的内容紧密相关，是对技能存放位置及文件要求的详细说明。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/SARIb31RWoOlY4xtHhlcV8Pvnmd) · `SARIb31RWoOlY4xtHhlcV8Pvnmd`
+
+**我个人更关注项目级的**，因为不同项目的工作流往往不一样。
+
+> [!abstract]- 🖼 图片展示了Skill存放位置规范（项目级）。左侧“你的项目文件/”指向“
+> 图片展示了Skill存放位置规范（项目级）。左侧“你的项目文件/”指向“my - project/（你的项目）”，再指向“.claude/（隐藏文件夹）”，其中“.claude/”内有“skills/（固定目录）”，该目录下有“写公众号/”“做PPT/”“竞品分析/”三个分支。该图与文档中介绍Skill存放规范的内容相关，直观呈现了Skill在项目文件中的存放位置及结构，帮助理解Skill的目录存放规范。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/Xmvdbif4ho0gEoxo1L9cIXLenXu) · `Xmvdbif4ho0gEoxo1L9cIXLenXu`
+
+```Plain Text
+┌─────────────────────────────────────┐
+│  my-project/                        │  ← 你的项目（自定义）
+│  │                                  │
+│  ├── 你的项目文件/                   │  ← 你自己的项目文件
+│  │                                  │
+│  └── .claude/                       │  ← 固定，前面有个点（隐藏文件）
+│      │                              │
+│      └── skills/                    │  ← 固定目录
+│          │                          │
+│          ├── 写公众号/               │  ← Skill 1
+│          │                          │
+│          ├── 做PPT/                 │  ← Skill 2
+│          │                          │
+│          └── 竞品分析/               │  ← Skill 3
+└─────────────────────────────────────┘
+
+```
+
+*`.claude/`* 和你的项目文件是平级的，它就是你项目里的一个"隐藏文件夹"，专门用来放Skill。
+
+## 2.4 演示两个Skills
+
+**接下来，我给大家实际看两个Skill**
+
+我建了一个文件夹叫 **SkillDemo**，这就是我们这次演示的项目
+
+按照刚才讲的规范，我在里面建了 `.claude/skills/` 目录，放了两个Skill：
+
+```Plain Text
+┌─────────────────────────────────────┐
+│  SkillDemo/                        │  ← 演示项目
+│  │                                  │
+│  └── .claude/                       │
+│      │                              │
+│      └── skills/                    │
+│          │                          │
+│          ├── article-review/        │  ← Skill 1：最简结构
+│          │                          │
+│          └── pdf/                   │  ← Skill 2：官方示例
+└─────────────────────────────────────┘
+```
+
+**Skill 1：article-review（最简结构）**
+
+这个Skill里面就一个文件：`SKILL.md`
+
+**这就是最简单的Skill。** 一个markdown文件，写清楚你的workflow就完事了
+
+**Skill 2：pdf（官方示例）**
+
+这是Anthropic官方提供的一个Skill，结构会更完整一些。
+
+我带大家看一下里面有什么
+
+# 第三：用Claude Code、Cherry Studio和扣子调用 Skill
+
+**前面讲过，Claude Skills是一套规范。**它是Anthropic这家公司发明的
+
+但**它不专属于Claude Code 这个工具**
+
+千万不要以为只有Claude官方的工具可以使用，既然是规范，那任何工具都可以去适配它、调用它
+
+**现在适配这套规范的工具已经有很多了：**
+
+> [!abstract]- 🖼 图片展示了三种工具及其说明。Claude Code是Anthropic官
+> 图片展示了三种工具及其说明。Claude Code是Anthropic官方的命令行工具；Cherry Studio是我们今天讲的开源客户端；Coze是字节的Coze最新上线的技能商店，底层也是这套规范。该图片位于介绍用Claude Code、Cherry Studio和扣子调用Skill的上下文部分，用于说明目前适配这套规范的工具情况，强调学会这套规范后，不管以后用什么工具，逻辑都是通的。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/PikobIsZpotP1gxquYWcOvpsnfb) · `PikobIsZpotP1gxquYWcOvpsnfb`
+
+**大家都在往这个标准上靠，**所以你今天学会了这套规范，不管以后用什么工具，逻辑都是通的
+
+## 3.1 使用Claude Code调用
+
+<callout emoji="✨">
+**先解释一下：Claude Code是什么？**
+**Claude Code就是一个客户端**
+跟你电脑上装的Cherry Studio、跟你装的微信、跟你装的任何软件，本质没区别
+只不过，它用了一种比较"复古"的交互方式：**命令行**
+-----------
+一听到命令行，很多人就懵了。
+为什么懵？因为它**没有UI，没有操作界面**
+没有界面意味着什么？**没有地方让你用鼠标点。**
+但你换个角度想：
+> ***在有界面的软件里，你用鼠标点按钮。在命令行里，你用键盘敲命令***
+-----------
+如果你一听到命令行就怕了，那你确实学不会
+但其实没那么难
+**我现在给大家演示一下，你就知道，原来也就这么回事**
+</callout>
+
+## 3.2 使用 Cherry Studio调用
+
+看视频演示
+
+## 3.3 使用扣子调用Skill
+
+看视频演示
+
+# 第四：Claude Skill怎么生成的？
+
+第一种方式：手搓
+
+第二种方式：利用 Claude官方提供的一个skill进行创建，这个 skill叫做 skill-creator
+
+https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
+
+> [!abstract]- 🖼 图片展示的是GitHub仓库中关于Claude Skill的skill-
+> 图片展示的是GitHub仓库中关于Claude Skill的skill-creator文件内容。左侧是仓库目录，右侧是文件内容。文件介绍了Skill Creator技能，用于创建有效技能，可扩展Claude能力，提供专业工作流、工具集成、领域专业知识等。还列出了技能提供的4大类内容，如多步骤特定领域工作流、特定格式或API的工具集成等。该图片与文档中介绍Claude Skill生成方式的内容相关，直观呈现了技能创建的官方文档。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/Geftbx9zyotCyHxyLy4c5OAznAg) · `Geftbx9zyotCyHxyLy4c5OAznAg`
+
+# 第五：让我们回归本质
+
+## 5.1 上下文 + Workflow，事情从来没有变过
+
+> [!abstract]- 🖼 图片展示了“上下文 + Workflow，事情从来没有变过”的内容。20
+> 图片展示了“上下文 + Workflow，事情从来没有变过”的内容。2024年有Coze、Dify、Manus、Claude Skills等，本质不变的是上下文 + Workflow。核心公式为输入（Input）素材、语料，处理（Process）AI按流程执行，输出（Output）高质量产出。动作1是构建上下文，需疯狂写作、沉淀素材；动作2是打磨Workflow，要固化重复事成稳定流程。该图与上下文提到的Workflow本质没变，以及上下文重要性等内容相呼应，直观呈现了相关概念。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/CwCRbFPCqoNRB6xWdYhcjmjknjl) · `CwCRbFPCqoNRB6xWdYhcjmjknjl`
+
+**讲了这么多细节，我们收回来。**
+
+今天给大家讲了Skill是什么、Claude Code是什么、Cherry Studio怎么用
+
+我相信大家已经有概念了
+
+**但问题来了：如果2026年又出现新名词呢？每次都要这么讲一遍吗？肯定不需要**
+
+**我认为本质就两件事情：上下文 + Workflow**
+
+<callout emoji="✨">
+**Workflow这个东西，从来没变过**
+- 2024年是Coze工作流
+- 后来是Dify工作流
+- 再后来 Manus出现，大模型自主规划
+- 现在是Claude Skills
+名字换了一茬又一茬，工具一个又一个的出现，但本质都是同一件事：**你把做事的流程固化下来，让AI按流程执行**
+</callout>
+
+<callout emoji="✨">
+**上下文这个东西，也从来没变过**
+就算没人提出上下文工程这个词，它本来就无比重要
+你今天用AI，不管是写文章、处理文件、做分析：AI产出的质量，取决于你喂给它的东西
+> ***你想让AI更懂你，你就得给它优质的语料。***  *
+> ****你想让AI产出的内容更像你，你就得给它你的素材***
+**跟产品经理给程序员写需求文档一样**
+文档写得越清楚，程序员做得越快、质量越高。就这么简单的逻辑
+</callout>
+
+---
+
+**用一个公式记住他**
+
+```Plain Text
+输入 → 处理 → 输出
+```
+
+> [!abstract]- 🖼 图片是一个表格，呈现了AI运行的三个环节及其对应概念与通俗解释。其中，输
+> 图片是一个表格，呈现了AI运行的三个环节及其对应概念与通俗解释。其中，输入环节对应概念为上下文，即给AI的背景信息、语料、素材；处理环节对应Workflow，指让AI按什么流程去做；输出环节对应结果，也就是想要的答案。该图片是对上文 “用一个公式记住它” 的具体解释，直观展现 “上下文+Workflow” 框架应用于AI时的逻辑，与文本中强调构建上下文、打磨Workflow的内容相呼应，帮助理解AI运行的本质逻辑。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/MRX3bZIUho2OAMxdADyce4rwnCe) · `MRX3bZIUho2OAMxdADyce4rwnCe`
+
+**任何事情都是这三步，AI也不例外**
+
+---
+
+所以 2026 年，你到底要做什么？
+
+<callout emoji="✨">
+**不要追名词，要抓本质**
+- 名词会变，Workflow的载体会变
+- 但**上下文+Workflow**这个框架不会变
+你就做两件事情：
+1. **构建你的上下文：**疯狂的写作和输出，沉淀你的素材
+2. **打磨你的 Workflow**：把重复做的事情，固化成稳定的流程
+</callout>
+
+**工具会换，平台会换，但这两件事做好了，你永远不会落后**
+
+## 5.2 一键自动化是人们对AI最朴素的情感期待
+
+为什么大家对智能体、工作流这类概念这么的上心，因为他们都命中的一个关键词
+
+**一键自动化，解放双手**
+
+这是人们对于 AI最朴素的情感，你既然叫做人工智能，你就得智能，什么是智能体？就是自动化呗
+
+但是我必须澄清我的一个观点
+
+<callout emoji="✨">
+- 业务跑通闭环是自动化的前提，没有业务的验证，自动化产出的都是垃圾
+- 别人的自动化工作流，不一定适用你的业务。就好比你找到了一个自动化写公众号文章的工作流，他是走的爆文矩阵那一套，你是做 IP，产出来的文章一定不符合你的要求
+</callout>
+
+不要再被自动化这件事情迷了双眼了
+
+你真正要考虑的是，自动化产出来的内容到底有没有价值
+
+## 5.3 没有工作流能不能活？
+
+当然能活，我现在就没有沉淀任何自动化的工作流
+
+如果你已经有了自己的 SOP，那么就算你没有沉淀成工作流实现真正的自动化，**你的效率也不会低**
+
+因为你的动作基本就是复制、粘贴、运行，然后到下一个节点
+
+你代替了大模型来执行 Workflow
+
+我们应该花费 90% 的时间用来打磨业务流，包括但不限于：
+
+- 各个环节的提示词怎么写？
+- 每个环节的产出是否有评判好坏的标准？
+- 是否已经找到合适的外接数据源？
+- 是否已经积攒了足够优质的上下文语料？
+
+当你手动已经跑得非常顺的时候，就可以花额外 10% 的时间打造工作流了
+
+**一个我看到的现象：现在到处找 Claude Skills的人，就是当年到处收藏 Prompt模板的人**
+
+# 第六：2026年，小白怎么学 AI
+
+> [!abstract]- 🖼 图片展示了AI学习与应用的流程图。从AI底层逻辑出发，依次经过AI工具（
+> 图片展示了AI学习与应用的流程图。从AI底层逻辑出发，依次经过AI工具（AI对话工具、AI搜索等）、AI智能体（Lovart、扣子、Dify等）、AI编程（Trae、Claude Code、Cursor等）和大模型应用开发（微调、RAG开发等），最后回到大模型的能力边界提示词学习。该图与文档中关于2026年小白学AI的内容相关，直观呈现了AI学习应用的进阶路径。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/ZBeQbenYFoZFFQx7bVzcQVXvnAg) · `ZBeQbenYFoZFFQx7bVzcQVXvnAg`
+
+> [!abstract]- 🖼 图片展示的是关于AI学习课程的目录。分为【正课阶段1】和【正课阶段2】两
+> 图片展示的是关于AI学习课程的目录。分为【正课阶段1】和【正课阶段2】两部分。【正课阶段1】包含AI通识与底层逻辑，有7章内容，如DeepSeek入门基础、AIGC与大模型通识等；【正课阶段2】为AI大模型与工具，有3章，包括选对工具、国内国外工具等。图片与上下文紧密相关，直观呈现了课程结构，帮助小白了解学习AI的课程安排。
+> 
+> 原图未迁移 · [飞书原图](https://feishu.cn/file/PIDZbmGLgoKbcGxr3apcIPGUnSh) · `PIDZbmGLgoKbcGxr3apcIPGUnSh`
+
+---
+
+我是大圣，一人公司创业者，专注于 AI Agent学习和应用
+
+每天 3 条朋友圈，发我关于 AI学习、创业成长、生活感悟以及所有的一切
+
+如果你想与我交流 AI，欢迎添加我微信：**nmbbAI666**

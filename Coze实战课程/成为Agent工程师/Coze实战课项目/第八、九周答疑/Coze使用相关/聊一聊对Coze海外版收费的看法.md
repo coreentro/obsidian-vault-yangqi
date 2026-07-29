@@ -1,0 +1,36 @@
+---
+title: "聊一聊对Coze海外版收费的看法"
+feishu_url: https://axsppz4oyvj.feishu.cn/wiki/GXS4wqR5Ii944WkzYeJcvpGjnZe
+node_token: GXS4wqR5Ii944WkzYeJcvpGjnZe
+obj_token: AWn7dqi5Do5zblxIR6yciztTnmf
+obj_type: docx
+space_id: 7375763230725046276
+space_name: "成为Agent工程师"
+depth: 4
+breadcrumb:
+  - "成为Agent工程师"
+  - "Coze实战课项目"
+  - "第八、九周答疑"
+  - "Coze使用相关"
+  - "聊一聊对Coze海外版收费的看法"
+obj_create_time: 1720019803
+obj_edit_time: 1720023078
+creator: ou_4f9742f370819a3c899baacbc140aed2
+owner: ou_4f9742f370819a3c899baacbc140aed2
+revision_id: 785
+from_group_share: true
+migrated_from: 飞书云文档
+migrated_at: 2026-07-29
+tags:
+  - 飞书迁移
+  - 成为Agent工程师
+---
+
+# 聊一聊对Coze海外版收费的看法
+
+> [!info] 位置
+> 成为Agent工程师 › Coze实战课项目 › 第八、九周答疑 › Coze使用相关
+
+# 聊一聊对Coze海外版收费的看法
+
+<readonly-block href="https://axsppz4oyvj.feishu.cn/minutes/embed/obcna8k965o482igu5y6j181?from=ccm" type="iframe"></readonly-block>
