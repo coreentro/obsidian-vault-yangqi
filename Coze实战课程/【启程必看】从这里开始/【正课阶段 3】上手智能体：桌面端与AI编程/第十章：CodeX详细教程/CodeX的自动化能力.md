@@ -44,7 +44,8 @@ tags:
 
 # 一、拆解AI产品的第一刀：智能化 VS 工程化
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="Gq6bbLBeCopzo6xGyhZcfFyIngg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Gq6bbLBeCopzo6xGyhZcfFyIngg) · `Gq6bbLBeCopzo6xGyhZcfFyIngg`
 
 <callout emoji="✨">
 为了给大家讲明白 OpenClaw跟CodeX的区别，我给大家分享一个我自己拆解 AI 产品的底层框架
@@ -165,7 +166,8 @@ OpenClaw是开源的，任何人都可以看它的代码
 
 # 二、什么是定时任务
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="KCm6bjxtYolYo7xerX0c7VTwn3d"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/KCm6bjxtYolYo7xerX0c7VTwn3d) · `KCm6bjxtYolYo7xerX0c7VTwn3d`
 
 ## 2.1 定时任务的两个参数
 
@@ -236,7 +238,7 @@ OpenClaw是开源的，任何人都可以看它的代码
 
 这个咱们直接看视频
 
-需要下载一个规范：<cite doc-id="CZmmw8Iuaiu2eVk95EYctN6Hn7f" file-type="wiki" title="附录：学习案例下载专用文档" type="doc"></cite>
+需要下载一个规范：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/附录：学习案例下载专用文档|附录：学习案例下载专用文档]]
 
 > [!abstract]- 🖼 图片展示了大圣的CodeX定时任务规范内容。创建于2026 - 05 -
 > 图片展示了大圣的CodeX定时任务规范内容。创建于2026 - 05 - 08，更新于2026 - 06 - 11，用途为定时任务调度层说明。12定时任务是内容OS的调度层，不存知识、不存创作素材、不存选题，也不存任务执行产物，只保存系统里有哪些定时任务、每个任务什么时候应该跑、怎么跑、每个任务自己的运行状态和自动化绑定等内容。该图片与文档中介绍CodeX自动化任务的内容相关，是对定时任务这一自动化任务层次的说明。

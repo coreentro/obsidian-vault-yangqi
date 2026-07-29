@@ -70,11 +70,11 @@ B站视频：**这个视频是管理我是如何管理我的知识的。分享�
 
 视频中提到的对应文档地址：
 
-<blockquote><p><cite doc-id="Dam4wzw9iij9GYkgPlhc0mrfns2" file-type="wiki" title="01｜Arc浏览器，效率提升利器" type="doc"></cite></p></blockquote>
+<blockquote><p>[[付费星球：知识管理体系专栏/01｜Arc浏览器，效率提升利器|01｜Arc浏览器，效率提升利器]]</p></blockquote>
 
-<blockquote><p><cite doc-id="Tq5bw5HTeiqyeFkjs4YcCm8gnGh" file-type="wiki" title="03｜利用飞书搭建自己的知识库" type="doc"></cite></p></blockquote>
+<blockquote><p>[03｜利用飞书搭建自己的知识库](https://axsppz4oyvj.feishu.cn/wiki/Tq5bw5HTeiqyeFkjs4YcCm8gnGh)</p></blockquote>
 
-<blockquote><p><cite doc-id="PQn5wJ6GMigwH1koj4jcnt4xn8q" file-type="wiki" title="04｜PARA方法论，打造持续升级的知识管理体系" type="doc"></cite></p></blockquote>
+<blockquote><p>[04｜PARA方法论，打造持续升级的知识管理体系](https://axsppz4oyvj.feishu.cn/wiki/PQn5wJ6GMigwH1koj4jcnt4xn8q)</p></blockquote>
 
 可以这么说，正是有了这套知识管理体系，才有了我的AI学习路径这一系列的文档
 
@@ -82,7 +82,7 @@ B站视频：**这个视频是管理我是如何管理我的知识的。分享�
 
 如果你是纯新手，连AIGC都不知道是什么的话，这个阶段不要跳过。
 
-你需要首先阅读文章：<cite doc-id="Sft3wHhfQiFC21kkEMrcNaoMnqc" file-type="wiki" title="01｜对于普通人来讲，AI到底是什么" type="doc"></cite>
+你需要首先阅读文章：[01｜对于普通人来讲，AI到底是什么](https://axsppz4oyvj.feishu.cn/wiki/Sft3wHhfQiFC21kkEMrcNaoMnqc)
 
 这篇文章会先给你讲明白
 
@@ -92,7 +92,7 @@ B站视频：**这个视频是管理我是如何管理我的知识的。分享�
 
 在了解了AIGC到底是什么之后，我们暂时不需要去深挖，我们要做的就是需要首先的用起来了。
 
-这时候你需要阅读这篇文章：<cite doc-id="MDFdw6HAwi1Z8PkUbZccwEybnQc" file-type="wiki" title="02｜国人必会的AI对话软件：Kimi Chat" type="doc"></cite>
+这时候你需要阅读这篇文章：[02｜国人必会的AI对话软件：Kimi Chat](https://axsppz4oyvj.feishu.cn/wiki/MDFdw6HAwi1Z8PkUbZccwEybnQc)
 
 这篇文章会给你介绍一款工具：Kimi Chat，然后直接动手实践，而不是沉浸于各种理论
 
@@ -113,7 +113,7 @@ B站视频：**这个视频是管理我是如何管理我的知识的。分享�
 
 关于提示词，我系统化的学习了1个月左右，时至今日，我依然在不断的跟提示词打交道
 
-这时候你可以阅读我的这篇文章：<cite doc-id="XzydwOPPLi7qwSkqoxlcUPygnAe" file-type="wiki" title="03｜调教AI的利器，提示词工程" type="doc"></cite>
+这时候你可以阅读我的这篇文章：[03｜调教AI的利器，提示词工程](https://axsppz4oyvj.feishu.cn/wiki/XzydwOPPLi7qwSkqoxlcUPygnAe)
 
 这篇文章可以带给你
 
@@ -144,11 +144,11 @@ B站视频：**这个视频是管理我是如何管理我的知识的。分享�
 
 首先我建议你阅读下面这篇文章，了解你所使用的AI软件的本质是什么
 
-<cite doc-id="ZtzSwMKDjiXphhkWkAxcpQ7mnAW" file-type="wiki" title="04｜五花八门的AI软件本质是什么" type="doc"></cite>
+[04｜五花八门的AI软件本质是什么](https://axsppz4oyvj.feishu.cn/wiki/ZtzSwMKDjiXphhkWkAxcpQ7mnAW)
 
 当你对大模型有了一个概念之后，你需要去详细了解下其工作原理了（非技术，放心阅读）：
 
-<cite doc-id="C6GFwC4JiiBQGqkKYwWcqrQwnOd" file-type="wiki" title="05｜大模型如何工作" type="doc"></cite>
+[05｜大模型如何工作](https://axsppz4oyvj.feishu.cn/wiki/C6GFwC4JiiBQGqkKYwWcqrQwnOd)
 
 阅读这篇文档你会收获
 
@@ -169,7 +169,7 @@ AI Agent可能对你来说还是有些晦涩难懂，这里我翻译一下：**A
 
 学完Coze之后，基本上也就理解了AI Agent的基本概念
 
-这里我推荐你去看我的这篇文章：<cite doc-id="EOV4wWwSHic4FtkjHNGcuDVDnoh" file-type="wiki" title="学Coze，看这一篇就够了！持续更新" type="doc"></cite>
+这里我推荐你去看我的这篇文章：[学Coze，看这一篇就够了！持续更新](https://axsppz4oyvj.feishu.cn/wiki/EOV4wWwSHic4FtkjHNGcuDVDnoh)
 
 在学习Coze的阶段，我建议你给自己一些时间，给自己一些耐心。不要急功近利，这一段学习过程我建议你持续聚焦一个月
 
@@ -197,11 +197,11 @@ AI Agent可能对你来说还是有些晦涩难懂，这里我翻译一下：**A
 
 从我的学习角度，你需要对以下概念有一些认知和了解
 
-- 数据库的概念：<cite doc-id="YYDDwqam0iodiCk2Ck9c2tAynnf" file-type="wiki" title="Coze数据库通俗易懂版" type="doc"></cite>
-- 变量的概念：<cite doc-id="X9C5weOzci6yTUkI6ibcjc9bnAf" file-type="wiki" title="Coze变量通俗易懂版" type="doc"></cite>
-- 知识库的概念：<cite doc-id="Zn1Hwlm4ti1sq6kRHi2clzHKnTf" file-type="wiki" title="Coze知识库通俗易懂版" type="doc"></cite>
-- JSON是什么：<cite doc-id="J3Z4wPBs3i0vouk9GmncwUpLnze" file-type="wiki" title="Coze插件与JSON通俗易懂版" type="doc"></cite>
-- 数据类型有哪些：<cite doc-id="MVLRw34qiihsXNktMdacGZVDnyN" file-type="wiki" title="编程中的数据类型通俗易懂版" type="doc"></cite>
+- 数据库的概念：[Coze数据库通俗易懂版](https://axsppz4oyvj.feishu.cn/wiki/YYDDwqam0iodiCk2Ck9c2tAynnf)
+- 变量的概念：[Coze变量通俗易懂版](https://axsppz4oyvj.feishu.cn/wiki/X9C5weOzci6yTUkI6ibcjc9bnAf)
+- 知识库的概念：[Coze知识库通俗易懂版](https://axsppz4oyvj.feishu.cn/wiki/Zn1Hwlm4ti1sq6kRHi2clzHKnTf)
+- JSON是什么：[Coze插件与JSON通俗易懂版](https://axsppz4oyvj.feishu.cn/wiki/J3Z4wPBs3i0vouk9GmncwUpLnze)
+- 数据类型有哪些：[编程中的数据类型通俗易懂版](https://axsppz4oyvj.feishu.cn/wiki/MVLRw34qiihsXNktMdacGZVDnyN)
 - 基础的Python编程知识：[先导篇 | 为什么做这个教程，UP主是闲得发慌吗_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1944y1x7SW/?p=1&vd_source=e94f42ead4c2e95f4b13bec257d95670)
 - API是什么：更新中...
 - 操作系统是什么：更新中...
@@ -218,7 +218,7 @@ AI Agent可能对你来说还是有些晦涩难懂，这里我翻译一下：**A
 
 这一块市面上有一块很好玩的玩法，**搭建微信机器人**，这里不得不提我最喜欢的通往AGI之路社区啦，在成为Agent共学第三期的保姆级教程：
 
-<cite doc-id="NB3nwtUC0iDLYxkIkSYc0WRznGg" file-type="wiki" title="【共学最全版本】微信机器人共学教程" type="doc"></cite>
+[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/【共学最全版本】微信机器人共学教程|【共学最全版本】微信机器人共学教程]]
 
 PS：请注意，如果你是非程序员，并且对服务器，Docker这些概念不了解，那么这套教程你就是跟学，如果你想要知其然，知其所以然，你需要深入理解**第五阶段：AI时代的编程基础**
 
@@ -247,7 +247,7 @@ PS：请注意，如果你是非程序员，并且对服务器，Docker这些概
 
 # 成为Agent工程师课程二期的介绍
 
-<cite doc-id="Z2X0wEvmtiYZtqkFL82cxxI6npL" file-type="wiki" title="大圣的智能体实战课程" type="doc"></cite>
+[[成为Agent工程师/资源/大圣的智能体实战课程|大圣的智能体实战课程]]
 
 工作流设计手册小报童介绍
 

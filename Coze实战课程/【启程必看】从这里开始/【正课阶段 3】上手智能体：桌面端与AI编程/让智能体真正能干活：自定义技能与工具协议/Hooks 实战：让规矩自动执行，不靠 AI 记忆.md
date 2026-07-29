@@ -75,7 +75,9 @@ Hooks 的工作方式非常直接，就两件事：
 
 最常用的触发时机有两种：
 
-<sheet sheet-id="xQ5lLL" token="TXD9si6JxhOfWMtSDi3cBo0rnqg"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/TXD9si6JxhOfWMtSDi3cBo0rnqg)
+> `token=TXD9si6JxhOfWMtSDi3cBo0rnqg` `sub=xQ5lLL`</sheet>
 
 **打个比方：**
 

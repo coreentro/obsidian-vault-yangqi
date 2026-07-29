@@ -134,4 +134,4 @@ tags:
 
 # 相关会议纪要
 
-<callout emoji="📌"><p><cite doc-id="Ke8IdajKVoXnhzxD8FmcxyHdnce" file-type="docx" title="0基础跨界AI编程共学 零基础手搓AI拍立得-银海" type="doc"></cite></p><p><cite doc-id="NpxPd0vXhowzMPx0VrCc0jOEnag" file-type="docx" title="0基础跨界AI编程共学 2024年10月29日 - 智能纪要" type="doc"></cite></p><p><cite doc-id="W5McdkhZCoZikjxKCKPc49LQngc" file-type="docx" title="AI版权分享课" type="doc"></cite></p><p></p></callout>
+<callout emoji="📌"><p>[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「AI编程共学」之·跟大哲学家、大设计师、大产品经理, 学0基础编游戏·/0基础手搓AI拍立得/0基础跨界AI编程共学 零基础手搓AI拍立得-银海|0基础跨界AI编程共学 零基础手搓AI拍立得-银海]]</p><p>[0基础跨界AI编程共学 2024年10月29日 - 智能纪要](https://axsppz4oyvj.feishu.cn/docx/NpxPd0vXhowzMPx0VrCc0jOEnag)</p><p>[AI版权分享课](https://axsppz4oyvj.feishu.cn/docx/W5McdkhZCoZikjxKCKPc49LQngc)</p><p></p></callout>

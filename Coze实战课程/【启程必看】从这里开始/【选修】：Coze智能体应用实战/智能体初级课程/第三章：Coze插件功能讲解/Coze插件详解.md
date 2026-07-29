@@ -156,8 +156,8 @@ Coze的插件是一个非常重要的知识点。也是大家在工作流中会�
 
 但是在后面如果你要进阶使用Coze插件的时候，JSON这种格式是逃不掉的
 
-<cite doc-id="BohSwor9NibXtMk7nqjcyvJRnlg" file-type="wiki" title="06｜数据的桥梁，理解与应用JSON" type="doc"></cite>
+[[AI零基础到智能体高手/小白也能听懂的AI编程基础课/06｜数据的桥梁，理解与应用JSON|06｜数据的桥梁，理解与应用JSON]]
 
 # 延伸阅读
 
-<cite doc-id="KHGDwv2N4i9KpCkyIi0cKvvXnjb" file-type="wiki" title="05｜理解输入、处理和输出的框架" type="doc"></cite>
+[[AI零基础到智能体高手/小白也能听懂的AI编程基础课/05｜理解输入、处理和输出的框架|05｜理解输入、处理和输出的框架]]

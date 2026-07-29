@@ -107,33 +107,31 @@ tags:
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Mipyb02JEopi4fxlWj9cCbxHnb1) · `Mipyb02JEopi4fxlWj9cCbxHnb1`
 
 <grid>
-<column width-ratio="0.662398">
+
 > [!abstract]- 🖼 图片展示的是飞书知识库中Coze相关文档列表。文档按创建时间排序，包含“
 > 图片展示的是飞书知识库中Coze相关文档列表。文档按创建时间排序，包含“article_summary_simple”“search_and_im_answer”等名称，部分文档有“H2”标识，显示为“已发布”。每篇文档右侧有“查看”按钮，下方还有“编辑”“删除”选项。该图片与文档中介绍飞书知识库已沉淀19篇体系化教学文档的内容相关，直观呈现了其中部分Coze文档情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/L01ebPFrVourDBxtYIXcMpbEn3c) · `L01ebPFrVourDBxtYIXcMpbEn3c`
-</column>
-<column width-ratio="0.337602">
+
 > [!abstract]- 🖼 图片展示了成为Agent工程师之Coze实战课程项目课表。课程共分为九周
 > 图片展示了成为Agent工程师之Coze实战课程项目课表。课程共分为九周，每周有具体主题。第一周为打基础，涵盖开篇介绍、RAG架构及企业生产资料问答系统等内容；第二周是卡片教学，涉及卡片规则、卡片自定义插件等；第三周为多Agent2.0基础，包括多Agent2.0基础介绍、多Agent2.0逻辑整体等内容；第四周是多Agent2.0进阶，涵盖多Agent2.0进阶介绍、多Agent2.0进阶介绍等内容；第五周为多Agent2.0进阶，有基于Notion连接打造个人信息助理、基于Notion连接打造个人信息助理等内容；第六周是微聊机器人打造，包括微聊机器人打造全程课程、Way to AGI比传统全沟通会议等内容；第七周为AI Coder；第八周是九周答疑；第九周是Coze使用相关，有Coze如何上传图片、Coze如何搜索插件等内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CSZpb2HcYoQjLCxcb0ec4Uzkn0c) · `CSZpb2HcYoQjLCxcb0ec4Uzkn0c`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.261974">
+
 > [!abstract]- 🖼 图片展示的是“Agent工程师之Coze实战课程”微信群群公告界面。公告
 > 图片展示的是“Agent工程师之Coze实战课程”微信群群公告界面。公告中提到群公告有完善的指引，且有红色箭头指向。公告内容包括新人入群须读、知识库地址、加入团队通知、课程问题反馈、课程时间文档、学员优秀Bot展示、各节课内容、梦飞的微信机器人教程等，还列出了各节课内容对应的文档链接。该图片与上下文介绍的授课方式中飞书群负责集中答疑的内容相呼应，体现了课程答疑的相关信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MKMKbCzVQoWAtdx73wYczpKinab) · `MKMKbCzVQoWAtdx73wYczpKinab`
-</column>
-<column width-ratio="0.738026">
+
 > [!abstract]- 🖼 图片展示了成为Agent工程师之Coze实战课程中的卡片部分。画面中“卡
 > 图片展示了成为Agent工程师之Coze实战课程中的卡片部分。画面中“卡片”标签被红色框突出显示。下方展示了两个卡片示例，左侧是“淘票票电影卡片”，由大圣创建，最近编辑于6月29日21:33；右侧是“儿童绘本故事卡片”，同样由大圣创建，最近编辑于6月26日23:43。该图片与上下文介绍的国内案例库已创建13个教学案例，涉及基础教学等内容相呼应，直观呈现了课程中卡片教学案例库的部分内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YDxXboumwoBF3UxQeRzc4n9ynRf) · `YDxXboumwoBF3UxQeRzc4n9ynRf`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 图片展示了飞书Coze平台中“卧底Bot”的工作流，拥有7个Agent，
@@ -184,7 +182,7 @@ tags:
 
 1. 大圣https://www.bilibili.com/video/BV1YM4m167zP/?spm_id_from=333.999.0.0&vd_source=e94f42ead4c2e95f4b13bec257d95670
 
-   1. 全网最全的Coze文字教程：<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite>
+   1. 全网最全的Coze文字教程：[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb)
    2. 通往AGI之路首次Agent共学活动直播分享：
 2. 艾木https://www.bilibili.com/video/BV1MC411h7ok/
 
@@ -229,7 +227,7 @@ tags:
 
 PS：大圣和艾木是这样认识的
 
-<callout emoji="✏️"><p>艾木的《谁是卧底》源码售价129/159/189/219，卖出过60多份，而且最后不是卖不动，而是他不卖了。</p><p>当时大圣为了拿到源码，加入了艾木运营的微信社群。后来在微信社群做了一次关于Coze的分享，才有资格拿到《谁是卧底》的源码。</p><p>而大圣的这次分享也是<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite>的第一次公开直播分享。</p><p>而这次分享也是我们决定一起合作制作一个付费课程的开始</p></callout>
+<callout emoji="✏️"><p>艾木的《谁是卧底》源码售价129/159/189/219，卖出过60多份，而且最后不是卖不动，而是他不卖了。</p><p>当时大圣为了拿到源码，加入了艾木运营的微信社群。后来在微信社群做了一次关于Coze的分享，才有资格拿到《谁是卧底》的源码。</p><p>而大圣的这次分享也是[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb)的第一次公开直播分享。</p><p>而这次分享也是我们决定一起合作制作一个付费课程的开始</p></callout>
 
 **AI Coder效果视频**
 
@@ -241,15 +239,16 @@ PS：大圣和艾木是这样认识的
 **我们希望用这个案例可以拓宽你的思路，同时也让你认识到AI编写代码的能力边界**
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3340.000000" token="Dkssbxzavo7CV7xf6BxcCmL5nNc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Dkssbxzavo7CV7xf6BxcCmL5nNc) · `Dkssbxzavo7CV7xf6BxcCmL5nNc`
 
 ## AI完全小白可以学习么
 
 能，但是你要付出更多的时间和精力。我整理了一份我自己学习AI的路径，希望可以对你产生帮助：
 
-<cite doc-id="N1WUwd0QNiqZR0k0nEQcpORBnmf" file-type="wiki" title="大圣的AI学习路径3.0" type="doc"></cite>
+[大圣的AI学习路径3.0](https://axsppz4oyvj.feishu.cn/wiki/N1WUwd0QNiqZR0k0nEQcpORBnmf)
 
-但是我们的课程不会专门讲提示词工程，大模型原理这些内容，需要你在<cite doc-id="N1WUwd0QNiqZR0k0nEQcpORBnmf" file-type="wiki" title="大圣的AI学习路径3.0" type="doc"></cite>中自行学习
+但是我们的课程不会专门讲提示词工程，大模型原理这些内容，需要你在[大圣的AI学习路径3.0](https://axsppz4oyvj.feishu.cn/wiki/N1WUwd0QNiqZR0k0nEQcpORBnmf)中自行学习
 
 ## 你们两个如何保证答疑质量？
 
@@ -360,7 +359,7 @@ Python代码、数据库、知识库、变量、API、JSON、服务器、Docker�
 
 对于大家想要额外学习的资料，我全部汇总在这一篇文档中了。而且会不断的更新，大家按需学习
 
-<cite doc-id="N1WUwd0QNiqZR0k0nEQcpORBnmf" file-type="wiki" title="大圣的AI学习路径3.0" type="doc"></cite>
+[大圣的AI学习路径3.0](https://axsppz4oyvj.feishu.cn/wiki/N1WUwd0QNiqZR0k0nEQcpORBnmf)
 
 # 写在最后
 

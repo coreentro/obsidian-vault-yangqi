@@ -53,4 +53,4 @@ tags:
 
 # 相关会议纪要
 
-<callout emoji="📌"><p><cite doc-id="UwtSdtzthoGC59xZddicCSD1nWW" file-type="docx" title="娜乌斯嘉AIGC商业片制作 2024年11月1日 - 智能纪要" type="doc"></cite></p><p><cite doc-id="Q7CJdxr2voU9mvxv8qocNatVnPd" file-type="docx" title="0基础跨界AI编程共学 2024年10月31日 - 智能纪要" type="doc"></cite></p><p><cite doc-id="NpxPd0vXhowzMPx0VrCc0jOEnag" file-type="docx" title="0基础跨界AI编程共学 2024年10月29日 - 智能纪要" type="doc"></cite></p><p><cite doc-id="W5McdkhZCoZikjxKCKPc49LQngc" file-type="docx" title="AI版权分享课" type="doc"></cite></p><p></p></callout>
+<callout emoji="📌"><p>[娜乌斯嘉AIGC商业片制作 2024年11月1日 - 智能纪要](https://axsppz4oyvj.feishu.cn/docx/UwtSdtzthoGC59xZddicCSD1nWW)</p><p>[0基础跨界AI编程共学 2024年10月31日 - 智能纪要](https://axsppz4oyvj.feishu.cn/docx/Q7CJdxr2voU9mvxv8qocNatVnPd)</p><p>[0基础跨界AI编程共学 2024年10月29日 - 智能纪要](https://axsppz4oyvj.feishu.cn/docx/NpxPd0vXhowzMPx0VrCc0jOEnag)</p><p>[AI版权分享课](https://axsppz4oyvj.feishu.cn/docx/W5McdkhZCoZikjxKCKPc49LQngc)</p><p></p></callout>

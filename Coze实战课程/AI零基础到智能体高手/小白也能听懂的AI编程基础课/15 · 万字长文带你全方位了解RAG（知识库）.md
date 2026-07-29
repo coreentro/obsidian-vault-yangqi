@@ -81,7 +81,8 @@ tags:
 
 我们直接上视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1052.000000" origin-width="1912.000000" token="QdYfb1LR7owGGjx2sEbcadKfnJf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/QdYfb1LR7owGGjx2sEbcadKfnJf) · `QdYfb1LR7owGGjx2sEbcadKfnJf`
 
 ## Claude的Projects
 
@@ -91,7 +92,8 @@ Claude的付费版本（每月20美金）有一个非常强大的功能：Projec
 
 我们直接上视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1070.000000" origin-width="1916.000000" token="I3DLbOrjsoHnbKxavJjc2PGPnEg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/I3DLbOrjsoHnbKxavJjc2PGPnEg) · `I3DLbOrjsoHnbKxavJjc2PGPnEg`
 
 其他的类似工具有：
 
@@ -357,7 +359,8 @@ AI+搜索引擎的结合，就是我们上面讲到的，给AI配备了一个活
 
 下面则是我用Coze制作的一个秘塔搜索机器人，感兴趣可以看下他的工作过程
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="918.000000" origin-width="754.000000" token="Y0jVbNBqioZ2QyxmNSkcbVmqnDe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Y0jVbNBqioZ2QyxmNSkcbVmqnDe) · `Y0jVbNBqioZ2QyxmNSkcbVmqnDe`
 
 OK，关于AI搜索我们就简单介绍到这里，下面我们正式开始介绍RAG
 
@@ -599,7 +602,7 @@ OK，关于AI搜索我们就简单介绍到这里，下面我们正式开始介�
 
 为了让大家更好的融入AI时代，我之前专门编写了一个编程思维体系的课程，其中专门有讲传统的数据库
 
-<cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
 
 传统的数据库就像Excel一样，用来存储结构化的数据，而向量数据库，则用来存储向量。
 
@@ -684,7 +687,8 @@ Bot地址：https://www.coze.cn/store/bot/7400077517299957800?panel=1&bid=6dkpl0
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1004.000000" origin-width="1102.000000" token="TA67bwvtpovmQZxtCSFctfsTnLe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/TA67bwvtpovmQZxtCSFctfsTnLe) · `TA67bwvtpovmQZxtCSFctfsTnLe`
 
 另外我还做了一个Bot，用来对比Query改写和未改写的区别。
 
@@ -692,7 +696,8 @@ Bot地址：https://www.coze.cn/store/bot/7400553639514800182?panel=1&bid=6dkplh
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1056.000000" origin-width="1120.000000" token="LmoIbygjSo1Khhx4jCNcFZ5DnKh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/LmoIbygjSo1Khhx4jCNcFZ5DnKh) · `LmoIbygjSo1Khhx4jCNcFZ5DnKh`
 
 <callout emoji="⛱️">
 这些技术通常不是孤立使用的，而是相互结合，形成一个综合的用户意图理解系统。
@@ -752,7 +757,7 @@ Bot地址：https://www.coze.cn/store/bot/7400553639514800182?panel=1&bid=6dkplh
 
 其实路由所依靠的就是意图识别，我专门写过一篇关于意图识别的文章
 
-<cite doc-id="QmdMwFduYis6TvkeGcrctCO4ncc" file-type="wiki" title="加餐｜理解意图识别(可复制" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/Coze新功能使用/加餐｜理解意图识别(可复制|加餐｜理解意图识别(可复制]]
 
 注意：
 
@@ -1147,7 +1152,7 @@ Claude大家都很清楚了，目前最强的AI大模型，一个月20美元，�
 - 依靠Coze来跟进当前AI Agent工具的发展情况，对其保持关注，发现商业化的机会
 - 做产品Demo，我有任何的想法都可以考虑在Coze中实现一个Demo
 
-还不知道Coze是什么的同学可以看我的公开分享：<cite doc-id="ZP1wwFWhvii1sfkvcEFc2saznoh" file-type="wiki" title="胎教级教程：万字长文手把手教你用Coze打造企业级知识库" type="doc"></cite>
+还不知道Coze是什么的同学可以看我的公开分享：[胎教级教程：万字长文手把手教你用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/ZP1wwFWhvii1sfkvcEFc2saznoh)
 
 我在学习RAG的过程首先会通过Claude帮助我了解细节的概念，然后再通过Coze搭建一个Dmeo，
 
@@ -1159,7 +1164,7 @@ Claude大家都很清楚了，目前最强的AI大模型，一个月20美元，�
 
 这个Bot是利用了Coze的知识库能力，演示知识库在企业中的应用。
 
-相关资料请参考我的公开分享：<cite doc-id="ZP1wwFWhvii1sfkvcEFc2saznoh" file-type="wiki" title="胎教级教程：万字长文手把手教你用Coze打造企业级知识库" type="doc"></cite>
+相关资料请参考我的公开分享：[胎教级教程：万字长文手把手教你用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/ZP1wwFWhvii1sfkvcEFc2saznoh)
 
 **Query改写助手学习Bot：**
 
@@ -1169,7 +1174,8 @@ Bot地址：https://www.coze.cn/store/bot/7400077517299957800?panel=1&bid=6dkpl0
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1004.000000" origin-width="1102.000000" token="IQg3bHjvtoDz3Oxzh7Qc2SbIn6g"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/IQg3bHjvtoDz3Oxzh7Qc2SbIn6g) · `IQg3bHjvtoDz3Oxzh7Qc2SbIn6g`
 
 **Query改写效果对比Bot**
 
@@ -1181,7 +1187,8 @@ Bot地址：https://www.coze.cn/store/bot/7400553639514800182?panel=1&bid=6dkplh
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1056.000000" origin-width="1120.000000" token="YB0Zbxwc4ougMLxztxjcGvs3nRh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/YB0Zbxwc4ougMLxztxjcGvs3nRh) · `YB0Zbxwc4ougMLxztxjcGvs3nRh`
 
 **RAG全流程学习Bot**
 
@@ -1191,7 +1198,8 @@ PS：**这个流程还是一个玩具**，因为对于向量化这块我直接�
 
 我们直接看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1076.000000" origin-width="1916.000000" token="LMWbbCAYro4UlGxK0MFchNRNnjf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/LMWbbCAYro4UlGxK0MFchNRNnjf) · `LMWbbCAYro4UlGxK0MFchNRNnjf`
 
 # 十、写在最后
 
@@ -1311,16 +1319,15 @@ TF-IDF是信息检索和文本挖掘中的一个重要概念。
 **B站 &  视频号相同ID：大圣AI超级个体**
 
 <grid>
-<column width-ratio="0.488157">
+
 > [!abstract]- 🖼 图片展示了一个二维码，上方有“大圣 浙江 杭州”的文字，下方配有“扫一扫
 > 图片展示了一个二维码，上方有“大圣 浙江 杭州”的文字，下方配有“扫一扫上面的二维码图案，加我为朋友”的提示。该图片位于文档结尾处，是作者大圣的个人二维码，用于读者扫描添加其为微信好友。文档中作者大圣介绍了自己是专注于智能体和工作流的程序员，目前在工作流AI化方面努力，还提供了其B站&视频号的相同ID“大圣AI超级个体”，并以二维码形式方便读者�� addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MIoSbnsQMo9JxlxRoLPcrnalnde) · `MIoSbnsQMo9JxlxRoLPcrnalnde`
-</column>
-<column width-ratio="0.511843">
+
 > [!abstract]- 🖼 图片展示了一个用于关注视频号的二维码。上方有头像及文字“大圣AI超级个体
 > 图片展示了一个用于关注视频号的二维码。上方有头像及文字“大圣AI超级个体”。二维码中间嵌有一张人物头像照片，底部配有文字“扫一扫二维码，关注我的视频号”。图片与上下文的关系是，文档在介绍完RAG优质文章及作者大圣的相关信息后，提供该图片，方便读者通过扫描二维码关注其视频号，进一步了解大圣在智能体和工作流AI化等方面的内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DDMGbhPXKoT55uxwdDPcloYvnnd) · `DDMGbhPXKoT55uxwdDPcloYvnnd`
-</column>
+
 </grid>

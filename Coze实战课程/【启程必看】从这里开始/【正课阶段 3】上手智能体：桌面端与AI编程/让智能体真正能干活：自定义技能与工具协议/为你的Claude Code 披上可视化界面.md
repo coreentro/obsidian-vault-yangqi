@@ -113,33 +113,31 @@ Claude Code 本质上就是一个跑在终端里的程序。Trae 自带终端，
 我下载了苹果版本的 Trae，然后安装成功之后点击打开
 
 <grid>
-<column width-ratio="0.464882">
+
 > [!abstract]- 🖼 图片展示的是Trae软件的启动界面。背景为深色，中央有一个绿色和白色相间
 > 图片展示的是Trae软件的启动界面。背景为深色，中央有一个绿色和白色相间的图标，下方文字为“欢迎使用 TRAE”，下方有一个灰色的“开始”按钮。该图片位于介绍Trae+Claude Code操作全流程的文档中，是在下载并安装Trae后，打开软件时所见的界面，是安装成功后的第一步操作展示，与上下文介绍的Trae安装及后续操作流程紧密相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YHahbrESIodjasxYrsAciEVPnmd) · `YHahbrESIodjasxYrsAciEVPnmd`
-</column>
-<column width-ratio="0.535118">
+
 > [!abstract]- 🖼 图片展示的是Claude Code在安装完成后打开时的界面。界面上方显示
 > 图片展示的是Claude Code在安装完成后打开时的界面。界面上方显示“选择您的主题”，并说明可通过菜单或设置随时更改主题。下方有三个主题选项，分别是“暗色”“亮色”“深蓝”，其中“暗色”主题被选中。界面底部有“选择语言”选项，当前语言为“Chinese (Simplified) 简体中文”，下方有一个“继续”按钮。该图片与文档中“安装Claude Code插件”步骤后的操作流程相关，展示了安装完成后进入的初始界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ELKEbVJQoo04mCxK9wbc8iG0nCb) · `ELKEbVJQoo04mCxK9wbc8iG0nCb`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.468989">
+
 > [!abstract]- 🖼 图片展示的是Trae软件的偏好设置界面。界面中有“暂不导入”和“使用VS
 > 图片展示的是Trae软件的偏好设置界面。界面中有“暂不导入”和“使用VS Code快捷键风格”两个下拉框，下方有“继续”和“跳过”两个按钮。其中，“跳过”按钮被红色框突出显示。该图片对应文档中“安装Claude Code插件”步骤里，安装完成后点击右上角图标打开Claude Code后的操作说明，对于小白而言，这里不需要操作，可直接跳过。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/D9v8bBTq9ok4j4xCuVscl3T7nFh) · `D9v8bBTq9ok4j4xCuVscl3T7nFh`
-</column>
-<column width-ratio="0.531011">
+
 > [!abstract]- 🖼 图片展示的是安装Claude Code插件时的界面。画面中央有一个带有绿
 > 图片展示的是安装Claude Code插件时的界面。画面中央有一个带有绿色边框的图标，下方提示“添加命令行，在Terminal中使用命令'trae-cn'启动”。下方有两个按钮，分别是“安装'trae-cn'命令”和“跳过”，其中“跳过”按钮被红色框突出显示。该图片对应文档中“安装Claude Code插件”步骤里，安装完成后点击右上角图标打开Claude Code后的操作界面，提示可跳过安装命令行部分，减少不必要的动作。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/J2vNbsjsEomcK3xNcIjczrqYn0b) · `J2vNbsjsEomcK3xNcIjczrqYn0b`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 图片展示了Trae软件的登录注册界面。界面上方有红色箭头指向“选择个人用
@@ -169,18 +167,17 @@ Trae 的教程，**如果你感兴趣，自行 AI 加联网搜索**
 第二步：安装完成后，点击右上角的图标打开 Claude Code
 
 <grid>
-<column width-ratio="0.619540">
+
 > [!abstract]- 🖼 图片展示了Claude Code for VS Code的插件页面。页面
 > 图片展示了Claude Code for VS Code的插件页面。页面左上角有“IDE”“选择项目”“搜索”等选项，右上角有“...”等图标。页面中间是Claude Code for VS Code的图标及名称，下方有功能介绍，如使用Claude模型、与IDE协同工作等。右侧有“安装”按钮，旁边有“自动更新”选项。右上角有一个红色框突出显示的图标，旁边有红色箭头指向，箭头下方文字提示“安装完成后，点击打开Claude Code”。该图片与上下文关系紧密，直观呈现了安装完成后打开Claude Code的操作位置。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/PJFvbmRh5o7Tz7xhn2VcRasSnUe) · `PJFvbmRh5o7Tz7xhn2VcRasSnUe`
-</column>
-<column width-ratio="0.380460">
+
 > [!abstract]- 🖼 图片展示了安装并打开Claude Code插件后的Trae界面。界面中突
 > 图片展示了安装并打开Claude Code插件后的Trae界面。界面中突出显示“Claude Code”字样，下方有“Ask about this codebase or we can start writing code.”的提示，以及“Opus now defaults to 1M context”等信息。界面底部有“Ask Claude to edit...”和“Ask before edits”两个选项。图片与上文“安装Claude Code插件”内容相关，直观呈现了安装完成后进入的界面状态，帮助用户确认是否成功安装并打开Claude Code插件。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JeHBbPttuo1ch2xD4tHc1myDnxf) · `JeHBbPttuo1ch2xD4tHc1myDnxf`
-</column>
+
 </grid>
 
 当你出现上边的第二张图之后，恭喜你，已经可以在 Tree 里面使用 Claude Code 了
@@ -191,7 +188,8 @@ Trae 的教程，**如果你感兴趣，自行 AI 加联网搜索**
 这里我通过一个视频来给大家演示
 </callout>
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="1080.000000" origin-width="1664.000000" token="DLTYbGcmpoixeUx8lsPcqfBingf"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/DLTYbGcmpoixeUx8lsPcqfBingf) · `DLTYbGcmpoixeUx8lsPcqfBingf`
 
 ## 4）总结说明
 
@@ -222,10 +220,12 @@ Trae 的教程，**如果你感兴趣，自行 AI 加联网搜索**
 
 地址：https://github.com/yiliqi78/TOKENICODE/blob/main/README_zh.md#%E5%AE%89%E8%A3%85
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2148.000000" origin-width="3820.000000" token="CvnZbS2AKoTimuxkEPbcrgTcn4b"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/CvnZbS2AKoTimuxkEPbcrgTcn4b) · `CvnZbS2AKoTimuxkEPbcrgTcn4b`
 
 ## 归藏的CodePilot
 
 https://github.com/op7418/CodePilot
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="LeVDbp9NCopODqxRRqxcywY4nxX"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/LeVDbp9NCopODqxRRqxcywY4nxX) · `LeVDbp9NCopODqxRRqxcywY4nxX`

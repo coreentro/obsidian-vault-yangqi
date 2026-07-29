@@ -37,7 +37,7 @@ tags:
 
 启动该系列文章学习：要跟着这个视频教程走：
 
-<cite doc-id="PCT8d0m8aoosU1xSIZ2cZI4qn1e" file-type="docx" title="AI编程加餐01 | AI编程基础 2024年10月19日 - 智能纪要" type="doc"></cite>
+[AI编程加餐01 | AI编程基础 2024年10月19日 - 智能纪要](https://axsppz4oyvj.feishu.cn/docx/PCT8d0m8aoosU1xSIZ2cZI4qn1e)
 
 # 引言
 
@@ -90,7 +90,7 @@ tags:
 
 而是Coze真的是一个非常适合小白入门AI编程的平台，后面我有一节专门讲这件事情：
 
-<cite doc-id="GCphwPxyUi9wN3kz0Htcs3GinDh" file-type="wiki" title="04｜AI编程学习的平台：Coze" type="doc"></cite>
+[04｜AI编程学习的平台：Coze](https://axsppz4oyvj.feishu.cn/wiki/GCphwPxyUi9wN3kz0Htcs3GinDh)
 
 注意：Coze并不属于AI编程工具，只是他的产品特性决定了他特别适合小白，可以从搭建智能体中学习AI编程的一些基础知识，而不用过早的接触代码
 
@@ -120,7 +120,7 @@ tags:
 
 不管是传统编程，还是AI编程，我们都得了解编程是什么，例如编程是为了解决什么问题？编程语言的概念等等
 
-这部分会在：<cite doc-id="ONLjwfSd3i89MwkqrqYcSPCynqh" file-type="wiki" title="02｜从零理解编程" type="doc"></cite>
+这部分会在：[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/02｜从零理解编程|02｜从零理解编程]]
 
 # 编程的框架
 
@@ -140,7 +140,7 @@ tags:
 
 最后将这些模块首尾相连，就组成了一个复杂的程序功能。
 
-这部分内容会在：<cite doc-id="HhUfwRjlMiWIhnkjFRgcVheFncd" file-type="wiki" title="05｜理解输入、处理和输出的框架" type="doc"></cite>进行详细解释
+这部分内容会在：[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/05｜理解输入、处理和输出的框架|05｜理解输入、处理和输出的框架]]进行详细解释
 
 了解了编程的框架，接下来我们就要正式切入到AI编程这个话题了
 
@@ -211,7 +211,7 @@ tags:
 
 **你需要的是成为一个会思考、会表达、会与AI合作的创造者**。
 
-这部分的内容：<cite doc-id="Np60wvp0fimNHtkPUoxctaaqntc" file-type="wiki" title="03｜工程师思维" type="doc"></cite>
+这部分的内容：[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/03｜工程师思维|03｜工程师思维]]
 
 # 编程的基础知识
 
@@ -241,16 +241,16 @@ tags:
 
 1. 你需要了解一门语言的基础语法
 
-   1. <cite doc-id="O1LWwptxaiIiCXkueQ4cSxHnnAe" file-type="wiki" title="07｜B站3小时Python代码基础" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/07｜B站3小时Python代码基础|07｜B站3小时Python代码基础]]
 
 1. 了解一些基础的概念：
 
-   1. <cite doc-id="PuRKwcseNi2lgykr7aZctnGon6b" file-type="wiki" title="08｜数据类型，一切数据的基础" type="doc"></cite>
-   2. <cite doc-id="FLYxwwBcxitoa1k9Mm7ctvounvc" file-type="wiki" title="09｜程序中的变量" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/08｜数据类型，一切数据的基础|08｜数据类型，一切数据的基础]]
+   2. [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/09｜程序中的变量|09｜程序中的变量]]
 
 1. 了解一些进阶的概念
 
-   1. <cite doc-id="YjszwaSEhiUipgkqsvyct321ncc" file-type="wiki" title="13｜理解并应用循环" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/13｜理解并应用循环|13｜理解并应用循环]]
 
 学习的过程中请千万注意：
 
@@ -264,15 +264,15 @@ tags:
 
 那程序可以识别的输入和输出都是什么格式呢？
 
-这里我们就需要了解数据类型的概念：<cite doc-id="PuRKwcseNi2lgykr7aZctnGon6b" file-type="wiki" title="08｜数据类型，一切数据的基础" type="doc"></cite>
+这里我们就需要了解数据类型的概念：[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/08｜数据类型，一切数据的基础|08｜数据类型，一切数据的基础]]
 
 而在数据类型中有一类是我们非编程同学日常接触不到，但是非常重要的，就是JSON
 
-<cite doc-id="FQ9nwmFFXi5yTAkt5rBcwjmAnnQ" file-type="wiki" title="06｜数据的桥梁，理解与应用JSON" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/06｜数据的桥梁，理解与应用JSON|06｜数据的桥梁，理解与应用JSON]]
 
 当我们了解了程序中所有的数据类型之后，我们就可以清晰通过示例的方式向AI传达我们的输入输出了
 
-<cite doc-id="XH5qwOPs5ibqmkkjMVEcUkrgnrd" file-type="wiki" title="11｜用LLM编写Coze代码节点" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/11｜用LLM编写Coze代码节点|11｜用LLM编写Coze代码节点]]
 
 这个教程中会有典型的例子
 
@@ -284,7 +284,7 @@ tags:
 - 想在代码中引入豆包大模型的能力
 - ....
 
-这时候我们就需要学习一个叫做API的概念了：<cite doc-id="W8eTwKfg6istTCkCOCHczw7EnIf" file-type="wiki" title="10｜程序中的API是什么" type="doc"></cite>
+这时候我们就需要学习一个叫做API的概念了：[10｜程序中的API是什么](https://axsppz4oyvj.feishu.cn/wiki/W8eTwKfg6istTCkCOCHczw7EnIf)
 
 ## 如何存储数据
 
@@ -294,11 +294,11 @@ tags:
 
 这个时候，你需要了解一个叫做数据库的概念：
 
-<cite doc-id="HnV6wHJr6io0NekTRXJcAkfnnAf" file-type="wiki" title="14｜数据库" type="doc"></cite>
+[14｜数据库](https://axsppz4oyvj.feishu.cn/wiki/HnV6wHJr6io0NekTRXJcAkfnnAf)
 
 这里还有一个跟数据库听起来名字类似，但是作用完全不同的技术
 
-<cite doc-id="GhO6wFENciaaO1kEGCrcoAMjngb" file-type="wiki" title="15 | 万字长文带你了解企业级知识" type="doc"></cite>
+[15 | 万字长文带你了解企业级知识](https://axsppz4oyvj.feishu.cn/wiki/GhO6wFENciaaO1kEGCrcoAMjngb)
 
 ## 如何将代码变成应用（部署）
 
@@ -308,13 +308,13 @@ tags:
 
 这里面涉及到的东西就比较多了，目前教程更新了云服务器的概念
 
-<cite doc-id="O99JwCsTLimTJukSEaKcIdO5nfg" file-type="wiki" title="16｜云服务器是什么？" type="doc"></cite>
+[16｜云服务器是什么？](https://axsppz4oyvj.feishu.cn/wiki/O99JwCsTLimTJukSEaKcIdO5nfg)
 
 # AI编程的案例
 
 ## 用LLM编写Coze的代码节点
 
-<cite doc-id="Zke3wXDZdiOKsIkrYWKcItV4nfd" file-type="wiki" title="11｜用LLM编写Coze代码节点" type="doc"></cite>
+[11｜用LLM编写Coze代码节点](https://axsppz4oyvj.feishu.cn/wiki/Zke3wXDZdiOKsIkrYWKcItV4nfd)
 
 # 写在最后
 

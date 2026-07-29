@@ -128,15 +128,18 @@ Glif里的 Thumbnail Maker：只提供了通过纯文字描述的方式来绘制
 
 大家可以在部署好环境的后跟着做一遍
 
-<figure view-type="Card"><source mime="video/quicktime" token="JmOvbELEXopSzrxA2yMcysM3nfe"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JmOvbELEXopSzrxA2yMcysM3nfe) · `JmOvbELEXopSzrxA2yMcysM3nfe`
 
 配套的配置Prompt的 JSON文件
 
-<figure view-type="Preview"><source mime="application/json" token="Oh5FbdQmRogB61xXxi1cvLD2n2e"/></figure>
+> [!warning]- 📎 附件（`application/json`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Oh5FbdQmRogB61xXxi1cvLD2n2e) · `Oh5FbdQmRogB61xXxi1cvLD2n2e`
 
 配套的Flux的模版ComfyUI流
 
-<figure view-type="Preview"><source mime="application/json" token="Re2cbk67NoxECkxc9PtczPUhnad"/></figure>
+> [!warning]- 📎 附件（`application/json`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Re2cbk67NoxECkxc9PtczPUhnad) · `Re2cbk67NoxECkxc9PtczPUhnad`
 
 **ThumbMaker的操作见直播里的讲解会更清楚些：👉【告别Coze限制：基于ComfyUI+MyShell的全新Agent开发思路 】 https://b23.tv/1JR5Iyc**
 

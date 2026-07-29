@@ -136,7 +136,7 @@ tags:
 
 ## 整体舆情构建流程
 
-<cite doc-id="OIsFwNcVLibaPzkRMXjcCPLhncm" file-type="wiki" title="舆情架构分析" type="doc"></cite>  
+[舆情架构分析](https://axsppz4oyvj.feishu.cn/wiki/OIsFwNcVLibaPzkRMXjcCPLhncm)  
 **详细的意图识别节点**
 
 > [!abstract]- 🖼 图片展示了意图识别的技能内容，包括6个意图识别节点。1. 客户表达具体事

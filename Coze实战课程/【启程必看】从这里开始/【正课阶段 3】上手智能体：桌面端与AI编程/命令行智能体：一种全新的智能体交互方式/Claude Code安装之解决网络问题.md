@@ -44,7 +44,8 @@ tags:
 
 # 一、网络问题的逻辑
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="KZvdb6Kssolo19xZaOScSbMcnEc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/KZvdb6Kssolo19xZaOScSbMcnEc) · `KZvdb6Kssolo19xZaOScSbMcnEc`
 
 有一个问题就是有些伙伴即使有网络工具，平时也可以访问谷歌，但是在安装 Claude Code的时候还是会出现问题，这是什么原因呢？
 
@@ -80,7 +81,8 @@ curl https://www.ipinfo.io
 
 直接看视频：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1662.000000" token="BQP2bHhXfoGJzkxNiW1cueE6nSQ"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/BQP2bHhXfoGJzkxNiW1cueE6nSQ) · `BQP2bHhXfoGJzkxNiW1cueE6nSQ`
 
 **这是使用 Panda的小伙伴的代理增强的界面（理论上每个工具都应该有才对）**
 
@@ -123,4 +125,5 @@ curl https://www.ipinfo.io
 请根据以上逻辑，告诉我如何查找端口并教我这三种配置方式的具体命令。
 ```
 
-<figure view-type="Preview"><source mime="video/mp4" token="Rm9ibTMbJolejkxHJ7ccSQ1EnrW"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Rm9ibTMbJolejkxHJ7ccSQ1EnrW) · `Rm9ibTMbJolejkxHJ7ccSQ1EnrW`

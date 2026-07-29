@@ -239,7 +239,8 @@ Create, manage, and share skills to extend Claude's capabilities in Claude Code.
 
 # 六、串起来：完整的学习流程
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="J52RbHgmOoZfE8xiArHcUqWKnXb"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/J52RbHgmOoZfE8xiArHcUqWKnXb) · `J52RbHgmOoZfE8xiArHcUqWKnXb`
 
 > [!abstract]- 🖼 图片展示了学习新知识的完整流程。第一步“搜”，由学习者判断去哪里找，可通
 > 图片展示了学习新知识的完整流程。第一步“搜”，由学习者判断去哪里找，可通过官网、社区、搜索引擎、AI等；第二步“抓”，借助Jina Reader、Chrome插件等工具将内容变成文字；第三步“喂”，学习者将内容以粘贴或文件写入CLAUDE.md的形式交给Claude Code；第四步“学+做”，AI负责总结讲解、安装配置及排错等，学习者边学边干。整个流程适用于学习任何新工具和新知识，与上下文提到的学习Claude Code前先创建项目辅助学习相呼应。

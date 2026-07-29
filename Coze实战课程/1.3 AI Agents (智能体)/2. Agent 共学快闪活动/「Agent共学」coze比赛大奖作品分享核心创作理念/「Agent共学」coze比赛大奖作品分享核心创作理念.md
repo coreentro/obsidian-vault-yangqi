@@ -31,7 +31,7 @@ tags:
 
 活动信息：[页面直达](https://www.volcengine.com/event/ai-competition?utm_campaign=20240809&utm_content=ai-competition&utm_medium=in_mkt&utm_source=event&utm_term=dasouche)
 
-活动说明：<cite doc-id="YERHwvEiei0dbykftRvcYA8dnre" file-type="wiki" title="火山引擎AI创造者大赛 官方手册--AI创作者大赛-火山引擎" type="doc"></cite>
+活动说明：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/火山引擎AI创造者大赛 官方手册--AI创作者大赛-火山引擎|火山引擎AI创造者大赛 官方手册--AI创作者大赛-火山引擎]]
 
 > [!abstract]- 🖼 图片展示了火山引擎AI创作者大赛的相关信息。上方有大赛主题“AI创作者大
 > 图片展示了火山引擎AI创作者大赛的相关信息。上方有大赛主题“AI创作者大赛”及“AI创造无限可能”的宣传语。大赛介绍部分有文字说明。大赛流程包括报名阶段、作品提交、初赛、复赛、决赛等环节。赛程安排有初赛、复赛、决赛时间。大赛规则、赛程介绍及奖项、获奖名单、组织机构等信息也一应俱全。该图片与文档中介绍的火山引擎AI创作者大赛活动说明相契合，是对大赛各项内容的直观呈现。
@@ -52,7 +52,14 @@ tags:
 
 # 共学日程表:
 
-<synced-source><table><colgroup><col/><col/><col/><col/><col/></colgroup><thead><tr><th>时间</th><th>分享材料</th><th>内容</th><th>讲师嘉宾</th><th>主持人</th></tr></thead><tbody><tr><td>9月26日 20:00开始<br/>(<a href="https://waytoagi.feishu.cn/minutes/obcnyetrbh24wgcnym784748?from=from_copylink">回放链接</a>)</td><td><cite doc-id="Rwd7wYcouijdPdkF2Ayc9RlAntg" file-type="wiki" title="《舆情管理大师》 工作流思路" type="doc"></cite><br/><cite doc-id="PBEUw8oxJivNfrkOVa5cFCznnM1" file-type="wiki" title="舆情管理大师-汽车bot小队.pptx" type="doc"></cite></td><td>第一名: 《舆情管理大师》 @汽车bot小队<br/>https://www.coze.cn/s/iknCrnvv/</td><td>锤子, 朱一鸣, 寻鱼, 灯</td><td>元</td></tr><tr><td>9月27日<br/>20:00开始<br/>(<a href="https://waytoagi.feishu.cn/minutes/obcny379l9b981mtxa78x4f3?from=from_copylink">回放链接</a>)</td><td><cite doc-id="DiqqdNSmao8nT2xWmiccbOOknIE" file-type="docx" title="汽车栏目主持人（零壹老师）智能体经验分享" type="doc"></cite><br/><cite doc-id="UGzZwju5uiVKrVkhiCGcevwXnjb" file-type="wiki" title="手把手蹭热点 - 来都来了.pdf" type="doc"></cite><br/><cite doc-id="KR6Ew8cxPif7GUkjhn1ckLmwn3b" file-type="wiki" title="【领克X黑神话】虚拟狂飙之征战天命" type="doc"></cite><br/><cite doc-id="N4wBwPY1oifcNJkZsyHc6McdnYg" file-type="wiki" title="Coze汽车售后服务知识库Bot拆解" type="doc"></cite></td><td> 一等奖: 《汽车栏目主持人（零壹老师）》 @ 野生菌<br/>https://www.coze.cn/s/iknCY9xR/<br/> 一等奖:  《车行营销智多星（手把手蹭热点）》 @ 来都来了<br/>https://www.coze.cn/s/iknC5bgR/<br/>优秀作品: 《虚拟狂飙之征战天命》@小鱿鱼<br/>https://www.coze.cn/s/ikTjx4Mk/</td><td><cite type="user" user-id="ou_d8c3cbf6ff3bc3ec2871bd3248e326f7" user-name="罗文"></cite>, 二师兄<br/>元, Roger, Stuart<br/>小鱿鱼</td><td>Stuart</td></tr></tbody></table></synced-source>
+<synced-source>
+
+| 时间 | 分享材料 | 内容 | 讲师嘉宾 | 主持人 |
+| --- | --- | --- | --- | --- |
+| 9月26日 20:00开始([回放链接](https://waytoagi.feishu.cn/minutes/obcnyetrbh24wgcnym784748?from=from_copylink)) | [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/《舆情管理大师》 工作流思路\|《舆情管理大师》 工作流思路]][[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/舆情管理大师-汽车bot小队.pptx\|舆情管理大师-汽车bot小队.pptx]] | 第一名: 《舆情管理大师》 @汽车bot小队https://www.coze.cn/s/iknCrnvv/ | 锤子, 朱一鸣, 寻鱼, 灯 | 元 |
+| 9月27日20:00开始([回放链接](https://waytoagi.feishu.cn/minutes/obcny379l9b981mtxa78x4f3?from=from_copylink)) | [汽车栏目主持人（零壹老师）智能体经验分享](https://axsppz4oyvj.feishu.cn/docx/DiqqdNSmao8nT2xWmiccbOOknIE)[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/手把手蹭热点 - 来都来了.pdf\|手把手蹭热点 - 来都来了.pdf]][[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/【领克X黑神话】虚拟狂飙之征战天命\|【领克X黑神话】虚拟狂飙之征战天命]][[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/Coze汽车售后服务知识库Bot拆解\|Coze汽车售后服务知识库Bot拆解]] | 一等奖: 《汽车栏目主持人（零壹老师）》 @ 野生菌https://www.coze.cn/s/iknCY9xR/ 一等奖:  《车行营销智多星（手把手蹭热点）》 @ 来都来了https://www.coze.cn/s/iknC5bgR/优秀作品: 《虚拟狂飙之征战天命》@小鱿鱼https://www.coze.cn/s/ikTjx4Mk/ | **@罗文**, 二师兄元, Roger, Stuart小鱿鱼 | Stuart |
+
+</synced-source>
 
 ## 9月26日AI创造者大赛特等奖拆解工作流
 

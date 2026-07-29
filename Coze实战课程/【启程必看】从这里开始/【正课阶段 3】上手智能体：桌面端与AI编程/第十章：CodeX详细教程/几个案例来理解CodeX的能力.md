@@ -30,7 +30,8 @@ tags:
 > [!info] 位置
 > 【启程必看】从这里开始 › 【正课阶段 3】上手智能体：桌面端与AI编程 › 第十章：CodeX详细教程
 
-<figure view-type="Preview"><source mime="video/mp4" token="MMEQbFEt5oCJNexSne3cyVtsnGc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MMEQbFEt5oCJNexSne3cyVtsnGc) · `MMEQbFEt5oCJNexSne3cyVtsnGc`
 
 # 写在前面
 

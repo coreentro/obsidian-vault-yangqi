@@ -44,11 +44,13 @@ AI时代，我非常看好字节这家公司，而字节里面，我又非常看
 
 # 一、写作方法论之最小化启动
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="960.000000" origin-width="720.000000" token="VcFwb9TDiosAZbx4OYbcHfv7nec"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/VcFwb9TDiosAZbx4OYbcHfv7nec) · `VcFwb9TDiosAZbx4OYbcHfv7nec`
 
 # 二、写作方法论之戒掉收藏
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="960.000000" origin-width="720.000000" token="UvZXbroCeorm8yxxZFhc1LTznAc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/UvZXbroCeorm8yxxZFhc1LTznAc) · `UvZXbroCeorm8yxxZFhc1LTznAc`
 
 # 三、写作方法论之搭建知识库
 
@@ -56,6 +58,8 @@ AI时代，我非常看好字节这家公司，而字节里面，我又非常看
 严格来讲，最后一个视频才是飞书知识库的使用姿势
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="720.000000" origin-width="1280.000000" token="Fx6ibjElKoH00ExckQOclkSznkd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Fx6ibjElKoH00ExckQOclkSznkd) · `Fx6ibjElKoH00ExckQOclkSznkd`
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="720.000000" origin-width="1108.000000" token="OsUzbKTjdok9lUxgM8LcSe1tnRc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/OsUzbKTjdok9lUxgM8LcSe1tnRc) · `OsUzbKTjdok9lUxgM8LcSe1tnRc`

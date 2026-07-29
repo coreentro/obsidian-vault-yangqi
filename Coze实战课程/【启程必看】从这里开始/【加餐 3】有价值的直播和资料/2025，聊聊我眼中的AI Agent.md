@@ -86,7 +86,7 @@ tags:
 
 <readonly-block href="https://axsppz4oyvj.feishu.cn/minutes/embed/obcny77dz85t81p64r94j81k?from=ccm" type="iframe"></readonly-block>
 
-详细文档说明：<cite doc-id="IEgOw1BEAicMuzkuKG0chavQn3g" file-type="wiki" title="大圣的智能体实战课程（Coze）" type="doc"></cite>
+详细文档说明：[大圣的智能体实战课程（Coze）](https://axsppz4oyvj.feishu.cn/wiki/IEgOw1BEAicMuzkuKG0chavQn3g)
 
 # 写在最后
 

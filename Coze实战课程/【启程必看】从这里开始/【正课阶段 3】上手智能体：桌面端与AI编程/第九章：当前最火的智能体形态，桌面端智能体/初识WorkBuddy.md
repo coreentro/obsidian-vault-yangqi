@@ -66,7 +66,8 @@ tags:
 
 新建任务这个页面是我们最常用的，直接看教学视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="Ktdwbs3u9onTEjx42K0cdFOHnS3"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Ktdwbs3u9onTEjx42K0cdFOHnS3) · `Ktdwbs3u9onTEjx42K0cdFOHnS3`
 
 # 三、注意安全性
 

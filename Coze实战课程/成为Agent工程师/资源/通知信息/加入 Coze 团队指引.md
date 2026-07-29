@@ -72,7 +72,7 @@ PS：
 
 为了帮助新手同学更好的入门，我将我之前的一篇公开教程进行了重新编写，配合成为Agent工程师团队的5个案例，帮助大家快速度过新手期
 
-文字教程：<cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite> 
+文字教程：[[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]] 
 
 团队案例：
 

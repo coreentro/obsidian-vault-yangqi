@@ -61,19 +61,19 @@ tags:
 - 飞书群内答疑
 - 飞书文档等资料的阅读
 
-知识库文档如下：<cite doc-id="Oc4dwycquiSG7nkEYQwcB9G5n9d" file-type="wiki" title="成为Agent工程师" type="doc"></cite>
+知识库文档如下：[[成为Agent工程师/成为Agent工程师|成为Agent工程师]]
 
-课程时间安排如下：<cite doc-id="ETs0wQufwivx65kMZvVcWy6Enbg" file-type="wiki" title="课程时间安排" type="doc"></cite>
+课程时间安排如下：[课程时间安排](https://axsppz4oyvj.feishu.cn/wiki/ETs0wQufwivx65kMZvVcWy6Enbg)
 
 课程回放地址（仅仅包含已经结束的课程）：
 
-- <cite doc-id="LIIOwll3WiKoeTkN75fcDrNanbd" file-type="wiki" title="00｜（第一期）开启成为Agent工程师之旅" type="doc"></cite>
+- [[成为Agent工程师/Coze实战课项目/第一周：打基础/00｜（第一期）开启成为Agent工程师之旅|00｜（第一期）开启成为Agent工程师之旅]]
 
 ## 3 加入 Coze团队（重要！！！）
 
 加入飞书群的小伙伴请参考如下文档加入Coze团队：
 
-### <cite doc-id="Q7GGweeUHiFp5CkOunacn5aQntf" file-type="wiki" title="加入 Coze 团队指引" type="doc"></cite>
+### [[成为Agent工程师/资源/通知信息/加入 Coze 团队指引|加入 Coze 团队指引]]
 
 ## 关于答疑
 

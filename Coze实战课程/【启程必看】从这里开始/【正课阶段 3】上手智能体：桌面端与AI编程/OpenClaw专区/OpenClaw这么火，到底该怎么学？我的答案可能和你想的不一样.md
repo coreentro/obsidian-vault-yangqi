@@ -282,18 +282,17 @@ PS：但是这里必须说一下，执行器接到命令后不一定会立刻执
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/W6JobAlERoNBn9x9Ulec6xmnnpb) · `W6JobAlERoNBn9x9Ulec6xmnnpb`
 
 <grid>
-<column width-ratio="0.537979">
+
 > [!abstract]- 🖼 图片展示了OpenClaw工程架构中“手脚”执行层的文件目录。目录中包含
 > 图片展示了OpenClaw工程架构中“手脚”执行层的文件目录。目录中包含多个文件和文件夹，如“IDENTITY.md”““
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MZ3cbGzxaowqEqx9fGUcOKxCnWg) · `MZ3cbGzxaowqEqx9fGUcOKxCnWg`
-</column>
-<column width-ratio="0.462021">
+
 > [!abstract]- 🖼 图片是一篇名为《用不好Claude Code，别碰OpenClaw》的文
 > 图片是一篇名为《用不好Claude Code，别碰OpenClaw》的文档截图。标题醒目，强调若不能用好Claude Code就不要接触OpenClaw。内容讲述作者花费10小时钻研OpenClaw，对其安装配置已十分清楚，分享真实感受为网上教程无法覆盖所有安装情况，安装、配置及了解架构等过程中遇到的问题均借助Claude Code解决，遇到报错、架构疑惑、配置文件问题都可询问它。图片与上下文的关系是通过作者自身经历，侧面反映在学习OpenClaw过程中工具的重要性。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VTvIbCULjoHGw5xfTdKcJYHonhf) · `VTvIbCULjoHGw5xfTdKcJYHonhf`
-</column>
+
 </grid>
 
 而大模型本身肯定是没有办法写文件的，所以它利用的是电脑的一些操作指令
@@ -394,7 +393,8 @@ Claude Code是Anthropic推出的通用智能体。我更愿意叫它通用智能
 
 还是上面那个提取公众号文章的例子，我给你看下我用Claude Code是如何运行的
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1876.000000" origin-width="3012.000000" token="WXlDb6SIQoR9Mhx6qqIc23lIngc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/WXlDb6SIQoR9Mhx6qqIc23lIngc) · `WXlDb6SIQoR9Mhx6qqIc23lIngc`
 
 # 五、龙虾到底该怎么养？
 
@@ -483,7 +483,8 @@ Claude Code是Anthropic推出的通用智能体。我更愿意叫它通用智能
 
 1. **要学会迭代你的技能**：任何一个skill在最开始版本出来的时候都不是完美的，但并不妨碍你使用。我们要用迭代的思维去看待 Skill 的生命周期
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2148.000000" origin-width="3824.000000" token="IXiLbTWjvoUYLnx21jecxh6snXc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/IXiLbTWjvoUYLnx21jecxh6snXc) · `IXiLbTWjvoUYLnx21jecxh6snXc`
 
 1. **把技能包当产品资产管理：**每个skill要有明确的触发条件、输入输出、失败处理、权限边界等
 

@@ -41,7 +41,7 @@ tags:
 
 这节课我们将学习图片类型知识库。
 
-<callout emoji="💡"><p>在此之前我强烈建议你了解一下什么是RAG：<cite doc-id="Gfn3wf0NVisB1zks1CUcE6s4nOb" file-type="wiki" title="Coze知识库｜1.6万字RAG保姆级教程" type="doc"></cite></p><p></p><p>上述这篇文章1.6万字，还有对应的视频，花费两个小时了解下RAG对你使用Coze的知识库以及其能力边界都会有很大的帮助</p><p></p><p><b>学习Coze的知识库使用本身很简单，重点在于了解RAG这项技术的边界</b></p></callout>
+<callout emoji="💡"><p>在此之前我强烈建议你了解一下什么是RAG：[Coze知识库｜1.6万字RAG保姆级教程](https://axsppz4oyvj.feishu.cn/wiki/Gfn3wf0NVisB1zks1CUcE6s4nOb)</p><p></p><p>上述这篇文章1.6万字，还有对应的视频，花费两个小时了解下RAG对你使用Coze的知识库以及其能力边界都会有很大的帮助</p><p></p><p><b>学习Coze的知识库使用本身很简单，重点在于了解RAG这项技术的边界</b></p></callout>
 
 PS：下文中我们不再对知识库的原理进行说明，而是直接讲解Coze的知识库创建和使用
 
@@ -49,7 +49,7 @@ PS：下文中我们不再对知识库的原理进行说明，而是直接讲解
 
 **这一部分直接参考视频教学**
 
-几个示例图片：<cite doc-id="C2amwDCZ0iPZqxkvdmPccXJhnye" file-type="wiki" title="问界汽车图片" type="doc"></cite>
+几个示例图片：[问界汽车图片](https://axsppz4oyvj.feishu.cn/wiki/C2amwDCZ0iPZqxkvdmPccXJhnye)
 
 大家也可以自行寻找图片
 

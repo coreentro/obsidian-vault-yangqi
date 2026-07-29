@@ -56,7 +56,8 @@ Git 是一个基础依赖工具，后续安装很多其他工具时都会用到�
 
 经过多次测试，我发现在 Windows 上通过命令行安装 Git 容易踩坑，所以**建议大家直接下载安装包，手动安装**
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="CerybBIJcoINBQxsfVec6mhKnMc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/CerybBIJcoINBQxsfVec6mhKnMc) · `CerybBIJcoINBQxsfVec6mhKnMc`
 
 地址：https://git-scm.com/install/windows
 
@@ -119,7 +120,8 @@ Git 是一个基础依赖工具，后续安装很多其他工具时都会用到�
 
 **具体的安装过程参考下述视频**
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1964.000000" origin-width="3024.000000" token="AF4XbLaQ3orG8pxyGf9cVBzCnOc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/AF4XbLaQ3orG8pxyGf9cVBzCnOc) · `AF4XbLaQ3orG8pxyGf9cVBzCnOc`
 
 ### 使用 brew 安装 git
 
@@ -133,7 +135,8 @@ brew install git
 
 具体实操看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1964.000000" origin-width="3024.000000" token="EGpYb2Ej9oqbOsxb2IPcuPS0nLf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/EGpYb2Ej9oqbOsxb2IPcuPS0nLf) · `EGpYb2Ej9oqbOsxb2IPcuPS0nLf`
 
 # 三、安装第二个前置工具：Node.js
 

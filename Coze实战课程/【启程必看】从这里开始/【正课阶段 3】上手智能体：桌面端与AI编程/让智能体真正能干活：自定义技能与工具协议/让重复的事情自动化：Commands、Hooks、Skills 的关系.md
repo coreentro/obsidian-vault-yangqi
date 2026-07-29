@@ -170,7 +170,9 @@ Skills 的做法是：**把这整套流程打包成一个技能包**
 
 这三个工具不是三选一的关系，而是**层层递进**的：
 
-<sheet sheet-id="7FmiGw" token="RgQZsfIj2hPFMttZTrYc3w1anzd"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/RgQZsfIj2hPFMttZTrYc3w1anzd)
+> `token=RgQZsfIj2hPFMttZTrYc3w1anzd` `sub=7FmiGw`</sheet>
 
 # **五、你不需要全学**
 

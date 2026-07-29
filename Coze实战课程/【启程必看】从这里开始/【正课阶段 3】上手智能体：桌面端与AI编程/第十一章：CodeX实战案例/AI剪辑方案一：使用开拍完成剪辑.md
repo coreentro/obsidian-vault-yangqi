@@ -74,4 +74,5 @@ AI 悬浮提词器实时美颜拍摄，辅助拍完直接去剪辑。AI 可以�
 
 **PS：当然，你也可以去 B 站或者视频号去搜更加详细的教程**
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2868.000000" origin-width="1320.000000" token="AXqTbIXdloSLM8xSRWTcKPImnad"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/AXqTbIXdloSLM8xSRWTcKPImnad) · `AXqTbIXdloSLM8xSRWTcKPImnad`

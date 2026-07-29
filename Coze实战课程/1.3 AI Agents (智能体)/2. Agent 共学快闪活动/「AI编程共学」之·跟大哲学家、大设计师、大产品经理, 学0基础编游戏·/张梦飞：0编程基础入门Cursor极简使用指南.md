@@ -122,18 +122,17 @@ tags:
 3. 游戏结束：当蛇死亡时，游戏结束，玩家可以看到自己的得分。
 
 <grid>
-<column width-ratio="0.269370">
+
 > [!abstract]- 🖼 图片展示了Visual Studio Code编辑器中文件夹“GAME2
 > 图片展示了Visual Studio Code编辑器中文件夹“GAME2”下“game.js”文件的右键菜单。其中，“在文件资源管理器中显示”选项被红色框突出显示，其快捷键为“Shift + Alt + R”。该图片与文档中介绍如何在IDE中运行游戏代码的内容相关，用于说明在IDE中运行游戏代码时，可通过右键菜单选择“在文件资源管理器中显示”来实现，方便后续操作。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GmywbGWLtoaUE1xBrOAcJhhrn2g) · `GmywbGWLtoaUE1xBrOAcJhhrn2g`
-</column>
-<column width-ratio="0.730630">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了一个文件列表界面，其中包含“qaame.js
 > 示意图 @@@@ 图片展示了一个文件列表界面，其中包含“qaame.js”“index.html”“README.md”“style.css”等文件。“index.html”文件被红色框突出显示，其修改日期为2024年10月29日20:58，类型为Chrome HTML Doc，大小为1KB。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/OvRIbURozoNNGvx4K5TcEAQ3ntf) · `OvRIbURozoNNGvx4K5TcEAQ3ntf`
-</column>
+
 </grid>
 
 ### 二、Composer功能

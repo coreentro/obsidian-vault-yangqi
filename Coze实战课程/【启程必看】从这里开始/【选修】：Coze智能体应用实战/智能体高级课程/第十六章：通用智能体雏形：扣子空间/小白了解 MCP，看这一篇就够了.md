@@ -35,11 +35,11 @@ tags:
 
 大家好，我是大圣，我希望通过两篇文章来聊一下 MCP
 
-第一篇：<cite doc-id="W8i2wkMM6iLmA0kopjVcBvuSnpg" file-type="wiki" title="小白了解 MCP，看这一篇就够了" type="doc"></cite>
+第一篇：[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体高级课程/第十六章：通用智能体雏形：扣子空间/小白了解 MCP，看这一篇就够了|小白了解 MCP，看这一篇就够了]]
 
 核心解决 MCP是什么的问题
 
-第二篇：<cite doc-id="QhK7wgt9tiA1ILkUSdxcruwenfp" file-type="wiki" title="扣子空间接入MCP" type="doc"></cite>
+第二篇：[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体高级课程/第十六章：通用智能体雏形：扣子空间/扣子空间接入MCP|扣子空间接入MCP]]
 
 核心解决在扣子空间中如何添加 MCP
 
@@ -510,10 +510,10 @@ MCP是一种协议，也就是让大模型调用工具的方式标准化了。
 
 # 延伸阅读
 
-如果想要详细的了解 RAG，请移步阅读：<cite doc-id="Sr48wUQpdinotfkTRx8c5ujQnBh" file-type="wiki" title="Coze知识库：AIGC时代的知识库原理" type="doc"></cite>
+如果想要详细的了解 RAG，请移步阅读：[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体中级课程/第七章：Coze知识库与数据库功能讲解/Coze知识库：AIGC时代的知识库原理|Coze知识库：AIGC时代的知识库原理]]
 
-如果需要详细的了解上下文，请移步阅读：<cite doc-id="R1KGwIWrjijsyjkwbTocKsiDnJg" file-type="wiki" title="【必看】讲透提示词与上下文，我压箱底的 AI 沟通心法" type="doc"></cite>
+如果需要详细的了解上下文，请移步阅读：[[【启程必看】从这里开始/【正课阶段 1】：AI 通识与底层逻辑/第三章：AIGC提示词工程/【必看】讲透提示词与上下文，我压箱底的 AI 沟通心法|【必看】讲透提示词与上下文，我压箱底的 AI 沟通心法]]
 
-如果需要了解 JOSN这种结构，请移步阅读：<cite doc-id="JtIWww9NpipvvOkquAkc0tGBnyh" file-type="wiki" title="Coze中的复杂数据类型（Object与Array）" type="doc"></cite>
+如果需要了解 JOSN这种结构，请移步阅读：[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体中级课程/第六章：Coze工作流进阶功能讲解/Coze中的复杂数据类型（Object与Array）|Coze中的复杂数据类型（Object与Array）]]
 
 本文参考文章：https://mp.weixin.qq.com/s/9JlWecflk-i99JT2qdkPcw

@@ -30,7 +30,8 @@ tags:
 > [!info] 位置
 > 【启程必看】从这里开始 › 【正课阶段 1】：AI 通识与底层逻辑 › 第一章：DeepSeek入门基础
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="AyFZbXp8soHSEcxAtMhcN2zUnxb"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/AyFZbXp8soHSEcxAtMhcN2zUnxb) · `AyFZbXp8soHSEcxAtMhcN2zUnxb`
 
 # 写在前面
 

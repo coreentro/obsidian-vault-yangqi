@@ -32,7 +32,7 @@ tags:
 
 <readonly-block href="https://waytoagi.feishu.cn/minutes/embed/obcn8d5i217856eq6b88bd41?from=ccm" type="iframe"></readonly-block>
 
-<blockquote><p>本次课程强烈依赖JSON的知识，有时间的小伙伴请务必学习</p><ol><li seq="1"><cite doc-id="VnocwzT3TirKGvkUfvncWa53njc" file-type="wiki" title="加餐｜Coze的插件与JSON" type="doc"></cite></li><li><cite doc-id="EQ8OwKmCvim9UckbjY9c62xMnFb" file-type="wiki" title="加餐｜数据类型：一切数据的基础" type="doc"></cite></li></ol><p></p><p>关于代码，可以选择</p><p><cite doc-id="Y4DQwfIXpiMB81kd7gEcjBzKnjh" file-type="wiki" title="加餐｜3个小时的Python代码基础" type="doc"></cite></p><p></p><p>两个相关的案例也已经上传至Coze空间（搜索大圣可以找到）</p><img name="image.png" alt="图片展示了Coze平台中“卡片”页面的部分内容。左侧显示“卡片教学 | 上映电影榜单（大圣...”卡片，其功能为批处理 - 代码节点 - 复杂JSON格式，由豆包·Function call模型编辑，最近编辑时间为20:08，作者为大圣 @lmh_2024。右侧是“卡片教学 | 儿童绘本（大圣...”卡片，功能为文生图模块 - 批处理 - 卡片 - 消息生成，同样由豆包·Function call模型编辑，最近编辑时间为20:07，作者也为大圣 @lmh_2024。该图片与上下文介绍的Coze平台卡片玩法相关，展示了其中的卡片示例。" mime="image/png" scale="1.000000" src="ViPTbScPgo1uFDxJJDEceuH3nIb"/><p></p></blockquote>
+<blockquote><p>本次课程强烈依赖JSON的知识，有时间的小伙伴请务必学习</p><ol><li seq="1">[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze的插件与JSON|加餐｜Coze的插件与JSON]]</li><li>[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜数据类型：一切数据的基础|加餐｜数据类型：一切数据的基础]]</li></ol><p></p><p>关于代码，可以选择</p><p>[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜3个小时的Python代码基础|加餐｜3个小时的Python代码基础]]</p><p></p><p>两个相关的案例也已经上传至Coze空间（搜索大圣可以找到）</p><img name="image.png" alt="图片展示了Coze平台中“卡片”页面的部分内容。左侧显示“卡片教学 | 上映电影榜单（大圣...”卡片，其功能为批处理 - 代码节点 - 复杂JSON格式，由豆包·Function call模型编辑，最近编辑时间为20:08，作者为大圣 @lmh_2024。右侧是“卡片教学 | 儿童绘本（大圣...”卡片，功能为文生图模块 - 批处理 - 卡片 - 消息生成，同样由豆包·Function call模型编辑，最近编辑时间为20:07，作者也为大圣 @lmh_2024。该图片与上下文介绍的Coze平台卡片玩法相关，展示了其中的卡片示例。" mime="image/png" scale="1.000000" src="ViPTbScPgo1uFDxJJDEceuH3nIb"/><p></p></blockquote>
 
 # 写在前面的话
 
@@ -40,7 +40,7 @@ tags:
 
 这篇教程是课程第二个实战主题：基于儿童绘本+电影海报案例解锁Coze的卡片玩法
 
-如果说第一周的课程<cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite>是打基础，目的是为了让大家能够快速的制作一些属于自己的Bot。
+如果说第一周的课程[[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]]是打基础，目的是为了让大家能够快速的制作一些属于自己的Bot。
 
 那么这周的主题就是提升你制作的Bot的体验，这节课中我们会讲解几个知识点
 
@@ -57,15 +57,15 @@ tags:
 
 1. 如果你是新手，请务必在学习本课程之前学习第一周的课程
 
-   1. <cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]]
 2. 这次分享涉及到两个关键的知识点：工作流中的批处理以及卡片的使用方式
 3. 卡片的使用会涉及到一种很重要的数据结构JSON，所以请务必要提前学习：
 
    1. a
-   2. <cite doc-id="EQ8OwKmCvim9UckbjY9c62xMnFb" file-type="wiki" title="加餐｜数据类型：一切数据的基础" type="doc"></cite>
+   2. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜数据类型：一切数据的基础|加餐｜数据类型：一切数据的基础]]
 4. 本次的两个案例会涉及到一部分的代码逻辑，读懂代码很容易，但是如果你想要更好的利用工作流，代码基础还是需要的，而且不要发怵，我了解到的一些学员已经慢慢可以读懂和写出简单的胶水代码了
 
-   1. <cite doc-id="Y4DQwfIXpiMB81kd7gEcjBzKnjh" file-type="wiki" title="加餐｜3个小时的Python代码基础" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜3个小时的Python代码基础|加餐｜3个小时的Python代码基础]]
 5. 管理好的你预期，请不要指望一个免费的Coze平台可以解决你企业中的棘手需求，请更多的以学习的角度来看待这次课程，我希望它可以带给你思维上的扩展
 6. 为了方便大家学习，本次教程会使用国内版的Coze，但是海外版本的Coze和国内的使用姿势基本没有差别
 
@@ -97,13 +97,13 @@ OK，废话不多说，让我们开始！
 
 而对于多次处理，我们需要给到的是则是一批输入，对应的也会得到一批的输出！
 
-**在编程概念中，是如何表征一批的概念的呢，答案就是数组**！<cite doc-id="VnocwzT3TirKGvkUfvncWa53njc" file-type="wiki" title="加餐｜Coze的插件与JSON" type="doc"></cite>
+**在编程概念中，是如何表征一批的概念的呢，答案就是数组**！[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze的插件与JSON|加餐｜Coze的插件与JSON]]
 
 为了方便大家理解，我再举个例子：
 
 你的需求是想要读取文章的链接
 
-- 如果你是单次处理，那么你的输入就是一个文章链接的字符串<cite doc-id="EQ8OwKmCvim9UckbjY9c62xMnFb" file-type="wiki" title="加餐｜数据类型：一切数据的基础" type="doc"></cite>
+- 如果你是单次处理，那么你的输入就是一个文章链接的字符串[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜数据类型：一切数据的基础|加餐｜数据类型：一切数据的基础]]
 
 ```Plain Text
 "https://mp.weixin.qq.com/s/zIdVewXo-1zRNWeZo_9Axg"
@@ -139,7 +139,7 @@ PS：这部分请配合教学视频观看
 
 举例说明，在下面这个例子中我们通过LinkReaderPlugin讲解了插件的使用姿势
 
-<cite doc-id="H0jcwzG44iSDkHkrTVWcC2vonTh" file-type="wiki" title="如何搜索和测试插件" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/第八、九周答疑/Coze使用相关/如何搜索和测试插件|如何搜索和测试插件]]
 
 1. 在**单次处理**时，他的输出数据格式如下，你会发现，这是一个JSON对象
 
@@ -233,25 +233,24 @@ Coze卡片是一种可视化工具，可以用来创建和展示互动内容。
 **右侧：使用了卡片**
 
 <grid>
-<column width-ratio="0.472973">
+
 > [!abstract]- 🖼 图片展示的是电影《海关战线》的相关信息。包含主演、电影评分、上映时间、电
 > 图片展示的是电影《海关战线》的相关信息。包含主演、电影评分、上映时间、电影总结、影片评价、参考链接等内容。主演有谢霆锋、张学友等。电影评分9.65分。上映时间为2024 - 06 - 28 09:00:00。电影总结介绍了影片背景及故事内容。影片评价提到观众好评及期待。参考链接列出了豆瓣、芒果TV等平台的影片信息。该图片与上下文介绍的电影《海关战线》相关，是对电影信息的详细呈现。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CWqmbBZz6o4ekLxx1JgcsMTIn3g) · `CWqmbBZz6o4ekLxx1JgcsMTIn3g`
-</column>
-<column width-ratio="0.527027">
+
 > [!abstract]- 🖼 图片展示的是电影《海关战线》的海报。海报上有几位身着制服的警察形象，背景
 > 图片展示的是电影《海关战线》的海报。海报上有几位身着制服的警察形象，背景为城市夜景。画面下方以大字突出“真打真炸 嗨战今夏”，并标注上映日期为2024年6月28日。海报下方有多个蓝色链接，如“跳转到淘票票查看信息”等，还列出了该电影的豆瓣评分、主演、导演等信息。该图片与文档中介绍电影《海关战线》的内容相关，直观呈现了电影海报样式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MXfXb1TtAor0auxGco7chNUPnyd) · `MXfXb1TtAor0auxGco7chNUPnyd`
-</column>
+
 </grid>
 
 ## 初识卡片
 
 这部分内容文档讲解不直观，请直接参考直播视频进行学习
 
-<blockquote><p>在我最喜欢的通往AGI之路社区，有一篇讲解Coze卡片非常好的文章，这里我直接引用：</p><p><cite doc-id="FyXJw1nNViv1GqkGfb4cDkxOnqh" file-type="wiki" title="洛水: 消息卡片，让 Coze 对话飞起来：一键掌握创建技巧" type="doc"></cite></p></blockquote>
+<blockquote><p>在我最喜欢的通往AGI之路社区，有一篇讲解Coze卡片非常好的文章，这里我直接引用：</p><p>[洛水: 消息卡片，让 Coze 对话飞起来：一键掌握创建技巧](https://axsppz4oyvj.feishu.cn/wiki/FyXJw1nNViv1GqkGfb4cDkxOnqh)</p></blockquote>
 
 ## 学习卡片制作的要素
 
@@ -351,7 +350,7 @@ PS：这里我建议大家可以手写JSON，一来练习了JSON，二来Coze的
 
 > 关于LLM + 搜索，已经诞生了很多商业化的产品，国内最典型的就是：https://metaso.cn/
 
-<blockquote><p>为了更近一步了解秘塔搜索的原理，我们的课程中在海外和国内分别有两个Bot供大家学习<ul><li>国内：秘塔搜索教学：文档链接：<cite doc-id="IM2TwbChWixcR9kEt87cmKsHnAc" file-type="wiki" title="大圣：我用 Coze 搓了一个乞丐版的秘塔搜索" type="doc"></cite></li><li>海外：Dr Know：B站链接：https://www.bilibili.com/video/BV1Bx4y1n7cB</li></ul></p></blockquote>
+<blockquote><p>为了更近一步了解秘塔搜索的原理，我们的课程中在海外和国内分别有两个Bot供大家学习<ul><li>国内：秘塔搜索教学：文档链接：[大圣：我用 Coze 搓了一个乞丐版的秘塔搜索](https://axsppz4oyvj.feishu.cn/wiki/IM2TwbChWixcR9kEt87cmKsHnAc)</li><li>海外：Dr Know：B站链接：https://www.bilibili.com/video/BV1Bx4y1n7cB</li></ul></p></blockquote>
 
 ## 去Coze捏Bot
 

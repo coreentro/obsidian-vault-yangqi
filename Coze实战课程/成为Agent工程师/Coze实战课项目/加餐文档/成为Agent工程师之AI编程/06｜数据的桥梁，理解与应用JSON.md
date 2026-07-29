@@ -41,9 +41,9 @@ tags:
 
 关于记忆，我们已经产出了3篇教程来进行讲解，分别是：
 
-- <cite doc-id="I11pwyAQOiomrmkqKQ1cPLfJnLe" file-type="wiki" title="14｜数据库" type="doc"></cite>
-- <cite doc-id="VKEQwOaKuivhcDkbCSycgE0FnTf" file-type="wiki" title="15 | 知识库" type="doc"></cite>
-- <cite doc-id="FLYxwwBcxitoa1k9Mm7ctvounvc" file-type="wiki" title="09｜程序中的变量" type="doc"></cite>
+- [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/14｜数据库|14｜数据库]]
+- [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/15 · 知识库|15 ｜ 知识库]]
+- [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/09｜程序中的变量|09｜程序中的变量]]
 
 今天我们来讲解公式中的Tools，对应到Coze中就是插件的概念。
 
@@ -317,7 +317,7 @@ JSON真正的强大之处在于他的嵌套结构，对象和数组是JSON结构
 
 **PS：你这里可能有疑问，为什么有的值用双引号包裹，比如"大圣"，有的又没有双引号包裹，比如年龄的30。**
 
-**这涉及到编程的另一个概念，数据类型！<cite doc-id="Y6Tbw05HTi34UTkb6Y0cwCQQnog" file-type="wiki" title="08｜数据类型，一切数据的基础" type="doc"></cite>**
+**这涉及到编程的另一个概念，数据类型！[08｜数据类型，一切数据的基础](https://axsppz4oyvj.feishu.cn/wiki/Y6Tbw05HTi34UTkb6Y0cwCQQnog)**
 
 **这个我们下一个教程讲，大家不要急，这里我们主要来理解JSON的数据结构**
 
@@ -341,4 +341,4 @@ JSON真正的强大之处在于他的嵌套结构，对象和数组是JSON结构
 
 也许不懂JSON你也可以很好的使用插件，但是我更想让你在使用的时候更加通透，做到知其然，知其所以然，遇到问题可以独立的解决
 
-延伸阅读：<cite doc-id="PuRKwcseNi2lgykr7aZctnGon6b" file-type="wiki" title="08｜数据类型，一切数据的基础" type="doc"></cite>
+延伸阅读：[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/08｜数据类型，一切数据的基础|08｜数据类型，一切数据的基础]]

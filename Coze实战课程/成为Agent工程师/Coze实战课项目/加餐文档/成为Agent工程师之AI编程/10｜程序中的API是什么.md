@@ -42,7 +42,7 @@ tags:
 
 # 引言
 
-大家好，我是大圣，这里是AI编程体系教程中的第10篇文章：<cite doc-id="W8eTwKfg6istTCkCOCHczw7EnIf" file-type="wiki" title="10｜程序中的API是什么" type="doc"></cite>
+大家好，我是大圣，这里是AI编程体系教程中的第10篇文章：[10｜程序中的API是什么](https://axsppz4oyvj.feishu.cn/wiki/W8eTwKfg6istTCkCOCHczw7EnIf)
 
 在编程概念中，API（应用程序接口）这个概念非常重要。
 
@@ -50,9 +50,9 @@ tags:
 
 其中前三篇如下：
 
-- <cite doc-id="FQ9nwmFFXi5yTAkt5rBcwjmAnnQ" file-type="wiki" title="06｜数据的桥梁，理解与应用JSON" type="doc"></cite>
-- <cite doc-id="PuRKwcseNi2lgykr7aZctnGon6b" file-type="wiki" title="08｜数据类型，一切数据的基础" type="doc"></cite>
-- <cite doc-id="FLYxwwBcxitoa1k9Mm7ctvounvc" file-type="wiki" title="09｜程序中的变量" type="doc"></cite>
+- [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/06｜数据的桥梁，理解与应用JSON|06｜数据的桥梁，理解与应用JSON]]
+- [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/08｜数据类型，一切数据的基础|08｜数据类型，一切数据的基础]]
+- [[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/09｜程序中的变量|09｜程序中的变量]]
 
 本文则是关于API的收尾章节
 
@@ -444,7 +444,7 @@ https://api.coze.cn/v1/space/published_bots_list?space_id=737620236629291&page_s
 
 PS：**如果文档中标注的是Body参数，代表这些参数是通过JSON的方式输入的**
 
-这时候大家一定要先去了解下JSON的格式哦：<cite doc-id="FQ9nwmFFXi5yTAkt5rBcwjmAnnQ" file-type="wiki" title="06｜数据的桥梁，理解与应用JSON" type="doc"></cite>
+这时候大家一定要先去了解下JSON的格式哦：[[成为Agent工程师/Coze实战课项目/加餐文档/成为Agent工程师之AI编程/06｜数据的桥梁，理解与应用JSON|06｜数据的桥梁，理解与应用JSON]]
 
 Body的入参很多，这里我就不一个个讲解了，这个太难讲了，而且没有必要。我们直接上例子吧：
 
@@ -571,7 +571,10 @@ https://www.coze.cn/open/oauth/pats
 
 OK，准备条件就绪，我们开始调用这个API，我们把各个部分准备好
 
-<table><colgroup><col/><col/></colgroup><tbody><tr><td>请求地址</td><td>https://api.coze.cn/v3/chat</td></tr><tr><td>Header</td><td>Content-Type: application/json<br/>Authorization: <b>Bearer</b> <b>pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea</b></td></tr><tr><td>入参</td><td><pre lang="JSON"><code>{ <br/>    "bot_id": "<b>7393008672953679913</b>", <br/>    "user_id": "123456789", <br/>    "stream": false, <br/>    "auto_save_history":true, <br/>    "additional_messages":[ <br/>        { <br/>            "role":"user", <br/>            "content":"丽江旅游", <br/>            "content_type":"text" <br/>        } <br/>    ] <br/>}</code></pre></td></tr></tbody></table>
+| 请求地址 | https://api.coze.cn/v3/chat |
+| --- | --- |
+| Header | Content-Type: application/jsonAuthorization: **Bearer** **pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea** |
+| 入参 | `{     "bot_id": "**7393008672953679913**",     "user_id": "123456789",     "stream": false,     "auto_save_history":true,     "additional_messages":[         {             "role":"user",             "content":"丽江旅游",             "content_type":"text"         }     ] }` |
 
 **PS：大佬们不要用我的Token和BotId测试哈，标黄的部分要换成你们的**
 
@@ -713,7 +716,10 @@ https://www.coze.cn/docs/developer_guides/list_chat_messages
 
 有的，那是之前的老接口，这里也分享给大家
 
-<table><colgroup><col/><col/></colgroup><tbody><tr><td>请求地址</td><td>https://api.coze.cn/open_api/v2/chat</td></tr><tr><td>Header</td><td>Content-Type: application/json<br/>Authorization: <b>Bearer</b> <b>pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea</b></td></tr><tr><td>入参</td><td><pre lang="JSON"><code>{ <br/>    "bot_id": "<b>7393008672953679913</b>", <br/>    "user": "123456789", <br/>    "stream": false, <br/>    "query": "丽江旅游"<br/>}</code></pre></td></tr></tbody></table>
+| 请求地址 | https://api.coze.cn/open_api/v2/chat |
+| --- | --- |
+| Header | Content-Type: application/jsonAuthorization: **Bearer** **pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea** |
+| 入参 | `{     "bot_id": "**7393008672953679913**",     "user": "123456789",     "stream": false,     "query": "丽江旅游"}` |
 
 > [!abstract]- 🖼 图片展示的是HTTP接口测试工具中在线API请求的设置界面。在“网关”处
 > 图片展示的是HTTP接口测试工具中在线API请求的设置界面。在“网关”处输入“https://api.coze.cn/open_api/v2/chat”，在“Header”区域设置“Content-Type”为“application/json”和“Authorization”为“Bearer pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea”，“Content-Type”和“Authorization”右侧有“回填”按钮。下方“JSON参数设置”区域显示了请求参数内容。该图片与文档中介绍Coze API测试时，比较旧的V2同步接口的请求设置内容相关，直观呈现了设置界面及参数。

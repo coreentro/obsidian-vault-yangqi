@@ -160,7 +160,7 @@ GPT的Image 2是全球最强的图像模型。CodeX里面可以直接使用
 
 ## **第一个问题：网络问题，这个话题非常敏感，请自行阅读**
 
-<cite doc-id="NAKhwOoW3imlOHkEP9Wcsi3inJh" file-type="wiki" title="第三节：方案一·买一个现成的网络工具" type="doc"></cite>
+[第三节：方案一·买一个现成的网络工具](https://axsppz4oyvj.feishu.cn/wiki/NAKhwOoW3imlOHkEP9Wcsi3inJh)
 
 <callout emoji="✨">
 这里我没有讲任何住宅IP相关的东西，后面在使用Claude官方订阅的时候，可能要换工具
@@ -264,7 +264,7 @@ PS：**不要问我说，大圣为什么我接不到验证码，我也不知道*
 
 ---
 
-<callout emoji="✨"><p>一个建议：</p><p></p><p>当你拥有了<b>最基础的网络工具</b>的那一刻，你就拥有了一切</p><p></p><p>你可以去一个叫做YouTube的平台搜索你想了解的一切</p><p></p><p>比如：国内如何使用Claude官方订阅？有哪些靠谱的手机接码平台？国内如何使用CodeX官方订阅？</p><p></p><p>你可以问一切你想问的，这里都有答案</p><p></p><p>---</p><p></p><p><cite doc-id="NAKhwOoW3imlOHkEP9Wcsi3inJh" file-type="wiki" title="第三节：方案一·买一个现成的网络工具" type="doc"></cite></p><p></p><p><b>所以上面这个教程，如果你是新手小白，一字不落地把视频和文字全部读完</b></p></callout>
+<callout emoji="✨"><p>一个建议：</p><p></p><p>当你拥有了<b>最基础的网络工具</b>的那一刻，你就拥有了一切</p><p></p><p>你可以去一个叫做YouTube的平台搜索你想了解的一切</p><p></p><p>比如：国内如何使用Claude官方订阅？有哪些靠谱的手机接码平台？国内如何使用CodeX官方订阅？</p><p></p><p>你可以问一切你想问的，这里都有答案</p><p></p><p>---</p><p></p><p>[第三节：方案一·买一个现成的网络工具](https://axsppz4oyvj.feishu.cn/wiki/NAKhwOoW3imlOHkEP9Wcsi3inJh)</p><p></p><p><b>所以上面这个教程，如果你是新手小白，一字不落地把视频和文字全部读完</b></p></callout>
 
 # CodeX使用教程
 

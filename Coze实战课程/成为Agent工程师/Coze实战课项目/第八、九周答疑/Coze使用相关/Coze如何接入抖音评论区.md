@@ -47,4 +47,5 @@ tags:
 
 废话不多说，为了帮助小伙伴们快速上手，这次我们不玩文字教程，直接上视频喂饭。
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="IQCEbxoYIoGO7LxZxOwcTJWnnUe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/IQCEbxoYIoGO7LxZxOwcTJWnnUe) · `IQCEbxoYIoGO7LxZxOwcTJWnnUe`

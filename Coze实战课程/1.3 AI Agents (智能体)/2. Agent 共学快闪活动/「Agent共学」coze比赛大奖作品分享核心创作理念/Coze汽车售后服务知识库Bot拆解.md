@@ -53,7 +53,8 @@ tags:
 
 ## 使用视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="720.000000" origin-width="1280.000000" token="JrJ1b3GJTo51f5xtu57c8vbMnCd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JrJ1b3GJTo51f5xtu57c8vbMnCd) · `JrJ1b3GJTo51f5xtu57c8vbMnCd`
 
 ## 功能介绍
 
@@ -83,24 +84,22 @@ tags:
 主要负责接受用户问题进行追问，然后根据用户回答去搜索知识库和数据库然后再做一个初步诊断
 
 <grid>
-<column width-ratio="0.396499">
+
 > [!abstract]- 🖼 图片展示的是服务顾问与用户关于“油耗过高”问题的对话界面。用户提问后，汽
 > 图片展示的是服务顾问与用户关于“油耗过高”问题的对话界面。用户提问后，汽车服务知识库v2回复收到问题，并列出问题描述、出现时间、出现频率、环境条件、相关部件状态及近期操作等6个问题，要求用户回答。界面右下角有“亲，麻烦您回答一下上面的问题哦，这样可以帮助我们更快地定位您的问题呢”及一个笑脸表情。该图片与上下文紧密相关，直观呈现了服务顾问在用户提问后进行追问的场景，是服务顾问工作流程中“接受用户问题进行追问”这一环节的示例。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/WAYObRrdXoskzfxkpMGcYlaLnKc) · `WAYObRrdXoskzfxkpMGcYlaLnKc`
-</column>
-<column width-ratio="0.324250">
+
 > [!abstract]- 🖼 图片展示的是服务顾问与用户的一段对话。用户询问汽车仪表盘指示灯在高速路上
 > 图片展示的是服务顾问与用户的一段对话。用户询问汽车仪表盘指示灯在高速路上特别明显、胎压正常、最近未做保养和维修的情况。服务顾问回复正在为初步评估...，并显示知识库和数据库搜索完毕。下方有加载动画，动画主体为蓝色卡通鲸鱼，下方有“停止响应”按钮。该图片与文档中服务顾问角色的工作流程相关，直观呈现了用户提问、服务顾问回复及系统搜索等环节。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DXFUb8E6loe2FXxxOUwcFrzDnpc) · `DXFUb8E6loe2FXxxOUwcFrzDnpc`
-</column>
-<column width-ratio="0.279252">
+
 > [!abstract]- 🖼 图片展示的是服务顾问工作流中大模型节点的实时输出界面。上方显示“正在为初
 > 图片展示的是服务顾问工作流中大模型节点的实时输出界面。上方显示“正在为初步评估...”，中间有“知识库搜索完毕”和“数据库搜索完毕”的提示，下方有蓝色加载动画，动画旁有一只蓝色卡通鲸鱼图案。下方文字内容为根据用户描述问题初步判断的维修方案，包括检查项目、预计费用、维修时间等信息，还提到后续有变动会通知用户。该图片与上下文紧密相关，直观呈现了大模型节点在服务顾问工作流中的实时输出情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZQezbbCUSo2f0exo5qSc8CEEnDd) · `ZQezbbCUSo2f0exo5qSc8CEEnDd`
-</column>
+
 </grid>
 
 整个工作流相对简单，共11个节点：
@@ -119,18 +118,17 @@ tags:
 当用户提出问题的时候，需要对这个问题进行分析，在此放一个实时输出的消息节点，避免让用户等待
 
 <grid>
-<column width-ratio="0.464333">
+
 > [!abstract]- 🖼 图片展示的是汽车服务知识库v2与用户关于“油耗过高”问题的对话界面。用户
 > 图片展示的是汽车服务知识库v2与用户关于“油耗过高”问题的对话界面。用户提问后，知识库回复收到问题，并列出问题描述、出现时间、出现频率、环境条件、相关部件状态及近期操作等需回答的问题。最后以“亲，麻烦您回答一下上面的问题哦，这样可以帮助我们更快地定位您的问题呢”结尾，还配有笑脸表情。该图片与文档中服务顾问角色的工作流程相关，体现了服务顾问在用户提问时需进行问题分析并引导用户回答问题的场景。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HkkubobskoMcm7x4ixcc00nSnUc) · `HkkubobskoMcm7x4ixcc00nSnUc`
-</column>
-<column width-ratio="0.535667">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot服务顾问工作流的节点设置。左侧
 > 图片展示了Coze汽车售后服务知识库Bot服务顾问工作流的节点设置。左侧为输入节点，输入内容为用户输入的文本。中间是大模型节点，模型为ChatGLM - 6B，输入为用户输入的文本，输出为大模型输出。右侧是输出节点，输出内容为大模型输出。该图片与上下文紧密相关，直观呈现了服务顾问工作流中大模型节点的设置情况，辅助说明了服务顾问主要负责接受用户问题进行追问，然后根据用户回答去搜索知识库和数据库后再做初步诊断的工作流程。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XqtubVOXxomaCaxoUwkcQqmTnPg) · `XqtubVOXxomaCaxoUwkcQqmTnPg`
-</column>
+
 </grid>
 
 售后服务顾问提示词
@@ -164,35 +162,33 @@ tags:
 当需要用户回答问题的时候使用问答节点，然后回答之后去搜索知识库和数据库相关问题的解决方案
 
 <grid>
-<column width-ratio="0.380487">
+
 > [!abstract]- 🖼 图片展示的是服务顾问与用户的一段对话。用户描述了汽车仪表盘指示灯和胎压在
 > 图片展示的是服务顾问与用户的一段对话。用户描述了汽车仪表盘指示灯和胎压在高速路上异常的情况，最近未做保养和维修。服务顾问回复“正在为初步评估...”，并显示“知识库搜索完毕”“数据库搜索完毕”，随后出现加载动画，底部有“停止响应”按钮。该图片与文档中服务顾问角色的工作流程相关，直观呈现了用户提问、服务顾问分析及搜索相关解决方案的场景。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CDX0boCrBoY9LBxaCqEc8Sp8nMh) · `CDX0boCrBoY9LBxaCqEc8Sp8nMh`
-</column>
-<column width-ratio="0.619513">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot服务顾问工作流的流程图。用户提
 > 图片展示了Coze汽车售后服务知识库Bot服务顾问工作流的流程图。用户提问后，先通过 addCriterion图片
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NJqObd68roiFk3xzO9jcmZUxnvd) · `NJqObd68roiFk3xzO9jcmZUxnvd`
-</column>
+
 </grid>
 
 然后再根据用户的回答以及搜索到的相关解决方案去做一个初步评估方案，因为有可能数据会比较多，大模型推理时间较长所以在之前加了一个加载动画。
 
 <grid>
-<column width-ratio="0.355852">
+
 > [!abstract]- 🖼 图片展示的是服务顾问工作流中初步诊断环节的界面。上方显示“正在为初步评估
 > 图片展示的是服务顾问工作流中初步诊断环节的界面。上方显示“正在为初步评估...”及“知识库搜索完毕”“数据库搜索完毕”提示。中间有蓝色卡通鲸鱼图案，下方有蓝色进度条。下方文字内容为顾问根据用户描述的问题，初步判断可能是节气门积碳过多、进气系统故障、燃油系统故障等，预计维修费用800 - 1800元，维修时间3 - 5小时，详细问题定位需技术维修工程师全面检查，如有变动会通知。该图片与上下文紧密相关，直观呈现了初步诊断阶段的提示信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZGFqb2ZeZo4rJ3xNB60cBjE0n2b) · `ZGFqb2ZeZo4rJ3xNB60cBjE0n2b`
-</column>
-<column width-ratio="0.644148">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot服务顾问工作流中顾问流程的节点
 > 图片展示了Coze汽车售后服务知识库Bot服务顾问工作流中顾问流程的节点设置。左侧为顾问流程节点设置，包含大模型节点、问答节点、数据库节点、知识库节点、消息节点等。右侧是消息节点设置，有输入、输出、消息类型、消息内容等参数。该图片与上下文紧密相关，直观呈现了顾问流程中各节点的具体设置情况，帮助理解服务顾问工作流的构成及各节点功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MhWlbBSqOor9oIxFjFYc9k2jn2n) · `MhWlbBSqOor9oIxFjFYc9k2jn2n`
-</column>
+
 </grid>
 
 初步诊断提示词：
@@ -230,66 +226,60 @@ tags:
 根据问题进行拆解分析可能出现故障的排查方案，然后根据排查结果搜索具体解决方案和操作视频，当操作结束后询问用户是否需要生成文档，生成文档（维修报告、案例归档）然后再生成下载文件，案例归档入数据库
 
 <grid>
-<column width-ratio="0.355875">
+
 > [!abstract]- 🖼 图片展示的是汽车服务知识库v2的对话界面。用户提问后，系统回复“正在为您
 > 图片展示的是汽车服务知识库v2的对话界面。用户提问后，系统回复“正在为您生成检查方案...”，随后显示“知识库搜索完毕”“数据库搜索完毕”“搜索引擎搜索完毕”，并有绿色对勾标识。下方有一个卡通鲸鱼图案，旁边有蓝色进度条，下方有“停止响应”按钮。该图片与文档中维修技师拆解分析流程相关，对应搜索完成后给到结果给大模型进行方案输出排查方案这一环节，展示了搜索完毕后的加载动画状态。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/G8dAbSRvIoTjj7xfkxCc13xznVb) · `G8dAbSRvIoTjj7xfkxCc13xznVb`
-</column>
-<column width-ratio="0.299027">
+
 > [!abstract]- 🖼 图片展示的是维修技师故障
 > 图片展示的是维修技师故障
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZpA7b3cFfoPdoLxkkjBc4UUwnsf) · `ZpA7b3cFfoPdoLxkkjBc4UUwnsf`
-</column>
-<column width-ratio="0.345098">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片为聊天界面截图，用户“Chen”反馈“节气门污垢”
 > 示意图 @@@@ 图片为聊天界面截图，用户“Chen”反馈“节气门污垢”，下方“汽车服务知识库v2”显示知识库、数据库、搜索引擎搜索完毕，正在搜索操作视频。结合上下文，可能是在汽车服务咨询场景下，对用户反馈问题进行信息检索。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TOzRbAucuoEbCYxyGC1c9rybnVg) · `TOzRbAucuoEbCYxyGC1c9rybnVg`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.334732">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot拆解中维修技师环节的解决方案
 > 图片展示的是Coze汽车售后服务知识库Bot拆解中维修技师环节的解决方案及操作视频部分。上方列出所需备件（润滑油、润滑脂）和所需工具（清洁工具），维修步骤为使用清洁工具清洁限位器臂杆等部位油脂污垢，为车门铰链添加润滑油并涂抹润滑脂，预估时长30分钟。下方有两张视频教程图片，分别为“汽车保养与维修 #每天一个用车知识 #节气门 #多久清洗#油门踏板”及“自己动手清洗节气门，轻松解决怠速抖动油耗升高的问题。”，并有“点击查看视频教程”按钮。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ISAHb3tE5oiJX6xMElLcez5WnRc) · `ISAHb3tE5oiJX6xMElLcez5WnRc`
-</column>
-<column width-ratio="0.343514">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot生成维修报告和案例归档文档的
 > 图片展示的是Coze汽车售后服务知识库Bot生成维修报告和案例归档文档的界面。界面中显示“是否需要生成维修报告和案例归档文档？”的对话框，用户选择“需要”。下方有Chen的回复，表示“需要”，并显示“汽车服务知识库v2”及“维修报告生成中...”字样。画面底部有一个蓝色的卡通鲸鱼图案，旁边有进度条，下方有向下箭头。该图片与文档中维修技师生成文档环节对应，直观呈现了生成文档时的交互及进度显示情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SDKlbEE5SoxHnwx9RQscQeeen4g) · `SDKlbEE5SoxHnwx9RQscQeeen4g`
-</column>
-<column width-ratio="0.321754">
+
 > [!abstract]- 🖼 图片展示的是维修报告示例。报告日期为2024年9月26日，客户信息包括姓
 > 图片展示的是维修报告示例。报告日期为2024年9月26日，客户信息包括姓名、车型、车牌号、VIN码等。维修概要中，维修项目为解决油耗过高问题，原因也是车辆油耗过高。维修详情包含维修步骤，如使用清洁工具清洁限位器臂杆等，更换零件无，工时费用约30分钟。检查结果为发现的问题无，维修效果待客户后续使用观察，预计可改善油耗过高问题。该图片与文档中维修技师根据问题拆解分析故障排查方案，生成维修报告等内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UuFGb6xR5oZlaLxxXLhcq8l6n0e) · `UuFGb6xR5oZlaLxxXLhcq8l6n0e`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.320405">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot在生成维修报告文档和案例归档
 > 图片展示的是Coze汽车售后服务知识库Bot在生成维修报告文档和案例归档时的界面。界面中显示“维修报告文档下载”按钮，下方有“案例归档生成中...”提示，还配有蓝色卡通鲸鱼图案和进度条。该图片与文档中维修技师工作流程相关，对应生成文档（维修报告、案例归档）环节，直观呈现了案例归档生成中的状态。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Xm9tbpmVMokIPGx0covc1DoDnff) · `Xm9tbpmVMokIPGx0covc1DoDnff`
-</column>
-<column width-ratio="0.322107">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot拆解中维修技师环节的客户信息
 > 图片展示的是Coze汽车售后服务知识库Bot拆解中维修技师环节的客户信息界面。界面上方显示“客户信息”，包含姓名、联系方式、车牌号、车型、行驶里程、车辆识别号（VIN）等信息，均显示为“未知”。下方是“维修预约信息”，预约日期和时间、预约方式也均为“未知”。接着是“车辆问题描述”，客户描述为油耗过高，服务顾问记录中客户也描述油耗过高。最后是“初步诊断”，服务顾问初步诊断可能是节气门积碳过多、进气系统故障、燃油系统故障、轮胎气压不足或近期保养不当导致的。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YZOvblBatogxtyxp6Oyc54Hln6c) · `YZOvblBatogxtyxp6Oyc54Hln6c`
-</column>
-<column width-ratio="0.357488">
+
 > [!abstract]- 🖼 图片展示的是维修技师对维修案例的归档界面。界面中包含维修总结、文件附件等
 > 图片展示的是维修技师对维修案例的归档界面。界面中包含维修总结、文件附件等内容，维修总结部分显示维修效果评估、后续保养建议等均为未知，维修人员总结分析指出节气门污垢导致油耗过高，通过清洁节气门解决。文件附件有维修报告 自动生成报告、维修前后的车辆照片、额外测试报告或诊断结果等。下方有“本次归档内容已入知识库”提示，以及“案例归档文档下载”和“解答完毕”按钮。该图片与文档中维修技师拆解分析维修案例后生成文档、归档入数据库的内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SmUzbBGocoSK1ex6W07csBjFn2p) · `SmUzbBGocoSK1ex6W07csBjFn2p`
-</column>
+
 </grid>
 
 整个工作流相对复杂，共41个节点：
@@ -305,52 +295,49 @@ tags:
 - 消息节点x23
 
 <grid>
-<column width-ratio="0.471046">
+
 > [!abstract]- 🖼 流程图 @@@@ 图片展示了一个流程相关的界面，由多个页面或模块构成，各
 > 流程图 @@@@ 图片展示了一个流程相关的界面，由多个页面或模块构成，各部分通过线条相互连接，呈现出一定的流程顺序和交互关系。但因缺少上下文，暂无法明确其与标题及上下文的具体关联。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/OJ5ybkgQ2oBGKYxtvoxc6UyLnQb) · `OJ5ybkgQ2oBGKYxtvoxc6UyLnQb`
-</column>
-<column width-ratio="0.528954">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库中流程图。从接受问题开始，依次经过知
 > 图片展示了Coze汽车售后服务知识库中流程图。从接受问题开始，依次经过知识库、数据库、搜索引擎搜索，后给加载动画，再由大模型输出排查方案。若技师输入检查结果，找到具体原因则输出解决方案和抖音视频，未找到原因则再搜索。最后根据排查原因输出解决方案和抖音视频，有视频显示视频列表，无视频则提示“很抱歉，目前没有找到完全符合你搜索需求的内容呢。”该图直观呈现了维修技师问题 addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UpwrbmO4zovsTFxYmRBcAroknJg) · `UpwrbmO4zovsTFxYmRBcAroknJg`
-</column>
+
 </grid>
 
 当接受到问题后先会对知识库、数据库、搜索引擎进行搜索再给一个加载动画，因为下个节点是大模型节点比较费时
 
 <grid>
-<column width-ratio="0.492893">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了“汽车服务知识库v2”系统的响应界面。上方显
 > 示意图 @@@@ 图片展示了“汽车服务知识库v2”系统的响应界面。上方显示正在生成检查方案，且知识库、数据库、搜索引擎均已搜索完毕。下方有一个卡通鲸鱼形象，底部还有“停止响应”的按钮。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MCmbbgqz2oI8jJxemRXcsrCVnne) · `MCmbbgqz2oI8jJxemRXcsrCVnne`
-</column>
-<column width-ratio="0.507107">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot拆解分析中维修技师节点的工作流
 > 图片展示了Coze汽车售后服务知识库Bot拆解分析中维修技师节点的工作流程。流程从接受问题开始，先对知识库、数据库、搜索引擎进行搜索，再给加载动画，接着大模型输出排查方案。若技师找到具体原因，输出解决方案和抖音视频；若未找到原因，再搜索，若仍无视频则显示提示。流程中还涉及选择器判断视频列表显示与否，以及消息节点的交互。该图直观呈现了维修技师节点的复杂工作流程。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/R9WObEMuHoXLqUxhgDTcybFmnhb) · `R9WObEMuHoXLqUxhgDTcybFmnhb`
-</column>
+
 </grid>
 
 搜索完成后给到结果到大模型进行方案输出排查方案
 
 <grid>
-<column width-ratio="0.536791">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片为车辆故障检查相关内容。展示了检查步骤，包括检查碳
 > 示意图 @@@@ 图片为车辆故障检查相关内容。展示了检查步骤，包括检查碳罐电磁阀、传感器、喷油嘴等多项部件；还列出所需工具如故障诊断仪、扳手等；并提及关注结果，如碳罐电磁阀工作状态、传感器信号响应等。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/C32Eby6r7oyOtGxDLUEchnMpnBd) · `C32Eby6r7oyOtGxDLUEchnMpnBd`
-</column>
-<column width-ratio="0.463209">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示的是一个界面截图，左侧区域有配置、输入等板块，
 > 示意图 @@@@ 图片展示的是一个界面截图，左侧区域有配置、输入等板块，右侧为结果展示区域。配置板块有诸多参数设置项，输入板块有相关输入内容，结果展示区域呈现了结果相关信息。此图可能用于介绍某个功能的使用操作及结果呈现。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XRFdbjl6coaTrTxvNLjcYvOOnnh) · `XRFdbjl6coaTrTxvNLjcYvOOnnh`
-</column>
+
 </grid>
 
 检查方案提示词：
@@ -397,24 +384,22 @@ tags:
 找到解决方案根据提问去搜索知识库、数据库、搜素引擎、抖音视频，再给一个加载动画，因为下个节点是大模型节点比较费时
 
 <grid>
-<column width-ratio="0.328927">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了一个对话界面。用户“Chen”反馈“节气门污
 > 示意图 @@@@ 图片展示了一个对话界面。用户“Chen”反馈“节气门污垢”，名为“汽车服务知识库v2”的主体显示知识库、数据库、搜索引擎搜索完毕，正搜索操作视频。上下文可能围绕汽车问题检查及知识库搜索反馈等内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CoJxbwoKroxYCzxM9vEcQbDanuh) · `CoJxbwoKroxYCzxM9vEcQbDanuh`
-</column>
-<column width-ratio="0.442715">
+
 > [!abstract]- 🖼 图片展示了维修技师知识库Bot中“检查结果”和“意图识别”两个节点的设置
 > 图片展示了维修技师知识库Bot中“检查结果”和“意图识别”两个节点的设置界面。左侧“检查结果”节点，模型为Douban-pro - 32k/240815 3M，输入为“引擎 - 引擎、检查步骤 - output”，输出为“引擎 - 引擎、检查步骤 - output”，提问为“
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VmXQb4QLkourmYxVQqpcoC1Tn9f) · `VmXQb4QLkourmYxVQqpcoC1Tn9f`
-</column>
-<column width-ratio="0.228358">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot拆解分析中维修技师节点的工作流
 > 图片展示了Coze汽车售后服务知识库Bot拆解分析中维修技师节点的工作流程。流程从接受问题开始，依次经过知识库、数据库、搜索引擎搜索，再给加载动画，然后大模型输出排查方案，接着技师输入检查结果，再搜索解决方案，最终生成维修报告、案例归档并下载文件。流程中还涉及选择器判断有无视频，有视频显示视频列表，无视频则提示“很抱歉，目前没有找到完全符合你搜索需求的内容呢”。该图直观呈现了维修技师节点的复杂工作流程。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LIcSbPYuvoQjcVxHM7JclkgFnMe) · `LIcSbPYuvoQjcVxHM7JclkgFnMe`
-</column>
+
 </grid>
 
 如果没有找到原因继续再去找一遍（提示词同上）
@@ -430,67 +415,63 @@ tags:
 - 没有视频显示提示“很抱歉，目前没有找到完全符合你搜索需求的内容呢。”
 
 <grid>
-<column width-ratio="0.372236">
+
 > [!abstract]- 🖼 图片展示的是维修技师输出的维修报告内容。上方列出所需备件（适量润滑油、润
 > 图片展示的是维修技师输出的维修报告内容。上方列出所需备件（适量润滑油、润滑脂）和所需工具（清洁工具如抹布），并详细说明维修步骤，包括使用清洁工具清洁限位器臂杆等部位的油脂污垢，为车门铰链添加润滑油等，预估时长为30分钟。下方有两张维修技师在车前操作的照片，配有“点击查看视频教程”字样，还有一段文字说明自己动手清洗节气门可解决怠速抖动油耗升高的问题，配有相关话题标签。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JrnmbtW5zo5owvxZMxBctkLMnbf) · `JrnmbtW5zo5owvxZMxBctkLMnbf`
-</column>
-<column width-ratio="0.627764">
+
 > [!abstract]- 🖼 流程图 @@@@ 图片展示了一个流程操作界面，左侧有一长列内容区域，中间
 > 流程图 @@@@ 图片展示了一个流程操作界面，左侧有一长列内容区域，中间和右侧分布多个矩形框，框内有文字信息，矩形框间以箭头相连，呈现流程走向。但因缺少上下文，无法明确其与标题及上下文的具体关系。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/KE22bM7idoHObgxRaDXcyyQ5nBe) · `KE22bM7idoHObgxRaDXcyyQ5nBe`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.557710">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了为卡片绑定数据源的界面及卡片预览效果。左侧是
 > 示意图 @@@@ 图片展示了为卡片绑定数据源的界面及卡片预览效果。左侧是绑定数据源的设置区域，可设置列表、cover、link、title等字段；右侧是卡片预览，显示了带视频相关信息及“点击查看视频教程”按钮的卡片样式。此图对应“为卡片绑定数据源”的内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IhXcbANPHoKm0jxweODcxZyon4e) · `IhXcbANPHoKm0jxweODcxZyon4e`
-</column>
-<column width-ratio="0.442290">
+
 > [!abstract]- 🖼 图片展示的是一个界面结构编辑视图，左侧为卡片结构编辑区，显示了“Card
 > 图片展示的是一个界面结构编辑视图，左侧为卡片结构编辑区，显示了“Card”下的“ListLayout1”等层级结构，右侧为呈现效果区。呈现效果区有三条内容，均配有图片，文字包含汽车节气门清洗等汽车知识相关信息，每条内容下方都有“点击查看视频教程”按钮。该图片与文档中关于Coze汽车售后服务知识库Bot拆解分析的内容无直接关联，可能是知识库中涉及汽车知识展示的部分界面结构示例。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/S5nbb7RpAof0KtxykrWc8xexnRh) · `S5nbb7RpAof0KtxykrWc8xexnRh`
-</column>
+
 </grid>
 
 输出完解决方案后需要让用户确认是否生成文档，如果不需要直接结束，需要走文档生成流程再给一个加载动画，因为下个节点是大模型节点比较费时
 
 <grid>
-<column width-ratio="0.371479">
+
 > [!abstract]- 🖼 图片展示的是维修技师与Coze汽车售后服务知识库v2的对话界面。技师询问
 > 图片展示的是维修技师与Coze汽车售后服务知识库v2的对话界面。技师询问是否需要生成维修报告和案例归档文档，Coze回复“需要”。随后，Coze显示“维修报告生成中...”，并有蓝色卡通鲸鱼图案及加载动画，下方有向下箭头图标。该图片与上下文紧密相关，上下文提到输出完维修报告后接着输出案例归档文档，此图展示了维修报告生成中这一环节的界面情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RYIWbnZ7Tof2nYxPtcXcPMtInBg) · `RYIWbnZ7Tof2nYxPtcXcPMtInBg`
-</column>
-<column width-ratio="0.628521">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot拆解中维修技师的业务流程。左侧
 > 图片展示了Coze汽车售后服务知识库Bot拆解中维修技师的业务流程。左侧为维修技师界面，有维修技师、维修技师管理、维修技师服务、维修技师服务管理等选项，当前选中“维修技师服务”。右侧依次是维修技师服务的“服务”“服务详情”“服务详情”界面，显示服务名称、服务类型、服务描述、服务时长、服务费用、服务操作等信息，部分操作为“关闭操作”。该图直观呈现了维修技师在系统中进行服务操作的流程。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JyGfbyqeeods0OxsD6Rc8Ladnve) · `JyGfbyqeeods0OxsD6Rc8Ladnve`
-</column>
+
 </grid>
 
 由于文档中需要有时间所以新增了获取时间的插件，生成完内容后还调用了生成文档插件输出下载地址
 
 <grid>
-<column width-ratio="0.205348">
+
 > [!abstract]- 🖼 表格 @@@@ 图片为一份维修报告，显示报告日期为2024年9月26日。
 > 表格 @@@@ 图片为一份维修报告，显示报告日期为2024年9月26日。内容包含客户信息、维修概要（解决油耗过高问题）、维修详情（含清洁、添加润滑油等步骤，工时约30分钟）、检查结果（无问题，维修效果待观察）。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BvdxbYae6oHbIYxhX8PcYupZnec) · `BvdxbYae6oHbIYxhX8PcYupZnec`
-</column>
-<column width-ratio="0.794652">
+
 > [!abstract]- 🖼 流程图 @@@@ 图片展示了一个流程步骤，从左侧开始，有文件输入步骤，接
 > 流程图 @@@@ 图片展示了一个流程步骤，从左侧开始，有文件输入步骤，接着是多个处理步骤，每个步骤都有相应的输入、输出及参数设置等内容，步骤之间以箭头相连表示流程顺序，体现了数据处理或任务执行的流程。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/EBtPbRhtfoJMhfxg0e6ctTNynLd) · `EBtPbRhtfoJMhfxg0e6ctTNynLd`
-</column>
+
 </grid>
 
 维修报告提示词：
@@ -585,24 +566,22 @@ tags:
 输出完维修报告后接着输出案例归档文档
 
 <grid>
-<column width-ratio="0.254167">
+
 > [!abstract]- 🖼 图片展示的是维修报告及案例归档文档生成界面。上方显示服务顾问信息、客户确
 > 图片展示的是维修报告及案例归档文档生成界面。上方显示服务顾问信息、客户确认签字、保修信息等，还有一句服务承诺。中间有“维修报告文档下载”按钮。下方提示“案例归档生成中...”，并有蓝色卡通鲸鱼图案和进度条，进度条已部分填充。该图片与文档中维修报告输出完后接着输出案例归档文档的内容相关，呈现了归档文档生成中的状态。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/V1phbYeuJotFN9xd6WVc4Xvun0f) · `V1phbYeuJotFN9xd6WVc4Xvun0f`
-</column>
-<column width-ratio="0.255512">
+
 > [!abstract]- 🖼 表格 @@@@ 图片展示了客户车辆维修预约相关信息表格。内容包含客户信息
 > 表格 @@@@ 图片展示了客户车辆维修预约相关信息表格。内容包含客户信息（姓名、联系方式等未知）、维修预约信息（预约日期时间、方式未知）、车辆问题描述（客户称油耗过高）、初步诊断（可能的故障原因）以及维修方案（检查相关部件等）。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YTcCbmZIroFw2GxLxOhc4Vq4nt6) · `YTcCbmZIroFw2GxLxOhc4Vq4nt6`
-</column>
-<column width-ratio="0.490321">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot拆解中维修技师节点的流程。左侧
 > 图片展示了Coze汽车售后服务知识库Bot拆解中维修技师节点的流程。左侧为维修报告提示词，中间是输出维修报告，右侧是归档文档提示词。维修报告提示词包含维修技师、维修工单号、维修内容等信息，输出维修报告后接着输出案例归档文档。归档文档提示词同样包含维修技师、维修工单号、维修内容等信息，归档文档输出完成后同时生成在线文件以及录入数据库。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/J2wsbItD9oahHwxZeRpcT0Oan7e) · `J2wsbItD9oahHwxZeRpcT0Oan7e`
-</column>
+
 </grid>
 
 归档文档提示词：
@@ -718,18 +697,17 @@ tags:
 归档文档输出完成后同时生成在线文件以及录入数据库
 
 <grid>
-<column width-ratio="0.411106">
+
 > [!abstract]- 🖼 图片展示的是维修技师输出案例归档文档后的界面。界面中显示维修总结、文件附
 > 图片展示的是维修技师输出案例归档文档后的界面。界面中显示维修总结、文件附件、维修人员对案例的总结等内容，如维修效果评估、后续保养建议等均为未知，维修人员总结指出节气门污垢导致油耗过高，通过清洁节气门解决。文件附件包含维修报告、维修前后的车辆照片等。下方有“本次归档内容已入知识库”提示，以及“案例归档文档下载”和“解答完毕”按钮。该图片与文档中维修技师输出案例归档文档后生成在线文件及录入数据库的业务流程相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TAhfb6jDUo6cYxxrwfEch2bVnde) · `TAhfb6jDUo6cYxxrwfEch2bVnde`
-</column>
-<column width-ratio="0.588894">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot拆解中维修技师节点的流程图。流
 > 图片展示了Coze汽车售后服务知识库Bot拆解中维修技师节点的流程图。流程从获取时间插件开始，依次经过生成维修报告、生成案例归档文档、生成在线文件及录入数据库等步骤。各步骤间通过箭头连接，如获取时间后调用生成维修报告插件，生成维修报告后调用生成案例归档文档插件等，最终完成整个业务流程。该图与文档中维修技师节点的业务流程描述相契合，直观呈现了各环节的逻辑关系。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Yrqvb1vmhoodyhxov8ccdF72n1g) · `Yrqvb1vmhoodyhxov8ccdF72n1g`
-</column>
+
 </grid>
 
 整个业务流程就结束了
@@ -739,60 +717,55 @@ tags:
 上面提到了每次案例都会入库，除此之外还支持直接输入文本或者链接解析智能录入功能。
 
 <grid>
-<column width-ratio="0.445064">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了“汽车服务知识库v2”与用户“Chen”的对
 > 示意图 @@@@ 图片展示了“汽车服务知识库v2”与用户“Chen”的对话界面。“汽车服务知识库v2”询问用户需要如何学习，并给出三个选项：记录问题、解析链接、搜索问题，分别对应不同的学习操作方式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GgSTblxD7oFbQFx0ajwcVJS8nzc) · `GgSTblxD7oFbQFx0ajwcVJS8nzc`
-</column>
-<column width-ratio="0.292898">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片为聊天界面截图，用户“Chen”向“汽车服务知识库
 > 示意图 @@@@ 图片为聊天界面截图，用户“Chen”向“汽车服务知识库v2”发送要求“告诉我问题和答案即可”，随后给出发动机故障灯亮的问题示例，知识库v2回复正在理解梳理问题，界面底部有一只卡通鲸鱼图案。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XFNAbySTgoCDX4xSPzZcWxxGnsf) · `XFNAbySTgoCDX4xSPzZcWxxGnsf`
-</column>
-<column width-ratio="0.262038">
+
 > [!abstract]- 🖼 图片展示的是手动入库流程中入库查询环节的对话界面。界面显示已提炼1个问题
 > 图片展示的是手动入库流程中入库查询环节的对话界面。界面显示已提炼1个问题，问题为“发动机故障灯亮”，解决方案数据已入库。接着询问是否需要检查入库结果，有“需要”和“不用”两个选项，用户Chen选择了“需要”。最后，汽车服务知识库v2提示用户发送入库问题，如“发动机故障灯亮”。该图片直观呈现了入库查询环节的对话流程及用户选择情况，与上下文介绍的入库查询流程相契合。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/PGIRbyIwcoi9A4xuKtAcbHyynKf) · `PGIRbyIwcoi9A4xuKtAcbHyynKf`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.358505">
+
 > [!abstract]- 🖼 图片展示了汽车服务知识库v2与用户Chen的对话界面。Chen询问如何学
 > 图片展示了汽车服务知识库v2与用户Chen的对话界面。Chen询问如何学习，知识库回复可记录问题和答案、解析链接、搜索问题等。随后，知识库提示发送学习链接，如“https://baijiahao.baidu.com/s?id=1729781487905070798&wfr=spider&for=pc”，并显示该链接。此图对应文档中手动入库流程中解析链接节点的上下文，直观呈现了发送链接自动解析内容这一操作示例。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Ttb1bYLYIoXP8AxdlMXcxdzdnBe) · `Ttb1bYLYIoXP8AxdlMXcxdzdnBe`
-</column>
-<column width-ratio="0.355655">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了一段即时通讯对话及加载状态画面。上方是用户C
 > 示意图 @@@@ 图片展示了一段即时通讯对话及加载状态画面。上方是用户Chen发送的百度链接，下方“汽车服务知识库v2”回复链接内容读取、网页内容解析完毕，正在理解梳理问题，底部有一个蓝色卡通鲸鱼加载动画。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZqxTb5d8Jo14wBxpm42cWg3ange) · `ZqxTb5d8Jo14wBxpm42cWg3ange`
-</column>
-<column width-ratio="0.285840">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot手动入库流程中入库查询环节的
 > 图片展示的是Coze汽车售后服务知识库Bot手动入库流程中入库查询环节的界面。界面上方显示“已经提炼10个问题”，并列出10个问题，如尾气冒蓝烟、轮胎破损等。下方提示“解决方案数据已入库”，并询问“是否需要检查下入库结果？”，有“需要”和“不用”两个选项。该图片与文档中手动入库流程的上下文对应，直观呈现了入库查询环节的用户交互界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LnIsbW5OJoKkrOxCW28cTf6InCc) · `LnIsbW5OJoKkrOxCW28cTf6InCc`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.525886">
+
 > [!abstract]- 🖼 图片展示了汽车服务知识库v2与用户Chen的对话界面。知识库询问用户如何
 > 图片展示了汽车服务知识库v2与用户Chen的对话界面。知识库询问用户如何学习，提供了三种方式：记录问题、解析链接、搜索问题。Chen选择“【搜索问题】发送问题，查询结果（检查入库是否成功）”，知识库回复请发送入库问题，如“发动机故障灯亮”。该图片对应文档中手动入库流程中“搜索问题”节点的操作示例，直观呈现了用户发送问题后知识库的回复情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VNA0bnsEqondzAxYf4OcOaFknfQ) · `VNA0bnsEqondzAxYf4OcOaFknfQ`
-</column>
-<column width-ratio="0.474114">
+
 > [!abstract]- 🖼 图片展示了手动入库流程中入库查询的对话示例。用户发送“刹车失灵”问题，系
 > 图片展示了手动入库流程中入库查询的对话示例。用户发送“刹车失灵”问题，系统回复已查询到结果，给出解决方法，包括重复踩踏刹车踏板、打开双闪远离人群等，并提示可选择撞向高速公路或收费站旁应对路段减速。最后显示“结束”字样。该图片与文档中手动入库流程分析上下文对应，直观呈现了入库查询环节的用户输入、系统解析及回复情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HKXMbhVa5o46maxijYhcNqG6n2c) · `HKXMbhVa5o46maxijYhcNqG6n2c`
-</column>
+
 </grid>
 
 这个手动入库流程复杂度一般，，共26个节点：
@@ -814,52 +787,49 @@ tags:
 通过关键词「set」进入工作流，三选一菜单，接下来我们一个一个说
 
 <grid>
-<column width-ratio="0.514716">
+
 > [!abstract]- 🖼 图片展示了汽车服务知识库v2的对话界面。上方显示“Chen”发送了“se
 > 图片展示了汽车服务知识库v2的对话界面。上方显示“Chen”发送了“set”，下方是汽车服务知识库v2的回复，询问用户如何学习，提供了三种方式：【记录问题】告诉我问题和答案即可；【解析链接】发送链接自动解析内容；【搜索问题】发送问题，查询结果（检查入库是否成功）。该图片对应文档中手动入库流程中通过关键词「set」进入工作流后，三选一菜单的场景，直观呈现了用户可选择的学习方式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VlrHb3KIgoobWMxWVpBcXHDJnFg) · `VlrHb3KIgoobWMxWVpBcXHDJnFg`
-</column>
-<column width-ratio="0.485284">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了一个工作流程相关界面截图，左侧显示工作流运行
 > 示意图 @@@@ 图片展示了一个工作流程相关界面截图，左侧显示工作流运行成功及输入信息，右侧为操作详情，含文件路径、输入内容等，还能看到选项设置及不同状态下的回复示例，可能用于介绍工作流配置及运行相关功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BK3EbaVUVobHHXxGNG8chFIbnOl) · `BK3EbaVUVobHHXxGNG8chFIbnOl`
-</column>
+
 </grid>
 
 1. 文本问题，给出用户案例然后接受用户消息进行解析梳理，给一个加载进度条，下一步是大模型解析问题
 
 <grid>
-<column width-ratio="0.311894">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片呈现了用户“Chen”与“汽车服务知识库v2”的聊
 > 示意图 @@@@ 图片呈现了用户“Chen”与“汽车服务知识库v2”的聊天界面。“Chen”表示记录问题只需告知问题和答案，随后发送发动机故障灯亮的问题及解决方法，“汽车服务知识库v2”回复正在理解梳理问题，界面底部还有一个卡通鲸鱼形象。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LRkMbTCHhovITdxpV5CcA98Wn0f) · `LRkMbTCHhovITdxpV5CcA98Wn0f`
-</column>
-<column width-ratio="0.688106">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot手动入库流程中“文本问题”节点
 > 图片展示了Coze汽车售后服务知识库Bot手动入库流程中“文本问题”节点的三个关键步骤。第一步，用户输入问题，系统给出加载进度条；第二步，大模型解析问题，有数据则入库，无数据流程结束；第三步，入库成功后询问用户是否需要检查入库，还输出了调用案例。此图直观呈现了流程中大模型解析问题这一核心环节，与上下文对“文本问题”节点流程的描述相契合。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TwwpbhryQoukitxcpB9codgEn6c) · `TwwpbhryQoukitxcpB9codgEn6c`
-</column>
+
 </grid>
 
 让大模型解析，如果有数据进行入库，如果没有直接结束流程，入库完成后询问用户是否需要检查入库（入库查询放在最后讲）
 
 <grid>
-<column width-ratio="0.375258">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot手动入库流程中入库查询环节的
 > 图片展示的是Coze汽车售后服务知识库Bot手动入库流程中入库查询环节的对话界面。界面显示已提炼1个问题，问题列表为“发动机故障灯亮”，解决方案数据已入库。。接着询问是否需要检查入库结果，有“需要”和“不用”两个选项，用户Chen选择了“需要”。最后，汽车服务知识库v2提示用户发送入库问题，如“发动机故障灯亮”。该图片直观呈现了流程中入库查询环节的对话内容及用户选择情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Rsdlbm49MoONuCxMVzocNTDInte) · `Rsdlbm49MoONuCxMVzocNTDInte`
-</column>
-<column width-ratio="0.624742">
+
 > [!abstract]- 🖼 流程图 @@@@ 图片展示了一系列界面及界面间的流程关系，界面上有各类选
 > 流程图 @@@@ 图片展示了一系列界面及界面间的流程关系，界面上有各类选项设置等内容，通过蓝色线条连接，呈现出操作流程。结合上下文，这可能是在阐述某个系统或应用程序的操作步骤流程。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IjNWbpLFvoUXTTxi2Rkcd1EEnVc) · `IjNWbpLFvoUXTTxi2Rkcd1EEnVc`
-</column>
+
 </grid>
 
 解析问题提示词：
@@ -883,69 +853,65 @@ tags:
 1. 解析链接，给出具体链接调用读取链接插件读取网页内容，给一个加载进度条，下一步是大模型解析问题
 
 <grid>
-<column width-ratio="0.279297">
+
 > [!abstract]- 🖼 图片展示的是一个对话界面，用户Chen发送了链接“https://bai
 > 图片展示的是一个对话界面，用户Chen发送了链接“https://baijiahao.baidu.com/s?id=1729781487905070798&wfr=spider&for=pc”。下方显示“汽车服务知识库v2”，有“链接内容读取完毕”“网页内容解析完毕”提示，还有一只蓝色鲸鱼图案，下方有一个蓝色进度条。该图片对应文档中“解析链接，给出具体链接调用读取链接插件读取网页内容，给一个加载进度条，下一步是大模型解析问题”这一流程步骤，直观呈现了读取链接及解析网页内容后的状态。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HYuWbMjxPo0HHkxIeogc9AjLnNd) · `HYuWbMjxPo0HHkxIeogc9AjLnNd`
-</column>
-<column width-ratio="0.720703">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot手动入库流程中的一个节点，即文
 > 图片展示了Coze汽车售后服务知识库Bot手动入库流程中的一个节点，即文本问题节点。用户输入“维修手册”后，系统给出加载进度条，随后调用大模型解析问题。大模型解析后，若无数据则结束流程，若有数据则入库，入库成功后询问用户是否需要检查入库。此图直观呈现了该节点的流程走向，与上下文对文本问题节点的描述相契合，是整个手动入库流程中一个关键步骤的可视化呈现。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JMeCbd6mdodvl9xqkIZccBAvnJg) · `JMeCbd6mdodvl9xqkIZccBAvnJg`
-</column>
+
 </grid>
 
 让大模型解析，如果有数据进行入库，如果没有直接结束流程，入库完成后询问用户是否需要检查入库（入库查询放在最后讲）
 
 <grid>
-<column width-ratio="0.311496">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片显示一个界面，上方提示已经提炼10个问题，并列出尾
 > 示意图 @@@@ 图片显示一个界面，上方提示已经提炼10个问题，并列出尾气冒蓝烟、轮胎破损等10个问题。下方显示解决方案数据已入库，并询问是否需要检查入库结果，有“需要”和“不用”两个选项。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/O0KtbVzAxoT7kQxdO8Ncps76nEc) · `O0KtbVzAxoT7kQxdO8Ncps76nEc`
-</column>
-<column width-ratio="0.688504">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot手动入库流程中的问答节点、大模
 > 图片展示了Coze汽车售后服务知识库Bot手动入库流程中的问答节点、大模型节点、循环节点、插件节点等关键节点。其中，问答节点用于解析用户输入，大模型节点负责解析问题，循环节点用于重复执行任务，插件节点调用读取链接插件读取网页内容，数据库节点用于数据入库。该图与文档中介绍的26个节点的流程拆解分析上下文对应，直观呈现了各节点在流程中的位置和作用。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DUHjbRJh5oHkJnx25Z5cW8ICnIb) · `DUHjbRJh5oHkJnx25Z5cW8ICnIb`
-</column>
+
 </grid>
 
 1. 入库查询，前两个流程入库成功后会询问调用同时也支持单独菜单调用，输出调用案例，然后接受用户输入查询数据库。
 
 <grid>
-<column width-ratio="0.523077">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了“汽车服务知识库v2”与用户“Chen”的对
 > 示意图 @@@@ 图片展示了“汽车服务知识库v2”与用户“Chen”的对话界面。“汽车服务知识库v2”询问用户的学习方式，提供了记录问题、解析链接、搜索问题三种选项。用户“Chen”选择了搜索问题，随后“汽车服务知识库v2”提示发送入库问题。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DZC9bsRHzosKiPxbjAOcGk9DnKK) · `DZC9bsRHzosKiPxbjAOcGk9DnKK`
-</column>
-<column width-ratio="0.476923">
+
 > [!abstract]- 🖼 图片展示了Coze汽车售后服务知识库Bot的问答节点流程。左侧为问答节点
 > 图片展示了Coze汽车售后服务知识库Bot的问答节点流程。左侧为问答节点，输入为用户消息，输出为大模型解析问题；中间为大模型节点，输入为大模型解析问题，输出为大模型解析结果；右侧为选择器节点，输入为大模型解析结果，输出为选择器结果。流程中还包含数据库节点，用于数据入库。该图片与文档中手动入库流程分析上下文对应，直观呈现了问答节点、大模型节点、选择器节点等关键节点的连接关系及数据流转情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/R1MIbXmQEodCuzxbkQWcYNpUnXd) · `R1MIbXmQEodCuzxbkQWcYNpUnXd`
-</column>
+
 </grid>
 
 判断查询结果，有的话通过文本处理显示输出结果，没有直接走结束流程。
 
 <grid>
-<column width-ratio="0.344767">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了用户“Chen”与“汽车服务知识库v2”的对
 > 示意图 @@@@ 图片展示了用户“Chen”与“汽车服务知识库v2”的对话界面。用户发送“刹车失灵”的问题，系统回复已查询到结果，并给出先重复踩踏刹车踏板等应对刹车失灵的操作建议。此图与汽车服务知识库相关，体现了知识库对用户问题的反馈。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/J0GJb5UvsoZrPOxeUuBcDhhlngb) · `J0GJb5UvsoZrPOxeUuBcDhhlngb`
-</column>
-<column width-ratio="0.655233">
+
 > [!abstract]- 🖼 流程图 @@@@ 图片展示了一个流程交互图，包含多个操作模块，各模块间以
 > 流程图 @@@@ 图片展示了一个流程交互图，包含多个操作模块，各模块间以蓝色线条相连表示流程走向，模块内有相关操作设置选项，可能用于说明某个系统或功能的操作流程步骤。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/PVwHbWXoFoTCyExqV5bcaWVnnDe) · `PVwHbWXoFoTCyExqV5bcaWVnnDe`
-</column>
+
 </grid>
 
 该Bot所有独立功能完毕
@@ -998,24 +964,22 @@ Bot提示词：
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UrSlbSkBSofON7xndGkcscrOnif) · `UrSlbSkBSofON7xndGkcscrOnif`
 
 <grid>
-<column width-ratio="0.217933">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示的是编辑快捷指令的界面。界面中有指令名称、指令
 > 示意图 @@@@ 图片展示的是编辑快捷指令的界面。界面中有指令名称、指令描述、工具、组件、指令内容等输入区域，其中指令名称输入框已输入“/ set”，指令内容输入框已输入“set”，用户可按需求添加组件等信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Hl3JbTqqlomfYPxbCgqc1KfCnHL) · `Hl3JbTqqlomfYPxbCgqc1KfCnHL`
-</column>
-<column width-ratio="0.386797">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot中服务顾问角色的设置界面。左
 > 图片展示的是Coze汽车售后服务知识库Bot中服务顾问角色的设置界面。左侧为指令描述区域，输入“服务顾问单独流程”。工具部分勾选“直接使用插件、工作流或图像流”，并选择“car_service_advisor”。组件部分有售后问题组件，其描述为文本类型，对应参数为input。右侧是服务顾问角色的输入框，显示“售后问题”，并有“确认”和“取消”按钮。该图片与文档中服务顾问角色设置的内容相关，直观呈现了设置界面及部分组件配置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/W1fIbT16XouTEkxi0eUc4Ufnnxd) · `W1fIbT16XouTEkxi0eUc4Ufnnxd`
-</column>
-<column width-ratio="0.395270">
+
 > [!abstract]- 🖼 图片展示的是Coze汽车售后服务知识库Bot的“技术维修”角色界面。左侧
 > 图片展示的是Coze汽车售后服务知识库Bot的“技术维修”角色界面。左侧为组件设置区域，有用户问题、顾问提问、用户回答三个组件，对应参数分别为input、quest...、answer。右侧是“技术维修”对话框，包含用户问题、顾问提问、用户回答三个输入框。该图片与文档中Bot提示词部分上下文相关，直观呈现了在“技术维修”角色下Bot的组件设置及对话框样式，体现了Bot在售后顾问和技术维护人员角色转换中的灵活设计。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IA8bb5sa1oRfHsxbyqkcQ0tJnNb) · `IA8bb5sa1oRfHsxbyqkcQ0tJnNb`
-</column>
+
 </grid>
 
 ## 亮点

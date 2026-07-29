@@ -92,18 +92,17 @@ tags:
 **请注意操作系统版本的限制**
 
 <grid>
-<column width-ratio="0.511507">
+
 > [!abstract]- 🖼 图片展示的是Ollama官网页面，上方有卡通羊驼图案，下方文字为“Get
 > 图片展示的是Ollama官网页面，上方有卡通羊驼图案，下方文字为“Get up and running with large language models”，并列出了可运行的模型，如Llama 3.3、DeepSeek-R1等。页面中部有一个黑色的“Download”按钮，下方标注“Available for macOS, Linux, and Windows”。该图片对应文档中“安装模型管理器”部分，是进入Ollama官网后显示的页面，提示用户可在此下载适用于不同操作系统的模型管理器。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/AtWObTZL8ouwmqx0rYScAaUInlh) · `AtWObTZL8ouwmqx0rYScAaUInlh`
-</column>
-<column width-ratio="0.488493">
+
 > [!abstract]- 🖼 图片展示的是Ollama模型管理器的下载页面。页面上方显示“Downlo
 > 图片展示的是Ollama模型管理器的下载页面。页面上方显示“Download Ollama”，下方有macOS、Linux、Windows三个操作系统选项，其中Windows选项被红色箭头指向，且下方提示“Requires Windows 10 or later”。该图片与文档中“安装模型管理器”部分的上下文相关，用于说明在下载Ollama时，需根据自身电脑操作系统选择对应的版本，且特别指出Windows版本有系统版本限制，需使用Windows 10或更高版本。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Dyp8b48kcoMJyFxzLDdc2MLDntc) · `Dyp8b48kcoMJyFxzLDdc2MLDntc`
-</column>
+
 </grid>
 
 第二步：下载Ollama到本地，并且安装到自己电脑上

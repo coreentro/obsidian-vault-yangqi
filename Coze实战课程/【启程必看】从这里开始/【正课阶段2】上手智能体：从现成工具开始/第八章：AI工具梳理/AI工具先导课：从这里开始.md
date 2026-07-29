@@ -36,4 +36,5 @@ tags:
 这节课是整章的一个导览，必看
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="AoOCb9qyHoxLYtx2o1ics8PcnQc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/AoOCb9qyHoxLYtx2o1ics8PcnQc) · `AoOCb9qyHoxLYtx2o1ics8PcnQc`

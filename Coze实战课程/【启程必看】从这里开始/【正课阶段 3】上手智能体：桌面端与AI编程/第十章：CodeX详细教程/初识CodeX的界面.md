@@ -44,4 +44,5 @@ tags:
 
 本节课直接看下面的视频 
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="EwIGbQDCMowGYcxBLKecevBKnSg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/EwIGbQDCMowGYcxBLKecevBKnSg) · `EwIGbQDCMowGYcxBLKecevBKnSg`

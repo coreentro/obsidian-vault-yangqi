@@ -32,7 +32,8 @@ tags:
 
 <readonly-block href="https://player.bilibili.com/player.html?bvid=1is421N72j&amp;spm_id_from=333.788&amp;vd_source=290a2836f7818edc2c18c6eb525d4abe" type="iframe"></readonly-block>
 
-<figure view-type="Preview"><source mime="application/pdf" token="TG2HbCPpBo7ayBx9YRncTky4nnd"/></figure>
+> [!warning]- 📎 附件（`application/pdf`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/TG2HbCPpBo7ayBx9YRncTky4nnd) · `TG2HbCPpBo7ayBx9YRncTky4nnd`
 
 <callout emoji="📄">
 # 概览
@@ -115,4 +116,4 @@ tags:
 
 # 相关会议纪要
 
-<callout emoji="📌"><p><cite doc-id="DTEedj6CBoDJXGxQEDzclGQfnCb" file-type="docx" title="「共学快闪活动」 AI Agent篇  Coze搭建 2024年5月11日" type="doc"></cite></p><p><cite doc-id="Tq6vdpmW5oW0IlxNwB4cp1CqnIf" file-type="docx" title="5月10日 罗文分享「共学快闪活动」 AI Agent篇 认识插件" type="doc"></cite></p><p><cite doc-id="UEC7dF0xzoY7dMxDgIqccd4fnwk" file-type="docx" title="5月8日 大圣分享《Coze全流程搭建 》" type="doc"></cite></p><p><cite doc-id="FEgAd81d1oLY1wx6DrScjzfdn3e" file-type="docx" title="「共学快闪活动」 AI Agent篇  Coze搭建 2024年5月7日" type="doc"></cite></p><p></p></callout>
+<callout emoji="📌"><p>[「共学快闪活动」 AI Agent篇  Coze搭建 2024年5月11日](https://axsppz4oyvj.feishu.cn/docx/DTEedj6CBoDJXGxQEDzclGQfnCb)</p><p>[5月10日 罗文分享「共学快闪活动」 AI Agent篇 认识插件](https://axsppz4oyvj.feishu.cn/docx/Tq6vdpmW5oW0IlxNwB4cp1CqnIf)</p><p>[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0507/5月8日 大圣分享《Coze全流程搭建 》|5月8日 大圣分享《Coze全流程搭建 》]]</p><p>[「共学快闪活动」 AI Agent篇  Coze搭建 2024年5月7日](https://axsppz4oyvj.feishu.cn/docx/FEgAd81d1oLY1wx6DrScjzfdn3e)</p><p></p></callout>

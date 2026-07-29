@@ -115,7 +115,7 @@ openclaw update
 
 [OpenClaw飞书官方插件上线｜一文讲清功能、安装更新教程与常见问题！ - 飞书官网](https://www.feishu.cn/content/article/7613711414611463386)
 
-<cite doc-id="MFK7dDFLFoVlOGxWCv5cTXKmnMh" file-type="docx" title="OpenClaw 飞书官方插件使用指南（公开版） | OpenClaw Feishu Official Plugin User Guide (Public Version )" type="doc"></cite>
+[OpenClaw 飞书官方插件使用指南（公开版） | OpenClaw Feishu Official Plugin User Guide (Public Version )](https://axsppz4oyvj.feishu.cn/docx/MFK7dDFLFoVlOGxWCv5cTXKmnMh)
 
 ## 1）安装并开启飞书官方插件
 

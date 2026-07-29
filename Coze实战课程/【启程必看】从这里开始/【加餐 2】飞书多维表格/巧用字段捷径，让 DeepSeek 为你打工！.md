@@ -156,12 +156,11 @@ tags:
 **请务必注意：这里的选题四个字，是要用引用字段替换的，这里的《选题》指的其实是第一个字段中的内容**
 
 <grid>
-<column width-ratio="0.555422">
+
 ![图片展示了在飞书多维表格中针对DeepSeek配置字段捷径的操作界面。画面中有一个红色框突出显示“引用字段”按钮，旁边有红色箭头指向。下方输入指令区域，提示词中“选题”处有红色框标注，旁边有红色箭头指向，提示“请务必注意：这里的选题四个字，是要用引用字段替换的，这里的《选题》指的其实是第一个字段中的内容”。该图片与上下文紧密相关，直观呈现了在输入指令时引用字段的操作位置，帮助用户明确操作步骤。](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZGNhMjUxZGFhMWI0YzY1ZWMwNTRiMmVmMzZlZjhjN2ZfNTcxODYzMjljNWRkY2Q5MWVmMDViYjUxY2FmOTUzMmNfSUQ6NzUwNzMwMzI5OTAyOTIzNzc4OF8xNzg1Mjk5NjUzOjE3ODUzMDMyNTNfVjM)
-</column>
-<column width-ratio="0.444578">
+
 ![这张图展示了配置字段捷径的输入指令编辑界面，核心是针对DeepSeek配置的操作内容。输入指令区域内包含提示词设置，明确要求创作者结合用户提供的选题创作1分钟口播脚本，同时标注了需替换为引用字段的“选题”项，且该选题项已手动填入。界面左侧带有相关要求的勾选框，涵盖干货与趣味性平衡、脚本匹配视频时长等内容，顶部有红色箭头指向标注文字“这里会与众不同”，对应文档中针对DeepSeek配置字段捷径的步骤说明，呈现了设置字段捷径的关键操作界面。](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=YmFiNzVkMTFhNWE0MzQwMTdmYTRjOTM4YTY4ODgzYzZfMDEwOTQ2YTU1YzcyOTQ5MzJjMTMzZTVmOTI5ZGY0YmVfSUQ6NzUwNzMwMzI5NzY1MjAzMTQ4OV8xNzg1Mjk5NjUzOjE3ODUzMDMyNTNfVjM)
-</column>
+
 </grid>
 
 最后点击确定，这里点击生成，咱们看下效果
@@ -254,4 +253,4 @@ tags:
 
 尤其是常年跟 Excel打交道的朋友，我强烈建议你尝试下飞书多维表格，我相信你会爱上他的
 
-另外我已经将本文的案例做成飞书多维表格模板，<cite doc-id="Hpazwbew6iGcrZkF0WgcvjqMnxf" file-type="wiki" title="【学习案例】短视频文案创作工作流" type="doc"></cite>
+另外我已经将本文的案例做成飞书多维表格模板，[【学习案例】短视频文案创作工作流](https://axsppz4oyvj.feishu.cn/wiki/Hpazwbew6iGcrZkF0WgcvjqMnxf)

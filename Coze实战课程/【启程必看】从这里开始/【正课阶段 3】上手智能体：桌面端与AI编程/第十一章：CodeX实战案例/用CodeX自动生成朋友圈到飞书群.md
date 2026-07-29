@@ -44,18 +44,17 @@ tags:
 这节课我就带着大家完整去复现这个案例
 
 <grid>
-<column width-ratio="0.611284">
+
 > [!abstract]- 🖼 图片展示了大圣关于朋友圈日供的实践内容。三个月前，他依托Claude C
 > 图片展示了大圣关于朋友圈日供的实践内容。三个月前，他依托Claude Code + Codex + Obsidian + 飞书，打造了内容OS，将每天思考、阅读沉淀其中。但产出端利用少，原始素材沉睡。他让Codex写朋友圈日供skill，每天早上8:30扫描昨天内容，生成5条朋友圈，自己改动并定稿。Codex需对比初稿和改动，优化朋友圈写作，再定时推送到飞书，提醒发朋友圈时间。此实践让大圣复盘、记录自己，让外界看见变化。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/EOUzbOpd1ob1WKxNBgYcQXo0nWb) · `EOUzbOpd1ob1WKxNBgYcQXo0nWb`
-</column>
-<column width-ratio="0.388716">
+
 > [!abstract]- 🖼 图片展示的是飞书CLI智能体“朋友圈助手”发送的一条朋友圈日供消息。消息
 > 图片展示的是飞书CLI智能体“朋友圈助手”发送的一条朋友圈日供消息。消息显示时间为09:30，来源为20260706朋友圈日供，配有链接图片。内容提到作者下定决心实践将80%朋友圈改成由内容OS“日供”；三个月前依托Claude Code + Codex + Obsidian + 飞书打造内容OS，已沉淀思考、阅读素材；因产出端利用少，素材闲置；想打造完美启动链路，但需打磨；昨天让Codex帮写朋友圈日供skill，逻辑是每天早上8:30扫描昨天内容，产出5条朋友圈，作者会改动并定稿。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/W0MObpIqzoOLq2xOfLWcacT5ntc) · `W0MObpIqzoOLq2xOfLWcacT5ntc`
-</column>
+
 </grid>
 
 ---
@@ -75,10 +74,10 @@ tags:
 
 这节课它依赖的知识点有：
 
-1. 如何借助 CodeX 去打造自己的系统：<cite doc-id="Ghr2wvUXkiVcRukGgThcEWZEnsd" file-type="wiki" title="一个贯穿始终的学习案例" type="doc"></cite>
-2. Skill 是什么？<cite doc-id="V9pbweJb0iZVFjk5jskcVJPMnQd" file-type="wiki" title="【必看理论篇】面向小白的Skills保姆级教程" type="doc"></cite>
-3. 飞书 CLI 是什么？<cite doc-id="NFRwwaLKDiM6J7k8KGecqNg2nle" file-type="wiki" title="智能体跟外部打交道的第三种方式" type="doc"></cite>
-4. Codex 的自动化能力是什么？<cite doc-id="U4b1wgWi1iwJ9pk6fxTcXtRFnXc" file-type="wiki" title="CodeX的自动化能力" type="doc"></cite>
+1. 如何借助 CodeX 去打造自己的系统：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/一个贯穿始终的学习案例|一个贯穿始终的学习案例]]
+2. Skill 是什么？[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/【必看理论篇】面向小白的Skills保姆级教程|【必看理论篇】面向小白的Skills保姆级教程]]
+3. 飞书 CLI 是什么？[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/智能体跟外部打交道的第三种方式|智能体跟外部打交道的第三种方式]]
+4. Codex 的自动化能力是什么？[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/CodeX的自动化能力|CodeX的自动化能力]]
 
 # 二、这个案例解决什么问题
 
@@ -121,7 +120,8 @@ tags:
 
 我通过视频来给大家讲解一下我生成朋友圈的逻辑，以及它使用的 skill
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="PAnYbWAzRoAH56xmhtPcHJ2Wn3f"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/PAnYbWAzRoAH56xmhtPcHJ2Wn3f) · `PAnYbWAzRoAH56xmhtPcHJ2Wn3f`
 
 > [!abstract]- 🖼 该图是文档中生成朋友圈的逻辑框架图，对应文档中“第一步：生成朋友圈的逻辑
 > 该图是文档中生成朋友圈的逻辑框架图，对应文档中“第一步：生成朋友圈的逻辑”相关内容。图中展示了朋友圈日供内容的全流程：首先由朋友圈日供定时任务每天8点半执行产出日供文档，且每1小时执行一次；之后系统扫描前一天的素材，分别对应技能1“ds-moments-supply”和技能2“ds-moments-writer”；两个技能处理后生成每日一份的日供文档，再经人工编辑成朋友圈终稿，最后对比AI初稿与人编终稿的差异，以此优化技能。
@@ -139,11 +139,12 @@ tags:
 
 **我们这节课讲的其实是第一种，不要搞混了**
 
-这部分能力靠的是飞书 CLI：<cite doc-id="NFRwwaLKDiM6J7k8KGecqNg2nle" file-type="wiki" title="智能体跟外部打交道的第三种方式" type="doc"></cite>
+这部分能力靠的是飞书 CLI：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/智能体跟外部打交道的第三种方式|智能体跟外部打交道的第三种方式]]
 
 我们继续看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="PvFJbpir7oyMImxJzFicp2rnnff"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/PvFJbpir7oyMImxJzFicp2rnnff) · `PvFJbpir7oyMImxJzFicp2rnnff`
 
 # 写在最后
 

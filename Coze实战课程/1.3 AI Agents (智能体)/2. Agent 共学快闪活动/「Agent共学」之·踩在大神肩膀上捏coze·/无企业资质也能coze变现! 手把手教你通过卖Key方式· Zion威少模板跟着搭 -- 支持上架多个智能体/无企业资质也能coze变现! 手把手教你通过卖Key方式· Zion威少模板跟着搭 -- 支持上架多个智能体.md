@@ -45,9 +45,9 @@ tags:
 
 上节课分享了如何用 **Zion** 把你的 **Coze** **bot** 打造成一个能赚钱的工具——从前端页面的设计到用户支付链路的搭建，一步步教你将 AI 变现。
 
-点击回顾往期内容👉🏻 <cite doc-id="S7RawHvyeiMerkk17INcbbNWnTe" file-type="wiki" title="Coze变现模板全新升级：【一键配置版】 函子(Zion)让你快速用智能体赚钱!" type="doc"></cite>
+点击回顾往期内容👉🏻 [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」之·踩在大神肩膀上捏coze·/Coze变现模板全新升级：【一键配置版】 函子(Zion)让你快速用智能体赚钱!|Coze变现模板全新升级：【一键配置版】 函子(Zion)让你快速用智能体赚钱!]]
 
-这里也分享一个完整的<cite doc-id="DsqAwbp5ciSsIxkdi9cciaEMnOk" file-type="wiki" title="Coze扣子变现指南" type="doc"></cite>，内含变现案例实操分享。
+这里也分享一个完整的[Coze扣子变现指南](https://axsppz4oyvj.feishu.cn/wiki/DsqAwbp5ciSsIxkdi9cciaEMnOk)，内含变现案例实操分享。
 
 <whiteboard token="B914wKbjahZiOzbcdJbcAX4snzb"></whiteboard>
 
@@ -56,21 +56,20 @@ tags:
 - “我开发了不止一个 Coze Bot，但该怎么把多个智能体整合到一个应用中呢？”
 - “没有企业支付宝和营业执照，怎么做收款账户的对接？”
 
-针对这个常见难题，本期特别邀请了Coze + Zion独立开发者威少（B站：赛博画手威少<cite type="user" user-id="ou_d9c56450283d7749785a3da27faed70d" user-name="威少"></cite>）开发的一个**“Coze变现模板（多智能体版）” 无需企业支付宝账号，个人用户也能轻松实现变现和收款。**
+针对这个常见难题，本期特别邀请了Coze + Zion独立开发者威少（B站：赛博画手威少**@威少**）开发的一个**“Coze变现模板（多智能体版）” 无需企业支付宝账号，个人用户也能轻松实现变现和收款。**
 
 <grid>
-<column width-ratio="0.598762">
+
 > [!abstract]- 🖼 图片展示的是B站用户“赛博画手威少”的主页界面。上方有用户头像、昵称及简
 > 图片展示的是B站用户“赛博画手威少”的主页界面。上方有用户头像、昵称及简介，下方有主页、动态、投稿等导航栏。中间部分展示其代表作，如“AI眼中的中国万里江山”“AI眼中的34省市帅哥”等视频，下方有播放时长、点赞数、评论数等信息。右侧有关注、发消息、充电、直播间等板块，还显示其粉丝数、获赞数、播放数等数据。该图片与文档中介绍的Coze变现模板相关，直观呈现了威少在B站的创作及粉丝情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RYOqbUbNGoza5ExJcqlc2uzdnSe) · `RYOqbUbNGoza5ExJcqlc2uzdnSe`
-</column>
-<column width-ratio="0.401238">
+
 > [!abstract]- 🖼 图片图片位于介绍“Coze变现模板（多智能体版）”的文档中，展示了该模板
 > 图片图片位于介绍“Coze变现模板（多智能体版）”的文档中，展示了该模板的页面。页面以紫色为主色调，上方有“威少de Coze变现模板”
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/J92HbmXZoohdjqxig7Ycv3Jbnac) · `J92HbmXZoohdjqxig7Ycv3Jbnac`
-</column>
+
 </grid>
 
 期待用最短的时间、最低的门槛，让你的 Coze bot 真正为你创造价值，实现营收！
@@ -87,87 +86,95 @@ tags:
 
 以下是对比了Zion提供的三个变现模版的功能，多智能体版本
 
-<table><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td></td><td><h8><b>多智能体版</b></h8></td><td><h8><b>一键配置版</b></h8></td><td><h8><b>极简版</b></h8></td></tr><tr><td>模板价格</td><td>专业版（本课程<b>限时免费</b>）</td><td>专业版（本课程<b>限时免费</b>）</td><td>专业版（本课程限时免费）</td></tr><tr><td>支付系统</td><td><b>Key (兑换码) 的方式</b></td><td>支付宝在线支付</td><td>支付宝在线支付</td></tr><tr><td>支付需要资质</td><td><b>个人企业均可</b></td><td>企业资质</td><td>企业资质</td></tr><tr><td>多智能体</td><td><b>支持多智能体</b></td><td>默认单智能体</td><td>默认单智能体｜可二开多智能体</td></tr><tr><td>调用智能体模式</td><td>SDK<br/>功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善</td><td>SDK<br/>功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善</td><td>API<br/>上限高，下限低，自由度高</td></tr><tr><td>推荐指数</td><td>⭐️⭐️⭐️⭐️⭐️</td><td>⭐️⭐️⭐️⭐️⭐️</td><td>⭐️⭐️⭐️</td></tr><tr><td>模版用户端体验链接</td><td>https://coze.weishao.vip/</td><td><a href="https://8397kvn28n1o5.cave.functorz.com/">https://8397kvn28n1o5.cave.functorz.com/</a></td><td><a href="https://4n76rxk0l11w5.cave.functorz.com/">https://4n76rxk0l11w5.cave.functorz.com/</a></td></tr></tbody></table>
+|  | **多智能体版** | **一键配置版** | **极简版** |
+| --- | --- | --- | --- |
+| 模板价格 | 专业版（本课程**限时免费**） | 专业版（本课程**限时免费**） | 专业版（本课程限时免费） |
+| 支付系统 | **Key (兑换码) 的方式** | 支付宝在线支付 | 支付宝在线支付 |
+| 支付需要资质 | **个人企业均可** | 企业资质 | 企业资质 |
+| 多智能体 | **支持多智能体** | 默认单智能体 | 默认单智能体｜可二开多智能体 |
+| 调用智能体模式 | SDK功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善 | SDK功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善 | API上限高，下限低，自由度高 |
+| 推荐指数 | ⭐️⭐️⭐️⭐️⭐️ | ⭐️⭐️⭐️⭐️⭐️ | ⭐️⭐️⭐️ |
+| 模版用户端体验链接 | https://coze.weishao.vip/ | [https://8397kvn28n1o5.cave.functorz.com/](https://8397kvn28n1o5.cave.functorz.com/) | [https://4n76rxk0l11w5.cave.functorz.com/](https://4n76rxk0l11w5.cave.functorz.com/) |
 
 - **品牌自定义：**模板去除了Coze框架痕迹，用户可以自定义品牌标识和界面风格，打造独特的智能体商业形象。
 
   <grid>
-  <column width-ratio="0.536322">
+  
   > [!abstract]- 🖼 图片展示的是Coze品牌自定义功能，背景为深色。左侧有“彻底抹掉Coze
 > 图片展示的是Coze品牌自定义功能，背景为深色。左侧有“彻底抹掉Coze痕迹”字样，中间是一个被多条黑色链条锁住的蓝色方块，方块内有Coze的标志。右侧同样有“彻底抹掉Coze痕迹”字样。该图片与文档中介绍Coze模板核心功能的内容相关，直观呈现了品牌自定义功能，强调能彻底抹掉Coze痕迹，满足用户对品牌自定义的需求。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/T2RsbSYVQopbg7xI2ZPcg1J7nxg) · `T2RsbSYVQopbg7xI2ZPcg1J7nxg`
-  </column>
-  <column width-ratio="0.463678">
+  
+  
   > [!abstract]- 🖼 图片展示的是Weishao平台的首页界面。上方有“首页”“商城”导航栏，
 > 图片展示的是Weishao平台的首页界面。上方有“首页”“商城”导航栏，右上角有“进入智能体”和“用户中心”选项。画面中央以大字突出“低成本智能体变现”及“网站解决方案”，下方配有三个卡通形象和一个紫色存钱罐图案。该图片与文档中介绍的课程模板核心功能相关，直观呈现了平台的首页设计，与文档中提到的低成本智能体变现等内容相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NDxUbre9Uozta4xB5gBcIGennXe) · `NDxUbre9Uozta4xB5gBcIGennXe`
-  </column>
+  
   </grid>
 - **响应式设计：**采用响应式设计，确保应用在手机、平板、电脑等多种设备上均能提供一致的用户体验。
 
   <grid>
-  <column width-ratio="0.535697">
+  
   > [!abstract]- 🖼 图片展示的是Coze平台的响应式设计效果。画面中，多台设备（电脑、平板、
 > 图片展示的是Coze平台的响应式设计效果。画面中，多台设备（电脑、平板、手机）并列摆放，每台设备上都显示着Coze界面，界面内容一致。背景为深色，上方有“响应式设计”大字。该图片位于介绍Coze模板核心功能的段落之后，与上文提到的模板支持多智能体管理、支付与会员体系、全面功能支持等内容相呼应，直观呈现了Coze在不同设备上的应用效果。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MuP0bejr9oSF8Fx84V0cNeAXnrd) · `MuP0bejr9oSF8Fx84V0cNeAXnrd`
-  </column>
-  <column width-ratio="0.464303">
+  
+  
   > [!abstract]- 🖼 图片展示的是Coze平台的页面设计界面。左侧为页面结构，包含顶部导航栏、
 > 图片展示的是Coze平台的页面设计界面。左侧为页面结构，包含顶部导航栏、页面内容区域等。中间部分展示了不同设备（Desktop、Phone、Tablet）的页面布局，呈现了“低成本智能体变现”等内容，有功能特性介绍及示例。右侧是设计相关设置，有数据、行为、内容等选项，还显示了网页ID、网页名称、SEO建议等信息。该图与文档中介绍Coze模板核心功能的内容相关，直观呈现了模板设计界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TVCxbXWk5obNVHxRVaYcPHcOn0c) · `TVCxbXWk5obNVHxRVaYcPHcOn0c`
-  </column>
+  
   </grid>
 - **多智能体管理：**模板支持将多个Coze智能体集成于单一应用中，用户可以自由选择并添加智能体进行对话，实现多智能体的协同工作。
 
   <grid>
-  <column width-ratio="0.536009">
+  
   > [!abstract]- 🖼 图片展示的是智能体市场界面，背景为深色，中间有红色定位图标。上方大字为“
 > 图片展示的是智能体市场界面，背景为深色，中间有红色定位图标。上方大字为“智能体市场”，下方有多个智能体卡片，如“虚拟助手 - 生活”“虚拟助手 - 家庭”“虚拟助手 - 工作”等，卡片上有智能体头像、名称及部分功能介绍。右侧卡片显示“虚拟口音专家”，可为用户提供多种口音变换服务。该图片与文档中介绍的智能体市场相关，直观呈现了智能体市场中智能体的展示形式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DwqAblOLzo41DcxbEhEcXSP4n9c) · `DwqAblOLzo41DcxbEhEcXSP4n9c`
-  </column>
-  <column width-ratio="0.463991">
+  
+  
   > [!abstract]- 🖼 图片展示的是智能体市场页面，标题为“全方位助力智能体商业运作”。页面上有
 > 图片展示的是智能体市场页面，标题为“全方位助力智能体商业运作”。页面上有四个智能体模板，分别是“二次元陪伴-支配恶魔”“儿童陪伴-蜜雪公主”“雅思口语专家”“角色陪伴-苏瑶”，每个模板都有作者、状态（如公开、已添加、专属）及部分描述。该图片与文档中介绍的模板核心功能相关，直观呈现了平台提供的智能体模板，体现了平台助力智能体商业运作的功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/EUwCbfTaboudkVxFjvBc12vPnOh) · `EUwCbfTaboudkVxFjvBc12vPnOh`
-  </column>
+  
   </grid>
 - **支付与会员体系：**平台提供企业资质用户直接配置支付能力，个人用户可通过第三方平台售卖Key进行交易，满足不同用户的商业需求。
 
   <grid>
-  <column width-ratio="0.536322">
+  
   > [!abstract]- 🖼 图片展示了商业闭环的流程，以紫色人形图标代表推广，绿色书本图标代表试用，
 > 图片展示了商业闭环的流程，以紫色人形图标代表推广，绿色书本图标代表试用，蓝色购物袋图标代表购买，绿色打勾图标代表续购。流程用虚线连接，形成闭环。图片下方大字“自由灵活”突出其特点。该图与文档中介绍的支付与会员体系相关，直观呈现了个人用户通过第三方平台售卖Key进行交易的商业闭环流程，契合文档中提到的个人用户可通过第三方平台售卖Key进行交易，满足不同用户商业需求的内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BSBfbsTFko8okyx20aVcORbCndb) · `BSBfbsTFko8okyx20aVcORbCndb`
-  </column>
-  <column width-ratio="0.463678">
+  
+  
   > [!abstract]- 🖼 图片展示的是Weishao平台的购买会员界面。画面中央弹出“购买商品”窗
 > 图片展示的是Weishao平台的购买会员界面。画面中央弹出“购买商品”窗口，显示“您当前正在淘宝商城购买key，购买完成可以前往个人中心进行激活”，并有“去激活”和“关闭”两个按钮。窗口背景为灰色，文字清晰。下方有“年度套餐”和“三年套餐”两个套餐选项，分别标注价格及折扣。该图片与文档中介绍的个人用户可通过第三方平台售卖Key进行交易的内容相关，直观呈现了购买Key的界面情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MdBrbjwqboSo9NxgpJVcV6ven3b) · `MdBrbjwqboSo9NxgpJVcV6ven3b`
-  </column>
+  
   </grid>
 - **全面功能支持：**模板包含工作流管理、文件上传等核心功能，并支持二次开发，用户可根据需求增加如会员到期提醒等个性化功能，扩展应用的商业潜力。
 
   <grid>
-  <column width-ratio="0.535697">
+  
   > [!abstract]- 🖼 图片以深色背景为底，中间是一个绿色的肌肉人形图案，上方大字“功能强大”突
 > 图片以深色背景为底，中间是一个绿色的肌肉人形图案，上方大字“功能强大”突出显示。下方左侧文字为“支持上传 聊天记录保持”，右侧文字为“支持工作流 多智能体聊天”。该图片与文档中介绍的模板核心功能部分相关，直观呈现了模板支持上传聊天记录保持、支持工作流及多智能体聊天等强大功能，与上下文对模板功能的介绍相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Rn92bA4YQoAYOFxb3zXcB3Mznnu) · `Rn92bA4YQoAYOFxb3zXcB3Mznnu`
-  </column>
-  <column width-ratio="0.464303">
+  
+  
   > [!abstract]- 🖼 图片展示的是“儿童陪伴 - 蜜雪公主”智能体的对话界面。左侧为用户列表，
 > 图片展示的是“儿童陪伴 - 蜜雪公主”智能体的对话界面。左侧为用户列表，有“角色陪伴 - 苏瑶”“儿童陪伴 - 蜜雪公主”“二次元陪伴 - 配音恶魔”等。右侧是对话内容，蜜雪公主欢迎小朋友探索魔法世界，用户可选择听故事、有小烦恼求助或询问森林动物是否会讲话。该图片与文档中介绍的“儿童陪伴 - 蜜雪公主”模板功能相关，直观呈现了智能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HnorblmMho1C4jxuvAYcQ0oXnD1) · `HnorblmMho1C4jxuvAYcQ0oXnD1`
-  </column>
+  
   </grid>
 
 # 三、七步完成基础配置
@@ -175,7 +182,7 @@ tags:
 ### **步骤1：注册并领取代金券**
 
 <grid>
-<column width-ratio="0.500000">
+
 #### 未注册过Zion
 1. 注册Zion无代码  zion.functorz.com）
 2. 填写邀请码**“  coze  ”**
@@ -184,8 +191,7 @@ tags:
 > 图片展示的是Zion平台的注册页面。页面上方显示“手机验证码登录即注册！”，下方有手机号和邮箱/用户名输入框。已输入手机号“1327”，并有验证码输入框，验证码为“234567”。页面底部有“邀请码（选填）”输入框，提示“输入coze作为邀请码可以获得专业版体验券”，并有蓝色“登录”按钮。该图片与文档中“步骤1：注册并领取代金券”内容相关，指导用户在Zion平台注册时输入coze作为邀请码以获取专业版体验券。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/I0vobD7wKoMDskxsVClc8d81nk3) · `I0vobD7wKoMDskxsVClc8d81nk3`
-</column>
-<column width-ratio="0.500000">
+
 #### 已注册Zion 
 1. 点击账号信息-用户名
 2. 填写表单[💰Zion专业版券申请>>>](https://waytoagi.feishu.cn/share/base/form/shrcnNu2GlzHNO4mUQnOeGPrd5x) 
@@ -198,7 +204,7 @@ tags:
 > 图片展示了Zion平台的个人空间页面。左侧为导航栏，有“最近打开”“个人空间”“共享空间”“原子科技”等选项。右侧推荐内容有“5分钟带你入门函数”“10分钟进阶学习”等。右侧弹出“我的钱包”窗口，显示余额为0.00元，有1张券可使用，券名为“229 - Coze变现模板福利”，有效期至2024年12月31日。该图片与文档中“已注册Zion”步骤相关，用于说明领取代金券后可在个人空间查看券信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IGkMbK5VnoJpwox4aYbcMg6gnph) · `IGkMbK5VnoJpwox4aYbcMg6gnph`
-</column>
+
 </grid>
 
 ## **步骤2：创建模板并升级版本**
@@ -206,18 +212,17 @@ tags:
 选择“Coze变现模板（多智能体版）”并“新建项目”，记得使用代金券进行抵扣。
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是Zion平台的新建项目页面。页面上方有“帮助信息”“Zion
 > 图片展示的是Zion平台的新建项目页面。页面上方有“帮助信息”“Zion学院”“进入社区”等导航栏。中间区域有“为帮你准备了一些模板”提示，下方有多个模板选项，其中“Coze变现模板（多智能体）”被红色框突出显示，其下方标注“商业版+”，并配有“威少Coze变现模板”等文字及多智能体示意图。该图片与文档中“步骤2：创建模板并升级版本”内容相关，用于指导用户在Zion平台选择Coze变现模板进行项目创建。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/FwoEbahOFoWS2oxvtVWc1SU2nOf) · `FwoEbahOFoWS2oxvtVWc1SU2nOf`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片为Z addCriterion
 > 图片为Z addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DsVBbWG9aoTVCKx3ck8cFcTMn7b) · `DsVBbWG9aoTVCKx3ck8cFcTMn7b`
-</column>
+
 </grid>
 
 ### **步骤3：添加智能体**
@@ -227,18 +232,17 @@ tags:
 - **获取 Bot ID**：进入你的Coze智能体页面，在地址栏内复制“ bot/”之后的数字，并且 bot 发布时记得勾选**WEB SDK。**
 
 <grid>
-<column width-ratio="0.656220">
+
 > [!abstract]- 🖼 图片展示了Zion项目中智能体的URL地址部分，其中“bot”后方的数字
 > 图片展示了Zion项目中智能体的URL地址部分，其中“bot”后方的数字“7391785158212468748”被红框突出显示。这与文档中“在Zion项目中添加智能体：回到模板项目，在‘coze_bot’数据表中添加你的智能体”的内容相关，用于说明在“coze_bot”数据表中添加智能体时，需将智能体的ID（即该数字）填入对应字段，以完成基础配置步骤。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TTvtbWvNhocOS3xUXKtcmSE4nVc) · `TTvtbWvNhocOS3xUXKtcmSE4nVc`
-</column>
-<column width-ratio="0.343780">
+
 > [!abstract]- 🖼 图片展示的是Zion项目中“发布”页面，重点突出“API”和“Web S
 > 图片展示的是Zion项目中“发布”页面，重点突出“API”和“Web SDK”选项。页面上方有“发布”按钮，下方列表中显示多个智能体，如“科助小助手”“科助企业号”等。图片中红色框和箭头分别指向“API”和“Web SDK”选项，表明在Zion项目中添加智能体时，可选择这两种API类型。这与上下文介绍在“coze_bot”数据表中添加智能体的内容相呼应，直观呈现了添加智能体时的API选择界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RSaib0t0So3xAhx6YlBcHYDdn61) · `RSaib0t0So3xAhx6YlBcHYDdn61`
-</column>
+
 </grid>
 
 - **在 Zion 项目中添加智能体：**回到模板项目，在“coze_bot”数据表中添加你的智能体。
@@ -409,7 +413,7 @@ Coze变现模板为你搭建了基础框架，你完全可以在此基础上进�
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JcYcb7EI6oy7Y9xvRiEcxqX0nYe) · `JcYcb7EI6oy7Y9xvRiEcxqX0nYe`
 
-这里再分享一份<cite doc-id="DsqAwbp5ciSsIxkdi9cciaEMnOk" file-type="wiki" title="Coze扣子变现指南" type="doc"></cite> 里面也有一些收费变现的模式可以参考。同时，Zion后台也支持自定义的UI、模式的修改
+这里再分享一份[Coze扣子变现指南](https://axsppz4oyvj.feishu.cn/wiki/DsqAwbp5ciSsIxkdi9cciaEMnOk) 里面也有一些收费变现的模式可以参考。同时，Zion后台也支持自定义的UI、模式的修改
 
 > [!abstract]- 🖼 图片展示了Coze扣子变现平台的界面。左侧为卡券购买页面，有购买次卡、会
 > 图片展示了Coze扣子变现平台的界面。左侧为卡券购买页面，有购买次卡、会员权益等选项，如10次卡7.99元等。中间是开通套餐包页面，有5元200点、20元800点等套餐，可立即支付5元。右侧是订阅详情页面，显示空间点消耗记录、订阅与空间点规则等内容，有确认订阅按钮。该图片与文档中介绍Coze扣子变现平台的内容相关，直观呈现了平台的部分功能和界面。
@@ -422,9 +426,9 @@ Coze变现模板为你搭建了基础框架，你完全可以在此基础上进�
 
 视频教程：[https://bilibili.com/video/BV1vLkGYzEs8/?spm_id_from=333.999.0.0](https://bilibili.com/video/BV1vLkGYzEs8/?spm_id_from=333.999.0.0)
 
-文档：<cite doc-id="W3Wmdb9ROohd3AxMmwecMDIWnH4" file-type="docx" title="Coze Chat代码组件使用教程" type="doc"></cite>
+文档：[Coze Chat代码组件使用教程](https://axsppz4oyvj.feishu.cn/docx/W3Wmdb9ROohd3AxMmwecMDIWnH4)
 
-# 五、相关能力介绍<cite type="user" user-id="ou_50024cab859a7e8e51e04bc10d959b66" user-name="覃貌"></cite>
+# 五、相关能力介绍**@覃貌**
 
 1. **以 API 形式链接 Zion 和 Coze：同理也可以为dify \ kimi \给任何大模型&Agent制作收费前端**  
 [【 30分钟教程 】打破 AI 次元壁，普通人的 AI 创意变现通天指南_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1nis7ezEc5/?vd_source=dc233cc83d58fe60385a17c6f65fb8a2)[【 1小时教程 】简简单单用Zion实现coze变现_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1bGeteMEsG/?vd_source=dc233cc83d58fe60385a17c6f65fb8a2)
@@ -433,20 +437,19 @@ Coze变现模板为你搭建了基础框架，你完全可以在此基础上进�
 4. Zion支持小程序，Web，AI行为流全栈搭建，APP端全栈搭建2025上线
 
 <grid>
-<column width-ratio="0.532927">
+
 ### 💰**Coze变现指南&AI案例库**
 [Coze扣子变现指南 - 飞书云文档](https://go.functorz.com/1sQmlnSp)
 > [!abstract]- 🖼 图片展示的是“Coze扣子变现指南”页面，标题醒目写着“扣子变现指南 零
 > 图片展示的是“Coze扣子变现指南”页面，标题醒目写着“扣子变现指南 零代码接入支付 保姆级教程”。页面中介绍了了解Coze扣子的相关内容，有Coze扣子相关的视频文档，还有Coze扣子bot变现思路，包括平台优势等信息，下方附有智能体实战流程图。该图片与文档中“Coze变现指南&AI案例库”上下文对应，展示了所提及的Coze扣子变现指南文档的具体界面内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/M7RJbrT5GoLFNmxlvmUcZwvonRb) · `M7RJbrT5GoLFNmxlvmUcZwvonRb`
-</column>
-<column width-ratio="0.467073">
+
 ### 💡  社群：**一起让Coze bot 赚起来** 
 欢迎大家在群内分享好玩的agent，交流经验/吐槽\~
 > [!abstract]- 🖼 图片展示的是一个名为“Coze+Zion变现”的微信群二维码。上方有“C
 > 图片展示的是一个名为“Coze+Zion变现”的微信群二维码。上方有“Coze+Zion变现”标题及“Functor Z | 函子科技”字样，左侧有一个带有彩虹图案的机器人头像。下方是二维码，下方文字提示“扫描群二维码，立刻加入该群”，并说明“该二维码永久有效”。该图片位于文档中“💡社群：**一起让Coze bot赚起来**”部分，用于引导用户加入该社群，分享交流Coze bot相关经验。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DNExbjLuToTFgdxSpkwcehhnnvh) · `DNExbjLuToTFgdxSpkwcehhnnvh`
-</column>
+
 </grid>

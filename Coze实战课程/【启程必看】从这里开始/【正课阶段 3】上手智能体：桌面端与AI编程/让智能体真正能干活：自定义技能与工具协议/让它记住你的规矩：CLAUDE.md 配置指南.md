@@ -103,7 +103,8 @@ CLAUDE.md 是一个放在你项目里的文件。这就是一个普通的文本�
 
 # 三、创建你的第一个 CLAUDE.md
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="2160.000000" origin-width="3840.000000" token="WakDb2mkwo7pIYxu5O3cQVBrn3d"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/WakDb2mkwo7pIYxu5O3cQVBrn3d) · `WakDb2mkwo7pIYxu5O3cQVBrn3d`
 
 ## 1）在项目根目录中创建文件
 
@@ -217,7 +218,8 @@ touch CLAUDE.md
 
 ## 用户级：放在你的个人目录
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="BJTrbrlYNoO2YdxaQp2cCEJKnVe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/BJTrbrlYNoO2YdxaQp2cCEJKnVe) · `BJTrbrlYNoO2YdxaQp2cCEJKnVe`
 
 ```Bash
 ~/.claude/

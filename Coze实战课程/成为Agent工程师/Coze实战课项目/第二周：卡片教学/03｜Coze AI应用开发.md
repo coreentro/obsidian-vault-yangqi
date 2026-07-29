@@ -56,7 +56,8 @@ Coze的创意写真馆应用：
 
 https://www.coze.cn/template/project/7442139374751629323?
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1054.000000" origin-width="996.000000" token="Ybstb2eboobDBUxamsucGe3Vnof"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Ybstb2eboobDBUxamsucGe3Vnof) · `Ybstb2eboobDBUxamsucGe3Vnof`
 
 演示完案例，我们接下来就来学习下如何搭建这样一个有意思的应用
 
@@ -74,7 +75,8 @@ https://www.coze.cn/template/project/7442139374751629323?
   
 页面访问（需要魔法）：https://monica.im/share/artifact?id=cYYguyDQYnqdPwxQFebw2B
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="684.000000" origin-width="1066.000000" token="ZStUbZBDnoUzn2xGBN0cFaimnCc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/ZStUbZBDnoUzn2xGBN0cFaimnCc) · `ZStUbZBDnoUzn2xGBN0cFaimnCc`
 
 通过这个案例我想让你先了解一个应用的组成部分，因为在Coze的AI应用创建时，也会包含这几部分
 
@@ -159,18 +161,17 @@ Form表单是一个前端的专业概念，我先跟你用大白话讲解一下�
 简单来讲：表单就是一堆的输入框 + 各种按钮，例如下图，你一定不陌生
 
 <grid>
-<column width-ratio="0.384401">
+
 > [!abstract]- 🖼 图片展示了一张“个人信息登记表”表单。表单包含用户名、手机号码、邮箱地址
 > 图片展示了一张“个人信息登记表”表单。表单包含用户名、手机号码、邮箱地址、出生日期等必填项，还有学历、性别、兴趣爱好等可选项，设有头像上传区域、满意度评分（1 - 5分）以及个人简介填写框，最下方是提交按钮。这张表单与上下文内容相关，上下文提到表单是网页上收集信息的“电子表格”，由一堆输入框和各种按钮组成，此图作为示例，直观呈现了表单的具体样式和构成元素。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GfXrbc5eno1U7axNQyNcaAI6nie) · `GfXrbc5eno1U7axNQyNcaAI6nie`
-</column>
-<column width-ratio="0.615599">
+
 > [!abstract]- 🖼 图片展示的是一个AI翻译示例表单，主要用于从用户侧收集工作流所需的输入参
 > 图片展示的是一个AI翻译示例表单，主要用于从用户侧收集工作流所需的输入参数。表单包含“请输入需要翻译的内容”输入框，提示用户输入翻译内容；“请选择目标语言”下拉框，当前选中“英语”；以及一个黑色的“开始翻译”按钮。该表单与上下文介绍的表单概念相呼应，直观呈现了表单中常见的输入框和按钮元素，帮助理解表单在网页上收集信息的功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YcOcb1SEGo9aTkxGRzicQIOHnVg) · `YcOcb1SEGo9aTkxGRzicQIOHnVg`
-</column>
+
 </grid>
 
 ## Div容器
@@ -184,18 +185,17 @@ Form表单是一个前端的专业概念，我先跟你用大白话讲解一下�
 div容器就像搭积木一样，可以通过嵌套创建复杂的页面布局
 
 <grid>
-<column width-ratio="0.320921">
+
 > [!abstract]- 🖼 图片展示了两个关于Div容器的示例。上方示例中，张三为前端开发工程师，下
 > 图片展示了两个关于Div容器的示例。上方示例中，张三为前端开发工程师，下方示例中，李四为UI设计师。每个示例均为一个白色矩形框，内有头像、姓名及职业，下方有文字说明。张三示例说明这是展示Div容器嵌套使用的示例，每个Div都可以有自己的样式和布局；李四示例说明Div容器像搭积木一样，可通过嵌套创建复杂页面布局。此图与上下文介绍的Div容器概念相呼应，直观呈现其应用。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/X5LGbbbFfoT0x8xexlTcZe7RnMg) · `X5LGbbbFfoT0x8xexlTcZe7RnMg`
-</column>
-<column width-ratio="0.679079">
+
 > [!abstract]- 🖼 图片展示了一个翻译结果区域。上方标题为“翻译结果”，下方有一段说明文字，
 > 图片展示了一个翻译结果区域。上方标题为“翻译结果”，下方有一段说明文字，指出这是示例输出区域，可展示工作流运行结果，并提示选中下方文本元素Text11后，在右侧属性面板的常规中进行设置。说明文字下方显示“Hello!”。该图片位于介绍Coze AI应用开发附录中Div容器内容之后、Form事件内容之前，可辅助理解应用开发中输出区域相关概念。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DOpXbym9wolok8x2116cW5T8nge) · `DOpXbym9wolok8x2116cW5T8nge`
-</column>
+
 </grid>
 
 ## Form事件

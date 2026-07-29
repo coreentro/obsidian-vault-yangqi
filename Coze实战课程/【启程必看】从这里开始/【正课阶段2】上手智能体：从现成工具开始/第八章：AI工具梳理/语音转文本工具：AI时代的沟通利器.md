@@ -46,7 +46,8 @@ tags:
 
 # 一、先看效果
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="1156.000000" origin-width="1080.000000" token="So31b2TiSoUInExA3SMc9aONnNe"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/So31b2TiSoUInExA3SMc9aONnNe) · `So31b2TiSoUInExA3SMc9aONnNe`
 
 # 二、微信语音输入法
 
@@ -74,7 +75,8 @@ tags:
 
 ⚠️微信的这个语音输入法，不只是在微信的页面，它是在任何的地方都可以使用的
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2108.000000" origin-width="2724.000000" token="C82IbzxSkoKphUxjSIacaTcQnve"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/C82IbzxSkoKphUxjSIacaTcQnve) · `C82IbzxSkoKphUxjSIacaTcQnve`
 
 # 三、豆包语音输入法
 
@@ -124,7 +126,8 @@ tags:
 如果实在装不上，就不要纠结了
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1662.000000" token="WaOFby00xofSmVx4qNwcnDaRnyg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/WaOFby00xofSmVx4qNwcnDaRnyg) · `WaOFby00xofSmVx4qNwcnDaRnyg`
 
 # 五、Typeless
 

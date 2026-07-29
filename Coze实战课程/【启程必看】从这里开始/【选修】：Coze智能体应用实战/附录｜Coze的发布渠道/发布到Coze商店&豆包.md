@@ -36,4 +36,5 @@ tags:
   
 豆包手机端：手机应用中直接搜索豆包
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1064.000000" origin-width="1496.000000" token="MxsgbYQ81oaL8DxNEK9c1ohGnrd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MxsgbYQ81oaL8DxNEK9c1ohGnrd) · `MxsgbYQ81oaL8DxNEK9c1ohGnrd`

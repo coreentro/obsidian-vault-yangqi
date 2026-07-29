@@ -406,7 +406,8 @@ AI会重新生成一张几乎一样的图，但文字更清晰，水印也去掉
 
 1. 圈选后可以自动把图片内容转化成可编辑的PPT格式
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1994.000000" token="STUabhVkio4Tu1xmY7scwnDCnMe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/STUabhVkio4Tu1xmY7scwnDCnMe) · `STUabhVkio4Tu1xmY7scwnDCnMe`
 
 视频来源： 小红书 或 X 平台ID： @brucevanfdm
 
@@ -416,7 +417,9 @@ AI会重新生成一张几乎一样的图，但文字更清晰，水印也去掉
 
 最后做一个四种方法的对比，大家可以根据自己的情况自行选择
 
-<sheet sheet-id="ENDQES" token="BrLBsnzrChqpiItE3Udcu2sbnSY"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/BrLBsnzrChqpiItE3Udcu2sbnSY)
+> `token=BrLBsnzrChqpiItE3Udcu2sbnSY` `sub=ENDQES`</sheet>
 
 我的建议是：小改用Lovart，大改用PDF转PPT，去水印用AI重新生成，Windows用户可以试试智能圈选。
 

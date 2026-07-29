@@ -41,9 +41,9 @@ tags:
 
 关于记忆，我们已经产出了3篇教程来进行讲解，分别是：
 
-- <cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
-- <cite doc-id="DXLbw7BIMiO58UkoRskcNiaan9d" file-type="wiki" title="加餐｜Coze知识库" type="doc"></cite>
-- <cite doc-id="IMTqw0W49iZjcBkra3GcWeShn7d" file-type="wiki" title="加餐｜Coze变量" type="doc"></cite>
+- [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
+- [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze知识库|加餐｜Coze知识库]]
+- [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze变量|加餐｜Coze变量]]
 
 今天我们来讲解公式中的Tools，对应到Coze中就是插件的概念。
 
@@ -317,7 +317,7 @@ JSON真正的强大之处在于他的嵌套结构，对象和数组是JSON结构
 
 **PS：你这里可能有疑问，为什么有的值用双引号包裹，比如"大圣"，有的又没有双引号包裹，比如年龄的30。**
 
-**这涉及到编程的另一个概念，数据类型！<cite doc-id="EQ8OwKmCvim9UckbjY9c62xMnFb" file-type="wiki" title="加餐｜数据类型：一切数据的基础" type="doc"></cite>**
+**这涉及到编程的另一个概念，数据类型！[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜数据类型：一切数据的基础|加餐｜数据类型：一切数据的基础]]**
 
 **这个我们下一个教程讲，大家不要急，这里我们主要来理解JSON的数据结构**
 
@@ -341,4 +341,4 @@ JSON真正的强大之处在于他的嵌套结构，对象和数组是JSON结构
 
 也许不懂JSON你也可以很好的使用插件，但是我更想让你在使用的时候更加通透，做到知其然，知其所以然，遇到问题可以独立的解决
 
-延伸阅读：<cite doc-id="EQ8OwKmCvim9UckbjY9c62xMnFb" file-type="wiki" title="加餐｜数据类型：一切数据的基础" type="doc"></cite>
+延伸阅读：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜数据类型：一切数据的基础|加餐｜数据类型：一切数据的基础]]

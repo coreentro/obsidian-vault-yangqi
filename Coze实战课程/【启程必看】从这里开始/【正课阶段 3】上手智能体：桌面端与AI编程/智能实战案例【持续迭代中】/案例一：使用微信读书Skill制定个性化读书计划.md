@@ -273,7 +273,8 @@ Claude 会把你的书架、阅读时长、划线密度综合起来，给一份*
 
 我们直接看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="K94iblU7XowdTlxC6WvcyikEn7d"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/K94iblU7XowdTlxC6WvcyikEn7d) · `K94iblU7XowdTlxC6WvcyikEn7d`
 
 ### 参考开源技能
 

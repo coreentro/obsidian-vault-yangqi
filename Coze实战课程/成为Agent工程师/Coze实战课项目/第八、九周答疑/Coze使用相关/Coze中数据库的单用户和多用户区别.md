@@ -35,7 +35,7 @@ tags:
 
 大家好，我是《成为Agent工程师之Coze实战》的讲师，大圣
 
-在之前的课程中，我们已经讲解了数据库的语法，具体可以参考<cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
+在之前的课程中，我们已经讲解了数据库的语法，具体可以参考[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
 
 但是我们还缺了一环，就是Coze中的多用户模式和单用户模式到底什么区别。
 
@@ -53,18 +53,17 @@ tags:
 两个Bot中的数据库结构一样，只不过一个是单用户模式，一个是多用户模式
 
 <grid>
-<column width-ratio="0.471141">
+
 > [!abstract]- 🖼 图片展示了Coze中数据库的设置界面。数据表名称为“mysql_mult
 > 图片展示了Coze中数据库的设置界面。数据表名称为“mysql_multi_user_test”，数据表描述为空。Table查询模式选择“多用户模式”。存储字段名称包括uuid、id、user_name和age，其中user_name和age字段类型为String和Integer，是否必要均为选中状态。该图片与上下文关系紧密，是对文档中准备的两个Bot中单用户模式数据库结构的展示，直观呈现了其数据表名称、模式及部分字段信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XfSRbSBtMosbhXxUqCocAaVanPh) · `XfSRbSBtMosbhXxUqCocAaVanPh`
-</column>
-<column width-ratio="0.528859">
+
 > [!abstract]- 🖼 图片展示了Coze中数据库配置界面。数据表名称为“mysql_singl
 > 图片展示了Coze中数据库配置界面。数据表名称为“mysql_single_user_test”，数据表描述为“用来存储用户的信息”。Table查询模式选择“单用户模式”，支持在Prompt中调用。存储字段有user_name（用户姓名，4/300，String类型，必填）和age（年龄，2/300，String类型，必填）。该图片与上下文关系紧密，是用于测试单用户模式时数据库配置的示例，直观呈现了单用户模式下数据库的字段设置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Rfg0bhCDxoW77wx78CAcCLAtnzJ) · `Rfg0bhCDxoW77wx78CAcCLAtnzJ`
-</column>
+
 </grid>
 
 每个Bot都有4个工作流，分别是
@@ -75,35 +74,33 @@ tags:
 - 删除所有数据
 
 <grid>
-<column width-ratio="0.515799">
+
 > [!abstract]- 🖼 图片展示了Coze中数据库单用户模式测试的界面。界面左上角显示“数据库单
 > 图片展示了Coze中数据库单用户模式测试的界面。界面左上角显示“数据库单用户模式测试”及“个人空间 已发布 23:21”信息。下方有“编排”和“分析”选项卡，当前选中“编排”。在“人设与回复逻辑”部分，有“优化”按钮。技能区域有“插件”和“工作流”选项，工作流部分有四个绿色图标的工作流，分别是“mysql_single_user_insert_test”（插入数据）、“mysql_single_user_select_test”（查询数据）、“mysql_single_user_select_all”（查询所有数据）和“mysql_single_user_delete_all”（删除数据）。该图与上下文介绍的测试前准备中单用户模式Bot的工作流内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DUTAbTu07otIjHxitDkcTkwxnbb) · `DUTAbTu07otIjHxitDkcTkwxnbb`
-</column>
-<column width-ratio="0.484201">
+
 > [!abstract]- 🖼 图片展示了Coze中“数据库多用户模式测试”Bot的界面。上方显示Bot
 > 图片展示了Coze中“数据库多用户模式测试”Bot的界面。上方显示Bot名称及状态。右侧工作流区域，以红色框突出显示了四个工作流名称，分别是“mysql_multi_user_select_test”“mysql_multi_user_insert_test”“mysql_multi_user_select_all”“mysql_multi_user_delete_all”。这些工作流与文档中介绍的两个Bot的数据库结构及四个工作流内容相呼应，用于测试单用户和多用户模式下的数据库操作。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LXLcbeBtQoy6dlxcNhUcd5P8np6) · `LXLcbeBtQoy6dlxcNhUcd5P8np6`
-</column>
+
 </grid>
 
 我准备了两个账号来进行测试，分别是：
 
 <grid>
-<column width-ratio="0.527603">
+
 > [!abstract]- 🖼 图片展示的是一个名为“扣子 API”的消息界面，头像为一个抱着孩子的卡通
 > 图片展示的是一个名为“扣子 API”的消息界面，头像为一个抱着孩子的卡通形象，用户名为“大圣”，账号为“lmh_2024”。该图片位于文档中测试前准备部分，用于说明测试时准备的两个账号之一，另一个账号未在图片中展示，与上下文介绍的测试准备内容相关，用于后续测试单用户模式和多用户模式时进行操作。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Gumtb2IKeoJPk4xEzNjcLCXtnce) · `Gumtb2IKeoJPk4xEzNjcLCXtnce`
-</column>
-<column width-ratio="0.472397">
+
 > [!abstract]- 🖼 图片展示的是一个名为“扣子 API”的用户界面，用户名为“zxd_bon
 > 图片展示的是一个名为“扣子 API”的用户界面，用户名为“zxd_bonnie”，账号标识为“@zxd_bonnie”。该图片位于文档中测试前准备部分，用于说明测试单用户模式和多用户模式时准备的两个账号之一，另一个账号未在图片中展示，但文档中提到是“zxd_bonnie”。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Uslkb4tOco71Zdx1sYbc2mlSnXe) · `Uslkb4tOco71Zdx1sYbc2mlSnXe`
-</column>
+
 </grid>
 
 # 测试思路

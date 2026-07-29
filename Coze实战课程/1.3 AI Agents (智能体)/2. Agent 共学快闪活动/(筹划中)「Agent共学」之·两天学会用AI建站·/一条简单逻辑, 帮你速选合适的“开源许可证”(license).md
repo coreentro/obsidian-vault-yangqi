@@ -94,16 +94,15 @@ Github, Gitee, 对于程序员来说可能很熟悉, 但是对于其他群体来
 https://licenseexplorer.iaiuse.com/
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是开源许可证探索器界面。上方有搜索框，右侧有筛选按钮。下方列出
 > 图片展示的是开源许可证探索器界面。上方有搜索框，右侧有筛选按钮。下方列出多种开源许可证，如AFL v3.0、Apache License 2.0、Artistic License 2.0等，每种许可证有图标、名称、简要说明、热门项目、分发方式、部门归属等信息。其中，AFL v3.0、Apache License 2.0、Artistic License 2.0被红色框线突出显示。该图片与文档中介绍的“用我们能听懂的语言看各个许可”内容相关，直观呈现了不同开源许可证的信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XHSlbwDYZoIjqkxnZMLcmpZcnee) · `XHSlbwDYZoIjqkxnZMLcmpZcnee`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是Eclipse Public License 1.0（EPL
 > 图片展示的是Eclipse Public License 1.0（EPL）的介绍页面。页面上方有“商业使用”“私有使用”“专利使用”“CopyLeft使用”等选项，当前选中“商业使用”。EPL是一种开源软件许可证，平衡了代码贡献者的利益和商业用户的使用自由。其核心特点包括商业友好、授权自由、CopyLeft特质、专利侵权等。主要权限有使用、修改、分发、商业使用等，限制与责任方面也有所说明。该图片与文档中介绍开源许可证的内容相关，直观呈现了EPL的具体信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JVSObAxV3o2Q0Kx4TdrcZkwdn1b) · `JVSObAxV3o2Q0Kx4TdrcZkwdn1b`
-</column>
+
 </grid>

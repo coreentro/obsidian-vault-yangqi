@@ -32,4 +32,5 @@ tags:
 
 # 腾讯AI翻译公司
 
-<figure view-type="Preview"><source mime="application/pdf" token="XVZzb5P8Ko1zjfxKzL9cGI3cnyw"/></figure>
+> [!warning]- 📎 附件（`application/pdf`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/XVZzb5P8Ko1zjfxKzL9cGI3cnyw) · `XVZzb5P8Ko1zjfxKzL9cGI3cnyw`

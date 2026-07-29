@@ -169,7 +169,8 @@ PS：根据你的电脑系统，把下方标黄的地方改掉
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DGVPbus3JohxcjxsK0mchYFyn1n) · `DGVPbus3JohxcjxsK0mchYFyn1n`
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="2160.000000" origin-width="3326.000000" token="VyECbvJ24o0wfxxb4vOcQ7pJnBh"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/VyECbvJ24o0wfxxb4vOcQ7pJnBh) · `VyECbvJ24o0wfxxb4vOcQ7pJnBh`
 
 # 写在最后
 

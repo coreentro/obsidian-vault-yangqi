@@ -86,21 +86,20 @@ PS：接下来我会截图来说明购买云服务器的过程，但是这里我
 
 第三步：选择地域和操作系统
 
-<callout emoji="✍️"><p>这里面有两个点需要学习</p><ul><li>地域的选择：地域选择有两个标准<ul><li>如果服务需要部署在海外，则要选择海外的服务器</li><li>至于具体的地域，则是离你的用户越近越好（个人使用没啥影响）</li></ul></li><li>镜像的选择（其实就是操作系统）<ul><li>这里我选择的是Ubuntu22.04-Docker26 26.1.3（意思就是预先安装了Docker的Ubuntu系统）</li></ul></li></ul><p></p><p>PS：大家之前看了梦飞教程的<cite doc-id="NB3nwtUC0iDLYxkIkSYc0WRznGg" file-type="wiki" title="【共学最全版本】微信机器人共学教程" type="doc"></cite>应该有自己的服务器，并且使用了宝塔面板系统。这个不用可以更换。</p><p>这里我之所以不使用宝塔面板的原因有两点</p><ul><li>宝塔面板后面的账号登录有一些繁琐，绕来绕去</li><li>宝塔面板会掩盖一些操作的细节，这篇文章主要以教学为主，还是希望大家可以熟悉下简单的Linux命令</li></ul></callout>
+<callout emoji="✍️"><p>这里面有两个点需要学习</p><ul><li>地域的选择：地域选择有两个标准<ul><li>如果服务需要部署在海外，则要选择海外的服务器</li><li>至于具体的地域，则是离你的用户越近越好（个人使用没啥影响）</li></ul></li><li>镜像的选择（其实就是操作系统）<ul><li>这里我选择的是Ubuntu22.04-Docker26 26.1.3（意思就是预先安装了Docker的Ubuntu系统）</li></ul></li></ul><p></p><p>PS：大家之前看了梦飞教程的[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/【共学最全版本】微信机器人共学教程|【共学最全版本】微信机器人共学教程]]应该有自己的服务器，并且使用了宝塔面板系统。这个不用可以更换。</p><p>这里我之所以不使用宝塔面板的原因有两点</p><ul><li>宝塔面板后面的账号登录有一些繁琐，绕来绕去</li><li>宝塔面板会掩盖一些操作的细节，这篇文章主要以教学为主，还是希望大家可以熟悉下简单的Linux命令</li></ul></callout>
 
 <grid>
-<column width-ratio="0.347246">
+
 > [!abstract]- 🖼 图片展示的是轻量应用服务器配置选择界面。已选配置为2核2G内存、50GB
 > 图片展示的是轻量应用服务器配置选择界面。已选配置为2核2G内存、50GB SSD等。地域可选上海等，当前选上海；镜像选择Ubuntu22.04 - Docker26 26.1.3，登录密码自动生成；时长可选1天等，当前选1天；数量默认1，可加减。下方有加入会员选项，可享专属优惠券等，但文档中提到不要加会员。最下方有99元的配置费用及“立即购买”按钮。该图与文档中购买云服务器配置选择的内容相关，直观呈现了相关操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RWVXbnjSDoLrDdxrH2HcgjyQnnb) · `RWVXbnjSDoLrDdxrH2HcgjyQnnb`
-</column>
-<column width-ratio="0.652754">
+
 > [!abstract]- 🖼 图片展示的是云服务器购买流程中的支付订单页面。页面上方有“所有费用（包括
 > 图片展示的是云服务器购买流程中的支付订单页面。页面上方有“所有费用（包括购买、开通、续费等）均可开具，订单支付完成后可打印，更精准 费用中心 > 发票管理 开票”提示。中间是待支付订单信息，包括订单号、产品名称、配置、类型、数量、时长等。下方有“选择优惠券”“代金券（0）”“选择支付方式”等选项，其中“选择支付方式”处有“在线支付”“支付宝支付”“微信支付”等支付方式，底部有“点击购买”和“下一步”按钮。该图片与上文购买云服务器的内容相关，直观呈现了支付订单环节的操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZzLvbOvgzowP4sxL9Shc2vILnpd) · `ZzLvbOvgzowP4sxL9Shc2vILnpd`
-</column>
+
 </grid>
 
 ## 配置云服务器
@@ -115,33 +114,31 @@ PS：接下来我会截图来说明购买云服务器的过程，但是这里我
 </callout>
 
 <grid>
-<column width-ratio="0.307205">
+
 > [!abstract]- 🖼 图片展示的是腾讯云轻量应用服务器购买成功的界面。界面上方显示“购买成功”
 > 图片展示的是腾讯云轻量应用服务器购买成功的界面。界面上方显示“购买成功”，并有“扫码入群领专属代金券”的绿色按钮。下方有“温馨提示”，其中第1点以红色框突出显示，内容为：对于使用Linux操作系统类型的实例，如选择“自动生成密码”，初始密码会通过站内信发送；也可使用“重置密码”功能设置实例登录密码，或使用OrcaTerm远程工具一键免密登录实例。该图片与上下文介绍的轻量应用服务器购买成功后的密码获取方式等内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LzSfbRDHCocGTgxlMtncweO6nRf) · `LzSfbRDHCocGTgxlMtncweO6nRf`
-</column>
-<column width-ratio="0.692795">
+
 > [!abstract]- 🖼 图片展示的是腾讯云控制台界面，左侧导航栏选中“服务器”下的“轻量应用服务
 > 图片展示的是腾讯云控制台界面，左侧导航栏选中“服务器”下的“轻量应用服务器”。右侧显示服务器列表，其中一台名为“Ubuntu22.04-Docker26-zvjq”的服务器状态为“运行中”，其CPU、内存、系统盘等信息也一并呈现。图片中红色框突出显示了右上角的“消息”图标，旁边有“站内信”“公告”“公告/全部”“全部已读”等选项。该图片与上下文关系紧密，直观呈现了服务器部署操作中可能遇到的站内信等信息提示界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UHKdbWBrgop1p4x6VAUcgfo3nh9) · `UHKdbWBrgop1p4x6VAUcgfo3nh9`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.632373">
+
 > [!abstract]- 🖼 图片展示的是腾讯云轻量应用服务器创建成功后的邮件通知内容。其中，关键信息
 > 图片展示的是腾讯云轻量应用服务器创建成功后的邮件通知内容。其中，关键信息为服务器操作系统为Ubuntu Server 22.04 LTS 64bit，默认用户名是ubuntu，登录密码为CB2yKu+cR@jdX83。该图片与上下文紧密相关，上下文在介绍配置云服务器时，提到Linux服务器需要账号密码登陆，此图则直观呈现了Ubuntu系统下服务器的默认用户名和登录密码，帮助用户了解登录信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RZMebwm3JoSpaoxkYzrcbXnGnqe) · `RZMebwm3JoSpaoxkYzrcbXnGnqe`
-</column>
-<column width-ratio="0.367627">
+
 > [!abstract]- 🖼 图片展示的是腾讯云轻量应用服务器界面。左侧导航栏有“服务器”等选项，右侧
 > 图片展示的是腾讯云轻量应用服务器界面。左侧导航栏有“服务器”等选项，右侧显示服务器相关信息，如操作系统为Ubuntu22.04 - Docker26 - zvjq，状态为运行中，CPU 2核、内存2GB、系统盘50GB等。服务器右侧有一个“...”图标，点击后弹出菜单，其中“重置密码”选项被红色框突出显示。该图片与文档中“修改账号密码”环节相关，直观呈现了在腾讯云轻量应用服务器中重置密码的操作位置。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/T1mdbnwemoJnmgxRtHLcZZkHnfc) · `T1mdbnwemoJnmgxRtHLcZZkHnfc`
-</column>
+
 </grid>
 
 第五步：修改一些基本信息
@@ -171,7 +168,7 @@ PS：接下来我会截图来说明购买云服务器的过程，但是这里我
 - 端口号
 - 允许还是拒绝
 
-对于IP和端口号，如果不明白是什么，请参考文档：<cite doc-id="ULH7wEEOOi4xivkRKu7c8zrmnbh" file-type="wiki" title="加餐｜程序中的API是什么" type="doc"></cite>
+对于IP和端口号，如果不明白是什么，请参考文档：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜程序中的API是什么|加餐｜程序中的API是什么]]
 
 我举几个关于防火墙的例子：
 
@@ -198,7 +195,7 @@ PS：接下来我会截图来说明购买云服务器的过程，但是这里我
 - oneAPI（3001）：oneAPI的端口，后面我自己搭建FastGPT要用
 - FastGPT（3000）：FastGPT的端口，后面我自己搭建FastGPT要用
 
-请注意，如果到这里你有点懵了，我建议要静下心来阅读下：<cite doc-id="ULH7wEEOOi4xivkRKu7c8zrmnbh" file-type="wiki" title="加餐｜程序中的API是什么" type="doc"></cite>
+请注意，如果到这里你有点懵了，我建议要静下心来阅读下：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜程序中的API是什么|加餐｜程序中的API是什么]]
 
 这里的防火墙简单来说就是防止别人通过端口来攻击你，从而导致你的服务器宕机
 
@@ -228,33 +225,31 @@ PS：接下来我会截图来说明购买云服务器的过程，但是这里我
 **腾讯云提供的网页端SSH登陆如下：**
 
 <grid>
-<column width-ratio="0.481496">
+
 > [!abstract]- 🖼 图片展示了腾讯云轻量应用服务器的界面。左侧导航栏中“服务器”选项被选中，
 > 图片展示了腾讯云轻量应用服务器的界面。左侧导航栏中“服务器”选项被选中，其下“OrcaTerm”选项被红色框线突出显示。右侧主界面显示服务器相关信息，有“轻量应用服务器新增圣保罗地域，欢迎前往购买页进行选购”的提示，下方有“新建”按钮，以及已有的“Coze机器人接入微信教学”服务器信息，包括运行状态、CPU、内存、系统盘等配置详情，还显示了服务器公网IP。该图片与上文介绍腾讯云提供的网页端SSH登陆方式相呼应，直观呈现了登录后的界面情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MdUpbG76Wo8EuwxQIUJcBxmhnGh) · `MdUpbG76Wo8EuwxQIUJcBxmhnGh`
-</column>
-<column width-ratio="0.518504">
+
 > [!abstract]- 🖼 图片展示了腾讯云提供的网页端SSH登陆界面。左侧有“+新建连接”按钮，以
 > 图片展示了腾讯云提供的网页端SSH登陆界面。左侧有“+新建连接”按钮，以及多个服务器连接选项，如“Ubuntu22.04 - Docker26 - zvjq”等。右侧有“体验OrcaTerm Web应用”区域，介绍其易于访问、原生体验、快速加载、操作流畅等特点，并有“立即体验”按钮。图片中红色框突出显示“+新建连接”按钮，并有红色箭头指向，提示点击新建连接。该图片与上文介绍腾讯云网页端SSH登陆的内容相关，用于指导用户新建连接以登录服务器。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RTzdbtfeQo3x31xiJMzcXJIFnHe) · `RTzdbtfeQo3x31xiJMzcXJIFnHe`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.616158">
+
 > [!abstract]- 🖼 图片展示了腾讯云提供的网页端SSH登陆界面。界面上方有“connecti
 > 图片展示了腾讯云提供的网页端SSH登陆界面。界面上方有“connections:”及搜索栏。下方“历史连接”区域列出了多个连接配置，如“Ubuntu22.04-Docker26-zvjq”“宝塔Linux面板-nLqO”等，每个配置有用户名、IP地址、默认分组等信息。界面底部有“选择连接配置”“+新建连接配置”按钮，其中“+新建连接配置”按钮被红色框突出显示，箭头指向其右侧，提示新建连接操作位置。该图片与上文介绍腾讯云网页端SSH登陆操作的上下文相关，直观呈现了操作界面及新建连接配置的入口。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/E3Q8bvwCyoS1HqxZGrvc8wvanLK) · `E3Q8bvwCyoS1HqxZGrvc8wvanLK`
-</column>
-<column width-ratio="0.383842">
+
 > [!abstract]- 🖼 图片展示的是腾讯云提供的网页端SSH登陆的新建连接配置界面。接入产品选择
 > 图片展示的是腾讯云提供的网页端SSH登陆的新建连接配置界面。接入产品选择“服务器”，腾讯云服务器实例名为“Coze机器人接入微信教学 - IP: 1.117.59” ，连接协议选择“终端连接（SSH）”。用户名是“ubuntu”，云服务器端口为“22”，连接网络为公网IP“1.117.59.140” ，验证方式为“密码验证”。此图与上文提及的腾讯云网页端SSH登陆内容相关，展示了具体的连接配置信息，按此配置输入购买服务器时的账号密码点击登录，可进入Linux页面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YWssboqzroOUXDxTm3mcsqn9nrg) · `YWssboqzroOUXDxTm3mcsqn9nrg`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 图片展示的是腾讯云提供的网页端SSH登陆界面。界面上方有“登录”标题，下
@@ -367,18 +362,17 @@ sudo systemctl restart ssh
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/QDZqb9hzNoPAXmxbeJ7caqFSnfe) · `QDZqb9hzNoPAXmxbeJ7caqFSnfe`
 
 <grid>
-<column width-ratio="0.513787">
+
 > [!abstract]- 🖼 图片展示了腾讯云服务器新建连接配置界面。在“接入产品”中选择“服务器”，
 > 图片展示了腾讯云服务器新建连接配置界面。在“接入产品”中选择“服务器”，“连接协议”选“终端连接（SSH）”，“用户名”处显示“root”，“云服务器端口”为22，连接网络为“1.117.59.140(公网)”。图片中用红色箭头和文字标注“这里选择root账号”，并有红色框突出显示“root”和“终端连接（SSH）”选项，与上下文“创建root账号ssh登陆，以后就使用这个root账号进行登陆”的内容相呼应，指导用户新建连接时选择root账号进行SSH登陆。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/QTJ6bATaLokL0hxEqCjcGhUfnbd) · `QTJ6bATaLokL0hxEqCjcGhUfnbd`
-</column>
-<column width-ratio="0.486213">
+
 > [!abstract]- 🖼 图片展示的是云服务器登录界面。在“登录”弹窗中，选中“SSH连接”选项卡
 > 图片展示的是云服务器登录界面。在“登录”弹窗中，选中“SSH连接”选项卡，实例名称/ID为“Coze机器人接入微信教学 / lhins-2sbvixs4”，用户名为“root”，端口为22，实例IP为1.117.59.140（公网），验证方式为“密码验证”，密码框已输入密码。该图片与上文“第四步：创建root账号ssh登陆”相关，用于说明新建连接后，使用root账号和刚才设置的密码进行SSH登录的操作步骤。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HMwJbdZxEo4aABxeKjbcLFW3n9C) · `HMwJbdZxEo4aABxeKjbcLFW3n9C`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 图片展示了轻量云OrcaTerm界面中连接配置的相关内容。左侧导航栏选中
@@ -415,18 +409,17 @@ sudo systemctl restart ssh
 **第一步：安装一些增强的插件**
 
 <grid>
-<column width-ratio="0.648399">
+
 > [!abstract]- 🖼 图片展示了腾讯云服务器界面中增强功能的安装提示。界面左上角有“安装增强功
 > 图片展示了腾讯云服务器界面中增强功能的安装提示。界面左上角有“安装增强功能，使用编辑器”的文字，右侧有“安装增强功能”的红色箭头指向文字。下方是代码编辑区域，显示“root@M-4-5-ubuntu:~#”字样。该图片与文档中“增强插件安装”部分内容相关，对应“第一步：安装一些增强的插件”步骤，直观呈现了安装增强功能的操作提示。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DZvRbT71WoK4ngxxfGYc4Z1gnJV) · `DZvRbT71WoK4ngxxfGYc4Z1gnJV`
-</column>
-<column width-ratio="0.351601">
+
 > [!abstract]- 🖼 图片展示的是腾讯云服务器增强功能安装界面。界面上方显示“安装增强功能”，
 > 图片展示的是腾讯云服务器增强功能安装界面。界面上方显示“安装增强功能”，并有“选择安装增强功能”和“进行安装”两个步骤。基础服务可选“命令块”和“上传下载”，前者将命令和结果组合展示，后者可在界面中选择上传下载文件地址。增强功能可选“文件编辑器”和“实时监控”，前者安装后可快速打开文件编辑器，后者在底栏实时展示实例的CPU、内存等数据。该图与上下文介绍的腾讯云增强插件安装步骤相关，直观呈现了可选功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TjDbbSVV6o73S1xNdIocAbN7nNh) · `TjDbbSVV6o73S1xNdIocAbN7nNh`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 图片展示了在Linux系统中安装增强插件的安装界面。界面上方显示了安装命
@@ -436,7 +429,8 @@ sudo systemctl restart ssh
 
 **第二步：试用下编辑器的效果**
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1076.000000" origin-width="1916.000000" token="FpAEbTiguoopSKxwuVvcTJasnmb"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/FpAEbTiguoopSKxwuVvcTJasnmb) · `FpAEbTiguoopSKxwuVvcTJasnmb`
 
 ## 云服务器概览页面
 
@@ -473,7 +467,7 @@ sudo systemctl restart ssh
 
 **这里主要说下公网IP和内网IP**
 
-如果不知道IP是什么，请移步：<cite doc-id="ULH7wEEOOi4xivkRKu7c8zrmnbh" file-type="wiki" title="加餐｜程序中的API是什么" type="doc"></cite>
+如果不知道IP是什么，请移步：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜程序中的API是什么|加餐｜程序中的API是什么]]
 
 公网IP就是这台云服务器在全球的唯一身份标识，当我们需要跟这个云服务器通信时，就要使用公网IP
 
@@ -485,7 +479,7 @@ sudo systemctl restart ssh
 
 为了方便大家复制命令，我开另一个文档专门讲Liunx命令，里面会配套有视频演示教程
 
-<cite doc-id="NurXwByqwif1ivk6cl3cpokSnnd" file-type="wiki" title="加餐｜常见的Linux命令" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜常见的Linux命令|加餐｜常见的Linux命令]]
 
 ## 引出Docker和Python
 
@@ -519,7 +513,7 @@ docker --version
 
 可以看到几个必要的环境都装了，这个环境已经满足我们Coze对接微信机器人的课程需求了
 
-OK，接下来我们会用另一篇文章来专门讲下Docker：<cite doc-id="M4nwwNJzgiR27kkDF1hc0BeLn4b" file-type="wiki" title="加餐｜Docker是什么" type="doc"></cite>
+OK，接下来我们会用另一篇文章来专门讲下Docker：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Docker是什么|加餐｜Docker是什么]]
 
 # 二、部署COW
 
@@ -652,7 +646,7 @@ cp config-template.json config.json
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/OhXUbw75ZoNMdrxlQIjcaJcgnYg) · `OhXUbw75ZoNMdrxlQIjcaJcgnYg`
 
-这里是我们老朋友了，这种格式就是JSON，不知道JSON的请阅读：<cite doc-id="VnocwzT3TirKGvkUfvncWa53njc" file-type="wiki" title="加餐｜Coze的插件与JSON" type="doc"></cite>
+这里是我们老朋友了，这种格式就是JSON，不知道JSON的请阅读：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze的插件与JSON|加餐｜Coze的插件与JSON]]
 
 我们来解释几个关键的概念
 
@@ -670,7 +664,7 @@ cp config-template.json config.json
 
 ## 申请通义千问API KEY
 
-大模型的API是啥子，我想这篇文章可能会给你答案：<cite doc-id="ULH7wEEOOi4xivkRKu7c8zrmnbh" file-type="wiki" title="加餐｜程序中的API是什么" type="doc"></cite>
+大模型的API是啥子，我想这篇文章可能会给你答案：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜程序中的API是什么|加餐｜程序中的API是什么]]
 
 当然，你也可以不用关心这个，直接上手实操
 
@@ -697,7 +691,8 @@ https://dashscope.console.aliyun.com/
 
 开通完成之后，使用这个方式来创建API Key
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="994.000000" origin-width="1630.000000" token="DwQQbqVbto85SPxfNzicJmZ7nsc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/DwQQbqVbto85SPxfNzicJmZ7nsc) · `DwQQbqVbto85SPxfNzicJmZ7nsc`
 
 1. 获取到了通义千问的Token
 
@@ -785,7 +780,8 @@ touch restart.sh
 
 创建好这个文件后，将以下内容贴入（**请完全复制**）
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1062.000000" origin-width="1626.000000" token="ATENbuQAyoEGK6x7pjmcOePbnag"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/ATENbuQAyoEGK6x7pjmcOePbnag) · `ATENbuQAyoEGK6x7pjmcOePbnag`
 
 ```Bash
 #!/bin/bash
@@ -945,7 +941,8 @@ sh seelog.sh
 
 接下来请看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1074.000000" origin-width="1916.000000" token="XFc8bfdDToyjw7xUgDLckmfgnOg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/XFc8bfdDToyjw7xUgDLckmfgnOg) · `XFc8bfdDToyjw7xUgDLckmfgnOg`
 
 **PS：大家千万不要用我视频中的Key**
 
@@ -960,7 +957,7 @@ sh seelog.sh
 
 PS：这一部分是为了满足WayToAGI的参赛要求搞的，并不是完整的插件教程，请大家注意
 
-原文：<cite doc-id="Rhpqw4W2niSlkZkrF2scRIzLned" file-type="wiki" title="「第一天」参赛Bot配置要求" type="doc"></cite>
+原文：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」/「第一天」参赛Bot配置要求|「第一天」参赛Bot配置要求]]
 
 下面是我的教程
 
@@ -1007,7 +1004,8 @@ cp config.json.template config.json
 }
 ```
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1066.000000" origin-width="1626.000000" token="LOJgbETruod9kMxGU3ycSQRUnhg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/LOJgbETruod9kMxGU3ycSQRUnhg) · `LOJgbETruod9kMxGU3ycSQRUnhg`
 
 ## 关闭进群欢迎语
 
@@ -1015,7 +1013,8 @@ cp config.json.template config.json
 
 大家
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1064.000000" origin-width="1624.000000" token="MROublPJKo74Hbxt3kycrXWmnbc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MROublPJKo74Hbxt3kycrXWmnbc) · `MROublPJKo74Hbxt3kycrXWmnbc`
 
 给自己的config.json添加一行：
 
@@ -1084,7 +1083,8 @@ cp config.json.template config.json
 
 看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1062.000000" origin-width="1914.000000" token="LDcLbSWmxoVAcyxk8JacZWzvnpu"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/LDcLbSWmxoVAcyxk8JacZWzvnpu) · `LDcLbSWmxoVAcyxk8JacZWzvnpu`
 
 1. 验收结果，你在群里对话，回复的时候就不会艾特你啦
 

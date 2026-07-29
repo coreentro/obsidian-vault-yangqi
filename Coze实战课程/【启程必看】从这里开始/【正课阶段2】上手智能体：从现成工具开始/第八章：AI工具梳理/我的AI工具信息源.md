@@ -74,7 +74,8 @@ tags:
 
 下面这个视频就是我如何利用这些所谓的信息源，来了解最新的技术的
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="960.000000" origin-width="720.000000" token="PEJ6bhZb4o8uQJxfT5GcuVbwnHd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/PEJ6bhZb4o8uQJxfT5GcuVbwnHd) · `PEJ6bhZb4o8uQJxfT5GcuVbwnHd`
 
 # 三、AI时代，聚焦做减法
 

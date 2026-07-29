@@ -37,11 +37,11 @@ tags:
 
 对于知识库大家并不陌生，一系列的信息和知识聚集在一起就可以构成知识库。
 
-比如我最心爱的<cite doc-id="QPe5w5g7UisbEkkow8XcDmOpn8e" file-type="wiki" title="通往AGI之路" type="doc"></cite>就是一个使用飞书软件搭建的AI知识库。
+比如我最心爱的[[通往AGI之路|通往AGI之路]]就是一个使用飞书软件搭建的AI知识库。
 
 当你需要了解AI某一领域知识的时候，你只需要在AGI的飞书大群中，跟机器人对话就能获取对应的资料。
 
-而在我的<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite> 也是以AI时代的知识库作为例子进行了讲解。
+而在我的[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb) 也是以AI时代的知识库作为例子进行了讲解。
 
 这篇文章的目的就是帮助非编程人士来理解AI时代的知识库，读完本文你会收获
 
@@ -65,7 +65,7 @@ tags:
 
 ## 传统意义的知识库
 
-对于传统意义上的知识库，我相信大家都不陌生。比如上面提到的<cite doc-id="QPe5w5g7UisbEkkow8XcDmOpn8e" file-type="wiki" title="通往AGI之路" type="doc"></cite>
+对于传统意义上的知识库，我相信大家都不陌生。比如上面提到的[[通往AGI之路|通往AGI之路]]
 
 再比如我使用的飞书搭建自己的通往超级个体之路的知识库，里面存放了我打造超级个体过程中的所有知识和分享
 
@@ -79,7 +79,7 @@ tags:
 - 个人搭建的某一领域知识库，比如AI知识库，里面存放了你日常收集了你日常整理的AI信息和知识
 - 企业搭建的产品资料知识库，里面存放了关于公司售卖的产品的详细资料
 
-<blockquote><p>这里多说一句，如果你想搭建自己的知识库，但是还没有行动，我建议你看下我的分享。</p><p>两篇文档配套1个半小时的直播分享，让你轻松打造自己的知识管理体系</p><p></p><p><cite doc-id="Tq5bw5HTeiqyeFkjs4YcCm8gnGh" file-type="wiki" title="03｜利用飞书搭建自己的知识库" type="doc"></cite></p><p><cite doc-id="PQn5wJ6GMigwH1koj4jcnt4xn8q" file-type="wiki" title="04｜PARA方法论，打造持续升级的知识管理体系" type="doc"></cite></p><bookmark name="毫无保留！分享我在AI时代是如何搭建自己的知识管理体系_哔哩哔哩_bilibili" href="https://www.bilibili.com/video/BV1jn4y197wu/?spm_id_from=333.999.list.card_archive.click&amp;vd_source=e94f42ead4c2e95f4b13bec257d95670"></bookmark></blockquote>
+<blockquote><p>这里多说一句，如果你想搭建自己的知识库，但是还没有行动，我建议你看下我的分享。</p><p>两篇文档配套1个半小时的直播分享，让你轻松打造自己的知识管理体系</p><p></p><p>[03｜利用飞书搭建自己的知识库](https://axsppz4oyvj.feishu.cn/wiki/Tq5bw5HTeiqyeFkjs4YcCm8gnGh)</p><p>[04｜PARA方法论，打造持续升级的知识管理体系](https://axsppz4oyvj.feishu.cn/wiki/PQn5wJ6GMigwH1koj4jcnt4xn8q)</p><bookmark name="毫无保留！分享我在AI时代是如何搭建自己的知识管理体系_哔哩哔哩_bilibili" href="https://www.bilibili.com/video/BV1jn4y197wu/?spm_id_from=333.999.list.card_archive.click&amp;vd_source=e94f42ead4c2e95f4b13bec257d95670"></bookmark></blockquote>
 
 我们日常对于传统知识库的使用很简单，当我们遇到问题时，我们可以通过知识库的目录找到对应的文章，通过阅读之前收集的信息或者写作的文章来为自己答疑解惑。
 
@@ -194,7 +194,7 @@ RAG就像是一个超级智能的图书馆员：
 
 # 深入理解RAG
 
-在这篇教程：<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite>发布后，
+在这篇教程：[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb)发布后，
 
 好多小伙伴都会问我一个问题：“既然AI知识库技术这么厉害，我能将我收集的各种文章全部投喂给知识库，打造一个专属于个人的知识库么？”
 
@@ -482,7 +482,7 @@ RAG就像是一个超级智能的图书馆员：
 
 优化Prompt这里就不展开了，因为提示词工程对于当下AI时代的重要性，我已经讲过太多次了，如果你想要学习提示词，请参考以下文章
 
-<blockquote><p>https://www.waytoagi.com/prompts?tag=7</p><p><cite doc-id="X59gwGdzginQgJkfVvQcqKZfn4e" file-type="wiki" title="直播共学" type="doc"></cite></p></blockquote>
+<blockquote><p>https://www.waytoagi.com/prompts?tag=7</p><p>[直播共学](https://axsppz4oyvj.feishu.cn/wiki/X59gwGdzginQgJkfVvQcqKZfn4e)</p></blockquote>
 
 而选择合适的大模型有两点需要考虑：
 
@@ -496,7 +496,7 @@ RAG就像是一个超级智能的图书馆员：
 
 ## 总结
 
-终于到了我最想讲的一段了，因为自从我发布了这个教程<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite> 之后，我收到的最多问题之一就是：
+终于到了我最想讲的一段了，因为自从我发布了这个教程[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb) 之后，我收到的最多问题之一就是：
 
 **为什么我将我的笔记全部投喂给Coze之后，他的回答很不准确呢？**
 
@@ -508,7 +508,7 @@ RAG就像是一个超级智能的图书馆员：
 
 如果你想使用专门搭建个人知识库的软件，我推荐你看下的另一篇文章：
 
-<blockquote><p><cite doc-id="ZKGmwsQhTihYZ8kdu7uccF1lnQc" file-type="wiki" title="手把手教你本地部署大模型以及搭建个人知识库" type="doc"></cite></p><p>这篇文章你忽略本地部署大模型这一环节，你直接看其中推荐的一个软件</p><bookmark name="useanything.com" href="https://useanything.com/"></bookmark></blockquote>
+<blockquote><p>[手把手教你本地部署大模型以及搭建个人知识库](https://axsppz4oyvj.feishu.cn/wiki/ZKGmwsQhTihYZ8kdu7uccF1lnQc)</p><p>这篇文章你忽略本地部署大模型这一环节，你直接看其中推荐的一个软件</p><bookmark name="useanything.com" href="https://useanything.com/"></bookmark></blockquote>
 
 这款软件据说效果不错（但是需要你自己对接一些额外的API），并且我建议你先了解RAG的原理再去使用，否则你可能会头大。
 
@@ -552,7 +552,8 @@ RAG就像是一个超级智能的图书馆员：
 
 1. 我这里选择本地文档（问答对可以选择表格）
 
-<figure view-type="Card"><source mime="text/plain" token="INHcbcgdkoNyj9xHm0Kcmki0n4e"/></figure>
+> [!warning]- 📎 附件（`text/plain`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/INHcbcgdkoNyj9xHm0Kcmki0n4e) · `INHcbcgdkoNyj9xHm0Kcmki0n4e`
 
 > [!abstract]- 🖼 图片展示了Coze知识库中使用知识库的文档准备步骤。画面中“上传”步骤被
 > 图片展示了Coze知识库中使用知识库的文档准备步骤。画面中“上传”步骤被红色框突出显示，下方有“第一步：文档准备”的红色箭头标注。用户可点击“点击上传或拖拽文档到这里”区域上传文档，支持PDF、TXT、DOC、DOCX格式，每个文件不超过20MB，PDF最多250页。下方表格显示已上传的“购买后新人常见问题汇总.txt”文档，状态为“上传完成”，文件大小2.9KB，有“操作”栏。此图与上下文介绍的使用知识库流程相关，是第一步文档准备的展示。
@@ -577,13 +578,13 @@ RAG就像是一个超级智能的图书馆员：
 
 ## 使用知识库
 
-关于使用知识库，大家可以看这篇教程：<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite>，这篇文章已经讲的很详细了，这里就不再赘述了
+关于使用知识库，大家可以看这篇教程：[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb)，这篇文章已经讲的很详细了，这里就不再赘述了
 
 # AGI大群的机器人原理
 
 最后我们来讲下AGI大群中的机器人的原理，如果你跟完了整篇文章，我想你心里已经有答案了。
 
-飞书的官方技术同学使用RAG技术将<cite doc-id="QPe5w5g7UisbEkkow8XcDmOpn8e" file-type="wiki" title="通往AGI之路" type="doc"></cite>的内容进行处理，然后在飞书大群中接入一个智能机器人，当机器人被艾特回答问题的时候，其背后就是针对这个AI知识库进行的提问。RAG技术会将知识库中最符合的相关文档回复给用户。
+飞书的官方技术同学使用RAG技术将[[通往AGI之路|通往AGI之路]]的内容进行处理，然后在飞书大群中接入一个智能机器人，当机器人被艾特回答问题的时候，其背后就是针对这个AI知识库进行的提问。RAG技术会将知识库中最符合的相关文档回复给用户。
 
 基于RAG技术，我也搭建了一个微信机器人帮助我进行课程相关答疑，还是挺爽的～
 

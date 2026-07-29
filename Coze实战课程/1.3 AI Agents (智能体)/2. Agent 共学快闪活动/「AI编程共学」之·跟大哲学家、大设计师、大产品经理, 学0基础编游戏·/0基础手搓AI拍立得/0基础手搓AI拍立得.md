@@ -45,14 +45,14 @@ tags:
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NzMCbbjmeod9CJx5CEacy0UknIu) · `NzMCbbjmeod9CJx5CEacy0UknIu`
 
-之前的直播分享内容中也有提到关于AI拍立得的能力，往期回顾：<cite doc-id="MhC0wBXyBiDB8DkR0L5c6P7Pn1g" file-type="wiki" title="Inhai: Agentic Workflow：AI 重塑了我的工作流" type="doc"></cite>
+之前的直播分享内容中也有提到关于AI拍立得的能力，往期回顾：[Inhai: Agentic Workflow：AI 重塑了我的工作流](https://axsppz4oyvj.feishu.cn/wiki/MhC0wBXyBiDB8DkR0L5c6P7Pn1g)
 
 ## 1.1 在线体验
 
 究竟什么是AI拍立得呢？不如快速体验一把就知道了！Pailido -> 拍立得的谐音名称，是不是很好记 😂
 
 <grid>
-<column width-ratio="0.250000">
+
 **AI 拍立得 - Pailido**
 拍照就能给你快速生成各类文案！
 > [!abstract]- 🖼 图片展示的是微信小程序“Pailido”的二维码。二维码由黑色线条构成，
@@ -60,28 +60,25 @@ tags:
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Xnljb9hUXoIk7axrGOqcVya0nUg) · `Xnljb9hUXoIk7axrGOqcVya0nUg`
 🔍 微信小程序搜索：Pailido
-</column>
-<column width-ratio="0.250000">
+
 > [!abstract]- 🖼 图片展示的是微信小程序Pailido的界面。界面上方显示时间为19:58
 > 图片展示的是微信小程序Pailido的界面。界面上方显示时间为19:58，有信号、5G、电量等图标。左上角有“Pailido”标识。下方有“一言金句”“小红书文案”“闲鱼发布”“外卖好评”四个选项卡，当前选中“一言金句”。中间区域显示“点击下方按钮，一拍即出文案”。底部有拍照、相册、闪光灯、场景等拍摄相关图标，以及刷新、分享等操作图标。该图片直观呈现了小程序的拍摄与文案生成界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/A98WbedeuoMW5nxXkERc5t6FnH9) · `A98WbedeuoMW5nxXkERc5t6FnH9`
 丰富场景自由切换
-</column>
-<column width-ratio="0.250000">
+
 > [!abstract]- 🖼 图片展示的是微信小程序“Pailido - 文案拍立得”生成的闲鱼文案示
 > 图片展示的是微信小程序“Pailido - 文案拍立得”生成的闲鱼文案示例。画面中一只手拿着装有橙色液体的透明塑料袋，背景为蓝色水面。下方文案为“【五月天演唱会果汁】 - 全新未拆封 - 独家限量版设计 - 附赠五月天演唱会门票一张（虚拟票）！ - 收藏加购即送周边礼包一份！ - 价格实惠，性价比超高！ - 支持全国包邮！ - 七天无理由退换货，购物无忧！ 抓住这个机会，让您的五月天演唱会体验更加难忘！立即购买吧！”，并配有分享、收藏、购买等操作按钮。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Nu62brnmpowBFuxYY1QcUMdGnCc) · `Nu62brnmpowBFuxYY1QcUMdGnCc`
 快速生成闲鱼文案
-</column>
-<column width-ratio="0.250000">
+
 > [!abstract]- 🖼 图片展示了一张美食照片，画面中有一碗羊肉汤和一个金黄酥脆的油条。下方有大
 > 图片展示了一张美食照片，画面中有一碗羊肉汤和一个金黄酥脆的油条。下方有大模型生成的文本描述，内容为对这道美食的评价，称羊肉汤搭配油条美味，羊肉入口即化，汤汁鲜美浓郁，油条外酥里嫩，蔬菜汤增添了色彩和营养，整体用餐体验强烈推荐。该图片与文档中“生成外卖/大众点评”部分相关，直观呈现了大模型根据图片生成与内容相关的文字描述功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Mv1bbZteeooyJcxScnJcHBIenhb) · `Mv1bbZteeooyJcxScnJcHBIenhb`
 生成外卖/大众点评
-</column>
+
 </grid>
 
 ## 1.2 交互逻辑
@@ -144,7 +141,7 @@ tags:
 
 代码已经更新，请大家移步到「阿里云百炼大模型平台共学」里面获取最新版本的方法；
 
-<cite doc-id="BBxuwwHvpitSgfkbkHvcEfOenhe" file-type="wiki" title="DAY3 - 更热门的多模态交互案例带练，实操掌握AI应用开发" type="doc"></cite>
+[DAY3 - 更热门的多模态交互案例带练，实操掌握AI应用开发](https://axsppz4oyvj.feishu.cn/wiki/BBxuwwHvpitSgfkbkHvcEfOenhe)
 
 ### 2.2.3 选择模型供应商
 
@@ -154,4 +151,9 @@ tags:
 
 **目前，Pailido小程序版本正在使用通义的Qwen-VL-Plus版本，该模型具有更强的图片理解和文本富化的能力。**在Qwen-VL-Max版本效果更佳，但使用成本相对较高，大家可以选择以下供应商中
 
-<table><colgroup><col/><col/><col/><col/><col/></colgroup><thead><tr><th vertical-align="middle">模型厂商</th><th vertical-align="middle">类型</th><th vertical-align="middle">特点</th><th vertical-align="middle">成本</th><th vertical-align="middle">网址/文档</th></tr></thead><tbody><tr><td vertical-align="middle">智谱<br/>GLM-4V</td><td vertical-align="middle">通用视觉类大模型</td><td vertical-align="middle"><ul><li>拍立得最早使用的模型</li><li>接口响应速度快</li><li>指令灵活性差一些</li><li>一个接口支持图片/视频/文本，视频和图片类型不能同时输入</li></ul></td><td vertical-align="middle">调用：0.05 元 / 千tokens</td><td vertical-align="middle"><a href="https://bigmodel.cn/dev/api/normal-model/glm-4v">智谱接口调用示例</a></td></tr><tr><td vertical-align="middle">阿里云百炼<br/>qwen-vl-plus</td><td vertical-align="middle">通用视觉类大模型</td><td vertical-align="middle"><ul><li>拍立得目前使用的模型</li><li>指令灵活性比较丰富</li><li>接口调用入门流程长一些，密钥安全性更高</li></ul></td><td vertical-align="middle">调用：¥0.008/千tokens<br/>训练：¥0.03/千tokens</td><td vertical-align="middle"><a href="https://bailian.console.aliyun.com/?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.33.14162f3drQWnj1&amp;scm=20140722.S_card@@%E4%BA%A7%E5%93%81@@2983180._.ID_card@@%E4%BA%A7%E5%93%81@@2983180-RL_%E7%99%BE%E7%82%BC%E5%A4%A7%E6%A8%A1%E5%9E%8B-LOC_search~UND~card~UND~item-OR_ser-V_3-RE_cardNew-P0_0#/model-market/detail/qwen-vl-plus?tabKey=sdk">通义千问接口调用示例</a></td></tr><tr><td vertical-align="middle">阶跃星辰</td><td vertical-align="middle">通用视觉类大模型</td><td vertical-align="middle"><ul><li>响应速度快</li><li>支持视频理解</li></ul></td><td vertical-align="middle">输入：¥0.005～0.015/千tokens<br/>输出：¥0.02～0.07/千tokens</td><td vertical-align="middle"><a href="https://platform.stepfun.com/docs/guide/image_chat">阶跃星辰接口调用示例</a></td></tr><tr><td vertical-align="middle">百度 PaddlePaddle</td><td vertical-align="middle">OCR，垂直小模型</td><td vertical-align="middle"><ul><li>文本识别能力补齐增强</li></ul></td><td vertical-align="middle">私有化部署服务费<br/>API调用在¥0.05～0.1/次</td><td vertical-align="middle"><a href="https://github.com/PaddlePaddle/PaddleOCR">Paddle OCR开源地址</a></td></tr></tbody></table>
+| 模型厂商 | 类型 | 特点 | 成本 | 网址/文档 |
+| --- | --- | --- | --- | --- |
+| 智谱GLM-4V | 通用视觉类大模型 | 拍立得最早使用的模型接口响应速度快指令灵活性差一些一个接口支持图片/视频/文本，视频和图片类型不能同时输入 | 调用：0.05 元 / 千tokens | [智谱接口调用示例](https://bigmodel.cn/dev/api/normal-model/glm-4v) |
+| 阿里云百炼qwen-vl-plus | 通用视觉类大模型 | 拍立得目前使用的模型指令灵活性比较丰富接口调用入门流程长一些，密钥安全性更高 | 调用：¥0.008/千tokens训练：¥0.03/千tokens | [通义千问接口调用示例](https://bailian.console.aliyun.com/?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.33.14162f3drQWnj1&scm=20140722.S_card@@%E4%BA%A7%E5%93%81@@2983180._.ID_card@@%E4%BA%A7%E5%93%81@@2983180-RL_%E7%99%BE%E7%82%BC%E5%A4%A7%E6%A8%A1%E5%9E%8B-LOC_search~UND~card~UND~item-OR_ser-V_3-RE_cardNew-P0_0#/model-market/detail/qwen-vl-plus?tabKey=sdk) |
+| 阶跃星辰 | 通用视觉类大模型 | 响应速度快支持视频理解 | 输入：¥0.005～0.015/千tokens输出：¥0.02～0.07/千tokens | [阶跃星辰接口调用示例](https://platform.stepfun.com/docs/guide/image_chat) |
+| 百度 PaddlePaddle | OCR，垂直小模型 | 文本识别能力补齐增强 | 私有化部署服务费API调用在¥0.05～0.1/次 | [Paddle OCR开源地址](https://github.com/PaddlePaddle/PaddleOCR) |

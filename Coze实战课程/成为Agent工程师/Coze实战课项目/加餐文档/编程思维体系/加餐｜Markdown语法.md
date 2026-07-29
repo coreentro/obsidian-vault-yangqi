@@ -70,18 +70,17 @@ Wrod相信任何人都用过，我们在用Word写文档的时候，当你添加
 - 当你写公众号或者博客时，对应的平台都会给你提供对应的编辑器
 
 <grid>
-<column width-ratio="0.349836">
+
 > [!abstract]- 🖼 图片展示了Word提供的编辑器界面，上方有“开始”“插入”“页面”等选项
 > 图片展示了Word提供的编辑器界面，上方有“开始”“插入”“页面”等选项卡，下方表格中包含“条件项”“多维度输入框”“使用库存更新也不更新”等内容，如“删除 - 上次库存字段”“本次库存，如果有多个值键，不同策略数字不能相同”等。图片下方以红色文字标注“Word提供的编辑器”，与上下文提到的Word不支持Markdown语法相呼应，直观呈现了Word编辑器的界面样式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/EiVjbQqbVoidb7xeY1ycpJXense) · `EiVjbQqbVoidb7xeY1ycpJXense`
-</column>
-<column width-ratio="0.650164">
+
 > [!abstract]- 🖼 图片展示了某个博客网站提供的编辑器界面。上方有多个编辑工具图标，包括加粗
 > 图片展示了某个博客网站提供的编辑器界面。上方有多个编辑工具图标，包括加粗、斜体、下划线、引用、图片、链接、代码块、列表、对齐方式、符号、表情、代码、插入表格等。下方文字区域显示“某个博客网站提供的编辑器”。该图片与上下文紧密相关，上下文在介绍Markdown语法时提到，体验Markdown语法可观看一段6分钟的视频，此图直观呈现了支持Markdown语法的编辑器界面，帮助理解视频中可能展示的内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VQFVb2zsgoV2VtxRQfOclFsYnth) · `VQFVb2zsgoV2VtxRQfOclFsYnth`
-</column>
+
 </grid>
 
 1. 哪些编辑器支持Markdown语法

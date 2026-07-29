@@ -35,10 +35,10 @@ tags:
 
 大家好，我是大圣，一个致力于使用AI技术将自己打造为超级个体的程序员。
 
-在我的<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite> 教程中，使用到了让大模型拥有记忆的三个概念，它们分别为：
+在我的[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb) 教程中，使用到了让大模型拥有记忆的三个概念，它们分别为：
 
-- 数据库（<cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>）
-- 知识库（<cite doc-id="DXLbw7BIMiO58UkoRskcNiaan9d" file-type="wiki" title="加餐｜Coze知识库" type="doc"></cite>）
+- 数据库（[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]）
+- 知识库（[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze知识库|加餐｜Coze知识库]]）
 - 变量
 
 本篇则是**通俗易懂系列**的最后一篇：**变量篇**
@@ -246,7 +246,7 @@ main()
 
 ## 数据库和变量的区别
 
-如果你不了解数据库，请阅读：<cite doc-id="WpC2wteRPitq0Ukf4lFcI99Zn6g" file-type="wiki" title="这可能是讲 Coze 的数据库最通俗易懂的文章了" type="doc"></cite>
+如果你不了解数据库，请阅读：[这可能是讲 Coze 的数据库最通俗易懂的文章了](https://axsppz4oyvj.feishu.cn/wiki/WpC2wteRPitq0Ukf4lFcI99Zn6g)
 
 这里要改正一个点：Coze的变量跟数据库一样，也是持久化存储的
 

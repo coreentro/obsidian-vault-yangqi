@@ -32,7 +32,7 @@ tags:
 
 # 领克AI创造者｜赛后总结思考（黄智虹）
 
-<blockquote><p><b>野生菌团队分享：</b><b><cite doc-id="DiqqdNSmao8nT2xWmiccbOOknIE" file-type="docx" title="汽车栏目主持人（零壹老师）智能体经验分享" type="doc"></cite></b></p><p>我是野生菌团队成员黄智虹，</p><p>以下是我的一些赛后总结和思考，分享给大家🫰，欢迎评论交流和指导，碰撞思考～</p></blockquote>
+<blockquote><p><b>野生菌团队分享：</b><b>[汽车栏目主持人（零壹老师）智能体经验分享](https://axsppz4oyvj.feishu.cn/docx/DiqqdNSmao8nT2xWmiccbOOknIE)</b></p><p>我是野生菌团队成员黄智虹，</p><p>以下是我的一些赛后总结和思考，分享给大家🫰，欢迎评论交流和指导，碰撞思考～</p></blockquote>
 
 ## **#有哪些可借鉴的落地场景**
 
@@ -66,6 +66,8 @@ tags:
 
 ---
 
-<table><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th vertical-align="middle"><b>姓名</b></th><th><b>人物介绍/标签</b></th><th>开发者相关作品</th><th>欢迎交流</th></tr></thead><tbody><tr><td vertical-align="middle">黄智虹</td><td vertical-align="middle">前字节策略运营专家<br/>智能体创作达人<br/><cite doc-id="CLePdz3tnoyid7xgdL9cL4L9nnh" file-type="docx" title="📇黄智虹｜个人使用说明书" type="doc"></cite></td><td>1.<a href="https://www.coze.cn/store/bot/7393632764244934697?panel=1&amp;bid=6dtmg11ak8g00">作品</a>：360环评工具<br/>2.<a href="https://www.coze.cn/store/bot/7402446307220095015?panel=1">作品</a>：「高效人士」阅读神器<br/>3.<a href="https://www.coze.cn/store/bot/7396272374259204115?panel=1">作品</a>：决策专家<br/>4.<a href="https://www.coze.cn/store/bot/7415889586184011787?panel=1">作品</a>：「岗位投递」分析专家<br/>5.<a href="https://www.coze.cn/store/bot/7412835001491980324?panel=1">作品</a>：餐饮经营百事通<br/>6.<a href="https://www.coze.cn/store/bot/7412840549004247059?panel=1">作品</a>：抖音餐饮｜经营指北（调试优化中）</td><td><grid><column width-ratio="0.500000"><p><b>微信</b></p><img name="image.png" alt="图片是一个二维码，位于文档中“有哪些赛后总结沉淀”部分。二维码上方有“微信”标识，表明扫描后可添加微信。该图片与上下文的关系是，作者在文档中提到“更多我个人的学习思考文档：[⻩智虹&#39;s Blog 2.0](https://l0x0d6pyepy.feishu.cn/docx/FdcidMiAxor38vxqSdHcbktOnbe)”，此二维码可能是用于添加作者微信，以便获取更多学习资料或交流。" mime="image/png" scale="0.203620" src="BVxAbl0eioYBYXxH0yfc1SbTn8c"/></column><column width-ratio="0.500000"><p><b>飞书</b></p><img name="20240624-165412.png" alt="图片展示的是飞书个人版的黄智虹的二维码。上方有其头像及“黄智虹 飞书个人版”的文字。中间是一个黑色的二维码，中间有蓝色飞书标志。下方有“扫描二维码，添加我为联系人”的提示。该图片位于文档结尾处，可能是作者黄智虹提供的一种联系方式，方便读者添加其为联系人，与文档中分享的个人学习思考文档、比赛分享等内容相呼应。" mime="image/png" scale="0.212828" src="B647b7x9JoFsk0xv5tOc7dYrnbf"/></column></grid></td></tr></tbody></table>
+| **姓名** | **人物介绍/标签** | 开发者相关作品 | 欢迎交流 |
+| --- | --- | --- | --- |
+| 黄智虹 | 前字节策略运营专家智能体创作达人[📇黄智虹｜个人使用说明书](https://axsppz4oyvj.feishu.cn/docx/CLePdz3tnoyid7xgdL9cL4L9nnh) | 1.[作品](https://www.coze.cn/store/bot/7393632764244934697?panel=1&bid=6dtmg11ak8g00)：360环评工具2.[作品](https://www.coze.cn/store/bot/7402446307220095015?panel=1)：「高效人士」阅读神器3.[作品](https://www.coze.cn/store/bot/7396272374259204115?panel=1)：决策专家4.[作品](https://www.coze.cn/store/bot/7415889586184011787?panel=1)：「岗位投递」分析专家5.[作品](https://www.coze.cn/store/bot/7412835001491980324?panel=1)：餐饮经营百事通6.[作品](https://www.coze.cn/store/bot/7412840549004247059?panel=1)：抖音餐饮｜经营指北（调试优化中） | **微信****飞书** |
 
-<blockquote><p>更多我个人的学习思考文档：<cite doc-id="FdcidMiAxor38vxqSdHcbktOnbe" file-type="docx" title="⻩智虹&#39;s Blog 2.0" type="doc"></cite></p><p>更多比赛分享：<cite doc-id="QOMZwrafziKvY1kasUAcFPKrnMZ" file-type="wiki" title="「Agent共学」coze比赛大奖作品分享核心创作理念" type="doc"></cite></p><p>更多AI知识库：<cite doc-id="QPe5w5g7UisbEkkow8XcDmOpn8e" file-type="wiki" title="通往AGI之路" type="doc"></cite></p></blockquote>
+<blockquote><p>更多我个人的学习思考文档：[⻩智虹's Blog 2.0](https://axsppz4oyvj.feishu.cn/docx/FdcidMiAxor38vxqSdHcbktOnbe)</p><p>更多比赛分享：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」coze比赛大奖作品分享核心创作理念/「Agent共学」coze比赛大奖作品分享核心创作理念|「Agent共学」coze比赛大奖作品分享核心创作理念]]</p><p>更多AI知识库：[[通往AGI之路|通往AGI之路]]</p></blockquote>

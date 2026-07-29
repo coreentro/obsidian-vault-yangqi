@@ -70,4 +70,5 @@ Skill是一套规范，它不依赖于任何的平台。
 
 下面直接看视频：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="VyGMbSUyto9tHNxTaRucVoUnnBd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/VyGMbSUyto9tHNxTaRucVoUnnBd) · `VyGMbSUyto9tHNxTaRucVoUnnBd`

@@ -35,7 +35,7 @@ tags:
 
 大家好，我是大圣，一个致力于使用AI技术将自己打造为超级个体的程序员。
 
-本文是：<cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite> 这篇教程中关于数据库概念的细化。
+本文是：[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb) 这篇教程中关于数据库概念的细化。
 
 如果你没有看过上面这篇教程也无所谓，只要你正在学习Coze并且对数据库节点产生了困惑
 

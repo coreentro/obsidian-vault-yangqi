@@ -30,7 +30,7 @@ tags:
 > [!info] 位置
 > 【启程必看】从这里开始 › 【正课阶段 1】：AI 通识与底层逻辑 › 第三章：AIGC提示词工程
 
-<blockquote><p>本文来自社区共建作者云舒的文章：<cite doc-id="B7XlwmrtXiobxxkviYVcoA2RnzT" file-type="wiki" title="云舒：为了不再手搓提示词，我给自己雇了个提示词领航员" type="doc"></cite></p></blockquote>
+<blockquote><p>本文来自社区共建作者云舒的文章：[云舒：为了不再手搓提示词，我给自己雇了个提示词领航员](https://axsppz4oyvj.feishu.cn/wiki/B7XlwmrtXiobxxkviYVcoA2RnzT)</p></blockquote>
 
 <readonly-block href="https://axsppz4oyvj.feishu.cn/minutes/embed/obcnun95a1ju5z38sy3q121z?from=ccm" type="iframe"></readonly-block>
 

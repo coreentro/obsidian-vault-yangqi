@@ -42,7 +42,7 @@ tags:
 
 Skill的本质就是输入、处理和输出，这个框架看似简单，但无比重要
 
-<cite doc-id="GSRuwYGXdiCqdWk0WbZc9539nGe" file-type="wiki" title="【必看理论】打磨Skill之前的思维模型" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/【必看理论】打磨Skill之前的思维模型|【必看理论】打磨Skill之前的思维模型]]
 
 # 二、你需要首先安装一个官方技能
 
@@ -91,9 +91,9 @@ https://github.com/anthropics/skills/tree/main/skills/skill-creator
 
 **第一步：我把自己对朋友圈写作的方法论写成了一篇SOP，大家可以去仔细阅读一下。这篇文档非常详细**
 
-<cite doc-id="SNHjwP3uxiMe4wkhbq1cwUQongf" file-type="wiki" title="【附录】大圣朋友圈写作 SOP - V3.0" type="doc"></cite>
+[【附录】大圣朋友圈写作 SOP - V3.0](https://axsppz4oyvj.feishu.cn/wiki/SNHjwP3uxiMe4wkhbq1cwUQongf)
 
-如果要下载 Markdown 或者 PDF，请移步这篇文档：<cite doc-id="CZmmw8Iuaiu2eVk95EYctN6Hn7f" file-type="wiki" title="附录：学习案例下载专用文档" type="doc"></cite>
+如果要下载 Markdown 或者 PDF，请移步这篇文档：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/附录：学习案例下载专用文档|附录：学习案例下载专用文档]]
 
 > [!abstract]- 🖼 这张图片展示的是名为“大圣朋友圈写作SOP - V3.0”的附录文档内容
 > 这张图片展示的是名为“大圣朋友圈写作SOP - V3.0”的附录文档内容，标题为下载案例二：大圣朋友圈SOP。文档明确标注该附录是用于打造朋友圈写作技能的相关参考资料，与文档中提及的通过发送对应文档给CodeX或Claude Code来打造该技能的内容相呼应。图片呈现了文档中关于“大圣的写作风格特征”部分，该部分通过表格形式列出了两项语言风格特征，分别是“口语化但有逻辑”与“喜欢用数字”，并配有对应的说明及例句，是打造朋友圈写作技能的具体参考依据。
@@ -130,18 +130,17 @@ https://github.com/anthropics/skills/tree/main/skills/skill-creator
 然后你用元宝提取一下我这篇文章的视频逐字稿，把逐字稿直接发给你的 CodeX
 
 <grid>
-<column width-ratio="0.521889">
+
 > [!abstract]- 🖼 图片展示了一段视频截图，视频标题为“找到精准词大幅提升AI的回复质量”，
 > 图片展示了一段视频截图，视频标题为“找到精准词大幅提升AI的回复质量”，画面中有一个播放按钮。视频内容是关于AI回复质量提升的技巧，提到在与AI交流时，找到精准词能大幅提升AI的回复质量。该图片位于文档中介绍开发技能第三种方式的内容部分，是对找到精准词提升AI回复质量这一技巧的直观呈现，与上下文对找到精准词提升AI回复质量技巧的说明相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/R89bbIY7Lox7RlxGqnOcZ6F6nEd) · `R89bbIY7Lox7RlxGqnOcZ6F6nEd`
-</column>
-<column width-ratio="0.478111">
+
 > [!abstract]- 🖼 图片展示的是一个发送界面，发送对象为“元宝 AI”。界面中有一个视频缩略
 > 图片展示的是一个发送界面，发送对象为“元宝 AI”。界面中有一个视频缩略图，视频内容为“找到精准词大幅提升AI的回复质量”。下方有“提取视频逐字稿”按钮，以及“取消”和“发送”按钮。该图片与文档中“开发技能的第二种方式”内容相关，对应文档中“用元宝提取一下我这篇文章的视频逐字稿，把逐字稿直接发给你的CodeX”这一操作步骤，直观呈现了提取视频逐字稿的操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Sjq1bLA4codIq6xsKymcuFbUnnb) · `Sjq1bLA4codIq6xsKymcuFbUnnb`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 这张图片展示了与AI工具使用相关的内容，包含标题为“AI回复质量提升技巧
@@ -177,7 +176,7 @@ https://github.com/anthropics/skills/tree/main/skills/skill-creator
 
 **这种方式就是站在巨人的肩膀上去打磨**
 
-在前面的课程里，我们讲了如何寻找 Skill：<cite doc-id="NjsXwgpiUi2ES4kYyBwcEGiLnqf" file-type="wiki" title="如何寻找 &amp; 安装Skills" type="doc"></cite>
+在前面的课程里，我们讲了如何寻找 Skill：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/如何寻找 & 安装Skills|如何寻找 & 安装Skills]]
 
 当你找到别人的开源 Skill 之后，你可以把它丢给你的 CodeX，让它先帮你安装在你的电脑上，然后基于这个 Skill 进行二次打磨
 

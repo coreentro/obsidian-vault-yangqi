@@ -34,4 +34,5 @@ tags:
 
 <readonly-block href="https://waytoagi.feishu.cn/minutes/embed/obcnrlf1ynq59accy78434n7?from=ccm" type="iframe"></readonly-block>
 
-<figure view-type="Preview"><source mime="application/vnd.openxmlformats-officedocument.presentationml.presentation" token="MYyebb2mMoZc8OxJiFdcyEn2nse"/></figure>
+> [!warning]- 📎 附件（`application/vnd.openxmlformats-officedocument.presentationml.presentation`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MYyebb2mMoZc8OxJiFdcyEn2nse) · `MYyebb2mMoZc8OxJiFdcyEn2nse`

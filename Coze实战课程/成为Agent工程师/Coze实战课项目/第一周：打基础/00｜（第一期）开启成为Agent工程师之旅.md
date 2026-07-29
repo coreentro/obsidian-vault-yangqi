@@ -30,7 +30,7 @@ tags:
 > [!info] 位置
 > 成为Agent工程师 › Coze实战课项目 › 第一周：打基础
 
-<blockquote><p>会议回放已经生成，大家可以按需观看<br/><cite doc-id="QH1vdWztZo2LtMxLRdjcnZ70n0b" file-type="docx" title="开课仪式：开启成为Agent工程师之旅 2024年6月15日" type="doc"></cite></p><p>单独的视频链接：</p><readonly-block href="https://waytoagi.feishu.cn/minutes/embed/obcnxso23ei6l291yg8463lu?from=ccm" type="iframe"></readonly-block></blockquote>
+<blockquote><p>会议回放已经生成，大家可以按需观看<br/>[开课仪式：开启成为Agent工程师之旅 2024年6月15日](https://axsppz4oyvj.feishu.cn/docx/QH1vdWztZo2LtMxLRdjcnZ70n0b)</p><p>单独的视频链接：</p><readonly-block href="https://waytoagi.feishu.cn/minutes/embed/obcnxso23ei6l291yg8463lu?from=ccm" type="iframe"></readonly-block></blockquote>
 
 # 一、两位主讲自我介绍（6分钟）
 
@@ -38,7 +38,7 @@ tags:
 
 - 河北石家庄人，现居住杭州余杭，一位Java开发工程师
 - 有一个超级可爱的19个月的女儿，在探索AI育儿
-- 通往AGI之路共创作者，组织参与AI Agent一期的共学快闪活动：<cite doc-id="WMTYwmkyqiZBUSkOpircmxm1nlc" file-type="wiki" title="Agent 搭建共学快闪 0507" type="doc"></cite>
+- 通往AGI之路共创作者，组织参与AI Agent一期的共学快闪活动：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0507/Agent 搭建共学快闪 0507|Agent 搭建共学快闪 0507]]
 - 工作经历丰富，大中小厂都呆过，创业3年，目前在一家中厂上班
 - 喜欢写作，热爱分享，擅长拆解复杂的AI知识，然后通过通俗易懂的方式讲解出来
 - 不喜欢碎片化的知识，不喜欢将失败归结于各种信息差，喜欢沉淀体系化的知识
@@ -70,9 +70,9 @@ PS. 大家叫我“艾木”就好，尽量不要带“老师”～
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/QEWbbU8quotMPUxcxG0cgAxTnsb) · `QEWbbU8quotMPUxcxG0cgAxTnsb`
 
-- Dr. Know: https://www.coze.com/s/Zs8MUCQGU/（<cite doc-id="RnJMwnX0UiEY6yk8cq6cTtZXnGy" file-type="wiki" title="5月23日 艾木分享 | 这也许是你一生中第一个Bot" type="doc"></cite>）
-- 谁是卧底: https://www.coze.com/s/Zs8MU9PGT/ （<cite doc-id="RWN5wdpIBiDzyvkekEfcuCXxnbf" file-type="wiki" title="04｜Multiagent之谁是卧底" type="doc"></cite>）
-- Harvest: https://www.coze.com/s/Zs8MUkQPG/ （<cite doc-id="UVYwws8o2iUfsqk6n5GczSmRnPe" file-type="wiki" title="05｜基于 Notion 连接器打造个人信息助理" type="doc"></cite>）
+- Dr. Know: https://www.coze.com/s/Zs8MUCQGU/（[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0523/5月23日 艾木分享 · 这也许是你一生中第一个Bot/5月23日 艾木分享 · 这也许是你一生中第一个Bot|5月23日 艾木分享 ｜ 这也许是你一生中第一个Bot]]）
+- 谁是卧底: https://www.coze.com/s/Zs8MU9PGT/ （[[成为Agent工程师/Coze实战课项目/第四周：Multiagent之谁是卧底/04｜Multiagent之谁是卧底|04｜Multiagent之谁是卧底]]）
+- Harvest: https://www.coze.com/s/Zs8MUkQPG/ （[[成为Agent工程师/Coze实战课项目/第五周：基于 Notion 连接器打造个人信息助理/05｜基于 Notion 连接器打造个人信息助理|05｜基于 Notion 连接器打造个人信息助理]]）
 
 ### 组织着一个498（+197）人的 [Coze 创作者社群](https://mp.weixin.qq.com/s/_mM7FG21tS2F3MZWPmgw9Q)
 
@@ -140,11 +140,12 @@ PS. 大家叫我“艾木”就好，尽量不要带“老师”～
 
 同时我更希望你能找到适合自己的路径，在AI这条路上越走越远
 
-<cite doc-id="N1WUwd0QNiqZR0k0nEQcpORBnmf" file-type="wiki" title="大圣的AI学习路径3.0" type="doc"></cite>
+[大圣的AI学习路径3.0](https://axsppz4oyvj.feishu.cn/wiki/N1WUwd0QNiqZR0k0nEQcpORBnmf)
 
 # 四、如何学习和如何学编程（艾木 25 分钟）
 
-<figure view-type="Preview"><source mime="application/pdf" token="JSxVbDhbzoe6jaxvQ5WcCzzsnxm"/></figure>
+> [!warning]- 📎 附件（`application/pdf`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JSxVbDhbzoe6jaxvQ5WcCzzsnxm) · `JSxVbDhbzoe6jaxvQ5WcCzzsnxm`
 
 # 五、WaytoAGI知识库使用指引（15-20分钟）
 
@@ -156,7 +157,7 @@ PS. 大家叫我“艾木”就好，尽量不要带“老师”～
 
 ## 第一位分享者：YoYo
 
-<cite doc-id="Cy5MwenLfiuXXUkIe2Sciilbnjg" file-type="wiki" title="我在通往AGI的学习之路心得" type="doc"></cite>
+[我在通往AGI的学习之路心得](https://axsppz4oyvj.feishu.cn/wiki/Cy5MwenLfiuXXUkIe2Sciilbnjg)
 
 ## 第二位分享者：BZ起点
 
@@ -164,4 +165,4 @@ PS. 大家叫我“艾木”就好，尽量不要带“老师”～
 
 ## 第三位分享者：Summer
 
-<cite doc-id="ZVcUwn1Qcib3TVkMZiDcNlx7nTh" file-type="wiki" title="自我介绍与学习路径分享" type="doc"></cite>
+[自我介绍与学习路径分享](https://axsppz4oyvj.feishu.cn/wiki/ZVcUwn1Qcib3TVkMZiDcNlx7nTh)

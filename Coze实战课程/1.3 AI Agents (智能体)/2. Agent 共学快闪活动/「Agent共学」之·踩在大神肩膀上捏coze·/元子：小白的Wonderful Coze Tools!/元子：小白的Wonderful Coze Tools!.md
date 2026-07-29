@@ -84,18 +84,17 @@ Coze好像有点厉害，又有点无聊，我也想象不到它能为我做什�
 [https://www.coze.cn/store/agent/7439016850379374643?from=bots_card&bid=6em8drm90701k](https://www.coze.cn/store/agent/7439016850379374643?from=bots_card&bid=6em8drm90701k)
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是元子在PPT制作中使用“PPT制作之抠图神器”功能的示例。上
 > 图片展示的是元子在PPT制作中使用“PPT制作之抠图神器”功能的示例。上方提示输入图片网络链接或上传图片，下方显示一张汽车行驶于城市高楼背景的图片。元子发送图片后，下方显示“已为你生成抠图结果”，并有“点击查看”按钮。该图片与上下文紧密相关，直观呈现了该功能的实际应用效果，帮助用户了解其功能及操作结果。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VLeNbu1FOotattx2gPIcaBoen9f) · `VLeNbu1FOotattx2gPIcaBoen9f`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了一辆灰色的汽车侧面图。车身线条流畅，车窗呈深色，车门把手为黑色
 > 图片展示了一辆灰色的汽车侧面图。车身线条流畅，车窗呈深色，车门把手为黑色。轮毂设计独特，带有红色装饰。该图片位于文档中“安仔：WaytoAGI智能问答”部分，可能是作为该部分的配图，与文档内容无直接关联。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/FZ1Nbf2ipouXD5xqBWHceyj1nyg) · `FZ1Nbf2ipouXD5xqBWHceyj1nyg`
-</column>
+
 </grid>
 
 [https://www.coze.cn/store/project/7443274617134923827?from=project_card&bid=6em8fpmh48g09](https://www.coze.cn/store/project/7443274617134923827?from=project_card&bid=6em8fpmh48g09)
@@ -110,13 +109,12 @@ Coze好像有点厉害，又有点无聊，我也想象不到它能为我做什�
 [https://www.coze.cn/store/agent/7366070581839577138?from=bots_card&bid=6em8gjluo200a](https://www.coze.cn/store/agent/7366070581839577138?from=bots_card&bid=6em8gjluo200a)
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了一个名为 iShot（购买解锁去水印）的界面。界面顶部有彩色的
 > 图片展示了一个名为 iShot（购买解锁去水印）的界面。界面顶部有彩色的山水风景图，下方是一段欢迎元子来到《通往 AGI 之路》知识区的文字，介绍这是 AI 知识机器人可提供最新 AI 知识等。接着是社区正在进行的“Coze（扣子）共享快闪活动第二期”的相关信息，包括活动时间从 2024 年 6 月 3 日 19:30 开始到 6 月 7 日 21:30 结束，活动主题为共享快闪，还提到活动相关状态为进行中。此图片与上文介绍的 AI 相关内容相呼应，展示了社区活动情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/A7PxbC2kmocQ8yxlayzcPTRinXb) · `A7PxbC2kmocQ8yxlayzcPTRinXb`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是“通往AGI之路”网站界面。左侧有网站名称及导航栏，包括首页
 > 图片展示的是“通往AGI之路”网站界面。左侧有网站名称及导航栏，包括首页、AI活动、AI网站、AI智能体等选项。右侧上方有“直达「通往AGI之路」飞书知识库”链接。下方是“与WaytoAGI知识库对话”区域，输入框内显示“最近有什么共学活动吗”，并有“看看大家在问什么？”和“查看全部”按钮。该图片与文档中介绍“通往AGI之路”网站的内容相关，展示了其对话功能界面。
 > 
@@ -125,7 +123,7 @@ Coze好像有点厉害，又有点无聊，我也想象不到它能为我做什�
 > 图片展示的是元子分享的关于AI活动信息。上方有“最近有什么AI学术活动吗？”标题，下方列出多场AI相关活动，包括“深度学习与强化学习”研讨会、Config UI 2023等，标注了举办时间、地点等信息。底部有“参考资料”板块，列出相关链接。图片与上文提到的元子分享AI活动信息相呼应，直观呈现了活动详情。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/O9vfb1IFQoUzgsxdlXbc1rl1nde) · `O9vfb1IFQoUzgsxdlXbc1rl1nde`
-</column>
+
 </grid>
 
 ### 韦恩：证件照天花板
@@ -239,7 +237,9 @@ https://www.coze.cn/store/project/7446243710884986895?bid=6eob6b8b89015&entity_i
 
 搞个投票，拆解或者有用排行榜，帮助我们持续迭代\~
 
-<bitable table-id="tblUyRzjecbYfVI2" token="JkW7btpWyaUH6zsIvCTccDnknfh"></bitable>
+> [!example] 📊 嵌入的多维表格
+> [多维表格](https://axsppz4oyvj.feishu.cn/base/JkW7btpWyaUH6zsIvCTccDnknfh)
+> `token=JkW7btpWyaUH6zsIvCTccDnknfh` `sub=tblUyRzjecbYfVI2`</bitable>
 
 AI搞股票？（测评中）
 
@@ -253,4 +253,4 @@ AI搞股票？（测评中）
 
  **最后的最后，想联系我的话，请戳这里这里：**
 
-<cite doc-id="GYq4wOOJEiZpqUk4jsWcWPaZnCf" file-type="wiki" title="元子：一份不太正经的使用说明书 v0.1 🚀" type="doc"></cite>
+[元子：一份不太正经的使用说明书 v0.1 🚀](https://axsppz4oyvj.feishu.cn/wiki/GYq4wOOJEiZpqUk4jsWcWPaZnCf)

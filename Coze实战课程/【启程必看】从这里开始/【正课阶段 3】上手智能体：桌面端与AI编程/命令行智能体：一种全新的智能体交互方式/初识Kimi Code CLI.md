@@ -79,7 +79,8 @@ Kimi Code CLI最适合中国宝宝体质使用，虽然它需要付一些费用�
 
 关于下载和安装，请看下方视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="JxanbZ5MYorCKWxHGFjc03gbnkf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JxanbZ5MYorCKWxHGFjc03gbnkf) · `JxanbZ5MYorCKWxHGFjc03gbnkf`
 
 # 二、学会看Kimi Code的官方文档
 

@@ -31,25 +31,31 @@ tags:
 
 # 共学日程表 📅
 
-<synced-source><table><colgroup><col/><col/><col/><col/><col/></colgroup><thead><tr><th>时间</th><th>分享材料 &amp; <br/>回放</th><th>内容</th><th>参与者要求</th><th>分享人</th></tr></thead><tbody><tr><td>1月18日<br/>20:00开始</td><td><a href="[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」实战篇之coze应用· 从入门 🔜 精品/韦恩：扣子·AI应用·入门，带你搭建价值千元的证件照应用/韦恩：扣子·AI应用·入门，带你搭建价值千元的证件照应用|韦恩：扣子"AI应用"入门，带你搭建价值千元的证件照应用]]">分享材料</a><br/>(<a href="https://waytoagi.feishu.cn/minutes/obcn7ks3m4jtt3tuom2b9z95?from=ai_minutes">视频回放</a>)</td><td>90分钟从0开始打造你的第一个Coze应用: 证件照</td><td>智能体搭建经验</td><td>韦恩</td></tr><tr><td>1月19日<br/>20:00开始</td><td><a href="[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」实战篇之coze应用· 从入门 🔜 精品/韦恩：扣子·AI应用·进阶，带你搭建价值万元的邮票收藏馆应用|韦恩：扣子"AI应用"进阶，带你搭建价值万元的邮票收藏馆应用]]">分享材料</a><br/>(<a href="https://waytoagi.feishu.cn/minutes/obcn8a2787l16566sboceaqr?from=ai_minutes">视频回放</a>)</td><td>邮票魔法师：喜迎新年 x 创意艺术 x Coze应用</td><td>AI应用建基础知识</td><td>韦恩</td></tr></tbody></table></synced-source>
+<synced-source>
+
+| 时间 | 分享材料 & 回放 | 内容 | 参与者要求 | 分享人 |
+| --- | --- | --- | --- | --- |
+| 1月18日20:00开始 | [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」实战篇之coze应用· 从入门 🔜 精品/韦恩：扣子·AI应用·入门，带你搭建价值千元的证件照应用/韦恩：扣子·AI应用·入门，带你搭建价值千元的证件照应用|分享材料]]([视频回放](https://waytoagi.feishu.cn/minutes/obcn7ks3m4jtt3tuom2b9z95?from=ai_minutes)) | 90分钟从0开始打造你的第一个Coze应用: 证件照 | 智能体搭建经验 | 韦恩 |
+| 1月19日20:00开始 | [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」实战篇之coze应用· 从入门 🔜 精品/韦恩：扣子·AI应用·进阶，带你搭建价值万元的邮票收藏馆应用|分享材料]]([视频回放](https://waytoagi.feishu.cn/minutes/obcn8a2787l16566sboceaqr?from=ai_minutes)) | 邮票魔法师：喜迎新年 x 创意艺术 x Coze应用 | AI应用建基础知识 | 韦恩 |
+
+</synced-source>
 
 # 会议信息：
 
 会议号：vc.feishu.cn/j/206696381
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是一个会议日程信息。上方蓝底白字显示“90分钟从0开始打造你的
 > 图片展示的是一个会议日程信息。上方蓝底白字显示“90分钟从0开始打造你的第一...”，时间为2025年1月18日（周六）20:00 - 21:30 (GMT+8)，每天重复，截止到2025年1月19日。下方有小田（组织者）的头像及名称，还有飞书的标志和“扫描二维码以加入飞书日程”的提示。该图片与文档中介绍的“从0开始打造你的第一个Coze应用”会议日程信息相关，是会议的具体安排展示。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZCSabR1fzoZofyxKgd7c5Tzvn2O) · `ZCSabR1fzoZofyxKgd7c5Tzvn2O`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片是“邮票魔法师：喜迎新年 x 创意艺术 x Coze应用”共学活动的
 > 图片是“邮票魔法师：喜迎新年 x 创意艺术 x Coze应用”共学活动的宣传图。背景为渐变蓝，上方文字为活动标题及时间“2025年1月19日（周日） 20:00 - 21:30 (GMT+8)”。下方显示组织者为“小田”，并有飞书标识及“扫描二维码以加入飞书日程”的提示。该图片位于文档介绍该共学活动的背景部分，用于告知活动信息，吸引参与者加入。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ORJObquQ6o1731xKgVdcwuk4ngb) · `ORJObquQ6o1731xKgVdcwuk4ngb`
-</column>
+
 </grid>
 
 # 背景介绍 🐆

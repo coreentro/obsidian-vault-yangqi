@@ -66,11 +66,15 @@ Skills 这套规范正在快速被各大平台采纳。目前主流的 AI 工具
 
 比如我列举几家工具给大家感受下
 
-<sheet sheet-id="P7rIyG" token="LcPisdzJFhw3g7t3LgGcUQS2nEJ"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/LcPisdzJFhw3g7t3LgGcUQS2nEJ)
+> `token=LcPisdzJFhw3g7t3LgGcUQS2nEJ` `sub=P7rIyG`</sheet>
 
 而我们比较熟悉和常用的几家工具：
 
-<sheet sheet-id="kCCg8M" token="LcPisdzJFhw3g7t3LgGcUQS2nEJ"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/LcPisdzJFhw3g7t3LgGcUQS2nEJ)
+> `token=LcPisdzJFhw3g7t3LgGcUQS2nEJ` `sub=kCCg8M`</sheet>
 
 ## 3）一个重要认知：效果 = 模型能力 \* 平台适配
 
@@ -136,7 +140,8 @@ SKILL.md 里写了工作流程、规则约束、输出规范，模型要能**真
 
 ## 2）第一种：手动安装（强烈建议至少走一遍）
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2144.000000" origin-width="3824.000000" token="KLscboK88oY0EuxCq1JcHxoynXd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/KLscboK88oY0EuxCq1JcHxoynXd) · `KLscboK88oY0EuxCq1JcHxoynXd`
 
 **手动安装的核心逻辑就一句话：把 Skill 文件夹放到指定位置**
 
@@ -146,7 +151,9 @@ SKILL.md 里写了工作流程、规则约束、输出规范，模型要能**真
 
 由于这个skill我想安装在**用户级别下（全局）**，因此需要在用户根目录下创建目录
 
-<sheet sheet-id="D4qCqF" token="LcPisdzJFhw3g7t3LgGcUQS2nEJ"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/LcPisdzJFhw3g7t3LgGcUQS2nEJ)
+> `token=LcPisdzJFhw3g7t3LgGcUQS2nEJ` `sub=D4qCqF`</sheet>
 
 比如我是苹果电脑，我的目录是：
 
@@ -209,7 +216,8 @@ SKILL.md 里写了工作流程、规则约束、输出规范，模型要能**真
 
 ## 3）第二种：让AI帮你安装
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1922.000000" token="RoXSbsn0CoEgkwxFMJXc2c21nqg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/RoXSbsn0CoEgkwxFMJXc2c21nqg) · `RoXSbsn0CoEgkwxFMJXc2c21nqg`
 
 这种方式，我相信大家都不陌生了，就是让AI帮你做任何事情
 
@@ -228,11 +236,14 @@ AI 会自动去下载、放到正确的目录、完成安装
 
 ## 4）第三种：用第三方工具帮你安装
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2144.000000" origin-width="3828.000000" token="UmBwbnH65o35kEx2XO7cw5otngc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/UmBwbnH65o35kEx2XO7cw5otngc) · `UmBwbnH65o35kEx2XO7cw5otngc`
 
 现在市面上有几十种 AI 编程助手（Claude Code、Cursor、Codex、Cline、Windsurf 等等），它们都支持Skills的安装，但同时它们各自把技能文件存放在**不同的目录**下，例如：
 
-<sheet sheet-id="h38kpX" token="LcPisdzJFhw3g7t3LgGcUQS2nEJ"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/LcPisdzJFhw3g7t3LgGcUQS2nEJ)
+> `token=LcPisdzJFhw3g7t3LgGcUQS2nEJ` `sub=h38kpX`</sheet>
 
 Vercel 官方出了一个工具叫 **add-skill**，专门解决这个问题：
 
@@ -266,7 +277,8 @@ npx skills add anthropics/skills --list
 
 # 三、如何找到优质的Skills
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2144.000000" origin-width="3824.000000" token="JK0ibQw6To9K1NxrRbGcYaqFnic"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JK0ibQw6To9K1NxrRbGcYaqFnic) · `JK0ibQw6To9K1NxrRbGcYaqFnic`
 
 <callout emoji="✨">
 -- 腾讯出的SkillHub，据说更适合中国宝宝体质  

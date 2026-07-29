@@ -72,7 +72,8 @@ tags:
 
 我们直接上视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1052.000000" origin-width="1912.000000" token="Qi57b6mG1ojefaxrwzrc33xWnbf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Qi57b6mG1ojefaxrwzrc33xWnbf) · `Qi57b6mG1ojefaxrwzrc33xWnbf`
 
 ## Claude的Projects
 
@@ -82,7 +83,8 @@ Claude的付费版本（每月20美金）有一个非常强大的功能：Projec
 
 我们直接上视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1070.000000" origin-width="1916.000000" token="Ph9LbzXWEoC1zuxo7j1cOMEFnef"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Ph9LbzXWEoC1zuxo7j1cOMEFnef) · `Ph9LbzXWEoC1zuxo7j1cOMEFnef`
 
 其他的类似工具有：
 
@@ -348,7 +350,8 @@ AI+搜索引擎的结合，就是我们上面讲到的，给AI配备了一个活
 
 下面则是我用Coze制作的一个秘塔搜索机器人，感兴趣可以看下他的工作过程
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="918.000000" origin-width="754.000000" token="PwR1bpQ7EoE2tSxIhXdcLAw1nPf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/PwR1bpQ7EoE2tSxIhXdcLAw1nPf) · `PwR1bpQ7EoE2tSxIhXdcLAw1nPf`
 
 OK，关于AI搜索我们就简单介绍到这里，下面我们正式开始介绍RAG
 
@@ -590,7 +593,7 @@ OK，关于AI搜索我们就简单介绍到这里，下面我们正式开始介�
 
 为了让大家更好的融入AI时代，我之前专门编写了一个编程思维体系的课程，其中专门有讲传统的数据库
 
-<cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
 
 传统的数据库就像Excel一样，用来存储结构化的数据，而向量数据库，则用来存储向量。
 
@@ -675,7 +678,8 @@ Bot地址：https://www.coze.cn/store/bot/7400077517299957800?panel=1&bid=6dkpl0
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1004.000000" origin-width="1102.000000" token="Agz5bIFw8oUyyhxa2oSc5dywn1b"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Agz5bIFw8oUyyhxa2oSc5dywn1b) · `Agz5bIFw8oUyyhxa2oSc5dywn1b`
 
 另外我还做了一个Bot，用来对比Query改写和未改写的区别。
 
@@ -683,7 +687,8 @@ Bot地址：https://www.coze.cn/store/bot/7400553639514800182?panel=1&bid=6dkplh
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1056.000000" origin-width="1120.000000" token="UCUkbixanoGwyjxjOyBc9rKynZg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/UCUkbixanoGwyjxjOyBc9rKynZg) · `UCUkbixanoGwyjxjOyBc9rKynZg`
 
 <callout emoji="⛱️">
 这些技术通常不是孤立使用的，而是相互结合，形成一个综合的用户意图理解系统。
@@ -743,7 +748,7 @@ Bot地址：https://www.coze.cn/store/bot/7400553639514800182?panel=1&bid=6dkplh
 
 其实路由所依靠的就是意图识别，我专门写过一篇关于意图识别的文章
 
-<cite doc-id="QmdMwFduYis6TvkeGcrctCO4ncc" file-type="wiki" title="加餐｜理解意图识别(可复制" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/加餐文档/Coze新功能使用/加餐｜理解意图识别(可复制|加餐｜理解意图识别(可复制]]
 
 注意：
 
@@ -1138,7 +1143,7 @@ Claude大家都很清楚了，目前最强的AI大模型，一个月20美元，�
 - 依靠Coze来跟进当前AI Agent工具的发展情况，对其保持关注，发现商业化的机会
 - 做产品Demo，我有任何的想法都可以考虑在Coze中实现一个Demo
 
-还不知道Coze是什么的同学可以看我的公开分享：<cite doc-id="ZP1wwFWhvii1sfkvcEFc2saznoh" file-type="wiki" title="胎教级教程：万字长文手把手教你用Coze打造企业级知识库" type="doc"></cite>
+还不知道Coze是什么的同学可以看我的公开分享：[胎教级教程：万字长文手把手教你用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/ZP1wwFWhvii1sfkvcEFc2saznoh)
 
 我在学习RAG的过程首先会通过Claude帮助我了解细节的概念，然后再通过Coze搭建一个Dmeo，
 
@@ -1150,7 +1155,7 @@ Claude大家都很清楚了，目前最强的AI大模型，一个月20美元，�
 
 这个Bot是利用了Coze的知识库能力，演示知识库在企业中的应用。
 
-相关资料请参考我的公开分享：<cite doc-id="ZP1wwFWhvii1sfkvcEFc2saznoh" file-type="wiki" title="胎教级教程：万字长文手把手教你用Coze打造企业级知识库" type="doc"></cite>
+相关资料请参考我的公开分享：[胎教级教程：万字长文手把手教你用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/ZP1wwFWhvii1sfkvcEFc2saznoh)
 
 **Query改写助手学习Bot：**
 
@@ -1160,7 +1165,8 @@ Bot地址：https://www.coze.cn/store/bot/7400077517299957800?panel=1&bid=6dkpl0
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1004.000000" origin-width="1102.000000" token="CeGNbdwDGoQTx0xgcU1ctXxAnHh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/CeGNbdwDGoQTx0xgcU1ctXxAnHh) · `CeGNbdwDGoQTx0xgcU1ctXxAnHh`
 
 **Query改写效果对比Bot**
 
@@ -1172,7 +1178,8 @@ Bot地址：https://www.coze.cn/store/bot/7400553639514800182?panel=1&bid=6dkplh
 
 视频演示：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1056.000000" origin-width="1120.000000" token="EJDNbBR29otvq1xwcHTcJr7MnSf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/EJDNbBR29otvq1xwcHTcJr7MnSf) · `EJDNbBR29otvq1xwcHTcJr7MnSf`
 
 **RAG全流程学习Bot**
 
@@ -1182,7 +1189,8 @@ PS：**这个流程还是一个玩具**，因为对于向量化这块我直接�
 
 我们直接看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1076.000000" origin-width="1916.000000" token="S4lWb7URoo18YzxpQjrcczBrnVh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/S4lWb7URoo18YzxpQjrcczBrnVh) · `S4lWb7URoo18YzxpQjrcczBrnVh`
 
 # 十、写在最后
 

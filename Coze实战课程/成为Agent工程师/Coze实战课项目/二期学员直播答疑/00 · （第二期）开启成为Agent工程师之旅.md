@@ -38,7 +38,7 @@ tags:
 
 - 河北石家庄人，现居住杭州余杭，一位Java开发工程师
 - 有一个超级可爱的21个月的女儿，在探索AI育儿
-- 通往AGI之路共创作者，组织参与AI Agent一期的共学快闪活动：<cite doc-id="WMTYwmkyqiZBUSkOpircmxm1nlc" file-type="wiki" title="Agent 搭建共学快闪 0507" type="doc"></cite>
+- 通往AGI之路共创作者，组织参与AI Agent一期的共学快闪活动：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0507/Agent 搭建共学快闪 0507|Agent 搭建共学快闪 0507]]
 - 喜欢写作，热爱分享，擅长拆解复杂的AI知识，然后通过通俗易懂的方式讲解出来
 - 不喜欢碎片化的知识，不喜欢将失败归结于各种信息差，喜欢沉淀体系化的知识
 
@@ -69,9 +69,9 @@ PS. 大家叫我“艾木”就好，尽量不要带“老师”～
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Smb6byuU7o4yGixZyEmc496XnTb) · `Smb6byuU7o4yGixZyEmc496XnTb`
 
-- Dr. Know: https://www.coze.com/s/Zs8MUCQGU/（<cite doc-id="RnJMwnX0UiEY6yk8cq6cTtZXnGy" file-type="wiki" title="5月23日 艾木分享 | 这也许是你一生中第一个Bot" type="doc"></cite>）
-- 谁是卧底: https://www.coze.com/s/Zs8MU9PGT/ （<cite doc-id="RWN5wdpIBiDzyvkekEfcuCXxnbf" file-type="wiki" title="04｜Multiagent之谁是卧底" type="doc"></cite>）
-- Harvest: https://www.coze.com/s/Zs8MUkQPG/ （<cite doc-id="UVYwws8o2iUfsqk6n5GczSmRnPe" file-type="wiki" title="05｜基于 Notion 连接器打造个人信息助理" type="doc"></cite>）
+- Dr. Know: https://www.coze.com/s/Zs8MUCQGU/（[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0523/5月23日 艾木分享 · 这也许是你一生中第一个Bot/5月23日 艾木分享 · 这也许是你一生中第一个Bot|5月23日 艾木分享 ｜ 这也许是你一生中第一个Bot]]）
+- 谁是卧底: https://www.coze.com/s/Zs8MU9PGT/ （[[成为Agent工程师/Coze实战课项目/第四周：Multiagent之谁是卧底/04｜Multiagent之谁是卧底|04｜Multiagent之谁是卧底]]）
+- Harvest: https://www.coze.com/s/Zs8MUkQPG/ （[[成为Agent工程师/Coze实战课项目/第五周：基于 Notion 连接器打造个人信息助理/05｜基于 Notion 连接器打造个人信息助理|05｜基于 Notion 连接器打造个人信息助理]]）
 
 ### 组织着一个498（+197）人的 [Coze 创作者社群](https://mp.weixin.qq.com/s/_mM7FG21tS2F3MZWPmgw9Q)
 
@@ -107,12 +107,13 @@ PS. 大家叫我“艾木”就好，尽量不要带“老师”～
 - 每篇课程的前面都会有需要预先学习的内容，请大家务必首先掌握预先的知识点
 - 等开始看课程视频之后，你会发现我们的课程信息密度非常高，希望大家可以保持自己的节奏，既不要操之过急，期望半个月就可以掌握所有内容，也不要自暴自弃，将课程放在收藏夹吃灰
 - Coze有新功能出现后，我们会通过加餐的方式编写教程
-- 在学习Coze的过程中，你可能需要一些前置的知识，比如提示词工程，大模型的基础概念等，如果你对这些概念有困惑，可以提前看下我们为大家准备的一个AI学习路径的文章：<cite doc-id="N1WUwd0QNiqZR0k0nEQcpORBnmf" file-type="wiki" title="大圣的AI学习路径3.0" type="doc"></cite>
+- 在学习Coze的过程中，你可能需要一些前置的知识，比如提示词工程，大模型的基础概念等，如果你对这些概念有困惑，可以提前看下我们为大家准备的一个AI学习路径的文章：[大圣的AI学习路径3.0](https://axsppz4oyvj.feishu.cn/wiki/N1WUwd0QNiqZR0k0nEQcpORBnmf)
 
 **课程目录串讲（请参考视频）**
 
 # 四、如何学习和如何学编程（艾木 25 分钟）
 
-<figure view-type="Preview"><source mime="application/pdf" token="V6cHb04upoMTC4xCg5JcqtmSnng"/></figure>
+> [!warning]- 📎 附件（`application/pdf`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/V6cHb04upoMTC4xCg5JcqtmSnng) · `V6cHb04upoMTC4xCg5JcqtmSnng`
 
 # 五、针对课程的疑问

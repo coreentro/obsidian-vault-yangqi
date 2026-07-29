@@ -115,6 +115,6 @@ tags:
 
 # 完成后修改头像和微信名为编号
 
-最后机器人头像，头像要求关注活动页要求: <cite doc-id="Gm72wS4BqixefikquThcERlgnD0" file-type="wiki" title="「Agent 共学」之&#34;谁是人类&#34; 「WayToAGI x 阿里云」" type="doc"></cite>
+最后机器人头像，头像要求关注活动页要求: [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」|「Agent 共学」之"谁是人类" 「WayToAGI x 阿里云」]]
 
 以上全部内容完成后，重新扫码登录微信机器人即可。

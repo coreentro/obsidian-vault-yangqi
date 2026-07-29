@@ -35,4 +35,4 @@ tags:
 
 下面篇文档是我自己的AI学习路径，供大家参考
 
-<cite doc-id="N1WUwd0QNiqZR0k0nEQcpORBnmf" file-type="wiki" title="大圣的AI学习路径3.0" type="doc"></cite>
+[大圣的AI学习路径3.0](https://axsppz4oyvj.feishu.cn/wiki/N1WUwd0QNiqZR0k0nEQcpORBnmf)

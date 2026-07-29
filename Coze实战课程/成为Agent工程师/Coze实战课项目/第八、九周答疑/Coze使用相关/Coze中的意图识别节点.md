@@ -33,4 +33,4 @@ tags:
 
 # Coze中的意图识别节点
 
-请参考文档：<cite doc-id="Id9ywvgHNiIlKak9z7OcP4jMnWc" file-type="wiki" title="加餐｜理解意图识别" type="doc"></cite>
+请参考文档：[[成为Agent工程师/Coze实战课项目/加餐文档/Coze新功能使用/加餐｜理解意图识别|加餐｜理解意图识别]]

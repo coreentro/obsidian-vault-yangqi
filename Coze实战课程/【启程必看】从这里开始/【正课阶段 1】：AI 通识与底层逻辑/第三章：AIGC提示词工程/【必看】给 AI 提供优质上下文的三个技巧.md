@@ -162,18 +162,17 @@ tags:
 **2，提出你的研究话题**
 
 <grid>
-<column width-ratio="0.425413">
+
 > [!abstract]- 🖼 图片展示的是一个对话界面，用户提问关于谷歌AI Studio、Gemin
 > 图片展示的是一个对话界面，用户提问关于谷歌AI Studio、Gemini及NotebookLM三个核心产品的设计哲学，以及对AI Studio目前定位的看法。界面中“我的研究主题（提示词）”以红色字体突出显示。下方列出了三个产品的网址，分别是aistudio.google.com、gemini.google.com和notebooklm.google.com。该图片与文档中“提出你的研究话题”部分对应，是用户提出研究主题的示例。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/FCO5bz6uhotjcTx9ZMpcmKrcnef) · `FCO5bz6uhotjcTx9ZMpcmKrcnef`
-</column>
-<column width-ratio="0.574587">
+
 > [!abstract]- 🖼 图片展示了谷歌AI全家桶设计哲学的研究方案。上方提示这是主题研究方案，可
 > 图片展示了谷歌AI全家桶设计哲学的研究方案。上方提示这是主题研究方案，可更新。中间部分以红色字体标注“谷歌的研究方案，如果没问题直接点击开始研究”，并列出研究网站、分析结果、生成报告等步骤，强调只需几分钟即可准备好。下方有“修改方案”和“开始研究”按钮。该图片与上下文紧密相关，是对上文提出的研究话题“提出你的研究话题”的具体方案展示，为后续开展研究提供指导。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DUEnbiFCmomjgpxSQIEcaQ1tnYd) · `DUEnbiFCmomjgpxSQIEcaQ1tnYd`
-</column>
+
 </grid>
 
 **3，十几分钟后获取几万字的研究报告**

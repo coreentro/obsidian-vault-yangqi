@@ -50,11 +50,11 @@ tags:
 2. 我在讲Coze，但是我又不仅仅在讲Coze，我希望在听完本次分享之后，当出现新的智能体平台时，你可以无缝迁移过去
 3. 这次分享会涉及到Coze入门、插件、工作流、数据库、知识库的使用，知识密度比较大，但是请不要发怵，因为我准备了4篇加餐文章
 
-   1. <cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
-   2. <cite doc-id="DXLbw7BIMiO58UkoRskcNiaan9d" file-type="wiki" title="加餐｜Coze知识库" type="doc"></cite>
-   3. <cite doc-id="IMTqw0W49iZjcBkra3GcWeShn7d" file-type="wiki" title="加餐｜Coze变量" type="doc"></cite>
-   4. <cite doc-id="VnocwzT3TirKGvkUfvncWa53njc" file-type="wiki" title="加餐｜Coze的插件与JSON" type="doc"></cite>
-   5. <cite doc-id="EQ8OwKmCvim9UckbjY9c62xMnFb" file-type="wiki" title="加餐｜数据类型：一切数据的基础" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
+   2. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze知识库|加餐｜Coze知识库]]
+   3. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze变量|加餐｜Coze变量]]
+   4. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze的插件与JSON|加餐｜Coze的插件与JSON]]
+   5. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜数据类型：一切数据的基础|加餐｜数据类型：一切数据的基础]]
 4. 管理好的你预期，请不要指望一个免费的Coze平台可以解决你企业中的棘手需求，请更多的以学习的角度来看待这次课程，我希望它可以带给你思维上的扩展
 5. AI Agent是一个AI的领域分支，智能体是一种市场上相对通俗的称呼，在本文中，两者代表一个含义
 6. 为了方便大家学习，本次教程会使用国内版的Coze，但是海外版本的Coze和国内的使用姿势基本没有差别
@@ -286,7 +286,14 @@ AI Agent概念的出现则是为了解决LLM不够强大的问题
 
 ## 国内外两个版本对比
 
-<table><colgroup><col/><col/><col/></colgroup><tbody><tr><td><b>对比项</b></td><td><b>国内</b></td><td><b>海外</b></td></tr><tr><td>网址</td><td>https://www.coze.cn</td><td>https://www.coze.com</td></tr><tr><td>官方教程文档</td><td>https://www.coze.cn/docs/guides/welcome</td><td>https://www.coze.com/docs/guides/welcome</td></tr><tr><td>访问限制</td><td>国内正常访问</td><td>国内访问需要魔法</td></tr><tr><td>支持的大模型</td><td><ul><li>豆包</li><li>通义千问</li><li>Kim</li><li>....</li></ul><br/>Coze也在不断更新，你可以理解为只要是<b>国内公司</b>的大模型，他都有可能支持</td><td><ul><li>GPT3.5</li><li>GPT4</li><li>GPT4o</li><li>Gemini</li><li>....</li></ul><br/>Coze也在不断更新，你可以理解为只要是<b>国外公司</b>的大模型，他都有可能支持</td></tr><tr><td>官方插件</td><td><ul><li>B站相关</li><li>抖音相关</li><li>小红书相关</li><li>..</li></ul><br/>你可以认为官方插件都是针对国内的APP提供的插件能力</td><td><ul><li>Youtube</li><li>Github</li><li>Twitter</li><li>...</li></ul><br/>你可以认为官方插件都是针对海外的APP提供的插件能力</td></tr><tr><td>更新速度</td><td>目前国内会稍微快一些，但是基本上过1个月左右，海外就会跟进</td><td>目前国内会稍微快一些，但是基本上过1个月左右，海外就会跟进</td></tr></tbody></table>
+| **对比项** | **国内** | **海外** |
+| --- | --- | --- |
+| 网址 | https://www.coze.cn | https://www.coze.com |
+| 官方教程文档 | https://www.coze.cn/docs/guides/welcome | https://www.coze.com/docs/guides/welcome |
+| 访问限制 | 国内正常访问 | 国内访问需要魔法 |
+| 支持的大模型 | 豆包通义千问Kim....Coze也在不断更新，你可以理解为只要是**国内公司**的大模型，他都有可能支持 | GPT3.5GPT4GPT4oGemini....Coze也在不断更新，你可以理解为只要是**国外公司**的大模型，他都有可能支持 |
+| 官方插件 | B站相关抖音相关小红书相关..你可以认为官方插件都是针对国内的APP提供的插件能力 | YoutubeGithubTwitter...你可以认为官方插件都是针对海外的APP提供的插件能力 |
+| 更新速度 | 目前国内会稍微快一些，但是基本上过1个月左右，海外就会跟进 | 目前国内会稍微快一些，但是基本上过1个月左右，海外就会跟进 |
 
 ## 核心概念组成
 
@@ -444,7 +451,7 @@ Agent的名字：第二阶段｜插件｜实时信息获取
 - 关于LLM + 搜索，已经诞生了很多商业化的产品，国内最典型的就是：https://metaso.cn/
 - 为了更近一步了解秘塔搜索的原理，我们的课程中在海外和国内分别有两个Bot供大家学习
 
-  - 国内：秘塔搜索教学：文档链接：<cite doc-id="IM2TwbChWixcR9kEt87cmKsHnAc" file-type="wiki" title="大圣：我用 Coze 搓了一个乞丐版的秘塔搜索" type="doc"></cite>
+  - 国内：秘塔搜索教学：文档链接：[大圣：我用 Coze 搓了一个乞丐版的秘塔搜索](https://axsppz4oyvj.feishu.cn/wiki/IM2TwbChWixcR9kEt87cmKsHnAc)
   - 海外：Dr Know：B站链接：https://www.bilibili.com/video/BV1Bx4y1n7cB
 
 具体请参考团队空间
@@ -538,7 +545,7 @@ Agent名字：第三阶段｜简单工作流｜文档总结
 
 ## 延伸阅读
 
-这一部分开始涉及到插件，如果想要深入了解，请参考文档：<cite doc-id="VnocwzT3TirKGvkUfvncWa53njc" file-type="wiki" title="加餐｜Coze的插件与JSON" type="doc"></cite>
+这一部分开始涉及到插件，如果想要深入了解，请参考文档：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze的插件与JSON|加餐｜Coze的插件与JSON]]
 
 # 七、复杂工作流｜Coze使用的第四阶段
 
@@ -622,9 +629,9 @@ Bot的名字：第四阶段｜复杂工作流｜智能客服
 
 这部分内容涉及到了编程的概念，如果需要深入学习数据库、知识库，请参考文档
 
-1. <cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
-2. <cite doc-id="DXLbw7BIMiO58UkoRskcNiaan9d" file-type="wiki" title="加餐｜Coze知识库" type="doc"></cite>
-3. <cite doc-id="IMTqw0W49iZjcBkra3GcWeShn7d" file-type="wiki" title="加餐｜Coze变量" type="doc"></cite>
+1. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
+2. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze知识库|加餐｜Coze知识库]]
+3. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze变量|加餐｜Coze变量]]
 
 # 八、Bot的调试技巧
 

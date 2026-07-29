@@ -42,13 +42,13 @@ tags:
   - 知识库
   - 关于团队加入
 
-<cite doc-id="Oc4dwycquiSG7nkEYQwcB9G5n9d" file-type="wiki" title="成为Agent工程师" type="doc"></cite>
+[[成为Agent工程师/成为Agent工程师|成为Agent工程师]]
 
 ## 第二部分：
 
 - 基础RAG构建企业生产资料问答系统（正课）
 
-<cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]]
 
 ## 第三部分：
 
@@ -60,4 +60,4 @@ tags:
   - 图像流
   - 定时任务
 
-<cite doc-id="JIXgwwzNYiiinkkT2Jdc3rFxnIf" file-type="wiki" title="第八、九周答疑" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/第八、九周答疑/第八、九周答疑|第八、九周答疑]]

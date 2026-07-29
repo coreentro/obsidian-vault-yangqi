@@ -56,7 +56,7 @@ PS：也不要再问我和艾木，学习完了这个是否可以XX，这个的�
 
 <readonly-block href="https://player.bilibili.com/player.html?bvid=1944y1x7SW&amp;p=1&amp;vd_source=e94f42ead4c2e95f4b13bec257d95670" type="iframe"></readonly-block>
 
-<callout emoji="📍"><p>另外我们小伙伴Summer也投稿了他自己的一个关于学习Coze代码模版的心得体会。</p><p>大家可以参考一个零基础的小白是如何搞明白Coze的代码节点的：<cite doc-id="CUqtwHxZ5iTbHbkglHEcKGmnn1e" file-type="wiki" title="Coze 代码节点" type="doc"></cite></p></callout>
+<callout emoji="📍"><p>另外我们小伙伴Summer也投稿了他自己的一个关于学习Coze代码模版的心得体会。</p><p>大家可以参考一个零基础的小白是如何搞明白Coze的代码节点的：[[Coze 代码节点|Coze 代码节点]]</p></callout>
 
 **我们也争取在后面的案例课程中分享我和艾木利用AI写代码的思路和方法**
 

@@ -48,4 +48,4 @@ tags:
 
 下面这篇文章，我不仅讲了程序中 API 的理论，并且让你亲手调通 DeepSeek API 的案例来进行实操说明
 
-**请务必重视，**详细请跳转到：<cite doc-id="FHMYwB7epiTJt1kirNTcLiLMn1f" file-type="wiki" title="程序中的API是什么" type="doc"></cite>
+**请务必重视，**详细请跳转到：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/AI编程必知必会的基础知识/程序中的API是什么|程序中的API是什么]]

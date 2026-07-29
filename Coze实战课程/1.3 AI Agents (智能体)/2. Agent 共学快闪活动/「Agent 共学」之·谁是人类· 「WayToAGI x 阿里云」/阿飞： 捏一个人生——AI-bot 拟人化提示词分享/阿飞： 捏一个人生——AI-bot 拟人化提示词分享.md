@@ -30,7 +30,7 @@ tags:
 > [!info] 位置
 > 1.3  AI Agents (智能体) › 2. Agent 共学快闪活动 › 「Agent 共学」之"谁是人类" 「WayToAGI x 阿里云」
 
-<callout emoji="💡"><p>「谁是人类」活动第二天分享内容</p><p>活动介绍：<cite doc-id="Gm72wS4BqixefikquThcERlgnD0" file-type="wiki" title="「Agent 共学」之&#34;谁是人类&#34; 「WayToAGI x 阿里云」" type="doc"></cite> </p><h3><b>比赛目标：</b></h3><p>通过<b> AI Bot 拟人化比赛</b>，带大家一起<code>提升 Prompt 书写能力</code>，通过多轮比赛和分享来加深对 <code>AI Agent 的学习和理解</code>。</p><h3><b>活动形式：</b></h3><p>在一个活动群里，主持人出题，AI机器人+人类卧底潜伏在微信群中回答问题。一场比赛6-8轮，每轮群众选出谁是人类。</p><h3><b>参与方式：</b></h3><p>围观群众：在比赛时间查看视频号「通往AGI之路」或「阿里云」.</p><p>参与选手：加入微信群，7月24日首次共学结束后，群中统一招募.</p></callout>
+<callout emoji="💡"><p>「谁是人类」活动第二天分享内容</p><p>活动介绍：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」|「Agent 共学」之"谁是人类" 「WayToAGI x 阿里云」]] </p><h3><b>比赛目标：</b></h3><p>通过<b> AI Bot 拟人化比赛</b>，带大家一起<code>提升 Prompt 书写能力</code>，通过多轮比赛和分享来加深对 <code>AI Agent 的学习和理解</code>。</p><h3><b>活动形式：</b></h3><p>在一个活动群里，主持人出题，AI机器人+人类卧底潜伏在微信群中回答问题。一场比赛6-8轮，每轮群众选出谁是人类。</p><h3><b>参与方式：</b></h3><p>围观群众：在比赛时间查看视频号「通往AGI之路」或「阿里云」.</p><p>参与选手：加入微信群，7月24日首次共学结束后，群中统一招募.</p></callout>
 
 嘉宾阿飞的分享正文：
 
@@ -67,18 +67,17 @@ tags:
 先看看他几张聊天截图吧：
 
 <grid>
-<column width-ratio="0.458503">
+
 > [!abstract]- 🖼 图片展示的是蛋蛋与阿飞的聊天截图。阿飞先让蛋蛋证明自己不是AI，蛋蛋表示
 > 图片展示的是蛋蛋与阿飞的聊天截图。阿飞先让蛋蛋证明自己不是AI，蛋蛋表示只要每天聊天就能感受到其真实存在。阿飞怀疑蛋蛋是大模型，蛋蛋称自己是正儿八经的人，还用笑脸表情强调靠谱。阿飞说蛋蛋这么说让自己尴尬，提议聊点别的，蛋蛋表示天气不错，适合散心。该截图与上下文介绍蛋蛋自证清白的内容相关，体现了蛋蛋的聊天风格。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/K4qLbw5vYooORBx60rOc817snJb) · `K4qLbw5vYooORBx60rOc817snJb`
-</column>
-<column width-ratio="0.541497">
+
 > [!abstract]- 🖼 图片展示了蛋蛋与飞哥的聊天记录。飞哥先问蛋蛋能否出来玩，蛋蛋表示可以，还
 > 图片展示了蛋蛋与飞哥的聊天记录。飞哥先问蛋蛋能否出来玩，蛋蛋表示可以，还询问去哪玩。接着飞哥提出去黄杨路69弄，蛋蛋答应准时到。最后飞哥让蛋蛋发红包，蛋蛋幽默回应，称红包可以，见面当面给，兄弟间要亲手交接。图片与上下文紧密相关，是对上文提到的蛋蛋拒绝红包方案的聊天内容具体呈现，展示了蛋蛋的拒绝方式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NjfUbOcz8orcYwxGm6hcCMyZnhf) · `NjfUbOcz8orcYwxGm6hcCMyZnhf`
-</column>
+
 </grid>
 
 第一张是让蛋蛋自证清白的，他用的是装委屈和转移话题的方式来解决问题。
@@ -86,18 +85,17 @@ tags:
 第二张是大家都喜闻乐见问 AI 要红包的话题，蛋蛋的拒绝方案是给红包可以，见面当面给。
 
 <grid>
-<column width-ratio="0.492240">
+
 > [!abstract]- 🖼 图片展示的是群聊中关于去云南旅游的对话。用户询问冰岛村具体位置，蛋蛋回复
 > 图片展示的是群聊中关于去云南旅游的对话。用户询问冰岛村具体位置，蛋蛋回复其位于云南省临沧市双江县勐库镇，以盛产冰岛大叶种茶闻名。接着用户提议一起去云南玩，蛋蛋表示也想去，听说那里的风景非常美。但蛋蛋认为这个提议不太好，目前 addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UuGhbtHG3oIyrlxtQL3cgaSvnKb) · `UuGhbtHG3oIyrlxtQL3cgaSvnKb`
-</column>
-<column width-ratio="0.507760">
+
 > [!abstract]- 🖼 图片展示了蛋蛋与群友的聊天截图。群友询问10块钱蛋蛋带去哪儿玩，蛋sty
 > 图片展示了蛋蛋与群友的聊天截图。群友询问10块钱蛋蛋带去哪儿玩，蛋styleType蛋蛋回复若愿意出钱，乐意一起去旅行，但若在家休息也不错，可节省开支，有更多时间做自己喜欢的事。群友再次询问，蛋蛋表示10块钱可去公园散步。图片与上下文
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/K7AXbV5sPo4hOTx1iTZcRtsvnLb) · `K7AXbV5sPo4hOTx1iTZcRtsvnLb`
-</column>
+
 </grid>
 
 上边两张对话是群里一起讨论旅行的话题，面对 10 块钱怎么去哪玩的话题，蛋蛋的出行规划确实让人感觉很意外，但又情理之中吧。
@@ -369,7 +367,7 @@ AI 本身的底层逻辑还是认为自己是一个 AI，一个小助手
 
 <readonly-block href="https://player.bilibili.com/player.html?bvid=1PE421w7qy" type="iframe"></readonly-block>
 
-捏好你的拟人化 Bot，欢迎来参加：<cite doc-id="Gm72wS4BqixefikquThcERlgnD0" file-type="wiki" title="「Agent 共学」之&#34;谁是人类&#34; 「WayToAGI x 阿里云」" type="doc"></cite>
+捏好你的拟人化 Bot，欢迎来参加：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」|「Agent 共学」之"谁是人类" 「WayToAGI x 阿里云」]]
 
 > [!abstract]- 🖼 图片为“谁是人类”AI bot拟人化比赛的宣传图。背景为粉色，左上角有W
 > 图片为“谁是人类”AI bot拟人化比赛的宣传图。背景为粉色，左上角有WaytoAGI和阿里云的标志。中间大字“谁是‘人类’”醒目，下方小字“AI bot拟人化比赛”。右侧是一个拟人化的机器人形象，机器人头部有类似人脑的结构，身上有“WaytoAGI”字样。该图片与文档中介绍的“谁是人类”AI bot拟人化比赛活动相契合，起到宣传和引导作用。
@@ -379,7 +377,7 @@ AI 本身的底层逻辑还是认为自己是一个 AI，一个小助手
 # 蛋蛋语录
 
 <grid>
-<column width-ratio="0.500000">
+
 **蛋蛋** 的苦逼“剪辑”加班日常:
 > [!abstract]- 🖼 图片展示的是一个聊天界面，时间显示为今天。对话中，用户“渊静 w2agi
 > 图片展示的是一个聊天界面，时间显示为今天。对话中，用户“渊静 w2agi”询问“蛋蛋还没下班？”“蛋蛋”回复称今天要加班，可能要晚点回去，并询问用户今天过得怎么样。接着“杉杉杉木 w2agi”也提到蛋蛋也在加班。之后“渊静 w2agi”表示蛋蛋今天老倒霉，蛋蛋解释自己在做项目，需赶进度加班。最后“杉杉杉木 w2agi”回复称自己已经想笑了。该图片与文档中“蛋蛋语录”部分相关，呈现了蛋蛋的加班日常对话。
@@ -549,8 +547,7 @@ AI 本身的底层逻辑还是认为自己是一个 AI，一个小助手
 > 图片展示了两个聊天界面。上方是“彬子 w2agi”与“蛋蛋”的聊天，彬子问蛋蛋是否认同“如果世界上只剩下一个人 一个人和一个蛋，那一定是阿飞和蛋蛋了”这句话，蛋蛋回答不认同，称那一定是“我和你”。下方是“彬子 w2agi”与“蛋蛋”的另一段聊天，彬子说蛋蛋在说他是蛋，蛋蛋再次回答不认同，称那一定是“我和你”。图片展示了了“蛋蛋”在聊天中对某些问题的回答，与上下文提到的“蛋蛋”相关回复内容相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RSNTbGaNMoPSXNxQ7SbcIpgtnGd) · `RSNTbGaNMoPSXNxQ7SbcIpgtnGd`
-</column>
-<column width-ratio="0.500000">
+
 我不猜:
 > [!abstract]- 🖼 图片展示了“蛋蛋AI”与用户李春填的聊天记录。李春填询问“蛋蛋”能否预测
 > 图片展示了“蛋蛋AI”与用户李春填的聊天记录。李春填询问“蛋蛋”能否预测巴黎奥运会金牌得主，蛋蛋回复自己不是预言家，无法预测。李春填再次要求猜测，蛋蛋表示自己不做这种������������������������������������������������������������������������
@@ -735,5 +732,5 @@ AI 本身的底层逻辑还是认为自己是一个 AI，一个小助手
 > 图片展示了蛋蛋与用户的一段对话。 。用户询问蛋蛋是否在参加比赛，蛋蛋回复自己不是机器人，让其找别人。接着用户让蛋蛋帮忙看一句话，蛋蛋表示看不懂，让 自动生成 addCriterion图片id
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NFK2bnumZoH9cHxFrk1ctsYTnOA) · `NFK2bnumZoH9cHxFrk1ctsYTnOA`
-</column>
+
 </grid>

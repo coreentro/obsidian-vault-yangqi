@@ -100,7 +100,8 @@ Claude Code 出厂就自带了两个联网工具，正好对应上面两种情�
 
 我录制一个视频，教大家怎么测试
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="F7FQbSGEJorB8NxBSW9cnBPhnkh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/F7FQbSGEJorB8NxBSW9cnBPhnkh) · `F7FQbSGEJorB8NxBSW9cnBPhnkh`
 
 # 三、自带的用不了，有哪些替代方案？
 

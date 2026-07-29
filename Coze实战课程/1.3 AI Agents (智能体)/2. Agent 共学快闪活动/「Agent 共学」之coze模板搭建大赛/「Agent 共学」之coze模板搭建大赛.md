@@ -45,22 +45,28 @@ WaytoAGI邀你共学，赢万元奖金，一周冲刺《Show Me 扣子 AI 挑战
 
 # 共学时间
 
-<synced-source><table><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td><b>材料/直播链接</b></td><td><h3><b>时间</b></h3></td><td><h3>主题</h3></td><td><h3><b>讲师</b></h3></td></tr><tr><td>文档地址<br/><a href="https://www.bilibili.com/video/BV13eUyYuEaN/?spm_id_from=333.337.search-card.all.click">视频回放</a></td><td vertical-align="top"></td><td vertical-align="top">《Coze商店榜一KOL带你玩转Coze》</td><td vertical-align="top">罗文<h3></h3></td></tr><tr><td>直播进行中：<br/><a href="https://waytoagi.feishu.cn/minutes/obcn3h22al79q72by3ty6xd6?from=from_copylink">视频回放</a></td><td vertical-align="top"><b>2024年11月22日</b><br/>20:00-22:00</td><td>《从0手把手教你捏coze》</td><td>元子</td></tr></tbody></table></synced-source>
+<synced-source>
 
-<callout emoji="🎉"><p>小白入门看这里：</p><h2><cite doc-id="FaTgwhczvisJVGkOYHvcX3wGnBg" file-type="wiki" title="元子：小白的Coze之旅" type="doc"></cite></h2><p><cite doc-id="SA7Rw77Y6iDyQDkfmbociFU8nqh" file-type="wiki" title="5月8日 大圣分享《Coze全流程搭建 》" type="doc"></cite></p><p><cite doc-id="CT3UwDM8OiVmOOkohPbcV3JCndb" file-type="wiki" title="大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库" type="doc"></cite></p><p><cite doc-id="SaCFwcw9xi2qcrkmSxscxTxLnxb" file-type="wiki" title="安仔：Coze 全方位入门剖析 - 免费打造自己的 AI Agent (国内版)" type="doc"></cite></p></callout>
+| **材料/直播链接** | **时间** | 主题 | **讲师** |
+| --- | --- | --- | --- |
+| 文档地址[视频回放](https://www.bilibili.com/video/BV13eUyYuEaN/?spm_id_from=333.337.search-card.all.click) |  | 《Coze商店榜一KOL带你玩转Coze》 | 罗文 |
+| 直播进行中：[视频回放](https://waytoagi.feishu.cn/minutes/obcn3h22al79q72by3ty6xd6?from=from_copylink) | **2024年11月22日**20:00-22:00 | 《从0手把手教你捏coze》 | 元子 |
+
+</synced-source>
+
+<callout emoji="🎉"><p>小白入门看这里：</p><h2>[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之coze模板搭建大赛/元子：小白的Coze之旅|元子：小白的Coze之旅]]</h2><p>[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0507/5月8日 大圣分享《Coze全流程搭建 》|5月8日 大圣分享《Coze全流程搭建 》]]</p><p>[大圣：胎教级教程：万字长文带你使用Coze打造企业级知识库](https://axsppz4oyvj.feishu.cn/wiki/CT3UwDM8OiVmOOkohPbcV3JCndb)</p><p>[安仔：Coze 全方位入门剖析 - 免费打造自己的 AI Agent (国内版)](https://axsppz4oyvj.feishu.cn/wiki/SaCFwcw9xi2qcrkmSxscxTxLnxb)</p></callout>
 
 <grid>
-<column width-ratio="0.500000">
+
 <callout emoji="🎉">
 群聊：🌈AJ 邀请你加入飞书群，快点击https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=65fn3b13-cf13-4138-abef-e1aaa6b3bada加入吧！
 </callout>
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是“Agent学习小组”群二维码。上方有紫色背景，左侧是带有彩
 > 图片展示的是“Agent学习小组”群二维码。上方有紫色背景，左侧是带有彩虹图案的“Agent”标识，右侧文字为“Agent学习小组 WaytoAGI”。下方是二维码，下方文字提示“扫描群二维码，立刻加入该群”，并说明“该二维码永久有效”。该图片位于文档末尾，可能是文档中推荐加入“Agent学习小组”群的引导内容，方便读者扫码进群交流学习。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BGNobncxNoK2C8xHNe5cXEqXnoe) · `BGNobncxNoK2C8xHNe5cXEqXnoe`
-</column>
+
 </grid>
 
 # 共学内容
@@ -71,24 +77,23 @@ WaytoAGI邀你共学，赢万元奖金，一周冲刺《Show Me 扣子 AI 挑战
 
 一等奖有**万元现金**奖励和平台流量扶持，快来预约明天的公开课吧！
 
-共学页面: <cite doc-id="E31Fw9VfQiJogfkCJfzcmLsHn3b" file-type="wiki" title="「Agent 共学」之coze模板搭建大赛" type="doc"></cite>
+共学页面: [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之coze模板搭建大赛/「Agent 共学」之coze模板搭建大赛|「Agent 共学」之coze模板搭建大赛]]
 
 <grid>
-<column width-ratio="0.489630">
+
 > [!abstract]- 🖼 图片是“智能体搭建共学课”宣传图，标题为“如何打造爆款智能体模板”，讲师
 > 图片是“智能体搭建共学课”宣传图，标题为“如何打造爆款智能体模板”，讲师为罗文，介绍其多次获大奖、扣子粉丝数量第一、AI工作流领域成功复制2万多个实例。图中罗文戴眼镜，手托下巴。下方有一个蓝色像素风格的扣子图案，显示“10,000 BONUS 10,000¥”。图片底部有扣子、NVIDIA、火山引擎开发者社区的标志。该图与文档中介绍的智能体搭建共学课程内容相关，突出讲师及课程亮点。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VAIRbcvf4oZArAxK2AbcSatUnLg) · `VAIRbcvf4oZArAxK2AbcSatUnLg`
-</column>
-<column width-ratio="0.510370">
+
 > [!abstract]- 🖼 图片展示的是“智能体搭建共学课”相关内容。上方有“WaytoAGI”标识
 > 图片展示的是“智能体搭建共学课”相关内容。上方有“WaytoAGI”标识，下方文字介绍该课为小白智能体搭建共学，手把手从0开始搞一个智能体，讲师是元子，还称其为“捏扣子小能手，WaytoAGI智能体共建者”。图片中间有一个像素风格的蓝色机器人图案，其下方显示“10,000 BONUS 10,000¥”。图片底部有“扣子”“NVIDIA”“火山引擎开发者社区”标识。该图片与文档中介绍的智能体搭建共学课程内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GjULbQaUfooFwtx9ao2cRCz1npc) · `GjULbQaUfooFwtx9ao2cRCz1npc`
-</column>
+
 </grid>
 
-<callout emoji="✍️"><p>罗文老师的创意大揭秘： <cite doc-id="CYetw3rFSiFrNMki5UdcTNvEnDO" file-type="wiki" title="扣子模板分享-如何搭建高复制量模板" type="doc"></cite></p></callout>
+<callout emoji="✍️"><p>罗文老师的创意大揭秘： [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之coze模板搭建大赛/扣子模板分享-如何搭建高复制量模板|扣子模板分享-如何搭建高复制量模板]]</p></callout>
 
 # 飞书会议
 
@@ -119,38 +124,38 @@ WaytoAGI邀你共学，赢万元奖金，一周冲刺《Show Me 扣子 AI 挑战
 作品提交时, **请务必选择“WaytoAGI”.** 在选对参赛渠道后, 再提交参赛作品, 并记录到 [社区模板提交记录](https://waytoagi.feishu.cn/share/base/form/shrcnIsMGWoIpSbVuCLqxJPNkRf)。
 
 <grid>
-<column width-ratio="0.500000">
+
 - 参赛作品提交页：https://bytedance.larkoffice.com/share/base/form/shrcnH7yDl3oqOiQeQ2LTFnByXe 
 > [!abstract]- 🖼 图片展示了1024 Show Me扣子AI挑战赛作品提交页面。页面上方显
 > 图片展示了1024 Show Me扣子AI挑战赛作品提交页面。页面上方显示活动名称及活动详情链接。下方有三个必填项，分别为姓名（团队需填写所有成员姓名）、联系电话（团队需填写组长联系电话）和参赛渠道选择。其中，参赛渠道选择处有火山引擎开发者社区、扣子、WaytoAGI、朋友推荐和个人看到五个选项，WaytoAGI选项被红色框突出显示。该图片与文档中作品提交时需选择“WaytoAGI”参赛渠道的内容相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/J4oqbpnOxoVJkLxT6mHc1ce4nHo) · `J4oqbpnOxoVJkLxT6mHc1ce4nHo`
-</column>
-<column width-ratio="0.500000">
+
 - 线下路演报名: https://bytedance.larkoffice.com/share/base/form/shrcnhJdt1EZXicuO23kVzeOved
 > [!abstract]- 🖼 图片为1024 Show Me扣子AI挑战赛线下路演报名表单界面。表单包
 > 图片为1024 Show Me扣子AI挑战赛线下路演报名表单界面。表单包含姓名、联系电话、报名渠道等信息填写区域。其中“您从哪个渠道报名”部分，有火山引擎开发者社区、扣子、Waytoagi、朋友推荐、个人看到五个选项，Waytoagi选项被红色框突出显示。该图片与文档中“线下路演报名”内容相关，用于指导参赛者在报名时选择正确的参赛渠道。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/R3xMbquSdo1T9wxn3Ebc3ySunMb) · `R3xMbquSdo1T9wxn3Ebc3ySunMb`
-</column>
+
 </grid>
 
 # 组队地
 
-<bitable table-id="tblVr9vKRGiSLUOb" token="LCm6bwEzWaDfmXsEQggcUnUIncd"></bitable>
+> [!example] 📊 嵌入的多维表格
+> [多维表格](https://axsppz4oyvj.feishu.cn/base/LCm6bwEzWaDfmXsEQggcUnUIncd)
+> `token=LCm6bwEzWaDfmXsEQggcUnUIncd` `sub=tblVr9vKRGiSLUOb`</bitable>
 
 <grid>
-<column width-ratio="0.500000">
+
 <callout emoji="🎉">
 群聊：🌈AJ 邀请你加入飞书群，快点击https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=65fn3b13-cf13-4138-abef-e1aaa6b3bada加入吧！
 </callout>
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是“Agent学习小组”二维码，用于加入该群。上方有紫色背景，
 > 图片展示的是“Agent学习小组”二维码，用于加入该群。上方有紫色背景，左侧是带有彩虹图案的“Agent”标识，右侧文字为“Agent学习小组 WaytoAGI”。中间是一个二维码，下方文字提示“扫描群二维码，立刻加入该群”，并说明“该二维码永久有效”。该图片位于介绍“Agent共学”之coze模板搭建大赛组队地的文档中，用于引导用户加入学习小组，与文档中鼓励大家加入学习小组的上下文相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/E1VKbMszdowojGxARVncyXwGnub) · `E1VKbMszdowojGxARVncyXwGnub`
-</column>
+
 </grid>
 
 ### 社区小伙伴已提交的模板:  (欢迎大家一起学习)
@@ -159,7 +164,13 @@ WaytoAGI邀你共学，赢万元奖金，一周冲刺《Show Me 扣子 AI 挑战
 
 ### 公开模版收录
 
-<table><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td><b>模版名称</b></td><td><b>模版地址</b></td><td><b>模版来源</b></td><td><b>备注</b></td></tr><tr><td>《网络热点分析》</td><td>https://www.coze.cn/template/workflow/7434897206693625893</td><td><img name="7363995989946570587af36331e132d.png" alt="图片展示的是dangjin在Coze上架的网络热点分析模板相关内容。上方文字介绍该模板已有1000+的复制，可学习循环节点使用及高质量提示词写法。下方有放大镜、报纸等元素的图片，下方文字标注“网络热点分析”“写工作流”。该图片与文档中“社区小伙伴已提交的模板”部分相关，展示了其中一个模板的介绍及示例。" mime="image/png" scale="1.000000" src="BKT6baufToRZeGxZpOgchX7SnlR"/></td><td></td></tr><tr><td>《海東跨境邮件专家》</td><td>https://www.coze.cn/template/agent/7431971726449410067</td><td><img name="image.png" alt="图片为一段文字信息，介绍“Agent共学”之coze模板搭建大赛中社区小伙伴已提交的公开模版。其中重点展示了《海東跨境邮件专家》和《专业市场营销助手》两款模板，分别给出了模版地址、模版来源及备注。还提到这两款模板凝聚了团队智慧与心血，未来可成为工作中的得力助手，可免费复制到自己的空间使用，欢迎分享给更多小伙伴，共创美好未来。" mime="image/png" scale="1.000000" src="Pc5ubO75eoKjAWxGSjzcUEJMnic"/></td><td></td></tr><tr><td>《专业市场营销助手》</td><td>https://www.coze.cn/template/agent/7431965828968628276</td><td></td><td></td></tr><tr><td>《gif生成器》</td><td>https://www.coze.cn/template/agent/7431769163468816447?</td><td><img name="image.png" alt="图片展示的是“GIF生成器”模版，由阿星AI工作室发布，有293次复制、2.1K对话，标注为免费。模版介绍其主要功能是根据输入的主题生成高质量、个性化的GIF图像，应用场景包括社交媒体分享、博客插图、视频制作等。还详细说明了如何快速使用，包括点击复制模板、输入主题等步骤，以及个性化GIF定制、IP表情包获利、文章生图、API多平台发布、互动自动图等模板二创方向。" mime="image/png" scale="0.163090" src="VH4Kb8qBIot8lDxpcu7cG4BTnqe"/></td><td></td></tr><tr><td>《Excel智能分析与优化》</td><td>https://www.coze.cn/template/workflow/7438532887869177907?entity_type=23</td><td><img name="image.png" alt="图片展示的是“Excel智能分析与优化”模板的界面。左侧为上传Excel文件区域，显示“Excel数据.xlsx”已上传。中间部分有代码输入框，展示代码内容。下方是数据可视化结果，包括柱状图、箱线图和饼图。再往下是数据特征工程部分，有部分数据展示。右侧是该模板的封面，标题为“Excel智能分析及优化”，显示有1.1K次阅读、784次点赞，标注为免费，有“复制”按钮。该图片与文档中“公开模版收录”部分对应，展示了该模板的具体内容。" mime="image/png" scale="1.000000" src="Fc1zb3EMloinf0x2dd2cOA9snCh"/></td><td></td></tr></tbody></table>
+| **模版名称** | **模版地址** | **模版来源** | **备注** |
+| --- | --- | --- | --- |
+| 《网络热点分析》 | https://www.coze.cn/template/workflow/7434897206693625893 |  |  |
+| 《海東跨境邮件专家》 | https://www.coze.cn/template/agent/7431971726449410067 |  |  |
+| 《专业市场营销助手》 | https://www.coze.cn/template/agent/7431965828968628276 |  |  |
+| 《gif生成器》 | https://www.coze.cn/template/agent/7431769163468816447? |  |  |
+| 《Excel智能分析与优化》 | https://www.coze.cn/template/workflow/7438532887869177907?entity_type=23 |  |  |
 
 # 官方活动材料
 
@@ -234,7 +245,7 @@ WaytoAGI邀你共学，赢万元奖金，一周冲刺《Show Me 扣子 AI 挑战
 - **实现原理与功能（40分）**：整体编排逻辑，各功能实现原理。
 - **文档结构（20分）**：结构完整，语言简洁，逻辑清晰。
 
-说明文档模版：【Bot 名称】-作者-Bot 介绍 <cite doc-id="U3u5do4FOo1DGcxsUF4c7Dp4nje" file-type="docx" title="【智能体名称】-作者-作品说明" type="doc"></cite>**线下路演日程本次线下活动开放观众报名**，可近距离观摩入围作品 PPT 陈述和 demo 演示，与扣子官方人员和参赛技术大牛面对面交流。入围作品的最终排名还依赖于现场**大众评审环节**，未来扣子官网的模版可能就是由你票选出来的😉此外，现场还可参与抽奖，**小米手环、桌面加湿器、扣子/火山引擎周边**等精美礼品在等着你🎁报名线下参与请填写表单👉 https://bytedance.larkoffice.com/share/base/form/shrcnhJdt1EZXicuO23kVzeOved
+说明文档模版：【Bot 名称】-作者-Bot 介绍 [【智能体名称】-作者-作品说明](https://axsppz4oyvj.feishu.cn/docx/U3u5do4FOo1DGcxsUF4c7Dp4nje)**线下路演日程本次线下活动开放观众报名**，可近距离观摩入围作品 PPT 陈述和 demo 演示，与扣子官方人员和参赛技术大牛面对面交流。入围作品的最终排名还依赖于现场**大众评审环节**，未来扣子官网的模版可能就是由你票选出来的😉此外，现场还可参与抽奖，**小米手环、桌面加湿器、扣子/火山引擎周边**等精美礼品在等着你🎁报名线下参与请填写表单👉 https://bytedance.larkoffice.com/share/base/form/shrcnhJdt1EZXicuO23kVzeOved
 
 ---
 
@@ -257,4 +268,4 @@ WaytoAGI邀你共学，赢万元奖金，一周冲刺《Show Me 扣子 AI 挑战
 
 往期回顾：
 
-<cite doc-id="NMXLwb0lli3lNGkTWLzcKl39nfV" file-type="wiki" title="2. Agent 共学快闪活动" type="doc"></cite>
+[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/2. Agent 共学快闪活动|2. Agent 共学快闪活动]]

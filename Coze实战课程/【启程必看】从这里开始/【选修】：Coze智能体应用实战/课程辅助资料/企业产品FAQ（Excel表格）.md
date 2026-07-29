@@ -32,4 +32,5 @@ tags:
 
 # 企业产品FAQ（Excel表格）
 
-<figure view-type="Preview"><source href="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZjYxN2Q3NTkzYjk4MjVkMmRkZmY5NzM1ZmZhY2JhOGNfOTI4Y2U4MWRlYjJkYWU1MDQ3Mzg5MzY2ZTk5NDA4MGFfSUQ6NzQ5MTg4ODQ2NjQ5MjAxNDYxMV8xNzg1MzAwMzYyOjE3ODUzMDM5NjJfVjM" mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" token="PMbnbublbohcJdxB746cgy1dnwg"/></figure>
+> [!warning]- 📎 附件（`application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/PMbnbublbohcJdxB746cgy1dnwg) · `PMbnbublbohcJdxB746cgy1dnwg`

@@ -90,9 +90,9 @@ supabase？ 很大的免费额度
   - 可以类比AI code 相关的工具
 - 
 
-<cite doc-id="VQA2w6bEUiFHRmk2u7icvCpPnkg" file-type="wiki" title="全景图：工作流/flow类 agent 智能体 对比" type="doc"></cite>
+[全景图：工作流/flow类 agent 智能体 对比](https://axsppz4oyvj.feishu.cn/wiki/VQA2w6bEUiFHRmk2u7icvCpPnkg)
 
-<cite doc-id="AVTMwH1k6iN5pIkrjn6cPm2Tnae" file-type="wiki" title="全景图：通用Agent 智能体 对比" type="doc"></cite>
+[全景图：通用Agent 智能体 对比](https://axsppz4oyvj.feishu.cn/wiki/AVTMwH1k6iN5pIkrjn6cPm2Tnae)
 
 潜在话题安排：
 
@@ -102,7 +102,7 @@ supabase？ 很大的免费额度
    1. 介绍自己的产品、智能体落地案例
    2. 介绍自己常用的agent工具和实际生活中的案例
    3. 拆解一个已经落地的智能体
-3. 资源对接圆桌会： <cite type="user" user-id="ou_fd5ff53cdc69647149319a175c8afc78" user-name="高雁"></cite>提出，想想怎么做
+3. 资源对接圆桌会： **@高雁**提出，想想怎么做
 
    1. 企业需求方来提自己的想象力和痛点；
    

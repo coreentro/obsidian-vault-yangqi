@@ -88,4 +88,5 @@ tags:
 
 请看视频：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1076.000000" origin-width="1916.000000" token="RwKPbFnqnoGveoxLPKacsbsInFh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/RwKPbFnqnoGveoxLPKacsbsInFh) · `RwKPbFnqnoGveoxLPKacsbsInFh`

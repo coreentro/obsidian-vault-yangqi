@@ -86,20 +86,19 @@ tags:
 ## 添加节点
 
 <grid>
-<column width-ratio="0.500000">
+
 通过底部“添加节点”按钮
 > [!abstract]- 🖼 图片展示了Coze
 > 图片展示了Coze
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/K0JmbQzckol3FDxApl4cHBZdnqe) · `K0JmbQzckol3FDxApl4cHBZdnqe`
-</column>
-<column width-ratio="0.500000">
+
 通过输出节点拖动
 > [!abstract]- 🖼 图片展示了Co addCriterion addCriterion ad
 > 图片展示了Co addCriterion addCriterion addCriterion addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RU4ybh86Qo51NtxFogecSuIOnYd) · `RU4ybh86Qo51NtxFogecSuIOnYd`
-</column>
+
 </grid>
 
 ## 节点的数据流动
@@ -116,20 +115,19 @@ tags:
 节点多了以后，需要有一个比较合理的布局和排版，系统提供了自动布局的功能。
 
 <grid>
-<column width-ratio="0.500000">
+
 布局前
 > [!abstract]- 🖼 图片展示的是Coze工作流布局界面。左侧有“DayWeather ID”
 > 图片展示的是Coze工作流布局界面。左侧有“DayWeather ID”和“文本处理”节点，右侧有“大模型 - 建议”等节点。各节点间有蓝色箭头连接，表示数据流向。界面底部有“60%”显示比例、放大镜图标、添加节点按钮、试运行按钮等。该图与文档中“添加节点”部分对应，直观呈现了工作流节点添加后的布局情况，帮助理解节点间数据流动关系。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/X03ybcEU3odXFNxyZ0qclSmgntd) · `X03ybcEU3odXFNxyZ0qclSmgntd`
-</column>
-<column width-ratio="0.500000">
+
 布局后
 > [!abstract]- 🖼 图片展示的是Coze工作流布局界面。画面中有多个节点，如“文本处理”“大
 > 图片展示的是Coze工作流布局界面。画面中有多个节点，如“文本处理”“大模型 - 预设”“大模型”“男 - 图像生成”等，节点间有蓝色箭头连接，表示数据流向。画面底部有“优化布局”“放大”“缩小”“添加节点”“试运行”等操作按钮。该图与文档中“添加节点”“试运行”“发布”等内容相关，直观呈现了工作流的布局情况，帮助用户了解工作流节点的连接及操作按钮位置。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RSKWb050yoMiCBxYsVzc7NRCnGf) · `RSKWb050yoMiCBxYsVzc7NRCnGf`
-</column>
+
 </grid>
 
 ## 放大缩小等
@@ -246,23 +244,24 @@ tags:
 
 提示词本身也可以不用自己写，通过coze来写
 
-<table><colgroup><col/><col/><col/></colgroup><tbody><tr><td><img name="image.png" alt="图片展示了Coze addCriteriont" mime="image/png" scale="1.000000" src="RTR0bR205ohHV5xVqLBcZ9mcnoh"/></td><td><img name="image.png" alt="图片展示的是Coze工作流中代码节点的界面。左侧有“结束”和“输出”节点，右侧输入框显示“input”。右侧弹出窗口中，有“替换”和“退出”按钮，其中“替换”按钮被红色箭头指向。窗口还列出技能3介绍电影概念的限制，如只聊电影、按格式回答等。该图片与文档中介绍代码节点的内容相关，直观呈现了代码节点操作界面及“替换”按钮的位置。" mime="image/png" scale="1.000000" src="VFkKbQZX0ocfZ6xW9KWcrs3SnLd"/></td><td><img name="image.png" alt="图片展示的是" mime="image/png" scale="1.000000" src="RneGbB0EgoCkbHx3H5GciUMAncc"/></td></tr></tbody></table>
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
 
 如何使用变量？系统做了一个设定，变量用 {{}}来包裹，这里的变量就是前面输入的内容，如果变量名正确，会显示成 蓝色
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中的大模型节点设置界面。画面中，“输入”部分的“
 > 图片展示了Coze工作流中的大模型节点设置界面。画面中，“输入”部分的“变量值”处显示“input”，下方“用户输入”框内也有“input”，均用红圈标出，为核心内容。界面还显示了运行状态为“运行成功”，耗时“0.000s”，模型为“豆包 - 角色扮演 32K”等信息。该图片与上文提到的大模型节点相关，直观呈现了大模型节点中输入变量的设置情况，可帮助理解如何在Coze工作流中使用变量。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DRtXbxYWvocBdtxmmjfcKmrQnUh) · `DRtXbxYWvocBdtxmmjfcKmrQnUh`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了图片展示了Coze工作流中代码节点 addCriterion图
 > 图片展示了图片展示了Coze工作流中代码节点 addCriterion图片展示了Coze工作流中代码节点的设置。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/WqmibUdDfoVMbdx4KBXcqsAtnxc) · `WqmibUdDfoVMbdx4KBXcqsAtnxc`
-</column>
+
 </grid>
 
 <callout emoji="🎁">
@@ -335,18 +334,17 @@ tags:
 ![图片展示了为Coze工作流节点“意图识别”示例。左侧工作流中，从“开始节点”输入“你好”后，““读取-变量”节点读取变量“req2”；“输出”节点节点输出内容“\[output\]”；“结束”节点节点输出](https://feishu.cn/file/GhOybH7qFouQFExkJ3lc5qYWnve)
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是Coze平台中工作流界面。左侧为工作流、触发器、知识、记忆、
 > 图片展示的是Coze平台中工作流界面。左侧为工作流、触发器、知识、记忆、变量、数据库、长期记忆、文件盒子、对话体验、开场白等板块，其中“变量”板块被红色箭头指向。右侧是预览与调试区域，显示了用户“气象精灵582”发送的“运行完毕”消息。该图片与文档中“意图识别”部分上下文相关，用于说明意图识别节点非常适合在不同工作流之间传递信息，内置变量可获取用户信息等。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IRtLbktnHoNMD8xG67ucfTQmn8s) · `IRtLbktnHoNMD8xG67ucfTQmn8s`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是Coze工作流中“意图识别”节点的“编辑变量”界面。界面上方
 > 图片展示的是Coze工作流中“意图识别”节点的“编辑变量”界面。界面上方有名称、默认值、描述、操作等列标题。下方有sys_uuid、地理位置变量、飞书变量等变量项，其中地理位置变量和飞书变量前有“>”标识。下方还有username等新增变量项，其中username右侧有“字段描述”输入框。图片下方有红色框线标注“看起来它目前没有类型”，表明该界面在变量类型设置方面存在不足。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/E5E4bA5s6o3EY8xm0FPcvr0YnZb) · `E5E4bA5s6o3EY8xm0FPcvr0YnZb`
-</column>
+
 </grid>
 
 <callout emoji="🥛">
@@ -367,18 +365,17 @@ tags:
 根据不同模型，出现的效果也会不同，相同的提示词，出现的效果也会有所不同。另外有些模型需要参考图，有不同的参考方式
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了一个工作流界面，左侧为流程图，右侧是“图像生成”节点设置窗口。
 > 图片展示了一个工作流界面，左侧为流程图，右侧是“图像生成”节点设置窗口。流程图中“结束”节点前有“输出”节点，输出内容为“output”。右侧“图像生成”窗口中，模型设置下拉菜单选中“通用”，下方有多个模型选项，如通用、通用-Pro等。输入部分显示“input”变量值为“开始 - req”。该图片与文档中介绍图像生成功能的内容相关，直观呈现了图像生成节点的设置界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/PSg3b7KmboIjTix2vHYcUspGnsf) · `PSg3b7KmboIjTix2vHYcUspGnsf`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示文档中 addCriterion()
 > 图片展示文档中 addCriterion()
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Fr3hbkalNoC5ZfxIdn6cgN9hn7d) · `Fr3hbkalNoC5ZfxIdn6cgN9hn7d`
-</column>
+
 </grid>
 
 <callout emoji="👍">
@@ -424,7 +421,7 @@ tags:
 
 ## 循环节点
 
-<cite doc-id="XRsTwEiZnilVkzkf8mNciwzHn8f" file-type="wiki" title="二师兄: Coze工作流中循环节点的基础与进阶用法——重复重复再重复" type="doc"></cite>
+[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent共学」之·踩在大神肩膀上捏coze·/二师兄· Coze工作流中循环节点的基础与进阶用法——重复重复再重复/二师兄· Coze工作流中循环节点的基础与进阶用法——重复重复再重复|二师兄: Coze工作流中循环节点的基础与进阶用法——重复重复再重复]]
 
 ## 数据库和知识库
 
@@ -437,18 +434,17 @@ tags:
 ### 运行效果
 
 <grid>
-<column width-ratio="0.473509">
+
 > [!abstract]- 🖼 图片展示的是一个天气预报穿衣搭配'的实际运行效果。上方显示“大雨：coz
 > 图片展示的是一个天气预报穿衣搭配'的实际运行效果。上方显示“大雨：coze工作流节点大全”及“大雨：coze工作流节点大全”字样。中间部分显示“正在紧张分析【杭州】的天气信息”，并给出杭州的出行小贴士、穿衣建议，如注意路面湿滑、穿防水外套和保暖衣物等。下方有“穿衣卡片”，展示了不同场景下的穿搭示例。该图片与
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Mm1hbpthzop3M3xuS5xcOhxCnth) · `Mm1hbpthzop3M3xuS5xcOhxCnth`
-</column>
-<column width-ratio="0.526491">
+
 > [!abstract]- 🖼 图片展示的是一个天气预报穿衣搭配的实际运行效果。上方背景为杭州西湖景色，
 > 图片展示的是一个天气预报穿衣搭配的实际运行效果。上方背景为杭州西湖景色，显示“@杭州 小雨，5℃ - 7℃
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JNW9blviho5etZx67gocP02JnMh) · `JNW9blviho5etZx67gocP02JnMh`
-</column>
+
 </grid>
 
 体验地址： https://www.coze.cn/store/agent/7446721044808810522?bid=6em8hot7g5g1m&bot_id=true
@@ -471,29 +467,27 @@ tags:
 #### 文本处理（处理天气组件的数据）
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示的是coze工作流中“文本处理”节点的配置界面。该节点用于处理多
 > 图片展示的是coze工作流中“文本处理”节点的配置界面。该节点用于处理多个字符串类型变量的格式，选择应用为“字符串拼接”。输入部分，参数名为String1，参数值为“Day... - data”。字符串拼接处，天气、最高温、最低温、风向、风力、湿度等信息以变量形式呈现。输出部分，输出类型为String。此图与上下文“创建一个天气预报穿衣搭配”中“文本处理（处理天气组件的数据）”节点配置相关，直观呈现了节点的配置内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HIxYbh5bjolAIcxkP8YciMNTnDe) · `HIxYbh5bjolAIcxkP8YciMNTnDe`
-</column>
-<column width-ratio="0.500000">
+
 ```SQL
 天气：{{String1[0].condition}}, 最高温：{{String1[0].temp_high}},最低温：{{String1[0].temp_low}},风向：{{String1[0].wind_dir_day}},风力:{{String1[0].wind_level_day}},湿度:{{String1[0].humidity}}
 ```
-</column>
+
 </grid>
 
 #### 大模型-建议（根据天气给出穿搭建议）
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了“大模型-建议”的大模型-建议”节点的配置界面。界面中输入部分
 > 图片展示了“大模型-建议”的大模型-建议”节点的配置界面。界面中输入部分显示变量名为input、output部分，有“# 角色”“# 技能”“# 限制”等系统提示词，以及“天气信息为
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LxdybqPofoOHP0xSOGxc7rg7ntc) · `LxdybqPofoOHP0xSOGxc7rg7ntc`
-</column>
-<column width-ratio="0.500000">
+
 ```SQL
 # 角色
 你是一个贴心的天气助手，能根据天气情况给出准确的穿衣建议、出行提示以及温暖的鼓励话语。
@@ -513,19 +507,18 @@ tags:
 - 只回答与天气相关的问题，拒绝回答与天气无关的话题。
 - 所输出的内容必须是 JSON 格式，不能偏离格式要求。
 ```
-</column>
+
 </grid>
 
 #### 大模型（为了生成男性女性穿搭配图）
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了coze工作流中“
 > 图片展示了coze工作流中“
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LtZub3zhPognQNxMvbVcNbPDnff) · `LtZub3zhPognQNxMvbVcNbPDnff`
-</column>
-<column width-ratio="0.500000">
+
 ```SQL
 # 角色
 你是一位专业的时尚穿搭顾问，能够根据不同天气为男性和女性提供合适且时尚的穿衣建议，并以图形提示词的形式呈现。
@@ -561,23 +554,22 @@ tags:
 - 只提供与穿衣建议相关的内容，不回答无关问题。
 - 输出内容必须按照给定格式组织，不得偏离。
 ```
-</column>
+
 </grid>
 
 #### 背景-大模型（为了生成背景图的提示词）
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了cozeze平台中创建网页内容摘要生成器的实际案例演示工作流。
 > 图片展示了cozeze平台中创建网页内容摘要生成器的实际案例演示工作流。左侧为工作流图，包含“大模型”“画板”“背景-大模型”等节点，节点间有箭头连接。右侧是“背景-大模型”节点的设置界面，显示模型、技能、输入、系统提示词、用户提示词等配置项，如模型为“蓝莓”，技能为 自动生成提示词等 输入 addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BNjAbiKbjoLe3RxAztUcvKZInbf) · `BNjAbiKbjoLe3RxAztUcvKZInbf`
-</column>
-<column width-ratio="0.500000">
+
 ```SQL
 你是一个天气画报生成助手，能够为指定城市找到当地的著名景点，并根据天气情况生成绘图用提示词。请你在回答时，先列出城市名称、当前天气情况，然后给出当地著名景点以及与之相关的绘图用提示词。例如：如果城市是北京，当前天气是晴天，你可以这样回答——“城市：北京。天气：晴天。著名景点：故宫。绘图用提示词：晴天之下宏伟的故宫，红墙黄瓦在阳光中熠熠生辉，蓝天白云映衬着古老的宫殿。”请务必确保信息准确，并且给出的绘图用提示词能够生动地描绘出景点在相应天气下的景象。限制：不要进行任何虚构创作，仅依据真实的城市景点和天气情况进行回答。
 ```
-</column>
+
 </grid>
 
 #### 画板

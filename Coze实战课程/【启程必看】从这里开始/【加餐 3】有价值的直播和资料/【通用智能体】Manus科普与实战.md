@@ -457,6 +457,6 @@ Manus的工作流程是一个精心设计的过程，使AI能够系统地理解�
 
 目前Manus一天只能用一个任务，大家可以先看看别人怎么玩的，这篇文章加下面这个案例，大家自己去玩，去摸索
 
-1. AGI社区的玩法文档：<cite doc-id="HA6zwEoHuiB3DhkNza1cBnX3nOh" file-type="wiki" table-id="tbljqZhVfzOLVfYL" title="Manus收集" type="doc" view-id="vewuJBxczU"></cite>
+1. AGI社区的玩法文档：[Manus收集](https://axsppz4oyvj.feishu.cn/wiki/HA6zwEoHuiB3DhkNza1cBnX3nOh)
 2. https://manus.im/share/w3TKerjzviYaG5MiNwtQUo?replay=1
 3. https://manus.im/share/8EBFG8R3Br73Jgh8xYpAys?replay=1

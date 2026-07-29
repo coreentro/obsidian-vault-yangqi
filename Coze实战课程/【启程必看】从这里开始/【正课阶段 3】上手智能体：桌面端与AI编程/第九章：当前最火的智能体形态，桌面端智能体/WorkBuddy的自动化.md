@@ -50,4 +50,5 @@ tags:
 
 # 二、WorkBuddy的自动化
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1664.000000" token="SF5lby0hEo4ApLxBAFzc7Qf1nCg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/SF5lby0hEo4ApLxBAFzc7Qf1nCg) · `SF5lby0hEo4ApLxBAFzc7Qf1nCg`

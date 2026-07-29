@@ -35,4 +35,5 @@ tags:
 
 Coze 在最近的更新中（08.20）限制了提示词500的限制，下面这个视频给出了解决方案
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1074.000000" origin-width="1916.000000" token="XMbfbTdGYo5eCgxvyjHcGQHMnIc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/XMbfbTdGYo5eCgxvyjHcGQHMnIc) · `XMbfbTdGYo5eCgxvyjHcGQHMnIc`

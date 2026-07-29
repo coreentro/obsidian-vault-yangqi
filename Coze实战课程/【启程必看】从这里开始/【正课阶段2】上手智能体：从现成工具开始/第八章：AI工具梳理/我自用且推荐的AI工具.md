@@ -30,7 +30,8 @@ tags:
 > [!info] 位置
 > 【启程必看】从这里开始 › 【正课阶段2】上手智能体：从现成工具开始 › 第八章：AI工具梳理
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="360.000000" origin-width="554.000000" token="OUDpbZ270oqn6bxGtNrcL66qnAf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/OUDpbZ270oqn6bxGtNrcL66qnAf) · `OUDpbZ270oqn6bxGtNrcL66qnAf`
 
 # 写在前面
 
@@ -40,7 +41,7 @@ tags:
 
 # 工具1：网络工具
 
-<callout emoji="✨"><p><cite doc-id="NAKhwOoW3imlOHkEP9Wcsi3inJh" file-type="wiki" title="第三节：方案一·买一个现成的网络工具" type="doc"></cite></p><p><cite doc-id="JX9mwHciWinqbQk3vuScx6LNnPe" file-type="wiki" title="第五节：方案三·中转+静态IP一体化方案" type="doc"></cite></p></callout>
+<callout emoji="✨"><p>[第三节：方案一·买一个现成的网络工具](https://axsppz4oyvj.feishu.cn/wiki/NAKhwOoW3imlOHkEP9Wcsi3inJh)</p><p>[第五节：方案三·中转+静态IP一体化方案](https://axsppz4oyvj.feishu.cn/wiki/JX9mwHciWinqbQk3vuScx6LNnPe)</p></callout>
 
 # 工具2：CodeX + Claude Code
 
@@ -54,11 +55,12 @@ tags:
 
 请先看下面这篇文章
 
-<cite doc-id="BkiBwrSiNiKqhOkJ1Occ5Z0Nn7g" file-type="wiki" title="语音转文本工具：AI时代的沟通利器" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/语音转文本工具：AI时代的沟通利器|语音转文本工具：AI时代的沟通利器]]
 
-<cite doc-id="Ir0LwGh39itHBSkcydWcd5WsnIc" file-type="wiki" title="如何利用AI，20分钟把碎碎念，变成2000字高质量长文" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/如何利用AI，20分钟把碎碎念，变成2000字高质量长文|如何利用AI，20分钟把碎碎念，变成2000字高质量长文]]
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="YHgTbjtmcops0PxNgS7cpwJDnIe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/YHgTbjtmcops0PxNgS7cpwJDnIe) · `YHgTbjtmcops0PxNgS7cpwJDnIe`
 
 # 工具4：闲鱼
 
@@ -71,7 +73,8 @@ tags:
 **PS：各位买东西的时候，不要找我推荐靠谱渠道哈**
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1280.000000" origin-width="578.000000" token="LAKkbr7MToFzu5xPtvicSsQFnmg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/LAKkbr7MToFzu5xPtvicSsQFnmg) · `LAKkbr7MToFzu5xPtvicSsQFnmg`
 
 # 工具5：Arc浏览器（可选）
 
@@ -87,9 +90,10 @@ tags:
 
 如果你没有折腾精神，或者你对现在的浏览器很习惯，就不用换
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="EVxRbWNQho20K7xgeAAcyMi6nUb"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/EVxRbWNQho20K7xgeAAcyMi6nUb) · `EVxRbWNQho20K7xgeAAcyMi6nUb`
 
-<cite doc-id="KlHmwjh1SilbWrkcd1UcaY5Rnzd" file-type="wiki" title="我的浏览器【Arc浏览器】" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/我的浏览器【Arc浏览器】|我的浏览器【Arc浏览器】]]
 
 # 工具6：我的写作系统
 
@@ -97,4 +101,4 @@ tags:
 
 目前已经写了三篇，已经是一个非常完善体系的写作方法论，感兴趣的可以看一下。
 
-<cite doc-id="F7cEwVzwziCATjk3PVVcSTNLnCh" file-type="wiki" title="使用飞书搭建自己AI时代的知识管理体系" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/使用飞书搭建自己AI时代的知识管理体系|使用飞书搭建自己AI时代的知识管理体系]]

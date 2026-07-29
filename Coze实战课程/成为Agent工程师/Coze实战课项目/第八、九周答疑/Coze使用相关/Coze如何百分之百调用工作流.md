@@ -39,7 +39,7 @@ tags:
 
 - 如果让Coze 100%调用我的工作流呢？
 
-之前我们的一篇答疑文档已经讲过了一种方法，使用快捷指令：<cite doc-id="T2W7wR5MfiRtREkQbcAcxHrYnAg" file-type="wiki" title="Coze如何100%调用工作流和插件" type="doc"></cite>
+之前我们的一篇答疑文档已经讲过了一种方法，使用快捷指令：[[成为Agent工程师/Coze实战课项目/第八、九周答疑/Coze使用相关/Coze如何100%调用工作流和插件|Coze如何100%调用工作流和插件]]
 
 今天我们再来讲一种方法，这是Coze官方刚支持的能力，具体请看视频
 

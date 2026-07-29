@@ -53,4 +53,4 @@ tags:
 
 所以你接下来可以去看 Codex 的详细教程，里面会有你想要的一切内容
 
-<cite doc-id="H3nAwVtWui2hQgkVF9QcIiGPnvd" file-type="wiki" title="第十章：CodeX详细教程" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/第十章：CodeX详细教程|第十章：CodeX详细教程]]

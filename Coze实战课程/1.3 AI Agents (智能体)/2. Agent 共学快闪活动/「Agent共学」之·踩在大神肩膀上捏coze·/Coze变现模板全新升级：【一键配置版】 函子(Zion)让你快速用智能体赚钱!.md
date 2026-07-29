@@ -34,11 +34,11 @@ tags:
 
 1. Coze扣子新功能上线后，可以满足前端Web页面的搭建，但后面的流程还需要依赖coding和第三方开发工具。[Coze扣子更新：扣子IDE用户界面编辑器](https://www.coze.cn/docs/guides/Interface)
 2. 分享一个Coze变现模版，完整涵盖了前端+账户+数据库+支付全流程，一键配置。
-3. 模板开发者:  **<cite type="user" user-id="ou_50024cab859a7e8e51e04bc10d959b66" user-name="覃貌"></cite>** , 让coze可以一键落地.
+3. 模板开发者:  ****@覃貌**** , 让coze可以一键落地.
 
 ## AI智能体变现路径图 
 
-分享一个完整的<cite doc-id="DsqAwbp5ciSsIxkdi9cciaEMnOk" file-type="wiki" title="Coze扣子变现指南" type="doc"></cite>，内含变现案例实操分享。
+分享一个完整的[Coze扣子变现指南](https://axsppz4oyvj.feishu.cn/wiki/DsqAwbp5ciSsIxkdi9cciaEMnOk)，内含变现案例实操分享。
 
 <whiteboard token="DOSfwkfpCh0LScbyXIscNBOknFf"></whiteboard>
 
@@ -55,57 +55,59 @@ tags:
 极简版”与“一键配置版”页面概览：
 
 <grid>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板的首页界面，分为“一键配置版”和“极简版”两个
 > 图片展示了Coze变现模板的首页界面，分为“一键配置版”和“极简版”两个部分。上方有紫色背景的“首页”标识，“一键配置版”部分以浅蓝色背景呈现，中间有Coze智能体模板的图标及“点击免费获取”按钮，下方有卡通图案；“极简版”部分以渐变色背景，显示“Coze&Zion变现模板”字样，底部有“立即开始配置”按钮。该图片与上下文紧密相关，直观呈现了文档中介绍的两种Coze变现模板版本的首页样式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Sn96b6GQQo0izixaGrNcFgrQntb) · `Sn96b6GQQo0izixaGrNcFgrQntb`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板中“一键配置版”和“极简版”的配置模式选择页。
 > 图片展示了Coze变现模板中“一键配置版”和“极简版”的配置模式选择页。上方紫色背景区域显示“配置模式选择页”，下方“一键配置版”区域有“Coze智能体模板”及“请选择您的配置模式”字样，下方有“Zion默认智能体”和“你的Coze智能体”两个选项。下方“极简版”区域则显示“未设计该功能”。图片与上下文的关系是，通过对比两种版本的配置模式选择页，直观呈现“一键配置版”有配置模式选择功能，“极简版”未设计该功能的特点。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VStjbmgPhoFtPGx8R9ZcGqMqnPd) · `VStjbmgPhoFtPGx8R9ZcGqMqnPd`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板中极简版与一键配置版的注册登录页界面。上方是一
 > 图片展示了Coze变现模板中极简版与一键配置版的注册登录页界面。上方是一键配置版的登录页，背景为淡紫色与蓝色渐变，页面中间是登录和注册的输入框区域，标有“请先登录或注册”提示。下方是极简版登录页，背景为蓝紫色与橙色渐变，有“立即登录，畅聊AI智能体”提示，下方也设有输入框和登录按钮。图片与上下文关系紧密，直观呈现了两种版本在注册登录页视觉上的不同，辅助说明文字中对不同版本的介绍。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UgaQbBBzRorpH2x5cuZcaDdqnzb) · `UgaQbBBzRorpH2x5cuZcaDdqnzb`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板的“一键配置版”和“极简版”聊天页面。上方紫色
 > 图片展示了Coze变现模板的“一键配置版”和“极简版”聊天页面。上方紫色背景标注“聊天页”，“一键配置版”页面左侧有“我的BOT”“客服管理”“聊天记录”“中心中心”等选项，右侧是智能工作助手界面，可输入文字。下方紫色背景标注“极简版”，页面右侧是智能工作助手界面，下方有“智能工作助手”“智能工作助手”“智能工作助手”等重复内容。图片直观呈现了两款版本在聊天页面上的不同布局与功能展示，与文档中对两款版本的介绍相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/AMGxbs0syoM3TnxupElcRJpNnZc) · `AMGxbs0syoM3TnxupElcRJpNnZc`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板的套餐页面。上方紫色背景区域标注“套餐页”，下
 > 图片展示了Coze变现模板的套餐页面。上方紫色背景区域标注“套餐页”，下方左侧为“一键配置版”，右侧为“极简版”。一键配置版有Coze智能体日卡、月卡、年卡三种套餐，价格分别为1元/天、20元/月、199元/年，均有“购买套餐”按钮。极简版有按次、按天、按年三种套餐，价格分别为2000元、7777元、9999元，均有“购买”按钮。该图片与上下文介绍的Coze变现模板三种版本（一键配置版、多智能体版、极简版）及各自特点等内容相关，直观呈现了套餐信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IjjGbZWdPoDhqGxTAg8c3GhPnpb) · `IjjGbZWdPoDhqGxTAg8c3GhPnpb`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板的订单页，分为“一键配置版”和“极简版”。其中
 > 图片展示了Coze变现模板的订单页，分为“一键配置版”和“极简版”。其中，“一键配置版”订单页显示了两个订单记录，分别是2024年12月24日8:00的订单，支付金额为¥500，以及2024年12月24日10:00的订单，支付金额为¥500，均有“查看详情”按钮。而“极简版”订单页则显示2024年12月24日10:00的订单，支付金额为¥2000，同样有“查看详情”按钮。该图片与上下文介绍的Coze变现模板版本相关，直观呈现了不同版本的订单页面情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NfXCb42XYoXk1YxOjCucZTk3n8e) · `NfXCb42XYoXk1YxOjCucZTk3n8e`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板的管理后台界面，分为“一键配置版”和“极简版”
 > 图片展示了Coze变现模板的管理后台界面，分为“一键配置版”和“极简版”。其中“一键配置版”界面中，有“Coze智能体模板”“管理后台”“订单与用户”等选项，当前选中“管理后台”下的“智能体配置”，显示了Coze智能体卡片、金额、数量等配置项。而“极简版”则说明其未设计前端页面，需在项目数据库中修改。该图片与上下文紧密相关，直观呈现了两款版本管理后台的界面差异，帮助理解两款版本在配置方面的区别。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/PGvIblZWPohOtJx7fEpccj2Rnhd) · `PGvIblZWPohOtJx7fEpccj2Rnhd`
-</column>
-<column width-ratio="0.125000">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板中“一键配置版”和“极简版”的管理后台界面。上
 > 图片展示了Coze变现模板中“一键配置版”和“极简版”的管理后台界面。上方紫色背景显示“管理后台 - 订单与用户”，左侧有“一键配置版”标识。下方界面中，订单列表呈现了多个订单信息，包括订单编号、订单状态、订单金额、订单时间等。右侧有“添加订单”按钮。下方紫色背景的“极简版”标识旁，文字说明“未设计前端页面仅可在项目数据库中查看”。该图片直观呈现了两款版本管理后台的界面差异，与上下文介绍的两款版本特性相呼应。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SVWjbzfedoX5kBxST9XcBh0jnxb) · `SVWjbzfedoX5kBxST9XcBh0jnxb`
-</column>
+
 </grid>
 
-<table><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td></td><td><h8><b>多智能体版</b></h8></td><td><h8><b>一键配置版</b></h8></td><td><h8><b>极简版</b></h8></td></tr><tr><td>模板价格</td><td>免费</td><td>免费</td><td>免费</td></tr><tr><td>支付系统</td><td>卖Key的方式</td><td>支付宝在线支付</td><td>支付宝在线支付</td></tr><tr><td>支付需要资质</td><td>个人企业均可</td><td>企业资质</td><td>企业资质</td></tr><tr><td>多智能体</td><td>支持</td><td>默认单智能体</td><td>单智能体｜可二开多智能体</td></tr><tr><td>使用门槛</td><td>低</td><td>超低</td><td>低</td></tr><tr><td>调用智能体模式</td><td>SDK<br/>功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善</td><td>SDK<br/>功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善</td><td>SDK<br/>上限高，下限低，自由度高</td></tr><tr><td>视觉交互指数</td><td>⭐️⭐️⭐️⭐️⭐️</td><td>⭐️⭐️⭐️⭐️⭐️ ❤️</td><td>⭐️⭐️⭐️</td></tr><tr><td>模版用户端体验链接</td><td>https://coze.weishao.vip/</td><td><a href="https://8397kvn28n1o5.cave.functorz.com/">https://8397kvn28n1o5.cave.functorz.com/</a></td><td><a href="https://4n76rxk0l11w5.cave.functorz.com/">https://4n76rxk0l11w5.cave.functorz.com/</a></td></tr></tbody></table>
+|  | **多智能体版** | **一键配置版** | **极简版** |
+| --- | --- | --- | --- |
+| 模板价格 | 免费 | 免费 | 免费 |
+| 支付系统 | 卖Key的方式 | 支付宝在线支付 | 支付宝在线支付 |
+| 支付需要资质 | 个人企业均可 | 企业资质 | 企业资质 |
+| 多智能体 | 支持 | 默认单智能体 | 单智能体｜可二开多智能体 |
+| 使用门槛 | 低 | 超低 | 低 |
+| 调用智能体模式 | SDK功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善 | SDK功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善 | SDK上限高，下限低，自由度高 |
+| 视觉交互指数 | ⭐️⭐️⭐️⭐️⭐️ | ⭐️⭐️⭐️⭐️⭐️ ❤️ | ⭐️⭐️⭐️ |
+| 模版用户端体验链接 | https://coze.weishao.vip/ | [https://8397kvn28n1o5.cave.functorz.com/](https://8397kvn28n1o5.cave.functorz.com/) | [https://4n76rxk0l11w5.cave.functorz.com/](https://4n76rxk0l11w5.cave.functorz.com/) |
 
 本次介绍的是**一键配置版本：**
 
@@ -125,18 +127,17 @@ tags:
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BFczbvYh6oIJZrxnidSc8TVqnxe) · `BFczbvYh6oIJZrxnidSc8TVqnxe`
 
 <grid>
-<column width-ratio="0.561027">
+
 > [!abstract]- 🖼 图片展示��������������
 > 图片展示��������������
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LEhgbOwBiouLhHxDYatcZ4h2n1l) · `LEhgbOwBiouLhHxDYatcZ4h2n1l`
-</column>
-<column width-ratio="0.438973">
+
 > [!abstract]- 🖼 图片展示了Coze变现模板的四种版本及其功能、价格等信息。极简版适用于制
 > 图片展示了Coze变现模板的四种版本及其功能、价格等信息。极简版适用于制作产品demo，免费使用；高级版适用于展示和活动类应用，需支付99元/年；专业版适用于商业级应用，229元/年（含税/月）；企业级别账号适用于团队及企业，2万起/年。各版本在功能、服务、资源等方面有所不同，如高级版有项目水印、自由定义API/APP行为流等，专业版支持多用户端（需额外购买）、多角色权限设置等。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XbqlbI47wo0HVBxXLtSc5lOVnVd) · `XbqlbI47wo0HVBxXLtSc5lOVnVd`
-</column>
+
 </grid>
 
 ### **创建模板并升级版本：**
@@ -303,11 +304,20 @@ tags:
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/QqkbbscAmo66wRxuuoUcxwRgnTg) · `QqkbbscAmo66wRxuuoUcxwRgnTg`
 
-# 三、**模版开发者介绍  <cite type="user" user-id="ou_50024cab859a7e8e51e04bc10d959b66" user-name="覃貌"></cite>**
+# 三、**模版开发者介绍  **@覃貌****
 
 1. 版本介绍
 
-<table><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td></td><td><h8><b>多智能体版</b></h8></td><td><h8><b>一键配置版</b></h8></td><td><h8><b>极简版</b></h8></td></tr><tr><td>模板价格</td><td>免费</td><td>免费</td><td>免费</td></tr><tr><td>支付系统</td><td>卖Key的方式</td><td>支付宝在线支付</td><td>支付宝在线支付</td></tr><tr><td>支付需要资质</td><td>个人企业均可</td><td>企业资质</td><td>企业资质</td></tr><tr><td>多智能体</td><td>支持</td><td>默认单智能体</td><td>单智能体｜可二开多智能体</td></tr><tr><td>使用门槛</td><td>低</td><td>超低</td><td>低</td></tr><tr><td>调用智能体模式</td><td>SDK<br/>功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善</td><td>SDK<br/>功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善</td><td>SDK<br/>上限高，下限低，自由度高</td></tr><tr><td>视觉交互指数</td><td>⭐️⭐️⭐️⭐️⭐️</td><td>⭐️⭐️⭐️⭐️⭐️ ❤️</td><td>⭐️⭐️⭐️</td></tr><tr><td>模版用户端体验链接</td><td>https://coze.weishao.vip/</td><td><a href="https://8397kvn28n1o5.cave.functorz.com/">https://8397kvn28n1o5.cave.functorz.com/</a></td><td><a href="https://4n76rxk0l11w5.cave.functorz.com/">https://4n76rxk0l11w5.cave.functorz.com/</a></td></tr></tbody></table>
+|  | **多智能体版** | **一键配置版** | **极简版** |
+| --- | --- | --- | --- |
+| 模板价格 | 免费 | 免费 | 免费 |
+| 支付系统 | 卖Key的方式 | 支付宝在线支付 | 支付宝在线支付 |
+| 支付需要资质 | 个人企业均可 | 企业资质 | 企业资质 |
+| 多智能体 | 支持 | 默认单智能体 | 单智能体｜可二开多智能体 |
+| 使用门槛 | 低 | 超低 | 低 |
+| 调用智能体模式 | SDK功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善 | SDK功能受限于sdk本身的功能，但是随着coze官方同步更新会不断完善 | SDK上限高，下限低，自由度高 |
+| 视觉交互指数 | ⭐️⭐️⭐️⭐️⭐️ | ⭐️⭐️⭐️⭐️⭐️ ❤️ | ⭐️⭐️⭐️ |
+| 模版用户端体验链接 | https://coze.weishao.vip/ | [https://8397kvn28n1o5.cave.functorz.com/](https://8397kvn28n1o5.cave.functorz.com/) | [https://4n76rxk0l11w5.cave.functorz.com/](https://4n76rxk0l11w5.cave.functorz.com/) |
 
 1. **微信小程序变现**模版正在开发中，12月将会上线。目前实现小程序端可以通过API形式搭建，可参考 **API 形式**  
 [【 30分钟教程 】打破 AI 次元壁，普通人的 AI 创意变现通天指南](https://www.bilibili.com/video/BV1nis7ezEc5/?vd_source=dc233cc83d58fe60385a17c6f65fb8a2)
@@ -321,10 +331,10 @@ tags:
 
 1. Zion支持小程序，Web，AI行为流全栈搭建，APP端全栈搭建2025上线
 
-# 四、**相关资源<cite type="user" user-id="ou_50024cab859a7e8e51e04bc10d959b66" user-name="覃貌"></cite>**
+# 四、**相关资源**@覃貌****
 
 <grid>
-<column width-ratio="0.454878">
+
 **Coze变现指南资料&AI变现案例库**
 [Coze扣子变现指南 - 飞书云文档](https://go.functorz.com/1sQmlnSp)
 > [!abstract]- 🖼 图片展示的是Coze扣子变现指南资料，标题为“扣子变现指南 零代码接入支
@@ -334,8 +344,7 @@ tags:
 **开发工具**
 1. Coze扣子：[https://www.coze.cn/](https://www.coze.cn/)
 2. Zion无代码：[https://www.functorz.com/](https://www.functorz.com/)
-</column>
-<column width-ratio="0.545122">
+
 **以 API 形式链接 Zion 和 Coze （同理也可以为dify \ kimi \给任何大模型&Agent制作收费前端）**  
 [【 30分钟教程 】打破 AI 次元壁，普通人的 AI 创意变现通天指南_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1nis7ezEc5/?vd_source=dc233cc83d58fe60385a17c6f65fb8a2)
 [【 1小时教程 】简简单单用Zion实现coze变现_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1bGeteMEsG/?vd_source=dc233cc83d58fe60385a17c6f65fb8a2)
@@ -347,10 +356,10 @@ tags:
 2. Actionflow：[https://docs.functorz.com/features/actionflow/readme.html](https://docs.functorz.com/features/actionflow/readme.html)
 3. 权限：[https://docs.functorz.com/features/permissions.html](https://docs.functorz.com/features/permissions.html)
 4. 代码组件：[https://docs.functorz.com/features/code-component.html](https://docs.functorz.com/features/code-component.html)
-</column>
+
 </grid>
 
-# 五、互动环节 **<cite type="user" user-id="ou_50024cab859a7e8e51e04bc10d959b66" user-name="覃貌"></cite>**
+# 五、互动环节 ****@覃貌****
 
 1. Q&A
 2. Wish list

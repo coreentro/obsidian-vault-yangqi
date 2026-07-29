@@ -39,18 +39,17 @@ tags:
 智谱 BigModel( bigmodel.cn) 开放平台是智谱一站式的大模型开发及应用构建平台。基于智谱自研的全模型矩阵，面向企业客户及合作伙伴，支持多样化模型和自定义编排。平台提供即插即用的智能工具箱，包括API接口、模型微调及部署功能，同时具备流程编排以适应复杂业务场景。
 
 <grid>
-<column width-ratio="0.506793">
+
 > [!abstract]- 🖼 图片展示了智谱BigModel开放平台的相关信息。平台是一站式的大模型开
 > 图片展示了智谱BigModel开放平台的相关信息。平台是一站式的大模型开发及应用构建平台，基于智谱自研的全模型矩阵，面向企业客户及合作伙伴，支持多样化模型和自定义编排。平台提供即插即用的智能工具箱，包括API接口、模型微调及部署功能，同时具备流程编排以适应复杂业务场景。图片还以四个蓝色图标和文字分别突出其丰富的模型能力、便捷的开发工具、普惠的使用成本、丝滑的部署体验等优势。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/PWD0bZmNNo9Zn2xufGMcfrbvntc) · `PWD0bZmNNo9Zn2xufGMcfrbvntc`
-</column>
-<column width-ratio="0.493207">
+
 > [!abstract]- 🖼 图片展示了智谱BigModel开放平台的全模型多功能矩阵。分为“好效果 
 > 图片展示了智谱BigModel开放平台的全模型多功能矩阵。分为“好效果 多模态”和“一站式 全面服务”两部分。前者列出GLM - 4 - Plus、GLM - 4 - Flash、GLM - 4 - AirX、GLM - 4V - Plus四种模型，分别强调其高智能旗舰性能、永久免费、极速推理及视频和图像理解能力。后者介绍BATCH API和多款模型支持微调训练及推理，助力开发者高效完成任务。该图与上文介绍的BigModel开放平台功能相呼应，直观呈现平台优势。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/AZUWbwD9mo6iS5xwS8JcxKwinze) · `AZUWbwD9mo6iS5xwS8JcxKwinze`
-</column>
+
 </grid>
 
 🆓 BigModel开放平台还提供免费、好用、高并发的GLM-4-Flash模型，0元上手大模型，让尝试没有负担。新用户注册登录即送2000万Tokens，调用智谱全家桶模型
@@ -83,21 +82,55 @@ tags:
 
 ## 接口介绍
 
-<table><colgroup><col/><col/></colgroup><tbody><tr><td><b>类型</b></td><td>说明</td></tr><tr><td><b>请求地址</b></td><td>wss://open.bigmodel.cn/api/paas/ws/chat</td></tr><tr><td><b>传输协议</b></td><td>采用WebSocket协议：<ul><li>WebSocket协议是单个TCP连接上进行全双工通讯的协议。</li><li>客户端和服务端可以建立持久性的连接，并进行双向数据传输。</li><li>WebSocket协议广泛应用于需要实时互动的应用。</li></ul></td></tr><tr><td><b>消息格式</b></td><td>传输的数据可以是文本格式，也可以是二进制格式。</td></tr><tr><td><b>请求鉴权</b></td><td>客户端：使用JWT进行客户端鉴权，客户端生成JWT并在WebSocket建联时通过Header传输。<br/>服务端：使用平台的API Key作鉴权信息</td></tr><tr><td><b>接口功能</b></td><td><b>多模态输入</b>：模型支持视频、图片和音频输入，支持文本和音频输出。<br/><b>VAD（声音活动检测）</b>：模型默认支持VAD，也支持由客户端识别VAD并控制。<br/><b>对话打断</b>：模型对话支持被打断，打断时会返回 interrupt 控制消息。<br/><b>历史会话</b>：所有会话历史保存在一次WebSocket会话中。</td></tr></tbody></table>
+| **类型** | 说明 |
+| --- | --- |
+| **请求地址** | wss://open.bigmodel.cn/api/paas/ws/chat |
+| **传输协议** | 采用WebSocket协议：WebSocket协议是单个TCP连接上进行全双工通讯的协议。客户端和服务端可以建立持久性的连接，并进行双向数据传输。WebSocket协议广泛应用于需要实时互动的应用。 |
+| **消息格式** | 传输的数据可以是文本格式，也可以是二进制格式。 |
+| **请求鉴权** | 客户端：使用JWT进行客户端鉴权，客户端生成JWT并在WebSocket建联时通过Header传输。服务端：使用平台的API Key作鉴权信息 |
+| **接口功能** | **多模态输入**：模型支持视频、图片和音频输入，支持文本和音频输出。**VAD（声音活动检测）**：模型默认支持VAD，也支持由客户端识别VAD并控制。**对话打断**：模型对话支持被打断，打断时会返回 interrupt 控制消息。**历史会话**：所有会话历史保存在一次WebSocket会话中。 |
 
 ## 接口参数
 
 ### Header
 
-<table><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>参数名称</th><th>类型</th><th>必填</th><th>参数描述</th></tr></thead><tbody><tr><td>authorization</td><td>String</td><td>是</td><td>鉴权信息，支持两种方式：<ul><li>使用 JWT 从客户端直接发起并鉴权</li><li>从服务端使用平台的API Key作鉴权信息</li></ul></td></tr></tbody></table>
+| 参数名称 | 类型 | 必填 | 参数描述 |
+| --- | --- | --- | --- |
+| authorization | String | 是 | 鉴权信息，支持两种方式：使用 JWT 从客户端直接发起并鉴权从服务端使用平台的API Key作鉴权信息 |
 
 ### 请求参数
 
-<table><colgroup><col/><col/><col/></colgroup><thead><tr><th>参数名称</th><th></th><th>参数描述</th></tr></thead><tbody><tr><td>client_timestamp</td><td>Integer</td><td>调用端发起调用的时间戳，毫秒</td></tr><tr><td>system_prompt</td><td>String</td><td>给模型的系统指令 System Prompt。</td></tr><tr><td>chunk_type</td><td>String</td><td>消息类型有两种，内容消息：append，控制消息：finish。<br/>仅在关闭服务端VAD检测时，才需要传输控制消息。</td></tr><tr><td>audio_chunk</td><td>String</td><td>语音的 base64 编码，wav 或 pcm 格式 。目前语音是必须输入的。<ul><li>采样率:48k  ，通道数：1（单声道），位深度：16bit。</li><li>单次请求 audio 和 video chunk总大小不超过 10M 。</li><li>建议的 audio 和 video 时长应对齐，且不超过 10s 。</li></ul></td></tr><tr><td>video_chunk</td><td>String</td><td>视频的 base64 编码，h265 / h264 格式，25 fps 。<ul><li>建议分辨率1550x720（横屏） 或 720x1550（竖屏）</li><li>单次请求 audio 和 video chunk总大小不超过 10M 。</li><li>建议的 audio 和 video 时长应对齐，且不超过 10s 。</li></ul></td></tr><tr><td>pic_chunk</td><td>String</td><td>图片的 base64 编码，jpeg 格式。<br/>建议分辨率1550x720（横屏） 或 720x1550（竖屏）</td></tr><tr><td>control </td><td>Object</td><td>消息控制参数</td></tr><tr><td>response_type</td><td>String</td><td>返回消息类型，音频：audio，文本：text，默认是音频</td></tr><tr><td>vad_config</td><td>Object </td><td>VAD 配置</td></tr><tr><td>server_vad</td><td>Boolean</td><td>是否需要模型服务端VAD，默认为True。</td></tr><tr><td>finish_time</td><td>Integer</td><td>结束时间，单位ms，默认是 600。需要加快响应速度可以调整到 200<br/>开启服务端VAD时生效，用于判断音频是否结束。当静音时间超过结束时间 ，模型服务端则判断为音频结束输入，模型会开始回答。</td></tr><tr><td>audio_config</td><td>Object</td><td>输出音频声音的配置</td></tr><tr><td>encoding</td><td>String</td><td>声音格式，默认 pcm 格式。采样率：24k，位深度：16bit，通道数：1</td></tr><tr><td>voice_type</td><td>String</td><td>声音音色，标准女声：NORMAL_FEMALE ，标准男声：NORMAL_MALE，默认为NORMAL_MALE。</td></tr><tr><td>speed_ratio</td><td>Float</td><td>语速，范围 0.80 - 2.00， 两位小数，默认为 1.00</td></tr></tbody></table>
+| 参数名称 |  | 参数描述 |
+| --- | --- | --- |
+| client_timestamp | Integer | 调用端发起调用的时间戳，毫秒 |
+| system_prompt | String | 给模型的系统指令 System Prompt。 |
+| chunk_type | String | 消息类型有两种，内容消息：append，控制消息：finish。仅在关闭服务端VAD检测时，才需要传输控制消息。 |
+| audio_chunk | String | 语音的 base64 编码，wav 或 pcm 格式 。目前语音是必须输入的。采样率:48k  ，通道数：1（单声道），位深度：16bit。单次请求 audio 和 video chunk总大小不超过 10M 。建议的 audio 和 video 时长应对齐，且不超过 10s 。 |
+| video_chunk | String | 视频的 base64 编码，h265 / h264 格式，25 fps 。建议分辨率1550x720（横屏） 或 720x1550（竖屏）单次请求 audio 和 video chunk总大小不超过 10M 。建议的 audio 和 video 时长应对齐，且不超过 10s 。 |
+| pic_chunk | String | 图片的 base64 编码，jpeg 格式。建议分辨率1550x720（横屏） 或 720x1550（竖屏） |
+| control | Object | 消息控制参数 |
+| response_type | String | 返回消息类型，音频：audio，文本：text，默认是音频 |
+| vad_config | Object | VAD 配置 |
+| server_vad | Boolean | 是否需要模型服务端VAD，默认为True。 |
+| finish_time | Integer | 结束时间，单位ms，默认是 600。需要加快响应速度可以调整到 200开启服务端VAD时生效，用于判断音频是否结束。当静音时间超过结束时间 ，模型服务端则判断为音频结束输入，模型会开始回答。 |
+| audio_config | Object | 输出音频声音的配置 |
+| encoding | String | 声音格式，默认 pcm 格式。采样率：24k，位深度：16bit，通道数：1 |
+| voice_type | String | 声音音色，标准女声：NORMAL_FEMALE ，标准男声：NORMAL_MALE，默认为NORMAL_MALE。 |
+| speed_ratio | Float | 语速，范围 0.80 - 2.00， 两位小数，默认为 1.00 |
 
 ### 响应参数
 
-<table><colgroup><col/><col/><col/></colgroup><thead><tr><th>参数名称</th><th>类型</th><th>参数描述</th></tr></thead><tbody><tr><td>conversation_id</td><td>String</td><td>会话ID</td></tr><tr><td>message_id</td><td>String</td><td>会话中的消息ID</td></tr><tr><td>message</td><td>Object</td><td>模型输出信息</td></tr><tr><td>type</td><td>String</td><td>输出内容类型，文本：text，音频：audio，控制消息：event。<br/>返回控制消息，类型为event时，返回内容有 inited，finish，interrupt：<ul><li>inited，连接建立成功</li><li>finish，当前轮模型对话输出完成</li><li>interrupt，当前轮模型对话被打断</li></ul></td></tr><tr><td>content</td><td>String</td><td>输出的内容，文本或者音频 base64编码，pcm格式</td></tr><tr><td>usage</td><td>Object</td><td>返回模型调用的 tokens 数量统计</td></tr><tr><td>prompt_tokens</td><td>Integer</td><td>用户输入的 tokens 数量</td></tr><tr><td>completion_tokens</td><td>Integer</td><td>模型输出的 tokens 数量</td></tr><tr><td>total_tokens</td><td>Integer</td><td>总 tokens 数量</td></tr></tbody></table>
+| 参数名称 | 类型 | 参数描述 |
+| --- | --- | --- |
+| conversation_id | String | 会话ID |
+| message_id | String | 会话中的消息ID |
+| message | Object | 模型输出信息 |
+| type | String | 输出内容类型，文本：text，音频：audio，控制消息：event。返回控制消息，类型为event时，返回内容有 inited，finish，interrupt：inited，连接建立成功finish，当前轮模型对话输出完成interrupt，当前轮模型对话被打断 |
+| content | String | 输出的内容，文本或者音频 base64编码，pcm格式 |
+| usage | Object | 返回模型调用的 tokens 数量统计 |
+| prompt_tokens | Integer | 用户输入的 tokens 数量 |
+| completion_tokens | Integer | 模型输出的 tokens 数量 |
+| total_tokens | Integer | 总 tokens 数量 |
 
 ## 请求示例
 
@@ -295,11 +328,13 @@ async def client():
 
 video：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="720.000000" origin-width="1550.000000" token="BSrZbIMJeoo6SmxHUiAcB1hZnEe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/BSrZbIMJeoo6SmxHUiAcB1hZnEe) · `BSrZbIMJeoo6SmxHUiAcB1hZnEe`
 
 Audio:
 
-<figure view-type="Preview"><source mime="audio/x-m4a" token="FZ51bQhdHo1GgAxCjh4cnKRHnQg"/></figure>
+> [!warning]- 🎵 音频（`audio/x-m4a`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/FZ51bQhdHo1GgAxCjh4cnKRHnQg) · `FZ51bQhdHo1GgAxCjh4cnKRHnQg`
 
 ## 环境的准备：
 
@@ -309,7 +344,8 @@ Audio:
 
 1、下载安装包：
 
-<figure view-type="Card"><source mime="application/zip" token="RkqHbfRK4osDErxiBDgcBMF2n3d"/></figure>
+> [!warning]- 📎 附件（`application/zip`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/RkqHbfRK4osDErxiBDgcBMF2n3d) · `RkqHbfRK4osDErxiBDgcBMF2n3d`
 
 2、下载后解压，配置环境变量
 
@@ -363,13 +399,15 @@ ffmpeg -version
 
 pip install -r requirements.txt
 
-<figure view-type="Card"><source mime="text/plain" token="NuzXbJ11zoTmrHxc6hhcrf7XnYf"/></figure>
+> [!warning]- 📎 附件（`text/plain`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/NuzXbJ11zoTmrHxc6hhcrf7XnYf) · `NuzXbJ11zoTmrHxc6hhcrf7XnYf`
 
 ## 代码讲解
 
 ### **一次性发送请求：**
 
-<figure view-type="Card"><source mime="text/x-python" token="ChmkbWBJxoEoaXxvS58cnwmUnQf"/></figure>
+> [!warning]- 📎 附件（`text/x-python`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/ChmkbWBJxoEoaXxvS58cnwmUnQf) · `ChmkbWBJxoEoaXxvS58cnwmUnQf`
 
 ```Python
 import asyncio
@@ -531,7 +569,8 @@ h264_path = f"C:/Users/lenovo/Desktop/{uuid.uuid4()}.mp4"  # 替换
 
 ### 分批次追加方式发送请求：
 
-<figure view-type="Card"><source mime="text/x-python" token="T7odbWUffoVYGyxauPIcFiimnTd"/></figure>
+> [!warning]- 📎 附件（`text/x-python`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/T7odbWUffoVYGyxauPIcFiimnTd) · `T7odbWUffoVYGyxauPIcFiimnTd`
 
 通过本地音视频文件去模拟追加方式
 
@@ -777,7 +816,8 @@ async function getShareMedia() {
 
 直接下载demo：
 
-<figure view-type="Card"><source mime="application/zip" token="UYz5bWuZnokoV7xq0WWctIzhnwf"/></figure>
+> [!warning]- 📎 附件（`application/zip`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/UYz5bWuZnokoV7xq0WWctIzhnwf) · `UYz5bWuZnokoV7xq0WWctIzhnwf`
 
 版本要求：
 
@@ -1501,7 +1541,8 @@ export default {
 
 ## Test_Demo：
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1920.000000" origin-width="1080.000000" token="AQeVbf4O5owlcdx7DUickPZWn5b"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/AQeVbf4O5owlcdx7DUickPZWn5b) · `AQeVbf4O5owlcdx7DUickPZWn5b`
 
 ## 硬件list
 

@@ -76,40 +76,39 @@ Coze 平台有个限制，外层 LLM 一次性调用工作流的数量不能超�
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DNS6btOpFop9DJxMRT9cPuWNn3g) · `DNS6btOpFop9DJxMRT9cPuWNn3g`
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片为@thesephist在Twitter上发布的关于@Factory
 > 图片为@thesephist在Twitter上发布的关于@FactoryAI在SWE-Bench上取得新SOTA的推文。内容包括：将任务框定为“软件开发生命周期自动化”而非“自动化编码”；最长运行的pipeline超过2小时消耗超过1000万个tokens；成功率随尝试次数增加迅速提高，暗示搜索+LLM生成可能解锁更多进展；LLM管道变得复杂，评估更现实和人性化；提及一年前关于“百万调用”LLM链的可能性，认为这些长运行pipeline可能带来新进展。该图片与文档中介绍LLMs需要tokens来思考、超长工作流及评估更现实等内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RRBRbfC05osERxxCkJ9c5149nod) · `RRBRbfC05osERxxCkJ9c5149nod`
-</column>
-<column width-ratio="0.500000">
+
 来自 @FactoryAI 的 SWE-Bench 新的 SOTA！以下是他们技术报告中的一些亮点：
 - 我喜欢将任务框定为“软件开发生命周期自动化”而不是“自动化编码”
 - **最长运行的 pipeline 在超过 2 小时内消耗了超过 1000 万个 tokens**
 - 成功率随着尝试次数的增加而迅速提高，这让我觉得搜索 + LLM 生成可能会解锁更多进展
 LLM 管道变得越来越复杂，评估也变得更加现实和人性化。**一年前，我写过关于“百万调用”LLM链的可能性，我认为我们开始看到这些超长运行 pipelines 的样子了。**
 https://stream.thesephist.com/updates/1673040884
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片展示了AI Coder在生成《贪吃蛇》项目时的超长工作流信息。该工作
 > 图片展示了AI Coder在生成《贪吃蛇》项目时的超长工作流信息。该工作流包含5个子工作流，完整运行一次耗时4 - 5分钟，需10+x次LLM调用（x为代码文件数量），共消耗50k - 60k Tokens。图片还提到可体验AI Coder，链接为https://www.coze.com/s/2mFgmn37c/ 。此外，图片底部有Mindstorms标识，显示其看Coze Bot一口气编266行代码的Python游戏。图片与上下文紧密相关，直观呈现了AI Coder在复杂项目中的运行情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/OgJWb3x3RoWC78xdF5OcbafEnNs) · `OgJWb3x3RoWC78xdF5OcbafEnNs`
-</column>
-<column width-ratio="0.500000">
+
 编程 Agent 最新 SOTA。最长的 Workflow 耗时超 2 小时，总消耗超 1000 万 tokens。
 相比起来，我那个 AI Coder 耗时 4～5 分钟，消耗 5 万～6 万 tokens，简直就是毛毛雨。
 **超长工作流是 AI 解决复杂现实问题的必要路径。**
 **未来它会变成常态。**
-</column>
+
 </grid>
 
 ## 效果演示
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3340.000000" token="JEBJbHUSDo3Cb8xsGewc2dKOnue"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JEBJbHUSDo3Cb8xsGewc2dKOnue) · `JEBJbHUSDo3Cb8xsGewc2dKOnue`
 
 程序在线运行地址：https://1024code.com/codecubes/v2wn025
 

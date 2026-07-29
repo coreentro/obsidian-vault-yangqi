@@ -49,7 +49,7 @@ tags:
 
 [OpenClaw飞书官方插件上线｜一文讲清功能、安装更新教程与常见问题！ - 飞书官网](https://www.feishu.cn/content/article/7613711414611463386)
 
-<cite doc-id="MFK7dDFLFoVlOGxWCv5cTXKmnMh" file-type="docx" title="OpenClaw 飞书官方插件使用指南（公开版） | OpenClaw Feishu Official Plugin User Guide (Public Version )" type="doc"></cite>
+[OpenClaw 飞书官方插件使用指南（公开版） | OpenClaw Feishu Official Plugin User Guide (Public Version )](https://axsppz4oyvj.feishu.cn/docx/MFK7dDFLFoVlOGxWCv5cTXKmnMh)
 
 ---
 
@@ -66,18 +66,17 @@ tags:
 **我有使用云服务厂商部署的容器，腾讯云**
 
 <grid>
-<column width-ratio="0.501878">
+
 > [!abstract]- 🖼 图片展示了腾讯云轻量应用服务器的多种配置及价格信息。其中，2核4G配置的
 > 图片展示了腾讯云轻量应用服务器的多种配置及价格信息。其中，2核4G配置的60GBSSD盘1.5T，时长1年，日均价56.4元/月，售价199元；2核2G配置的60GBSSD盘1.5T，时长1年，日均价6.25元/月，售价99元；2核2G20M配置的60GBSSD盘1.5T，时长1月，日均价20.7元/月，售价20元；4核8G30M配置的60GBSSD盘1.5T，时长1月，日均价21.6元/月，售价88元。这些配置信息与文档中介绍的使用云服务厂商部署容器的腾讯云内容相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SIUlbRrZxoWpEcxcPP8cWNHvnnc) · `SIUlbRrZxoWpEcxcPP8cWNHvnnc`
-</column>
-<column width-ratio="0.498122">
+
 > [!abstract]- 🖼 图片展示了OpenClaW Claude bot v1.50的界面。左侧
 > 图片展示了OpenClaW Claude bot v1.50的界面。左侧是文件管理器，显示有“root”和“claude”文件夹。右侧是代码编辑区域，上方有“Claude Code v2.1.50”标题，欢迎语为“Welcome back!”，并提示使用“/init”创建CLAUE.md文件。下方显示“Opus 4.6 · API Usage Billing”及“~ /openclaw”信息，还有“/clear”指令及“L (no content)”提示。该图片与文档中介绍OpenClaW Claude bot v1.50的内容相关，直观呈现了其界面样式和部分功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VnwnbtfbgoO79SxzAqvcs9ehnvd) · `VnwnbtfbgoO79SxzAqvcs9ehnvd`
-</column>
+
 </grid>
 
 https://orcaterm.cloud.tencent.com/terminal?type=lighthouse&instanceId=lhins-b46son3p&region=na-siliconvalley&from=lh_console_login_btn
@@ -171,7 +170,7 @@ https://orcaterm.cloud.tencent.com/terminal?type=lighthouse&instanceId=lhins-b46
 
 ## 2）安装Claude Code
 
-<cite doc-id="Xov5w11iCim3sXk2nEjcRZVznsd" file-type="wiki" title="Claude Code 的安装" type="doc"></cite>
+[Claude Code 的安装](https://axsppz4oyvj.feishu.cn/wiki/Xov5w11iCim3sXk2nEjcRZVznsd)
 
 > [!abstract]- 🖼 图片展示的是一个学习交流群的聊天记录。群内成员就安装Claude Cod
 > 图片展示的是一个学习交流群的聊天记录。群内成员就安装Claude Code展开讨论，如孔繁玉提到安装过程不仅教会如何安装，还让其掌握有问题自己和AI一起解决的思路；程云详细介绍了安装步骤；mask询问是否关闭websearch也能联网搜索；王晓磊建议分Windows和Mac版本；王小云表示安装成功并感谢；陆爱萍按步骤操作后成功安装。该图片与文档中介绍Claude Code安装教程的内容相关，展示了学习群内成员对安装过程的反馈。
@@ -231,7 +230,7 @@ https://github.com/UfoMiao/zcf/blob/main/README_zh-CN.md
 
 这里面的核心是这个 CLAUDE.md 文档。CLAUDE.md是什么？我在教程里给大家讲了
 
-<cite doc-id="N4E0wpDMli6DEXktRBMczga5nLb" file-type="wiki" title="让它记住你的规矩：CLAUDE.md 配置指南" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/让智能体真正能干活：自定义技能与工具协议/让它记住你的规矩：CLAUDE.md 配置指南|让它记住你的规矩：CLAUDE.md 配置指南]]
 
 你可以认为是这个项目的一个说明书。当Claude Code在这个文件夹下启动的时候，它会优先去读这个CLAUDE.md的文档内容，这个文档内容是指导它做事情的关键
 
@@ -375,7 +374,7 @@ AI 通识就会发挥作用。AI 到底懂什么？不懂什么？
 
 [OpenClaw飞书官方插件上线｜一文讲清功能、安装更新教程与常见问题！ - 飞书官网](https://www.feishu.cn/content/article/7613711414611463386)
 
-<cite doc-id="MFK7dDFLFoVlOGxWCv5cTXKmnMh" file-type="docx" title="OpenClaw 飞书官方插件使用指南（公开版） | OpenClaw Feishu Official Plugin User Guide (Public Version )" type="doc"></cite>
+[OpenClaw 飞书官方插件使用指南（公开版） | OpenClaw Feishu Official Plugin User Guide (Public Version )](https://axsppz4oyvj.feishu.cn/docx/MFK7dDFLFoVlOGxWCv5cTXKmnMh)
 
 这两篇文档我可以直接把链接给到他，也可以用 Chrome 插件把它下载成 Markdown 的方式给到他，都可以
 
@@ -482,7 +481,7 @@ Claude Code 一定要掌握，掌握的不是这个工具，是这个工具背�
 
 ## 1）找到你完全可以使用的Skill
 
-<cite doc-id="DyMPwfQHuiA2ghkoJ6FctM18n8f" file-type="wiki" title="Claude Skills 实操指南：如何安装、如何寻找Skills" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/让智能体真正能干活：自定义技能与工具协议/Claude Skills 实操指南：如何安装、如何寻找Skills|Claude Skills 实操指南：如何安装、如何寻找Skills]]
 
 https://github.com/JimLiu/baoyu-skills
 

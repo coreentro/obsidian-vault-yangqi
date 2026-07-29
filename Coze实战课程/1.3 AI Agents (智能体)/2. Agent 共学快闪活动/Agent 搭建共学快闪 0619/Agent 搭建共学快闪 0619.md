@@ -36,13 +36,24 @@ B 站回放地址：https://space.bilibili.com/259768893/channel/collectiondetai
 https://www.feishu.cn/calendar/share/calendar?token=10zodaOsIB69toylqxc6WNf8XQ0_QohsOHPLm-sg-LAbWjqKQphcqBQbPoPW0AidbJ01-7U4Vg==
 </callout>
 
-**直播时使用的教程文档**：<cite doc-id="NB3nwtUC0iDLYxkIkSYc0WRznGg" file-type="wiki" title="【共学最全版本】微信机器人共学教程" type="doc"></cite>
+**直播时使用的教程文档**：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/【共学最全版本】微信机器人共学教程|【共学最全版本】微信机器人共学教程]]
 
-跟学教程问题汇总： <cite doc-id="R681wNoqJiWFznkPKodcN8Hinjd" file-type="wiki" table-id="tblVCeP54F6CF2gh" title="AI Agent 第三期共学快闪问题汇总" type="doc" view-id="vewpwApw9B"></cite>
+跟学教程问题汇总： [AI Agent 第三期共学快闪问题汇总](https://axsppz4oyvj.feishu.cn/wiki/R681wNoqJiWFznkPKodcN8Hinjd)
 
 ## 日程安排:
 
-<synced-source><table><colgroup><col/><col/><col/><col/><col/><col/></colgroup><thead><tr><th>时间</th><th>内容</th><th>参与者要求</th><th>分享人</th><th>主持人</th><th>助教</th></tr></thead><tbody><tr><td>6月19日<br/>20:00开始</td><td>从零到一，搭建微信机器人<br/><a href="https://waytoagi.feishu.cn/minutes/obcn1i96r2l752u953469371?from=from_copylink">回放</a></td><td>0基础小白</td><td>张梦飞</td><td>小元</td><td>金永勋、奥伏</td></tr><tr><td>6月20日<br/>20:00开始</td><td>Coze接入、构建你的智能微信助手<br/><a href="https://waytoagi.feishu.cn/minutes/obcn17nfy3a4hurcypr9hef1?from=from_copylink">回放</a></td><td>完成第一课</td><td>张梦飞</td><td>吕昭波</td><td>安仔、阿飞</td></tr><tr><td>6月23日<br/>20:00开始</td><td>微信机器人插件拓展教学<br/><a href="https://waytoagi.feishu.cn/minutes/obcn398zlt5596i4k4qy25ni">回放</a></td><td>完成第一课</td><td>张梦飞</td><td><del>安仔</del><br/>大雨</td><td>空心菜、AYBIAO、阿飞</td></tr><tr><td>6月24日<br/>20:00开始</td><td>虚拟女友“李洛云”开发者自述<br/><a href="https://waytoagi.feishu.cn/minutes/obcn4x2mn9b2k9793cu3s757">回放</a><br/><cite doc-id="KIyMwqktLiC6BekSrwScowO0nLe" file-type="wiki" title="皮皮：你的微信虚拟女友 - 李洛云" type="doc"></cite></td><td>完成第一课</td><td>皮皮</td><td>安仔</td><td></td></tr><tr><td>6月25日<br/>20:00开始</td><td>FastGPT：“本地版coze"部署教学<br/><a href="https://waytoagi.feishu.cn/minutes/obcn5mw9x8jwt5162hkwwaam">回放</a></td><td>完成第一课</td><td>张梦飞</td><td>银海</td><td>金永勋、AYBIAO</td></tr><tr><td>6月27日<br/>20:00开始</td><td>Hook机制的机器人使用和部署教学<br/><a href="https://waytoagi.feishu.cn/minutes/obcn6zu4f361xtv47s5z5v6l?from=from_copylink">回放</a></td><td>0基础小白<br/>一台Windows 10以上系统的电脑</td><td>张梦飞</td><td>Stuart</td><td>阿飞、空心菜</td></tr></tbody></table></synced-source>
+<synced-source>
+
+| 时间 | 内容 | 参与者要求 | 分享人 | 主持人 | 助教 |
+| --- | --- | --- | --- | --- | --- |
+| 6月19日20:00开始 | 从零到一，搭建微信机器人[回放](https://waytoagi.feishu.cn/minutes/obcn1i96r2l752u953469371?from=from_copylink) | 0基础小白 | 张梦飞 | 小元 | 金永勋、奥伏 |
+| 6月20日20:00开始 | Coze接入、构建你的智能微信助手[回放](https://waytoagi.feishu.cn/minutes/obcn17nfy3a4hurcypr9hef1?from=from_copylink) | 完成第一课 | 张梦飞 | 吕昭波 | 安仔、阿飞 |
+| 6月23日20:00开始 | 微信机器人插件拓展教学[回放](https://waytoagi.feishu.cn/minutes/obcn398zlt5596i4k4qy25ni) | 完成第一课 | 张梦飞 | 安仔大雨 | 空心菜、AYBIAO、阿飞 |
+| 6月24日20:00开始 | 虚拟女友“李洛云”开发者自述[回放](https://waytoagi.feishu.cn/minutes/obcn4x2mn9b2k9793cu3s757)[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/「共学快闪第三期」一起搭建「微信机器人」活动 2024年6月24日/皮皮：你的微信虚拟女友 - 李洛云\|皮皮：你的微信虚拟女友 - 李洛云]] | 完成第一课 | 皮皮 | 安仔 |  |
+| 6月25日20:00开始 | FastGPT：“本地版coze"部署教学[回放](https://waytoagi.feishu.cn/minutes/obcn5mw9x8jwt5162hkwwaam) | 完成第一课 | 张梦飞 | 银海 | 金永勋、AYBIAO |
+| 6月27日20:00开始 | Hook机制的机器人使用和部署教学[回放](https://waytoagi.feishu.cn/minutes/obcn6zu4f361xtv47s5z5v6l?from=from_copylink) | 0基础小白一台Windows 10以上系统的电脑 | 张梦飞 | Stuart | 阿飞、空心菜 |
+
+</synced-source>
 
 ## 第一天直播
 
@@ -137,18 +148,17 @@ https://www.feishu.cn/calendar/share/calendar?token=10zodaOsIB69toylqxc6WNf8XQ0_
 **设置后，点击“提交”，即可完成注册。**
 
 <grid>
-<column width-ratio="0.515477">
+
 > [!abstract]- 🖼 图片展示的是Coze.cn网站注册时设置个人信息的界面。界面上方显示“设
 > 图片展示的是Coze.cn网站注册时设置个人信息的界面。界面上方显示“设置你的个人信息”，中间有一个蓝色圆形头像图标。下方有“你的用户名”输入框，当前输入内容为“层”，提示框显示“只有英文字母（A-Z、a-z）、数字和下划线（_）有效”。底部有一个紫色的“提交”按钮。该图片与文档中“注册Coze.cn账号”步骤相关，是设置用户名环节的展示，提示用户输入的用户名格式要求。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/J45tbU9o8oP916xZVogcJX8fnOb) · `J45tbU9o8oP916xZVogcJX8fnOb`
-</column>
-<column width-ratio="0.484523">
+
 > [!abstract]- 🖼 图片展示的是Coze.cn网站的个人信息设置页面。页面上方显示“设置你的
 > 图片展示的是Coze.cn网站的个人信息设置页面。页面上方显示“设置你的个人信息”，中间有一个蓝色圆形头像图标。下方有“你的用户名”输入框，已输入“Equity_AI”，提示可输入9 - 20个字符，且只能输入英文字母和下划线。底部有一个蓝色的“提交”按钮。该图片与文档中“注册Coze.cn账号”步骤相关，是设置用户名这一步骤的展示画面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Z2OHbL7JFoDAUwxLPpecgAJcn5c) · `Z2OHbL7JFoDAUwxLPpecgAJcn5c`
-</column>
+
 </grid>
 
 **已准备完成，等待共学开启，一起开始制作吧！**
@@ -162,41 +172,41 @@ https://www.feishu.cn/calendar/share/calendar?token=10zodaOsIB69toylqxc6WNf8XQ0_
 
 **（等跟着教学学完之后，大家可以看着教程继续学习，在跟学之前，不建议小白看教程自己操作！）**
 
-<cite doc-id="VuM0w0ZxjiIOtUkhgdncT4WTnLf" file-type="wiki" title="微信机器人大事件记录" type="doc"></cite>
+[微信机器人大事件记录](https://axsppz4oyvj.feishu.cn/wiki/VuM0w0ZxjiIOtUkhgdncT4WTnLf)
 
-<cite doc-id="Jw0YwMxdHiSADNkxRB3cVdmUnYf" file-type="wiki" title="问题集合" type="doc"></cite>，
+[问题集合](https://axsppz4oyvj.feishu.cn/wiki/Jw0YwMxdHiSADNkxRB3cVdmUnYf)，
 
-<cite doc-id="O6I8wg0jViELlDk08t6cbYyLnqh" file-type="wiki" title="张梦飞：【保姆级】基于Hook机制的微信AI机器人，无需服务器，运行更稳定，风险更小" type="doc"></cite>
+[张梦飞：【保姆级】基于Hook机制的微信AI机器人，无需服务器，运行更稳定，风险更小](https://axsppz4oyvj.feishu.cn/wiki/O6I8wg0jViELlDk08t6cbYyLnqh)
 
-<cite doc-id="XnvIwd8NkiDefHkmbobcCfsBnKg" file-type="wiki" title="张梦飞：【知识库】FastGPT+OneAPI+COW带有知识库的机器人完整教程" type="doc"></cite>
+[张梦飞：【知识库】FastGPT+OneAPI+COW带有知识库的机器人完整教程](https://axsppz4oyvj.feishu.cn/wiki/XnvIwd8NkiDefHkmbobcCfsBnKg)
 
 张梦飞｜小小白教程（有操作界面，更加直观，方便后续拓展，相对性价比较高）：
 
-<cite doc-id="A9w1wUcXSihF6XkeKVic8CXxnHb" file-type="wiki" title="张梦飞：【保姆级】一步一图，手把手教你把AI接入微信" type="doc"></cite>
+[张梦飞：【保姆级】一步一图，手把手教你把AI接入微信](https://axsppz4oyvj.feishu.cn/wiki/A9w1wUcXSihF6XkeKVic8CXxnHb)
 
 Stuart| 二次简化小小白入门教程（最最最简单的流程，适合基础体验，最简单跑通的操作，基于第一个的简化版本）
 
-<cite doc-id="QWQ0w1QOZiNZz9kreQecY4hYn4c" file-type="wiki" title="Stuart：【入门级】教你用最简单的方式搭建微信机器人" type="doc"></cite>
+[Stuart：【入门级】教你用最简单的方式搭建微信机器人](https://axsppz4oyvj.feishu.cn/wiki/QWQ0w1QOZiNZz9kreQecY4hYn4c)
 
 Yaki｜新手小白可以看这个教程 ：（有讲解的小白教程，完成上方任一个制作后，可以看着了解下原理）
 
-<cite doc-id="UADkwZ9B0iAWdTkFJIjcN7EgnAh" file-type="wiki" title="微信机器人高阶玩法：联网搜索+视频总结+Midjourney绘画整合指南" type="doc"></cite>作者@Yaki
+[微信机器人高阶玩法：联网搜索+视频总结+Midjourney绘画整合指南](https://axsppz4oyvj.feishu.cn/wiki/UADkwZ9B0iAWdTkFJIjcN7EgnAh)作者@Yaki
 
 Din｜（梦开始的地方）
 
-<cite doc-id="EYdCw5tTTimCOukGiSfczj2Gnqd" file-type="wiki" title="DIN：全程白嫖 - 拥有一个AI大模型的微信助手" type="doc"></cite>
+[DIN：全程白嫖 - 拥有一个AI大模型的微信助手](https://axsppz4oyvj.feishu.cn/wiki/EYdCw5tTTimCOukGiSfczj2Gnqd)
 
 马上观看| 教程用dify搭建：（与上边不同的搭建框架）
 
-<cite doc-id="E92rwLMMbiwHL9k12kXcMpjkn3b" file-type="wiki" title="马上观看看：通过云服务器，dify，智能微秘书来免费搭建微信机器人" type="doc"></cite>
+[马上观看看：通过云服务器，dify，智能微秘书来免费搭建微信机器人](https://axsppz4oyvj.feishu.cn/wiki/E92rwLMMbiwHL9k12kXcMpjkn3b)
 
 熊猫大侠｜梳理更详细的教程（十分详细，每一个配置项可以在这里找到，进阶教程
 
-<cite doc-id="YNNuwEqCXiSj2akS5mlcjpZgnrb" file-type="wiki" title="熊猫大侠：基于COW框架的ChatBot实现步骤" type="doc"></cite>
+[熊猫大侠：基于COW框架的ChatBot实现步骤](https://axsppz4oyvj.feishu.cn/wiki/YNNuwEqCXiSj2akS5mlcjpZgnrb)
 
 张梦飞|【保姆级教程】这可能是你在地球上能白嫖到的，能力最强的超级微信机器人！一步一图，小白友好（CDP+COW 无缝接入，也许是当前小白玩家能简易完成的，免费的，功能最强大的机器人）
 
-<cite doc-id="YeBiwZx2TiyNLMk8pdjcmdQfnjd" file-type="wiki" title="张梦飞 ：【保姆级教程】这可能是你在地球上能白嫖到的，能力最强的超级微信机器人！一步一图，小白友好" type="doc"></cite>
+[张梦飞 ：【保姆级教程】这可能是你在地球上能白嫖到的，能力最强的超级微信机器人！一步一图，小白友好](https://axsppz4oyvj.feishu.cn/wiki/YeBiwZx2TiyNLMk8pdjcmdQfnjd)
 
 -----
 
@@ -205,25 +215,23 @@ Din｜（梦开始的地方）
 ## 二维码:
 
 <grid>
-<column width-ratio="0.333333">
+
 > [!abstract]- 🖼 图片展示了一个二维码，下方文字为“进入飞书群交流”。该图片位于文档中“说
 > 图片展示了一个二维码，下方文字为“进入飞书群交流”。该图片位于文档中“说明文档及作业说明”部分之后，是“互助交流”环节中线上答疑方式的体现。参与者可通过扫描此二维码加入飞书群，与他人交流关于微信机器人搭建的问题，以获得解惑，助力学习。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YGX5bYMWuoaW99xP3xBcnzRfnWd) · `YGX5bYMWuoaW99xP3xBcnzRfnWd`
-</column>
-<column width-ratio="0.333333">
+
 > [!abstract]- 🖼 图片这张图片位于文档中“二维码 addCriterion图片内容:
 > 图片这张图片位于文档中“二维码 addCriterion图片内容:
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BvGybkZgIotJMGx9iDRc6DzgnPc) · `BvGybkZgIotJMGx9iDRc6DzgnPc`
-</column>
-<column width-ratio="0.333333">
+
 > [!abstract]- 🖼 图片展示的是一个二维码，位于文档中“二维码”标题下。该二维码为黑白相间的
 > 图片展示的是一个二维码，位于文档中“二维码”标题下。该二维码为黑白相间的方块图案，由多个小方块组成，排列成特定的几何图形。其下方有文字说明，提示扫描该二维码可获取文档及作业说明。此二维码与文档中“二维码”标题对应，是获取后续活动相关资料的入口，方便参与者扫码获取文档和作业信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LtbNb8ylWoGJIZxDiE6cP6slnrb) · `LtbNb8ylWoGJIZxDiE6cP6slnrb`
 说明文档及作业说明
-</column>
+
 </grid>
 
 ## 活动方式

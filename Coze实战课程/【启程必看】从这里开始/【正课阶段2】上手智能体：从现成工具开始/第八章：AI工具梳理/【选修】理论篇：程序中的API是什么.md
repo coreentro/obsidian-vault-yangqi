@@ -443,7 +443,8 @@ AI 会直接帮你生成完整的 curl 命令，你复制粘贴到终端就能�
 
 ## 第三步：用在线 HTTP 测试工具调用 API
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1880.000000" origin-width="3004.000000" token="Df0cbQNTooG11FxOLk1cJe8GnUe"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Df0cbQNTooG11FxOLk1cJe8GnUe) · `Df0cbQNTooG11FxOLk1cJe8GnUe`
 
 如果你对命令行还是不太习惯，没关系，还有更直观的方式
 
@@ -527,7 +528,8 @@ AI 会直接帮你生成完整的 curl 命令，你复制粘贴到终端就能�
 
 # 八、如何调用其他平台的API
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1956.000000" origin-width="3004.000000" token="TTgabNE67oG2NZxDvOicfdwlnUb"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/TTgabNE67oG2NZxDvOicfdwlnUb) · `TTgabNE67oG2NZxDvOicfdwlnUb`
 
 # 写在最后
 

@@ -101,7 +101,7 @@ tags:
 
 在 WaytoAGI 知识库有一篇 Sam Altman的《创业手册》所述，许多创业都源于一个想法，讲的非常棒。
 
-<blockquote><p><cite doc-id="HCJvwh1kuih81hkSNdrcLmjWnTe" file-type="wiki" title="创业手册 | Sam Altman" type="doc"></cite></p><p>所以，最好不要过于努力地强迫自己想出创业点子。相反，了解很多不同的事物。锻炼自己发现问题的能力，关注那些看似低效的事物和重大技术变革。<a href="http://blog.samaltman.com/projects-and-companies">投身于你感兴趣的项目</a>，刻意与聪明、有趣的人为伍。在某个时刻，灵感就会涌现出来。</p></blockquote>
+<blockquote><p>[创业手册 | Sam Altman](https://axsppz4oyvj.feishu.cn/wiki/HCJvwh1kuih81hkSNdrcLmjWnTe)</p><p>所以，最好不要过于努力地强迫自己想出创业点子。相反，了解很多不同的事物。锻炼自己发现问题的能力，关注那些看似低效的事物和重大技术变革。<a href="http://blog.samaltman.com/projects-and-companies">投身于你感兴趣的项目</a>，刻意与聪明、有趣的人为伍。在某个时刻，灵感就会涌现出来。</p></blockquote>
 
 > [!abstract]- 🖼 图片展示了一个名为“提供创意，等待组队”的群聊界面，显示了21至30号的
 > 图片展示了一个名为“提供创意，等待组队”的群聊界面，显示了21至30号的群成员发言。其中，28号发言者“Roger”提出“你出生的那一天”创意，主打有趣，为用户提供创意，直到周五才发现群内只有自己一人，于是开始了手搓Agent的辛酸史。该图片与上下文紧密相关，直观呈现了Roger在比赛过程中遇到的困境，即在截止日期前独自一人组队，为后续手搓Agent埋下伏笔。
@@ -220,7 +220,7 @@ tags:
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MGhUbXcnUoEVJux16mhcUHp4nbc) · `MGhUbXcnUoEVJux16mhcUHp4nbc`
 
-正如《<cite doc-id="EoBkwirgjiqscKkAO6Wchyf1nPe" file-type="wiki" title="Character.ai：每个人都可定制自己的个性化AI" type="doc"></cite>》所写：个性化定制的“虚拟伴侣”能得到用户的认可，这是因为精准地击中了许多年轻人无处可藏的孤独和焦虑，背后是年轻人渴望被理解、沟通和交流。
+正如《[Character.ai：每个人都可定制自己的个性化AI](https://axsppz4oyvj.feishu.cn/wiki/EoBkwirgjiqscKkAO6Wchyf1nPe)》所写：个性化定制的“虚拟伴侣”能得到用户的认可，这是因为精准地击中了许多年轻人无处可藏的孤独和焦虑，背后是年轻人渴望被理解、沟通和交流。
 
 美国心理学家 Robert Jeffrey Sternberg 提出了“爱情三角理论”，认为爱情包含“激情”、“亲密”和“承诺”三个要素。
 
@@ -313,18 +313,17 @@ Btw，最近刚好看到一个 人物角色Prompt，分享一下：
 这样的画作非常好的让我身临其境，回顾当初的历史氛围。
 
 <grid>
-<column width-ratio="0.519543">
+
 > [!abstract]- 🖼 图片展示了WaytoAGI与AI助手的对话界面。AI助手回复了“你出生的
 > 图片展示了WaytoAGI与AI助手的对话界面。AI助手回复了“你出生的那一天”相关视频推荐，包括1985年Live Aid音乐会、彩虹勇士号沉没事件、罗纳德·里根总统启用25修正案第三条等历史事件的视频链接，还提供了相关纪录片和新闻报道。该图片与上下文紧密相关，是对上文提到的“推荐历史相关视频”功能的具体呈现，展示了其推荐内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LpmGbSe8loSfzWxYTmfcdCSTnAf) · `LpmGbSe8loSfzWxYTmfcdCSTnAf`
-</column>
-<column width-ratio="0.480457">
+
 > [!abstract]- 🖼 图片展示了WaytoAGI与用户关于心理测试的对话界面。用户询问关于历史
 > 图片展示了WaytoAGI与用户关于心理测试的对话界面。用户询问关于历史事件相关心理测试题，WaytoAGI回复了“你出生的那一天”心理测试题，内容为假设用户回到1985年Live Aid音乐会现场，需选择参与方式，如前排尽情摇摆、中间区结交新朋友等，还给出了结果解释。该图片与上下文紧密相关，是对上文提到的在输入框上方加入推荐历史相关视频和心理测试题功能的示例呈现。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/EQx6b1lDMoNr4Fxw9aicWSRxnyh) · `EQx6b1lDMoNr4Fxw9aicWSRxnyh`
-</column>
+
 </grid>
 
 为了让对话更有趣，我还在输入框上方加入了两个按钮：推荐历史相关视频和心理测试题。
@@ -419,4 +418,5 @@ Btw，最近刚好看到一个 人物角色Prompt，分享一下：
 
 ## 分享的 PPT
 
-<figure view-type="Preview"><source mime="application/pdf" token="USuqb9Cvvou958xjsULc7SHCn1d"/></figure>
+> [!warning]- 📎 附件（`application/pdf`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/USuqb9Cvvou958xjsULc7SHCn1d) · `USuqb9Cvvou958xjsULc7SHCn1d`

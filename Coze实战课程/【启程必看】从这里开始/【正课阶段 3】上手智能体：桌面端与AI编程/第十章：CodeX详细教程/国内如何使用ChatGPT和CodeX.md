@@ -34,7 +34,8 @@ tags:
 这节课必须先看视频！
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="ZimebSf4soBRz6x1xC9cnAYtnwh"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/ZimebSf4soBRz6x1xC9cnAYtnwh) · `ZimebSf4soBRz6x1xC9cnAYtnwh`
 
 # 写在前面
 
@@ -140,9 +141,9 @@ GPT的Image 2是全球最强的图像模型。CodeX里面可以直接使用
 **我强烈建议大家使用第五节的方案三**
 </callout>
 
-<cite doc-id="NAKhwOoW3imlOHkEP9Wcsi3inJh" file-type="wiki" title="第三节：方案一·买一个现成的网络工具" type="doc"></cite>
+[第三节：方案一·买一个现成的网络工具](https://axsppz4oyvj.feishu.cn/wiki/NAKhwOoW3imlOHkEP9Wcsi3inJh)
 
-<cite doc-id="JX9mwHciWinqbQk3vuScx6LNnPe" file-type="wiki" title="第五节：方案三·中转+静态IP一体化方案" type="doc"></cite>
+[第五节：方案三·中转+静态IP一体化方案](https://axsppz4oyvj.feishu.cn/wiki/JX9mwHciWinqbQk3vuScx6LNnPe)
 
 <callout emoji="✨">
 第三节的方案一是比较普通的网络工具
@@ -186,7 +187,7 @@ GPT的Image 2是全球最强的图像模型。CodeX里面可以直接使用
 
 这是我从网站上提前下载好的一个安装包
 
-<cite doc-id="CZmmw8Iuaiu2eVk95EYctN6Hn7f" file-type="wiki" title="附录：学习案例下载专用文档" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/附录：学习案例下载专用文档|附录：学习案例下载专用文档]]
 
 > [!abstract]- 🖼 图片展示的是CodeX安装包下载案例，标题为“下载案例六：CodeX安装
 > 图片展示的是CodeX安装包下载案例，标题为“下载案例六：CodeX安装包下载”。图片中有两个文件选项，上方是“Codex (1).dmg”，大小为505.18MB，下方是“Codex Installer (1).exe”，大小为1.25MB。该图片与文档中介绍CodeX官网下载与安装的内容相关，用于说明在苹果电脑上下载CodeX时，可选择的两种安装包类型及大小。
@@ -204,7 +205,7 @@ https://openai.com/zh-Hans-CN/codex/
 
 这是我提前下载好的安装包
 
-<cite doc-id="CZmmw8Iuaiu2eVk95EYctN6Hn7f" file-type="wiki" title="附录：学习案例下载专用文档" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/附录：学习案例下载专用文档|附录：学习案例下载专用文档]]
 
 > [!abstract]- 🖼 图片展示的是CodeX安装包下载页面，标题为“下载案例六：CodeX安装
 > 图片展示的是CodeX安装包下载页面，标题为“下载案例六：CodeX安装包下载”。页面中有两个文件选项，分别是“Codex (1).dmg”（505.18MB）和“Codex Installer (1).exe”（1.25MB），每个文件右侧都有一个放大镜图标。该图片与文档中介绍CodeX官网下载与安装的内容相关，直观呈现了下载的安装包文件，帮助用户了解下载后的文件情况。
@@ -295,7 +296,7 @@ PS：**不要问我说，大圣为什么我接不到验证码，我也不知道*
 
 ---
 
-<callout emoji="✨"><p>一个建议：</p><p></p><p>当你拥有了<b>最基础的网络工具</b>的那一刻，你就拥有了一切</p><p></p><p>你可以去一个叫做YouTube的平台搜索你想了解的一切</p><p></p><p>比如：国内如何使用Claude官方订阅？有哪些靠谱的手机接码平台？国内如何使用CodeX官方订阅？</p><p></p><p>你可以问一切你想问的，这里都有答案</p><p></p><p>---</p><p></p><p><cite doc-id="NAKhwOoW3imlOHkEP9Wcsi3inJh" file-type="wiki" title="第三节：方案一·买一个现成的网络工具" type="doc"></cite></p><p></p><p><b>所以上面这个教程，如果你是新手小白，一字不落地把视频和文字全部读完</b></p></callout>
+<callout emoji="✨"><p>一个建议：</p><p></p><p>当你拥有了<b>最基础的网络工具</b>的那一刻，你就拥有了一切</p><p></p><p>你可以去一个叫做YouTube的平台搜索你想了解的一切</p><p></p><p>比如：国内如何使用Claude官方订阅？有哪些靠谱的手机接码平台？国内如何使用CodeX官方订阅？</p><p></p><p>你可以问一切你想问的，这里都有答案</p><p></p><p>---</p><p></p><p>[第三节：方案一·买一个现成的网络工具](https://axsppz4oyvj.feishu.cn/wiki/NAKhwOoW3imlOHkEP9Wcsi3inJh)</p><p></p><p><b>所以上面这个教程，如果你是新手小白，一字不落地把视频和文字全部读完</b></p></callout>
 
 # 常见问题
 

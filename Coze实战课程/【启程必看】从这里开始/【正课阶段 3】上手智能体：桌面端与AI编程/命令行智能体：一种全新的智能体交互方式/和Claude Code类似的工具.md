@@ -36,7 +36,8 @@ ChatGPT网页端、CodeX CLI、CodeX App
 这些名词眼花缭乱，没有在脑子里形成一个框架，**那么这个视频一定要看**
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="BTUQbBYfjoC3MGxo8Uxc1hg5nfg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/BTUQbBYfjoC3MGxo8Uxc1hg5nfg) · `BTUQbBYfjoC3MGxo8Uxc1hg5nfg`
 
 # 写在前面
 
@@ -176,18 +177,17 @@ https://openai.com/zh-Hans-CN/codex/
 根据你打开的电脑系统，决定了它可以下载安装的版本
 
 <grid>
-<column width-ratio="0.449606">
+
 > [!abstract]- 🖼 图片展示了Codex APP的界面。上方有Codex的标志及“通过免费套
 > 图片展示了Codex APP的界面。上方有Codex的标志及“通过免费套餐和Go套餐试用；其他套餐用户可限时享受双倍速率额度”的文字，下方有“下载适用于macOS的版本”按钮。界面左侧有“Threads”“Skills”“Automations”等选项，右侧显示了“Create Codex app CTA”等任务，以及“src/hero.txt”文件的代码内容。该图片与文档中“第一步：下载安装”部分对应，直观呈现了安装好Codex APP后的界面情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YosDblkeYoGEBgxP5VOcYldOnZb) · `YosDblkeYoGEBgxP5VOcYldOnZb`
-</column>
-<column width-ratio="0.550394">
+
 > [!abstract]- 🖼 图片展示了OpenAI官网Codex页面。页面上方有导航栏，中间是Cod
 > 图片展示了OpenAI官网Codex页面。页面上方有导航栏，中间是Codex标志及名称，下方文字介绍通过免费套餐和Go套餐试用，其他套餐用户可同时享受双倍速度额度。下方有“下载Windows版”按钮。页面右侧是Codex APP界面，显示“Create Codex app CTA”等操作选项，下方有代码编辑区域，显示了部分代码内容及文件更改情况。该图片与文档中下载安装Codex APP的内容相关，直观呈现了下载后的界面样式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/AIaEb5h20oijKuxE3Z4cBFvNn7d) · `AIaEb5h20oijKuxE3Z4cBFvNn7d`
-</column>
+
 </grid>
 
 安装好之后打开 Codex APP，你会看到这样的选项，接下来进入第二步
@@ -216,7 +216,7 @@ ChatGPT Plus（20 美金/月）、Pro、Business、Enterprise 等付费计划都
 
 **至于如何解决付款和账号的问题，请看下一节课**
 
-<cite doc-id="GKHzw3DuZifd9EkZ3BZckUuvnbg" file-type="wiki" title="国内如何使用上CodeX" type="doc"></cite>
+[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/国内如何使用上CodeX|国内如何使用上CodeX]]
 
 **方式二：接入API Key**
 

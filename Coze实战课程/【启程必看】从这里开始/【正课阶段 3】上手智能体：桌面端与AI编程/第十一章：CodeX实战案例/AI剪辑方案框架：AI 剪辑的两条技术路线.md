@@ -30,7 +30,8 @@ tags:
 > [!info] 位置
 > 【启程必看】从这里开始 › 【正课阶段 3】上手智能体：桌面端与AI编程 › 第十一章：CodeX实战案例
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="UUDRbIs3aoCuLgx5YU0c1vMxn5b"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/UUDRbIs3aoCuLgx5YU0c1vMxn5b) · `UUDRbIs3aoCuLgx5YU0c1vMxn5b`
 
 # 写在前面
 
@@ -132,7 +133,8 @@ ASR 就是语音识别：把视频里你说的话，转成一篇文字稿
 
 这个概念会比文本驱动剪辑复杂一些，所以接下来我们核心把这个概念讲明白
 
-<figure view-type="Preview"><source mime="video/mp4" token="MDSbbRNgJobmMxxOeuocxU4InrN"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MDSbbRNgJobmMxxOeuocxU4InrN) · `MDSbbRNgJobmMxxOeuocxU4InrN`
 
 # 四、地基认知：视频的本质是什么
 
@@ -158,9 +160,11 @@ ASR 就是语音识别：把视频里你说的话，转成一篇文字稿
 
 但不要慌，你不需要了解它底层的技术细节，你只要知道有这么个概念，它做的是什么事情即可
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="YK5Nbv6AkoEJl3xaMpecNFMwnRg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/YK5Nbv6AkoEJl3xaMpecNFMwnRg) · `YK5Nbv6AkoEJl3xaMpecNFMwnRg`
 
-<figure view-type="Preview"><source mime="video/mp4" token="QFNyb4S5Goztm4x60nvcwXWNnJm"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/QFNyb4S5Goztm4x60nvcwXWNnJm) · `QFNyb4S5Goztm4x60nvcwXWNnJm`
 
 ## 角色一：剧本生成 -- HTML 和 CSS
 

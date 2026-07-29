@@ -166,7 +166,8 @@ AI编程的本质不是一句话搞定，而是说你要和AI一起把事情做�
 
 # 五、第四步：和AI一起把需求做出来
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="CV5NbRhM8o1REOxRpVncuj3unuG"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/CV5NbRhM8o1REOxRpVncuj3unuG) · `CV5NbRhM8o1REOxRpVncuj3unuG`
 
 https://36kr.com/detail_article?itemId=3746770616627968
 

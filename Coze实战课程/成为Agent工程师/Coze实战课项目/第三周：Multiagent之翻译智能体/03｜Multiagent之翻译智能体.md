@@ -40,9 +40,9 @@ tags:
 
 如果你已经吃透了前两周的课程：
 
-<cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]]
 
-<cite doc-id="UQEcw5gcxiRw7Pkj8XQcoYSSnlg" file-type="wiki" title="02｜儿童绘本+电影海报解锁Coze的卡片玩法" type="doc"></cite>
+[[成为Agent工程师/Coze实战课项目/第二周：卡片教学/02｜儿童绘本+电影海报解锁Coze的卡片玩法|02｜儿童绘本+电影海报解锁Coze的卡片玩法]]
 
  
 
@@ -65,10 +65,10 @@ tags:
 
 1. 如果你是新手，请务必在学习本课程之前学习第一周的课程
 
-   1. <cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]]
 2. 本次案例会重度使用变量，所以如果你对Coze的变量不了解，请务必阅读：
 
-   1. <cite doc-id="IMTqw0W49iZjcBkra3GcWeShn7d" file-type="wiki" title="加餐｜Coze变量" type="doc"></cite>
+   1. [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze变量|加餐｜Coze变量]]
 3. 本次案例不再涉及代码和JSON，大家可以松口气了
 4. 这节课是谁是卧底的前置基础课，不会使用特别复杂的案例，主要是帮助大家建立对多Agent的认知和使用姿势
 5. 为了方便大家学习，本次教程会使用国内版的Coze，但是海外版本的Coze和国内的使用姿势基本没有差别
@@ -77,7 +77,7 @@ OK，废话不多说，让我们开始！
 
 # 一、重提AI Agent的设计原则
 
-在我们课程的第一课中<cite doc-id="PbQXwLzvqi4oo0kLL9pcae5dnRg" file-type="wiki" title="01｜基于RAG构建企业生产资料问答系统" type="doc"></cite>，我们给大家引出了一个AI Agent的设计公式
+在我们课程的第一课中[[成为Agent工程师/Coze实战课项目/第一周：打基础/01｜基于RAG构建企业生产资料问答系统|01｜基于RAG构建企业生产资料问答系统]]，我们给大家引出了一个AI Agent的设计公式
 
 **AI Agent  =  LLM（大模型） + Planning（规划） + Memory（记忆） + Tools（工具）**
 
@@ -191,18 +191,17 @@ PS：这一节不是实操，但却是本章中最核心的内容，请务必理
 Coze在构建Bot的时候有两种模式，分别是单智能体模式和多智能体模式
 
 <grid>
-<column width-ratio="0.436508">
+
 > [!abstract]- 🖼 图片展示了Coze平台中选择Bot模式的界面。界面顶部显示“第六阶段 |
 > 图片展示了Coze平台中选择Bot模式的界面。界面顶部显示“第六阶段 | 智能翻译多Agent”，下方有“个人空间”“草稿”“已自动保存 00:05:22”等信息。弹出的“选择模式”窗口中，有“单Agent模式”和“多Agents模式”两个选项，其中“多Agents模式”被红色框线突出显示，其描述为“在一个Bot中设置多个Agent，以处理复杂的逻辑”，并有勾选标识。该图片与上下文介绍Coze在构建Bot时的两种模式相关，直观呈现了多Agent模式的选择界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/WsVtb3U0Oo3J12xPzPzc4Cncn2f) · `WsVtb3U0Oo3J12xPzPzc4Cncn2f`
-</column>
-<column width-ratio="0.563492">
+
 > [!abstract]- 🖼 图片展示了Coze平台中Bot编辑界面，突出显示了“人设与回复逻辑”区域
 > 图片展示了Coze平台中Bot编辑界面，突出显示了“人设与回复逻辑”区域，表明这是一个翻译智能体。下方有“添加节点”按钮，可添加Agent、Bot、全局转条件等节点，其中红色框和箭头重点指向“添加Agent节点”选项。该图片与上下文紧密相关，上下文提到Coze在构建Bot时有单智能体和多智能体模式，而多Agent模式也是Coze的Bot，此图直观呈现了多Agent模式下Bot编辑界面中添加Agent节点的操作位置，帮助理解多Agent模式的使用方式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RbHZbXDCNoqVDbxPYihcrQu0nJc) · `RbHZbXDCNoqVDbxPYihcrQu0nJc`
-</column>
+
 </grid>
 
 ## 多Agent也是一个Coze的Bot
@@ -232,24 +231,22 @@ PS：是不是有点**大肠包小肠**那个感觉了，多Agent就是一堆Age
 制作单个Agent跟制作单个Bot没有太大区别，也是大模型+提示词+工作流+插件这三件套
 
 <grid>
-<column width-ratio="0.184397">
+
 > [!abstract]- 🖼 图片展示了Coze中单个Agent的构成界面。界面中“适用场景”为对用户
 > 图片展示了Coze中单个Agent的构成界面。界面中“适用场景”为对用户翻译需求的初次翻译，当翻译意图识别完成后，使用该Agent进行初次翻译，然后跳转到翻译反思与建议；“Agent提示词”始终调用first_translation进行翻译，当翻译完成后，跳转到翻译反思与建议节点进行优化；“技能”包含first_translation。该图与上下文介绍的Coze多Agent模式相呼应，直观呈现了单个Agent的构成要素。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/R0XBbYtEOonalUx5Ss3cuySYnYe) · `R0XBbYtEOonalUx5Ss3cuySYnYe`
-</column>
-<column width-ratio="0.490753">
+
 > [!abstract]- 🖼 图片展示了Coze平台中“初次翻译”Agent的设置界面。界面中“适用场
 > 图片展示了Coze平台中“初次翻译”Agent的设置界面。界面中“适用场景”选项被红色框突出显示，其内容为“对用户的翻译需求进行初次翻译，当用户的翻译意图识别完成后，使用该Agent进行初次翻译，然后跳转到翻译反思与建议”。右侧有“...”按钮，点击后弹出菜单，其中“模型设置”选项也被红色框突出显示。该图片与上下文介绍的Coze多Agent模式相关，直观呈现了单个Agent适用场景的设置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Mh6Lb43JhoTyDNxb2ExctScBnFc) · `Mh6Lb43JhoTyDNxb2ExctScBnFc`
-</column>
-<column width-ratio="0.324850">
+
 > [!abstract]- 🖼 图片展示了Coze中单个Agent的模型设置界面。在“模型”选项下，显示
 > 图片展示了Coze中单个Agent的模型设置界面。在“模型”选项下，显示了“豆包-Function call模型 32K”，并有“i”和“v”标识。该图片与上下文紧密相关，上下文提到制作单个Agent是大模型+提示词+工作流+插件这三件套，此图直观呈现了模型设置中的模型选择部分，是单个Agent构成中模型设置的示例，帮助理解单个Agent的构成内容。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/S1YObGblToBmdexjADHc2ICrnwd) · `S1YObGblToBmdexjADHc2ICrnwd`
-</column>
+
 </grid>
 
 这里多了一个适用场景的选项，这个是用来进行Coze之间的多Agent跳转的
@@ -260,8 +257,8 @@ PS：是不是有点**大肠包小肠**那个感觉了，多Agent就是一堆Age
 
 那如果多个工作流该如何通信呢？这里就是我们之前讲的两个知识点
 
-- <cite doc-id="IMTqw0W49iZjcBkra3GcWeShn7d" file-type="wiki" title="加餐｜Coze变量" type="doc"></cite>（**这是最常用的**）
-- <cite doc-id="Ovk3wZo6Xitvlfkq74cc0NtjnMe" file-type="wiki" title="加餐｜Coze数据库" type="doc"></cite>
+- [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze变量|加餐｜Coze变量]]（**这是最常用的**）
+- [[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Coze数据库|加餐｜Coze数据库]]
 
 变量的值在单个Bot中的多个工作流之间共享的！
 
@@ -295,18 +292,17 @@ PS：是不是有点**大肠包小肠**那个感觉了，多Agent就是一堆Age
 ### 适用场景
 
 <grid>
-<column width-ratio="0.612159">
+
 > [!abstract]- 🖼 图片展示了Coze多Agent模式中“初次翻译”Agent的适用场景。其
 > 图片展示了Coze多Agent模式中“初次翻译”Agent的适用场景。其内容为：对用户的翻译需求进行初次翻译，当用户的翻译意图识别完成后，使用该Agent进行初次翻译，然后跳转到翻译反思与建议。图片位于介绍多Agent模式适用场景的上下文部分，直观呈现了该Agent在多Agent模式下的工作流程，帮助理解在什么情况下应使用此Agent，与上下文内容紧密相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DOZ5bjnHpoglnfxKKGEcEw2InRc) · `DOZ5bjnHpoglnfxKKGEcEw2InRc`
-</column>
-<column width-ratio="0.387841">
+
 > [!abstract]- 🖼 图片展示了Coze多Agent模式中节点的适用场景说明界面。上方红框内提
 > 图片展示了Coze多Agent模式中节点的适用场景说明界面。上方红框内提示概述此节点功能和适用场景，用于前序节点理解什么情况下应切换到此节点。下方举例说明，如帮助用户解决健身问题、搜索景点制定旅行规划、根据用户要求生成图片等。最下方“适用场景”区域，说明该节点用于理解用户翻译意图，当识别完成用户翻译意图后，跳转到初次翻译节点。此图与上下文紧密相关，直观呈现了节点适用场景的描述方式。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/P8apbDY4Zo67ksxx5HLcmW0UnGe) · `P8apbDY4Zo67ksxx5HLcmW0UnGe`
-</column>
+
 </grid>
 
 你需要在适用场景中描述该Agent的能力，然后用于前序的节点理解在什么情况下应该跳转到你这个Agent。
@@ -321,24 +317,22 @@ PS：是不是有点**大肠包小肠**那个感觉了，多Agent就是一堆Age
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DQU2b8JPzoaRblxou2Jc26XSnId) · `DQU2b8JPzoaRblxou2Jc26XSnId`
 
 <grid>
-<column width-ratio="0.229541">
+
 > [!abstract]- 🖼 图片展示了Coze平台中切换节点设置的界面。当此节点不能解决用户问题时，
 > 图片展示了Coze平台中切换节点设置的界面。当此节点不能解决用户问题时，有三种选择：返回开始节点尝试解决用户问题、返回上一个对话的节点尝试解决用户问题、停留在当前节点。重点突出“选择切换节点的识别模式”，有“由独立于当前节点的模型识别”和“在当前节点的运行过程中识别”两种模式，前者独立模型在指定时机判断是否切换节点，后者允许当前节点思考或调用工具后决定是否切换节点。该图片与上下文介绍的切换节点设置内容相关，直观呈现了切换节点的识别模式选项。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HjswbU6RBoAZ37xsVhucqmlMnXH) · `HjswbU6RBoAZ37xsVhucqmlMnXH`
-</column>
-<column width-ratio="0.509220">
+
 > [!abstract]- 🖼 图片展示了Coze平台中切换节点设置的“判断时机”选项。当前选中“模型回
 > 图片展示了Coze平台中切换节点设置的“判断时机”选项。当前选中“模型回复后”选项，下方有三个选项：用户输入后、模型回复后、用户输入后 & 模型回复后。该图片与上文提到的“判断时机”内容相关，直观呈现了用户在切换节点设置时可选择的时机类型，帮助用户根据Bot特性选择合适的时机来切换节点，以实现多Agent模式下的智能交互。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BN1fbZszfo5m6dxH1NkcGLncnmh) · `BN1fbZszfo5m6dxH1NkcGLncnmh`
-</column>
-<column width-ratio="0.261239">
+
 > [!abstract]- 🖼 图片展示了Coze平台中切换节点设置的界面。在“选择独立模型”部分，有“
 > 图片展示了Coze平台中切换节点设置的界面。在“选择独立模型”部分，有“专为切换节点训练的模型”和“大语言模型”两个选项，后者被红色框突出显示。下方“模型”处显示“豆包-Function call模型”，并有提示可在Prompt中引用此节点能跳转到的节点名称。该图片与上下文紧密相关，直观呈现了切换节点设置中选择独立模型及模型相关内容，帮助用户了解如何在Coze平台中进行切换节点设置操作。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Hfa4b4EEyowylAx29SDcUchUnSf) · `Hfa4b4EEyowylAx29SDcUchUnSf`
-</column>
+
 </grid>
 
 打开切换节点设置之后，你会看到三个区块
@@ -754,5 +748,5 @@ Output only the new translation and nothing else
 
 ## 相关论文以及资料
 
-- <cite doc-id="Bbk7wsBXJiTIfVkaa91cxmDrnIe" file-type="wiki" title="腾讯AI翻译公司" type="doc"></cite>
-- <cite doc-id="WxYWwnbthiFkHEkwA4wcE0WHnPg" file-type="wiki" title="大模型多智能体研究纲要" type="doc"></cite>
+- [[成为Agent工程师/领域/AI Agent/腾讯AI翻译公司|腾讯AI翻译公司]]
+- [[成为Agent工程师/领域/AI Agent/大模型多智能体研究纲要|大模型多智能体研究纲要]]

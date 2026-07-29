@@ -195,21 +195,20 @@ CLI是你在窗口里跟程序对话的方式
 地址：https://www.feishu.cn/feishu-cli
 
 <grid>
-<column width-ratio="0.547715">
+
 > [!abstract]- 🖼 图片展示了飞书CLI的安装页面。上方标题为“飞书CLI 仅需一行指令，在
 > 图片展示了飞书CLI的安装页面。上方标题为“飞书CLI 仅需一行指令，在任意 Agent 操作飞书”，下方有“手动安装”和“通过 AI Agent 安装”两个选项，其中“手动安装”被红色框突出显示。下方灰色区域显示安装命令“npx @larksuite/cli@latest install”，并有“复制”按钮。底部有绿色勾选图标及文字说明，配置完成后重启AI Agent即可开始使用，并给出使用指南、开源地址、更新日志等链接。该图片与上下文介绍的飞书CLI安装步骤相关，直观呈现了安装页面及操作指引。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/KUu4b12L9og1FDxoo7zc1Hidnmh) · `KUu4b12L9og1FDxoo7zc1Hidnmh`
-</column>
-<column width-ratio="0.452285">
+
 > [!abstract]- 🖼 图片展示了飞书CLI的安装页面。上方标题为“仅需一行指令，在任意Agen
 > 图片展示了飞书CLI的安装页面。上方标题为“仅需一行指令，在任意Agent操作飞书”，并有“手动安装”和“通过AI Agent安装”两个选项，其中“通过AI Agent安装”被红色框突出显示。下方提示词区域有“帮我安装飞书CLI”及对应网址，下方还有“复制提示词”按钮。页面底部有绿色勾选框，提示配置完成后重启AI Agent即可开始使用，并给出“使用指南”“开源地址”“更新日志”等链接。该图片与上下文紧密相关，直观呈现了飞书CLI安装的途径之一，即通过AI Agent安装。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/BbmYb6plZoqMWxxnwUTcahz0nDg) · `BbmYb6plZoqMWxxnwUTcahz0nDg`
-</column>
+
 </grid>
 
-官网使用指南：<cite doc-id="ILuTww7Xcimb6GkhH0mcK2f4nS7" file-type="wiki" title="飞书 CLI 能力介绍与最佳实践" type="doc"></cite>
+官网使用指南：[飞书 CLI 能力介绍与最佳实践](https://axsppz4oyvj.feishu.cn/wiki/ILuTww7Xcimb6GkhH0mcK2f4nS7)
 
 ## 6.2 授权与配置
 
@@ -237,18 +236,17 @@ CLI是你在窗口里跟程序对话的方式
 **PS：如果你以前创建过，可以选择已有的应用**
 
 <grid>
-<column width-ratio="0.501855">
+
 > [!abstract]- 🖼 图片展示的是创建飞书CLI应用的界面。上方显示“创建飞书CLI应用”，下
 > 图片展示的是创建飞书CLI应用的界面。上方显示“创建飞书CLI应用”，下方有头像选择区域，可选择多个头像。名称处输入“大圣的飞书CLI”，下方提示“创建后，自动完成所有配置”。下方有“创建”和“选择已有应用”两个按钮。该图片对应文档中“配置应用凭证”步骤，即复制链接在浏览器打开后，点击创建飞书CLI应用的界面，用于创建飞书CLI应用，与上下文介绍的飞书CLI配置流程紧密相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XW1lb8hBPoWGsLx7r1EcmOoWnBG) · `XW1lb8hBPoWGsLx7r1EcmOoWnBG`
-</column>
-<column width-ratio="0.498145">
+
 > [!abstract]- 🖼 图片展示的是飞书CLI应用创建成功界面。画面中央有一个手握画笔的卡通形象
 > 图片展示的是飞书CLI应用创建成功界面。画面中央有一个手握画笔的卡通形象，画笔上有一个绿色的对勾。下方文字显示“创建成功”，并提示“现在可前往 CLI，开始使用飞书 CLI 应用”。该图片与文档中“配置应用凭证”步骤相关，说明在浏览器中打开链接创建飞书CLI应用后，若选择“创建”则应用创建成功，可继续后续操作，如登录授权等。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Gc2ZbwFqlo23DrxhCBacY4oHnJf) · `Gc2ZbwFqlo23DrxhCBacY4oHnJf`
-</column>
+
 </grid>
 
 ---
@@ -309,7 +307,8 @@ CLI是你在窗口里跟程序对话的方式
 
 接下来我们通过一个简单的案例进行分享
 
-<figure view-type="Preview"><source mime="video/mp4" token="Vt4PbZ06sobsKOxlmHqcEOC0n8b"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Vt4PbZ06sobsKOxlmHqcEOC0n8b) · `Vt4PbZ06sobsKOxlmHqcEOC0n8b`
 
 # 七、写在最后
 

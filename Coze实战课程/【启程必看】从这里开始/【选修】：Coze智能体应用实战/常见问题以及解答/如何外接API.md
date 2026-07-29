@@ -32,7 +32,7 @@ tags:
 
 # 如何外接API
 
-在想要外接API之前，我希望你能够了解：<cite doc-id="KIhnwTnuuiy11rkU0z6cz5WFn1d" file-type="wiki" title="10｜程序中的API是什么" type="doc"></cite>
+在想要外接API之前，我希望你能够了解：[[AI零基础到智能体高手/小白也能听懂的AI编程基础课/10｜程序中的API是什么|10｜程序中的API是什么]]
 
 在一些情况下，我们会有外接API的需求，例如：
 

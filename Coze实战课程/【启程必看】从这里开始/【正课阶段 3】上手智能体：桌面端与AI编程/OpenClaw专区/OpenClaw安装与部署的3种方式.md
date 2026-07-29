@@ -30,7 +30,7 @@ tags:
 > [!info] 位置
 > 【启程必看】从这里开始 › 【正课阶段 3】上手智能体：桌面端与AI编程 › OpenClaw专区
 
-<callout emoji="✨"><p>这篇文章的目的很简单：</p><p><b>让你搞清楚 OpenClaw 安装与部署的三种主流方式，每种方式的优缺点、适合谁、踩过什么坑</b></p><p></p><p>⚠️：<b>阅读本文前需要你有基础知识</b>：<cite doc-id="JBA5wkGpxi08FgkNEBCcdJ4hnTf" file-type="wiki" title="服务器与操作系统" type="doc"></cite></p></callout>
+<callout emoji="✨"><p>这篇文章的目的很简单：</p><p><b>让你搞清楚 OpenClaw 安装与部署的三种主流方式，每种方式的优缺点、适合谁、踩过什么坑</b></p><p></p><p>⚠️：<b>阅读本文前需要你有基础知识</b>：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/AI编程必知必会的基础知识/服务器与操作系统|服务器与操作系统]]</p></callout>
 
 # 一、为什么安装OpenClaw需要一台服务器
 

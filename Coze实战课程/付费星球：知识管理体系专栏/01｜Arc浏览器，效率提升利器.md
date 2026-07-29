@@ -34,7 +34,7 @@ tags:
 
 目前我正在准备一个如何打造高效的知识管理体系的专栏。
 
-专栏的介绍请阅读：<cite doc-id="PNOywWw4li2LZIkwASvc5CwYnfe" file-type="wiki" title="付费星球：知识管理体系专栏" type="doc"></cite>
+专栏的介绍请阅读：[付费星球：知识管理体系专栏](https://axsppz4oyvj.feishu.cn/wiki/PNOywWw4li2LZIkwASvc5CwYnfe)
 
 这篇文章是专栏的第一篇：介绍一款我日常使用的"小众"浏览器：Arc浏览器
 

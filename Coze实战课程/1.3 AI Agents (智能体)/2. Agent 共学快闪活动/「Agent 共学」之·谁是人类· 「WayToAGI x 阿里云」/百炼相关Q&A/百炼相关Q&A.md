@@ -40,12 +40,11 @@ tags:
 # Q:应用回复结果与工作流返回结果不一致。
 
 <grid>
-<column width-ratio="0.500000">
+
 感觉像是对返回结果又进行的一次AI处理。
-</column>
-<column width-ratio="0.500000">
+
 ---
-</column>
+
 </grid>
 
 (售后支持回复不建议使用工作流，百炼的工作流不好使。。。)
@@ -163,10 +162,10 @@ E
 
 # Q：无论prompt怎么变，模型生成完内容后，自动被“不生成任何的标点符号”所替换。这个情况在max模型中经常会出现，其他模型中偶尔出现。下面的视频是前天和今天我遇到时的录频
 
-> [!warning]- 🎬 视频（video）
+> [!warning]- 🎬 视频（`video`）
 > 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Eapxb1wGfoHwPFxM8ZPchIWynOd) · `Eapxb1wGfoHwPFxM8ZPchIWynOd`
 
-> [!warning]- 🎬 视频（video）
+> [!warning]- 🎬 视频（`video`）
 > 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MpeJbplT8oIqB0xfrB8cY6ixnml) · `MpeJbplT8oIqB0xfrB8cY6ixnml`
 
 ---

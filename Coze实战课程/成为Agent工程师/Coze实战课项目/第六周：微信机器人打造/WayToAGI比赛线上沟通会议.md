@@ -57,9 +57,9 @@ https://mp.weixin.qq.com/s/RvxXnaog-u5BiP52f32LnQ
 
 五类人
 
-- 跟过梦飞的教程，有服务器，有Cow的环境（<cite doc-id="NB3nwtUC0iDLYxkIkSYc0WRznGg" file-type="wiki" title="【共学最全版本】微信机器人共学教程" type="doc"></cite>）
-- 没有跟过梦飞的教程，但是看了我的教程，有服务器（<cite doc-id="Ptd6wCspuiJtb7kAekpcV7Lbnoh" file-type="wiki" title="加餐｜服务器是什么" type="doc"></cite>）
-- 没有看任何教程，但是打算买自己的服务器（<cite doc-id="Ptd6wCspuiJtb7kAekpcV7Lbnoh" file-type="wiki" title="加餐｜服务器是什么" type="doc"></cite>）
+- 跟过梦飞的教程，有服务器，有Cow的环境（[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/【共学最全版本】微信机器人共学教程|【共学最全版本】微信机器人共学教程]]）
+- 没有跟过梦飞的教程，但是看了我的教程，有服务器（[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜服务器是什么|加餐｜服务器是什么]]）
+- 没有看任何教程，但是打算买自己的服务器（[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜服务器是什么|加餐｜服务器是什么]]）
 - 没有看任何教程，不打算买自己的服务器（https://mp.weixin.qq.com/s/B24fxgDx5JDTK65JrMkKFw）
 - 没有看过任何教程，不打算搞机器人这一块
 

@@ -135,7 +135,8 @@ API中转站，我按照它的原理分为两种
 
 地址：https://aigocode.com/invite/WB3DJX6W
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="NDFzb7uPKolOeAxeJMIcCI3ongc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/NDFzb7uPKolOeAxeJMIcCI3ongc) · `NDFzb7uPKolOeAxeJMIcCI3ongc`
 
 > [!abstract]- 🖼 图片展示了2026年3月30日的对话内容。一位用户提到cherry st
 > 图片展示了2026年3月30日的对话内容。一位用户提到cherry studio最近2.2的ClaudeMax封号严重，用3.9肯定可以，1.8可以但不够稳定。大圣回复称在写教程，最终确认一下，如果让其接入Cherry Studio，就选择Claude Max。用户表示2.2的我们把cherry studio关了，不然死号更快，文档里写3.9。大圣回复价格贵但稳定，是专门给企业用的。该图片与文档中介绍国内API中转的内容相关，用于说明ClaudeMax封号情况及用户建议。
@@ -146,13 +147,15 @@ API中转站，我按照它的原理分为两种
 
 地址：https://claudecn.top/register?aff=UyTK
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="Tns5bMRA9o4rzvx1C0uc8Ba7nEd"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Tns5bMRA9o4rzvx1C0uc8Ba7nEd) · `Tns5bMRA9o4rzvx1C0uc8Ba7nEd`
 
 # 六、中转三：云雾
 
 地址：https://yunwu.ai/register?aff=OUcT
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="MAkRbzbqYoizlZxznrwc3N3inad"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/MAkRbzbqYoizlZxznrwc3N3inad) · `MAkRbzbqYoizlZxznrwc3N3inad`
 
 # 七、如何自己寻找中转API
 
@@ -162,7 +165,8 @@ API中转站，我按照它的原理分为两种
 
 网址：https://relaypulse.top
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="TYJubhsFEolVjAxCIkdcCaCHnGQ"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/TYJubhsFEolVjAxCIkdcCaCHnGQ) · `TYJubhsFEolVjAxCIkdcCaCHnGQ`
 
 # 写在最后
 

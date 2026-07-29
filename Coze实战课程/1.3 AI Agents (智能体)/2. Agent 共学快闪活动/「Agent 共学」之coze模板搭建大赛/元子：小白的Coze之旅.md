@@ -32,11 +32,11 @@ tags:
 
 # 一、啥是coze
 
-如果咱AI常见的工具都不大熟悉，可以看看这一篇，或许能帮到你：<cite doc-id="O59VwWtgdii7iJk5jbxcj1tJnDG" file-type="wiki" title="元子：小白30min快速体验AI工具" type="doc"></cite>
+如果咱AI常见的工具都不大熟悉，可以看看这一篇，或许能帮到你：[元子：小白30min快速体验AI工具](https://axsppz4oyvj.feishu.cn/wiki/O59VwWtgdii7iJk5jbxcj1tJnDG)
 
 如果大致你知道、看过Midjourney, 即梦，Claude 3.5, Open AI -4, 豆包，通义千问等等，那请跳过这篇文章，让我们进入今天的正题。
 
-Basic event :<cite doc-id="E31Fw9VfQiJogfkCJfzcmLsHn3b" file-type="wiki" title="「Agent 共学」之coze模板搭建大赛" type="doc"></cite>
+Basic event :[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之coze模板搭建大赛/「Agent 共学」之coze模板搭建大赛|「Agent 共学」之coze模板搭建大赛]]
 
 ## 啥是coze
 
@@ -162,7 +162,7 @@ https://www.coze.cn/store/agent/7384472094102536203?bid=6eg12g7r4001m
 
 所以既然打算捏，那咱必须一鱼多吃，其实重点还是创意和真的有用，所以顺便参加一下比赛?
 
-<cite doc-id="E31Fw9VfQiJogfkCJfzcmLsHn3b" file-type="wiki" title="「Agent 共学」之coze模板搭建大赛" type="doc"></cite>
+[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之coze模板搭建大赛/「Agent 共学」之coze模板搭建大赛|「Agent 共学」之coze模板搭建大赛]]
 
 咋参加：找个你自己的小需求（可以参考罗文老师周三的点子们）
 
@@ -182,4 +182,4 @@ https://www.coze.cn/store/agent/7384472094102536203?bid=6eg12g7r4001m
 
 如果想跟我聊的话，嗷，可以偷偷来加我，我如果没通过就是反应比较慢哈
 
-<cite doc-id="GYq4wOOJEiZpqUk4jsWcWPaZnCf" file-type="wiki" title="元子：一份不太正经的使用说明书 v0.1 🚀" type="doc"></cite>
+[元子：一份不太正经的使用说明书 v0.1 🚀](https://axsppz4oyvj.feishu.cn/wiki/GYq4wOOJEiZpqUk4jsWcWPaZnCf)

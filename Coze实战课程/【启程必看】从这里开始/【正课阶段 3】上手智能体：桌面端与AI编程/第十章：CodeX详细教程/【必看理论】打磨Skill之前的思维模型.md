@@ -39,6 +39,6 @@ tags:
 **这节课，我会把我认为你在接下来打磨自己 skill 之前，必须掌握的一些思维框架分享给你**
 </callout>
 
-第一节：<cite doc-id="EFR8weOk0iCMFjkuW7HcSPvbnyf" file-type="wiki" title="工程师思维" type="doc"></cite>
+第一节：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/AI编程必知必会的基础知识/工程师思维|工程师思维]]
 
-第二节：<cite doc-id="DUkJwJt6HiLl1DkRvHac7fE2nfc" file-type="wiki" title="一个思维模型：输入-处理-输出" type="doc"></cite>
+第二节：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/AI编程必知必会的基础知识/一个思维模型：输入-处理-输出|一个思维模型：输入-处理-输出]]

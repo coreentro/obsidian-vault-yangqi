@@ -539,8 +539,8 @@ A:没吃，没钱买
 
 历史共学如下：
 
-- 第一期，Coze：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0507/Agent 搭建共学快闪 0507| Agent 搭建共学快闪 0507]]
-- 第二期，Coze：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0523/Agent 搭建共学快闪 0523| Agent 搭建共学快闪 0523]]
+- 第一期，Coze：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0507/Agent 搭建共学快闪 0507|Agent 搭建共学快闪 0507]]
+- 第二期，Coze：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0523/Agent 搭建共学快闪 0523|Agent 搭建共学快闪 0523]]
 - 第三期，微信 Bot：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/Agent 搭建共学快闪 0619|Agent 搭建共学快闪 0619]]
 - 第四期，拟人 Bot：[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」/「Agent 共学」之·谁是人类· 「WayToAGI x 阿里云」|「Agent 共学」之"谁是人类" 「WayToAGI x 阿里云」]]
 

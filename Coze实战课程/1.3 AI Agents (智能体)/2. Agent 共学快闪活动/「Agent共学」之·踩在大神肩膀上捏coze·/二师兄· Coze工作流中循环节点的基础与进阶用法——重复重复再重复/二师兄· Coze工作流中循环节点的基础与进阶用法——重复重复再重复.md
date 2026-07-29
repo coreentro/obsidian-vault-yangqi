@@ -108,15 +108,14 @@ json格式：arraystring
 输出是这样的：
 
 <grid>
-<column width-ratio="0.447986">
+
 > [!abstract]- 🖼 图片展示的是一个名为“title”的JSON格式数组，包含10个元素。每
 > 图片展示的是一个名为“title”的JSON格式数组，包含10个元素。每个元素是一个字符串，代表不同的标题，如“《AI时代的智能新视界》”等。数组索引从0到9，分别对应各标题。该图片与文档中介绍循环类型及使用数组循环的内容相关，直观呈现了数组形式捆绑的字符串元素，帮助理解循环中依次处理数据的概念。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/F9t2b88KpoofYTxh58Qcx28Dn1f) · `F9t2b88KpoofYTxh58Qcx28Dn1f`
-</column>
-<column width-ratio="0.552014">
+
 ![图片展示了Coze工作流中循环节点的配置界面。循环节点用于设定循环次数和逻辑，重复执行一系列任务。其参数包括循环数组，参数值为“大模型 - title”，类型为Array<String>，并有“大模型”按钮；输出参数，参数值为“大模型_1”，类型也为Array<String>。图片中“title \[n\]”部分被红色框突出显示，表明其是循环数组的变量表示形式，n代表索引值，与文档中对循环数组变量表示的说明相呼应。](https://feishu.cn/file/TbXEbO4S3oUdv7xpDuIcpZeen9Z)
-</column>
+
 </grid>
 
 <callout emoji="🏕️">
@@ -268,24 +267,22 @@ json格式：arraystring
 1. 开始节点和文案框架大模型 
 
 <grid>
-<column width-ratio="0.509486">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中“开始”节点的配置界面。该节点是工作流的起始节
 > 图片展示了Coze工作流中“开始”节点的配置界面。该节点是工作流的起始节点，用于设定启动工作流需要的信息。界面中显示了两个变量，分别是“BOT_USER_IN...”（变量类型为Str.String，描述为空，当前值为14/20）和“query”（变量类型为Str.String，描述为空，当前值为5/20，右侧有勾选图标）。该图片与文档中介绍循环节点配置的内容相关，直观呈现了开始节点变量设置的样式和部分变量信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ZayxbWRTJog561xkQGUcK7VUnSK) · `ZayxbWRTJog561xkQGUcK7VUnSK`
-</column>
-<column width-ratio="0.251630">
+
 > [!abstract]- 🖼 图片展示的是Coze工作流中“文案框架”节点的配置界面。界面中“模型”部
 > 图片展示的是Coze工作流中“文案框架”节点的配置界面。界面中“模型”部分选择了“豆包-lite（32K）”；“技能”部分有“实时热点新闻排行 / getRealTimeNews”技能；“输入”部分参数名为“input”，变量值为“开始 - query”；“系统提示词”部分有“# 角色”等内容。该图片与文档中介绍“文案框架”节点配置的内容相关，直观呈现了节点配置的具体设置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SWPUbAYIVottktxtFjvcenRtne4) · `SWPUbAYIVottktxtFjvcenRtne4`
-</column>
-<column width-ratio="0.238884">
+
 > [!abstract]- 🖼 图片展示的是Coze工作文档中配置循环节点时的“用户提示词”设置界面。界
 > 图片展示的是Coze工作文档中配置循环节点时的“用户提示词”设置界面。界面中“用户提示词”输入框提示“# 用户输入的关键词是：”，下方有“String”“Integer”“Boolean”“Number”“Object”“Array<String>”等
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/QAMAbXMwxorPR0xMOhAcrLVdnuc) · `QAMAbXMwxorPR0xMOhAcrLVdnuc`
-</column>
+
 </grid>
 
 ```Markdown
@@ -317,18 +314,17 @@ json格式：arraystring
 1. 循环节点
 
 <grid>
-<column width-ratio="0.486791">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中循环节点的配置界面。循环节点用于按设定次数和逻
 > 图片展示了Coze工作流中循环节点的配置界面。循环节点用于按设定次数和逻辑重复执行任务。界面中，循环组参数名“content”的参数值关联“文案框架 - content”，下方还有“graph”参数。输出部分参数名“content”的参数值为“段落扩写”，变量类型是“Array<String>” 。该图片与上文“配置循环节点”的官方案例复刻内容相关，是对其中循环节点具体配置情况的直观呈现。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XdrnbzuzuoSibjxorUXca5uRnMc) · `XdrnbzuzuoSibjxorUXca5uRnMc`
-</column>
-<column width-ratio="0.513209">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中循环节点的配置界面。循环节点用于设定循环次数和
 > 图片展示了Coze工作流中循环节点的配置界面。循环节点用于设定循环次数和逻辑，重复执行一系列任务。配置中，循环数组的参数值为“文案框架 - content”，中间变量参数值为“graph”，输出参数值为“段落扩写”。画面右侧有“循环”和“段落扩写”两个节点，其中“段落扩写”节点被红色框突出显示。该图片与文档中介绍循环节点配置的内容相关，直观呈现了循环节点的配置参数及节点情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/WNVXbTBSTodZFDx6mm5cY9qXnSh) · `WNVXbTBSTodZFDx6mm5cY9qXnSh`
-</column>
+
 </grid>
 
 <callout emoji="🏕️">
@@ -338,24 +334,22 @@ json格式：arraystring
 1. 段落扩写模型节点
 
 <grid>
-<column width-ratio="0.383404">
+
 > [!abstract]- 🖼 图片展示的是文档中段落扩写模型节点的配置界面。左侧为大模型_2，右侧是段
 > 图片展示的是文档中段落扩写模型节点的配置界面。左侧为大模型_2，右侧是段落扩写模型的配置区域。输入部分显示“content”，技能下有“循环”选项被下方有item、index、graph等参数，其中item被红框突出显示。该图片与上下文紧密相关，上下文提到段落扩写模型能将用户提供的大纲扩写成文章，此图直观呈现了段落扩写中选取item元素的操作，即每一个段落的框架配置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/AJHQbqR0ZolGetx06lPcmM59nNh) · `AJHQbqR0ZolGetx06lPcmM59nNh`
-</column>
-<column width-ratio="0.381001">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中段落扩写节点的配置界面。左侧为工作流流程图，包
 > 图片展示了Coze工作流中段落扩写节点的配置界面。左侧为工作流流程图，包含大模型、循环节点等。右侧是段落扩写节点设置区域，模型为豆包 - lite（32K），技能有智能体对话历史等。输入部分有“content”和“graph”两个变量值，其中“graph”被红框突出显示。该图片与上下文关系紧密，直观呈现了段落扩写节点的配置情况，是上下文介绍段落扩写模型节点配置时的示例图。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/XpVzb5s6Aon6IrxEM82cOKPNnFc) · `XpVzb5s6Aon6IrxEM82cOKPNnFc`
-</column>
-<column width-ratio="0.235595">
+
 > [!abstract]- 🖼 图片展示的是Coze工作流中段落扩写模型节点的配置界面。界面中“用户提示
 > 图片展示的是Coze工作流中段落扩写模型节点的配置界面。界面中“用户提示词”区域显示了用户输入的关键词和上一段文案，下方有“输出”设置区域，其中“变量名”为“content”，“类型”下拉菜单中“String”被红色框突出显示。该图片与文档中介绍段落扩写模型节点配置的内容相关，直观呈现了节点配置时变量类型选择的操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VhiDbPdnKoqcqTxTWZkcfiM9nsh) · `VhiDbPdnKoqcqTxTWZkcfiM9nsh`
-</column>
+
 </grid>
 
 ```Markdown
@@ -383,35 +377,33 @@ json格式：arraystring
 1. 设置变量节点
 
 <grid>
-<column width-ratio="0.452027">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中设置变量节点的相关界面。画面中，“设置变量”窗
 > 图片展示了Coze工作流中设置变量节点的相关界面。画面中，“设置变量”窗口内有关于重置循环变量值的说明，下方设置区域显示中间变量为“循环 - graph”。画面左侧，有“content”字样以蓝色背景突出显示，类型为“String”。画面右侧，红框标识出“段落扩写”选项，其下有“content”。该图片与上文提到的“设置变量节点”上下文对应，展示了设置变量节点在工作流中的具体配置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VLNQbZ5Lholh62xg0wacbMnNn9j) · `VLNQbZ5Lholh62xg0wacbMnNn9j`
-</column>
-<column width-ratio="0.547973">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中设置变量节点的界面。左侧是工作流流程图，中间变
 > 图片展示了Coze工作流中设置变量节点的界面。左侧是工作流流程图，中间变量设置为“graph String”。右侧是设置变量弹窗，中间变量下拉框选中“循环 - graph”，设置值为“段落扩写 - conte”。该图片与文档中“官方案例复刻”部分上下文对应，用于说明在配置循环节点时，设置变量节点中中间变量的设置情况，以实现循环变量的重置，使其下次循环使用重置后的值。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MQK0bRoHwoKPRYxpl6WcMILTncd) · `MQK0bRoHwoKPRYxpl6WcMILTncd`
-</column>
+
 </grid>
 
 1. 设置标题
 
 <grid>
-<column width-ratio="0.611893">
+
 > [!abstract]- 🖼 图片展示了Coze工作流中循环节点的配置界面。左侧为技能设置区域，输入参
 > 图片展示了Coze工作流中循环节点的配置界面。左侧为技能设置区域，输入参数名“input”，变量值为“循环 - content”。右侧是技能配置区域，有“开始”“循环”“文案框架”等选项，其中“循环”选项被红色框突出显示。下方“content”变量类型为“Array<String>”，也用红色框标出。该图片与文档中介绍循环节点配置的内容相关，直观呈现了循环节点在工作流中的配置情况。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IgqJbJevSoWLyYxiUkncvdyenzd) · `IgqJbJevSoWLyYxiUkncvdyenzd`
-</column>
-<column width-ratio="0.388107">
+
 > [!abstract]- 🖼 图片展示的是Coze工作流中配置循环节点时的变量设置界面。界面中“变量名
 > 图片展示的是Coze工作流中配置循环节点时的变量设置界面。界面中“变量名”处显示“title”，下方有“St: String”选项被红框突出显示。此外，还有“Integer”“Boolean”“Number”“Object”“Array<String>”“Array<Integer>”等其他变量类型选项。该图片与文档中介绍循环节点配置时变量设置的内容相关，直观呈现了变量类型选择的操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/HzjGbmLF6oQZAFxuwfMcQoXNn1c) · `HzjGbmLF6oQZAFxuwfMcQoXNn1c`
-</column>
+
 </grid>
 
 ```Markdown

@@ -68,14 +68,14 @@ tags:
 
 # 教程目录
 
-第一篇：<cite doc-id="UJMOwbQm5iyjwpkbQmJciFe7nWe" file-type="wiki" title="Claude Code安装之解决网络问题" type="doc"></cite>
+第一篇：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/Claude Code安装之解决网络问题|Claude Code安装之解决网络问题]]
 
-第二篇：<cite doc-id="HsIDwsNftilLGQk4OLOcOOixnsP" file-type="wiki" title="Claude Code安装之前置环境安装" type="doc"></cite>
+第二篇：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/Claude Code安装之前置环境安装|Claude Code安装之前置环境安装]]
 
-第三篇：<cite doc-id="LrfvwZtAoixeGWkl1tdchnf0n7d" file-type="wiki" title="Claude Code安装之Node和Npm的原理和逻辑" type="doc"></cite>
+第三篇：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/Claude Code安装之Node和Npm的原理和逻辑|Claude Code安装之Node和Npm的原理和逻辑]]
 
-第四篇：<cite doc-id="XaDPwtAi4iw3ShkR7smcO4Oenfg" file-type="wiki" title="Claude Code安装之正式安装" type="doc"></cite>
+第四篇：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/Claude Code安装之正式安装|Claude Code安装之正式安装]]
 
-第五篇：<cite doc-id="Gr7bw5h0xiDYpJkd0wFca6eZnVb" file-type="wiki" title="Claude Code安装之跳过登陆验证和中转API配置" type="doc"></cite>
+第五篇：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/Claude Code安装之跳过登陆验证和中转API配置|Claude Code安装之跳过登陆验证和中转API配置]]
 
-第六篇：<cite doc-id="TYCGwjt6Mi0cmPkWNxbckna3nUh" file-type="wiki" title="Claude Code如何获取互联网上的信息" type="doc"></cite>
+第六篇：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/命令行智能体：一种全新的智能体交互方式/Claude Code如何获取互联网上的信息|Claude Code如何获取互联网上的信息]]

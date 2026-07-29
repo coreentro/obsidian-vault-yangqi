@@ -269,18 +269,17 @@ SELECT prompt, img_url, input, create_date FROM stamp where img_url!='' and inpu
 祝大家在AI应用之路越走越远，增加自己的收入。
 
 <grid>
-<column width-ratio="0.576088">
+
 > [!abstract]- 🖼 图片展示的是一个微信公众号二维码，中间有一个带有熊猫图案的头像，头像下方
 > 图片展示的是一个微信公众号二维码，中间有一个带有熊猫图案的头像，头像下方写着“韦恩AI智能体”。该二维码位于文档结尾处，与文档中“公众号（韦恩AI智能体）微信号请注明来意”的内容相呼应，方便读者扫描关注该公众号，获取更多关于AI应用的信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/NPyNbvMPKo4uF3x16Ojc8EQlnTf) · `NPyNbvMPKo4uF3x16Ojc8EQlnTf`
-</column>
-<column width-ratio="0.423912">
+
 > [!abstract]- 🖼 图片展示的是“韦恩AI智能体定制”公众号二维码。上方有熊猫头像及公众号名
 > 图片展示的是“韦恩AI智能体定制”公众号二维码。上方有熊猫头像及公众号名称，下方是二维码，底部文字提示“扫一扫上面的二维码图案，加我为朋友”。该图片位于文档“二创方向”部分，与承接类似需求，扩充工作流，以适应更复杂的业务等内容相关，可能是用于引导读者关注公众号，获取更多关于AI应用进阶的信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DPIPb2H5qoWbwNxte3ucvnd3nmu) · `DPIPb2H5qoWbwNxte3ucvnd3nmu`
-</column>
+
 </grid>
 
                               公众号（韦恩AI智能体）                                               微信号请注明来意

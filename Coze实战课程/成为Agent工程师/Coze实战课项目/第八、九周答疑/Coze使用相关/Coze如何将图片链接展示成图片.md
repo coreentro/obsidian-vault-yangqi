@@ -49,6 +49,6 @@ tags:
 ![图片]({{image_url}})
 ```
 
-最终极的图片输出方案，卡片学习！：<cite doc-id="UQEcw5gcxiRw7Pkj8XQcoYSSnlg" file-type="wiki" title="02｜儿童绘本+电影海报解锁Coze的卡片玩法" type="doc"></cite>
+最终极的图片输出方案，卡片学习！：[[成为Agent工程师/Coze实战课项目/第二周：卡片教学/02｜儿童绘本+电影海报解锁Coze的卡片玩法|02｜儿童绘本+电影海报解锁Coze的卡片玩法]]
 
-另外对Markdown不了解的同学建议阅读下我们的加餐文档：<cite doc-id="WbtbwaZZdilbI7kQdSoc4k7invc" file-type="wiki" title="加餐｜Markdown语法" type="doc"></cite>
+另外对Markdown不了解的同学建议阅读下我们的加餐文档：[[成为Agent工程师/Coze实战课项目/加餐文档/编程思维体系/加餐｜Markdown语法|加餐｜Markdown语法]]

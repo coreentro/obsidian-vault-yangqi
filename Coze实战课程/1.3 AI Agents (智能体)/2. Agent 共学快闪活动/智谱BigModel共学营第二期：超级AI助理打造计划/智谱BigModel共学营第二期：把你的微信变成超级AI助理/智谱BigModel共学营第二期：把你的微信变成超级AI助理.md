@@ -40,15 +40,20 @@ tags:
  AutoGLM 和 Videocall 内测名额100位会在直播中放出
 </callout>
 
-往期请参阅：<cite doc-id="Jb89w3cQDiCooYk7B9McVG75ngf" file-type="wiki" title="智谱BigModel大模型应用共学营" type="doc"></cite>
+往期请参阅：[智谱BigModel大模型应用共学营](https://axsppz4oyvj.feishu.cn/wiki/Jb89w3cQDiCooYk7B9McVG75ngf)
 
 **本期课表**
 
-<table><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td><b>时间</b></td><td><b>内容</b></td><td><b>课前要求或课后作业</b></td><td>讲师</td></tr><tr><td><b>12/4 20:00</b><br/><b>（</b><a href="https://www.bilibili.com/video/BV1Dui9YAEyy/"><b>直播回放</b></a><b>）</b></td><td vertical-align="middle"><b>微信超级AI知识助手教学（上）</b><br/>   - 个人助手工作流搭建教学及接入准备</td><td><a href="https://qgcxagum9h.feishu.cn/share/base/form/shrcn3iqiRG6sHwOYqQ6aWD31lh?iframeFrom=docx&amp;ccm_open=iframe">【课程资源包领取】</a><br/>【课<a href="https://qgcxagum9h.feishu.cn/share/base/form/shrcnMOigAaCXraXRDUXdUHrzYe?iframeFrom=docx&amp;ccm_open=iframe">后作业提交</a>】</td><td><cite type="user" user-id="ou_320f829cf3b876f0c0832d73d4f74c44" user-name="🌈梦飞"></cite></td></tr><tr><td><b>12/5 20:00</b><br/><b>（</b><a href="https://www.bilibili.com/video/BV19GiZY2EPX/"><b>直播回放</b></a><b>）</b></td><td vertical-align="middle"><b>(特别场) 智谱实时音视频通话 Videocall分享</b></td><td><cite doc-id="Hovuw4f77iFCzRkNg1VcyGUznrg" file-type="wiki" title="【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理" type="doc"></cite></td><td><cite type="user" user-id="ou_fbfbac16d1c7541b5e821699088465b4" user-name="蒋伟豪"></cite></td></tr><tr><td><b>12/10 20:00</b><br/><b>（</b><a href="https://www.bilibili.com/video/BV1ruqSY6E94/"><b>直播回放</b></a><b>）</b></td><td vertical-align="middle"><b>(特别场) 多Agent案例教学：智谱BigModel开放平台工作流</b></td><td><cite doc-id="I4gPwWb9wiL31akAvbicThTpnNg" file-type="wiki" title="【共学营特别场第二场】智谱BigModel开放平台工作流搭建" type="doc"></cite></td><td><cite type="user" user-id="ou_320f829cf3b876f0c0832d73d4f74c44" user-name="🌈梦飞"></cite></td></tr><tr><td><b>12/11 20:00</b><br/><b>（</b><a href="https://www.bilibili.com/video/BV1KxqXY4E5V/"><b>直播回放</b></a><b>）</b></td><td vertical-align="middle"><b>微信超级AI知识助手教学（下）</b><br/>  - 个人助手的微信多模态接入教学</td><td></td><td><cite type="user" user-id="ou_320f829cf3b876f0c0832d73d4f74c44" user-name="🌈梦飞"></cite></td></tr></tbody></table>
+| **时间** | **内容** | **课前要求或课后作业** | 讲师 |
+| --- | --- | --- | --- |
+| **12/4 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV1Dui9YAEyy/)**）** | **微信超级AI知识助手教学（上）**   - 个人助手工作流搭建教学及接入准备 | [【课程资源包领取】](https://qgcxagum9h.feishu.cn/share/base/form/shrcn3iqiRG6sHwOYqQ6aWD31lh?iframeFrom=docx&ccm_open=iframe)【课[后作业提交](https://qgcxagum9h.feishu.cn/share/base/form/shrcnMOigAaCXraXRDUXdUHrzYe?iframeFrom=docx&ccm_open=iframe)】 | **@🌈梦飞** |
+| **12/5 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV19GiZY2EPX/)**）** | **(特别场) 智谱实时音视频通话 Videocall分享** | [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/智谱BigModel共学营第二期：超级AI助理打造计划/【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理/【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理\|【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理]] | **@蒋伟豪** |
+| **12/10 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV1ruqSY6E94/)**）** | **(特别场) 多Agent案例教学：智谱BigModel开放平台工作流** | [【共学营特别场第二场】智谱BigModel开放平台工作流搭建](https://axsppz4oyvj.feishu.cn/wiki/I4gPwWb9wiL31akAvbicThTpnNg) | **@🌈梦飞** |
+| **12/11 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV1KxqXY4E5V/)**）** | **微信超级AI知识助手教学（下）**  - 个人助手的微信多模态接入教学 |  | **@🌈梦飞** |
 
 更多智谱大模型落地场景：
 
-<cite doc-id="LoxRwYThPiJHlpk6OTHctptgn8c" file-type="wiki" title="BigModel场景案例" type="doc"></cite>
+[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/智谱BigModel共学营第二期：超级AI助理打造计划/BigModel场景案例/BigModel场景案例|BigModel场景案例]]
 
 > [!abstract]- 🖼 图片是智谱BigModel企业共学营的宣传图。上方有智谱和BigMode
 > 图片是智谱BigModel企业共学营的宣传图。上方有智谱和BigModel的
@@ -64,35 +69,33 @@ tags:
 会议链接：https://vc.feishu.cn/j/745426284
 
 <grid>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片是
 > 图片是
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SbEgbIvqgov77ox2xP3ca3DBnvc) · `SbEgbIvqgov77ox2xP3ca3DBnvc`
-</column>
-<column width-ratio="0.500000">
+
 > [!abstract]- 🖼 图片为“(特别场) 智谱实时音视频通话”活动信息。背景为渐变蓝，上方显示
 > 图片为“(特别场) 智谱实时音视频通话”活动信息。背景为渐变蓝，上方显示活动时间2024年12月5日（周四）20:00 - 21:30 (GMT+8)。下方有小田、小田（组织者）的头像及名称。底部左侧有飞书标志，标注“扫描二维码以加入飞书日程”，右侧有一个二维码。该图片与文档中介绍的智谱BigModel共学营第二期活动相关，是该活动的线上会议链接信息展示。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GKjRbCNaooA8jRxoH9FcgoXfnBc) · `GKjRbCNaooA8jRxoH9FcgoXfnBc`
-</column>
+
 </grid>
 
 **共学营互动群：**
 
 <grid>
-<column width-ratio="0.542572">
+
 > [!abstract]- 🖼 图片展示的是 addCriterion图片展示 addCriterion
 > 图片展示的是 addCriterion图片展示 addCriterion图片
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ItEQbj7xPoekFVxmYrzcJx2mnyg) · `ItEQbj7xPoekFVxmYrzcJx2mnyg`
-</column>
-<column width-ratio="0.457428">
+
 > [!abstract]- 🖼 图片展示的是“通往AGI之路”飞行社专属社区的二维码。背景为色彩斑斓的山
 > 图片展示的是“通往AGI之路”飞行社专属社区的二维码。背景为色彩斑斓的山峦图案，上方文字为“欢迎加入「通往 AGI 之路」飞行社专属社区”。下方有一个黑色二维码，底部提示“扫码或长按识别二维码”。图片下方还有“飞书问卷 提供技术支持”的标识。该图片位于介绍智谱BigModel共学营第二期直播相关内容之后，可能是用于引导参与者扫码加入专属社区，获取更多相关信息。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/U5ZibQ0PyoKqJdxwyXuc8ucVnfc) · `U5ZibQ0PyoKqJdxwyXuc8ucVnfc`
-</column>
+
 </grid>
 
 ## BigModel开放平台 
@@ -100,18 +103,17 @@ tags:
 智谱 BigModel( bigmodel.cn) 开放平台是智谱一站式的大模型开发及应用构建平台。基于智谱自研的全模型矩阵，面向企业客户及合作伙伴，支持多样化模型和自定义编排。平台提供即插即用的智能工具箱，包括API接口、模型微调及部署功能，同时具备流程编排以适应复杂业务场景。
 
 <grid>
-<column width-ratio="0.506776">
+
 > [!abstract]- 🖼 图片展示了智谱BigModel开放平台的相关信息。平台是一站式的大模型开
 > 图片展示了智谱BigModel开放平台的相关信息。平台是一站式的大模型开发及应用构建平台，基于智谱自研的全模型矩阵，面向企业客户及合作伙伴，支持多样化模型和自定义编排。平台提供即插即用的智能工具箱，包括API接口、模型微调及部署功能，同时具备流程编排以适应复杂业务场景。图片还以四个蓝色图标分别对应“丰富的模型能力”“便捷的开发工具”“普惠的使用成本”“丝滑的部署体验”四个特点，直观呈现平台优势。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Np9LbgtIZooHv4xoyMgcGMo8nnb) · `Np9LbgtIZooHv4xoyMgcGMo8nnb`
-</column>
-<column width-ratio="0.493224">
+
 > [!abstract]- 🖼 图片展示了智谱BigModel
 > 图片展示了智谱BigModel
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/DQlvbVF4NoCGkBxFn6xcoksbn40) · `DQlvbVF4NoCGkBxFn6xcoksbn40`
-</column>
+
 </grid>
 
 🆓 BigModel开放平台还提供免费、好用、高并发的GLM-4-Flash模型，0元上手大模型，让尝试没有负担。新用户注册登录即送2000万Tokens，调用智谱全家桶模型
@@ -194,7 +196,7 @@ tags:
 
 工作流本身不复杂，难易度适中，0基础也能跟着完成。
 
-（模版：<cite doc-id="SILQd6P79oJML3xfDXJcJ4nonwb" file-type="docx" title="知识助手示例" type="doc"></cite> ）
+（模版：[知识助手示例](https://axsppz4oyvj.feishu.cn/docx/SILQd6P79oJML3xfDXJcJ4nonwb) ）
 
 > [!abstract]- 🖼 图片展示了智谱工作流搭建的流程，以知识助手示例为模版。左侧从“开始”节点
 > 图片展示了智谱工作流搭建的流程，以知识助手示例为模版。左侧从“开始”节点出发，依次经过“用户提问”“知识检索”“知识生成”“知识输出”“结束”等步骤。右侧是各步骤的具体操作界面，如“知识检索”步骤中可设置检索范围、检索关键词等参数；“知识生成”步骤可选择模型、设置参数等；“知识库”步骤可添加知识库。该图与上下文紧密相关，直观呈现了创建助手工作流的操作流程。
@@ -204,18 +206,17 @@ tags:
 1. 版本的创建和发布。
 
 <grid>
-<column width-ratio="0.562206">
+
 > [!abstract]- 🖼 图片展示的是 addCriterion
 > 图片展示的是 addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MvKKbhr4qoS7YhxgfIgcnOx2nff) · `MvKKbhr4qoS7YhxgfIgcnOx2nff`
-</column>
-<column width-ratio="0.437794">
+
 > [!abstract]- 🖼 图片展示的是智谱工作流搭建中版本详情界面。界面上方显示版本信息，版本号为
 > 图片展示的是智谱工作流搭建中版本详情界面。界面上方显示版本信息，版本号为0.0.0.10，智能体ID为1856895...752，有“查看集成文档”按钮。下方是访问链接，有“关闭分享”“永久有效”“
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/X7LlbDMV1ojQvtxzC0EcuqrEnnV) · `X7LlbDMV1ojQvtxzC0EcuqrEnnV`
-</column>
+
 </grid>
 
 发布后，可以分享链接给他人使用。（注意：别人使用会消耗你的Token额度）
@@ -353,18 +354,17 @@ password: c4a5646d
 使用这个地址，有免费额度：https://console.cloud.tencent.com/cos（轻量服务器里的，是要收费的）
 
 <grid>
-<column width-ratio="0.498367">
+
 > [!abstract]- 🖼 图片展示的是腾讯云对象存储服务COS的开通页面。页面左侧有导航栏，选中“
 > 图片展示的是腾讯云对象存储服务COS的开通页面。页面左侧有导航栏，选中“对象存储”选项。右侧上方有“立即开通服务”按钮。中间区域有“开通对象存储COS服务”说明，下方有“开通腾讯云对象存储COS服务”按钮，该按钮被
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/TY4tb1WB8oLhOXxYDVGcSDgenrb) · `TY4tb1WB8oLhOXxYDVGcSDgenrb`
-</column>
-<column width-ratio="0.501633">
+
 > [!abstract]- 🖼 图片显示腾讯云对象储存服务开通后获得免费额度的界面。界面中间显示“恭喜您
 > 图片显示腾讯云对象储存服务开通后获得免费额度的界面。界面中间显示“恭喜您获得50GB免费存储额度”，下方是标准存储容量包50GB的相关说明，包括有效期180天、开通COS后立即生效、资源包到期/耗尽后系统自动按量计费且存储的数据不会被删除等。图片对应文档中“腾讯云对象储存服务”部分，用于说明使用https://console.cloud.tencent.com/cos地址开通服务后可获得免费额度，为后续创建步骤及获取相关值做铺垫。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ObI8bckdcoBoxyxSwrTcKuednNg) · `ObI8bckdcoBoxyxSwrTcKuednNg`
-</column>
+
 </grid>
 
 开通后，按照以下步骤创建：
@@ -375,24 +375,22 @@ password: c4a5646d
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/WaM8bK0uJoucRxxhDr3cqsopnMc) · `WaM8bK0uJoucRxxhDr3cqsopnMc`
 
 <grid>
-<column width-ratio="0.349979">
+
 > [!abstract]- 🖼 图片展示的是腾讯云对象存储服务创建存储桶的“基本信息”页面。页面中“所属
 > 图片展示的是腾讯云对象存储服务创建存储桶的“基本信息”页面。页面中“所属地域”选择中国广州，“名称”为“zhipu - 1325334596”，“访问权限”有私有读写、公有读有写、公有读写三种，当前选中“私有读写”。“请求域名”显示为“zhipu - 1325334596.cos - ap - guangzhou . myqcloud . com”。页面底部“多AZ特性”开关被红色框突出显示，提示“计费项目，直接关掉”。该图片与文档中介绍腾讯云对象存储服务及创建步骤的内容相关，用于指导用户在创建存储桶时的操作。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VRG7bd3REo8DGhxp9I4csazVnnd) · `VRG7bd3REo8DGhxp9I4csazVnnd`
-</column>
-<column width-ratio="0.324436">
+
 > [!abstract]- 🖼 图片展示的是腾讯云对象存储服务创建存储桶的“高级可选配置”页面。页面中“
 > 图片展示的是腾讯云对象存储服务创建存储桶的“高级可选配置”页面。页面中“版本控制”“极智压缩”“日志存储”开关均处于关闭状态，其中“极智压缩”被推荐开启。下方有“存储桶标签”输入框及“服务端加密”选项，可选择“不加密”或“SSE-COS”。页面底部有“上一步”和“下一步”按钮。该图片与文档中介绍腾讯云对象存储服务及创建存储桶步骤的内容相关，是创建存储桶操作流程中的一个环节。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MGVUbUWVdoPkf3xlhvbc17Jhnkg) · `MGVUbUWVdoPkf3xlhvbc17Jhnkg`
-</column>
-<column width-ratio="0.325585">
+
 > [!abstract]- 🖼 图片展示的是 addCriterion()
 > 图片展示的是 addCriterion()
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/OBM8bWWa3ohcZ7x3VJPcqBDbnb1) · `OBM8bWWa3ohcZ7x3VJPcqBDbnb1`
-</column>
+
 </grid>
 
 获取我们要用的四个值：
@@ -416,18 +414,17 @@ password: c4a5646d
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/RY2hbj60xovTERxdXuScU6IYnJh) · `RY2hbj60xovTERxdXuScU6IYnJh`
 
 <grid>
-<column width-ratio="0.511065">
+
 > [!abstract]- 🖼 图片展示的是腾讯云API密钥管理页面。左侧导航栏选中“API密钥管理”。
 > 图片展示的是腾讯云API密钥管理页面。左侧导航栏选中“API密钥管理”。页面上方有安全提示和使用提示
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CQNbb7jRnodWqixKSwWcZ8ZXnFg) · `CQNbb7jRnodWqixKSwWcZ8ZXnFg`
-</column>
-<column width-ratio="0.488935">
+
 > [!abstract]- 🖼 图片展示的是腾讯云创建SecretKey中Key的界面。界面中以红色框突
 > 图片展示的是腾讯云创建SecretKey中Key的界面。界面中以红色框突出显示了“我已知晓并
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YK7Cb9LkfoS5CuxpL2HchIJVnhd) · `YK7Cb9LkfoS5CuxpL2HchIJVnhd`
-</column>
+
 </grid>
 
  "secret_id"、"secret_key"保存好，不要泄露。
@@ -437,45 +434,41 @@ password: c4a5646d
 通往AGI之路专属飞书帐号：https://larkcommunity.feishu.cn/share/base/form/shrcnnd8WDyjBjsn6WiHmt4JZFb
 
 <grid>
-<column width-ratio="0.424905">
+
 > [!abstract]- 🖼 图片展示的是飞书书
 > 图片展示的是飞书书
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YCoPbowa3oPaPQxtWepcRf2VnLf) · `YCoPbowa3oPaPQxtWepcRf2VnLf`
-</column>
-<column width-ratio="0.575095">
+
 > [!abstract]- 🖼 图片展示了位置在
 > 图片展示了位置在
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/H9jibyqYkoxm0nxnIMQcbRHvned) · `H9jibyqYkoxm0nxnIMQcbRHvned`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.392502">
+
 > [!abstract]- 🖼 图片 !*** !*** !*** !*** !*** !*** !**
 > 图片 !*** !*** !*** !*** !*** !*** !*** !*** !*** !*** !***
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/JUVYbaADHoMy6Sx1GtycXNfsnHf) · `JUVYbaADHoMy6Sx1GtycXNfsnHf`
-</column>
-<column width-ratio="0.126424">
+
 > [!abstract]- 🖼 图片
 > 图片
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/C9rObSgDioQLeQxKpABcw98Unbe) · `C9rObSgDioQLeQxKpABcw98Unbe`
-</column>
-<column width-ratio="0.313402">
+
 > [!abstract]- 🖼 图片展示的是飞书开放平台的权限管理页面。左侧导航栏选中“权限管理”。页面
 > 图片展示的是飞书开放平台的权限管理页面。左侧导航栏选中“权限管理”。页面中“API权限”下有“
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UG0YbQSQooLWuOxgraEcQyPznyc) · `UG0YbQSQooLWuOxgraEcQyPznyc`
-</column>
-<column width-ratio="0.167673">
+
 > [!abstract]- 🖼 图片展示的是飞书开放平台的版本管理与发布页面。页面左侧有多个功能选项，其
 > 图片展示的是飞书开放平台的版本管理与发布页面。页面左侧有多个功能选项，其中“版本管理与发布”被选中。右侧是版本详情区域，显示应用版本号为1.0.0，更新日期为2024 - 04 - 18，有“创建版本”“添加权限”“添加事件与回调”“添加安全设置”等操作按钮。页面底部有“保存”和“取消”按钮。该图片与文档中介绍腾讯云对象储存服务及飞书应用的内容相关，展示了飞书应用的版本管理与发布操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GUhHb57u2om6aaxsyl7cp7acnjk) · `GUhHb57u2om6aaxsyl7cp7acnjk`
-</column>
+
 </grid>
 
 > [!abstract]- 🖼 图片展示了腾讯云飞书应用的凭证与�行基础信息页面。左侧导航栏中“凭证与基
@@ -485,7 +478,7 @@ password: c4a5646d
 
 这里获取了 APP ID 和 APP Secret。
 
-接着点击这个表格：<cite doc-id="W9F4sf8tshdn4Pt9ax8c0XZ7nqd" file-type="sheets" title="个人收录库" type="doc"></cite> 直接复制一份，文档设置为公开可编辑。
+接着点击这个表格：[个人收录库](https://axsppz4oyvj.feishu.cn/sheets/W9F4sf8tshdn4Pt9ax8c0XZ7nqd) 直接复制一份，文档设置为公开可编辑。
 
 > [!abstract]- 🖼 图片展示了在电子表格中右键右键操作的操作。���������������
 > 图片展示了在电子表格中右键右键操作的操作。����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������
@@ -523,18 +516,17 @@ password: c4a5646d
 互动群：
 
 <grid>
-<column width-ratio="0.457225">
+
 > [!abstract]- 🖼 图片展示的是图片 addCriterion图片内容:
 > 图片展示的是图片 addCriterion图片内容:
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/GjDib98CBoQ7Y9xlDK1cbBaKnif) · `GjDib98CBoQ7Y9xlDK1cbBaKnif`
-</column>
-<column width-ratio="0.542775">
+
 > [!abstract]- 🖼 图片展示的是郓�����������������������������
 > 图片展示的是郓����������������������������������������������������������������������������������
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CmUPbLifToexebxealxceo0dngd) · `CmUPbLifToexebxealxceo0dngd`
-</column>
+
 </grid>
 
 ### 第二课：智谱清流助手接入个人微信
@@ -615,7 +607,8 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 
 可能出现网络问题，出现下载不成功，可以直接在这里下载，然后上传到root目录下，继续向下执行即可
 
-<figure view-type="Card"><source mime="text/x-sh" token="YKVzbVYQooVvh1xLLpXcIafUneg"/></figure>
+> [!warning]- 📎 附件（`text/x-sh`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/YKVzbVYQooVvh1xLLpXcIafUneg) · `YKVzbVYQooVvh1xLLpXcIafUneg`
 
 2.2、再粘贴下方代码，出现下图，就代表在执行中了。
 
@@ -655,34 +648,33 @@ bash Anaconda3-2021.05-Linux-x86_64.sh -b -p /root/anaconda
 8、第八步：找到你的服务器root目录文件夹。
 
 <grid>
-<column width-ratio="0.497380">
+
 > [!abstract]- 🖼 图片展示了服务器文件管理界面。左侧为导航栏，有首页、网站、FTP、数据库
 > 图片展示了服务器文件管理界面。左侧为导航栏，有首页、网站、FTP、数据库等选项。右侧上方有“目录”“www”“wwwroot”等路径标识，下方有“文件名称”“企业级防篡改”“权限/所有者”等列。图片中红色框突出显示了“文件”选项，并有红色箭头
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IvdhbxRwSoQuDbxHz6Vc02KWnvb) · `IvdhbxRwSoQuDbxHz6Vc02KWnvb`
-</column>
-<column width-ratio="0.502620">
+
 ![图片展示的是服务器环境部署中文件管理界面。画面中列出了多个文件夹，如www、var、usr、tmp等，其中“root”文件夹被红色框突出显示。该图片与上下文““第二上下 addCriterion图片所在文档：\[title\]智谱专家共学营第二期：把你的微信变成超级AI助理\[heading1\]本期共学应用：image_id`的占位符代表这张图在上下文中对应的位置。如，图片id为<<image addCriterion图片所在文档：\[title\]智谱BigModel共学营第二期：把你的微信变成超级AI助理\[heading1\] 智谱BigModel共学营第二期：把你的微信变成超级AI助理\[heading2 addCriterion图片所在文档：\[title\]智谱BigModel共学营第二期：把你的微信变成超级AI助理\[heading1\]本期共学应用： 人人可打造的微信 addCriterion图片所在文档：\[title\]智谱BigModel共学营第二期：把你的微信变成超级AI](https://feishu.cn/file/Z3O9b6Q5EoEarHxWm4McQn6Mn2f)
-</column>
+
 </grid>
 
 9、下载项目压缩包，下载后直接拖动上传，并解压缩。
 
-<figure view-type="Card"><source mime="application/x-zip-compressed" token="BagsbuerwoqoHRxkt1fcc8oenae"/></figure>
+> [!warning]- 📎 附件（`application/x-zip-compressed`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/BagsbuerwoqoHRxkt1fcc8oenae) · `BagsbuerwoqoHRxkt1fcc8oenae`
 
 <grid>
-<column width-ratio="0.541157">
+
 > [!abstract]- 🖼 图片 该图片展示了在服务器环境部署智谱清流助手接入个人微信教程中，上传文
 > 图片 该图片展示了在服务器环境部署智谱清流助手接入个人微信教程中，上传文件到【root】的界面。界面上方显示“上传文件到【root:root】--支持断点续传”，下方有“上传文件”下拉框，当前选中“文件”，下方列表显示文件名为“COW-zhipu.zip”，文件大小为11.07 MB，状态为“等待上传”。此图对应教程中“点击进入解压后的文件夹，顶部有一行操作按钮，点击顶部的【终端】，继续输入命令`pip install -r requirements.txt`”步骤后，需上传文件的环节，直观呈现了文件上传操作界面。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/Jd5tbkbKYo2T69xDvuvckAmznNd) · `Jd5tbkbKYo2T69xDvuvckAmznNd`
-</column>
-<column width-ratio="0.458843">
+
 > [!abstract]- 🖼 图片展示的是服务器文件管理界面，显示了多个文件和文件夹。其中，文件“CO
 > 图片展示的是服务器文件管理界面，显示了多个文件和文件夹。其中，文件“COW-zhipu.zip”被红色框突出显示，其大小为13.07 MB，修改时间为2024 - 11 - 20 16:30:48。该图片与上下文“服务器环境部署”相关，对应教程步骤中“点击进入解压后的文件夹，顶部有一行操作按钮，点击顶部的【终端】，继续输入并回车：`pip install -r requirements.txt`”的操作，用于指引用户找到并操作解压后的文件夹中的相关文件。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/LN8tb7TsGohRgnxuIpnckyywnbg) · `LN8tb7TsGohRgnxuIpnckyywnbg`
-</column>
+
 </grid>
 
 9、点击进入解压后的文件夹，顶部有一行操作按钮，点击顶部的【终端】，继续输入并回车：
@@ -758,33 +750,31 @@ bash Anaconda3-2021.05-Linux-x86_64.sh -b -p /root/anaconda
 使用案例，更多功能待你挖掘...
 
 <grid>
-<column width-ratio="0.502195">
+
 > [!abstract]- 🖼 示意图 @@@@ 图片展示了与AGI机器人苏苏的聊天界面。用户先是让其写
 > 示意图 @@@@ 图片展示了与AGI机器人苏苏的聊天界面。用户先是让其写首诗庆祝捡到一亿，苏苏创作了一首诗并提示已保存对话记录，之后用户要求根据此事画个图，下方还显示了一张猫咪的图片。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/FOVIbYbAmoFftCxvK8AcX5w0nHc) · `FOVIbYbAmoFftCxvK8AcX5w0nHc`
-</column>
-<column width-ratio="0.497805">
+
 > [!abstract]- 🖼 图片展示了智谱清流助手在微信中的使用案例。左侧显示助手回复一张汽车在高速
 > 图片展示了智谱清流助手在微信中的使用案例。左侧显示助手回复一张汽车在高速公路上行驶的图片，下方有视频分析结果，指出汽车行驶过程中的镜头切换情况。右侧是助手生成的视频，展示汽车在公路上行驶的场景。该图片与上下文介绍的智谱清流助手接入个人微信后可实现人人可打造微信助手的内容相契合，直观呈现了其生成视频的功能。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/MenjbyK3Cod6KVxrNNjcowpGn5b) · `MenjbyK3Cod6KVxrNNjcowpGn5b`
-</column>
+
 </grid>
 
 <grid>
-<column width-ratio="0.391323">
+
 > [!abstract]- 🖼 图片展示了电脑界面中的文件及文字内容。右侧显示名为“微信AI私域系统.p
 > 图片展示了电脑界面中的文件及文字内容。右侧显示名为“微信AI私域系统.pdf”的文件，大小为10.5M。左侧为关键点总结，引言/背景部分介绍一款旨在帮助私域企业保护客户信息等的“私域系统”软件，因私域流量兴起企业需解决方案。核心论点部分提到该系统提供6大模块运营一体化方案，支持微信好友转化为CRM客户，还提供超融合营销型SCRM系统等。此图与“智谱清流助手接入个人微信”教程文档中服务器环境部署完成后的使用案例相关。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/ClmubNunWoT0RcxZDGJcTWXKnme) · `ClmubNunWoT0RcxZDGJcTWXKnme`
-</column>
-<column width-ratio="0.608677">
+
 > [!abstract]- 🖼 图片展示的是智谱深模型与用户在微信中的对话界面。左侧显示用户与模型的对话
 > 图片展示的是智谱深模型与用户在微信中的对话界面。左侧显示用户与模型的对话内容，包括关于庆祝出门捡到一亿事件的讨论，模型为其写了图片，还生成视频庆祝，并介绍“方舟私域系统
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/CkG1bdFt1osfiRxPNK6cJGzWnbg) · `CkG1bdFt1osfiRxPNK6cJGzWnbg`
-</column>
+
 </grid>
 
 ##### 2、本地电脑环境部署（以windows系统为例）
@@ -827,26 +817,25 @@ pip --version
 
 5、先进行python的安装，我帮你把python的安装包已经下载好了，直接点击下载：
 
-<figure view-type="Card"><source mime="application/x-msdownload" token="BMGObWzLeoPlD6x2j45cePnPnGc"/></figure>
+> [!warning]- 📎 附件（`application/x-msdownload`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/BMGObWzLeoPlD6x2j45cePnPnGc) · `BMGObWzLeoPlD6x2j45cePnPnGc`
 
 5.1  python安装步骤：
 
 <grid>
-<column width-ratio="0.330845">
+
 > [!abstract]- 🖼 图片展示了Python 3.12.3 (64-bit)的安装界面。上方提
 > 图片展示了Python 3.12.3 (64-bit)的安装界面。上方提示选择安装方式，可立即安装或自定义设置。下方“Install Now”选项被红框突出显示，其下方文字说明包含IDLELE、pip和文档，还会创建快捷方式和文件关联。界面底部有“Use admin privileges when installing py.exe”和“Add python.exe to PATH”两个勾选框，也被红框标出。该图片与文档中Python安装步骤内容相关，直观呈现了安装界面及关键选项。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/WxNybkXZIocslMxeYYjcyP0onYb) · `WxNybkXZIocslMxeYYjcyP0onYb`
-</column>
-<column width-ratio="0.335100">
+
 ![图片展示的是Python 3.12.3 (64-bit) Setup的安装进度界面。界面上方显示“Setup Progress”，中间部分写着“Installing: Python 3.12.3 Executables (64-bit)”，下方有一个绿色进度条，进度条已接近完成。右下角有一个“Cancel”按钮。该图片与文档中“本地电脑环境部署（以wind\[content\]from=lark_search_qa&ccm_open_type=lark_search_qa#EHL5dv67domCZWxj4yMcHT2Un3e)”部分内容相关，是Python安装步骤中显示安装进度的示例图。](https://feishu.cn/file/LqXkbnzsoolMo6xNi9NcGfiun0d)
-</column>
-<column width-ratio="0.334055">
+
 > [!abstract]- 🖼 图片展示了Python addCriterion图片 addCriter
 > 图片展示了Python addCriterion图片 addCriterion
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/IO9Ab8UpxonYSWxYM69cNcK8noe) · `IO9Ab8UpxonYSWxYM69cNcK8noe`
-</column>
+
 </grid>
 
 5.2 关闭窗口，再次运行那两行命令 会发现已经有了。
@@ -857,7 +846,8 @@ pip --version
 
 7、解压后，打开COW-zhipu文件夹，
 
-<figure view-type="Card"><source mime="application/x-zip-compressed" token="PXKqbDgPEoXYTUx2gpScen8Bnac"/></figure>
+> [!warning]- 📎 附件（`application/x-zip-compressed`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/PXKqbDgPEoXYTUx2gpScen8Bnac) · `PXKqbDgPEoXYTUx2gpScen8Bnac`
 
 8、在空白处，shift+鼠标右键，点击“在此处打开Powershell窗口”
 

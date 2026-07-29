@@ -198,7 +198,8 @@ AI内容工作台学习版/
 
 我不想在这节课里教你这样的技巧，我更想让你自己去寻找，直接看视频
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1080.000000" token="Lsw0bNUE8o2rVJxybBNcHkXNnDI"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Lsw0bNUE8o2rVJxybBNcHkXNnDI) · `Lsw0bNUE8o2rVJxybBNcHkXNnDI`
 
 <callout emoji="✨">
 **Agents.md 不是写一次就不动了。它会随着你的系统一起长大**  

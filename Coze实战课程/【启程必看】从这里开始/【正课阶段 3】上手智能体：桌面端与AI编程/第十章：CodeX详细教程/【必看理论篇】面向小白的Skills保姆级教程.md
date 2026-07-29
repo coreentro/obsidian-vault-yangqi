@@ -213,7 +213,8 @@ skill-name/
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/UhhSb7UDFodtLyxYgvkcHIifnDe) · `UhhSb7UDFodtLyxYgvkcHIifnDe`
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1500.000000" origin-width="2666.000000" token="Oms2b6dRfoCEYLxU7p2ccKzsn4b"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Oms2b6dRfoCEYLxU7p2ccKzsn4b) · `Oms2b6dRfoCEYLxU7p2ccKzsn4b`
 
 ## 2）SKILL.md：技能的大脑
 
@@ -298,7 +299,8 @@ description: 当用户需要对文章进行深度分析、内容审核或质量�
 
 为了更有体感，请看视频
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="2160.000000" origin-width="3326.000000" token="ZqNBbzW2Bo5hO2xdosbcONQMnU3"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/ZqNBbzW2Bo5hO2xdosbcONQMnU3) · `ZqNBbzW2Bo5hO2xdosbcONQMnU3`
 
 ## 3）资源文件
 
@@ -356,7 +358,9 @@ sccripts使得AI模型不再局限于文本生成，而是能够执行可靠的�
 
 一个完整的Skill结构：
 
-<sheet sheet-id="HOmXp9" token="Rlm0sx9gXhnVVktGEPyclZXOnmd"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/Rlm0sx9gXhnVVktGEPyclZXOnmd)
+> `token=Rlm0sx9gXhnVVktGEPyclZXOnmd` `sub=HOmXp9`</sheet>
 
 **记住一点：大多数Skill不需要用到所有这些目录**
 
@@ -431,7 +435,8 @@ AI模型开始执行任务了
 
 **具体可以看视频演示**
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1964.000000" origin-width="3024.000000" token="EHh2bK4d7oeTg6xiVHscle0InAA"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/EHh2bK4d7oeTg6xiVHscle0InAA) · `EHh2bK4d7oeTg6xiVHscle0InAA`
 
 ## 2）为什么要这样设计？
 
@@ -606,7 +611,8 @@ your-project/              ← 你的项目文件夹
 
 关于 Skill目录规范的演示，请看视频
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="2160.000000" origin-width="3326.000000" token="JxNTb1sCqoBrGXxRjMgcHDVKnvg"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/JxNTb1sCqoBrGXxRjMgcHDVKnvg) · `JxNTb1sCqoBrGXxRjMgcHDVKnvg`
 
 ---
 

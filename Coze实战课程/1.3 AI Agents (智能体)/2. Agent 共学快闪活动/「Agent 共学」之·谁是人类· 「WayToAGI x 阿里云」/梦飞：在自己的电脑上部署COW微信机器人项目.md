@@ -50,7 +50,8 @@ tags:
 
 视频教程，拿到key之后，进行下一步骤。
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="AFi1bZzkSoWGQnxqYMhcGxWwnMf"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/AFi1bZzkSoWGQnxqYMhcGxWwnMf) · `AFi1bZzkSoWGQnxqYMhcGxWwnMf`
 
 ## 二、安装环境
 
@@ -90,7 +91,8 @@ pip --version
 
 5、先进行python的安装，我帮你把python的安装包已经下载好了，直接点击下载：
 
-<figure view-type="Card"><source mime="application/x-msdownload" token="Mppibam0YoMKzixftekcxLQPnwe"/></figure>
+> [!warning]- 📎 附件（`application/x-msdownload`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Mppibam0YoMKzixftekcxLQPnwe) · `Mppibam0YoMKzixftekcxLQPnwe`
 
 5.1  python安装步骤：
 
@@ -115,7 +117,8 @@ pip --version
 
 6、下载COW机器人项目，也给你准备好了，直接下载，然后解压缩。
 
-<figure view-type="Card"><source mime="application/zip" token="YQrgbAp8NovFtfxpYKLcfBFRnne"/></figure>
+> [!warning]- 📎 附件（`application/zip`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/YQrgbAp8NovFtfxpYKLcfBFRnne) · `YQrgbAp8NovFtfxpYKLcfBFRnne`
 
 7、解压后，打开COW文件夹，
 
@@ -201,24 +204,22 @@ pip --version
 15、保存上述文件，然后在当前文件下，找到`plugins/godcmd`文件夹，复制`config.json.template`重命名为` config.json`
 
 <grid>
-<column width-ratio="0.281762">
+
 > [!abstract]- 🖼 图片展示了腾讯云控制台中“文件”页面的文件管理界面。左侧为导航栏，选中“
 > 图片展示了腾讯云控制台中“文件”页面的文件管理界面。左侧为导航栏，选中“文件”。右侧显示了“root/chatgpt-on-wechat”目录下的文件和文件夹，其中“plugins”文件夹被红色框突出显示。该图片与文档中部署COW微信机器人的步骤相关，对应第15步，即在当前文件下找到`plugins/godcmd`文件夹，复制`config.json.template`重命名为`config.json`，此图直观呈现了找到并重命名文件夹的操作位置。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/SBVJbND1pow0wyxoUZyck4VznWc) · `SBVJbND1pow0wyxoUZyck4VznWc`
-</column>
-<column width-ratio="0.326613">
+
 > [!abstract]- 🖼 图片展示的是在文件管理界面中找到`plugins/godcmd`文件夹的
 > 图片展示的是在文件管理界面中找到`plugins/godcmd`文件夹的操作结果。左侧为文件管理导航栏，右侧是文件列表，其中`godcmd`文件夹被红色框线突出显示。这与文档中“保存上述文件，然后在当前文件下，找到`plugins/godcmd`文件夹，复制`config.json.template`重命名为`config.json`”的操作步骤相关，表明已找到并识别出`godcmd`文件夹，为后续操作做准备。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/FTE8bzeQmoojG0xe916c5XwAnZc) · `FTE8bzeQmoojG0xe916c5XwAnZc`
-</column>
-<column width-ratio="0.391625">
+
 > [!abstract]- 🖼 图片展示了在root目录下的chatgpt-on-wechat文件夹中，
 > 图片展示了在root目录下的chatgpt-on-wechat文件夹中，plugins文件夹下的godcmd文件夹内容。其中，config.json.template文件被复制重命名为config.json。该图片与文档中部署项目步骤相关，对应第15步，即保存文件后，在当前文件下找到`plugins/godcmd`文件夹，复制`config.json.template`重命名为`config.json`的操作，直观呈现了文件重命名后的状态。
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/VXoZb903ro19X7xyd4pc0HHKnUb) · `VXoZb903ro19X7xyd4pc0HHKnUb`
-</column>
+
 </grid>
 
 16、双击config.json，进入后，设置下你的password和admin_users

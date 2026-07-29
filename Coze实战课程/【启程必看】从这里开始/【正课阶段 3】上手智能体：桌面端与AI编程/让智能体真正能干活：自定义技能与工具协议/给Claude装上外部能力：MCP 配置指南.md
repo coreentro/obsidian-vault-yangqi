@@ -36,7 +36,8 @@ tags:
 
 # 一、Claude Code 是个瞎子
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1964.000000" origin-width="3024.000000" token="DKDebziyTopmMDxmC9ScEc5FnMg"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/DKDebziyTopmMDxmC9ScEc5FnMg) · `DKDebziyTopmMDxmC9ScEc5FnMg`
 
 假设你跟 Claude Code 说：
 
@@ -72,13 +73,14 @@ MCP 就是 Claude Code 的扩展坞。
 
 每一个外部工具，在 MCP 的世界里叫做一个 **MCP 服务器**（MCP Server）
 
-<callout emoji="✨"><p>我有一篇专门讲 MCP 的理论文章，讲得非常详细：</p><p></p><p><cite doc-id="OHtQwPfvuiiXrbkRSHicdwMXnje" file-type="wiki" title="【理论篇】小白了解 MCP，看这一篇就够了" type="doc"></cite></p><p></p><p>但是这里大家先不要去看这篇文章，你跟着我的节奏走，先简单理解一下 MCP，然后我们直接进入到实操环节。<b>在这节课过后，大家可以去全方位了解一下 MCP的理论知识</b></p></callout>
+<callout emoji="✨"><p>我有一篇专门讲 MCP 的理论文章，讲得非常详细：</p><p></p><p>[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/让智能体真正能干活：自定义技能与工具协议/【理论篇】小白了解 MCP，看这一篇就够了|【理论篇】小白了解 MCP，看这一篇就够了]]</p><p></p><p>但是这里大家先不要去看这篇文章，你跟着我的节奏走，先简单理解一下 MCP，然后我们直接进入到实操环节。<b>在这节课过后，大家可以去全方位了解一下 MCP的理论知识</b></p></callout>
 
 这节课只做一件事：**动手给 Claude Code 装上高德地图，让它能查天气、查路线**
 
 # 三、**准备工作：申请高德地图的 API Key**
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="2160.000000" origin-width="3840.000000" token="Vs20bsz9So3dkTx9sXJcBHnInlf"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Vs20bsz9So3dkTx9sXJcBHnInlf) · `Vs20bsz9So3dkTx9sXJcBHnInlf`
 
 在装工具之前，我们需要先拿到高德地图的 API Key
 
@@ -122,7 +124,8 @@ API Key 就是一把钥匙。你要使用别人提供的服务（比如高德的
 
 ## **方式一：手动配置**
 
-<figure view-type="Preview"><source mime="video/quicktime" origin-height="2160.000000" origin-width="3840.000000" token="FLQ2b48ReogEIIxUto6cmdP8n0b"/></figure>
+> [!warning]- 🎬 视频（`video/quicktime`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/FLQ2b48ReogEIIxUto6cmdP8n0b) · `FLQ2b48ReogEIIxUto6cmdP8n0b`
 
 进入你的项目文件夹，在**根目录**下创建一个文件，命名为 `.mcp.json`（注意开头有个点，这是隐藏文件）
 
@@ -301,4 +304,4 @@ Claude Code 会自动帮你创建配置文件，内容跟方式一完全一样
 
 它为什么要这样设计、跟 Function Calling 有什么渊源、三个核心角色分别是什么？
 
-可以去看我的理论篇文章：<cite doc-id="OHtQwPfvuiiXrbkRSHicdwMXnje" file-type="wiki" title="【理论篇】小白了解 MCP，看这一篇就够了" type="doc"></cite>
+可以去看我的理论篇文章：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/让智能体真正能干活：自定义技能与工具协议/【理论篇】小白了解 MCP，看这一篇就够了|【理论篇】小白了解 MCP，看这一篇就够了]]

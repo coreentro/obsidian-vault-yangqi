@@ -46,7 +46,7 @@ https://www.51aigc.cc/#/home
 > 
 > 原图未迁移 · [飞书原图](https://feishu.cn/file/YpTCbdqCdoMt8kxwjObcYDFYniz) · `YpTCbdqCdoMt8kxwjObcYDFYniz`
 
-<cite doc-id="KgDfwpcEhiP0AIkz5xHcIULDnCg" file-type="wiki" title="速推AIGC官方文档" type="doc"></cite>
+[速推AIGC官方文档](https://axsppz4oyvj.feishu.cn/wiki/KgDfwpcEhiP0AIkz5xHcIULDnCg)
 
 # 大圣的权益
 

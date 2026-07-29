@@ -50,9 +50,9 @@ tags:
 
 为了完整的讲清楚API的概念，我们先需要了解两个概念
 
-<cite doc-id="Mqw6wUMGDix07Hk2UeacSB5snwg" file-type="wiki" title="Coze中的基础数据类型" type="doc"></cite>
+[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体初级课程/第四章：Coze工作流基础功能讲解/Coze中的基础数据类型|Coze中的基础数据类型]]
 
-<cite doc-id="JtIWww9NpipvvOkquAkc0tGBnyh" file-type="wiki" title="Coze中的复杂数据类型（Object与Array）" type="doc"></cite>
+[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体中级课程/第六章：Coze工作流进阶功能讲解/Coze中的复杂数据类型（Object与Array）|Coze中的复杂数据类型（Object与Array）]]
 
 本文则是关于API的收尾章节
 
@@ -444,7 +444,7 @@ https://api.coze.cn/v1/space/published_bots_list?space_id=737620236629291&page_s
 
 PS：**如果文档中标注的是Body参数，代表这些参数是通过JSON的方式输入的**
 
-这时候大家一定要先去了解下JSON的格式哦：<cite doc-id="JtIWww9NpipvvOkquAkc0tGBnyh" file-type="wiki" title="Coze中的复杂数据类型（Object与Array）" type="doc"></cite>
+这时候大家一定要先去了解下JSON的格式哦：[[【启程必看】从这里开始/【选修】：Coze智能体应用实战/智能体中级课程/第六章：Coze工作流进阶功能讲解/Coze中的复杂数据类型（Object与Array）|Coze中的复杂数据类型（Object与Array）]]
 
 Body的入参很多，这里我就不一个个讲解了，这个太难讲了，而且没有必要。我们直接上例子吧：
 
@@ -571,7 +571,10 @@ https://www.coze.cn/open/oauth/pats
 
 OK，准备条件就绪，我们开始调用d个API，我们把各个部分准备好
 
-<table><colgroup><col/><col/></colgroup><tbody><tr><td>请求地址</td><td>https://api.coze.cn/v3/chat</td></tr><tr><td>Header</td><td>Content-Type: application/json<br/>Authorization: <b>Bearer</b> <b>pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea</b></td></tr><tr><td>入参</td><td><pre lang="JSON"><code>{ <br/>    "bot_id": "<b>7393008672953679913</b>", <br/>    "user_id": "123456789", <br/>    "stream": false, <br/>    "auto_save_history":true, <br/>    "additional_messages":[ <br/>        { <br/>            "role":"user", <br/>            "content":"丽江旅游", <br/>            "content_type":"text" <br/>        } <br/>    ] <br/>}</code></pre></td></tr></tbody></table>
+| 请求地址 | https://api.coze.cn/v3/chat |
+| --- | --- |
+| Header | Content-Type: application/jsonAuthorization: **Bearer** **pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea** |
+| 入参 | `{     "bot_id": "**7393008672953679913**",     "user_id": "123456789",     "stream": false,     "auto_save_history":true,     "additional_messages":[         {             "role":"user",             "content":"丽江旅游",             "content_type":"text"         }     ] }` |
 
 **PS：大佬们不要用我的Token和BotId测试哈，标黄的部分要换成你们的**
 
@@ -713,7 +716,10 @@ https://www.coze.cn/docs/developer_guides/list_chat_messages
 
 有的，那是之前的老接口，这里也分享给大家
 
-<table><colgroup><col/><col/></colgroup><tbody><tr><td>请求地址</td><td>https://api.coze.cn/open_api/v2/chat</td></tr><tr><td>Header</td><td>Content-Type: application/json<br/>Authorization: <b>Bearer</b> <b>pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea</b></td></tr><tr><td>入参</td><td><pre lang="JSON"><code>{ <br/>    "bot_id": "<b>7393008672953679913</b>", <br/>    "user": "123456789", <br/>    "stream": false, <br/>    "query": "丽江旅游"<br/>}</code></pre></td></tr></tbody></table>
+| 请求地址 | https://api.coze.cn/open_api/v2/chat |
+| --- | --- |
+| Header | Content-Type: application/jsonAuthorization: **Bearer** **pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea** |
+| 入参 | `{     "bot_id": "**7393008672953679913**",     "user": "123456789",     "stream": false,     "query": "丽江旅游"}` |
 
 > [!abstract]- 🖼 图片展示的是HTTP接口测试工具中在线API请求的设置界面。请求地址为h
 > 图片展示的是HTTP接口测试工具中在线API请求的设置界面。请求地址为https://api.coze.cn/open_api/v2/chat，Header设置有Content-Type、Authorization等，Content-Type为application/json，Authorization为Bearer pat_etmxdA4eeGB4pKJZR0uyR89c7VWyc5J4rG7x3F3lf4fox11hcYZ2QyXnIYhP2jea。参数设置为JSON参数设置，参数内容为JSON格式的请求数据。该图片与文档中介绍Coze API测试内容相关，直观呈现了API测试时的请求设置情况。

@@ -72,11 +72,13 @@ Claude Code也有这样的逻辑，但它最大的问题就是它的官方订阅
 
 **上面的地址是github，国内网络是可以访问的，但可能会比较慢，偶尔也会抽风**
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="La1YbGRigoo6aIxZ7IOcttrSnld"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/La1YbGRigoo6aIxZ7IOcttrSnld) · `La1YbGRigoo6aIxZ7IOcttrSnld`
 
 # 三、配置中转API
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="1080.000000" origin-width="1920.000000" token="IpAnbDRa5oM775xcWAvc1LZfn0g"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/IpAnbDRa5oM775xcWAvc1LZfn0g) · `IpAnbDRa5oM775xcWAvc1LZfn0g`
 
 后面你会不断地接各种模型的 API，**这个在前面的课程里，我已经给大家详细地讲解过了**
 

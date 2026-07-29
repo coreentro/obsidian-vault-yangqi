@@ -32,7 +32,7 @@ tags:
 
 # ray：《领克音乐精灵》创作分享
 
-<callout emoji="🏖️"><p>作者：阿金</p><p>非常幸运在本届“火山引擎AI创造者大赛”获得二等奖，总体来看还是有很多需要进步的地方，先自己做个总结，也作为一个刚接触AIGC的初学者的分享</p><p>具体产品介绍：<cite doc-id="DGm2s7tGflIUmwdZqgccZyeLnph" file-type="slide" title="领克音乐精灵" type="doc"></cite></p></callout>
+<callout emoji="🏖️"><p>作者：阿金</p><p>非常幸运在本届“火山引擎AI创造者大赛”获得二等奖，总体来看还是有很多需要进步的地方，先自己做个总结，也作为一个刚接触AIGC的初学者的分享</p><p>具体产品介绍：[领克音乐精灵](https://axsppz4oyvj.feishu.cn/slide/DGm2s7tGflIUmwdZqgccZyeLnph)</p></callout>
 
 ## **前言：**
 
@@ -87,7 +87,9 @@ tags:
 
 各工作流的功能和流程图如下
 
-<sheet sheet-id="qGH0zo" token="CujvsmTMchW3XLtYfm5cW6yvn0c"></sheet>
+> [!example] 📊 嵌入的电子表格
+> [电子表格](https://axsppz4oyvj.feishu.cn/sheets/CujvsmTMchW3XLtYfm5cW6yvn0c)
+> `token=CujvsmTMchW3XLtYfm5cW6yvn0c` `sub=qGH0zo`</sheet>
 
 ### LinkCo_Music-主工作流工作流
 

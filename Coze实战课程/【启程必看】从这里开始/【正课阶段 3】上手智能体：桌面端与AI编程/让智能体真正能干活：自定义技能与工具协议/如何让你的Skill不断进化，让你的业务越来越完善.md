@@ -39,7 +39,8 @@ tags:
 然后让他把教训更新到你的skill里面，说白了就是更新提示词
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2148.000000" origin-width="3824.000000" token="Fa3Mbe5PGoWcejxDRXlctwadn7e"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Fa3Mbe5PGoWcejxDRXlctwadn7e) · `Fa3Mbe5PGoWcejxDRXlctwadn7e`
 
 ---
 

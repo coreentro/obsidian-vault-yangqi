@@ -32,4 +32,4 @@ tags:
 
 # WorkBuddy开源蓝皮书
 
-<callout emoji="✨"><p>几个大博主联合开源了一份《WorkBuddy》的实战蓝皮书</p><p></p><p>如果你是 WorkBuddy 的重度用户，可以看下这个教程</p><p></p><p><b>但我仍然建议你先往下看，把 Codex 详细教程看了</b>。因为那不仅是 Codex 的教程，更是我对桌面端智能体的理解，它对你使用 WorkBuddy 也会有非常大的帮助</p><p></p><p>这份开源的资料和咱们的课程是互补的关系，不是非此即彼的关系</p><p></p><p><cite doc-id="W3A8wt93Lia0cnkN0z6cHD31nLf" file-type="wiki" title="继续开源！WorkBuddy 实战蓝皮书，助你更好使用 Agent！（建议收藏）" type="doc"></cite></p></callout>
+<callout emoji="✨"><p>几个大博主联合开源了一份《WorkBuddy》的实战蓝皮书</p><p></p><p>如果你是 WorkBuddy 的重度用户，可以看下这个教程</p><p></p><p><b>但我仍然建议你先往下看，把 Codex 详细教程看了</b>。因为那不仅是 Codex 的教程，更是我对桌面端智能体的理解，它对你使用 WorkBuddy 也会有非常大的帮助</p><p></p><p>这份开源的资料和咱们的课程是互补的关系，不是非此即彼的关系</p><p></p><p>[继续开源！WorkBuddy 实战蓝皮书，助你更好使用 Agent！（建议收藏）](https://axsppz4oyvj.feishu.cn/wiki/W3A8wt93Lia0cnkN0z6cHD31nLf)</p></callout>

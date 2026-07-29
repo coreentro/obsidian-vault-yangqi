@@ -44,11 +44,12 @@ tags:
 
 这节课我们先把后面两课讲了。下一节课，我们专门来讲如何开发自己的技能
 
-<callout emoji="✨"><p>前置学习：<cite doc-id="V9pbweJb0iZVFjk5jskcVJPMnQd" file-type="wiki" title="【必看理论篇】面向小白的Skills保姆级教程" type="doc"></cite></p></callout>
+<callout emoji="✨"><p>前置学习：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/【必看理论篇】面向小白的Skills保姆级教程|【必看理论篇】面向小白的Skills保姆级教程]]</p></callout>
 
 # 一、找到适合自己的技能
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="Lv1PbicSxoW4SUx92QEcZprunqc"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/Lv1PbicSxoW4SUx92QEcZprunqc) · `Lv1PbicSxoW4SUx92QEcZprunqc`
 
 这里面有一个最重要的原则：我们要善于站在别人的肩膀上，然后去打磨出自己的技能
 
@@ -138,7 +139,7 @@ Github地址：https://github.com/vercel-labs/skills
 
 在跟大家分享如何安装 Skill 之前，我们必须先了解一下 Skill 的安装本质
 
-在前面的课程里面，我们详细给大家讲了 Skill 的规范：<cite doc-id="V9pbweJb0iZVFjk5jskcVJPMnQd" file-type="wiki" title="【必看理论篇】面向小白的Skills保姆级教程" type="doc"></cite>
+在前面的课程里面，我们详细给大家讲了 Skill 的规范：[[【启程必看】从这里开始/【正课阶段 3】上手智能体：桌面端与AI编程/第十章：CodeX详细教程/【必看理论篇】面向小白的Skills保姆级教程|【必看理论篇】面向小白的Skills保姆级教程]]
 
 **它的本质其实就是一套文件夹，然后放在约定好的位置**，就可以被 Codex 等桌面端智能体发现
 
@@ -157,4 +158,5 @@ Github地址：https://github.com/vercel-labs/skills
 丢给你的桌面端智能体，它就能帮你安装好
 </callout>
 
-<figure view-type="Preview"><source mime="video/mp4" origin-height="2160.000000" origin-width="3840.000000" token="T7SpbcAa9o8SAnxPqRjcrHX9nab"/></figure>
+> [!warning]- 🎬 视频（`video/mp4`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/T7SpbcAa9o8SAnxPqRjcrHX9nab) · `T7SpbcAa9o8SAnxPqRjcrHX9nab`

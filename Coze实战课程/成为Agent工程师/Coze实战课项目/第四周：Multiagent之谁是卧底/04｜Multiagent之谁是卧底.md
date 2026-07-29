@@ -69,7 +69,8 @@ tags:
 
 <readonly-block href="https://waytoagi.feishu.cn/minutes/embed/obcnhyjrs88d1b7mpi26jfj1?from=ccm" type="iframe"></readonly-block>
 
-<figure view-type="Preview"><source mime="application/pdf" token="HAfTb83VEo68IWx1D82clYwgnnb"/></figure>
+> [!warning]- 📎 附件（`application/pdf`）
+> 原文件未迁移 · [在飞书中打开](https://feishu.cn/file/HAfTb83VEo68IWx1D82clYwgnnb) · `HAfTb83VEo68IWx1D82clYwgnnb`
 
 ## Part 1：理解 Coze Bot 的系统结构
 
