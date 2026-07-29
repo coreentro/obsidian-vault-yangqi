@@ -1,0 +1,32 @@
+---
+title: "Coze小助手用户问题记录"
+feishu_url: https://axsppz4oyvj.feishu.cn/base/M1PQbEx6AaaRsqsAOYDcnuFunMf
+obj_type: bitable
+base_token: M1PQbEx6AaaRsqsAOYDcnuFunMf
+node_token: C71GwWnU6itilWkDmYrc4jk5nEh
+breadcrumb:
+  - "【启程必看】从这里开始"
+  - "【选修】：Coze智能体应用实战"
+  - "课程辅助资料"
+  - "Coze小助手用户问题记录"
+migrated_from: 飞书多维表格
+migrated_at: 2026-07-29
+tags:
+  - 飞书迁移
+  - 多维表格
+---
+
+# Coze小助手用户问题记录
+
+> [!warning] 这是多维表格的数据快照
+> 视图、筛选、分组、看板、自动化流程等交互能力无法迁移到 Markdown。
+> [在飞书中打开原表](https://axsppz4oyvj.feishu.cn/base/M1PQbEx6AaaRsqsAOYDcnuFunMf)
+
+## 用户问题记录表
+
+| 用户问题 | Bot 回复 | 提交日期 |
+| --- | --- | --- |
+| Coze的专业版是什么意思 | 扣子（coze.cn）是新一代AI应用开发平台，火山引擎面向企业和个人用户推出企业级的AI应用开发平台即扣子专业版。它在扣子基础版可视化灵活编排Bot的能力基础上，承诺企业级SLA、提供多种高级特性，使AI应用更易落地，让企业更专注于通过Bot创新，驱动业务增长。 相较于扣子基础版，扣子专业版支持更大的团队规模、知识库空间、无上限的API并发、自定义可拓展的方舟模型资源，还支持更高团队空间容量和免费知识库容量，付费功能保障专业级SLA，不限制调用请求频率和总量，费用按实际用量计算。 你可以参考文档进一步了解：[欢迎来到扣子](https://www.coze.cn/docs/guides/we | 2025-02-06 00:00:00 |
+| Coze专业版是什么 | 扣子（coze.cn）是新一代AI应用开发平台，扣子专业版在扣子基础版可视化灵活编排Bot的能力基础上，承诺企业级SLA、提供多种高级特性，使AI应用更易落地。专业版相比基础版，支持更高团队空间容量和免费知识库容量，付费功能保障专业级SLA，不限制调用请求频率和总量，费用按实际用量计算。专业版默认接入4款豆包模型，还可通过火山方舟按需接入更多模型。 你可以查看[欢迎来到扣子](https://www.coze.cn/docs/guides/welcome)获取更多信息。 | 2025-02-06 00:00:00 |
+| 什么是扣子 | 扣子是字节推出的智能体开发平台。 你可以查看[欢迎来到扣子](https://www.coze.cn/docs/guides/welcome)获取更多信息。 | 2025-02-06 00:00:00 |
+

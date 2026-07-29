@@ -56,7 +56,7 @@ tags:
 | **时间** | **内容** | **课前要求或课后作业** | 讲师 |
 | --- | --- | --- | --- |
 | **12/4 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV1Dui9YAEyy/)**）** | **微信超级AI知识助手教学（上）**   - 个人助手工作流搭建教学及接入准备 | [【课程资源包领取】](https://qgcxagum9h.feishu.cn/share/base/form/shrcn3iqiRG6sHwOYqQ6aWD31lh?iframeFrom=docx&ccm_open=iframe)【课[后作业提交](https://qgcxagum9h.feishu.cn/share/base/form/shrcnMOigAaCXraXRDUXdUHrzYe?iframeFrom=docx&ccm_open=iframe)】 | **@🌈梦飞** |
-| **12/5 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV19GiZY2EPX/)**）** | **(特别场) 智谱实时音视频通话 Videocall分享** | [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/智谱BigModel共学营第二期：超级AI助理打造计划/【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理/【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理\|【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理]] | **@蒋伟豪** |
+| **12/5 20:00****（**[**直播回放**](https://www.bilibili.com/video/BV19GiZY2EPX/)**）** | **(特别场) 智谱实时音视频通话 Videocall分享** | [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/智谱BigModel共学营第二期：超级AI助理打造计划/【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理/【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理|【BigModel共学营特别场】智谱音视频通话模型大揭秘：探秘“怪吓人”背后的大模型技术原理]] | **@蒋伟豪** |
 | **12/10 20:00****（直播回放）** | **(特别场) 多Agent案例教学：智谱BigModel开放平台工作流** |  | **@🌈梦飞****@张雨萌** |
 | **12/11 20:00****（直播回放）** | **微信超级AI知识助手教学（下）**  - 个人助手的微信多模态接入教学 |  | **@🌈梦飞** |
 

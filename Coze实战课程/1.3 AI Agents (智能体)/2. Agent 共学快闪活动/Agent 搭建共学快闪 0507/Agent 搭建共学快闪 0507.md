@@ -212,7 +212,7 @@ PS：
 | https://www.coze.cn/store/bot/7366129228892995599?bot_id=true（国内）https://www.coze.com/store/bot/7366214663111540744?bot_id=true（海外） | 会计女友语音记账，AI 会计女友，自动分析，提供专业省钱意见 ~（海外coze版支持截图记账） | 初丁 |
 | https://www.coze.cn/store/bot/7373089743787114535?bot_id=true | “给她拍写真”的BOT，实现了风格、人物的一致性 | 无何有老田 |
 | https://www.coze.cn/s/i2aHsER3/ | 一起来用猫叔的SOP创作剧本：SOP: 创意->剧本大纲 ->规划角色-> 镜头风格 -> 剧本节拍表 -> 详细剧本 -> 创建分镜 -> 细化分镜 | Stuart |
-| [[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0523/比赛组队表/比赛组队表\|比赛组队表]] | 第二期coze共学快闪比赛作品 | 共创 |
+| [[_数据表/比赛组队表|比赛组队表]] | 第二期coze共学快闪比赛作品 | 共创 |
 |  |  |  |
 |  |  |  |
 ^ 原表含合并单元格，Markdown 无法表达，已按拆分呈现

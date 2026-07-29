@@ -49,7 +49,7 @@ https://www.feishu.cn/calendar/share/calendar?token=10zodaOsIB69toylqxc6WNf8XQ0_
 | 6月19日20:00开始 | 从零到一，搭建微信机器人[回放](https://waytoagi.feishu.cn/minutes/obcn1i96r2l752u953469371?from=from_copylink) | 0基础小白 | 张梦飞 | 小元 | 金永勋、奥伏 |
 | 6月20日20:00开始 | Coze接入、构建你的智能微信助手[回放](https://waytoagi.feishu.cn/minutes/obcn17nfy3a4hurcypr9hef1?from=from_copylink) | 完成第一课 | 张梦飞 | 吕昭波 | 安仔、阿飞 |
 | 6月23日20:00开始 | 微信机器人插件拓展教学[回放](https://waytoagi.feishu.cn/minutes/obcn398zlt5596i4k4qy25ni) | 完成第一课 | 张梦飞 | 安仔大雨 | 空心菜、AYBIAO、阿飞 |
-| 6月24日20:00开始 | 虚拟女友“李洛云”开发者自述[回放](https://waytoagi.feishu.cn/minutes/obcn4x2mn9b2k9793cu3s757)[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/「共学快闪第三期」一起搭建「微信机器人」活动 2024年6月24日/皮皮：你的微信虚拟女友 - 李洛云\|皮皮：你的微信虚拟女友 - 李洛云]] | 完成第一课 | 皮皮 | 安仔 |  |
+| 6月24日20:00开始 | 虚拟女友“李洛云”开发者自述[回放](https://waytoagi.feishu.cn/minutes/obcn4x2mn9b2k9793cu3s757)[[1.3 AI Agents (智能体)/2. Agent 共学快闪活动/Agent 搭建共学快闪 0619/「共学快闪第三期」一起搭建「微信机器人」活动 2024年6月24日/皮皮：你的微信虚拟女友 - 李洛云|皮皮：你的微信虚拟女友 - 李洛云]] | 完成第一课 | 皮皮 | 安仔 |  |
 | 6月25日20:00开始 | FastGPT：“本地版coze"部署教学[回放](https://waytoagi.feishu.cn/minutes/obcn5mw9x8jwt5162hkwwaam) | 完成第一课 | 张梦飞 | 银海 | 金永勋、AYBIAO |
 | 6月27日20:00开始 | Hook机制的机器人使用和部署教学[回放](https://waytoagi.feishu.cn/minutes/obcn6zu4f361xtv47s5z5v6l?from=from_copylink) | 0基础小白一台Windows 10以上系统的电脑 | 张梦飞 | Stuart | 阿飞、空心菜 |
 
