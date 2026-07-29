@@ -1,0 +1,9 @@
+[
+  {"type":"text","name":"主题名称","description":"长期问题、责任领域、项目或输出方向"},
+  {"type":"select","name":"类型","multiple":false,"options":[{"name":"项目","hue":"Red"},{"name":"领域","hue":"Blue"},{"name":"主题","hue":"Purple"},{"name":"输出","hue":"Green"}]},
+  {"type":"select","name":"状态","multiple":false,"options":[{"name":"活跃","hue":"Green"},{"name":"孵化","hue":"Yellow"},{"name":"暂停","hue":"Gray"},{"name":"归档","hue":"Blue"}]},
+  {"type":"text","name":"核心问题"},
+  {"type":"text","name":"目标成果"},
+  {"type":"text","name":"判断标准"},
+  {"type":"updated_at","name":"更新时间","style":{"format":"yyyy-MM-dd HH:mm"}}
+]

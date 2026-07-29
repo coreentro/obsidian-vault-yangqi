@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "load_id": "search-index-load-001-2026-07-15",
+  "created_at": "2026-07-15T08:26:34.316202+00:00",
+  "document_total": 25,
+  "fts_total": 25,
+  "records": [
+    {
+      "asset_id": "asset-0bcb7e0558d0b81d8cdce72b",
+      "title": "Apple小火箭跳过开屏广告 | ALLBS",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-0bcb7e0558d0b81d8cdce72b",
+      "source_text_sha256": "9dd6bcb245e26dce45d28b82792d7aac82f2db22970a453a3deaf913cad6cc81",
+      "source_text_chars": 2817
+    },
+    {
+      "asset_id": "asset-0c87fad3607dc32ece70889b",
+      "title": "如何增强自己搜索的能力 ｜ 千玄洞",
+      "platform": "chrome",
+      "topics": [],
+      "evidence_ref": "data/evidence/asset-0c87fad3607dc32ece70889b",
+      "source_text_sha256": "1e4bacff3ea26aaa13a259ddafaa176573316f0d0cb752c5170d0822f987e5ac",
+      "source_text_chars": 1005
+    },
+    {
+      "asset_id": "asset-11d3f28d09d31e295efc6490",
+      "title": "基础化学教程（无机与分析化学）（第三版）",
+      "platform": "chrome",
+      "topics": [
+        "化学",
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-11d3f28d09d31e295efc6490",
+      "source_text_sha256": "ae2441e73708f0264072d0ef893401bc3e5f989d8e285a649333fb6ada326071",
+      "source_text_chars": 706
+    },
+    {
+      "asset_id": "asset-19a6df6500a244cd99dd062c",
+      "title": "Augmenting Human Intellect: A Conceptual Framework - 1962 (AUGMENT,3906,) - Doug Engelbart Institute",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-19a6df6500a244cd99dd062c",
+      "source_text_sha256": "daa6dc5779a9501da1d6698fa7d49b4c03897ae46c4d1c72bf088021fdc61073",
+      "source_text_chars": 294353
+    },
+    {
+      "asset_id": "asset-1a11291009d3ed0e17b581c5",
+      "title": "Zotero 插件商店 | Zotero 中文社区",
+      "platform": "edge",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-1a11291009d3ed0e17b581c5",
+      "source_text_sha256": "842cf362e889091e5b23cb644fd0ad54554ed0d491646c3cabdc65ba7d189847",
+      "source_text_chars": 361
+    },
+    {
+      "asset_id": "asset-2ead5662b517f5cff3707296",
+      "title": "考研资料到底去哪里找？ | LUCEN",
+      "platform": "chrome",
+      "topics": [],
+      "evidence_ref": "data/evidence/asset-2ead5662b517f5cff3707296",
+      "source_text_sha256": "ca2b465618264d0eda81eb3fa8017e22455ee48d5296371f22d5828300f73582",
+      "source_text_chars": 152
+    },
+    {
+      "asset_id": "asset-336f52e86205f9b593b369f9",
+      "title": "GitHub - kjfx/QuantumultX: Quantumult X 新手入门教程",
+      "platform": "chrome",
+      "topics": [
+        "研究",
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-336f52e86205f9b593b369f9",
+      "source_text_sha256": "70e72f37221ce8a91be927e0aff851a08538b470cba295a14452dc9fde71db99",
+      "source_text_chars": 8791
+    },
+    {
+      "asset_id": "asset-44a48b5b68dcfd25b12b762d",
+      "title": "Ogden's Basic English · 850 词学习手册",
+      "platform": "chrome",
+      "topics": [],
+      "evidence_ref": "data/evidence/asset-44a48b5b68dcfd25b12b762d",
+      "source_text_sha256": "6ab41a9264188ca4d9c0759012becdc91f9a7fb09dce440c259824deadbd1f77",
+      "source_text_chars": 756
+    },
+    {
+      "asset_id": "asset-504fba0d92e5635b6e3c2352",
+      "title": "Amiya的书桌 - 笔记、项目和一点日常折腾 | Amiya's Desk",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-504fba0d92e5635b6e3c2352",
+      "source_text_sha256": "97bc08d46fc4da3001a3ef6b2359da3579d3dca57607ae07e23edcce1c75732f",
+      "source_text_chars": 4326
+    },
+    {
+      "asset_id": "asset-599e5267b99041c782ddc73d",
+      "title": "7 Best AI Subreddits in 2025 (38+ Considered)",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-599e5267b99041c782ddc73d",
+      "source_text_sha256": "02526195dbe3ebc743200dea7ef2f0591ede19a037cee1da5a126bf6dd3d45c9",
+      "source_text_chars": 1740
+    },
+    {
+      "asset_id": "asset-5bb9839563add9e71e56ca1c",
+      "title": "Zotero 中文社区",
+      "platform": "edge",
+      "topics": [
+        "研究",
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-5bb9839563add9e71e56ca1c",
+      "source_text_sha256": "48007116455baf0079064a2c1907e73d98742511f35340b2f72b6b81a037bf1a",
+      "source_text_chars": 4476
+    },
+    {
+      "asset_id": "asset-5d9cc1f0c369925c9c338cd2",
+      "title": "考研云-分享考研资料真题及考研笔记 - A姐分享",
+      "platform": "chrome",
+      "topics": [
+        "研究",
+        "人工智能",
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-5d9cc1f0c369925c9c338cd2",
+      "source_text_sha256": "aefc12ad00f507cb1a71e3a6cf6ee0b4aa6eccadc67aa5c078ecfcc637765f12",
+      "source_text_chars": 2702
+    },
+    {
+      "asset_id": "asset-6186bf6f78c6abea02b5ef15",
+      "title": "Edge.org",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-6186bf6f78c6abea02b5ef15",
+      "source_text_sha256": "de5588c6e763c009e1940914ceff67f4a5664d071ede6b7147eb5c413d4de944",
+      "source_text_chars": 24158
+    },
+    {
+      "asset_id": "asset-61cea58dba4763e0f72141ea",
+      "title": "大佬论坛 - 全球域名论坛、域名交易与投资交流社区",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-61cea58dba4763e0f72141ea",
+      "source_text_sha256": "6626446321c4553ddc5b0465cdacb8cddde47e6e979a5d36959178f3ab9978f0",
+      "source_text_chars": 5201
+    },
+    {
+      "asset_id": "asset-6316ea847d68aef16976de75",
+      "title": "vps解锁Gemini、ChatGPT、Netflix等网站教程 · Alvin9999-newpac/fanqiang Wiki · GitHub",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-6316ea847d68aef16976de75",
+      "source_text_sha256": "ee51e557f148f4db1feb081f37c288764e2fab17e651fb156a0c002770f17315",
+      "source_text_chars": 10123
+    },
+    {
+      "asset_id": "asset-700f77c332f64cc6421c0954",
+      "title": "河北科技大学_理学院导师简介",
+      "platform": "edge",
+      "topics": [],
+      "evidence_ref": "data/evidence/asset-700f77c332f64cc6421c0954",
+      "source_text_sha256": "5ba98a98dbfeb6352a7985337329f21174e243f936dec75f03e0f0e675554498",
+      "source_text_chars": 53
+    },
+    {
+      "asset_id": "asset-810279e3a4b8b36d14f4a6c2",
+      "title": "去广告",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-810279e3a4b8b36d14f4a6c2",
+      "source_text_sha256": "2693ff37791abaf27e79537539bb4658eca2a5544da91358099e3f9096ddf708",
+      "source_text_chars": 6588
+    },
+    {
+      "asset_id": "asset-9ae74664798381c8b8c5a254",
+      "title": "Way to AGI | 通往AGI之路",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-9ae74664798381c8b8c5a254",
+      "source_text_sha256": "64f0384ee0e2703cb40d447c31ac99e0532afe8a3cd749057603558ce117de5e",
+      "source_text_chars": 107
+    },
+    {
+      "asset_id": "asset-b11d5e7a945d4011c52048c6",
+      "title": "Cool Papers - Immersive Paper Discovery",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-b11d5e7a945d4011c52048c6",
+      "source_text_sha256": "10b3e0a91fb7abae4dcb66fd8d7250d6822ed266d48c7593aadcb87aacad2888",
+      "source_text_chars": 43220
+    },
+    {
+      "asset_id": "asset-b67c2a52161c34ac6f51f353",
+      "title": "研究生招生信息网",
+      "platform": "chrome",
+      "topics": [
+        "化学",
+        "实验",
+        "研究",
+        "人工智能",
+        "马克思主义"
+      ],
+      "evidence_ref": "data/evidence/asset-b67c2a52161c34ac6f51f353",
+      "source_text_sha256": "63cc654ae82a530a1f7a4a6a7ab61b01b182d4b71a827675f66b6a80081927b5",
+      "source_text_chars": 2455
+    },
+    {
+      "asset_id": "asset-b8968c57db653694607dfcc3",
+      "title": "秋风广告规则",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-b8968c57db653694607dfcc3",
+      "source_text_sha256": "f6ffc37eafdfdde006954eb54e080172ec1a7dd25925dd0bb83d218aef7d90c6",
+      "source_text_chars": 348
+    },
+    {
+      "asset_id": "asset-cac8fb12fe5455e36da70fa6",
+      "title": "有了这八个网站，帮你找到90%的电子书 - 夜半春风 - 简书",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-cac8fb12fe5455e36da70fa6",
+      "source_text_sha256": "b21ef0aed02a377abe04de678451ab68d3aa1f5f4b13555e7fdd4a807c898850",
+      "source_text_chars": 2204
+    },
+    {
+      "asset_id": "asset-dc46bec09e9e39c508c200ba",
+      "title": "FREEMEDIAHECKYEAH · fmhy/FMHY Wiki · GitHub",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-dc46bec09e9e39c508c200ba",
+      "source_text_sha256": "7ca22444cff06740e5873849ca76991734c877aad4af58c061b05d6b608dc49d",
+      "source_text_chars": 6198
+    },
+    {
+      "asset_id": "asset-eab42840a8ce3d43baaf6d05",
+      "title": "写给未来的自己，一个充满情怀的网站 -- 时光邮局 | Jack‘s Space",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-eab42840a8ce3d43baaf6d05",
+      "source_text_sha256": "040e5730a3bac5786dfecdc44f13e3e92f21b3b10b062bad4a778bfc5f76110e",
+      "source_text_chars": 1390
+    },
+    {
+      "asset_id": "asset-f20a783812eaea82f98d8239",
+      "title": "虫部落 - 让搜索更简单",
+      "platform": "chrome",
+      "topics": [
+        "AI"
+      ],
+      "evidence_ref": "data/evidence/asset-f20a783812eaea82f98d8239",
+      "source_text_sha256": "2eef092f45746dd75d0f58157799c9b27e96fe1e7797db3cd9e55fe5acff0fe6",
+      "source_text_chars": 2714
+    }
+  ],
+  "policy": "Full source.md text is indexed without truncation; the index is derived and never replaces evidence packages."
+}

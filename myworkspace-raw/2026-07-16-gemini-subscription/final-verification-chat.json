@@ -1,0 +1,1 @@
+{"id":"S55Yap60DL7Qz7IPrqjjwQM","object":"chat.completion","created":0,"model":"gemini-3-flash","choices":[{"index":0,"message":{"role":"assistant","content":"收到","reasoning_content":null,"tool_calls":null},"finish_reason":"stop","native_finish_reason":"stop"}],"usage":{"completion_tokens":1,"total_tokens":84,"prompt_tokens":83}}

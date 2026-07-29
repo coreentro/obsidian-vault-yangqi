@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="com.google.drivefs.shortcuts" postinstall-action="none" version="127.0.1.0" format-version="2" generator-version="InstallCmds-864 (25D125)" install-location="/Applications" auth="root">
+    <payload numberOfFiles="22" installKBytes="97"/>
+    <bundle path="./Google Slides.app" id="com.google.drivefs.shortcuts.slides" CFBundleShortVersionString="127.0" CFBundleVersion="127.0.0"/>
+    <bundle path="./Google Sheets.app" id="com.google.drivefs.shortcuts.sheets" CFBundleShortVersionString="127.0" CFBundleVersion="127.0.0"/>
+    <bundle path="./Google Docs.app" id="com.google.drivefs.shortcuts.docs" CFBundleShortVersionString="127.0" CFBundleVersion="127.0.0"/>
+    <bundle-version>
+        <bundle id="com.google.drivefs.shortcuts.slides"/>
+        <bundle id="com.google.drivefs.shortcuts.sheets"/>
+        <bundle id="com.google.drivefs.shortcuts.docs"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="com.google.drivefs.shortcuts.slides"/>
+        <bundle id="com.google.drivefs.shortcuts.sheets"/>
+        <bundle id="com.google.drivefs.shortcuts.docs"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="com.google.drivefs.shortcuts.slides"/>
+        <bundle id="com.google.drivefs.shortcuts.sheets"/>
+        <bundle id="com.google.drivefs.shortcuts.docs"/>
+    </strict-identifier>
+    <relocate/>
+</pkg-info>

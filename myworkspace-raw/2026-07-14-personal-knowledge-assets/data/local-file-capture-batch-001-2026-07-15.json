@@ -1,0 +1,95 @@
+{
+  "allowlist": "data/local-file-read-allowlist-2026-07-15-v001.json",
+  "assessment": "data/local-file-content-assessment-2026-07-15-v001.json",
+  "captured_total": 5,
+  "created_at": "2026-07-15T18:45:00+08:00",
+  "ledger_assets_in_batch": 5,
+  "results": [
+    {
+      "asset_id": "asset-b949dc8a2ee124c6e5438e39",
+      "candidate_id": "mac-current-local:item:00000870",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-b949dc8a2ee124c6e5438e39",
+      "source_byte_length": 5999,
+      "source_path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/Obsidian Vault/GitHub Trending/2026-05-31.md",
+      "source_sha256": "bd53583223b80c8d5dd81c94ee5a65c925191619a1b2a5a12de86198aa58ed09",
+      "title": "GitHub Trending - 2026-05-31",
+      "topics": [
+        "github",
+        "open-source",
+        "ai-tools",
+        "technology-discovery"
+      ],
+      "value_score": 78
+    },
+    {
+      "asset_id": "asset-72f8e8b03fc10d4e9cf22fff",
+      "candidate_id": "mac-current-local:item:00000983",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-72f8e8b03fc10d4e9cf22fff",
+      "source_byte_length": 3354,
+      "source_path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/自动发推/README.md",
+      "source_sha256": "ba7b2829d0f2b3e9adfdba7e7c1106b37c19736f3e0ca4b9115455b4659b647c",
+      "title": "自动发推：可检查的 X 线程资产流程",
+      "topics": [
+        "content-workflow",
+        "x",
+        "automation",
+        "risk-control"
+      ],
+      "value_score": 86
+    },
+    {
+      "asset_id": "asset-52eb7b045a611f8c337add2c",
+      "candidate_id": "mac-current-local:item:00001013",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-52eb7b045a611f8c337add2c",
+      "source_byte_length": 1694,
+      "source_path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/自动发推/posts/example-codex-x-assets.md",
+      "source_sha256": "52ac44fada4f2ab75ea122528267a0651cd1e680b3ada1b4337cf33f4693506f",
+      "title": "Codex 不只是写代码",
+      "topics": [
+        "codex",
+        "content-assets",
+        "workflow",
+        "reuse"
+      ],
+      "value_score": 84
+    },
+    {
+      "asset_id": "asset-144f4039c0c4d4f1e4f2d0fe",
+      "candidate_id": "mac-current-local:item:00001014",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-144f4039c0c4d4f1e4f2d0fe",
+      "source_byte_length": 2577,
+      "source_path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/自动发推/posts/github-spec-kit-trending.md",
+      "source_sha256": "5c5ea8a5df5ab806a5752d40cfe8f1282c0a7e7a56067a0d3d95b58fb614ef72",
+      "title": "spec-kit：AI 编程从感觉走向规格",
+      "topics": [
+        "ai-coding",
+        "specification",
+        "software-process",
+        "production-relations"
+      ],
+      "value_score": 91
+    },
+    {
+      "asset_id": "asset-7fc8c1d273f1082896a32c55",
+      "candidate_id": "mac-current-local:item:00001290",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-7fc8c1d273f1082896a32c55",
+      "source_byte_length": 1809,
+      "source_path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/飞书自动播放课程/README.md",
+      "source_sha256": "33d8e39aa34ea34078bc1e495cd75df73c06fb9ddb37d340472a5c383cfebbba",
+      "title": "飞书课程顺序播放器",
+      "topics": [
+        "browser-automation",
+        "feishu",
+        "learning-workflow",
+        "safety-boundaries"
+      ],
+      "value_score": 74
+    }
+  ],
+  "schema_version": 1
+}

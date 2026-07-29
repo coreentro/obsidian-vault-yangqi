@@ -1,0 +1,522 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Apple小火箭跳过开屏广告 | 共赴良策</title><meta name="author" content="programApe"><meta name="copyright" content="programApe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="说明 之前发过一篇文章说明Apple跳过广告的方法，主要是讲了surge，小火箭一笔带过。结果下面很多人反馈规则不生效，所以今天我就使用小火箭来试一下并说明使用方法。 首先我要说的是，之前分享的规则并不是所有app都能生效！因为作者写的规则肯定不会覆盖到所有app的，如果需要不存在里面的需要自己去单独找或者自己写。我这边是建议用圈X，相对而言用的人较多，规则也较全。 使用方式 首先打开https解">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Apple小火箭跳过开屏广告">
+<meta property="og:url" content="https://blog.allbs.cn/posts/10392/">
+<meta property="og:site_name" content="共赴良策">
+<meta property="og:description" content="说明 之前发过一篇文章说明Apple跳过广告的方法，主要是讲了surge，小火箭一笔带过。结果下面很多人反馈规则不生效，所以今天我就使用小火箭来试一下并说明使用方法。 首先我要说的是，之前分享的规则并不是所有app都能生效！因为作者写的规则肯定不会覆盖到所有app的，如果需要不存在里面的需要自己去单独找或者自己写。我这边是建议用圈X，相对而言用的人较多，规则也较全。 使用方式 首先打开https解">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://nas.allbs.cn:8888/cloudpic/2024/07/b1b440c6bfadcba6981abbedade21c4b.png">
+<meta property="article:published_time" content="2024-06-23T05:23:00.000Z">
+<meta property="article:modified_time" content="2026-05-01T10:09:36.447Z">
+<meta property="article:author" content="programApe">
+<meta property="article:tag" content="苹果">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://nas.allbs.cn:8888/cloudpic/2024/07/b1b440c6bfadcba6981abbedade21c4b.png"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://blog.allbs.cn/posts/10392/"><link rel="preconnect" href="//cdnjs.cloudflare.com"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="T6ZMYZX7A8_xsTJVQUaPAswrWCbW_5l0KE0XJKu-xWg"/><meta name="baidu-site-verification" content="codeva-gpynZZYOaV"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+          
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-7910418085725456',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?998d35610acc422fe4f042b99c8e656a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-FTGVH7W6K1"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-FTGVH7W6K1')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-FTGVH7W6K1', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;e6bbf4b1739248448fed8caeb0f2f84d&quot;}"></script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "py5zz6180o");</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400,"highlightFullpage":true,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":150,"languages":{"author":"作者: programApe","link":"链接: ","source":"来源: 共赴良策","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdnjs.cloudflare.com/ajax/libs/egjs-infinitegrid/4.12.0/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Apple小火箭跳过开屏广告',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/custom/progress_bar.css"><link rel="stylesheet" href="/css/volantis.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="/css/custom/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/custom/swiperstyle.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><link rel="alternate" href="/atom.xml" title="共赴良策" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src= "/img/loading.gif" data-lazy-src="/img/avater.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">177</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">158</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">37</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 相关链接</span></a></div><div class="menus_item"><a class="site-page" href="/message-board/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://nas.allbs.cn:8888/cloudpic/2024/07/b1b440c6bfadcba6981abbedade21c4b.png')"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">共赴良策</span></a><a class="nav-page-title" href="/"><span class="site-name">Apple小火箭跳过开屏广告</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 相关链接</span></a></div><div class="menus_item"><a class="site-page" href="/message-board/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Apple小火箭跳过开屏广告</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2024-06-23T05:23:00.000Z" title="发表于 2024-06-23 13:23:00">2024-06-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">439</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="说明">说明</h2>
+<p>之前发过一篇文章说明Apple跳过广告的方法，主要是讲了surge，小火箭一笔带过。结果下面很多人反馈规则不生效，所以今天我就使用小火箭来试一下并说明使用方法。</p>
+<p>首先我要说的是，之前分享的规则并不是所有app都能生效！因为作者写的规则肯定不会覆盖到所有app的，如果需要不存在里面的需要自己去单独找或者自己写。我这边是建议用圈X，相对而言用的人较多，规则也较全。</p>
+<h2 id="使用方式">使用方式</h2>
+<h3 id="首先打开https解密">首先打开https解密</h3>
+<p>我是一开始就使用了https解密，并没有试验过是不是一定要https解密。实际上当我关闭https解密时跳过广告也能生效，但是留言有小伙伴提醒需要，那我就加上https解密的配置，作为保险手段。<br>
+打开方式：<br>
+配置-&gt;右上角+号，导入下列url<br>
+<a target="_blank" rel="noopener external nofollow noreferrer" href="https://whatshub.top/config/shadowrocket_basic.conf">https://whatshub.top/config/shadowrocket_basic.conf</a></p>
+<p>导入完成后，点击新增的本地配置<code>shadowrocket_basic.conf</code>点击<code>使用配置</code>按钮。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/8646ba73915fca3d5b9a8477969d4605.png" alt="image.png"></p>
+<p>点击配置文件<code>https解密</code>按钮。<br>
+<img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/7ccf5ec982587e15ff77ef447014a7cc.png" alt="image.png"></p>
+<p>打开https解密按钮<br>
+<img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/886edeee658af0f90e848933b980a253.png" alt="image.png"></p>
+<p>安装证书<br>
+<img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/fa38d28460dd8a64ff69377cf557e685.png" alt="1720253919539.png"></p>
+<p>在iphone中的<code>设置</code>-&gt;<code>通用</code>-&gt;<code>VPN与设备管理</code>中安装证书</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/b1b440c6bfadcba6981abbedade21c4b.png" alt="1720254017067.png"></p>
+<h3 id="配置文件-模块-导入">配置文件-&gt;模块-&gt;导入</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/11ff75e8d37fbc30e106fa8074d0ae6a.png" alt="image.png"></p>
+<h3 id="通过url添加模块规则">通过url添加模块规则</h3>
+<p>url链接为:</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://whatshub.top/module/adultraplus.module">https://whatshub.top/module/adultraplus.module</a></p>
+<p>等到一会添加完成之后会有弹框提示，然后确保出现如下界面，APP启动页去广告ultra+旁边勾上。<br>
+<img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/ede5682ac5b47199111b3896a6d6dc7d.png" alt="image.png"></p>
+<h3 id="启用规则">启用规则</h3>
+<p>注意下方的全局路由选择<code>配置</code>,然后上方小火箭那开关要打开。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/4b0edad1fdace1c3c5417370108fd598.jpg" alt="3ab0e737eb81605dffce11ef736d6ff.jpg"></p>
+<h2 id="使用效果，以知乎app为例">使用效果，以知乎app为例</h2>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1DZhoeEEUi&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
+</div>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.allbs.cn">programApe</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.allbs.cn/posts/10392/">https://blog.allbs.cn/posts/10392/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://blog.allbs.cn" target="_blank">共赴良策</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%8B%B9%E6%9E%9C/">苹果</a></div><div class="post-share"><div class="social-share" data-image="https://nas.allbs.cn:8888/cloudpic/2024/07/b1b440c6bfadcba6981abbedade21c4b.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.4/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.4/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/zfb.png" target="_blank"><img class="post-qr-code-img" src= "/img/loading.gif" data-lazy-src="/img/zfb.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li><li class="reward-item"><a href="/img/wx.png" target="_blank"><img class="post-qr-code-img" src= "/img/loading.gif" data-lazy-src="/img/wx.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/qq.png" target="_blank"><img class="post-qr-code-img" src= "/img/loading.gif" data-lazy-src="/img/qq.png" alt="qq"/></a><div class="post-qr-code-desc">qq</div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/7969/" title="苹果手机跳过APP开屏广告的办法"><img class="cover" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/06/866b2edf197791ccd3d9be6f74d85c7a.png" onerror="onerror=null;src='/img/404.png'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">苹果手机跳过APP开屏广告的办法</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/posts/56291/" title="DNF私服"><img class="cover" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/06/367acdcc539aac6f1df4b66aaf410c5c.png" onerror="onerror=null;src='/img/404.png'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">DNF私服</div></div><div class="info-2"><div class="info-item-1">效果 注册         windows启动一个centerOS服务器作为服务端，有现成服务器的忽略这一步。 CenterOS下载地址 https://app.vagrantup.com/centos/boxes/7 windows中启动一个CenterOS虚拟机  虚拟机有线连接并ifconfig查看ip  前置操作（使用CenterOS服务器） 先升级yum源 1yum update -y  下载docker安装脚本 1curl -fsSL https://get.docker.com -o get-docker.sh 运行安装docker的脚本 1sudo sh get-docker.sh  启动docker 12systemctl enable dockersystemctl restart docker 关闭防火墙 12systemctl disable firewalldsystemctl stop firewalld  关闭selinux 1sudo sed -i &#x27;s/SELINUX=enforcing/SELINUX=disabled/&#x27;...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/61666/" title="苹果手机通过Loon跳过app开屏广告的教程"><img class="cover" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/24ab8e37c1c3636055c15b5b6872aed9.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-11</div><div class="info-item-2">苹果手机通过Loon跳过app开屏广告的教程</div></div><div class="info-2"><div class="info-item-1">视频 直接看视频就够了，如果有不清楚的看下面的图文教程。b站视频被举报下架了，所以就直接放了，但是因为服务器带宽小，所以可能会卡😂 (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://nas.allbs.cn:8888/cdn/video/loon跳广告.mp4","pic":"./img/loon.png"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() 图文教程 下载 需要使用apple的外区账号，官网注册可以跳过绑定支付方式。需要5.99美刀。  生成并安装证书 在设置 -&gt; MitM的证书管理点击生成新的证书  安装证书 在iphone的设置 -&gt; 通用 -&gt;VPN与设备管理  信任证书 在设置 -&gt; 通用 -&gt;...</div></div></div></a><a class="pagination-related" href="/posts/7969/" title="苹果手机跳过APP开屏广告的办法"><img class="cover" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/06/866b2edf197791ccd3d9be6f74d85c7a.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-06-23</div><div class="info-item-2">苹果手机跳过APP开屏广告的办法</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/posts/12082/" title="苹果手机通过圈X跳过app开屏广告的教程"><img class="cover" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/9686e265ebcaaf0187ad58c18c53a529.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-09</div><div class="info-item-2">苹果手机通过圈X跳过app开屏广告的教程</div></div><div class="info-2"><div class="info-item-1">之前做了小火箭和surge的跳过教程，有小伙伴提出想要看圈X的，反正不差这一个就顺带做了下。具体用法如下: 操作视频 这是录得操作视频，可以直接跟着操作即可，有不清楚得可以看下面文字说明。本来是放b站想白嫖带宽的，可是被举报下架了，关键给的理由还很奇怪，说是分享出来大家都没法用了，这玩意本来就没在国区上架啊😂 (function(){var player = new...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src= "/img/loading.gif" data-lazy-src="/img/avater.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">programApe</div><div class="author-info-description">为面向未来的通用的、广泛的知识共创而努力<br /> For a Future-Focused Universal Knowledge</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">177</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">158</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">37</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/chenqi92"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="mailto:cq92104@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=1034855312&amp;website=www.oicqzone.com" rel="external nofollow noreferrer" target="_blank" title=""><i class="fab fa-qq"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS链接"><i class="fa fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><div class="aside-yuanyin" style="text-align:center;">
+  <a href="https://apps.apple.com/cn/app/%E7%8C%BF%E9%9F%B3/id6761675450" target="_blank" rel="noopener external nofollow noreferrer" style="display:inline-flex;align-items:center;text-decoration:none;color:inherit;">
+    <img src= "/img/loading.gif" data-lazy-src="/img/yuanyin/icon.png" alt="猿音" style="width:56px;height:56px;border-radius:13px;margin-right:10px;box-shadow:0 2px 8px rgba(0,0,0,.15);">
+    <span style="text-align:left;line-height:1.3;">
+      <strong style="font-size:15px;">猿音 · iOS 音乐播放器</strong><br>
+      <span style="font-size:12px;color:#888;">NAS 串流 / 刮削 / 歌词 / 无缝播放</span>
+    </span>
+  </a>
+  <div style="margin-top:10px;">
+    <a href="https://apps.apple.com/cn/app/%E7%8C%BF%E9%9F%B3/id6761675450" target="_blank" rel="noopener external nofollow noreferrer">
+      <img src= "/img/loading.gif" data-lazy-src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-CN" alt="Download on the App Store" style="height:36px;">
+    </a>
+  </div>
+</div>
+<hr style="margin:12px 0;opacity:.25;">
+<div style="text-align:center;font-size:13px;color:#888;margin-bottom:6px;">公众号</div>
+<div class="aside-qrcode" style="text-align:center;">
+  <img src= "/img/loading.gif" data-lazy-src="/img/gzh.jpg" title="公众号" style="max-width:120px;">
+</div>
+</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">使用方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A6%96%E5%85%88%E6%89%93%E5%BC%80https%E8%A7%A3%E5%AF%86"><span class="toc-number">2.1.</span> <span class="toc-text">首先打开https解密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%E6%A8%A1%E5%9D%97-%E5%AF%BC%E5%85%A5"><span class="toc-number">2.2.</span> <span class="toc-text">配置文件-&gt;模块-&gt;导入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9A%E8%BF%87url%E6%B7%BB%E5%8A%A0%E6%A8%A1%E5%9D%97%E8%A7%84%E5%88%99"><span class="toc-number">2.3.</span> <span class="toc-text">通过url添加模块规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E7%94%A8%E8%A7%84%E5%88%99"><span class="toc-number">2.4.</span> <span class="toc-text">启用规则</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C%EF%BC%8C%E4%BB%A5%E7%9F%A5%E4%B9%8Eapp%E4%B8%BA%E4%BE%8B"><span class="toc-number">3.</span> <span class="toc-text">使用效果，以知乎app为例</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/a25652de/" title="spring boot项目excel导出功能封装——5.导入带进度以及忽略错误"><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2025/11/40e798a0435e6a58a42a2aee0afe7d28.png" onerror="this.onerror=null;this.src='/img/404.png'" alt="spring boot项目excel导出功能封装——5.导入带进度以及忽略错误"/></a><div class="content"><a class="title" href="/posts/a25652de/" title="spring boot项目excel导出功能封装——5.导入带进度以及忽略错误">spring boot项目excel导出功能封装——5.导入带进度以及忽略错误</a><time datetime="2025-11-28T01:25:00.000Z" title="发表于 2025-11-28 09:25:00">2025-11-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/21df7403/" title="spring boot项目excel导出功能封装——4.导入"><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2025/11/a4b803d16ee77bab8ad1cc1ba4b5b527.png" onerror="this.onerror=null;this.src='/img/404.png'" alt="spring boot项目excel导出功能封装——4.导入"/></a><div class="content"><a class="title" href="/posts/21df7403/" title="spring boot项目excel导出功能封装——4.导入">spring boot项目excel导出功能封装——4.导入</a><time datetime="2025-11-27T01:25:00.000Z" title="发表于 2025-11-27 09:25:00">2025-11-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/7b968d43/" title="spring boot项目excel导出功能封装——3.图表导出"><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2025/11/3f75e57ddc1b22ee9401a03e216ebd5f.png" onerror="this.onerror=null;this.src='/img/404.png'" alt="spring boot项目excel导出功能封装——3.图表导出"/></a><div class="content"><a class="title" href="/posts/7b968d43/" title="spring boot项目excel导出功能封装——3.图表导出">spring boot项目excel导出功能封装——3.图表导出</a><time datetime="2025-11-26T01:25:00.000Z" title="发表于 2025-11-26 09:25:00">2025-11-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/819a8b7a/" title="spring boot项目excel导出功能封装——2.高级导出"><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2025/11/891a967c1ef804cd8244350322b5a174.png" onerror="this.onerror=null;this.src='/img/404.png'" alt="spring boot项目excel导出功能封装——2.高级导出"/></a><div class="content"><a class="title" href="/posts/819a8b7a/" title="spring boot项目excel导出功能封装——2.高级导出">spring boot项目excel导出功能封装——2.高级导出</a><time datetime="2025-11-25T01:25:00.000Z" title="发表于 2025-11-25 09:25:00">2025-11-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/cfe6d678/" title="spring boot项目excel导出功能封装——1.简单导出"><img src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2022/08/f50575d6a024820f182657af93faa3cb.png" onerror="this.onerror=null;this.src='/img/404.png'" alt="spring boot项目excel导出功能封装——1.简单导出"/></a><div class="content"><a class="title" href="/posts/cfe6d678/" title="spring boot项目excel导出功能封装——1.简单导出">spring boot项目excel导出功能封装——1.简单导出</a><time datetime="2025-11-24T01:25:00.000Z" title="发表于 2025-11-24 09:25:00">2025-11-24</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;2018 - 2026 By programApe</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.0-b1</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://nas.allbs.cn:8888/cdn/blog/js/utils.min.js"></script><script src="/js/main.js"></script><script src="https://nas.allbs.cn:8888/cdn/blog/js/tw_cn.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.umd.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.2.0/instantpage.min.js" type="module"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/19.1.3/lazyload.iife.min.js"></script><div class="js-pjax"><script>(async () => {
+  const showKatex = () => {
+    document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
+  }
+
+  if (!window.katex_js_css) {
+    window.katex_js_css = true
+    await btf.getCSS('https://nas.allbs.cn:8888/cdn/katex/katex.min.css')
+    if (true) {
+      await btf.getScript('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.21/contrib/copy-tex.min.js')
+    }
+  }
+
+  showKatex()
+})()</script><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = `%%{init:{ 'theme':'${theme}'}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.1/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const $chartjs = document.querySelectorAll('#article-container .chartjs-container')
+  if ($chartjs.length === 0) return
+
+  const applyThemeDefaultsConfig = theme => {
+    if (theme === 'dark-mode') {
+      Chart.defaults.color = "rgba(255, 255, 255, 0.8)"
+      Chart.defaults.borderColor = "rgba(255, 255, 255, 0.2)"
+      Chart.defaults.scale.ticks.backdropColor = "transparent"
+    } else {
+      Chart.defaults.color = "rgba(0, 0, 0, 0.8)"
+      Chart.defaults.borderColor = "rgba(0, 0, 0, 0.1)"
+      Chart.defaults.scale.ticks.backdropColor = "transparent"
+    }
+  }
+
+  // Recursively traverse the config object and automatically apply theme-specific color schemes
+  const applyThemeConfig = (obj, theme) => {
+    if (typeof obj !== 'object' || obj === null) return
+    
+    Object.keys(obj).forEach(key => {
+      const value = obj[key]
+      // If the property is an object and has theme-specific options, apply them
+      if (typeof value === 'object' && value !== null) {
+        if (value[theme]) {
+          obj[key] = value[theme] // Apply the value for the current theme
+        } else {
+          // Recursively process child objects
+          applyThemeConfig(value, theme)
+        }
+      }
+    })
+  }
+
+  const runChartJS = () => {
+    window.loadChartJS = true
+
+    Array.from($chartjs).forEach((item, index) => {
+      const chartSrc = item.firstElementChild
+      const chartID = item.getAttribute('data-chartjs-id') || ('chartjs-' + index) // Use custom ID or default ID
+      const width = item.getAttribute('data-width')
+      const existingCanvas = document.getElementById(chartID)
+
+      // If a canvas already exists, remove it to avoid rendering duplicates
+      if (existingCanvas) {
+          existingCanvas.parentNode.remove()
+      }
+
+      const chartDefinition = chartSrc.textContent
+      const canvas = document.createElement('canvas')
+      canvas.id = chartID
+
+      const div = document.createElement('div')
+      div.className = 'chartjs-wrap'
+
+      if (width) {
+        div.style.width = width
+      }
+
+      div.appendChild(canvas)
+      chartSrc.insertAdjacentElement('afterend', div)
+
+      const ctx = document.getElementById(chartID).getContext('2d')
+
+      const config = JSON.parse(chartDefinition)
+
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark-mode' : 'light-mode'
+
+      // Set default styles (initial setup)
+      applyThemeDefaultsConfig(theme)
+
+      // Automatically traverse the config and apply dual-mode color schemes
+      applyThemeConfig(config, theme)
+
+      new Chart(ctx, config)
+    })
+  }
+
+  const loadChartJS = () => {
+    window.loadChartJS ? runChartJS() : btf.getScript('https://cdnjs.cloudflare.com/ajax/libs/chart.js/4.4.8/chart.umd.min.js').then(runChartJS)
+  }
+
+  // Listen for theme change events
+  btf.addGlobalFn('themeChange', runChartJS, 'chartjs')
+  btf.addGlobalFn('encrypt', runChartJS, 'chartjs')
+
+  window.pjax ? loadChartJS() : document.addEventListener('DOMContentLoaded', loadChartJS)
+})()</script><script>(() => {
+  let initFn = window.walineFn || null
+  const isShuoshuo = GLOBAL_CONFIG_SITE.isShuoshuo
+  const option = {"placeholder":"请先查看文档再询问","pageSize":8,"lang":"zh-cn","requiredFields":["nick"]}
+
+  const destroyWaline = ele => ele.destroy()
+
+  const initWaline = (Fn, el = document, path = window.location.pathname) => {
+    const waline = Fn({
+      el: el.querySelector('#waline-wrap'),
+      serverURL: 'https://waline.allbs.cn/',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      comment: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyWaline = () => {
+        destroyWaline(waline)
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const loadWaline = (el, path) => {
+    if (initFn) initWaline(initFn, el, path)
+    else {
+      btf.getCSS('https://nas.allbs.cn:8888/cdn/waline/waline.css')
+        .then(() => import('https://nas.allbs.cn:8888/cdn/waline/waline.js'))
+        .then(({ init }) => {
+          initFn = init || Waline.init
+          initWaline(initFn, el, path)
+          window.walineFn = initFn
+        })
+    }
+  }
+
+  if (isShuoshuo) {
+    'Waline' === 'Waline'
+      ? window.shuoshuoComment = { loadComment: loadWaline } 
+      : window.loadOtherComment = loadWaline
+    return
+  }
+
+  if ('Waline' === 'Waline' || !true) {
+    if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script src="/js/sun_moon.js" async></script><script defer src="https://nas.allbs.cn:8888/cdn/jquery/jquery.min.js"></script><script src="/allbs/random.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.4/canvas-nest.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: true,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      const usePjax = true
+      true
+              ? (usePjax ? pjax.loadUrl('/404') : window.location.href = '/404')
+              : window.location.href = e.request.responseURL
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="https://nas.allbs.cn:8888/cdn/blog/js/local-search.min.js"></script></div></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('page-header');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp feature-article swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="feature-thumbnail"><a class="blog-slider__img" href="posts/12082/" alt=""><img class="ob-hz-thumbnail" width="48" height="48" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/9686e265ebcaaf0187ad58c18c53a529.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><span class="thumbnail-screen" style="background: linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%);"></span></div><div class="feature-content"><a href="posts/12082/"><h1 data-dia="article-link">苹果手机通过圈X跳过app开屏广告的教程</h1></a><p>之前做了小火箭和surge的跳过教程，有小伙伴提出想要看圈X的，反正不差这一个就顺带做了下。具体用法如下: 操作视频 这是录得操作视频，可以直接跟着操作即可，有不清楚得可以看下面文字说明。本来是放b站想白嫖带宽的，可是被举报下架了，关键给的理由还很奇怪，说是分享出来大家都没法用了，这玩意本来就没在国区上架啊😂 (function(){var player &amp;#x3D; new DPlayer({&amp;quot;container&amp;quot;:document.getElementById(&amp;quot;dplayer1&amp;quot;),&amp;quot;theme&amp;quot;</p><div class="article-footer"><div class="flex flex-row items-center"><span class="text-ob-dim"><strong class="text-ob-normal strong-swapper">创建时间 2024年07月09日</strong></span></div></div></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="feature-thumbnail"><a class="blog-slider__img" href="posts/61666/" alt=""><img class="ob-hz-thumbnail" width="48" height="48" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/24ab8e37c1c3636055c15b5b6872aed9.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><span class="thumbnail-screen" style="background: linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%);"></span></div><div class="feature-content"><a href="posts/61666/"><h1 data-dia="article-link">苹果手机通过Loon跳过app开屏广告的教程</h1></a><p>视频 直接看视频就够了，如果有不清楚的看下面的图文教程。b站视频被举报下架了，所以就直接放了，但是因为服务器带宽小，所以可能会卡😂 (function(){var player &amp;#x3D; new DPlayer({&amp;quot;container&amp;quot;:document.getElementById(&amp;quot;dplayer0&amp;quot;),&amp;quot;theme&amp;quot;:&amp;quot;#FADFA3&amp;quot;,&amp;quot;loop&amp;quot;:true,&amp;quot;video&amp;quot;:{&amp;quot;url&amp;quot;:&amp;quot;https:&amp;#x2F;&amp;#x2F;nas.allbs.cn:8888&amp;#x2F;cdn&amp;#x2F;video&amp;#x2F;loon跳广告.mp4&amp;quot;,&amp;quot;p</p><div class="article-footer"><div class="flex flex-row items-center"><span class="text-ob-dim"><strong class="text-ob-normal strong-swapper">创建时间 2024年07月11日</strong></span></div></div></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="feature-thumbnail"><a class="blog-slider__img" href="posts/10392/" alt=""><img class="ob-hz-thumbnail" width="48" height="48" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/b1b440c6bfadcba6981abbedade21c4b.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><span class="thumbnail-screen" style="background: linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%);"></span></div><div class="feature-content"><a href="posts/10392/"><h1 data-dia="article-link">Apple小火箭跳过开屏广告</h1></a><p>说明 之前发过一篇文章说明Apple跳过广告的方法，主要是讲了surge，小火箭一笔带过。结果下面很多人反馈规则不生效，所以今天我就使用小火箭来试一下并说明使用方法。 首先我要说的是，之前分享的规则并不是所有app都能生效！因为作者写的规则肯定不会覆盖到所有app的，如果需要不存在里面的需要自己去单独找或者自己写。我这边是建议用圈X，相对而言用的人较多，规则也较全。 使用方式 首先打开https解密 我是一开始就使用了https解密，并没有试验过是不是一定要https解密。实际上当我关闭http</p><div class="article-footer"><div class="flex flex-row items-center"><span class="text-ob-dim"><strong class="text-ob-normal strong-swapper">创建时间 2024年06月23日</strong></span></div></div></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="feature-thumbnail"><a class="blog-slider__img" href="posts/18006/" alt=""><img class="ob-hz-thumbnail" width="48" height="48" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/07/93fec1787f00adfca02118b223f608c3.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><span class="thumbnail-screen" style="background: linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%);"></span></div><div class="feature-content"><a href="posts/18006/"><h1 data-dia="article-link">做了一个上线就瘸腿的小程序</h1></a><p>小程序</p><div class="article-footer"><div class="flex flex-row items-center"><span class="text-ob-dim"><strong class="text-ob-normal strong-swapper">创建时间 2024年07月31日</strong></span></div></div></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="feature-thumbnail"><a class="blog-slider__img" href="posts/56291/" alt=""><img class="ob-hz-thumbnail" width="48" height="48" src= "/img/loading.gif" data-lazy-src="https://nas.allbs.cn:8888/cloudpic/2024/06/367acdcc539aac6f1df4b66aaf410c5c.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><span class="thumbnail-screen" style="background: linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%);"></span></div><div class="feature-content"><a href="posts/56291/"><h1 data-dia="article-link">DNF私服</h1></a><p>效果 注册         windows启动一个centerOS服务器作为服务端，有现成服务器的忽略这一步。 CenterOS下载地址 https:&amp;#x2F;&amp;#x2F;app.vagrantup.com&amp;#x2F;centos&amp;#x2F;boxes&amp;#x2F;7 windows中启动一个CenterOS虚拟机  虚拟机有线连接并ifconfig查看ip  前置操作（使用CenterOS服务器） 先升级yum源 1yum update -y  下载docker安装脚本 1curl -fsSL https:&amp;#x2F;&amp;#x2F;get.docker.com -</p><div class="article-footer"><div class="flex flex-row items-center"><span class="text-ob-dim"><strong class="text-ob-normal strong-swapper">创建时间 2024年06月24日</strong></span></div></div></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterend",item_html)
+    }
+  var elist = '/posts/,/about/,/categories/,/tags/,/link/,/archives/'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="/js/custom/swiper.min.js"></script><script defer data-pjax src="/js/custom/swiper_init.js"></script><!-- hexo injector body_end end --></body></html>

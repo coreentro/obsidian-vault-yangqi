@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa-worker",
+  "directions": [
+    {"degree":"000","verdict":"pass","expected":"up","observed":"up","horizontal_evidence":"鼻尖与双眼保持水平居中","vertical_evidence":"抬头且瞳孔明显上移","reason":"上向基准明确"},
+    {"degree":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","horizontal_evidence":"鼻尖、瞳孔和面部朝屏幕右侧偏移","vertical_evidence":"下巴抬起且视线向上","reason":"两轴清楚并承接000"},
+    {"degree":"045","verdict":"pass","expected":"up-right","observed":"up-right","horizontal_evidence":"头部右转且鼻尖、瞳孔位于头部中心右侧","vertical_evidence":"抬头与上视清楚","reason":"右上象限明确"},
+    {"degree":"067.5","verdict":"pass","expected":"up-right","observed":"up-right","horizontal_evidence":"右侧脸轮廓增多且鼻尖朝屏幕右侧","vertical_evidence":"下巴和视线仍高于中位","reason":"自然过渡至090"},
+    {"degree":"090","verdict":"pass","expected":"right","observed":"right","horizontal_evidence":"清晰右侧面，鼻尖与视线直指屏幕右侧","vertical_evidence":"眼线接近垂直中位且无明显上下偏","reason":"右向基准明确"},
+    {"degree":"112.5","verdict":"warning","expected":"down-right","observed":"subtle down-right","horizontal_evidence":"右侧面、鼻尖和瞳孔均明确位于头部中心右侧","vertical_evidence":"头部略低且视线轻微下压，但盲测垂直轴不确定","reason":"标注闭环确认右下意图，垂直提示较弱"},
+    {"degree":"135","verdict":"pass","expected":"down-right","observed":"down-right","horizontal_evidence":"鼻尖与眼睛偏屏幕右侧","vertical_evidence":"低头和下视明显","reason":"右下象限明确"},
+    {"degree":"157.5","verdict":"pass","expected":"down-right","observed":"down-right","horizontal_evidence":"脸仍轻微朝屏幕右侧且盲测水平轴确认向右","vertical_evidence":"头部深低、瞳孔向下","reason":"平滑接近180"},
+    {"degree":"180","verdict":"pass","expected":"down","observed":"down","horizontal_evidence":"鼻尖与面部保持水平居中","vertical_evidence":"头部正中俯低且双眼明确向下","reason":"下向基准明确"},
+    {"degree":"202.5","verdict":"pass","expected":"down-left","observed":"down-left","horizontal_evidence":"鼻尖、瞳孔和面部朝屏幕左侧偏移","vertical_evidence":"头部与视线保持向下","reason":"左下象限明确"},
+    {"degree":"225","verdict":"warning","expected":"down-left","observed":"subtle down-left","horizontal_evidence":"左转脸和鼻尖位于头部中心左侧","vertical_evidence":"头部略俯，但盲测垂直轴不确定","reason":"标注闭环确认左下意图，下向提示较弱"},
+    {"degree":"247.5","verdict":"warning","expected":"down-left","observed":"subtle down-left","horizontal_evidence":"左侧面与鼻尖明确指向屏幕左侧","vertical_evidence":"眼线略低，但盲测垂直轴不确定","reason":"自然承接225至270，垂直提示较弱"},
+    {"degree":"270","verdict":"pass","expected":"left","observed":"left","horizontal_evidence":"清晰左侧面，鼻尖与视线直指屏幕左侧","vertical_evidence":"眼线接近垂直中位且无明显上下偏","reason":"左向基准明确"},
+    {"degree":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","horizontal_evidence":"鼻尖、瞳孔和面部位于头部中心左侧","vertical_evidence":"下巴抬起且视线向上","reason":"左上象限明确"},
+    {"degree":"315","verdict":"pass","expected":"up-left","observed":"up-left","horizontal_evidence":"头部左转且瞳孔、鼻尖偏屏幕左侧","vertical_evidence":"抬头和上视明显","reason":"左上象限明确"},
+    {"degree":"337.5","verdict":"warning","expected":"up-left","observed":"subtle up-left","horizontal_evidence":"面部仅轻微偏屏幕左侧且盲测水平轴不确定","vertical_evidence":"抬头与瞳孔上移清楚","reason":"标注闭环确认左上并平滑回到000，水平提示较弱"}
+  ],
+  "review_warnings": [
+    "112.5、225、247.5 的垂直轴提示较弱，但有标签闭环确认预期象限",
+    "337.5 的水平轴提示较弱，但闭环连续且清楚上视",
+    "连续性指标存在局部离群值，但正常尺寸下没有可见跳变、缩放突变或身份变化"
+  ]
+}

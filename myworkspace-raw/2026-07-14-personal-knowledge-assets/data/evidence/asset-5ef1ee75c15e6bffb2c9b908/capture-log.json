@@ -1,0 +1,15 @@
+{
+  "all_pdf_pages_traversed": true,
+  "limitations": [
+    "Text embedded inside raster figures may not appear in the extracted transcript; the exact original PDF preserves every figure and page.",
+    "This is a scanned book. Fourteen pages yielded no extracted text; these may be blank, image-only, front/back matter, or OCR-limited pages. The exact source-original.pdf is authoritative, and no absent OCR text was guessed or reconstructed.",
+    "Derived OCR may contain recognition errors even where text was extracted. Use the original page image for quotation or close textual interpretation.",
+    "Private personal research use only; no third-party full-text republication."
+  ],
+  "method": "read-only local PDF capture",
+  "post_read_hash_verified": true,
+  "post_read_identity_verified": true,
+  "pre_read_frozen_hash_verified": true,
+  "source_mutated": false,
+  "text_extraction": "pypdf page-by-page"
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-7b2f04210f92bee74abd5881",
+  "candidate_id": "edge-default-bookmarks:item:00000018",
+  "source_id": "edge-default-bookmarks",
+  "title": "The Origin Forum - Origin 中文论坛 (Chinese Origin Forum)",
+  "original_url": "https://my.originlab.com/forum/forum.asp?FORUM_ID=28",
+  "requested_url": "https://my.originlab.com/forum/forum.asp?FORUM_ID=28",
+  "final_url": "https://my.originlab.com/forum/forum.asp?FORUM_ID=28",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:49.399751+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

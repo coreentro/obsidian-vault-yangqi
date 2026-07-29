@@ -1,0 +1,23 @@
+{
+  "type": "xai",
+  "access_token": "eyJ0eXAiOiJhdCtqd3QiLCJhbGciOiJFUzI1NiIsImtpZCI6Im9hdXRoMi1wcm9kdWN0aW9uLTIwMjYtMDItMTkifQ.eyJpc3MiOiJodHRwczovL2F1dGgueC5haSIsInN1YiI6ImRiZTY0YTlmLTVjZGItNDc5NS1hMjViLTA4NmFiNzY0ZTcyYSIsImF1ZCI6ImIxYTAwNDkyLTA3M2EtNDdlYS04MTZmLTRjMzI5MjY0YTgyOCIsImV4cCI6MTc4NTI0ODAzMCwiaWF0IjoxNzg1MjI2NDMwLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIG9mZmxpbmVfYWNjZXNzIGdyb2stY2xpOmFjY2VzcyBhcGk6YWNjZXNzIGNvbnZlcnNhdGlvbnM6cmVhZCBjb252ZXJzYXRpb25zOndyaXRlIiwicHJpbmNpcGFsX3R5cGUiOiJVc2VyIiwicHJpbmNpcGFsX2lkIjoiZGJlNjRhOWYtNWNkYi00Nzk1LWEyNWItMDg2YWI3NjRlNzJhIiwiY2xpZW50X2lkIjoiYjFhMDA0OTItMDczYS00N2VhLTgxNmYtNGMzMjkyNjRhODI4IiwianRpIjoiM2UxYmE5MzUtZmQ5Yy00YTBhLTk5ZWEtMzI0ZjAyNDk0NjJhIiwidGllciI6MSwidGVhbV9pZCI6IjBmMTk0MzJkLWFiZGQtNGUwZS1iODI5LWExNTNjYjIyYjMzNCJ9.nEpV9EtpxOy7n9rzlwBG1OpAyR_7X3OTU5NpDqC4ed9kZoM8ClCPk_iX3FpiUSmUDjTgHWF3BO2-rWgCACIqYw",
+  "refresh_token": "k8ZsrnOrfGnFtJJoZ7CZOEK3-f1Gvpjh2kvnau2GZpQJah-FUM8dayXmiYruf2XSkRw98R46EdNuFZtgnNvdmA",
+  "token_type": "Bearer",
+  "expires_in": 21323,
+  "expired": "2026-07-28T14:13:50.236981Z",
+  "last_refresh": "2026-07-28T08:18:26.480Z",
+  "sub": "dbe64a9f-5cdb-4795-a25b-086ab764e72a",
+  "email": "9yg8b4k244@privaterelay.appleid.com",
+  "base_url": "https://cli-chat-proxy.grok.com/v1",
+  "token_endpoint": "https://auth.x.ai/oauth2/token",
+  "auth_kind": "oauth",
+  "headers": {
+    "x-grok-client-version": "0.2.93",
+    "x-xai-token-auth": "xai-grok-cli",
+    "X-XAI-Token-Auth": "xai-grok-cli",
+    "x-authenticateresponse": "authenticate-response",
+    "x-grok-client-identifier": "grok-shell",
+    "x-compaction-at": "400000",
+    "User-Agent": "grok-shell/0.2.93 (linux; x86_64)"
+  }
+}

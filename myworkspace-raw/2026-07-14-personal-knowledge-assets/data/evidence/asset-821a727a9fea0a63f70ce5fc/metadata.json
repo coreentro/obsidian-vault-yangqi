@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-821a727a9fea0a63f70ce5fc",
+  "candidate_id": "chrome-default-bookmarks:item:00000056",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Generative AI for Beginners",
+  "original_url": "https://microsoft.github.io/generative-ai-for-beginners/#/translations/cn/",
+  "requested_url": "https://microsoft.github.io/generative-ai-for-beginners/#/translations/cn/",
+  "final_url": "https://microsoft.github.io/generative-ai-for-beginners/#/translations/cn/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:41.836789+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 1166,
+  "body_sha256": "c8222d2c9ca35b314fcdfe04c75043eefe47a94217c9d01e9c110394c52e5d65"
+}

@@ -1,0 +1,21 @@
+{
+  "allowedTiers": [
+    {
+      "id": "standard-tier",
+      "name": "Gemini Code Assist",
+      "description": "Unlimited coding assistant with the most powerful Gemini models",
+      "userDefinedCloudaicompanionProject": true,
+      "privacyNotice": {},
+      "isDefault": true,
+      "usesGcpTos": true
+    }
+  ],
+  "ineligibleTiers": [
+    {
+      "reasonCode": "RESTRICTED_AGE",
+      "reasonMessage": "Your current account is not eligible for Gemini Code Assist for individuals. To use Gemini Code Assist for individuals you must be 18 years old or older. If you think you are receiving this message in error, please ensure you have verified your age and try to log in again.",
+      "tierId": "free-tier",
+      "tierName": "Gemini Code Assist for individuals"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:48:29+08:00",
+  "policy": "These aliases are append-only additions. The frozen base alias sets and all source/index evidence remain unchanged.",
+  "items": [
+    {"asset_id": "asset-1dbce93721de460be8fd8647", "aliases": ["扫描电镜结构与分辨率"]},
+    {"asset_id": "asset-4c75cb1e8747e779a0d084cc", "aliases": ["核去污过程肼比色检测"]},
+    {"asset_id": "asset-b52f87b52caf0c4cff1a0e21", "aliases": ["元素掺杂氮化碳光催化制氢"]},
+    {"asset_id": "asset-ea261f4a88e8e35ed4dc9829", "aliases": ["可见光光催化剂分解水制氢"]},
+    {"asset_id": "asset-f3cb56ca03e2f6f6ee5aed11", "aliases": ["硫化镉光腐蚀与产氢改性"]}
+  ]
+}

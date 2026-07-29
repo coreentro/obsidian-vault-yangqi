@@ -1,0 +1,39 @@
+{
+  "currentTier": {
+    "id": "standard-tier",
+    "name": "Antigravity",
+    "description": "Unlimited coding assistant with the most powerful Gemini models",
+    "userDefinedCloudaicompanionProject": true,
+    "privacyNotice": {},
+    "usesGcpTos": true
+  },
+  "allowedTiers": [
+    {
+      "id": "standard-tier",
+      "name": "Antigravity",
+      "description": "Unlimited coding assistant with the most powerful Gemini models",
+      "userDefinedCloudaicompanionProject": true,
+      "privacyNotice": {},
+      "isDefault": true,
+      "usesGcpTos": true
+    }
+  ],
+  "cloudaicompanionProject": "imagined-lore-35fd2",
+  "ineligibleTiers": [
+    {
+      "reasonCode": "UNSUPPORTED_LOCATION",
+      "reasonMessage": "Your current account is not eligible for Antigravity, because it is not currently available in your location.",
+      "tierId": "free-tier",
+      "tierName": "Antigravity"
+    }
+  ],
+  "gcpManaged": false,
+  "manageSubscriptionUri": "https://accounts.google.com/AccountChooser?Email=yangqihello%40gmail.com&continue=https%3A%2F%2Fone.google.com%2Fsettings",
+  "paidTier": {
+    "id": "g1-pro-tier",
+    "name": "Google AI Pro",
+    "description": "Google AI Pro",
+    "upgradeSubscriptionUri": "https://antigravity.google/g1-upgrade",
+    "upgradeSubscriptionText": "You can upgrade to a Google AI Ultra plan to receive higher rate limits."
+  }
+}

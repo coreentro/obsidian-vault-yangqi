@@ -1,0 +1,2 @@
+Codex Dream Skin Studio: The injector launchd job did not start. See /Users/yangqi/Library/Application Support/CodexDreamSkinStudio/injector-error.log
+Codex Dream Skin Studio: start failed at line 69 (exit 1). See /Users/yangqi/Library/Application Support/CodexDreamSkinStudio/start-error.log

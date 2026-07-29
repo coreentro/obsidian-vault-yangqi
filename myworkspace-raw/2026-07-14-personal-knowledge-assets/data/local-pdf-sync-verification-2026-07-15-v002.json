@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-07-15T19:18:11+08:00",
+  "batch": "data/local-pdf-capture-batch-002-2026-07-15.json",
+  "batch_sha256": "56e5ec10120d685fdd92f34015f94cf47b8ff2228705bf947bb3569dd6b9ea84",
+  "timestamp_correction": "data/local-pdf-batch-002-timestamp-correction-2026-07-15.json",
+  "local_verification": {
+    "package_total": 5,
+    "package_file_total": 45,
+    "pdf_page_total": 64,
+    "pages_traversed": 64,
+    "empty_text_pages": 0,
+    "rendered_pages_visually_checked": 15,
+    "checksum_lists_passed": 5,
+    "frozen_source_hashes_passed": 5,
+    "source_to_original_byte_comparisons_passed": 5,
+    "ledger_integrity": "ok",
+    "foreign_key_violations": 0,
+    "replay_new_assets": 0,
+    "automated_tests_passed": 73
+  },
+  "google_drive_verification": {
+    "root": "/Users/yangqi/Library/CloudStorage/GoogleDrive-yangqihello@gmail.com/我的云端硬盘/personal-knowledge-assets",
+    "package_file_sets_matched": 5,
+    "package_file_hashes_matched": 45,
+    "versioned_ledger": "00-indexes/knowledge-assets-2026-07-15-v008.sqlite3",
+    "versioned_search_index": "00-indexes/search-index-2026-07-15-v005.sqlite3",
+    "versioned_ledger_byte_comparison": "passed",
+    "versioned_search_index_byte_comparison": "passed"
+  },
+  "feishu_verification": {
+    "assets_offset": 56,
+    "assets_returned": 5,
+    "assets_has_more": false,
+    "reviews_offset": 41517,
+    "reviews_returned": 5,
+    "reviews_has_more": false,
+    "candidate_asset_links_verified": 5,
+    "total_assets": 61,
+    "total_reviews": 41522,
+    "uploaded_tokens": {
+      "knowledge-assets-2026-07-15-v008.sqlite3": "D6vEbJo6CoU9hVxGUr5c9GChnKe",
+      "search-index-2026-07-15-v005.sqlite3": "CcnDbz6U2o6ZIRxI6c4chTOjnUc",
+      "local-pdf-read-allowlist-2026-07-15-v002.json": "GQGBb87mMolMWNxXBdocDgPZnGd",
+      "local-pdf-content-assessment-2026-07-15-v002.json": "U0OWbgV5no087pxfoUVcVJ24nyT",
+      "local-pdf-capture-batch-002-2026-07-15.json": "R9xQbnJgGoEXbgxG8tMcBH5DnRb",
+      "search-aliases-2026-07-15-v002.json": "HuBybiZbwosO07xC0QRchH8Tnsc"
+    }
+  },
+  "asset_ids": [
+    "asset-9a3afc322893d701966cbd8d",
+    "asset-9b32a78c63f3963223376043",
+    "asset-0b6910a615841d225a176455",
+    "asset-62cb8a0060dd31e441c43ca6",
+    "asset-6fe74235d2586f526ae8813d"
+  ],
+  "preservation_statement": "Exact original PDF bytes are immutable and authoritative. Extracted page text, bilingual aliases, and visual review are additive derivatives; no original was deleted, truncated, moved, or silently overwritten."
+}

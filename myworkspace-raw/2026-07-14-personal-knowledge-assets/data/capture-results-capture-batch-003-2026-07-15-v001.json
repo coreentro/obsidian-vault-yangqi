@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "batch_id": "capture-batch-003-2026-07-15",
+  "created_at": "2026-07-15T09:16:18.790289+00:00",
+  "source_batch_sha256": "7d867b37e89a993e35b44e46c54a8579e0f0a9e2bdae3085ad13127f070d435a",
+  "limits": {
+    "max_workers": 2,
+    "max_cache_bytes": 10485760,
+    "max_response_bytes": 10485760,
+    "timeout_seconds": 30.0,
+    "batch_timeout_seconds": 120.0,
+    "batch_timeout_scope": "network-capture-only; excludes replay, hashing, evidence packaging, ledger, and result-file I/O"
+  },
+  "counts": {
+    "complete": 0,
+    "limited": 0,
+    "blocked": 4
+  },
+  "items": [
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000000",
+      "source_id": "chrome-default-bookmarks",
+      "title": "李颜控！2024！ – 李颜控",
+      "original_url": "https://xn--izu34f5t3d.com/?page_id=11688",
+      "asset_id": "asset-0a19b11eb09defb971fb4d00",
+      "package_ref": "data/evidence/asset-0a19b11eb09defb971fb4d00",
+      "completeness": "blocked",
+      "run_status": "captured",
+      "status_code": null,
+      "content_type": null,
+      "body_byte_length": 0,
+      "final_url": "https://xn--izu34f5t3d.com/?page_id=11688",
+      "redirects": [],
+      "complete_response": false,
+      "error": "unsafe-public-url: non-public-network-target",
+      "limitations": [
+        "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+      ]
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000049",
+      "source_id": "chrome-default-bookmarks",
+      "title": "网站地图 - 出国留学网",
+      "original_url": "https://m.liuxue86.com/sitemap.html",
+      "asset_id": "asset-b81fa650dfb048ee51b0c185",
+      "package_ref": "data/evidence/asset-b81fa650dfb048ee51b0c185",
+      "completeness": "blocked",
+      "run_status": "captured",
+      "status_code": null,
+      "content_type": null,
+      "body_byte_length": 0,
+      "final_url": "https://m.liuxue86.com/sitemap.html",
+      "redirects": [],
+      "complete_response": false,
+      "error": "unsafe-public-url: non-public-network-target",
+      "limitations": [
+        "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+      ]
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000021",
+      "source_id": "edge-default-bookmarks",
+      "title": "河北科技大学_教务处",
+      "original_url": "https://jiaowu.web.hebust.edu.cn/",
+      "asset_id": "asset-78f2c8d023434db6f6e9fd2c",
+      "package_ref": "data/evidence/asset-78f2c8d023434db6f6e9fd2c",
+      "completeness": "blocked",
+      "run_status": "captured",
+      "status_code": null,
+      "content_type": null,
+      "body_byte_length": 0,
+      "final_url": "https://jiaowu.web.hebust.edu.cn/",
+      "redirects": [],
+      "complete_response": false,
+      "error": "unsafe-public-url: non-public-network-target",
+      "limitations": [
+        "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+      ]
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000023",
+      "source_id": "edge-default-bookmarks",
+      "title": "河北科技大学_图书馆",
+      "original_url": "https://lib.web.hebust.edu.cn/",
+      "asset_id": "asset-aa84d811157f243377366a92",
+      "package_ref": "data/evidence/asset-aa84d811157f243377366a92",
+      "completeness": "blocked",
+      "run_status": "captured",
+      "status_code": null,
+      "content_type": null,
+      "body_byte_length": 0,
+      "final_url": "https://lib.web.hebust.edu.cn/",
+      "redirects": [],
+      "complete_response": false,
+      "error": "unsafe-public-url: non-public-network-target",
+      "limitations": [
+        "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+      ]
+    }
+  ],
+  "result_id": "capture-results-capture-batch-003-2026-07-15-v001"
+}

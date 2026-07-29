@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-07-15T18:44:57+08:00",
+  "batch": "data/local-pdf-capture-batch-001-2026-07-15.json",
+  "batch_sha256": "8f0bbca9d011ea6096898e0aba3b237a28e15b02f2fc85716bb93ad8c70fe230",
+  "local_verification": {
+    "package_total": 5,
+    "package_file_total": 45,
+    "pdf_page_total": 62,
+    "pages_traversed": 62,
+    "empty_text_pages": 0,
+    "rendered_pages_visually_checked": 15,
+    "checksum_lists_passed": 5,
+    "frozen_source_hashes_passed": 5,
+    "source_to_original_byte_comparisons_passed": 5,
+    "ledger_integrity": "ok",
+    "foreign_key_violations": 0,
+    "replay_new_assets": 0,
+    "automated_tests_passed": 72
+  },
+  "google_drive_verification": {
+    "root": "/Users/yangqi/Library/CloudStorage/GoogleDrive-yangqihello@gmail.com/我的云端硬盘/personal-knowledge-assets",
+    "package_file_sets_matched": 5,
+    "package_file_hashes_matched": 45,
+    "versioned_ledger": "00-indexes/knowledge-assets-2026-07-15-v007.sqlite3",
+    "versioned_search_index": "00-indexes/search-index-2026-07-15-v003.sqlite3"
+  },
+  "feishu_verification": {
+    "assets_offset": 51,
+    "assets_returned": 5,
+    "assets_has_more": false,
+    "reviews_offset": 41512,
+    "reviews_returned": 5,
+    "reviews_has_more": false,
+    "candidate_asset_links_verified": 5,
+    "total_assets": 56,
+    "total_reviews": 41517,
+    "uploaded_tokens": {
+      "knowledge-assets-2026-07-15-v007.sqlite3": "JMFIbXT9UoFQ9Ux5dNEc7kdPnyc",
+      "search-index-2026-07-15-v003.sqlite3": "DzADbchrwovDfGxIXUdcBoaHnKh",
+      "local-pdf-read-allowlist-2026-07-15-v001.json": "ECyAbz8aCovWgGxuWm7cpHrVnYg",
+      "local-pdf-content-assessment-2026-07-15-v001.json": "OuQUbGFZ6okC2axNizScH3p1nCf",
+      "local-pdf-capture-batch-001-2026-07-15.json": "QgiObxAfjoSfRhxK53NcnyGZnFf"
+    }
+  },
+  "asset_ids": [
+    "asset-3fbcf67ed7a98b00ee486d7e",
+    "asset-86113a802617c36dbd457196",
+    "asset-ff5229e120d76f1a75763aa0",
+    "asset-7cd584c251dc4632357147b1",
+    "asset-fee4796ca698d53aff87fa76"
+  ],
+  "preservation_statement": "Exact original PDF bytes are immutable and authoritative. Extracted page text and visual review are additive derivatives; raster figure content is not guessed or used to replace the PDF."
+}

@@ -1,0 +1,13 @@
+{
+  "all_pdf_pages_traversed": true,
+  "limitations": [
+    "Text embedded inside raster figures may not appear in the extracted transcript; the exact original PDF preserves every figure and page.",
+    "The tutorial contains interface screenshots and visual examples that are not fully represented in derived text extraction. The exact source-original.pdf is authoritative for all screenshot content; no visual text was guessed or reconstructed."
+  ],
+  "method": "read-only local PDF capture",
+  "post_read_hash_verified": true,
+  "post_read_identity_verified": true,
+  "pre_read_frozen_hash_verified": true,
+  "source_mutated": false,
+  "text_extraction": "pypdf page-by-page"
+}

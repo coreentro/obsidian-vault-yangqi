@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-44a48b5b68dcfd25b12b762d",
+  "candidate_id": "chrome-profile-2-bookmarks:item:00000043",
+  "source_id": "chrome-profile-2-bookmarks",
+  "title": "Ogden's Basic English · 850 词学习手册",
+  "original_url": "https://ogden.munch.love/",
+  "requested_url": "https://ogden.munch.love/",
+  "final_url": "https://ogden.munch.love/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:47.563440+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 492622,
+  "body_sha256": "cf420fccf948f133780b0b9d31fdc60d52cd7d1f7f4e550dc2cfe56c2582a6d5"
+}

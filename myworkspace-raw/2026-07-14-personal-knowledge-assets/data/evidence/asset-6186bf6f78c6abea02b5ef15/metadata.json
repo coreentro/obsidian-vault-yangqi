@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-6186bf6f78c6abea02b5ef15",
+  "candidate_id": "chrome-default-bookmarks:item:00000067",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Edge.org",
+  "original_url": "https://www.edge.org/",
+  "requested_url": "https://www.edge.org/",
+  "final_url": "https://www.edge.org/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:08.227707+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 54950,
+  "body_sha256": "d8067f7a8c9cd79f984e24b0e54d27969912ae660e559e625dd39327e51d8d1e"
+}

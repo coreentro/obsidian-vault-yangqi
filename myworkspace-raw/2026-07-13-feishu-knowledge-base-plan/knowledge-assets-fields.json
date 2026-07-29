@@ -1,0 +1,20 @@
+[
+  {"type":"text","name":"标题","description":"知识资产的可检索标题"},
+  {"type":"select","name":"来源","multiple":false,"options":[{"name":"小红书收藏","hue":"Red"},{"name":"小红书点赞","hue":"Carmine"},{"name":"B站","hue":"Blue"},{"name":"微信","hue":"Green"},{"name":"网页","hue":"Wathet"},{"name":"论文","hue":"Purple"},{"name":"飞书","hue":"Turquoise"},{"name":"其他","hue":"Gray"}]},
+  {"type":"select","name":"内容类型","multiple":false,"options":[{"name":"视频","hue":"Red"},{"name":"图文","hue":"Orange"},{"name":"文章","hue":"Blue"},{"name":"论文","hue":"Purple"},{"name":"对话","hue":"Green"},{"name":"工具","hue":"Turquoise"},{"name":"课程","hue":"Yellow"}]},
+  {"type":"text","name":"原链接","style":{"type":"url"}},
+  {"type":"text","name":"作者"},
+  {"type":"select","name":"处理状态","multiple":false,"options":[{"name":"待判断","hue":"Gray"},{"name":"待处理","hue":"Blue"},{"name":"处理中","hue":"Yellow"},{"name":"已提炼","hue":"Purple"},{"name":"已实践","hue":"Green"},{"name":"待核验","hue":"Orange"},{"name":"已归档","hue":"Gray","lightness":"Dark"}]},
+  {"type":"select","name":"价值级别","multiple":false,"options":[{"name":"P0","hue":"Red"},{"name":"P1","hue":"Orange"},{"name":"P2","hue":"Blue"},{"name":"P3","hue":"Gray"}]},
+  {"type":"select","name":"标签","multiple":true,"options":[{"name":"科研","hue":"Purple"},{"name":"AI学习","hue":"Blue"},{"name":"内容创作","hue":"Red"},{"name":"学习方法","hue":"Green"},{"name":"数字整理","hue":"Turquoise"},{"name":"健康","hue":"Orange"},{"name":"表达","hue":"Yellow"},{"name":"工具","hue":"Wathet"}]},
+  {"type":"link","name":"关联主题","link_table":"主题地图","bidirectional":true,"bidirectional_link_field_name":"关联知识"},
+  {"type":"link","name":"关联行动","link_table":"项目行动","bidirectional":true,"bidirectional_link_field_name":"来源知识"},
+  {"type":"select","name":"证据等级","multiple":false,"options":[{"name":"A-原件与完整文本","hue":"Green"},{"name":"B-本地转写或充分摘录","hue":"Blue"},{"name":"C-页面证据与二手摘要","hue":"Yellow"},{"name":"D-仅有线索","hue":"Gray"}]},
+  {"type":"text","name":"一句话结论"},
+  {"type":"text","name":"下一步行动"},
+  {"type":"text","name":"知识卡链接","style":{"type":"url"}},
+  {"type":"datetime","name":"采集日期","style":{"format":"yyyy-MM-dd"}},
+  {"type":"checkbox","name":"已复盘"},
+  {"type":"created_at","name":"创建时间","style":{"format":"yyyy-MM-dd HH:mm"}},
+  {"type":"updated_at","name":"更新时间","style":{"format":"yyyy-MM-dd HH:mm"}}
+]

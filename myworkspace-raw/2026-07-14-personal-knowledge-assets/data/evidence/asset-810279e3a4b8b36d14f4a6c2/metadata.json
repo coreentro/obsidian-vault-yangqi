@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-810279e3a4b8b36d14f4a6c2",
+  "candidate_id": "chrome-default-bookmarks:item:00000089",
+  "source_id": "chrome-default-bookmarks",
+  "title": "去广告",
+  "original_url": "https://github.com/Moli-X/Resources",
+  "requested_url": "https://github.com/Moli-X/Resources",
+  "final_url": "https://github.com/Moli-X/Resources",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:10.980796+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 312878,
+  "body_sha256": "c361b26f466d9f6dcc696944906a1034262c93cd770980169792ae14a5fcbd44"
+}

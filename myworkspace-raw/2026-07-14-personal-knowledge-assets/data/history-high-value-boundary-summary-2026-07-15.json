@@ -1,0 +1,15 @@
+{
+  "boundary_counts": {
+    "manual-commercial-content": 1,
+    "manual-sensitive-utility": 15,
+    "manual-session-or-dynamic": 17,
+    "safe-public-review": 14
+  },
+  "candidate_total": 47,
+  "canonical_group_total": 44,
+  "duplicate_excess_total": 3,
+  "policy": "No history candidate is promoted or captured by this file. Manual/session/sensitive boundaries override the numeric score.",
+  "safe_public_review_unique_groups": 13,
+  "schema_version": 1,
+  "source_score_file": "data/history-value-scores-2026-07-15.jsonl"
+}

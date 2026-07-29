@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-863198e73d2c3a100f0d3e51",
+  "candidate_id": "chrome-default-bookmarks:item:00000046",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Internet Archive: Digital Library of Free & Borrowable Books, Movies, Music & Wayback Machine",
+  "original_url": "https://archive.org/",
+  "requested_url": "https://archive.org/",
+  "final_url": "https://archive.org/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:05.172930+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 1872,
+  "body_sha256": "423153f7e1ffb9ed87035e1fba27fc9ee298cf6b60d11aa8dc1d286dbaf26ef3"
+}

@@ -1,0 +1,45 @@
+{
+  "asset_id": "asset-2492b7c3b8a397dc2e528112",
+  "created_at": "2026-07-15T08:44:28.997349+00:00",
+  "legacy_package_files": [
+    {
+      "byte_length": 448,
+      "path": "capture-log.json",
+      "sha256": "351af93adffe0b09250672df812c3bc26e5a01112904d0025655df16be2dafe1"
+    },
+    {
+      "byte_length": 243,
+      "path": "checksums.sha256",
+      "sha256": "6467a8080896dcf0687ec80987a94d2590de96a2f34b01abb98e9edaf4e0eea8"
+    },
+    {
+      "byte_length": 64,
+      "path": "comments.json",
+      "sha256": "afe9c85a0b8ed4b00af3686683be910debc58588d092f815eb4fe64b7ff65458"
+    },
+    {
+      "byte_length": 943,
+      "path": "manifest.json",
+      "sha256": "2cbea52e87ba056a1b13d46ae68efc818057d690e71f2598808c6334753e39c5"
+    },
+    {
+      "byte_length": 645,
+      "path": "metadata.json",
+      "sha256": "9013b5d83b663d09072a67ec338ab6c602096cc56c8452ab64acb45750b9b877"
+    }
+  ],
+  "legacy_package_ref": "data/evidence/asset-2492b7c3b8a397dc2e528112",
+  "limitations": [
+    "The legacy package did not preserve separately verifiable raw HTTP response bytes.",
+    "The historical response-body SHA recorded in metadata cannot always be recomputed from the legacy package.",
+    "Comments, embedded media, dynamic state, login-only content, and inaccessible material may be absent as recorded in the legacy capture log."
+  ],
+  "preservation_policy": "This correction is additive and external. No legacy package file was edited, deleted, renamed, or replaced.",
+  "record_type": "external-legacy-correction",
+  "role_corrections": {
+    "comments.json": "collection-scope record; an empty/not-collected value is not evidence that the source had no comments",
+    "source.html": "decoded-or-normalized response representation; not guaranteed byte-identical to the HTTP body",
+    "source.md": "derived visible-text reading layer; does not replace the captured response representation"
+  },
+  "schema_version": 2
+}

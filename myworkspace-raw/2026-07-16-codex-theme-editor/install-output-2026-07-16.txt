@@ -1,0 +1,3 @@
+Saved the original base-theme keys and selected the dark Codex base theme.
+Codex Dream Skin Studio 1.0.0 installed at /Users/yangqi/.codex/codex-dream-skin-studio for Codex 26.707.91948 using its signed Node.js v24.14.0.
+Use the Desktop launchers to customize, start, verify, or restore the official appearance.

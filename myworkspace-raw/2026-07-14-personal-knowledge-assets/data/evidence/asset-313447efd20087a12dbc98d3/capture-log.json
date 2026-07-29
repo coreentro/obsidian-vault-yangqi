@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://linux.do/t/topic/2350818/2",
+  "final_url": null,
+  "redirects": [],
+  "complete_response": false,
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "limitations": [
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

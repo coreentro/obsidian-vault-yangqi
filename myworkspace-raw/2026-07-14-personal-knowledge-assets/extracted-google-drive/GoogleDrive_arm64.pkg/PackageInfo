@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="com.google.drivefs.arm64" postinstall-action="none" version="127.0.1.0" format-version="2" generator-version="InstallCmds-864 (25D125)" install-location="/Applications" auth="root" minimumSystemVersion="13.0.0">
+    <payload numberOfFiles="1027" installKBytes="341411"/>
+    <bundle path="./Google Drive.app" id="com.google.drivefs" CFBundleShortVersionString="127.0" CFBundleVersion="127.0.1"/>
+    <bundle-version>
+        <bundle id="com.google.drivefs"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="com.google.drivefs"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="com.google.drivefs"/>
+    </strict-identifier>
+    <relocate/>
+    <scripts>
+        <preinstall file="./preinstall" timeout="600"/>
+        <postinstall file="./postinstall" timeout="600"/>
+    </scripts>
+</pkg-info>

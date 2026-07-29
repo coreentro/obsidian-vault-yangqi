@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-e2bbe6ed2e28a4c6a7f9a290",
+  "candidate_id": "chrome-default-bookmarks:item:00000077",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Shared Decks - AnkiWeb",
+  "original_url": "https://ankiweb.net/shared/decks?search=chinese",
+  "requested_url": "https://ankiweb.net/shared/decks?search=chinese",
+  "final_url": "https://ankiweb.net/shared/decks?search=chinese",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:42.784795+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 1393,
+  "body_sha256": "9ae388d370f32cc2b06f66373c77582aad77d1eb49f26839e52776289b1d140f"
+}

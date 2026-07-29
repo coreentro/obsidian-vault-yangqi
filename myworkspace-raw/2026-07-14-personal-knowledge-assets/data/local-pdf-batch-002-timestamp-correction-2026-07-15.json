@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:04:52+08:00",
+  "correction_type": "derived-control-metadata-timestamp",
+  "policy": "The original derived files are retained unchanged. This sidecar corrects interpretation without rewriting prior records or any source evidence.",
+  "affected_files": [
+    {
+      "path": "data/local-pdf-read-allowlist-2026-07-15-v002.json",
+      "recorded_created_at": "2026-07-15T19:05:00+08:00",
+      "filesystem_modified_at": "2026-07-15T18:58:02+08:00",
+      "interpretation": "The recorded value was a planned batch label, not the authoritative write time."
+    },
+    {
+      "path": "data/local-pdf-content-assessment-2026-07-15-v002.json",
+      "recorded_created_at": "2026-07-15T19:15:00+08:00",
+      "filesystem_modified_at": "2026-07-15T18:59:29+08:00",
+      "interpretation": "The recorded value was a planned batch label, not the authoritative write time."
+    },
+    {
+      "path": "data/local-pdf-capture-batch-002-2026-07-15.json",
+      "recorded_created_at_inherited_from_assessment": "2026-07-15T19:15:00+08:00",
+      "filesystem_modified_at": "2026-07-15T18:59:41+08:00",
+      "interpretation": "The capture result inherited the assessment label; filesystem time and ledger audit events establish actual ordering."
+    },
+    {
+      "path": "data/search-aliases-2026-07-15-v002.json",
+      "recorded_created_at": "2026-07-15T19:25:00+08:00",
+      "filesystem_modified_at": "2026-07-15T19:00:36+08:00",
+      "interpretation": "The recorded value was a planned batch label, not the authoritative write time."
+    }
+  ],
+  "source_evidence_impact": "none",
+  "asset_or_index_content_impact": "none",
+  "authoritative_ordering": [
+    "filesystem_modified_at in this sidecar",
+    "SQLite audit_events and asset captured_at",
+    "Feishu record creation and upload responses"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://m.liuxue86.com/sitemap.html",
+  "final_url": null,
+  "redirects": [],
+  "complete_response": false,
+  "error": "unsafe-public-url: non-public-network-target",
+  "limitations": [
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

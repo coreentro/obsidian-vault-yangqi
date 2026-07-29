@@ -1,0 +1,17 @@
+{
+  "asset_id": "asset-dc46bec09e9e39c508c200ba",
+  "candidate_id": "chrome-default-bookmarks:item:00000094",
+  "source_id": "chrome-default-bookmarks",
+  "title": "FREEMEDIAHECKYEAH · fmhy/FMHY Wiki · GitHub",
+  "original_url": "https://github.com/fmhy/FMHY/wiki/FREEMEDIAHECKYEAH",
+  "requested_url": "https://github.com/fmhy/FMHY/wiki/FREEMEDIAHECKYEAH",
+  "final_url": "https://github.com/fmhy/FMHY/wiki/",
+  "redirects": [
+    "https://github.com/fmhy/FMHY/wiki/"
+  ],
+  "captured_at": "2026-07-15T08:07:11.616408+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 269820,
+  "body_sha256": "8636777a78effeb20c7b3d220031da168828424fd49891560d85a77ebdf2ae8a"
+}

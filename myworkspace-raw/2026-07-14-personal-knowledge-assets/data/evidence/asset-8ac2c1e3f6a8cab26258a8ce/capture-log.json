@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://blog.csdn.net/l903445981/article/details/119960684",
+  "final_url": null,
+  "redirects": [],
+  "complete_response": false,
+  "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)>",
+  "limitations": [
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

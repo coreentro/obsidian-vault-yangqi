@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:32:06+08:00",
+  "policy": "These aliases are append-only additions. The frozen base alias sets and all source/index evidence remain unchanged.",
+  "items": [
+    {
+      "asset_id": "asset-262265d61c9bc50b23266c67",
+      "aliases": ["水相微波查尔酮"]
+    },
+    {
+      "asset_id": "asset-02a67fcf4d3c03871427507d",
+      "aliases": ["低酸碱度氨氮空气吹脱"]
+    },
+    {
+      "asset_id": "asset-d56adbc6549d3f2d150206df",
+      "aliases": ["核壳半导体光解水制氢"]
+    },
+    {
+      "asset_id": "asset-b470d14db4026b73366696da",
+      "aliases": ["碘催化黄酮合成实验"]
+    },
+    {
+      "asset_id": "asset-ac11109c373c15d8d7872996",
+      "aliases": ["二氧化铈硫化镉锌光催化制氢"]
+    }
+  ]
+}

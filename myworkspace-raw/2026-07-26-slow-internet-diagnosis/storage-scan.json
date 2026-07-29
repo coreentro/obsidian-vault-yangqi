@@ -1,0 +1,873 @@
+{
+  "generated_at": "2026-07-26 17:14:35",
+  "system": {
+    "os": "macOS 26.5.2",
+    "build": "25F84",
+    "arch": "Apple Silicon (arm64) / Apple M4",
+    "user": "yangqi",
+    "home": "/Users/yangqi",
+    "disk_total": "228.3 GB",
+    "disk_used": "215.7 GB",
+    "disk_free": "12.6 GB",
+    "filesystem": "APFS",
+    "purgeable": "",
+    "disk_name": "Macintosh HD",
+    "disks": [
+      {
+        "name": "Macintosh HD",
+        "total": "228.3 GB",
+        "used": "215.7 GB",
+        "free": "12.6 GB"
+      }
+    ]
+  },
+  "groups": {
+    "home": [
+      {
+        "name": "Library",
+        "path": "/Users/yangqi/Library",
+        "size_kb": 102093212,
+        "size_h": "97.4 GB"
+      },
+      {
+        "name": ".codex",
+        "path": "/Users/yangqi/.codex",
+        "size_kb": 6410892,
+        "size_h": "6.1 GB"
+      },
+      {
+        "name": "codex",
+        "path": "/Users/yangqi/codex",
+        "size_kb": 5118660,
+        "size_h": "4.9 GB"
+      },
+      {
+        "name": ".hermes",
+        "path": "/Users/yangqi/.hermes",
+        "size_kb": 4441136,
+        "size_h": "4.2 GB"
+      },
+      {
+        "name": ".colima",
+        "path": "/Users/yangqi/.colima",
+        "size_kb": 3548316,
+        "size_h": "3.4 GB"
+      },
+      {
+        "name": "Downloads",
+        "path": "/Users/yangqi/Downloads",
+        "size_kb": 2235572,
+        "size_h": "2.1 GB"
+      },
+      {
+        "name": ".local",
+        "path": "/Users/yangqi/.local",
+        "size_kb": 2171716,
+        "size_h": "2.1 GB"
+      },
+      {
+        "name": ".cache",
+        "path": "/Users/yangqi/.cache",
+        "size_kb": 1745120,
+        "size_h": "1.7 GB"
+      },
+      {
+        "name": ".npm",
+        "path": "/Users/yangqi/.npm",
+        "size_kb": 1168660,
+        "size_h": "1.1 GB"
+      },
+      {
+        "name": ".vscode",
+        "path": "/Users/yangqi/.vscode",
+        "size_kb": 1077076,
+        "size_h": "1.0 GB"
+      },
+      {
+        "name": "Documents",
+        "path": "/Users/yangqi/Documents",
+        "size_kb": 1013872,
+        "size_h": "990.1 MB"
+      },
+      {
+        "name": "毕业照",
+        "path": "/Users/yangqi/毕业照",
+        "size_kb": 888172,
+        "size_h": "867.4 MB"
+      },
+      {
+        "name": "feishu-course-automation",
+        "path": "/Users/yangqi/feishu-course-automation",
+        "size_kb": 885872,
+        "size_h": "865.1 MB"
+      },
+      {
+        "name": "feishu-course-automation.zip",
+        "path": "/Users/yangqi/feishu-course-automation.zip",
+        "size_kb": 517388,
+        "size_h": "505.3 MB"
+      },
+      {
+        "name": ".coze",
+        "path": "/Users/yangqi/.coze",
+        "size_kb": 434004,
+        "size_h": "423.8 MB"
+      },
+      {
+        "name": ".workbuddy",
+        "path": "/Users/yangqi/.workbuddy",
+        "size_kb": 384300,
+        "size_h": "375.3 MB"
+      },
+      {
+        "name": ".trae-cn",
+        "path": "/Users/yangqi/.trae-cn",
+        "size_kb": 365580,
+        "size_h": "357.0 MB"
+      },
+      {
+        "name": "Zotero",
+        "path": "/Users/yangqi/Zotero",
+        "size_kb": 260184,
+        "size_h": "254.1 MB"
+      },
+      {
+        "name": ".grok",
+        "path": "/Users/yangqi/.grok",
+        "size_kb": 258716,
+        "size_h": "252.7 MB"
+      },
+      {
+        "name": "文稿",
+        "path": "/Users/yangqi/文稿",
+        "size_kb": 247612,
+        "size_h": "241.8 MB"
+      },
+      {
+        "name": ".trae",
+        "path": "/Users/yangqi/.trae",
+        "size_kb": 240056,
+        "size_h": "234.4 MB"
+      },
+      {
+        "name": ".antigravity-ide",
+        "path": "/Users/yangqi/.antigravity-ide",
+        "size_kb": 203052,
+        "size_h": "198.3 MB"
+      },
+      {
+        "name": ".claude",
+        "path": "/Users/yangqi/.claude",
+        "size_kb": 103004,
+        "size_h": "100.6 MB"
+      }
+    ],
+    "library": [
+      {
+        "name": "Application Support",
+        "path": "/Users/yangqi/Library/Application Support",
+        "size_kb": 78591476,
+        "size_h": "75.0 GB"
+      },
+      {
+        "name": "Containers",
+        "path": "/Users/yangqi/Library/Containers",
+        "size_kb": 11616528,
+        "size_h": "11.1 GB"
+      },
+      {
+        "name": "Caches",
+        "path": "/Users/yangqi/Library/Caches",
+        "size_kb": 11000916,
+        "size_h": "10.5 GB"
+      },
+      {
+        "name": "Group Containers",
+        "path": "/Users/yangqi/Library/Group Containers",
+        "size_kb": 282600,
+        "size_h": "276.0 MB"
+      },
+      {
+        "name": "Mobile Documents",
+        "path": "/Users/yangqi/Library/Mobile Documents",
+        "size_kb": 215668,
+        "size_h": "210.6 MB"
+      },
+      {
+        "name": "HTTPStorages",
+        "path": "/Users/yangqi/Library/HTTPStorages",
+        "size_kb": 112584,
+        "size_h": "109.9 MB"
+      },
+      {
+        "name": "Python",
+        "path": "/Users/yangqi/Library/Python",
+        "size_kb": 107708,
+        "size_h": "105.2 MB"
+      },
+      {
+        "name": "Logs",
+        "path": "/Users/yangqi/Library/Logs",
+        "size_kb": 58204,
+        "size_h": "56.8 MB"
+      }
+    ],
+    "caches": [
+      {
+        "name": "Doubao",
+        "path": "/Users/yangqi/Library/Caches/Doubao",
+        "size_kb": 2174212,
+        "size_h": "2.1 GB"
+      },
+      {
+        "name": "com.workbuddy.workbuddy.BundleMigration",
+        "path": "/Users/yangqi/Library/Caches/com.workbuddy.workbuddy.BundleMigration",
+        "size_kb": 2160324,
+        "size_h": "2.1 GB"
+      },
+      {
+        "name": "Google",
+        "path": "/Users/yangqi/Library/Caches/Google",
+        "size_kb": 1566792,
+        "size_h": "1.5 GB"
+      },
+      {
+        "name": "LarkShell",
+        "path": "/Users/yangqi/Library/Caches/LarkShell",
+        "size_kb": 849464,
+        "size_h": "829.6 MB"
+      },
+      {
+        "name": "Citro Labs",
+        "path": "/Users/yangqi/Library/Caches/Citro Labs",
+        "size_kb": 810256,
+        "size_h": "791.3 MB"
+      },
+      {
+        "name": "com.anthropic.claudefordesktop.ShipIt",
+        "path": "/Users/yangqi/Library/Caches/com.anthropic.claudefordesktop.ShipIt",
+        "size_kb": 771536,
+        "size_h": "753.5 MB"
+      },
+      {
+        "name": "Codex",
+        "path": "/Users/yangqi/Library/Caches/Codex",
+        "size_kb": 596372,
+        "size_h": "582.4 MB"
+      },
+      {
+        "name": "colima",
+        "path": "/Users/yangqi/Library/Caches/colima",
+        "size_kb": 324572,
+        "size_h": "317.0 MB"
+      },
+      {
+        "name": "antigravity-updater",
+        "path": "/Users/yangqi/Library/Caches/antigravity-updater",
+        "size_kb": 310028,
+        "size_h": "302.8 MB"
+      },
+      {
+        "name": "Homebrew",
+        "path": "/Users/yangqi/Library/Caches/Homebrew",
+        "size_kb": 309100,
+        "size_h": "301.9 MB"
+      },
+      {
+        "name": "TRAE SOLO",
+        "path": "/Users/yangqi/Library/Caches/TRAE SOLO",
+        "size_kb": 307200,
+        "size_h": "300.0 MB"
+      },
+      {
+        "name": "com.openai.atlas",
+        "path": "/Users/yangqi/Library/Caches/com.openai.atlas",
+        "size_kb": 228352,
+        "size_h": "223.0 MB"
+      },
+      {
+        "name": "electron",
+        "path": "/Users/yangqi/Library/Caches/electron",
+        "size_kb": 111668,
+        "size_h": "109.1 MB"
+      },
+      {
+        "name": "GeoServices",
+        "path": "/Users/yangqi/Library/Caches/GeoServices",
+        "size_kb": 69004,
+        "size_h": "67.4 MB"
+      },
+      {
+        "name": "node-gyp",
+        "path": "/Users/yangqi/Library/Caches/node-gyp",
+        "size_kb": 63836,
+        "size_h": "62.3 MB"
+      }
+    ],
+    "containers": [
+      {
+        "name": "com.tencent.xinWeChat",
+        "path": "/Users/yangqi/Library/Containers/com.tencent.xinWeChat",
+        "size_kb": 8067544,
+        "size_h": "7.7 GB"
+      },
+      {
+        "name": "com.kingsoft.wpsoffice.mac",
+        "path": "/Users/yangqi/Library/Containers/com.kingsoft.wpsoffice.mac",
+        "size_kb": 1097596,
+        "size_h": "1.0 GB"
+      },
+      {
+        "name": "com.tencent.qq",
+        "path": "/Users/yangqi/Library/Containers/com.tencent.qq",
+        "size_kb": 732744,
+        "size_h": "715.6 MB"
+      },
+      {
+        "name": "com.tencent.qqexdoc",
+        "path": "/Users/yangqi/Library/Containers/com.tencent.qqexdoc",
+        "size_kb": 400672,
+        "size_h": "391.3 MB"
+      },
+      {
+        "name": "BD630D4A-0DF5-40A2-B2E9-46BA8E7CE753",
+        "path": "/Users/yangqi/Library/Containers/BD630D4A-0DF5-40A2-B2E9-46BA8E7CE753",
+        "size_kb": 358424,
+        "size_h": "350.0 MB"
+      },
+      {
+        "name": "com.apple.geod",
+        "path": "/Users/yangqi/Library/Containers/com.apple.geod",
+        "size_kb": 162312,
+        "size_h": "158.5 MB"
+      },
+      {
+        "name": "com.microsoft.Powerpoint",
+        "path": "/Users/yangqi/Library/Containers/com.microsoft.Powerpoint",
+        "size_kb": 141012,
+        "size_h": "137.7 MB"
+      },
+      {
+        "name": "com.microsoft.Word",
+        "path": "/Users/yangqi/Library/Containers/com.microsoft.Word",
+        "size_kb": 114152,
+        "size_h": "111.5 MB"
+      },
+      {
+        "name": "com.netease.163music",
+        "path": "/Users/yangqi/Library/Containers/com.netease.163music",
+        "size_kb": 99880,
+        "size_h": "97.5 MB"
+      },
+      {
+        "name": "com.apple.mediaanalysisd",
+        "path": "/Users/yangqi/Library/Containers/com.apple.mediaanalysisd",
+        "size_kb": 96088,
+        "size_h": "93.8 MB"
+      },
+      {
+        "name": "com.apple.photoanalysisd",
+        "path": "/Users/yangqi/Library/Containers/com.apple.photoanalysisd",
+        "size_kb": 93204,
+        "size_h": "91.0 MB"
+      }
+    ],
+    "group_containers": [
+      {
+        "name": "UBF8T346G9.Office",
+        "path": "/Users/yangqi/Library/Group Containers/UBF8T346G9.Office",
+        "size_kb": 185124,
+        "size_h": "180.8 MB"
+      },
+      {
+        "name": "FN2V63AD2J.com.tencent",
+        "path": "/Users/yangqi/Library/Group Containers/FN2V63AD2J.com.tencent",
+        "size_kb": 73120,
+        "size_h": "71.4 MB"
+      }
+    ],
+    "app_support": [
+      {
+        "name": "Quark",
+        "path": "/Users/yangqi/Library/Application Support/Quark",
+        "size_kb": 14841928,
+        "size_h": "14.2 GB"
+      },
+      {
+        "name": "Google",
+        "path": "/Users/yangqi/Library/Application Support/Google",
+        "size_kb": 13735432,
+        "size_h": "13.1 GB"
+      },
+      {
+        "name": "Claude",
+        "path": "/Users/yangqi/Library/Application Support/Claude",
+        "size_kb": 10291456,
+        "size_h": "9.8 GB"
+      },
+      {
+        "name": "LarkShell",
+        "path": "/Users/yangqi/Library/Application Support/LarkShell",
+        "size_kb": 9492372,
+        "size_h": "9.1 GB"
+      },
+      {
+        "name": "Claude-3p",
+        "path": "/Users/yangqi/Library/Application Support/Claude-3p",
+        "size_kb": 7507772,
+        "size_h": "7.2 GB"
+      },
+      {
+        "name": "Citro Labs",
+        "path": "/Users/yangqi/Library/Application Support/Citro Labs",
+        "size_kb": 4903204,
+        "size_h": "4.7 GB"
+      },
+      {
+        "name": "Doubao",
+        "path": "/Users/yangqi/Library/Application Support/Doubao",
+        "size_kb": 4054376,
+        "size_h": "3.9 GB"
+      },
+      {
+        "name": "TRAE SOLO",
+        "path": "/Users/yangqi/Library/Application Support/TRAE SOLO",
+        "size_kb": 2181312,
+        "size_h": "2.1 GB"
+      },
+      {
+        "name": "Microsoft",
+        "path": "/Users/yangqi/Library/Application Support/Microsoft",
+        "size_kb": 1839296,
+        "size_h": "1.8 GB"
+      },
+      {
+        "name": "Arc",
+        "path": "/Users/yangqi/Library/Application Support/Arc",
+        "size_kb": 1714376,
+        "size_h": "1.6 GB"
+      },
+      {
+        "name": "Microsoft Edge",
+        "path": "/Users/yangqi/Library/Application Support/Microsoft Edge",
+        "size_kb": 1146140,
+        "size_h": "1.1 GB"
+      },
+      {
+        "name": "Code",
+        "path": "/Users/yangqi/Library/Application Support/Code",
+        "size_kb": 1023008,
+        "size_h": "999.0 MB"
+      },
+      {
+        "name": "Codex",
+        "path": "/Users/yangqi/Library/Application Support/Codex",
+        "size_kb": 958864,
+        "size_h": "936.4 MB"
+      },
+      {
+        "name": "com.openai.atlas",
+        "path": "/Users/yangqi/Library/Application Support/com.openai.atlas",
+        "size_kb": 928428,
+        "size_h": "906.7 MB"
+      },
+      {
+        "name": "Notion",
+        "path": "/Users/yangqi/Library/Application Support/Notion",
+        "size_kb": 717020,
+        "size_h": "700.2 MB"
+      },
+      {
+        "name": "com.tencent.imamac",
+        "path": "/Users/yangqi/Library/Application Support/com.tencent.imamac",
+        "size_kb": 554176,
+        "size_h": "541.2 MB"
+      },
+      {
+        "name": "bilibili",
+        "path": "/Users/yangqi/Library/Application Support/bilibili",
+        "size_kb": 482992,
+        "size_h": "471.7 MB"
+      },
+      {
+        "name": "com.apple.wallpaper",
+        "path": "/Users/yangqi/Library/Application Support/com.apple.wallpaper",
+        "size_kb": 468204,
+        "size_h": "457.2 MB"
+      },
+      {
+        "name": "Cursor",
+        "path": "/Users/yangqi/Library/Application Support/Cursor",
+        "size_kb": 328860,
+        "size_h": "321.2 MB"
+      },
+      {
+        "name": "com.raycast.macos",
+        "path": "/Users/yangqi/Library/Application Support/com.raycast.macos",
+        "size_kb": 251844,
+        "size_h": "245.9 MB"
+      },
+      {
+        "name": "WeType",
+        "path": "/Users/yangqi/Library/Application Support/WeType",
+        "size_kb": 227128,
+        "size_h": "221.8 MB"
+      },
+      {
+        "name": "cloud-code",
+        "path": "/Users/yangqi/Library/Application Support/cloud-code",
+        "size_kb": 119756,
+        "size_h": "116.9 MB"
+      },
+      {
+        "name": "obsidian",
+        "path": "/Users/yangqi/Library/Application Support/obsidian",
+        "size_kb": 118392,
+        "size_h": "115.6 MB"
+      },
+      {
+        "name": "Caches",
+        "path": "/Users/yangqi/Library/Application Support/Caches",
+        "size_kb": 111012,
+        "size_h": "108.4 MB"
+      },
+      {
+        "name": "GitKrakenCLI",
+        "path": "/Users/yangqi/Library/Application Support/GitKrakenCLI",
+        "size_kb": 109708,
+        "size_h": "107.1 MB"
+      },
+      {
+        "name": "Antigravity IDE",
+        "path": "/Users/yangqi/Library/Application Support/Antigravity IDE",
+        "size_kb": 90780,
+        "size_h": "88.7 MB"
+      },
+      {
+        "name": "com.electron.lark.font_workaround",
+        "path": "/Users/yangqi/Library/Application Support/com.electron.lark.font_workaround",
+        "size_kb": 76396,
+        "size_h": "74.6 MB"
+      },
+      {
+        "name": "com.netease.uuremote.updater",
+        "path": "/Users/yangqi/Library/Application Support/com.netease.uuremote.updater",
+        "size_kb": 67692,
+        "size_h": "66.1 MB"
+      }
+    ],
+    "applications": [
+      {
+        "name": "Microsoft Word.app",
+        "path": "/Applications/Microsoft Word.app",
+        "size_kb": 2804924,
+        "size_h": "2.7 GB"
+      },
+      {
+        "name": "WPS Office 教育版 .app",
+        "path": "/Applications/WPS Office 教育版 .app",
+        "size_kb": 2711972,
+        "size_h": "2.6 GB"
+      },
+      {
+        "name": "Microsoft Excel.app",
+        "path": "/Applications/Microsoft Excel.app",
+        "size_kb": 2570020,
+        "size_h": "2.5 GB"
+      },
+      {
+        "name": "Microsoft PowerPoint.app",
+        "path": "/Applications/Microsoft PowerPoint.app",
+        "size_kb": 2280344,
+        "size_h": "2.2 GB"
+      },
+      {
+        "name": "Quark.app",
+        "path": "/Applications/Quark.app",
+        "size_kb": 1793352,
+        "size_h": "1.7 GB"
+      },
+      {
+        "name": "Microsoft Edge.app",
+        "path": "/Applications/Microsoft Edge.app",
+        "size_kb": 1492828,
+        "size_h": "1.4 GB"
+      },
+      {
+        "name": "Google Chrome.app",
+        "path": "/Applications/Google Chrome.app",
+        "size_kb": 1437856,
+        "size_h": "1.4 GB"
+      },
+      {
+        "name": "ChatGPT.app",
+        "path": "/Applications/ChatGPT.app",
+        "size_kb": 1400952,
+        "size_h": "1.3 GB"
+      },
+      {
+        "name": "WeChat.app",
+        "path": "/Applications/WeChat.app",
+        "size_kb": 1395036,
+        "size_h": "1.3 GB"
+      },
+      {
+        "name": "Lark.app",
+        "path": "/Applications/Lark.app",
+        "size_kb": 1367416,
+        "size_h": "1.3 GB"
+      },
+      {
+        "name": "Microsoft OneNote.app",
+        "path": "/Applications/Microsoft OneNote.app",
+        "size_kb": 1283928,
+        "size_h": "1.2 GB"
+      },
+      {
+        "name": "QQ.app",
+        "path": "/Applications/QQ.app",
+        "size_kb": 1235368,
+        "size_h": "1.2 GB"
+      },
+      {
+        "name": "Visual Studio Code.app",
+        "path": "/Applications/Visual Studio Code.app",
+        "size_kb": 1053992,
+        "size_h": "1.0 GB"
+      },
+      {
+        "name": "TRAE SOLO.app",
+        "path": "/Applications/TRAE SOLO.app",
+        "size_kb": 952576,
+        "size_h": "930.2 MB"
+      },
+      {
+        "name": "WorkBuddy.app",
+        "path": "/Applications/WorkBuddy.app",
+        "size_kb": 929980,
+        "size_h": "908.2 MB"
+      },
+      {
+        "name": "Doubao.app",
+        "path": "/Applications/Doubao.app",
+        "size_kb": 909928,
+        "size_h": "888.6 MB"
+      },
+      {
+        "name": "Cursor.app",
+        "path": "/Applications/Cursor.app",
+        "size_kb": 839540,
+        "size_h": "819.9 MB"
+      },
+      {
+        "name": "LibreOffice.app",
+        "path": "/Applications/LibreOffice.app",
+        "size_kb": 813776,
+        "size_h": "794.7 MB"
+      },
+      {
+        "name": "Claude.app",
+        "path": "/Applications/Claude.app",
+        "size_kb": 772100,
+        "size_h": "754.0 MB"
+      },
+      {
+        "name": "ego lite.app",
+        "path": "/Applications/ego lite.app",
+        "size_kb": 752208,
+        "size_h": "734.6 MB"
+      },
+      {
+        "name": "Antigravity IDE.app",
+        "path": "/Applications/Antigravity IDE.app",
+        "size_kb": 714232,
+        "size_h": "697.5 MB"
+      },
+      {
+        "name": "NeteaseMusic.app",
+        "path": "/Applications/NeteaseMusic.app",
+        "size_kb": 642296,
+        "size_h": "627.2 MB"
+      },
+      {
+        "name": "Pages Creator Studio.app",
+        "path": "/Applications/Pages Creator Studio.app",
+        "size_kb": 621324,
+        "size_h": "606.8 MB"
+      },
+      {
+        "name": "ChatGPT Atlas.app",
+        "path": "/Applications/ChatGPT Atlas.app",
+        "size_kb": 591936,
+        "size_h": "578.1 MB"
+      },
+      {
+        "name": "Keynote.app",
+        "path": "/Applications/Keynote.app",
+        "size_kb": 556580,
+        "size_h": "543.5 MB"
+      },
+      {
+        "name": "小绿鲸.app",
+        "path": "/Applications/小绿鲸.app",
+        "size_kb": 523536,
+        "size_h": "511.3 MB"
+      },
+      {
+        "name": "Obsidian.app",
+        "path": "/Applications/Obsidian.app",
+        "size_kb": 486304,
+        "size_h": "474.9 MB"
+      },
+      {
+        "name": "ima.copilot.app",
+        "path": "/Applications/ima.copilot.app",
+        "size_kb": 475696,
+        "size_h": "464.5 MB"
+      },
+      {
+        "name": "Numbers.app",
+        "path": "/Applications/Numbers.app",
+        "size_kb": 431364,
+        "size_h": "421.3 MB"
+      },
+      {
+        "name": "Antigravity.app",
+        "path": "/Applications/Antigravity.app",
+        "size_kb": 419660,
+        "size_h": "409.8 MB"
+      },
+      {
+        "name": "Google Drive.app",
+        "path": "/Applications/Google Drive.app",
+        "size_kb": 347524,
+        "size_h": "339.4 MB"
+      },
+      {
+        "name": "Zotero.app",
+        "path": "/Applications/Zotero.app",
+        "size_kb": 320492,
+        "size_h": "313.0 MB"
+      },
+      {
+        "name": "Hermes.app",
+        "path": "/Applications/Hermes.app",
+        "size_kb": 312764,
+        "size_h": "305.4 MB"
+      },
+      {
+        "name": "Notion.app",
+        "path": "/Applications/Notion.app",
+        "size_kb": 272964,
+        "size_h": "266.6 MB"
+      },
+      {
+        "name": "Gemini.app",
+        "path": "/Applications/Gemini.app",
+        "size_kb": 244172,
+        "size_h": "238.4 MB"
+      },
+      {
+        "name": "Raycast.app",
+        "path": "/Applications/Raycast.app",
+        "size_kb": 189668,
+        "size_h": "185.2 MB"
+      },
+      {
+        "name": "Clash Verge.app",
+        "path": "/Applications/Clash Verge.app",
+        "size_kb": 159404,
+        "size_h": "155.7 MB"
+      },
+      {
+        "name": "UURemote.app",
+        "path": "/Applications/UURemote.app",
+        "size_kb": 156876,
+        "size_h": "153.2 MB"
+      },
+      {
+        "name": "ChatGPT Classic.app",
+        "path": "/Applications/ChatGPT Classic.app",
+        "size_kb": 153060,
+        "size_h": "149.5 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "name": "google-cloud-sdk",
+        "path": "/Users/yangqi/Downloads/google-cloud-sdk",
+        "size_kb": 429316,
+        "size_h": "419.3 MB"
+      },
+      {
+        "name": "WorkBuddy-darwin-arm64-5.2.5.32793105-1067a2de.dmg",
+        "path": "/Users/yangqi/Downloads/WorkBuddy-darwin-arm64-5.2.5.32793105-1067a2de.dmg",
+        "size_kb": 392244,
+        "size_h": "383.1 MB"
+      },
+      {
+        "name": "styles",
+        "path": "/Users/yangqi/Downloads/styles",
+        "size_kb": 192192,
+        "size_h": "187.7 MB"
+      },
+      {
+        "name": "1559577862-1-100050.m4s",
+        "path": "/Users/yangqi/Downloads/1559577862-1-100050.m4s",
+        "size_kb": 188212,
+        "size_h": "183.8 MB"
+      },
+      {
+        "name": "GoogleDrive.dmg",
+        "path": "/Users/yangqi/Downloads/GoogleDrive.dmg",
+        "size_kb": 134632,
+        "size_h": "131.5 MB"
+      },
+      {
+        "name": "SEM 李士奇 单体",
+        "path": "/Users/yangqi/Downloads/SEM 李士奇 单体",
+        "size_kb": 82564,
+        "size_h": "80.6 MB"
+      },
+      {
+        "name": "2026-04-08_Unknown_在哲学中成为马克思主义者.pdf",
+        "path": "/Users/yangqi/Downloads/2026-04-08_Unknown_在哲学中成为马克思主义者.pdf",
+        "size_kb": 61644,
+        "size_h": "60.2 MB"
+      },
+      {
+        "name": "Clash.Verge_2.5.1_aarch64 (1).dmg",
+        "path": "/Users/yangqi/Downloads/Clash.Verge_2.5.1_aarch64 (1).dmg",
+        "size_kb": 60184,
+        "size_h": "58.8 MB"
+      },
+      {
+        "name": "Clash.Verge_2.5.1_aarch64.dmg",
+        "path": "/Users/yangqi/Downloads/Clash.Verge_2.5.1_aarch64.dmg",
+        "size_kb": 60184,
+        "size_h": "58.8 MB"
+      },
+      {
+        "name": "fluxdo-unsigned.ipa",
+        "path": "/Users/yangqi/Downloads/fluxdo-unsigned.ipa",
+        "size_kb": 52232,
+        "size_h": "51.0 MB"
+      }
+    ],
+    "dev_caches": [
+      {
+        "name": ".cache",
+        "path": "/Users/yangqi/.cache",
+        "size_kb": 1745120,
+        "size_h": "1.7 GB"
+      },
+      {
+        "name": ".npm",
+        "path": "/Users/yangqi/.npm",
+        "size_kb": 1168660,
+        "size_h": "1.1 GB"
+      }
+    ]
+  },
+  "scan_seconds": 118.8
+}

@@ -1,0 +1,217 @@
+{
+  "all_passed": true,
+  "failed_count": 0,
+  "generated_at": "2026-07-15T17:27:57+08:00",
+  "passed_count": 20,
+  "population_count": 46,
+  "required_sample_rule": "5 percent, minimum 20, maximum 100",
+  "restore_source": "/Users/yangqi/Library/CloudStorage/GoogleDrive-yangqihello@gmail.com/我的云端硬盘/personal-knowledge-assets/01-raw-evidence",
+  "results": [
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-cac8fb12fe5455e36da70fa6",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-4c47df870a24d38278be79e0",
+      "checksum_entry_count": 4,
+      "file_count": 6,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-599e5267b99041c782ddc73d",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-44a48b5b68dcfd25b12b762d",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-336f52e86205f9b593b369f9",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-e11606a942b75ececccf77d6",
+      "checksum_entry_count": 3,
+      "file_count": 5,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-863198e73d2c3a100f0d3e51",
+      "checksum_entry_count": 4,
+      "file_count": 6,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-e2bbe6ed2e28a4c6a7f9a290",
+      "checksum_entry_count": 4,
+      "file_count": 6,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-b81fa650dfb048ee51b0c185",
+      "checksum_entry_count": 4,
+      "file_count": 5,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-1a11291009d3ed0e17b581c5",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-b8968c57db653694607dfcc3",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-f20a783812eaea82f98d8239",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-5bb9839563add9e71e56ca1c",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-dc46bec09e9e39c508c200ba",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-61cea58dba4763e0f72141ea",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-0a19b11eb09defb971fb4d00",
+      "checksum_entry_count": 4,
+      "file_count": 5,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-11d3f28d09d31e295efc6490",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-a660191974f169e3aee9f01a",
+      "checksum_entry_count": 3,
+      "file_count": 5,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-eab42840a8ce3d43baaf6d05",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    },
+    {
+      "all_file_hashes_match": true,
+      "asset_id": "asset-6316ea847d68aef16976de75",
+      "checksum_entry_count": 5,
+      "file_count": 7,
+      "file_sets_match": true,
+      "passed": true,
+      "restored_checksum_list_passed": true
+    }
+  ],
+  "sample_count": 20,
+  "schema_version": 1,
+  "selected_asset_ids": [
+    "asset-cac8fb12fe5455e36da70fa6",
+    "asset-4c47df870a24d38278be79e0",
+    "asset-599e5267b99041c782ddc73d",
+    "asset-44a48b5b68dcfd25b12b762d",
+    "asset-336f52e86205f9b593b369f9",
+    "asset-e11606a942b75ececccf77d6",
+    "asset-863198e73d2c3a100f0d3e51",
+    "asset-e2bbe6ed2e28a4c6a7f9a290",
+    "asset-b81fa650dfb048ee51b0c185",
+    "asset-1a11291009d3ed0e17b581c5",
+    "asset-b8968c57db653694607dfcc3",
+    "asset-f20a783812eaea82f98d8239",
+    "asset-5bb9839563add9e71e56ca1c",
+    "asset-dc46bec09e9e39c508c200ba",
+    "asset-61cea58dba4763e0f72141ea",
+    "asset-0a19b11eb09defb971fb4d00",
+    "asset-11d3f28d09d31e295efc6490",
+    "asset-a660191974f169e3aee9f01a",
+    "asset-eab42840a8ce3d43baaf6d05",
+    "asset-6316ea847d68aef16976de75"
+  ],
+  "selection_method": "cryptographic system random without replacement; selected list frozen below",
+  "temporary_restore_removed_after_verification": true
+}

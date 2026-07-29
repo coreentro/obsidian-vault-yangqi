@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-5bb9839563add9e71e56ca1c",
+  "candidate_id": "edge-default-bookmarks:item:00000026",
+  "source_id": "edge-default-bookmarks",
+  "title": "Zotero 中文社区",
+  "original_url": "https://zotero-chinese.com/user-guide/quick-start",
+  "requested_url": "https://zotero-chinese.com/user-guide/quick-start",
+  "final_url": "https://zotero-chinese.com/user-guide/quick-start",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:12.382022+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 115792,
+  "body_sha256": "65a6a3f8f381b80692bd9a60718b32f997e2145fad27a18bf283a9ceb94f9a6a"
+}

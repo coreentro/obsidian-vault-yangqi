@@ -1,0 +1,13 @@
+{
+  "requested_url": "https://lxy.web.hebust.edu.cn/rcpy/yjsjy/dsjj/index.htm",
+  "final_url": "https://www.hebust.edu.cn/404.html",
+  "redirects": [
+    "https://www.hebust.edu.cn/404.html"
+  ],
+  "complete_response": true,
+  "error": null,
+  "limitations": [
+    "页面发生重定向；原始链接和重定向链分别保留。",
+    "最终域名与原始域名不同，需人工确认，不把跳转目标当作原始来源。"
+  ]
+}

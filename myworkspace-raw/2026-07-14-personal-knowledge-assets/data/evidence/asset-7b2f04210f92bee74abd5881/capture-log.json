@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://my.originlab.com/forum/forum.asp?FORUM_ID=28",
+  "final_url": null,
+  "redirects": [],
+  "complete_response": false,
+  "error": "HTTPError: HTTP Error 500: Internal Server Error",
+  "limitations": [
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

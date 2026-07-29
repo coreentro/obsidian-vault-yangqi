@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-b81fa650dfb048ee51b0c185",
+  "candidate_id": "chrome-default-bookmarks:item:00000049",
+  "source_id": "chrome-default-bookmarks",
+  "title": "网站地图 - 出国留学网",
+  "original_url": "https://m.liuxue86.com/sitemap.html",
+  "requested_url": "https://m.liuxue86.com/sitemap.html",
+  "final_url": "https://m.liuxue86.com/sitemap.html",
+  "redirects": [],
+  "captured_at": "2026-07-15T09:16:18.755778+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

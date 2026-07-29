@@ -1,0 +1,1 @@
+PASS: syntax, payload, custom-theme, config round-trip, HOME recovery, signature, and doctor checks.

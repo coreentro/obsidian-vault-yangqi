@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "asset_id": "asset-b15bb16bd24661c3ca7afcc9",
+  "source_id": "edge-default-bookmarks",
+  "created_at": "2026-07-15T09:25:47.242098+00:00",
+  "completeness": "limited",
+  "immutable_files": [
+    {
+      "path": "capture-log.json",
+      "byte_length": 366,
+      "sha256": "895fe995e830d3f0b38af1596d71c1c24c3450fe914e7b8668450a8411273adf",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "comments.json",
+      "byte_length": 92,
+      "sha256": "0446aff5ef58d88aef96e79aa612795da80125e31e360990bc43a3955f16581d",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "duplicate-of.json",
+      "byte_length": 141,
+      "sha256": "206011bfb955daffd3e2c6fea7d8197c990d0d679a566c333ccdc128e84a16d5",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "metadata.json",
+      "byte_length": 338,
+      "sha256": "ca30e26aa0ec2bfa5585079433b2ee481c93f85d2b40e2878fc3a291f85d3764",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "source.json",
+      "byte_length": 457,
+      "sha256": "aea78aff61aede5d226cc91be48985645cfaa797d98864853f3ce529e71e3422",
+      "mime_type": "application/json",
+      "role": "source"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "source.md",
+      "byte_length": 244,
+      "sha256": "4e18e3728beb40c79a975ac31ae6b4fd73fdcd065acb9ba5136d56d0686c97d4",
+      "mime_type": "text/markdown",
+      "parent": "source.json",
+      "transformation": "lossless bookmark-record rendering; page body is referenced, not re-fetched"
+    }
+  ],
+  "limitations": [],
+  "capture_events": []
+}

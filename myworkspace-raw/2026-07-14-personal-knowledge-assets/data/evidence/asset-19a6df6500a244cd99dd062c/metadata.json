@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-19a6df6500a244cd99dd062c",
+  "candidate_id": "chrome-default-bookmarks:item:00000054",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Augmenting Human Intellect: A Conceptual Framework - 1962 (AUGMENT,3906,) - Doug Engelbart Institute",
+  "original_url": "https://dougengelbart.org/pubs/augment-3906.html",
+  "requested_url": "https://dougengelbart.org/pubs/augment-3906.html",
+  "final_url": "https://dougengelbart.org/pubs/augment-3906.html",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:53:49.027602+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 507637,
+  "body_sha256": "69536f97d895b485d48f801528c3259379fae094787f7f372a33c79f81ef5071"
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-e11606a942b75ececccf77d6",
+  "candidate_id": "chrome-default-bookmarks:item:00000087",
+  "source_id": "chrome-default-bookmarks",
+  "title": "有用经验",
+  "original_url": "https://yyjingyan.com/",
+  "requested_url": "https://yyjingyan.com/",
+  "final_url": "https://yyjingyan.com/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:47.177535+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

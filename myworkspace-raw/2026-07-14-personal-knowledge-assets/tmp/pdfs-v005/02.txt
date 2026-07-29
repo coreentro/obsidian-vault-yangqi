@@ -1,0 +1,1752 @@
+=== PAGE 1 ===
+第 43 卷 第 3 期
+2022 年 3 月
+太 阳 能 学 报
+ACTA ENERGIAE SOLARIS SINICA
+Vol. 43 , No. 3
+Mar., 2022
+收稿日期 ： 2022 - 01 - 10
+基金项目 ： 北京市百千万人才工程资助项目 （ 2020 A 30 ） ； 全球能源互联网研究院有限公司科技项目 （ 氢能系统参与电网辅助服务协调互动技术
+开发 SGGR 0000 WLJS 2100287 ）
+通信作者 ： 李建林 （ 1976 — ） ， 男 ， 博士 、 教授 ， 主要从事大规模储能技术方面的研究 。 dkyljl@ 163 .com
+DOI ： 10 . 19912 /j. 0254 - 0096 .tynxb. 2022 - 0037 文章编号 ： 0254 - 0096 （ 2022 ） 03 - 0002 - 10
+太阳能 制氢关键技术研究
+李建林
+1
+， 梁忠豪
+1
+， 李光辉
+1
+， 宋 洁
+2
+， 徐桂芝
+2
+（ 1 . 储能技术工程研究中心 （ 北方工业大学 ） ， 北京 100144 ； 2 . 全球能源互联网研究院有限公司 ， 北京 102209 ）
+摘 要 ： 围绕太阳能制氢技术展开论述 ， 首先 ， 介绍太阳能制氢技术的研究现状 ； 其次 ， 对于太阳能制氢技术尤其是光催化制
+氢技术及热化学循环分解水制氢技术 ， 分别从技术原理 、 关键材料 、 技术难点等方面进行详细的论述 ； 最后 ， 对太阳能制氢技术
+研究给出结论及建议 ， 旨在为未来太阳能制氢技术的研发布局和产业技术突破提供参考和思路 。
+关键词 ： 太阳能 ； 光催化制氢 ； 光电化学制氢 ； 热化学循环制氢 ； 光合微生物制氢
+中图分类号 ： TK 513 . 5 文献标志码 ： A
+0 引 言
+氢 能具有清洁无污染 、 可储存 、 高热值等优点 ， 被各国
+普遍认为是最具潜力的二次能源以及清洁能源载体
+［ 1 - 2 ］
+。 为
+应对气候变化和保障能源安全 ， 世界各国把发展氢能作为
+重 要 战 略 选 择 。 根 据 国 际 氢 能 委 员 会 发 布 的 报 告
+Hydrogen Scaling Up ， 预测 2050 年氢能约占全球能源需求的
+18 %
+［ 3 ］
+。 因此 ， 寻找安全 、 高效 、 低成本的绿氢制取技术备受
+业界关注 。 目前 ， 绿氢制取主流技术除可再生能源电解水
+制氢之外
+［ 4 ］
+， 还有 直接利用太阳能制氢 ， 不仅实现了分散 、
+不稳定的太阳能的长期储存以及重新分配 ， 且随着太阳能
+制氢关键技术的突破 ， 未来有望实现廉价氢气的大规模制
+取 ， 助力全球由化石能源向清洁能源转型 ， 满足世界范围内
+的能源需求 。
+在此背景下 ， 各能源消耗大国相继将太阳能制氢技术研
+究作为国家战略计划 ， 而且每一次的能源危机都会让各国更
+加热切的期望实现利用太阳能高效制取廉价的氢气 。 目前
+国内外研究人员对太阳能制氢技术有一定的研究 ， 例如 ： 文
+献 ［ 5 ］ 研究不同波长的光源对 HAU - MI 光合菌群制氢的影
+响 ， 发现在 492 ~ 577 nm 波长光照射下 ， 菌群的产氢效果最
+好 ， 产氢速率达 11 . 16 mL/ （ gDCW · h ） ； 文献 ［ 6 - 7 ］ 研究一种使
+用多孔结构纳米 TiO 2 作为光催化剂和 Pt 作为助催化剂的光
+催化系统 ， 在紫外线和自然光照射下 ， 光催化海水分解的氢
+气生产率分别为 7200 和 3600 μ mol/ （ g · h ） ， 是已报道的 TiO 2
+催化系统 （ 不使用牺牲剂的 ） 氢气生产率最高纪录 。 但文献
+研究的内容普遍片面且分散 ， 缺少同一太阳能制氢技术的梳
+理总结以及不同太阳能制氢技术之间关键因素的横向对比
+分析 。 为此 ， 本文从太阳能制氢技术的研究背景及现状入
+手 ， 详细论述不同太阳能制氢技术原理 ， 并对其中重要制氢
+技术的技术特点 、 关键指标和优缺点等进行分析总结 ， 为太
+阳能制氢技术的研发突破提供参考 ， 并为寻找可大规模应用
+的太阳能制氢技术提供借鉴 。
+1 太阳能制氢技术研究背景及现状
+Akira Fujishima 教授
+［ 8 ］
+利用 TiO 2 光催化分解水制氢的研究
+被认为是太阳光电化学分解水制氢领域的一个标志性事件 。
+2021 年 ， 日本研究团队组装出世界上最大规模约 100 m
+2
+的光
+触媒面板反应器 ， 并实现了 0 . 76 % 的太阳能转化效率 ， 这是截至
+目前最高的太阳能转化效率
+［ 9 ］
+， 推进太阳能制氢技术研究向前
+迈进了一大步 。 太阳能制氢技术的关键发展节点如图 1 所示 。
+国 内 外 研 究 者 在 太 阳 能 制 氢 技 术 方 面 已 开 展 许 多 研
+究 。 文献 ［ 10 ］ 研制了光解水制氢中的催化剂 2 D 介孔超薄
+Cd 0 . 5 Zn 0 . 5 S 纳米片 ， 在牺牲剂 （ 三乙醇胺 ） 的存在下 ， 大大提高
+了 Cd 0 . 5 Zn 0 . 5 S 纳米片的催化活性 ； 文献 ［ 11 ］ 采用水热法合成了
+混晶相结构的 m - TiO 2 ， 其中包括 A 型 、 A+B 型二元混晶相及
+A+B+R 型三元混晶相 ， 进而验证了通过调控 m - TiO 2 中板钛
+矿相含量 ， 可提高光解水制氢系统的制氢效率 ； 文献 ［ 12 ］ 在
+900 ~ 2000 ℃ 温度范围内对约 30 个循环进行研究评价 ， 发现
+ZnO/Zn 循环制氢技术的理论产氢效率高达 29 % ， 且热解温度
+相 对 较 低 ， 能 量 转 换 效 率 较 高 ； 文 献 ［ 13 ］ 研 究 在 2000 K ，
+0 . 5 atm 下 ， 集 中 太 阳 能 热 驱 动 硫 化 氢 分 解 制 氢 ； 文 献 ［ 14 ］
+从热力学和经济性角度对太阳能热驱动硫化氢分解制氢进
+行了研究 ； 文献 ［ 15 ］ 针对太阳能热化学制氢过程提出一种新
+型光热氧化还原制氢反应器 。 采用集总参数法 ， 建立制氢系
+统的数学模型 ， 通过优化相关参数 ， 最终获得制氢效率最大
+理论值为 27 % 。
+
+=== PAGE 2 ===
+3 期 李建林等 ： 太阳能制氢关键技术研究 3
+发 展 节 点
+1942
+年
+1972
+年
+1977
+年
+1988
+年
+1998
+年
+2001
+年
+2009
+年
+2010
+年
+2016
+年
+2017
+年
+2019
+年
+2021
+年
+2018
+年
+2015
+年
+首 次 发 现 太 阳 能
+光 合 物 质 制 氢
+出 现 使 用 半 导 体 光 催 化
+剂 的
+Z
+型 全 解 水 制 氢
+方 法
+第 一 个 光 催 化 制 氢 实
+验 装 置 (
+>1 m
+2
+)
+使 用 氧 化 铈 的 太 阳 能
+热 化 学 制 氢 的 效 率 为
+0.7%0.8%
+基 于 光 伏 (
+PV
+) 聚 光 器 的 模 块 化 光 电
+化 学 (
+PEC
+) 设 备 , 具 有
+22%~24%
+的
+太 阳 能 转 化 为 氢 能 效 率
+64 m
+2
+的 基 于 硅 光 伏 的 水 分 解 装 置 ,
+太 阳 能 转 化 为 氢 能 效 率 为
+3.9%
+迄 今 为 止 , 最 大 的 实 验 工 厂 以
+26.7 L/h
+光 催 化 制 氢
+太 阳 能 热 化 学 制 氢 方 法 共 生 产
+700 L
+合
+成 气 , 太 阳 能 转 化 为 氢 能 效 率 为
+1.72%
+具 有
+30%
+最 高 太 阳 能 转 化 为 氢 能
+效 率 的 模 块 化 光 电 化 学
+设 备
+在 两 个 月 的 现 场 测 试 中 , 模 块 化 光 电 化
+学 (
+PEC
+) 设 备 的 最 大 太 阳 能 转 化 为
+氢 能 效 率 为
+19.8%
+迄 今 为 止 , 最 大 的 实 验 工 厂 以
+37.3 m
+3
+/d
+光 发 酵 制 氢
+使 用
+1 m
+2
+面 板 反 应 器 的 光 催 化 全 解 水 ,
+太 阳 能 转 化 为 氢 能 ( STH ) 效 率 为 0. 4% 
+具 有 >
+0.88 A/cm
+2
+电 流 密 度 且
+太 阳 能 转 化 为 氢 能 效 率
+>
+15%
+的
+PV- PEM
+设 备
+日 本 组 装 出 了 世 界 上 最 大 的
+100 m
+2
+规 模
+的 光 触 媒 面 板 反 应 器 , 在 室 外 环 境 中 连
+续 产 生 氢 氧 混 合 气 体 约
+1
+年 , 并 在 夏 季
+阳 光 条 件 好 的 情 况 下 实 现 了
+0.76%
+的 最
+大 太 阳 能 转 换 效 率
+首 次 报 道 了
+TiO
+2
+光 电 极
+用 于 太 阳 能 光 电 化 学 分 解
+水 制 氢 的 研 究
+关 于 使 用 半 导 体 颗 粒 的
+光 催 化 全 解 水 的 最 早 报 告
+连 续 生 物 光 解 水 能 量 效 率 等 同 于
+10%
+的 太 阳 能 转 化 为 氢 能 (
+STH
+)
+效 率
+基 于 硅 光 伏 的 无 线 光 电 化 学
+设 备 , 其 太 阳 能 转 化 为 氢 能
+效 率 为
+7.8%
+最
+氢
+最
+大
+最
+最
+氢
+TiO
+2
+(
+STH
+)
+(
+STH
+)
+(
+STH
+)
+(
+PEC
+)
+(
+PEC
+)
+(
+STH
+)
+(
+STH
+)
+(
+STH
+)
+(
+STH
+)
+图 1 太阳能制氢技术的关键发展节点
+Fig . 1 Key development nodes of solar hydrogen production technology
+2 太阳 能 制氢技术
+根据太阳能转化途径及原理不同 ， 太阳能制氢技术可分
+为光催化制氢技术 、 光电化学分解水制氢技术 、 太阳能热化
+学制氢技术 、 光合微生物制氢技术 、 光伏发电电解水制氢 5
+种 ， 具体见图 2 。
+2 . 1 光催化制氢技术
+光催化制氢技术是借助半导体光催化剂的作用 ， 在太阳
+光的照射下制取氢气 ， 实现光能直接转化为化学能 。 由图 2
+可知 ， 光催化制氢技术包括 ： 光催化分解水制氢技术和光催
+化有机物重整制氢技术 。
+太 阳 能 制 氢 技 术
+光 催 化 制 氢 技 术
+光 电 化 学 分 解
+水 制 氢 技 术
+光 合 微 生 物 制 氢 技 术 太 阳 能 热 化 学 制 氢 技 术
+光 伏 发 电 电 解 水 制 氢 技 术
+光 合 微 藻 制 氢 技 术
+光 合 细 菌 制 氢 技 术
+微 藻 光 解 水 制 氢 技 术
+微 藻 间 接 光 合 产 氢 技 术
+ 
+光 催 化 分 解 水 制 氢 技 术
+ 
+光 催 化 有 机 物 重 整 制 氢 技 术
+ 
+热 化 学 循 环 分 解 水 制 氢 技 术
+ 
+太 阳 能 直 接 热 分 解 水 制 氢 技 术
+ 
+太 阳 能 驱 动 其 他 含 氢 化 合 物 制 氢 技 术
+两 步 热 化 学 循 环 分 解 水 制 氢 技 术
+多 步 热 化 学 循 环 分 解 水 制 氢 技 术
+图 2 太阳能制氢技术分类
+Fig . 2 Classification of so la r hydroge n production technologies
+对于光 催化分解水制氢技术 ， 其媒介一般为半导体材
+料 ， 光催化分解水制氢本质上是半导体材料的光电效应 ， 如
+图 3 所示 。 半导体的能带有价带 、 禁带和导带 ， 当光照射半
+导体时 ， 若 h ν ≥ E
+g
+， 那么价电子 e
+-
+受激发可跃迁至导带 ， 形成
+电子 - 空穴对 ， 即光生载流子 。 由于热振动等因素大部分光生
+载流子会快速的复合掉 ， 只有少部分的光生载流子迁移到半
+导体表面 ， 之后仍有一部分光生载流子继续在半导体表面发
+生复合 ， 其余部分光生载流子与半导体表面吸附的水分子发
+生氧化还原反应生成 H 2 和 O 2 。 图中 ： h ν 为入射光子能量 。
+其中 h 为普朗克常量 （ h = 6 . 6 3 × 1 0
+- 3 4
+J · s ） ， ν 为电磁辐射频
+率 ； E
+g
+为 导带的最低点和价带间的最高点之间的能量差 ，
+eV ， 其中 1 e V = 1 . 6 × 1 0
+- 1 9
+J 。
+电 子 与
+空 穴
+复 合
+电 子 与
+空 穴
+复 合
+-
+2
+-
+1
+0
+1
+2
+3
+半 导 体
++
+ H
+H
+2
+O
+2
+H
+2
+O
+禁 带
+导 带
+价 带
+eV
+1.23 eV
+h
+v
+图 3 半导体光催化分解水制氢原理示意图
+［ 16 - 17 ］
+Fig . 3 Schematic diagram of semiconductor photocat alytic
+water splitting for hydrogen production
+［ 16 - 17 ］
+
+=== PAGE 3 ===
+4 太 阳 能 学 报 43 卷
+与光催化分 解水制氢技术原理类似 ， 光催化有机物重整制
+氢技术同样在半导体表面形成光生载流子 ， 与水发生氧化还原
+反应产生 H 2 和 O 2 ， 不同之处在于光催化有机物重整制氢技术
+将有机物作为牺牲剂提供 e
+-
+与光催化剂产生的光生空穴反应 ，
+而光生 e
+-
+与 H
++
+结合生成 H 2 。 牺牲剂将大量消耗光生空穴 ， 从
+而阻止光生电子与空穴复合 ， 大大提高了制氢速度 。
+光催化剂是光催化制氢过程中的重要材料 ， 其中常见的
+光催化剂研究主要围绕二氧化钛 （ TiO 2） 、 硫化镉 （ CdS ） 以及石
+墨化氮化碳 （ g - C 3 N 4） 展开 ， 采取一系列改进方法提高光催化
+剂的稳定性以及制氢性能
+［ 18 - 19 ］
+。 常用光催化剂性能对比见表 1 。
+由表 1 可知 ， 金属氧化物光催化材料 TiO 2 材料的 E
+g
+较宽 ， 且
+对光的利用率较低 。 经过改进后的光催化材料 Cu - His - P 25 ，
+大大提高了光催化剂的制氢速率和量子效率 。 过渡金属硫
+化物 CdS 的 E
+g
+较窄 ， 不过 CdS 在光催化反应过程中易发生
+光腐蚀 ， 降低了其光催化活性和稳定性 。 改进后的二元复合
+光催化剂 α - NiS - β - NiS/CdS 极大改善了光催化活性 。 金属 - 有
+机框架 （ metal - organic frameworks ， MOFs ） 衍生物 FeO 3 . 3 C 0 . 2 H 1 . 0
+相比 MOFs 基复合材料 TiO 2 @ZIF - 8 ， E
+g
+较窄 ， 制氢速率大大
+提高 。 在非金属光催化剂方面 ， 聚合物半导体 g - C 3 N 4 因类似
+石墨的层状结构 ， 具有优异的热稳定性及化学稳定性 ， 成为
+光催化制氢的研究热点 ， 但由于光生电子与空穴的高复合
+率 ， 其应用受到较大限制 。
+表 1 常用光催化剂性能对比
+［ 20 - 24 ］
+Table 1 Performance comparison of commonly used photocatalysts
+［ 20 - 24 ］
+类型
+金属氧化物
+TiO 2 及其掺杂
+过渡金属硫化物
+CdS 及其掺杂
+MOFs 材料
+非金属
+聚合物半导体
+典型代表
+TiO 2
+Cu - His - P 25
+纳米棒状结构 CdS
+二元复合光催化剂 ：
+α - NiS - β - NiS/CdS
+MOFs 基复合材料 ：
+TiO 2 @ZIF - 8
+MOFs 衍生物 ：
+FeO 3 . 3 C 0 . 2 H 1 . 0
+高结晶 g - C 3 N 4
+光源
+紫外光响应
+紫外光 / 可见光响应
+可见光响应
+紫外光 / 可见光响应
+可见光响应
+可见光响应
+可见光响应
+制氢速率 /
+（ μ mol · g
+- 1
+· h
+- 1
+）
+1 . 28
+780
+4100
+7180
+250
+125000
+339 . 4
+量子
+效率 /%
+3 . 20
+79 . 87
+60 . 34
+—
+—
+—
+—
+禁带宽度 /
+eV
+3 . 0 ~ 3 . 2
+—
+2 . 4
+2 . 4
+3 . 28
+1 . 61
+2 . 7
+稳定性
+较好
+较好
+较差
+较好
+较好
+较好
+较好
+稳定持续
+时间 /h
+—
+—
+—
+12
+24
+24
+—
+2 . 2 光电化学分 解水制氢技术
+光电化学分解水制氢原理 ， 即在太阳光照射的条件下 ，
+光阳极半导体受激发产生光生载流子 ， 这一点与光催化分解
+水 制氢类似 ， 不同之处是光阳极产生的光生电子在外部偏
+压作用下 ， 通过外电路流向对电极 ， 与 H
++
+结合生成 H 2 。 光
+催化剂分解水制氢以及光电化学分解水制氢原理示意图如
+图 4 所示 ， 其中光电化学分解水制氢系统核心部件为光电化
+学电池 ， 含工作电极 、 辅助电极 、 参比电极 、 电解液和外部电路 ，
+其中工作电极即光阳极 ， 一般使用半导体材料 ， 辅助电极也
+称 对 电 极 ， 实 验 操 作 中 常 用 Pt 材 料 ， 参 比 电 极 一 般 使 用
+Ag/ AgCl ， 主要作用是协助光阳极正常工作 。 相比起光催化分
+解水制氢 ， 光电化学分解水制取的 H 2 和 O 2 更易分离 ， 并且 ，
+由于电极之间偏压的存在 ， 电子空穴复合概率大大降低 ， 提
+高了制氢效率
+［ 25 ］
+。 目前 ， 对光电化学分解水制氢技术的研究
+主要集中于高效率 、 抗腐蚀 、 低成本的光电极材料及催化剂
+材料的 研发方面
+［ 26 ］
+。
+h
+ν
+光
+电
+极
+2H
+2
+O
+→
+2H
+2  
++O
+2
+→
+→
+a . 光催化剂分解水制氢
+电 解 质
+V
++ -
+H
++
+光
+阳
+极
+对
+电
+极
+交 换 膜
+参
+比
+电
+极
+2H
+2
+O
+→
+4H
++
+ 
++4e
+-
++O
+2
+→
+2H
++
++2e
+-
+→
+H
+2
+→
+e
+-
+h
+ν
+b . 光电化学分解水制氢
+图 4 光催化剂分解水制氢及光电化学分解水制氢原理示意图
+Fig . 4 Schematic diagram of photocatalyst water splitting for
+hydrogen production and photoelectrochemical water
+splitting for hy drogen production
+
+=== PAGE 4 ===
+2 . 3 太 阳能热化学制氢技术
+太阳能热化学制氢技术是借助太阳能集热器通过反射 、
+吸收等方式收集太阳能 ， 然后将收集的太阳能转化为热能 ，
+利用热能制取氢气 ， 实现太阳能到化学能的转变 。
+2 . 3 . 1 太阳能直接热分解水制氢技术
+太阳能直接热分解水制氢技术是利用太阳能集热器转
+化的热能直接传递给水 ， 使水直接分解为 H 2 和 O 2 ， 整个制氢
+过程反应速度非常快 ， 且只需输入水和热能 。 然而由于水的
+热分解需在超高温 （ > 2500 K ） 下进行 ， 首先面临着反应堆材
+料如何选取 。 许多研究者提议使用氧化锆和沸石 ， 但氧化锆
+膜材料在约 2100 K 就会发生快速烧结 ， 在直接热分解水制氢
+过程中并不能正常使用
+［ 27 - 28 ］
+。 另外 ， 非氧化物耐火材料在温
+度接近 2500 K 时会变得不稳定 ， 在直接热分解水制氢过程也
+无法正常使用 。 除材料选择问题外 ， H 2 和 O 2 的分离也是直接
+热分解水制氢技术面临的另一个关键问题 。 目前 ， 由于直接
+热分解水制氢技术所面临的以上 2 个关键问题始终无法得
+到有效解决 ， 使得这种方法在 1971 年 Fordhe 和 Kane 提出来
+以后研究进展缓慢
+［ 29 ］
+。
+2 . 3 . 2 热化学循环分解水制氢技术
+热化学循环分解水制氢按反应过程所需步数的不同可
+分为两步和多步 （ ≥ 3 步 ） 热化学循环分解水制氢方法
+［ 30 - 31 ］
+。
+1 ） 两步热化学循环分解水制氢技术
+两步热化学循环分解水制氢步骤如下 ： ① 高价金属氧化
+物的还原反应 ； 借助聚集的太阳热能 ， 将高价金属氧化物还
+原为金属 （ 或低价金属氧化物 ） ， 同时生成 O 2 ， 所需温度通常
+为 1780 K 以上 ； ② 金属 （ 或低价金属氧化物 ） 的氧化反应 。
+H 2 O 将金属 （ 或低价金属氧化物 ） 氧化为高价金属氧化物 ， 同
+时生成 H 2 ， 所需温度为 1100 K 以下 。 金属氧化物热化学循
+环制氢示意图如图 5 。
+高 价 金 属 氧 化 物 还 原
+O
+2
+H
+2
+H
+2
+O
+金 属 氧 化 /水 分 解
+2
+2 O 2 + O
+x y
+M xM y
+22
++ H O O + H
+x y
+xM y M y
+M
+x
+O
+y
+M
+→
+→
+→
+→
+图 5 金属氧化物热化学循环制氢示意图
+Fig . 5 Schematic diagram of metal oxide thermochemical
+cycle for hydrogen production
+两步法热化学循环分解水制氢方法有 400 余种化学反
+应
+［ 32 ］
+， 最早提出的是 Fe 3 O 4 /FeO 热化学循环分解水制氢技术 ，
+此技术面临 2 个问题 ： 首先 ， 由于反应的温度最高达 2500 K ，
+已超过 Fe 3 O 4 的沸点 ， 在此高温下 ， Fe 3 O 4 会出现汽化和 烧结现
+象 ， 严重影响循环制氢过程 ， 这也是 Fe 3 O 4 /FeO 热化学循环分
+解水制氢技术面临的主要问题
+［ 30 ， 33 - 34 ］
+； 其次 ， 在 H 2 O 分解过程
+中产生的 Fe 3 O 4 会停留在 FeO 表面 ， 阻止内部 FeO 与水蒸气
+的进一步反应 ， 使得反应不充分 ， 进而严重影响产氢效率 。
+除 Fe 3 O 4 /FeO 热化学循环分解水制氢技术外 ， 关于 ZnO/Zn 热
+化学循环分解水制氢技术 、 CeO 2 /Ce 2 O 3 热化学循环分解水制
+氢技术 、 SnO 2 /SnO 热化学循环分解水制氢技术的研究也较
+多 。 其中 CeO 2 /Ce 2 O 3 热化学循环分解水制氢技术未使用任何
+脱氧剂 ， 相比 ZnO/Zn 循环减少了原料的使用 ， 降低了材料成
+本以及对环境的污染
+［ 31 ］
+。
+2 ） 多步热化学循环分解水制氢技术
+GA 公司的 S - I 循环制氢技术和日本使用 Br - Ca - Fe 研发
+的 UT - 3 循环制氢技术颇受关注 ， 另外 Westinghouse 循环制
+氢技术也受到很多大型企业和研究机构的青睐
+［ 35 ］
+。
+①S - I 循环制氢
+S - I 循环制氢过程中发生的 3 步反应均可逆 ， 第 1 步为
+Bunsen 反应 ， 主要是硫酸 （ H 2 SO 4） 和氢碘酸 （ HI ） 的生成 ； 第 2
+步为 H 2 SO 4 分解反应 ； 第 3 步 HI 分解反应生成 H 2 。 由于 HI
+分解制氢效率主要受其浓度影响 ， 所以 Bunsen 反应中生成的
+HI 的浓缩过程非常关键 。 S - I 循环制氢过程示意图如 图 6
+所示 。
+O
+2
+H
+2
+H
+2
+O
+两 液 相 分 离
+和 纯 化
+H
+2
+SO
+4
+分 解 部 分
+富 含
+H
+2
+SO
+4
+浓 缩
+SO
+2
++I
+2
++2HO
+→
+H
+2
+SO+2HI
+Bunsen
+反 应 部 分
+Bunsen
+反 应
+ 
+2HI
+→
+I
+2  
++H
+2
+H
+2
+SO
+4
+浓 缩
+H
+2
+SO
+4
+,
+H
+2
+O
+H
+2
+SO
+4
+分 解
+HIHI
+分 解
+ HI 分 解 部 分
+HI
+分 离 与 浓 缩
+I
+2
+I
+2
+HI
+,
+I
+2
+2H
+2
+O
+4
+→
+2H
+2
+O  +2
+SO
+2  
++O
+2
+→
+→
+HI
+,
+H
+2
+SO
+4
+,
+H
+2
+O
+,
+I
+2
+H
+2
+OH
+2
+O
+,
+SO
+2
+→
+→
+图 6 S - I 循环制氢过程示意图
+［ 36 ］
+Fig . 6 Schematic diagram of S - I cycle hydrogen
+production process
+［ 36 ］
+由图 6 可知 ， Bunsen 反应中主要生成 H 2 SO 4 和 HI 。 由
+HI 分解部分返回的 I 2 在逆流反应器中与 H 2 O 和 SO 2 反应生
+成 H 2 SO 4 和 HI ， 进 而 在 过 量 I 2 的 存 在 下 H 2 SO 4 和 HI 分 离 。
+H 2 SO 4 分解部分产生的 SO 2 和 O 2 的混合物在逆流反应器与 I 2
+和 H 2 O 反应 ， 在反应器顶部获取纯 O 2 和少量的 I 2 ， 进而在洗
+涤柱中去除 I 2 得到纯 O 2 。 HI 分解部分中对从 Bunsen 反应中
+来的 HI 纯化并压缩到 5 MPa 后进行分离 ， 然后 ， HI 在分解反
+应器中且温度为 393 K 时进行催化分解生成 H 2 和 I 2 ， 之后在
+气液分离器中对 H 2 、 I 2 和 HI 进行分离提纯得到纯 H 2 。
+S - I 循环制氢过程相比两步循环制氢过程 ， 其反应温度
+（ 1123 Ｋ ） 大大降低 ， 且整个制氢过程可以闭路循环 ， 除水以
+3 期 李建林等 ： 太阳能制氢关键技术研究 5
+
+=== PAGE 5 ===
+6 太 阳 能 学 报 43 卷
+外的材料均可循环使用 ， 制氢效率可达 60 % 。 但是 ， S - I 循环
+制氢 过程中 HI 分解反应可逆 ， 需将产物 H 2 不断从反应体系
+中分离出来 。 并且 ， 在温度 673 K 下 ， H 2 SO 4 的反应过程为强
+腐蚀过程 ， 所以要求材料具有较高的抗腐蚀性 ， 制氢成本较
+高
+［ 37 ］
+。
+②UT - 3 循环制氢
+UT - 3 循环制氢过程包括 4 步反应 ， 且均为固 - 气反应 ， 便
+于反应物与产物的分离 。 具体如图 7 所示 。
+O
+2
+H
+2
+H
+2
+O
+第
+1
+步
+第
+2
+步
+第
+3
+步
+第
+4
+步
+气
+-
+固 分 离
+气
+-
+固 分 离
+CaBr
+2
++H
+2
+O
+→
+CaO+2HBr
+2CaO+2Br
+2
+→
+2CaBr
+2
++O
+2
+Fe
+3
+O
+4
++8HBr
+→
+3FeBr
+2
++4H
+2
+O  +Br
+2
+3FeBr
+2
++4H
+2
+O
+→
+Fe
+3
+O
+4
++6HBr  +H
+2
+CaO
+，
+HBr
+CaO
+HBr
+CaBr
+2
+Br
+2
+FeBr
+2
+，
+H
+2
+O
+，
+Br
+2
+Fe
+3
+O
+4
+，
+HBr
+FeBr
+2
+，
+H
+2
+O
+→→
+→
+→
+→
+图 7 UT - 3 循环制氢过程示意图
+Fig . 7 Schematic diagram of UT - 3 cycle hydrogen
+production process
+由图 7 可知 ， UT - 3 循环制氢过程第 1 步反应 ： CaBr 2 与水
+分解生成 HBr ， 反应温度为 1033 K ， 是 UT - 3 循环制氢过程中
+温度要求最高的反应 ， 但反应速度较慢 ； 第 2 步反应 ： 主要是
+O 2 的生成 ， 反应温度为 845 K ， 为使得由 CaO 到 CaBr 2 的过程
+可 逆 ， 需 将 CaO 很 好 地 分 散 在 合 适 的 支 撑 体 上 ； 第 3 步 反
+应 ： 主要是 Br 2 的生成 ， 反应温度为 493 K ； 第 4 步反应 ： 主要是
+H 2 的生成 ， 反应温度为 833 K 。 UT - 3 循环制氢过程中无贵重
+材 料 使 用 ， 相 关 成 本 较 低 ； 制 氢 过 程 中 最 高 反 应 温 度 较 低
+（ 1033 Ｋ ） ， 可与高温气冷反应堆相耦合 。 UT - 3 循环制氢过
+程热效率可达 40 % ， 若同时发电 ， 热效率可达 50 % 。
+③Westinghouse 循环制氢
+Westinghouse 循环制氢过程有和 S - I 循环制氢过程相同
+的 H 2 SO 4 高温分解 ， 另外新增 2 个步骤 ： 第 1 步 ， 用 H 2 O 吸收
+SO 2 ， 释放 O 2 形成电解液 ； 第 2 步 ， SO 2 水溶液电解 ， 形成 H 2 SO 4
+并放出 H 2 。 Westinghouse 循环制氢过程示意图如图 8 所示 。
+Westinghouse 循环的制氢效率与 H 2 SO 4 浓度成正向线性
+关系 ， 一般情况下 ， 该循环制氢效率可达 40 % ， 若采用多级电
+解制氢效率可达 46 % 。 但是 ， 在温度 673 K 下 ， H 2 SO 4 的反应
+过程为强腐蚀过程 ， 对材料的耐腐蚀性能要求较高 ， 制氢成
+本较高
+［ 31 ］
+。
+典型的两步及多步热化学循环分解水制氢技术特点对
+比见表 2 。
+O
+2
+H
+2
+H
+2
+O
+H
+2
+O
+H
+2
+O
+H
+2
+O SO
+2
+2H
+2
+SO
+4
+→
+2H
+2
+O  +2SO
+2 
++O
+2
+H
+2
+SO
+4
+溶 液
+H
+2
+SO
+4
+分 解
+H
+2
+SO
+4
+浓 缩
+H
+2
+SO
+4
+→
+→
+SO
+2
+→
+2H
+2
+O
+→
+H
+2
+  +H
+2
+SO
+4
+分 解
+→
+图 8 Westinghouse 循环制氢过程示意图
+［ 37 ］
+Fig . 8 Schematic diagram of Westinghouse cycle hydrogen
+production process
+［ 37 ］
+由表 2 可知 ， 两步热化学循环分解水制氢过程只消耗水
+和热量 ， 具有可再生性 ， 中间产物可无损耗循环使用 。 另外 ，
+H 2 和 O 2 分别在不同反应生成 ， 不存在 H 2 和 O 2 难以分离的问
+题 ， 提高了制氢过程的安全性 。 由于涉及的反应阶段少 ， 所
+以能量损失少 ， 总体效率较高 ， Fe 3 O 4 /FeO 热化学循环热效率
+最高可达到 62 . 5 % 。 相对而言 ， 多步热化学循环制氢过程的
+反应温度较低 ， 一般在 1300 K 以下 。 但涉及的反应阶段较
+多 ， 导致整个工艺非常复杂 ， 伴有较多的副反应 ， 通过改进工
+艺来提高热效率 。 比如 ， 日本原子能研究中心 （ JAERI ） 首先
+采用电渗析 （ EED ） 技术从 HI 溶液中分离 HI ， 实现了产氢率
+31 . 5 L/h ， 热效率高达 34 % 。 之后 ， 研究中心又创新性地采用
+KNOCHE 等的硫酸浓缩技术和相关 HI 分离分解技术 ， 使整
+个 S - I 循 环 系 统 的 热 效 率 达 到 56 . 8 %
+［ 41 ］
+。 S - I 循 环 以 及
+Westinghouse 循环的制氢过程中 ， 会有强烈腐蚀性物质的产
+生 ， 进而对反应器的材料和结构提出更高的要求 ， 最终会导
+致投资和维护成本的增加 。
+2 . 3 . 3 太阳能热驱动其他含氢化合物制氢技术
+其他含氢化合物以氨为例 ， 氨具有较高的能量密度 ， 易
+于生产 ， 也是一种理想的制氢原料 。 太阳能热驱动氨分解制
+氢原理如下 ： 氨在一定温度 、 压力以及催化剂作用下 ， 经汽
+化 、 除雾 、 调压最终分解为 75 % 的 H 2 和 25 % 的 N 2 ， 后经冷却
+净化便可得到高纯度的 H 2 。 在整个制氢过程中 ， 氨分解较为
+完全 ， 未分解的残氨含量仅约 0 . 1 %
+［ 42 ］
+。 太阳能热驱动氨分解
+制氢反应步骤少 ， 进而系统中所需设备也较少 ， 涉及成本低 ；
+氨是非碳基氢源 ， 制氢过程可实现了零碳排 ； 太阳能热驱动
+氨分解制氢过程反应温度比其他热化学制氢过程反应温度
+低 ； 氨虽本身有腐蚀性 ， 但易于解决 ， 氨的刺激性气味刚好可
+用于判断氨是否发生泄漏 。
+2 . 4 光合微生物制氢技术
+Hans Gaffron 在 19 世纪 40 年代初对绿藻进行研究时首
+次发现了光 合微生物制氢方法
+［ 43 ］
+。 光合微生物制氢只需以水
+为原料 ， 利用太阳能 ， 借助微生物的强大的光合机制 ， 在细胞核
+中编码酶 （ 氢化酶和固氮酶 ） 的存在下产生氢 。 该类微生物包
+括微藻和光合细菌 2 种 ， 具体见图 9 。 由于光合微生物制氢方
+法只利用太阳光和水 ， 因此受到了能源科学界研究人员的关
+注 ， 并逐渐成为能源科学技术领域 的一 个研究热点 。
+
+=== PAGE 6 ===
+表 2 典型的热化学循环分解水制氢技术特点对比表
+［ 30 ， 31 ， 33 - 35 ， 37 - 41 ］
+Table 2 Comparison table of characteristics of typical thermochemical cycle water splitting technology to produce hydrogen
+［ 30 ， 31 ， 33 - 35 ， 37 - 41 ］
+类型
+Fe 3 O 4 /FeO
+循环
+ZnO/Zn
+循环
+CeO 2 /Ce 2 O 3
+循环
+SnO 2 /SnO
+循环
+S - I 循环
+UT - 3 循环
+Westinghouse
+循环
+反应方程式
+2 F e
+3
+O
+4
+— →—— 6 F e O + O
+2
+↑
+3 F e O + H
+2
+O — →—— F e
+3
+O
+4
++ H
+2
+↑
+2 Z n O — →— ———
+2 3 5 0 K
+2 Z n + O
+2
+↑
+Z n + H
+2
+O — →— — ——
+8 5 0 K
+Z n + H
+2
+↑
+4 C e O
+2
+— →— ———
+2 3 0 0 K
+C e
+2
+O
+3
++ O
+2
+↑
+C e
+2
+O
+3
++ H
+2
+O — →— — ——
+7 0 0 K
+2 C e O
+2
++ H
+2
+↑
+2 S n O
+2
+— →— ———
+1 7 8 0 K
+2 S n O + O
+2
+↑
+S n O + H
+2
+O — →— — ——
+8 2 3 K
+S n O
+2
++ H
+2
+↑
+S O
+2
++ I
+2
++ 2 H
+2
+O — →— — ——
+3 5 3 K
+H
+2
+S O
+4
++ 2 H I
+2 H
+2
+S O
+4
+— →— ———
+1 1 2 3 K
+2 H
+2
+O ↑ + 2 S O
+2
+↑ + O
+2
+↑
+2 H I — →— — ——
+6 7 3 K
+I
+2
+↑ + H
+2
+↑
+C a B r
+2
++ H
+2
+O — →— ———
+1 0 3 3 K
+C a O + 2 H B r ↑
+2 C a O + 2 B r
+2
+— →— — ——
+8 4 5 K
+2 C a B r
+2
++ O
+2
+↑
+F e
+3
+O
+4
++ 8 H B r — →— — ——
+4 9 3 K
+3 F e B r
+2
++ 4 H
+2
+O ↑ + B r
+2
+↑
+3 F e B r
+2
++ 4 H
+2
+O — →— — ——
+8 3 3 K
+F e
+3
+O
+4
++ 6 H B r ↑ + H
+2
+↑
+2 H
+2
+S O
+4
+— →— ———
+1 1 0 0 K
+2 H
+2
+O + 2 S O
+2
++ O
+2
+↑
+S O
+2
++ 2 H
+2
+O — →— ——— ——
+3 7 0 K + 0 . 6 V
+H
+2
+↑ + H
+2
+S O
+4
+热效
+率 /%
+62 . 5
+29 . 0
+29 . 0
+49 . 6
+56 . 8
+≥ 40
+45 %
+最高工艺
+温度 /K
+2500
+2350
+2300
+1780
+1123
+1033
+1100
+反应
+次数
+2
+2
+2
+2
+3
+4
+2
+涉及的
+元素
+Fe
+Zn
+Ce
+Sn
+S,I
+Fe,Br,Ca
+S
+分离
+过程
+气 - 固分离
+气 - 固分离
+气 - 固分离
+气 - 固分离
+高温下
+气 - 气分离 ，
+液 - 液分离
+固 - 气分离
+液 - 气分离
+腐蚀
+材料
+—
+—
+—
+—
+H 2 SO 4 ,HI
+—
+H 2 SO 4
+光
+合
+细
+菌
+微
+藻
+沼
+泽
+红
+假
+单
+细
+胞
+菌
+液
+泡
+外
+硫
+红
+螺
+菌
+球
+类
+红
+微
+菌
+夹
+膜
+红
+假
+单
+细
+胞
+菌
+深
+红
+红
+假
+单
+细
+胞
+菌
+球
+形
+红
+假
+单
+细
+胞
+菌
+深
+红
+红
+螺
+菌
+硅
+藻
+褐
+藻
+红
+藻
+绿
+藻
+蓝
+藻
+亚
+心
+形
+扁
+藻
+绿
+球
+藻
+斜
+生
+栅
+藻
+蛋
+白
+核
+小
+球
+藻
+小
+球
+藻
+兰
+因
+衣
+藻
+螺
+旋
+藻
+丝
+状
+异
+形
+胞
+蓝
+藻
+球
+形
+鱼
+腥
+藻
+鱼
+腥
+藻
+黏
+杆
+蓝
+藻
+颤
+蓝
+藻
+多
+变
+鱼
+腥
+藻
+聚
+球
+蓝
+藻
+丝
+状
+蓝
+藻
+圆
+柱
+形
+鱼
+腥
+藻
+ …
+…
+…
+光 合 微 生 物
+图 9 光合微生物分类
+Fig . 9 Classification of photosynthetic microorganisms
+2 . 5 光伏发电电解水制氢技术
+光伏发电电解水制氢技术原理是将光伏组件产生的电
+能 供给电解槽系统 ， 进而电解水制氢 。 其中 ， 光伏发电原理
+是基于半导体的光电效应 ， 光伏发电系统的 核心元件是太阳
+3 期 李建林等 ： 太阳能制氢关键技术研究 7
+
+=== PAGE 7 ===
+8 太 阳 能 学 报 43 卷
+电池 。 另外 ， 根据电解槽的不同 ， 目前电解水制氢技术分为
+碱性电解水制氢技术 、 质子交换膜纯水电解制氢技术和固体
+氧化物电解制氢技术
+［ 2 ］
+。 目前碱性电解制氢技术相对成熟 ，
+能源效率在 62 %~ 82 % 之间 ， 商业应用最广 ， 但是碱性电解槽
+与可再生能源发电 的适配性较差 ， 相对而言 ， 质子交换膜电
+解槽与可再生能源发电耦合方面更有优势 ， 且能源效率相对
+较高 ， 在 67 %~ 82 % 之间 。 固体氧化物电解制氢技术的过程
+需较高的工作温度 （ 800 ~ 1000 ℃ ） ， 适用于家用热电联产系
+统 ， 能源效率相对最高 ， 在 85 %~ 95 % 之间 ， 不过固体氧化物
+电解制氢技术目前仍处于初期示范阶段
+［ 4 ］
+。 研究人员对光伏
+发电电解水制氢相关技术的研究较多 ， 文献 ［ 44 ］ 针对制氢装
+置提出光伏制氢效率自适应 控制策略 ， 使得制氢装置能根据
+母线电压实时调整自身工作效率 ； 文献 ［ 45 ］ 提出风光电耦合
+制氢系统 ， 并对储能单元及制氢单元进行容量优化配置 ， 提
+高制氢系统的经济性 ； 文献 ［ 46 ］ 对固体氧化物电解制氢系统
+进行模拟 ， 研究余热利用对制氢效率的影响 。
+3 结论与建议
+太阳能制氢技术研究中 ， 对于光催化制氢技术 、 光电化
+学分解水制氢技术 、 太阳能热化学制氢技术以及光伏发电电
+解水制氢的研究较多 ， 其中对光催化制氢技术和光电化学分
+解水制氢技术的研究主要集中在催化剂材料性能改进方面 ，
+以达到提高制氢效率的目的 。
+1 ） 光催化制氢技术量子效率最高可达 79 . 87 % ， 制氢效率
+不足 2 % ， 尚待进一步提升 ； 太阳能热化学制氢技术热效率最
+高可达 62 . 5 % ， 制氢效率可达 60 % ； 光伏发电电解水制氢技术
+能源效率最高可达 95 % ， 目前商业应用较广 。
+2 ） 太阳能制氢技术亟需突破光催化剂材料 、 耐高温材
+料 、 太阳能聚集器和太阳能反应器等系列核心材料及设备
+技术 。
+3 ） 国家应加大政策支持力度 ， 加强宏观产业链布局 ， 增
+加研发资金的投入 ， 助力突破太阳能制氢技术研发瓶颈 ， 促
+进太阳 - 氢能系统向规模化和产业化方向发展 。
+［ 参考文献 ］
+［ 1 ］ 李建林 ， 李光辉 ， 马速良 ， 等 . 碳中和目标下制氢关键
+技 术 进 展 及 发 展 前 景 综 述 ［ J ］ ， 热 力 发 电 ， 2021 ， 50
+（ 6 ） ： 1 - 8 .
+LI J L ， LI G H ， MA S L ， et al . Overview of the progress
+and development prospects of key technologies for
+hydrogen production under the goal of carbon neutrality
+［ J ］ . Thermal power generation ， 2021 ， 50 （ 6 ） ： 1 - 8 .
+［ 2 ］ 李建林 ， 李光辉 ， 梁丹曦 ， 等 .“ 双碳目标 ” 下可再生能
+源制氢技术综述及前景展望 ［ J ］ . 分布式能源 ， 2021 ， 6
+（ 5 ） ： 1 - 9 .
+LI J L ， LI G H ， LIANG D X ， et al . Overview and
+prospects of renewable energy hydrogen production
+technology under the “ Dual - Carbon Target ”［ J ］ .
+Distributed energy ， 2021 ， 6（ 5 ） ： 1 - 9 .
+［ 3 ］ Hydrogen Council . Hydrogen Scaling up ， A sustainable
+pathway for the global energy transition ［ R ］ . Bonn ： The
+Hydrogen Council ， 2017 .
+［ 4 ］ 李建林 ， 梁忠豪 ， 梁丹曦 ， 等 .“ 双碳 ” 目标下绿氢制备
+及应用技术发展现状综述 ［ J ］ . 分布式能源 ， 2021 ， 6
+（ 4 ） ： 25 - 33 .
+LI J L ， LIANG Z H ， LIANG D X ， et al . A review of the
+development status of green hydrogen production and
+application technology under the “ two - carbon ” goal ［ J ］ .
+Distributed energy ， 2021 ， 6（ 4 ） ： 25 - 33 .
+［ 5 ］ 张凯 ， 王毅 ， 路朝阳 ， 等 . 光照波长对 HAU - M 1 光合菌
+群产氢影响的研 究 ［ J ］ . 太阳能学报 ， 2021 ， 42 （ 4 ） ： 10 -
+15 .
+ZHAGN K ， WANG Y ， LU Z Y ， et al . Effects of light
+wavelength on hydrogen production by HAU - M 1
+photosynthetic bacteria ［ J ］ . Acta energiae solaris sinica ，
+2021 ， 42 （ 4 ） ： 10 - 15 .
+［ 6 ］ CAO S ， CHAN T S ， LU Y R ， et al . Photocatalytic pure
+water splitting with high efficiency and value by Pt/porous
+brookite TiO 2 nanoflutes ［ J ］ . Nano energy ， 2020 ， 67 ： 104 -
+287 .
+［ 7 ］ ZHANG J I ， HU W P ， CAO S ， et al . Recent progress for
+hydrogen production by photocatalytic natural or simulated
+seawater splitting ［ J ］ . Nano research ， 2020 ， 13 （ 9 ） ： 2313 -
+2322 .
+［ 8 ］ 张凌峰 ， 胡忠攀 ， 刘歆颖 ， 等 . TiO 2 基光解水析氢非贵金
+属共催化剂的研究 ［ J ］ . 化学进展 ， 2016 ， 28 （ 10 ） ： 1474 -
+1488 .
+ZHAGN L F ， HU Z P ， LIU X Y ， et al . Study on TiO 2 -
+based non - precious metal cocatalysts for photolysis of
+water and hydrogen evolution ［ J ］ . Progress in chemistry ，
+2016 ， 28 （ 10 ） ： 1474 - 1488 .
+［ 9 ］ HIROSHI N ， TARO Y ， MAMIKO N ， et al . Photocata -
+lytic solar hydrogen production from water on a 100 m
+2
+-
+scale ［ J ］ . Nature ， 2021 ， 598 ： 304 - 307 .
+［ 10 ］ XUE W H ， CHANG W X ， HU X Y ， et al . 2 D mesoporous
+ultrathin Cd 0 . 5 Zn 0 . 5 S nanosheet ： Fabrication mechanism
+and application potential for photocatalytic H 2 evolution
+［ J ］ . Chinese journal of catalysis ， 2021 ， 42 （ 1 ） ： 152 - 163 .
+［ 11 ］ 于靖 ， 谭涓 ， 王亚飞 ， 等 . 二氧化钛光解水制氢催化材
+料的晶相调控及复合改性研究 ［ J ］ . 现代化工 ， 2020 ， 40
+（ 12 ） ： 168 - 172 .
+YU J ， TAN J ， WANG Y F ， et al . Study on crystal phase
+regulation and composite modification of catalytic material
+for hydrogen production by photohydrolysis of water with
+titanium dioxide ［ J ］ . Modern chemical industry ， 2020 ，
+
+=== PAGE 8 ===
+40 （ 12 ） ： 168 - 172 .
+［ 12 ］ ABANADES S ， CHARVIN P ， FLAMANT G ， et al .
+Screening of water - splitting thermochemical cycles
+potentially attractive for hydrogen production by
+concentrated solar energy ［ J ］ . Energy ， 2006 ， 31 （ 14 ） ：
+2805 - 2822 .
+［ 13 ］ NORING J E ， FLETCHER E A . High - temperature solar
+thermochemical processing hydrogen and sulfur from
+hydrogen - sulfide ［ J ］ . Energy ， 1982 ， 7（ 8 ） ： 651 - 666 .
+［ 14 ］ VILLASMIL W ， STEINFELD A . Hydrogen production by
+hydrogen sulfide splitting using concentrated solar energy —
+Thermodynamics and economic evaluation ［ J ］ . Energy
+conversion and management ， 2010 ， 51 ： 2353 - 2361 .
+［ 15 ］ 蒋川 ， 韩一峰 ， 吴炎琳 ， 等 . 新型固定床可回热式光热
+制 氢 系 统 结 构 设 计 研 究 ［ J ］ . 太 阳 能 学 报 ， 2021 ， 42
+（ 7 ） ： 269 - 277 .
+JIANG C ， HAN Y F ， WU Y L ， et al . Research on the
+structure design of a new type of fixed - bed recuperative
+photothermal hydrogen production system ［ J ］ . Acta energiae
+solaris sinica ， 2021 ， 42 （ 7 ） ： 269 - 277 .
+［ 16 ］ 吴芝 ， 孙岚 ， 林昌健 . 太阳能光催化制氢研究进展 ［ J ］ .
+电化学 ， 2019 ， 25 （ 5 ） ： 529 - 552 .
+WU Z ， SUN L ， LIN C J . Research progress of solar
+photocatalytic hydrogen production ［ J］ . Electrochemistry ，
+2019 ， 25 （ 5 ） ： 529 - 552 .
+［ 17 ］ 刘泽华 . SiI 2 和 Si M I 4（ M =Ge ， Sn ） 单层光催化水解制氢的
+第一性原理研究 ［ D ］ . 烟台 ： 鲁东大学 ， 2021 .
+LIU Z H . SiI 2 and Si M I 2（ M =Ge ， Sn ） First - principles study
+on photocatalytic hydrolysis of layers for hydrogen
+production ［ D ］ . Yantai ： Ludong University ， 2021 .
+［ 18 ］ MOHAMMED I . A review and recent advances in solar - to -
+hydrogen energy conversion based on photocatalytic water
+splitting over doped - TiO 2 nanoparticles ［ J ］ . Solar energy ，
+2020 ， 45 （ 6 ） ： 211 - 224 .
+［ 19 ］ 李方园 ， 侯永江 ， 国洁 ， 等 . 非贵金属光电催化材料分
+解水制氢研究进展 ［ J ］ . 应用化工 ， 2021 ， 50 （ 11 ） ： 3206 -
+3209 .
+LI F Y ， HOU Y J ， GUO J ， et al . Research progress of non -
+noble metal photocatalytic materials to decompose water
+to produce hydrogen ［ J ］ . Applied chemical industry ，
+2021 ， 50 （ 11 ） ： 3206 - 3209 .
+［ 20 ］ 韩晓晶 . 非贵金属助催化剂提高 TiO 2 光 - 热协同催化制
+氢性能研究 ［ D ］ . 西安 ： 陕西科技大学 ， 2021 .
+HAN X J . Enhancement of TiO 2 photo - thermal synergistic
+catalytic performance for hydrogen production by non -
+precious metal cocatalysts ［ D ］ . Xi ’ an ： Shaanxi University
+of Science and Technology ， 2021 .
+［ 21 ］ 张河清 . CdS 基光催化材料构建及其光催化分解水制氢
+研究 ［ D ］ . 南宁 ： 广西大学 ， 2021 .
+ZHAGN H Q . Construction of CdS - based photocatalytic
+materials and their photocatalytic water splitting for
+hydrogen production ［ D ］ . Nanning ： Guangxi University ，
+2021 .
+［ 22 ］ ZHANG M ， SHANG Q G ， WAN Y Q ， et al . Self - templ -
+ate synthesis of double - shell TiO 2 @ZIF - 8 hollow
+nanospheres via sonocrystallization with enhanced
+photocata - lyticactivities in hydrogen generation ［ J ］ .
+Applied catalysis B ： Environmental ， 2019 ， 241 ： 149 - 158 .
+［ 23 ］ 陈柏瑜 ， 胡天丁 ， 陕绍云 ， 等 . MOF 基的光解水制氢
+催 化 剂 研 究 进 展 ［ J/OL ］ . 复 合 材 料 学 报 ： 1 - 24 ［ 2022 -
+01 - 08 ］ . https ： //doi . org/ 10 . 13801 /j . cnki . fhclxb . 20211011 .
+001 .
+CHEN B Y ， HU T D ， SHAN S Y ， et al . Research progress
+on MOF - based photocatalysts for water splitting and
+hydrogen production ［ J/OL ］ . Acta materiae compositae
+sinica ： 1 - 24 ［ 2022 - 01 - 08 ］ . https ： //doi . org/ 10 . 13801 /j . cnki .
+fhclxb . 20211011 . 001 .
+［ 24 ］ 吴琛 ， 赵宝军 ， 王俊 ， 等 . Ni
+2 +
+掺杂 Cd 0 . 5 Zn 0 . 5 S 固溶体制
+备 及 可 见 光 分 解 水 制 氢 研 究 ［ J ］ . 有 色 金 属 （ 冶 炼 部
+分 ） ， 2021 （ 10 ） ： 66 - 70 .
+WU C ， ZHAO B J ， WAGN J ， et al . Ni
+2 +
+adulteration
+Cd 0 . 5 Zn 0 . 5 study on preparation of solid solution and
+hydrogen production by visible light decomposition of water
+［ J ］ . Non - ferrous metals （ smelting part ） ， 2021 （ 10 ） ：
+66 - 70 .
+［ 25 ］ 房文健 ， 上官文峰 . 太阳能光催化制氢反应体系及其材
+料研究进展 ［ J ］ . 工业催化 ， 2016 ， 24 （ 12 ） ： 1 - 7 .
+FANG W J ， SHANGGUAN W F . Progress in reaction
+system and related materials for solar photocatalytic
+hydrogen production ［ J ］ . Industrial catalysis ， 2016 ， 24
+（ 12 ） ： 1 - 7 .
+［ 26 ］ 李春发 . 二氧化钛光阳极体系优化及太阳能光电化学分
+解水制氢应用 ［ D ］ . 镇江 ： 江苏大学 ， 2017 .
+LI C F . Optimization of titanium dioxide photoanode
+system and application in hydrogen production by solar
+energy photoelectrochemical water splitting ［ D ］ .
+Zhenjiang ： Jiangsu University ， 2017 .
+［ 27 ］ LIU G Y ， SHENG Y A ， AGER J W ， et al . Research
+advances towards large - scale solar hydrogen production
+from water ［ J ］ . Energy chem ， 2019 ， 1（ 2 ） ： 8 - 18 .
+［ 28 ］ 郭烈锦 ， 陈敬炜 . 太阳能聚焦供热的生物质超临界水热
+化学气化制氢研究进展 ［ J ］ . 电力系统自动化 ， 2013 ， 37
+（ 1 ） ： 38 - 46 .
+GUO L J ， CHEN J W . Research progress of biomass
+supercritical hydrothermal chemical gasification for
+hydrogen production with solar focused heating ［ J ］ .
+3 期 李建林等 ： 太阳能制氢关键技术研究 9
+
+=== PAGE 9 ===
+10 太 阳 能 学 报 43 卷
+Automation of electric power systems ， 2013 ， 37 （ 1 ） ： 38 -
+46 .
+［ 29 ］ 许子龙 . 太阳能和燃料电池耦合的分布式供能系统研究
+［ D ］ . 北京 ： 华北电力大学 ， 2016 .
+XU Z L . Research on distributed energy supply system
+coupled with solar energy and fuel cell ［ D ］ . Beijing ： North
+China Electric Power University ， 2016 .
+［ 30 ］ 祝星 ， 王华 ， 魏永刚 ， 等 . 金属氧化物两步热化学循环
+分解水制氢 ［ J ］ . 化学进展 ， 2010 ， 22 （ 5 ） ： 1010 - 1020 .
+ZHU X ， WANG H ， WEI Y G ， et al . Metal oxides
+decompose water in a two - step thermochemical cycle to
+produce hydrogen ［ J ］ . Progress in chemistry ， 2010 ， 22
+（ 5 ） ： 1010 - 1020 .
+［ 31 ］ 胡以怀 ， 贾靖 ， 纪娟 . 太阳能热化学制氢技术研究进展
+［ J ］ . 能源工程 ， 2008 （ 1 ） ： 19 - 23 .
+HU Y H ， JIA J ， JI J . Research progress in hydrogen
+production by solar thermal chemistry ［ J ］ . Energy
+engineering ， 2008 （ 1 ） ： 19 - 23 .
+［ 32 ］ 李浩 ， 李鑫 ， 常哲韶 ， 等 . 基于投影寻踪和层次分析的
+太阳能热化学制燃料的筛选方法 ［ J ］ . 科学通报 ， 2017 ，
+62 （ 27 ） ： 3262 - 3269 .
+LI H ， LI X ， CHANG Z S ， et al . Screening method of solar
+thermal fuels based on projection pursuit and analytic
+hierarchy process ［ J ］ . Scientific bulletin ， 2017 ， 62 （ 27 ） ：
+3262 - 3269 .
+［ 33 ］ XIAO L ， WU S Y ， LI Y R . Advances in solar hydrogen
+production via two - step water - splitting thermochemical
+cycles based on metal redox reactions ［ J ］ . Renewable
+energy ， 2012 ， 41 ： 1 - 12 .
+［ 34 ］ 陈晶澈 ， 张彦威 ， 周俊虎 . 两步式热化学循环分解水制
+氢研究进展 ［ J ］ . 能源工程 ， 2016 （ 2 ） ： 21 - 27 .
+CHEN J C ， ZHANG Y W ， ZHOU J H . Progress in two -
+step thermochemical cycle decomposition of water for
+hydrogen production ［ J ］ . Energy engineering ， 2016 （ 2 ） ：
+21 - 27 .
+［ 35 ］ 刘佩枝 . 太阳能热化学制氢的热力学分析 ［ D ］ . 西安 ： 西
+安建筑科技大学 ， 2020 .
+LIU P Z . Thermodynamic analysis of hydrogen production
+by solar thermal chemistry ［ D ］ . Xi ’ an University of
+Architecture and Technology ， 2020 .
+［ 36 ］ 郝庆菊 . 碘硫循环制氢过程模拟优化和换热设计 ［ D ］ .
+北京 ： 中国石油大学 （ 北京 ） ， 2016 .
+HAO Q J . Simulation optimization and heat transfer design
+of iodide - sulfur cycle hydrogen production process ［ D ］ .
+Beijing ： China University of Petroleum ， 2016 .
+［ 37 ］ 张平 ， 于波 ， 陈靖 ， 等 . 热化学循环分解水制氢研究进
+展 ［ J ］ . 化学进展 ， 2005 ， 17 （ 4 ） ： 643 - 650 .
+ZHANG P ， YU B ， CHEN J ， et al . Research progress of
+hydrogen production by thermochemical cycle
+decomposition of water ［ J ］ . Progress in chemistry ， 2005 ，
+17 （ 4 ） ： 643 - 650 .
+［ 38 ］ 高一博 . 基于高熵氧化物的微波两步热化学分解水制氢
+性能研究 ［ D ］ . 济南 ： 山东大学 ， 2021 .
+GAO Y B . Study on hydrogen production by microwave two -
+step thermochemical decomposition of water based on
+high entropy oxide ［ D ］ . Ji ’ nan ： Shandong University ，
+2021 .
+［ 39 ］ 傅广实 . 硫碘循环制氢中 HI 分解催化剂及全流程系统
+设计研究 ［ D ］ . 杭州 ： 浙江大学 ， 2018 .
+FU G S . Design of HI decomposition catalyst and whole
+process system for hydrogen production by sulfur - iodine
+cycle ［ D ］ . Hangzhou ： Zhejiang University ， 2018 .
+［ 40 ］ 孔慧 . 太阳能热化学循环及反应器设计研究 ［ D ］ . 北京 ：
+中 国 科 学 院 大 学 （ 中 国 科 学 院 工 程 热 物 理 研 究 所 ） ，
+2018 .
+KONG H . Study on solar thermal chemical cycle and
+reactor design ［ D ］ . Beijing ： University of Chinese
+Academy of Sciences （ Institute of Engineering
+Thermophysics ， Chinese Academy of Sciences ） ， 2018 .
+［ 41 ］ 周婷婷 . Fe - Zr 氧化物循环裂解水制氢过程研究 ［ D ］ . 天
+津 ： 天津大学 ， 2016 .
+ZHOU T T . Study on hydrogen production process of Fe - Zr
+oxide by cyclic cracking water ［ D ］ . Tianjin ： Tianjin
+University ， 2016 .
+［ 42 ］ 周梦宇 . 天然气或液体燃料制氢新工艺 ［ J ］ . 化工管理 ，
+2018 （ 6 ） ： 113 .
+ZHOU M Y . New process of hydrogen production from
+natural gas or liquid fuel ［ J ］ . Chemical enterprise
+management ， 2018 （ 6 ） ： 113 .
+［ 43 ］ KOUMI N S ， NJOMO D . An overview of hydrogen gas
+production from solar energy ［ J ］ . Renewable and
+sustainable energy reviews ， 2012 ， 16 （ 9 ） ： 6782 - 6792 .
+［ 44 ］ 张勇 ， 彭勇刚 ， 韦巍 . 计及制氢效率的光 - 储 - 氢系统协
+调控制策略研究 ［ J ］ . 太阳能学报 ， 2021 ， 42 （ 11 ） ： 67 -
+75 .
+ZHANG Y ， PENG Y G ， WEI W . Research on coordinated
+control strategy of light - storage - hydrogen system
+considering hydrogen production efficiency ［ J ］ . Acta
+energiae solaris sinica ， 2021 ， 42 （ 11 ） ： 67 - 75 .
+［ 45 ］ 邵志芳 ， 吴继兰 . 基于动态电价风光电制氢容量配置优
+化 ［ J ］ . 太阳能学报 ， 2020 ， 41 （ 8 ） ： 227 - 235 .
+SHAO Z F ， WU J L . Configuration optimization of wind
+and photovoltaic hydrogen production capacity based on
+dynamic electricity price ［ J ］ . Acta energiae solaris sinica ，
+2020 ， 41 （ 8 ） ： 227 - 235 .
+［ 46 ］ 张晨佳 ， 蔡军 ， 张玉魁 ， 等 . 基于热力学平衡的高温固
+
+=== PAGE 10 ===
+体氧化物电解水制氢模拟 ［ J ］ . 太阳能学报 ， 2021 ， 42
+（ 9 ） ： 210 - 217 .
+ZHAGN C J ， CAI J ， ZHANG Y K ， et al . Simulation of
+high temperature solid oxide electrolysis of water for
+hydrogen production based on thermodynamic equilibrium
+［ J ］ . Acta energiae solaris sin ica ， 2021 ， 42 （ 9 ） ： 210 - 217 .
+ANALYSIS OF KEY TECHNOLOGIES FOR SOLAR
+HYDROGEN PRODUCTION
+Li Jianlin
+1
+， Liang Zhonghao
+1
+， Li Guanghui
+1
+， Song Jie
+2
+， Xu Guizhi
+2
+（ 1 . Energy Storage Technology Engineering Research Center （ North China University of Technology ） ， Beijing 100144 ， China ；
+2 . Global Energy Interconnection Research Institute Co . ， Ltd . ， Beijing 102209 ， China ）
+Abstract ： This article focuses on solar hydrogen production technology . First ， it introduces the research status of solar hydrogen
+production technology ； secondly ， for solar hydrogen production technology ， especially photocatalytic hydrogen production technology
+and thermochemical cycle water splitting hydrogen production technology ， the technical principles ， The key materials and technical
+difficulties are discussed in detail ； finally ， conclusions and suggestions are given on the research of solar hydrogen production
+technology ， aiming to provide references and ideas for the future research and development layout of solar hydrogen production
+technology and industrial technology breakthroughs .
+Keywords ： solar energy ； photocatalytic hydrogen production ； photoelectrochemical hydrogen production ； thermochemical cycle
+hydrogen production ； photosynthetic microorganism hydrogen production
+3 期 李建林等 ： 太阳能制氢关键技术研究 11

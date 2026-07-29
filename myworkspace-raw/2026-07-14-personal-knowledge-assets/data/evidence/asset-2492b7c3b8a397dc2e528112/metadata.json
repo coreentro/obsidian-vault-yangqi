@@ -1,0 +1,17 @@
+{
+  "asset_id": "asset-2492b7c3b8a397dc2e528112",
+  "candidate_id": "chrome-default-bookmarks:item:00000073",
+  "source_id": "chrome-default-bookmarks",
+  "title": "小红书文案🔥-多种草AI 一站式 AI 创作工具",
+  "original_url": "https://duozhongcao.com/apps/redbook-zhengwen",
+  "requested_url": "https://duozhongcao.com/apps/redbook-zhengwen",
+  "final_url": "https://duozhongcao.com/apps/redbook-zhengwen",
+  "redirects": [
+    "https://ai.baigua.com/apps/redbook-zhengwen"
+  ],
+  "captured_at": "2026-07-15T08:07:07.976447+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

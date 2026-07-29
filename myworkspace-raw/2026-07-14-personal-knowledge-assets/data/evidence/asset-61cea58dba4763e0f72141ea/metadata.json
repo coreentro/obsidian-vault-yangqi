@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-61cea58dba4763e0f72141ea",
+  "candidate_id": "chrome-profile-2-bookmarks:item:00000045",
+  "source_id": "chrome-profile-2-bookmarks",
+  "title": "大佬论坛 - 全球域名论坛、域名交易与投资交流社区",
+  "original_url": "https://www.dalao.net/",
+  "requested_url": "https://www.dalao.net/",
+  "final_url": "https://www.dalao.net/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:11.145880+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 175054,
+  "body_sha256": "231c6580a6809167523e6e80c11ca407e18b75d3b91aefc592e186010d64f1e4"
+}

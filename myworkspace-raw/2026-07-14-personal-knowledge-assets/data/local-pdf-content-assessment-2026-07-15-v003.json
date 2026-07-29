@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:29:46+08:00",
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v003.json",
+  "assessment_scope": "All pages were traversed for text extraction and privacy review; first, middle, and last pages were rendered and visually inspected for each PDF.",
+  "visual_quality_result": "All fifteen sampled renders were correctly oriented and legible. Article text, reaction schemes, tables, spectra, plots, references, and the publisher copyright-only final page of the ammonia-nitrogen article were represented without clipping or guessed content.",
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001401",
+      "decision": "accepted",
+      "title": "微波辐射相转移催化下水相合成查尔酮",
+      "authors": "周建峰",
+      "value_score": 88,
+      "topics": ["chemistry", "chalcone-synthesis", "microwave-irradiation", "phase-transfer-catalysis", "green-synthesis"],
+      "page_count": 3,
+      "extracted_text_characters": 4246,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 2, 3],
+      "safety_hits": [],
+      "reason": "Reusable concise study of aqueous microwave-assisted phase-transfer catalysis for chalcones and bis-chalcones, with reaction conditions, yields, and catalyst comparison."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001405",
+      "decision": "accepted",
+      "title": "Significant removal of ammonia nitrogen in low concentration from aqueous solution at low pH by advanced air stripping",
+      "authors": "Shaorong An and Qiang Jin",
+      "value_score": 91,
+      "topics": ["chemistry", "water-treatment", "ammonia-nitrogen", "advanced-air-stripping", "foam-separation"],
+      "page_count": 14,
+      "extracted_text_characters": 52373,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 7, 14],
+      "safety_hits": [],
+      "reason": "High-value environmental-chemistry study covering low-pH ammonia removal, operating variables, interfacial mechanism, process limitations, and reuse considerations."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001417",
+      "decision": "accepted",
+      "title": "半导体核壳材料光催化剂分解水制氢研究进展",
+      "authors": "李亮荣、杨小喆、陈楚欣、刘艳、张梦玲、丁永红",
+      "value_score": 92,
+      "topics": ["chemistry", "photocatalysis", "core-shell-materials", "water-splitting", "hydrogen-production"],
+      "page_count": 11,
+      "extracted_text_characters": 32470,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 6, 11],
+      "safety_hits": [],
+      "reason": "Reusable review comparing oxide, oxynitride, nitride, and sulfide core-shell photocatalysts and the structural mechanisms that affect charge separation and hydrogen evolution."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001418",
+      "decision": "accepted",
+      "title": "黄酮药物分子的高效合成",
+      "authors": "房忠雪、金琦浩、文浩宇、孙文婷、戴兢陶",
+      "value_score": 90,
+      "topics": ["chemistry", "flavone-synthesis", "chalcone-intermediate", "iodine-catalysis", "chemistry-education"],
+      "page_count": 7,
+      "extracted_text_characters": 10711,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 4, 7],
+      "safety_hits": [],
+      "reason": "Reusable teaching and synthesis protocol connecting aldol condensation, iodine-catalyzed cyclization, experimental safety, yields, and student-designed derivatives."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001420",
+      "decision": "accepted",
+      "title": "CeO2/CdxZn1-xS 光催化剂的制备及其可见光催化产氢性能",
+      "authors": "胡雅楠、刘洁、徐凯旋、袁中强、高晓明",
+      "value_score": 94,
+      "topics": ["chemistry", "ceria", "cadmium-zinc-sulfide", "heterojunction", "photocatalytic-hydrogen-production"],
+      "page_count": 10,
+      "extracted_text_characters": 25328,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 5, 10],
+      "safety_hits": [],
+      "reason": "High-value materials study with synthesis, structural characterization, photocatalytic performance, band analysis, and an internal-electric-field mechanism for CeO2/CdxZn1-xS."
+    }
+  ]
+}

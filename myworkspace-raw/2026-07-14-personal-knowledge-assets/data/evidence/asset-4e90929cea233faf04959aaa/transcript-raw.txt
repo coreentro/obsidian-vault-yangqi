@@ -1,0 +1,775 @@
+===== PAGE 1 OF 7 =====
+www.rsc.org/advances
+RSC Advances
+This is an Accepted Manuscript, which has been through the 
+Royal Society of Chemistry peer review process and has been 
+accepted for publication.
+Accepted Manuscripts are published online shortly after 
+acceptance, before technical editing, formatting and proof reading. 
+Using this free service, authors can make their results available 
+to the community, in citable form, before we publish the edited 
+article. This Accepted Manuscript will be replaced by the edited, 
+formatted and paginated article as soon as this is available.
+You can find more information about Accepted Manuscripts in the 
+Information for Authors.
+Please note that technical editing may introduce minor changes 
+to the text and/or graphics, which may alter content. The journal’s 
+standard Terms & Conditions and the Ethical guidelines still 
+apply. In no event shall the Royal Society of Chemistry be held 
+responsible for any errors or omissions in this Accepted Manuscript 
+or any consequences arising from the use of any information it 
+contains. 
+
+===== PAGE 2 OF 7 =====
+Graphical Abstract 
+ 
+ 
+Green, eco-friendly synthesis of ZnO nanoparticles using peel of Musa balbisiana  and its utility as 
+nanocatalyst in synthesis of chalcone derivatives is reported  
+ 
+ 
+                                                                                                        ZnO nanoflower  
+ 
+O
+H
+R
+O
+R
+O
+CH3+
+Zn(NO 3)2 
+Page 1 of 6 RSC Advances
+RSC Advances Accepted Manuscript
+
+===== PAGE 3 OF 7 =====
+RSC Advances  
+Cite this: DOI: 10.1039/c0xx00000x 
+www.rsc.org/xxxxxx  
+Dynamic Article Links  ►
+Paper 
+ 
+This journal is © The Royal Society of Chemistry [2014] RSC Advances , [2014], [vol] , 00–00  |  1 
+Bio-derived ZnO nanoflower: A highly efficient catalyst for synthesis of chalcones 
+derivatives 
+Chandan Tamuly a*, Indranirekha Saikia a, Moushumi Hazarika a, Manobjyoti Bordoloi b, Najrul Hussain c, Manash R Das c 
+Received (in XXX, XXX) Xth XXXXXXXXX 20XX, Accepted Xth XXXXXXXXX 20XX 
+DOI: 10.1039/b000000x 5 
+       Green, eco.friendly synthesis of ZnO nanopar ticles using peel of Musa balbisiana  and its utility as nanocatalyst in synthesis of 
+chalcones derivatives is reported here. Bio.derived  ZnO nanoparticles were characterized by XRD, XPS, FTIR, SEM, BET and TEM 
+techniques. The single step condensation of substituted aryl carbonyls is an attractive feature to obtain substituted chalcones with 88.98% 
+yield in less than 2 min under microwave irradiatio n in solvent free condition. Short time period with  excellent yield of chalcones is the 
+main privilege in our study.  10 
+1.Introduction 
+    Among various metal oxides, ZnO nanoparticles h ave come to 
+the limelight for its semiconducting properties, un ique 
+antibacterial, antifungal, wound healing and UV ﬁlt ering 
+properties, high catalytic and photochemical activi ty 1. Over the 15 
+past several years, plants and different natural so urces have come 
+up as a low cost, energy.efficient, eco.friendly an d non.toxic 
+approach for synthesis of nanomaterials. 2-3 These synthesized 
+nanoparticles have the advantage of good polydisper sity, 
+dimensions and stability with a negligible synthesi zing cost. 20 
+Moreover, using plants extract for nanoparticles sy nthesis can be 
+advantageous over other biological processes becaus e it 
+eliminates the elaborate process of maintaining cel l cultures and 
+can also be suitably scaled up for large.scale nano particles 
+synthesis 4. Many examples are found in literature for eco.25 
+friendly synthesis of ZnO nanoparticles using leaf extract such as 
+Corriandrum Sativum with  Zn(CH 3CO) 22H 2O as precursor 5, 
+Calotropis procera  6,  seaweeds such as green Caulerpa peltata , 
+red Hypnea Valencia  and brown Sargassum myriocystum,  7 
+orange juice 8, Calotropis procera  latex 9, aqueous leaf extract of 30 
+Acalypha indica 10 , and leaf  extract of Calotropis Gigantea  11.  
+ The  Musa balbisiana  is a medicinal and economic plant in 
+North East India. The peel of the plant is a food a dditive and 
+helps in normalizing digestive disorder of stomach.  It is widely 
+used as soaps and detergents for washing clothes and shampooing 35 
+hairs 12-13. 
+a Natural Product Chemistry Section,  CSIR-North East Institute of 
+Science and Technology. Branch Itanagar Arunachal Pradesh-
+791110, India, e-mail: c.tamuly@gmail.com, Telefax: 
++913602244220 40 
+b Natural Product Chemistry Division,  CSIR-North East Institute 
+of Science and Technology. Jorhat, Assam-785006, India 
+c Material Science Division,  CSIR-North East Institute of Science 
+and Technology. Jorhat, Assam-785006, India 
+† Electronic Supplementary Information (ESI) availa ble: [details of any 45 
+supplementary information available should be inclu ded here]. See 
+DOI:xxxxxxxx 
+ 
+    In this present investigation we synthesized ZnO nanoparticles, 
+a green and low cost method using peel of Musa balbisiana . This 50 
+procedure is environmentally benign for production of well 
+characterized nanoparticles without use of harsh, t oxic and 
+expensive chemicals. 
+   Furthermore, this procedure is more valuable due  to its cost 
+effectiveness. Besides the green synthesis, the catalytic activity of 
+55 
+ZnO in the microwave synthesis of chalcones in solv ent free 
+condition is reported.  
+ 
+2. Experimental Section 
+ 60 
+2.1. Materials  
+Materials used for the synthesis of ZnO nanoparticl es are Zinc 
+nitrate [Zn(NO 
+3)2.2H 2O] (Merck, India) and Musa balbisiana 
+peel extract which was prepared by burning the peel of the plant. 
+ 65 
+2.2. Synthesis of ZnO nanoparticles 
+In this method, the peel of Musa balbisiana  was dried and then 
+burnt. To the 1 gm of ash of the peel, 10 ml of distilled water was 
+added and filtered. 4ml 1M Zn(NO 
+3)2. 2H 2O solution was added to 
+the filtrate and stirred for 20 min. White precipitate was obtained. 70 
+The precipitate was then filtered and washed three/ four times 
+with distilled water. The precipitate was heated fo r 2 h at 120ºC 
+temperature for the formation of powder ZnO nanopar ticles. It is 
+the first report of eco.friendly green synthesis of  ZnO 
+nanoparticles by using peel of  Musa balbisiana . 75 
+ 
+2.3. Characterization:  
+Scanning electron microscopy (SEM) characterization  was 
+performed on JEOL JSM . 6360 at 15 kV. X.ray diffra ction 
+(XRD) measurement were carried out by Rigaku X.ray 
+80 
+diffractometer (Model: ULTIMA IV, Rigaku, Japan) with Cu.K α 
+X.ray source ( λ = 1.54056 Å) at voltage 40 kV. X.ray 
+photoelectron spectroscopy (XPS) analysis was carri ed out on an 
+ESCALAB 300 (Thermo.VG Scientific). The high resolu tion 
+transmission electron microscopy (HR.TEM) images we re 85 
+Page 2 of 6RSC Advances
+RSC Advances Accepted Manuscript
+
+===== PAGE 4 OF 7 =====
+ 
+2  RSC Advances , [2014], [vol] , 00–00  This journal is © The Royal Society of Chemistry [2014] 
+recorded by a JEOL Model 2100 EX, Japan operated at voltage of 
+200 kV. Specific surface area, pore volume, average  pore 
+diameter were measured with the Autosorb.1 (Quantac hrome, 
+USA). Specific surface area of the samples was meas ured by 
+adsorption of nitrogen gas at 77 K and applying the  Brunauer–5 
+Emmett–Teller (BET) calculation. Pore size distribu tions were 
+derived from desorption isotherms using the Barrett –Joyner–
+Halenda (BJH) method. The 1H & 13 C NMR spectra were 
+recorded at room temperature in CDCl 3 solution on a Bruker 
+DPX.300 spectrometer and chemical shifts were repor ted relative 10 
+to SiMe 4 
+ 
+2.4. Claisen Schmidt condensation 
+Acetophenone (10 mmol), benzaldehyde (10 mmol) mixe d with 
+ZnO nanoparticles (5mol %). Then the mixture was ir radiated in 
+15 
+a microwave reactor for 1 min after setting reaction power at 40% 
+(maximum output 400 W) at 100ºC. After cooling to r oom 
+temperature ethyl acetate (15 ml) was added to the reaction 
+mixture and filtered the mixture through filter pap er to separate 
+the solid catalyst. The ZnO catalyst could be used consecutively 20 
+for five times for the condensation of acetophenone  and 
+benzaldehyde. After washing the filtrate the separa ted organic 
+layer was concentrated under reduced pressure and t he product 
+was purified by column chromatography using hexane/ ethyl 
+acetate as solvent system in different concentratio n to obtain the 25 
+pure compound.  
+ 
+Results and Discussion 
+3.1. Characterization of ZnO nanoparticles 
+In the present investigation, ZnO nanoparticles are  synthesized 
+30 
+using the peel of Musa balbisiana . It contained 233.60 gm of K +, 
+2.00 gm of Na +, 161.40 gm of CO 3
+2. and 6.62 gm of Cl . when 
+prepared from 1 kg of the ash  12-13. So, these ions may be 
+responsible for synthesis of ZnO nanoparticles [Sch eme 1S, 
+supporting information (SI)].  35 
+ 
+ 
+ 
+ 
+ 
+40 
+ 
+ 
+ 
+ 
+ 
+45 
+Figure 1: XRD pattern of ZnO nanoparticles 
+ 
+ The formation of ZnO nanoparticles was confirmed u sing 
+XRD, XPS, FTIR, SEM and TEM analysis. In XRD analys is, the 
+2θ values 31.7°, 34.4°, 36.3°, 47.4°, 56.6°, 62.8° and 67.9° 
+50 
+assigned (100), (002), (101), (102), (110), (103) a nd (112) plane 
+indicate the wurtzite structure of ZnO nanoparticle s (JCPDS card 
+No. 36–1451). The corresponding ‘d’ spacing value o f ZnO 
+nanoparticles are 2.87, 2.71, 2.49, 1.91, 1.54 and 1.35 
+respectively (Figure 1). All diffraction peaks of s ample 55 
+correspond to the characteristic hexagonal wurtzite  structure of 
+ZnO nanoparticles (a = 0.315 nm and c = 0.529 nm). It is similar 
+as reported data 14.  
+ 
+ 
+60 
+ 
+ 
+ 
+ 
+ 
+65 
+ 
+ 
+ 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+ 
+75 
+Figure 2: XPS spectra of (A) Zn 2p and (B) O 1s of ZnO 
+nanoparticles 
+ 
+ 
+ 
+80 
+ 
+ 
+ 
+ 
+ 
+85 
+                                                                       
+ 
+(A)                                             (B) 
+Figure 3: SEM images (A.B) of ZnO synthesized using  Musa 
+balbisiana  90 
+ 
+In XPS analysis, the instrument was standardized ag ainst the C1s 
+spectral line at 284.6 eV. The binding energy of th e Zn 2p 
+3/2 and 
+Zn 2p 1/2 component is recorded to be 1028.6 eV and 1051.8 eV  
+respectively (Figure 2A). The binding energy of O 1 s is found at 95 
+530.16 eV (Figure 2B). Such results suggested that there is no 
+impurity existing within the sample. The result is supported by 
+reported data 15-16. In FTIR analysis, the peak observed at 
+3452.30 and 1119.15 cm .1 may be due to O.H stretching and 
+deformation respectively of atmospheric vapours. Th e peaks at 100 
+1634.00 and 620.93 cm .1 are corresponds to Zn.O stretching and 
+deformation vibration, respectively (Figure 1S, SI) . The metal.
+oxygen frequencies observed for the respective metal oxide are in 
+accordance with literature values 17-18.  
+ 105 
+ 
+ 
+ 
+ 
+ 
+110 
+ 
+ 
+                                                    
+(A)                                          (B) 
+Figure 4: TEM image (A.B) of ZnO synthesized using Musa 
+115 
+20 40 60 80 100 
+0
+500 
+1000 
+1500 
+2000 
+2500 
+3000 
+Intensity(counts/s) 
+2Theta(degree) 
+(100) 
+(002) 
+(101) 
+(102) 
+(110) 
+(103) (112) 
+1020 1025 1030 1035 1040 1045 1050 1055 1060 
+140000 
+160000 
+180000 
+200000 
+220000 
+240000 
+Counts/s 
+Binding Energy(eV) 
+Zn 2p 3/2 
+Zn 2p 1/3 
+A
+5 2 2 5 2 4 5 2 6 5 2 8 5 3 0 5 3 2 5 3 4 5 3 6 5 3 8 5 4 0 
+6 5 0 0 0 
+7 0 0 0 0 
+7 5 0 0 0 
+8 0 0 0 0 
+8 5 0 0 0 
+9 0 0 0 0 
+9 5 0 0 0 
+1 0 0 0 0 0 
+Counts/s 
+B in d in g  E n e rg y ( eV ) 
+O 1 s B
+Page 3 of 6 RSC Advances
+RSC Advances Accepted Manuscript
+
+===== PAGE 5 OF 7 =====
+ 
+This journal is © The Royal Society of Chemistry [2014] RSC Advances , [2014], [vol] , 00–00  |  3 
+balbisiana  
+ 
+The SEM images indicate the formation of flower lik e 
+morphology of ZnO. The size of petal of ZnO nano fl ower is in 
+the range of 100.400 nm (Figure 3A.B). The flower l ike 
+5 
+morphology consists of petal like small nanosheets.  However, it 
+is difficult to examine the surface structure of th e nanosheets by 
+SEM images and therefore it was examined by HR.TEM 
+analysis. The results showed the formation of flowe r like cluster 
+of ZnO nanostructure. The nanoparticles overlap eac h other 
+10 
+which strongly support the formation of flower like nanostructure 
+along with oval shape nanoparticles (Figure 4A.B). The size of 
+ZnO nanoparticles was found in the range of 5.0±0.2  – 22.0±1.2 
+nm. The average size of the particles is 10.5±0.8 n m. The 
+distance between the two atomic layers is 0.26 nm. The formation 15 
+of flower like structure of nanoparticles may be du e to synergic 
+effect of ions like K +, CO 3
+2., Na +, Cl . etc which are available in 
+the extract during synthesis of nanoparticles. Simi lar result was 
+observed in other metal oxide with same precursors 12-13. 
+a Reactions performed at 80ºC & 100ºC and monitored u sing TLC until all              20 
+the aldehyde and acetophenone were found to be cons umed.  b Isolated yield after 
+column chromatography with 2% standard deviation. 
+ 
+In order to understand the role of ions like K 
++, CO 3
+2. etc we have  
+performed an experiment using commercially availabl e reagent. 25 
+In this experiment ZnO nanoparticles was synthesize d using 
+1mM K 2CO 3 with 1 mM Zn(NO 3)2.2H 2O then heated the 
+synthesized product at about 120ºC for 1 h. The syn thesized 
+nanoparticles were characterized using XRD, TEM and  FTIR 
+analysis.  30 
+    In XRD analysis, the 2θ values 31.6°, 34.4°, 36 .4°, 47.4°, 
+56.6°, 62.8° and 67.9° assigned (100), (002), (101) , (102), (110), 
+(103) and (112) plane strongly indicated formation of ZnO 
+nanoparticless  [Figure 2S, SI] The TEM image indic ated the 
+formation of pentagonal, hexagonal ZnO nanoparticle ss. The size 35 
+of the nanoparticles ranged 8.0±0.2–30.0±1.1 nm [Fi gure 3S, SI].  
+The average size of particles was 18.2±0.2 nm. In F TIR analysis 
+the peak at 3378 cm .1, 1620 cm .1, and 1122 cm .1 accountable for 
+H2O and CO 2 which usually take up from the environment 
+[Figure 4S, SI]. The results supported by reported data 18. The 40 
+size and shape of the nanoparticless similar as syn thesized using 
+peel extract of Musa balbisiana . So, from the observation it 
+revealed that the ions like K+, CO 3
+2., Na +, Cl . etc may responsible 
+for synthesis of ZnO  nanoparticles.   
+ 45 
+3.2. Claisen Schmidt Condensation reaction 
+Table 1: Claisen Schmidt Condensation reaction 
+O
+H
+O
+CH3+
+O
+R
+R= H, NO2, OH, F, Cl, OCH3, CH3
+R
+i) 5mol% ZnO NPs
+ii) 100ºC
+iii) MW
+ 
+ 
+ 50 
+ 
+     As we were emphasizing solvent less single ste p synthesis of 
+chalcones without using any protecting group, the r eaction 
+between benzaldehyde (A) and acetophenone (B) was s tudied in 
+detail taking equimolar mixtures of A and B under m icrowave 
+55 
+irradiation in different conditions to optimize the reaction 
+      We studied the reaction using ZnSO 4, Zn(NO 3)2, ZnCl 2, 
+commercial ZnO nanopowder (characterized by XRD and  TEM 
+analysis, supporting information Figure 5S& 6S), Zn O 
+nanocatalyst and without any catalyst. The results are presented 60 
+in Table 1S, SI. The reaction was carried out under  solvent free 
+condition by mixing benzaldehyde and acetophenone i n 
+microwave run at 100ºC and power at 40% (maximum output 400 
+W).  No product was formed when catalyst was not us ed at 80°C 
+Entry Substrate Product Temp (ºC) Time a (min)  Yield b (%) TON TOF(h .1) 
+ 
+1 
+ 
+O
+H
+ 
+ 
+O
+ 
+ 
+100 
+ 
+0.8 
+ 
+98 
+ 
+1.96 
+ 
+147.3 
+ 
+2 
+ 
+O
+H
+O2N  
+ 
+O
+O2N  
+ 
+100 
+ 
+1.2 
+ 
+92 
+ 
+1.84 
+ 
+92.6 
+ 
+3 
+ 
+O
+H
+HO  
+ 
+O
+HO  
+100 1.0 94 1.88 117.4 
+ 
+4 
+ 
+O
+H
+F  
+ 
+O
+F  
+ 
+100 
+ 
+0.9 
+ 
+92 
+ 
+1.86 
+ 
+124.0 
+ 
+5 
+ 
+O
+H
+H3CO  
+ 
+O
+H3CO  
+ 
+100 
+ 
+1.2 
+ 
+90 
+ 
+1.8 
+ 
+90.0 
+ 
+6 
+ 
+O
+H
+H3C  
+ 
+O
+H3C  
+ 
+100 
+ 
+1.1 
+ 
+91 
+ 
+1.82 
+ 
+99.4 
+ 
+7 
+O
+H
+Cl Cl  
+O
+Cl Cl  
+ 
+100 
+ 
+1.3 
+ 
+88 
+ 
+1.76 
+ 
+81.4 
+Page 4 of 6RSC Advances
+RSC Advances Accepted Manuscript
+
+===== PAGE 6 OF 7 =====
+ 
+4  RSC Advances , [2014], [vol] , 00–00  This journal is © The Royal Society of Chemistry [2014] 
+and 100°C keeping the other reaction conditions unc hanged as a 
+control reaction (Table 1S, entries 1.2). From the table 1S, it was 
+observed that use of 5 mol% ZnO produce the best re sult (98%) 
+with in 0.8 min microwave irradiation at 100°C. The reafter 
+reactions were carried out with different substitut ed aldehydes 5 
+and ketones [Table 1]. The electron donating and wi thdrawing 
+substituent in the aryl ring were well tolerated to  give moderate 
+high yield of the desired chalcones. The result was  found 
+significant and yield ranged 88.98 %. The isolated compounds 
+were characterised by 1H NMR, 13 C NMR analysis. These data of 10 
+all products were comparable with the commercialize d 
+compounds (Scheme 2S, SI). 
+ 
+Table 2: Recycling potential of ZnO nanocatalyst 
+No of cycle Run 1 Run 2 Run 3 Run 4 Run 5 
+Yield (%) 98 97 96 95 94 
+Time(min) 0.8 0.8 0.8 0.8 0.8 
+TON 1.96 1.94 1.92 1.90 1.88 
+TOF(h 
+.1) 147.3 145.8 144.3 142.8 141.3 
+Reaction condition, 10 mmol benzaldehyde, 10 mmol 15 
+acetophenone, 5mol% ZnO nanocatalyst   
+ 
+    We have tested the reusability of ZnO catalyst in condensation 
+reaction of benzaldehyde and acetophenone. The ZnO catalyst 
+was recovered by filtration and was washed with hot  20 
+water/ethanol to remove any absorbed products. The catalyst was 
+reused without obvious loss of their catalytic acti vity, up to five 
+cycles and efficiency remain almost same (1 st  recycle 98%, 2 nd  
+recycle 97% and 3 rd recycle 96%, 4 th  recycle 95% and 5 th  recycle 
+94% chalcones was obtained) (Table 2). It was furth er confirmed 25 
+by using XRD and TEM analysis after 5 th  recycle [Figure 7S & 
+8S]. TEM and XRD investigation also showed that the  activity, 
+morphology and size distribution of the ZnO nanocat alyst remain 
+unchanged after use of 5 times. Further investigati on was done 
+for precise evidence through adsorption–desorption of nitrogen 30 
+molecule. The BET surface area and total pore volum e of ZnO 
+was found to be 11.402 m2/g and 0.1859 m 3/g respectively for the 
+fresh catalyst.  The specific surface area of the recovered catalyst s 
+decrease marginally to 140 (5 th  run) compared to 237 m 2 g−1  of 
+freshly prepared catalyst [Figure 9S, SI]. The decr ease of the 35 
+surface area of the catalyst after reaction may be due to the partial 
+destruction of the support by the small amount of base used in the 
+reaction. It was observed that the adsorption–desor ption 
+hysteresis loop of the catalyst used in the 5 th  run ranging between 
+P/P 0 = 0.3 and 0.9 shifted to P/P 0 = 0.6 and 0.9, respectively. This 40 
+may be due to the change in the structure of pores.  The BJH pore 
+size distribution curve of the recovered catalyst s hows a slight 
+broadening of the distribution pattern compared to fresh catalyst 
+[Figure 10S, SI] indicating breakdown of the pore w alls forming 
+larger pores. However, it is strongly supported tha t there is no 45 
+loss of efficiency of the catalyst after 5 th  recycle. 
+ 
+ 
+ 
+ 
+50 
+ 
+ 
+ 
+ 
+ 
+55 
+    
+ 
+ 
+ 
+ 
+60 
+ 
+ 
+Scheme 1: Plausible mechanism for condensation reaction 
+ 
+ In the plausible mechanism, it has been observed t hat nano.ZnO 
+65 
+activates the aldehyde and react with the enol form  of ketone to 
+form the condensed product. One H 2O molecule was eliminated 
+from the condensed product to form 1,3.Diphenyl.1.
+phenylpropenone (chalcones) and its derivatives (Scheme 1) 19. 
+      70 
+Table 3: Comparison of Nano.ZnO catalyst for chalco ne 
+formation from benzaldehyde and acetophenone with e arlier 
+report  
+Sl 
+No 
+Catalyst Time 
+(min) 
+Temperature Yield(%) Reference 
+1 BF 3–Et 2O/ 
+Dioxane 
+15 Room 
+tempture 
+90 [20] 
+2 I 2.Al 2O3 
+(neutral) 
+1.5 M.W.(300W) 
+60ºC 
+95 [19] 
+3 NH 4Cl/ 
+Solvent free 
+MW 
+3 M.W. (480 
+W) 
+95 [21] 
+4 BiCl 
+3/Solvent 
+free 
+20 140 ºC 85 [22] 
+5 Phosphonium 
+Ionic Liquid 
+150 145ºC 80 [23] 
+6 Nano.ZnO 0.8 100 ºC 98 Present 
+work 
+ 
+The catalytic performance of the chalcones is compa red with 
+75 
+earlier supported catalyst and was observed the use  of nano.ZnO 
+as catalyst in the reaction between benzaldehyde an d 
+acetophenone under microwave irradiation at 100ºC, showed 
+highest yield of chalcones (Table 3). So, this is o ne of suitable, 
+simple, efficient method for synthesis of chalcones  and its 80 
+derivatives. 
+                                               
+ 
+4. Conclusion 
+It is a first report of green, efficient and eco.fr iendly synthesis of 
+ZnO nanoparticles using peel of Musa balbisiana . The ions like 85 
+K+, Na +, CO 3
+2. etc may be responsible for the synthesis of ZnO 
+micro.flower like nanostructure. We have developed a novel, 
+quick, environmentally safe and clean process for s ynthesis of 
+chalcone and its derivatives. The mild reaction con ditions, easy 
+work.up, clean reaction profiles render this approa ch as an 90 
+interesting alternative to the existing methods.  
+ 
+Acknowledgement 
+The authors thank Director CSIR.North East Institut e of Science 
+& Technology, Jorhat, Assam for providing facilitie s and 95 
+valuable advice. The authors also thankful to SAIF,  Shillong for 
+TEM analysis. The authors thankful to SEED, Divisio n, DST, 
+R H
+O
+Zn2+2-O O2- Zn2+
+O-
+O2- Zn2+ O2- Zn2+ O2- Zn2+ O2-
+OH
+Zn2+ O2- Zn2+ O2-
+O
+H H
+R'
+O
+H2C
+R'
+O
+H3C
+H
+R
+O
+R'
+H H
+O-
+H
+R
+O
+R'
+H H
+H
+R
+O
+R'
+H
+H
+H+.H+
+Page 5 of 6 RSC Advances
+RSC Advances Accepted Manuscript
+
+===== PAGE 7 OF 7 =====
+ 
+This journal is © The Royal Society of Chemistry [2014] RSC Advances , [2014], [vol] , 00–00  |  5 
+and CSIR, New Delhi for financial support.  IS than ks to CSIR 
+New Delhi for fellowship.  
+ 
+References 
+[1] E. Selvarajan, V. Mohanasrinivasan, Mater. Lett . 2013,112,  5 
+180–182. 
+[2] J. Huang, T. Kunitake, J. Am. Chem. Soc., 2003,  125 (39), 
+11834–11835 
+[3] X. Liu, Y. Gu, J. Huang Chemistry . A European Journal 
+2010, 16(26), 7730–7740. 
+10 
+[4] C. Krishnaraj, E.G. Jagan, S. Rajasekar, P. Sel vakumar, P.T. 
+Kalaichelvan, N. Mohan, Colloids Surf. B: Biointerf aces 2010, 
+76, 50.56. 
+[5] D. Gnanasangeetha, S. Thambavani D, Res. J. Mat erial Sci. 
+2013, 1, 1.8.  
+15 
+[6] P.S. Ravindra, K.S. Vineet, S.Y. Raghvendra, K. S. Prashant, 
+K.S. Prashant, C.P. Avinas, Adv. Mat. Lett.,  2011, 2, 313.317. 
+[7] S. Nagarajan, K. A. Kuppusamy, J. Nanobiotech. 2013, 11, 
+39. 
+[8] A.K. Jha, V. Kumar, K. Prasad. J. Bionanosci., 2011, 5, 162–
+20 
+166. 
+[9] R.P. Singh, V.K. Shukla, R.S. Yadav, P.K. Sharm a, P.K. 
+Singh, A.C. Pandey, Adv. Mat. Lett. 2011, 2, 313.317. 
+[10] D. Gnanasangeetha , D. SaralaThambavani , J. C hem. Bio. 
+Phy. Sci. Sec. B, Nov. 2013.Jan .2014, 4, 238.246.  
+25 
+[11] C. Vidya, S. Hiremath, M.N. Chandraprabha, M.A . Lourdu 
+Antonyraj,  I.Venu Gopal, A. Jain, K. Bansal, Int. J. Current  Eng. 
+Tech. 2013, 1, 118.120.       
+[12] C. Tamuly, I. Saikia, M. Hazarika, M.R. Das. R SC Adv. 
+2014, 4, 20636.20640. 
+30 
+[13] C. Tamuly, I. Saikia, M. Hazarika, M.R. Das. R SC Adv. 
+2014, 4, 53229.53236. 
+[14] Swee.Yong Pung, Wen.Pie Lee, Azizan Aziz, Int.  J. Inorg. 
+Chem.  2012, 2012, 1.9. 
+[15] X. Wang, F. Zhao, P. Xie, S. Liang, S. Deng, N . Xu. Opt. 
+35 
+Commun.  2007, 276, 186–190 
+[16] D.I. Son. J. Korean Phys. Soc. 2009, 55 (5),1973.1976. 
+[17] A. Sharma, B.P. Singh, S. Dhar, A. Gondor, M. Spasova, 
+Surf. Sci.  2012, 606, L13–L17. 
+[18] R. Amutha, G..J. Lee, E. Repo, M. Sillanpaa, J.J. Wu, Mater. 
+40 
+Lett.  2013, 107, 64–67 
+[19] D. Kakati and J.C. Sarma Chemistry Central Journal 2011, 5, 
+8 
+[20] T. Narender,  K.P. Reddy. Tetrahedron Lett.  2 007, 48,  
+3177–3180 
+45 
+[21] R. Pal. IOSR J.Appl. Chem. (IOSR.JAC) 2013, 3(4), 74.80 
+[22] D. Kumar, Suresh, J. S. Sandhu. Green Chem. Le tt. Rev. 
+2010, 3(4), 283.286 
+[23] S.R. Sarda,  W.N. Jadhav, S.U. Tekale, G.V. Ja dhav, B.R. 
+Patil, G. S. Suryawanshi, Rajendra P. Pawar. Lett. Org. Chem. 
+50 
+2009, 6, 481.484 
+ 
+Page 6 of 6RSC Advances
+RSC Advances Accepted Manuscript

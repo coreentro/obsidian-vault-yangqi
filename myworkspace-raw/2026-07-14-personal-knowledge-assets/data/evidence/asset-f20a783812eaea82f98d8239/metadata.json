@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-f20a783812eaea82f98d8239",
+  "candidate_id": "chrome-default-bookmarks:item:00000065",
+  "source_id": "chrome-default-bookmarks",
+  "title": "虫部落 - 让搜索更简单",
+  "original_url": "https://www.chongbuluo.com/",
+  "requested_url": "https://www.chongbuluo.com/",
+  "final_url": "https://www.chongbuluo.com/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:09.482799+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 62514,
+  "body_sha256": "94d85cb7cbeeea1d8eb27922ac85616c24dc8a2deaa37642a8708be5504171fe"
+}

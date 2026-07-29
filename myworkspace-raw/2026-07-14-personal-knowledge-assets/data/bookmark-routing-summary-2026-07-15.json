@@ -1,0 +1,22 @@
+{
+  "attempted": 44,
+  "duplicate_excess_total": 39,
+  "generated_at": "2026-07-15T17:24:22+08:00",
+  "policy": "No routing row authorizes capture. Existing assets stay immutable; unattempted public-review rows require an explicit frozen batch and safety review.",
+  "route_counts": {
+    "attempted::manual-platform-or-session": 1,
+    "attempted::manual-private-or-account": 1,
+    "attempted::manual-sensitive-resource": 2,
+    "attempted::public-anonymous-review": 40,
+    "unattempted::manual-platform-or-session": 23,
+    "unattempted::manual-private-or-account": 13,
+    "unattempted::manual-sensitive-resource": 35,
+    "unattempted::public-anonymous-review": 122
+  },
+  "routing_file": "data/bookmark-routing-2026-07-15.jsonl",
+  "routing_sha256": "33620450e04a9531f6a15abd1fdf0c25ca37e0b5d214b16510e8096b4fc7878b",
+  "schema_version": 1,
+  "total_bookmarks": 237,
+  "unattempted": 193,
+  "unique_canonical_groups": 198
+}

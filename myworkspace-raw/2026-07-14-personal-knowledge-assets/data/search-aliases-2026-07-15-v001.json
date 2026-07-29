@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T18:55:00+08:00",
+  "policy": "Aliases are additive retrieval metadata. They never replace or rewrite source text, titles, evidence packages, or prior index records.",
+  "items": [
+    {
+      "asset_id": "asset-b949dc8a2ee124c6e5438e39",
+      "aliases": ["GitHub 趋势", "开源项目清单", "AI 工具发现", "技术趋势发现"]
+    },
+    {
+      "asset_id": "asset-72f8e8b03fc10d4e9cf22fff",
+      "aliases": ["自动发推", "X 线程发布", "内容发布工作流", "安全发布与风险控制"]
+    },
+    {
+      "asset_id": "asset-52eb7b045a611f8c337add2c",
+      "aliases": ["Codex 内容资产", "可复用内容工作流", "从模糊任务到项目资产"]
+    },
+    {
+      "asset_id": "asset-144f4039c0c4d4f1e4f2d0fe",
+      "aliases": ["AI 编程", "规格驱动开发", "需求计划任务验收", "软件生产关系", "spec-kit"]
+    },
+    {
+      "asset_id": "asset-7fc8c1d273f1082896a32c55",
+      "aliases": ["飞书课程", "浏览器自动化", "学习流程自动化", "人工登录安全边界"]
+    },
+    {
+      "asset_id": "asset-3fbcf67ed7a98b00ee486d7e",
+      "aliases": ["二氧化铈氧空位", "锰掺杂氧化铈", "苯催化氧化", "形貌与催化活性"]
+    },
+    {
+      "asset_id": "asset-86113a802617c36dbd457196",
+      "aliases": ["机械化学", "生态碱", "绿色化学", "Michael 加成", "无溶剂合成"]
+    },
+    {
+      "asset_id": "asset-ff5229e120d76f1a75763aa0",
+      "aliases": ["硫空位", "电子桥", "电子转移", "光催化制氢", "Ni4Mo 合金"]
+    },
+    {
+      "asset_id": "asset-7cd584c251dc4632357147b1",
+      "aliases": ["S 型异质结", "CdS 量子点", "In2O3 空心纳米管", "光催化产氢", "载流子分离"]
+    },
+    {
+      "asset_id": "asset-fee4796ca698d53aff87fa76",
+      "aliases": ["铈改性层状双氢氧化物", "LDH 催化剂", "制备方法与物化性质", "缩合反应", "机械化学制备"]
+    }
+  ]
+}

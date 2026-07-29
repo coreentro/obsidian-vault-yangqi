@@ -1,0 +1,92 @@
+{
+  "desktop": {
+    "inferenceProvider": "gateway",
+    "inferenceGatewayBaseUrl": "http://127.0.0.1:3001",
+    "inferenceGatewayApiKey": "DFrmZooSDOkAmx1ILjkgR9AWOpgAbKpL90NZGeqh8ccaRlnr",
+    "inferenceGatewayAuthScheme": "bearer",
+    "inferenceModels": [
+      {
+        "name": "claude-haiku-4-5-20251001",
+        "labelOverride": "[e] grok-4.5",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-7",
+        "labelOverride": "[e] grok-4.5",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-6",
+        "labelOverride": "[e] grok-4.3",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-1",
+        "labelOverride": "[e] grok-4.20-reasoning",
+        "supports1m": false
+      },
+      {
+        "name": "claude-sonnet-4-6",
+        "labelOverride": "[e] grok-composer-2.5-fast",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-8",
+        "labelOverride": "[e] grok-4.20-multi-agent",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-0",
+        "labelOverride": "[f] claude-sonnet-4-6",
+        "supports1m": false
+      },
+      {
+        "name": "claude-sonnet-4-0",
+        "labelOverride": "[f] claude-sonnet-4-6",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-5-20251101",
+        "labelOverride": "[f] gemini-3.1-pro",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-1-20250805",
+        "labelOverride": "[f] gemini-3-flash",
+        "supports1m": false
+      },
+      {
+        "name": "claude-opus-4-5",
+        "labelOverride": "[f] gemini-3-flash",
+        "supports1m": false
+      },
+      {
+        "name": "claude-sonnet-4-5",
+        "labelOverride": "[f] deepseek-v4-flash",
+        "supports1m": false
+      },
+      {
+        "name": "claude-sonnet-4-5-20250929",
+        "labelOverride": "[f] deepseek-v4-flash",
+        "supports1m": false
+      },
+      {
+        "name": "claude-haiku-4-5",
+        "labelOverride": "[f] deepseek-v4-flash",
+        "supports1m": false
+      }
+    ],
+    "modelDiscoveryEnabled": false
+  },
+  "cli_env_keys": [
+    "ANTHROPIC_AUTH_TOKEN",
+    "ANTHROPIC_BASE_URL",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL",
+    "ANTHROPIC_MODEL",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME"
+  ]
+}

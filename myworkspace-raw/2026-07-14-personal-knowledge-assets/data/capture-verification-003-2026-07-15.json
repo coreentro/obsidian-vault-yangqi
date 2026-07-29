@@ -1,0 +1,51 @@
+{
+  "all_packages_match_cloud": true,
+  "batch_id": "capture-batch-003-2026-07-15",
+  "counts": {
+    "blocked": 4,
+    "complete": 0,
+    "limited": 0
+  },
+  "first_run_result": "data/capture-results-capture-batch-003-2026-07-15-v001.json",
+  "first_run_result_sha256": "114ac04fa68f580c095d31598fcced8c028f2d57305744e5b7a8b799e8111c31",
+  "generated_at": "2026-07-15T17:19:16+08:00",
+  "ledger_asset_total_after_batch": 44,
+  "ledger_distribution_after_batch": {
+    "blocked": 13,
+    "complete": 25,
+    "limited": 6
+  },
+  "limitation": "The current resolver mapped all four hostnames into 198.18.0.0/15. The safety boundary refused connection; no source body was obtained or inferred.",
+  "local_cloud_file_total": 20,
+  "packages": [
+    {
+      "all_cloud_files_match": true,
+      "asset_id": "asset-0a19b11eb09defb971fb4d00",
+      "file_count": 5,
+      "package_checksum_verified": true
+    },
+    {
+      "all_cloud_files_match": true,
+      "asset_id": "asset-b81fa650dfb048ee51b0c185",
+      "file_count": 5,
+      "package_checksum_verified": true
+    },
+    {
+      "all_cloud_files_match": true,
+      "asset_id": "asset-78f2c8d023434db6f6e9fd2c",
+      "file_count": 5,
+      "package_checksum_verified": true
+    },
+    {
+      "all_cloud_files_match": true,
+      "asset_id": "asset-aa84d811157f243377366a92",
+      "file_count": 5,
+      "package_checksum_verified": true
+    }
+  ],
+  "replay_result": "data/capture-results-capture-batch-003-2026-07-15-v002.json",
+  "replay_result_sha256": "3c0e0badcea6911121e73d92e82c534a4b7526e1c4d19bca281a15e06a0acdea",
+  "replay_run_status_count": 4,
+  "schema_version": 1,
+  "source_batch_sha256": "7d867b37e89a993e35b44e46c54a8579e0f0a9e2bdae3085ad13127f070d435a"
+}

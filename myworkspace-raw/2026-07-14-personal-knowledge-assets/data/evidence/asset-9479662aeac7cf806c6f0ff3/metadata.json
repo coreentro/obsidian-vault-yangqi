@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-9479662aeac7cf806c6f0ff3",
+  "candidate_id": "chrome-default-bookmarks:item:00000051",
+  "source_id": "chrome-default-bookmarks",
+  "title": "资源汇社区的资源库",
+  "original_url": "http://sj.ysupan.com/ziyuanhuishequ#/",
+  "requested_url": "http://sj.ysupan.com/ziyuanhuishequ#/",
+  "final_url": "http://sj.ysupan.com/ziyuanhuishequ#/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:04.196410+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

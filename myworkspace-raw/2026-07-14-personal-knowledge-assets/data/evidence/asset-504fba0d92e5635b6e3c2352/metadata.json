@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-504fba0d92e5635b6e3c2352",
+  "candidate_id": "chrome-profile-2-bookmarks:item:00000025",
+  "source_id": "chrome-profile-2-bookmarks",
+  "title": "Amiya的书桌 - 笔记、项目和一点日常折腾 | Amiya's Desk",
+  "original_url": "https://blog.sayori.org/",
+  "requested_url": "https://blog.sayori.org/",
+  "final_url": "https://blog.sayori.org/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:49.488308+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 840400,
+  "body_sha256": "691a233034b3d6ebef847cf873859b8873a9a825f18b7f7da5d498138a856c11"
+}

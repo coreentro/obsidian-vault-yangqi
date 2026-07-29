@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T18:45:00+08:00",
+  "allowlist": "data/local-file-read-allowlist-2026-07-15-v001.json",
+  "assessment_scope": "Complete UTF-8 contents of the five allowlisted files; no other local file content was opened.",
+  "safety_checks": [
+    "private-key marker",
+    "credential assignment pattern",
+    "email address",
+    "mainland China mobile number",
+    "mainland China identity-card number"
+  ],
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00000870",
+      "decision": "accepted",
+      "title": "GitHub Trending - 2026-05-31",
+      "value_score": 78,
+      "topics": ["github", "open-source", "ai-tools", "technology-discovery"],
+      "safety_hits": [],
+      "reason": "Complete dated technology-discovery note with source links and reusable project descriptions."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00000983",
+      "decision": "accepted",
+      "title": "自动发推：可检查的 X 线程资产流程",
+      "value_score": 86,
+      "topics": ["content-workflow", "x", "automation", "risk-control"],
+      "safety_hits": [],
+      "reason": "Reusable end-to-end content asset workflow with explicit safe-publishing boundaries and operational checks."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001013",
+      "decision": "accepted",
+      "title": "Codex 不只是写代码",
+      "value_score": 84,
+      "topics": ["codex", "content-assets", "workflow", "reuse"],
+      "safety_hits": [],
+      "reason": "Complete reusable draft articulating the shift from isolated text generation to managed content assets."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001014",
+      "decision": "accepted",
+      "title": "spec-kit：AI 编程从感觉走向规格",
+      "value_score": 91,
+      "topics": ["ai-coding", "specification", "software-process", "production-relations"],
+      "safety_hits": [],
+      "reason": "High-value analysis connecting stronger coding models with the need for specifications, process, quality control, and verifiable delivery."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001290",
+      "decision": "accepted",
+      "title": "飞书课程顺序播放器",
+      "value_score": 74,
+      "topics": ["browser-automation", "feishu", "learning-workflow", "safety-boundaries"],
+      "safety_hits": [],
+      "reason": "Reusable browser-automation documentation with explicit human-login, no-answering, and no-progress-modification boundaries."
+    }
+  ]
+}

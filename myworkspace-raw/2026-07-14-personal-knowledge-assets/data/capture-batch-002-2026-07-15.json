@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "batch_id": "capture-batch-002-2026-07-15",
+  "created_at": "2026-07-15T08:06:37.597064+00:00",
+  "purpose": "第二批公开知识型书签试采集；排除登录、支付、后台、个人控制台和明显非知识页面。",
+  "selection_rule": "来自冻结书签基线的公开 HTTP(S) 页面；只读抓取，不提交表单、不下载页面外媒体、不绕过访问控制。",
+  "capture_status": "pending",
+  "items": [
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000045",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 45,
+      "title": "一些宝藏网站分享",
+      "url": "https://cloths-read-s05.craft.me/qGNliFnfnEfzAa",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000046",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 46,
+      "title": "Internet Archive: Digital Library of Free & Borrowable Books, Movies, Music & Wayback Machine",
+      "url": "https://archive.org/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000050",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 50,
+      "title": "如何增强自己搜索的能力 ｜ 千玄洞",
+      "url": "https://zjuyk.gitlab.io/posts/how-to-search/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000051",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 51,
+      "title": "资源汇社区的资源库",
+      "url": "http://sj.ysupan.com/ziyuanhuishequ#/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000052",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 52,
+      "title": "考研云-分享考研资料真题及考研笔记 - A姐分享",
+      "url": "https://www.ahhhhfs.com/54221/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000053",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 53,
+      "title": "研究生招生信息网",
+      "url": "https://yzxc.ustb.edu.cn/sssbkzn/sszszyml/2023/index.htm",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000057",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 57,
+      "title": "Way to AGI | 通往AGI之路",
+      "url": "https://blog.waytoagi.com/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000062",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 62,
+      "title": "考研资料到底去哪里找？ | LUCEN",
+      "url": "https://www.lucenczz.top/article/342652eb-4c65-425d-99d3-9d2fdf308af7",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000065",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 65,
+      "title": "虫部落 - 让搜索更简单",
+      "url": "https://www.chongbuluo.com/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000066",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 66,
+      "title": "All Sites - Stack Exchange",
+      "url": "https://stackexchange.com/sites",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000067",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 67,
+      "title": "Edge.org",
+      "url": "https://www.edge.org/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000073",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 73,
+      "title": "小红书文案🔥-多种草AI 一站式 AI 创作工具",
+      "url": "https://duozhongcao.com/apps/redbook-zhengwen",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000081",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 81,
+      "title": "archive",
+      "url": "https://archive.org/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000089",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 89,
+      "title": "去广告",
+      "url": "https://github.com/Moli-X/Resources",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000094",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 94,
+      "title": "FREEMEDIAHECKYEAH · fmhy/FMHY Wiki · GitHub",
+      "url": "https://github.com/fmhy/FMHY/wiki/FREEMEDIAHECKYEAH",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000019",
+      "source_id": "edge-default-bookmarks",
+      "bookmark_index": 19,
+      "title": "文档支持的快捷键",
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/500625665207-%E6%96%87%E6%A1%A3%E6%94%AF%E6%8C%81%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000026",
+      "source_id": "edge-default-bookmarks",
+      "bookmark_index": 26,
+      "title": "Zotero 中文社区",
+      "url": "https://zotero-chinese.com/user-guide/quick-start",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000030",
+      "source_id": "edge-default-bookmarks",
+      "bookmark_index": 30,
+      "title": "河北科技大学_理学院导师简介",
+      "url": "https://lxy.web.hebust.edu.cn/rcpy/yjsjy/dsjj/index.htm",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-profile-2-bookmarks:item:00000045",
+      "source_id": "chrome-profile-2-bookmarks",
+      "bookmark_index": 45,
+      "title": "大佬论坛 - 全球域名论坛、域名交易与投资交流社区",
+      "url": "https://www.dalao.net/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-profile-2-bookmarks:item:00000047",
+      "source_id": "chrome-profile-2-bookmarks",
+      "bookmark_index": 47,
+      "title": "秋风广告规则",
+      "url": "https://awavenue.top/",
+      "capture_status": "pending"
+    }
+  ]
+}

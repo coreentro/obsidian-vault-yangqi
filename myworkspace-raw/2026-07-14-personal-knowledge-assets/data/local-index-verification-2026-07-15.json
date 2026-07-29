@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-07-15T12:14:51.430827+00:00",
+  "index": "data/search-index.sqlite3",
+  "index_sha256": "ef18fa5e55a8b491410de7e2e5da07a05ce7eebaccb374d62df00f38902d5a7a",
+  "read_only": true,
+  "sqlite_integrity": "ok",
+  "counts": {
+    "documents": 55,
+    "base_aliases": 30,
+    "alias_additions": 15
+  },
+  "preservation_checks": {
+    "empty_source_text": 0,
+    "documents_missing_fts": 0
+  },
+  "probes": {
+    "知识库": {
+      "document_hits": [
+        "asset-9ae74664798381c8b8c5a254"
+      ],
+      "alias_hits": [],
+      "append_only_alias_hits": []
+    },
+    "搜索能力": {
+      "document_hits": [],
+      "alias_hits": [],
+      "append_only_alias_hits": []
+    },
+    "硫空位 光催化制氢": {
+      "document_hits": [
+        "asset-7cd584c251dc4632357147b1",
+        "asset-d56adbc6549d3f2d150206df",
+        "asset-ac11109c373c15d8d7872996",
+        "asset-b52f87b52caf0c4cff1a0e21",
+        "asset-ea261f4a88e8e35ed4dc9829"
+      ],
+      "alias_hits": [
+        "asset-3fbcf67ed7a98b00ee486d7e",
+        "asset-ff5229e120d76f1a75763aa0",
+        "asset-7cd584c251dc4632357147b1",
+        "asset-d56adbc6549d3f2d150206df",
+        "asset-ac11109c373c15d8d7872996"
+      ],
+      "append_only_alias_hits": [
+        "asset-ac11109c373c15d8d7872996",
+        "asset-b52f87b52caf0c4cff1a0e21",
+        "asset-ea261f4a88e8e35ed4dc9829"
+      ]
+    }
+  },
+  "status": "pass"
+}

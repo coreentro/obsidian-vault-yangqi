@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-a660191974f169e3aee9f01a",
+  "candidate_id": "chrome-default-bookmarks:item:00000066",
+  "source_id": "chrome-default-bookmarks",
+  "title": "All Sites - Stack Exchange",
+  "original_url": "https://stackexchange.com/sites",
+  "requested_url": "https://stackexchange.com/sites",
+  "final_url": "https://stackexchange.com/sites",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:07.064577+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

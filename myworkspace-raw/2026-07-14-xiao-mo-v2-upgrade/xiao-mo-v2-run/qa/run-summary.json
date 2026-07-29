@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run",
+  "spritesheet": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/final/spritesheet-extended.webp",
+  "validation": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/final/validation-extended.json",
+  "chroma_despill": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/look-directions.png",
+  "direction_semantics": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/direction-blind-validation.json",
+  "blind_review_resolution": null,
+  "continuity": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/look-continuity.json",
+  "review": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/review.json",
+  "final_visual_qa": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-14-xiao-mo-v2-upgrade/xiao-mo-v2-run/qa/final-visual-qa.json",
+  "package": "/Users/yangqi/.codex/pets/xiao-mo"
+}

@@ -1,0 +1,17 @@
+{
+  "asset_id": "asset-599e5267b99041c782ddc73d",
+  "candidate_id": "chrome-profile-2-bookmarks:item:00000041",
+  "source_id": "chrome-profile-2-bookmarks",
+  "title": "7 Best AI Subreddits in 2025 (38+ Considered)",
+  "original_url": "https://usefulai.com/subreddits",
+  "requested_url": "https://usefulai.com/subreddits",
+  "final_url": "https://usefulai.com/feeds/subreddits",
+  "redirects": [
+    "https://usefulai.com/feeds/subreddits"
+  ],
+  "captured_at": "2026-07-15T07:52:53.801391+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 391205,
+  "body_sha256": "67750125a3a221aae0938db4499073cbda79ada8db7d4c004265fd6cb2b28ae6"
+}

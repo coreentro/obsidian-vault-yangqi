@@ -1,0 +1,10 @@
+{
+  "requested_url": "http://sj.ysupan.com/ziyuanhuishequ#/",
+  "final_url": null,
+  "redirects": [],
+  "complete_response": false,
+  "error": "HTTPError: HTTP Error 400: Bad Request",
+  "limitations": [
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

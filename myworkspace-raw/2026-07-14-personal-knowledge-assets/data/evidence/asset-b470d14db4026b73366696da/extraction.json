@@ -1,0 +1,13 @@
+{
+  "empty_text_pages": [],
+  "extracted_character_count": 10891,
+  "page_count": 7,
+  "pages_traversed": 7,
+  "tool": "pypdf",
+  "visual_review_scope": "Rendered first, middle, and last pages when distinct; checked for legibility, clipping, and missing page content.",
+  "visually_reviewed_pages": [
+    1,
+    4,
+    7
+  ]
+}

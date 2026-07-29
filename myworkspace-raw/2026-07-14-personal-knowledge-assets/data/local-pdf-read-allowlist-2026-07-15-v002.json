@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:05:00+08:00",
+  "source_inventory": "data/inventories/mac-current-local-2026-07-14.json",
+  "source_classification": "data/local-file-classification-2026-07-15.jsonl",
+  "policy": {
+    "access": "read-only",
+    "source_mutation": "forbidden",
+    "sensitive_content": "excluded-before-content-read",
+    "pre_read_gate": "scholarly filename, PDF extension, frozen byte length and frozen SHA-256 only",
+    "post_read_gate": "accept only after complete page traversal, text extraction assessment, visual page sampling, and privacy review",
+    "preservation": "exact PDF bytes remain the immutable source; extracted text and page renders are separate derivatives"
+  },
+  "limits": {
+    "batch_files": 5,
+    "batch_bytes": 17089318,
+    "per_file_bytes": 26214400,
+    "rendered_pages_per_file": 3
+  },
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001402",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2016_Nano‐structured Magnesium Oxide as Efficient Recyclable Catalyst for Knoevenagel and Claisen‐Schm....pdf",
+      "byte_length": 1374437,
+      "sha256": "a1b97d5d8bd1dc67a9868cdd2b514b1c6c044d484d9c32fc003f14413ab5ae54",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly heterogeneous-catalysis title; non-sensitive path; reusable organic-synthesis literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001406",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2021-04-08_Continuous production of benzylideneacetophenone via gas phase reaction of benzaldehyde and aceto....pdf",
+      "byte_length": 2268897,
+      "sha256": "0b28c00783c13539f6223a587e27c921a00c19a51938c4a0bde88dc37ed65d59",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly continuous-flow catalysis title; non-sensitive path; reusable synthesis literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001408",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2021_Effective Heterogeneous MoOx‐Modified CeO2 Catalyst for Michael Addition of Dimethyl Malonate to ....pdf",
+      "byte_length": 3365431,
+      "sha256": "1230952aba8a78c0d07309f52a68e1018d336586cd32855abe240caa5d569920",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly Michael-addition catalysis title; non-sensitive path; reusable synthesis literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001415",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2023-04-08_Synthesis of Chalcones An Improved High-Yield and Substituent-Independent Protocol for an Old Str....pdf",
+      "byte_length": 3235842,
+      "sha256": "189f2c7a9f340ef63fe7509f91a725cc7af956d20443d947db3f7a379d7b2968",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly chalcone-synthesis title; non-sensitive path; reusable organic-synthesis literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001416",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2023-04-08_d3ob00792h 5317..5346 ++.pdf",
+      "byte_length": 6844711,
+      "sha256": "9050dcd442cfa0633943610ac7e889943c844f5a5940d0631ebdd039e3f6d665",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly chemistry article identifier; non-sensitive path; selected for full-title and value verification."
+    }
+  ]
+}

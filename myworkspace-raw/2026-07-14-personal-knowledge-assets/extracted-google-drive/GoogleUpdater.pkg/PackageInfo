@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="com.google.Keystone" postinstall-action="none" version="0" format-version="2" generator-version="InstallCmds-830.2 (22G120)" install-location="/Library/Application Support/Google/GoogleUpdater/PkgStaging/GoogleUpdater.app" auth="root">
+    <payload numberOfFiles="30" installKBytes="25080"/>
+    <bundle id="com.google.Keystone" CFBundleVersion="2.0" path="./Contents/Helpers/GoogleSoftwareUpdate.bundle"/>
+    <bundle id="com.google.Keystone.Agent" CFBundleVersion="2.0" path="./Contents/Helpers/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app"/>
+    <bundle-version>
+        <bundle id="com.google.Keystone"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="com.google.Keystone"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="com.google.Keystone.Agent"/>
+    </strict-identifier>
+    <relocate/>
+    <scripts>
+        <postinstall file="./postinstall"/>
+    </scripts>
+</pkg-info>

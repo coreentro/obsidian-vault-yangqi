@@ -1,0 +1,59 @@
+{
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v006.json",
+  "assessment": "data/local-pdf-content-assessment-2026-07-15-v006.json",
+  "captured_total": 2,
+  "created_at": "2026-07-15T20:30:00+08:00",
+  "ledger_assets_in_batch": 2,
+  "results": [
+    {
+      "asset_id": "asset-d0fbb4ec6d86fe872fcb7549",
+      "authors": "Rob Small (review author)",
+      "candidate_id": "mac-current-local:item:00001404",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-d0fbb4ec6d86fe872fcb7549",
+      "extracted_text_characters": 1623,
+      "page_count": 1,
+      "source_byte_length": 52429,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2019_ORX_53_4_Publications 788..789.pdf",
+      "source_sha256": "815559a6dbd02e70b150fbfd89f957cfc29cae18d3dc97f3599c411db8d79cc4",
+      "title": "Book review: The Anthropology of Conservation NGOs: Rethinking the Boundaries Edited by Peter Larsen and Ian Brockington",
+      "topics": [
+        "conservation",
+        "anthropology",
+        "environmental-governance",
+        "book-review"
+      ],
+      "value_score": 78,
+      "visually_reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "asset_id": "asset-b725325201a00d6720efb86b",
+      "authors": "Not legible from extracted text; original image PDF retained as authority",
+      "candidate_id": "mac-current-local:item:00001489",
+      "completeness": "limited",
+      "evidence_package_ref": "data/evidence/asset-b725325201a00d6720efb86b",
+      "extracted_text_characters": 0,
+      "page_count": 3,
+      "source_byte_length": 3725104,
+      "source_path": "/Users/yangqi/Downloads/SEM 李士奇 单体/20250515/1/1.pdf",
+      "source_sha256": "4b472a2c358b4532966b9b5f759b0d9d3bb46caec6ce9a9586f9b8e3820ca57e",
+      "title": "SEM application note: Ni-Mo-O sample characterization",
+      "topics": [
+        "SEM",
+        "materials-characterization",
+        "nickel",
+        "molybdenum",
+        "oxygen"
+      ],
+      "value_score": 72,
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "schema_version": 1
+}

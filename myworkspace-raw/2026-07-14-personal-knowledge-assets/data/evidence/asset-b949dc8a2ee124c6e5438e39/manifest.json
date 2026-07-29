@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "asset_id": "asset-b949dc8a2ee124c6e5438e39",
+  "source_id": "mac-current-local",
+  "created_at": "2026-07-15T09:44:53.776642+00:00",
+  "completeness": "complete",
+  "immutable_files": [
+    {
+      "path": "capture-log.json",
+      "byte_length": 305,
+      "sha256": "67df5dee39a66846606c7f7bc47d3c8ba9d02e9a879c2ec1aea70bcf9aae9550",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "comments.json",
+      "byte_length": 122,
+      "sha256": "c662d959bc85e1b77356b0fb45a1d8c4b0bdbe834810dc2c2f557ce72dddacdc",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "metadata.json",
+      "byte_length": 483,
+      "sha256": "1e054e6e441cfff0cfdfa7a38438839d05c32a85cb7a7057de4425c29a8e795e",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "source-original.md",
+      "byte_length": 5999,
+      "sha256": "bd53583223b80c8d5dd81c94ee5a65c925191619a1b2a5a12de86198aa58ed09",
+      "mime_type": "text/markdown",
+      "role": "source"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "source.md",
+      "byte_length": 5999,
+      "sha256": "bd53583223b80c8d5dd81c94ee5a65c925191619a1b2a5a12de86198aa58ed09",
+      "mime_type": "text/markdown",
+      "parent": "source-original.md",
+      "transformation": "exact UTF-8 decoding; no characters added, removed, or reordered"
+    }
+  ],
+  "limitations": [],
+  "capture_events": []
+}

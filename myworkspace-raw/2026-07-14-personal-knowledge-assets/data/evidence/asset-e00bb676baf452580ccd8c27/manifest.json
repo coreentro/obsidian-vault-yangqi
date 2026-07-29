@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "asset_id": "asset-e00bb676baf452580ccd8c27",
+  "source_id": "chrome-default-bookmarks",
+  "created_at": "2026-07-15T07:52:42.045656+00:00",
+  "completeness": "blocked",
+  "immutable_files": [
+    {
+      "path": "capture-log.json",
+      "byte_length": 329,
+      "sha256": "faedb8a621646e21c1363adee84336f7289f6e736ff2fb883613de999b60f268",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "comments.json",
+      "byte_length": 64,
+      "sha256": "afe9c85a0b8ed4b00af3686683be910debc58588d092f815eb4fe64b7ff65458",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "metadata.json",
+      "byte_length": 563,
+      "sha256": "e6f7e49278381b1e4be51fdee44df66a9a59b5935766b76239bafce6903eb757",
+      "mime_type": "application/json",
+      "role": "source"
+    }
+  ],
+  "derived_files": [],
+  "limitations": [],
+  "capture_events": []
+}

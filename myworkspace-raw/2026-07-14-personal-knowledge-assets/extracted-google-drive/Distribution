@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>Google Drive</title>
+    <background alignment="bottomleft" scaling="proportional" uti="public.png" file="logo.png"/>
+    <background-darkAqua alignment="bottomleft" scaling="proportional" uti="public.png" file="logo.png"/>
+    <options customize="never" require-scripts="true" hostArchitectures="x86_64,arm64"/>
+    <domains enable_anywhere="false" enable_currentUserHome="false" enable_localSystem="true"/>
+    <volume-check>
+        <allowed-os-versions>
+            <os-version min="13.0.0"/>
+        </allowed-os-versions>
+    </volume-check>
+    <choices-outline>
+        <line choice="installer_choice_1"/>
+        <line choice="installer_choice_2"/>
+        <line choice="installer_choice_3"/>
+        <line choice="installer_choice_4"/>
+    </choices-outline>
+    <choice id="installer_choice_1" title="GoogleUpdater" description="">
+        <pkg-ref id="com.google.GoogleUpdater"/>
+    </choice>
+    <choice id="installer_choice_2" title="Google Drive Intel" description="">
+        <pkg-ref id="com.google.drivefs.x86_64"/>
+    </choice>
+    <choice id="installer_choice_3" title="Google Drive Arm" description="">
+        <pkg-ref id="com.google.drivefs.arm64"/>
+    </choice>
+    <choice id="installer_choice_4" title="GSuite Shortcuts" description="">
+        <pkg-ref id="com.google.drivefs.shortcuts"/>
+    </choice>
+    <pkg-ref id="com.google.GoogleUpdater" auth="Root" packageIdentifier="com.google.Keystone" installKBytes="25080" updateKBytes="0">#GoogleUpdater.pkg</pkg-ref>
+    <pkg-ref id="com.google.drivefs.arm64" active="is_arm()" auth="Root" version="127.0.1.0" installKBytes="341411" updateKBytes="0">#GoogleDrive_arm64.pkg</pkg-ref>
+    <pkg-ref id="com.google.drivefs.x86_64" active="is_intel()" auth="Root" version="127.0.1.0" installKBytes="343776" updateKBytes="0">#GoogleDrive_x86_64.pkg</pkg-ref>
+    <pkg-ref id="com.google.drivefs.shortcuts" auth="Root" version="127.0.1.0" installKBytes="97" updateKBytes="0">#GoogleDriveShortcuts.pkg</pkg-ref>
+    <script><![CDATA[
+      const CPU_TYPE_MASK = 0x00ffffff;
+      const CPU_TYPE_X86 = 7;
+      const CPU_TYPE_ARM = 12;
+
+      function cputype()
+      {
+        return parseInt(system.sysctl('hw.cputype')) & CPU_TYPE_MASK;
+      }
+
+      function is_intel()
+      {
+        return cputype() === CPU_TYPE_X86;
+      }
+
+      function is_arm()
+      {
+        return cputype() === CPU_TYPE_ARM;
+      }
+    ]]></script>
+    <pkg-ref id="com.google.GoogleUpdater">
+        <bundle-version>
+            <bundle CFBundleVersion="2.0" id="com.google.Keystone" path="Contents/Helpers/GoogleSoftwareUpdate.bundle"/>
+            <bundle CFBundleVersion="2.0" id="com.google.Keystone.Agent" path="Contents/Helpers/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.google.drivefs.x86_64">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="127.0" CFBundleVersion="127.0.1" id="com.google.drivefs" path="Google Drive.app"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.google.drivefs.arm64">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="127.0" CFBundleVersion="127.0.1" id="com.google.drivefs" path="Google Drive.app"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.google.drivefs.shortcuts">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="127.0" CFBundleVersion="127.0.0" id="com.google.drivefs.shortcuts.slides" path="Google Slides.app"/>
+            <bundle CFBundleShortVersionString="127.0" CFBundleVersion="127.0.0" id="com.google.drivefs.shortcuts.sheets" path="Google Sheets.app"/>
+            <bundle CFBundleShortVersionString="127.0" CFBundleVersion="127.0.0" id="com.google.drivefs.shortcuts.docs" path="Google Docs.app"/>
+        </bundle-version>
+    </pkg-ref>
+</installer-gui-script>

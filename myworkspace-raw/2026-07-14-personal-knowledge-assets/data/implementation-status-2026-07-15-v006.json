@@ -1,0 +1,84 @@
+{
+  "schema_version": "status-v006",
+  "generated_at": "2026-07-15T20:20:28.698556+08:00",
+  "project_status": "active-with-explicit-access-blockers",
+  "supersedes": "implementation-status-2026-07-15.json",
+  "local_control_plane": {
+    "devices": 1,
+    "sources": 13,
+    "candidates": 43176,
+    "assets": 76,
+    "asset_completeness": {
+      "blocked": 13,
+      "complete": 54,
+      "limited": 9
+    },
+    "review_queue": 41537,
+    "question_answers": 10
+  },
+  "search_index": {
+    "documents": 55,
+    "base_aliases": 30,
+    "append_only_aliases": 15
+  },
+  "batch005": {
+    "assets": [
+      "asset-4aa881d09db219e0cd886bb6",
+      "asset-5cb1e04f3a38c571dbf2be3d",
+      "asset-95191c77b81506cc30141d85",
+      "asset-4e90929cea233faf04959aaa",
+      "asset-5ef1ee75c15e6bffb2c9b908"
+    ],
+    "drive_package_checks": [
+      {
+        "asset_id": "asset-4aa881d09db219e0cd886bb6",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-5cb1e04f3a38c571dbf2be3d",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-95191c77b81506cc30141d85",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-4e90929cea233faf04959aaa",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-5ef1ee75c15e6bffb2c9b908",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      }
+    ],
+    "drive_all_packages_match": true,
+    "feishu_uploaded_artifacts": {
+      "allowlist": "BbQzbhhXHo9OJLxypPhcaMm8nzb",
+      "assessment": "C9NgbQHjLozQ8rx9QZscc0fYnHe",
+      "batch": "YnbdbZdDso2T8Sxodnpce2WPnPg",
+      "replay": "P2AcbjDbmoMiFaxZHStcuZXHnkh",
+      "aliases": "UOxdb5LploZEzzxmBcecnX3ynrb",
+      "search_index": "EwbAbOKCOo1pSPxkuX1cmftvnth",
+      "ledger": "HgirbleleoJak0xAq8KcysRinBe"
+    },
+    "feishu_asset_rows": 5,
+    "feishu_review_rows": 5
+  },
+  "remaining_blockers": [
+    "191 remaining bookmarks require logged-in platform context or manual legality/privacy decisions",
+    "Other computers, phones, browser profiles, platform accounts, and personal directories require user-visible access",
+    "Four batch-003 hosts remain blocked by the public-network safety boundary",
+    "35,238 local-file candidates remain metadata-only pending safe review"
+  ],
+  "preservation_statement": "Batch 005 added five evidence packages without deleting, truncating, moving, or overwriting any accepted source or prior snapshot."
+}

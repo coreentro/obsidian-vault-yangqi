@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:27:17+08:00",
+  "source_inventory": "data/inventories/mac-current-local-2026-07-14.json",
+  "source_classification": "data/local-file-classification-2026-07-15.jsonl",
+  "policy": {
+    "access": "read-only",
+    "source_mutation": "forbidden",
+    "sensitive_content": "excluded-before-content-read",
+    "pre_read_gate": "scholarly filename, PDF extension, frozen byte length and frozen SHA-256 only",
+    "post_read_gate": "accept only after complete page traversal, text extraction assessment, visual page sampling, and privacy review",
+    "preservation": "exact PDF bytes remain the immutable source; extracted text and page renders are separate derivatives"
+  },
+  "limits": {
+    "batch_files": 5,
+    "batch_bytes": 5739907,
+    "per_file_bytes": 26214400,
+    "rendered_pages_per_file": 3
+  },
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001401",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2004_JOURNAL OF HUAIYIN TEACHERS COLLEGE （NATURAL SCIENCE EDITION） 微波辐射相转移催化下水相合成查尔酮 （淮阴师范学院化学系 江苏淮安 2....pdf",
+      "byte_length": 222980,
+      "sha256": "a5e397de9607f85ebefbda05743579843189a1726459dbeee430af117409df99",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly chalcone-synthesis title; non-sensitive path; reusable organic-synthesis literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001405",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2020-04-08_Significant removal of ammonia nitrogen in low concentration from aqueous solution at low pH by a....pdf",
+      "byte_length": 790098,
+      "sha256": "80876cc88c1e9e960305d028668405d1325657f0ab92c82fd9ca8d7d22e9cc70",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly water-treatment title; non-sensitive path; reusable adsorption and environmental-chemistry literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001417",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2023_INORGANIC CHEMICALS INDUSTRY 李亮荣1，杨小喆1，陈楚欣1，刘 （1.南昌大学抚州医学院，江西抚州 344000；2.南昌大学共青学院，江西九江 332000）.pdf",
+      "byte_length": 1814952,
+      "sha256": "26b11ae787e2a1d342758f4fe39fe733741c061381074a9bd9280954733036b5",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly inorganic-chemistry journal title; non-sensitive path; selected for full-title and value verification."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001418",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2023_Univ. Chem. 2023, 38 (1), 233–239 收稿：2022-01-12；录用：2022-04-27；网络发表：2022-05-23 通讯作者，Email ycjtdai@....pdf",
+      "byte_length": 1074379,
+      "sha256": "fe02c202025653f804b5a335d00ea1ce69515f89c384ac8b51d422ac2a60c996",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly university-chemistry journal title; non-sensitive path; selected for teaching and disciplinary value verification."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001420",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2024_Acta Materiae Compositae Sinica ISSN 1000-3851 CN 11-1801TB CeO2CdxZn1-xS 光催化剂的制备及其可见光催化产 （延安大学 化....pdf",
+      "byte_length": 1837498,
+      "sha256": "55b549e6442d5eeb0f8496b0b606df878fe94f433a941977f50155fec8f35516",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly photocatalysis title; non-sensitive path; reusable materials-chemistry and hydrogen-evolution literature."
+    }
+  ]
+}

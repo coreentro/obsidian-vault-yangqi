@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-07-15T19:58:50+08:00",
+  "project_status": "active-with-explicit-access-blockers",
+  "local_control_plane": {
+    "devices": 1,
+    "sources": 13,
+    "candidates": 43176,
+    "assets": 71,
+    "asset_completeness": {
+      "complete": 50,
+      "limited": 8,
+      "blocked": 13
+    },
+    "review_queue": 41532,
+    "question_answers": 10,
+    "search_documents": 50,
+    "bilingual_alias_assets": 25,
+    "append_only_alias_additions": 10
+  },
+  "feishu_base_verified_counts": {
+    "devices": 1,
+    "sources": 13,
+    "candidates": 43176,
+    "assets": 71,
+    "review_queue": 41532,
+    "question_answers": 10
+  },
+  "bookmark_boundary": {
+    "total": 237,
+    "asset_linked": 46,
+    "manual_remaining": 191,
+    "manual_routes": {
+      "platform_or_session": 23,
+      "private_or_account": 12,
+      "sensitive_resource": 34,
+      "unresolved_conservative": 122
+    }
+  },
+  "weak_signal_history": {
+    "total": 6054,
+    "derived_exclusion_recommendations": 849,
+    "derived_inclusion_recommendations": 47,
+    "derived_review_recommendations": 5158,
+    "frozen_candidate_decisions_changed": 0
+  },
+  "local_file_boundary": {
+    "total": 36138,
+    "metadata_only_exclusion_recommendations": 875,
+    "review_required": 35263,
+    "sensitive_auto_capture_forbidden": 242,
+    "source_files_opened_for_classification": 0,
+    "content_allowlisted_and_fully_reviewed": 25,
+    "content_reviewed_and_accepted": 25,
+    "content_review_remaining": 35238,
+    "accepted_originals_synced_to_google_drive": 25,
+    "pdf_pages_fully_traversed": 216,
+    "pdf_pages_visually_sampled": 60,
+    "source_files_modified_or_deleted": 0
+  },
+  "acceptance_evidence": {
+    "automated_tests_passed": 75,
+    "random_cloud_recovery_sample": 20,
+    "random_cloud_recovery_passed": 20,
+    "blind_questions": 10,
+    "blind_questions_improved": 9,
+    "blind_questions_insufficient_refusals": 1,
+    "fabricated_sources": 0
+  },
+  "authoritative_hashes": {
+    "knowledge_assets_sqlite3": "045e63a581daa82f2eee57a09617e63cd7abb040d6cf5182656e0e114435fc6b",
+    "search_index_sqlite3": "dd0dac18c55258bdbbe97c85425c54420a2ab319435725d8a09c0e9d16af55f2",
+    "search_aliases_v001": "b91fb4430f0864e96fcb6b40ae53354805d7a5d3cc26a221d213711855898810",
+    "local_file_capture_batch_001": "c87eb0ee0eb412a4d55f239c1ad382dc25d1c837c6ac503ae8d6691ff369401c",
+    "local_file_read_allowlist_v001": "d9a12d1cf42c5d90275debe80c8f36047fc94ce5a529c7f47f4a83d81b12cbbe",
+    "local_file_content_assessment_v001": "8bb378b43c538dab1f8994430c739c1abb723544e82f4afe2b4820a52157a0ac",
+    "local_pdf_capture_batch_001": "8f0bbca9d011ea6096898e0aba3b237a28e15b02f2fc85716bb93ad8c70fe230",
+    "local_pdf_read_allowlist_v001": "0f91153627afbee5c538f071facf29a6f7c11f83e9903dca0e4bddcf846d5dbd",
+    "local_pdf_content_assessment_v001": "cab6e0a42da74d8b15844e54e05ce15511985746348362c1e4cc7df2c8997f95",
+    "local_pdf_capture_batch_002": "56e5ec10120d685fdd92f34015f94cf47b8ff2228705bf947bb3569dd6b9ea84",
+    "local_pdf_read_allowlist_v002": "bb23f7a3236696f7814d09b8ca40e798f3fbcc8e0f6e05f1c8d1786f41cc0a21",
+    "local_pdf_content_assessment_v002": "7ceea8d80793ec797cfbe72b07e88816ac53e91bbe97fe1fe8f464b0bcc34e29",
+    "search_aliases_v002": "28d38378aab1e9b616263ce84422d9d36de881563de9cf1b040e0d81ff9afe88",
+    "local_pdf_batch_002_timestamp_correction": "028ba311e95d59ada3fd4a692d6e6859324c145a1c8f8e3705f218821322c657",
+    "local_pdf_sync_verification_v002": "d629ad704b81bee6a5e810bad2693341d4f6d2b3e8cc50e6a2e82f91cb21028b",
+    "local_pdf_capture_batch_003": "c2707610c04ba7cda50f9a23cb81845a4416594052fd14c4f8f93d2d6c37527b",
+    "local_pdf_read_allowlist_v003": "7b6015e7d9b9abc836299be01110644c9d7c9b7dd7fa4c4a9763307583a6b77e",
+    "local_pdf_content_assessment_v003": "368df2defb78c28176f4aabae9e20d2e7fdc03639ec08bf7be9fc8be6476d761",
+    "search_aliases_v003": "b39eae1979f7531d0cdf2f7c0ed100e2eef499c4545cdf682f33835d35ff8b15",
+    "search_alias_additions_v001": "04a3afd3a68030294cf127ebdcc6371eb9677263f06c954ac393d468973fe79f",
+    "local_pdf_sync_verification_v003": "0e5727f840c97e108f46ba9b1d92fe7f8c3afdd46b1f910cff61fa0959127242",
+    "local_pdf_capture_batch_004": "2400f848f731471b020f88636a59c38085fe10cc4432eccbe6496ca5104ac73e",
+    "local_pdf_read_allowlist_v004": "a0276044ac865f250494ede41cfe5909bcb374fd8c21fe6128b0607b94213021",
+    "local_pdf_content_assessment_v004": "971f5ad8db475163d94422e0033d66c5f86fdabfc5f36b81b5fd28f3d724582b",
+    "search_aliases_v004": "285a5562b59513a4d49517172d3effe44509cad54d0ff4f7b946176d0c6e63c9",
+    "search_alias_additions_v002": "32b1e8c64e3210a413266421f4b6f924c6733c7e4cc133f68dea897f2139f3ae",
+    "local_pdf_sync_verification_v004": "5f13f66d89c200f9bbf17ece96b179365ee63b80d9ea8543093329a43e245147",
+    "bookmark_routing_v002": "9d0e586c2ca30664e6229651cce1091ab5c9167a9820605db35e24f9db097e84",
+    "random_audit_recovery": "82c9e8b90b8150023fa9ca2e59fafac58b032d740cc1ad31d877eef55dc9623d",
+    "blind_test_answers": "8e540556ea6f44ed94594a89f8b97d31c9aa461b1be8773338c248b17ded20b0"
+  },
+  "remaining_blockers": [
+    "The 191 remaining bookmarks require logged-in platform context, manual legality/privacy decisions, or explicit source review; none is authorized for blind anonymous capture.",
+    "Other computers, phones, browser profiles, platform accounts, and personal directories cannot be registered or frozen until the user provides or unlocks them.",
+    "Four batch-003 hosts currently resolve to the non-public 198.18.0.0/15 range, so the public-only capture boundary records them as blocked.",
+    "The project must not be labeled full-device or full-account complete while these access blockers remain."
+  ],
+  "preservation_statement": "No accepted source package, browser record, bookmark, or original local file was deleted, truncated, silently overwritten, or moved by this implementation."
+}

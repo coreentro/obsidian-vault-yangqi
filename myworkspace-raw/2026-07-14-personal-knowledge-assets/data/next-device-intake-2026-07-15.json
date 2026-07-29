@@ -1,0 +1,33 @@
+{
+  "purpose": "Resume full-device discovery without rescanning or modifying the completed current-Mac baseline.",
+  "required_user_action": "Provide and unlock the next actual device, then keep it available while the read-only inventory is frozen.",
+  "accepted_next_device_types": [
+    "windows",
+    "macos",
+    "iphone-or-ipad",
+    "android"
+  ],
+  "intake_fields": [
+    "device name",
+    "operating system",
+    "browser profiles",
+    "personal content directories",
+    "logged-in platform accounts",
+    "sync services",
+    "directories or accounts explicitly excluded by the user"
+  ],
+  "execution_order": [
+    "register device boundary",
+    "freeze read-only local and browser inventories",
+    "deduplicate accounts already captured on the current Mac",
+    "seed only device-unique candidates",
+    "reconcile scanned equals included plus excluded plus blocked",
+    "route strong signals to evidence capture and weak signals to review",
+    "sync versioned indexes after checksum verification"
+  ],
+  "preservation_guarantees": [
+    "No original file, bookmark, platform collection, or browser database will be moved, deleted, or edited.",
+    "An inaccessible device or account remains blocked and is never reported as complete.",
+    "Duplicate content retains every source context and is linked rather than deleted."
+  ]
+}

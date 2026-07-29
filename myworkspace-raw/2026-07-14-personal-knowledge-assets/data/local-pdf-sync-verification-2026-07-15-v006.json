@@ -1,0 +1,37 @@
+{
+  "schema_version": "sync-verification-v006",
+  "generated_at": "2026-07-15T20:31:07.456525+08:00",
+  "batch": "local-pdf-capture-batch-006-2026-07-15",
+  "google_drive": {
+    "packages": [
+      {
+        "asset_id": "asset-d0fbb4ec6d86fe872fcb7549",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-b725325201a00d6720efb86b",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      }
+    ],
+    "all_package_hashes_match": true
+  },
+  "feishu": {
+    "folder": "01-indexes",
+    "uploaded_artifact_tokens": {
+      "allowlist": "Q8pDbiJJJoCc68xyTgrc6I6Hn4d",
+      "assessment": "A9SzbQYYgoDpInxU1kYccudJnpg",
+      "batch": "PiCBbJ3gIondhix7qd8cmhkZnvc",
+      "replay": "R5P9bmvRNoI4NYx3cvQcA8fSnEh",
+      "search_index": "EwbAbOKCOo1pSPxkuX1cmftvnth",
+      "ledger": "HgirbleleoJak0xAq8KcysRinBe",
+      "index_verification": "MrXkbnyQlo6IrbxhrsFcnBoenih"
+    },
+    "assets_table_rows_added": 2,
+    "review_queue_rows_added": 2
+  },
+  "no_overwrite": true
+}

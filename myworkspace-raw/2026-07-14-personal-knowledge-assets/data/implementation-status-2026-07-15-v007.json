@@ -1,0 +1,63 @@
+{
+  "schema_version": "status-v007",
+  "generated_at": "2026-07-15T20:31:07.456525+08:00",
+  "supersedes": "implementation-status-2026-07-15-v006.json",
+  "project_status": "active-with-explicit-access-blockers",
+  "local_control_plane": {
+    "devices": 1,
+    "sources": 13,
+    "candidates": 43176,
+    "assets": 78,
+    "review_queue": 41539,
+    "question_answers": 10
+  },
+  "asset_completeness": {
+    "blocked": 13,
+    "complete": 55,
+    "limited": 10
+  },
+  "search_index": {
+    "documents": 57,
+    "base_aliases": 30,
+    "append_only_aliases": 15
+  },
+  "batch006": {
+    "assets": [
+      "asset-d0fbb4ec6d86fe872fcb7549",
+      "asset-b725325201a00d6720efb86b"
+    ],
+    "drive_package_checks": [
+      {
+        "asset_id": "asset-d0fbb4ec6d86fe872fcb7549",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-b725325201a00d6720efb86b",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      }
+    ],
+    "drive_all_package_hashes_match": true,
+    "feishu_uploaded_artifacts": {
+      "allowlist": "Q8pDbiJJJoCc68xyTgrc6I6Hn4d",
+      "assessment": "A9SzbQYYgoDpInxU1kYccudJnpg",
+      "batch": "PiCBbJ3gIondhix7qd8cmhkZnvc",
+      "replay": "R5P9bmvRNoI4NYx3cvQcA8fSnEh",
+      "search_index": "EwbAbOKCOo1pSPxkuX1cmftvnth",
+      "ledger": "HgirbleleoJak0xAq8KcysRinBe",
+      "index_verification": "MrXkbnyQlo6IrbxhrsFcnBoenih"
+    },
+    "feishu_asset_rows_added": 2,
+    "feishu_review_rows_added": 2
+  },
+  "remaining_blockers": [
+    "191 bookmarks still need logged-in/manual decisions",
+    "Other devices/accounts/directories still require user-visible access",
+    "Four batch-003 hosts remain blocked by public-network boundary",
+    "35,238 local-file candidates remain metadata-only pending safe review"
+  ],
+  "preservation_statement": "Batch 006 added two PDF packages; all prior snapshots remain unchanged and no source file was deleted, moved, truncated, or overwritten."
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-eab42840a8ce3d43baaf6d05",
+  "candidate_id": "chrome-profile-1-bookmarks:item:00000021",
+  "source_id": "chrome-profile-1-bookmarks",
+  "title": "写给未来的自己，一个充满情怀的网站 -- 时光邮局 | Jack‘s Space",
+  "original_url": "https://veryjack.com/technique/mail-to-time/",
+  "requested_url": "https://veryjack.com/technique/mail-to-time/",
+  "final_url": "https://veryjack.com/technique/mail-to-time/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:44.091371+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 146493,
+  "body_sha256": "573f7c7f059d50cb7d9d6432cc9822aeb574d8062daed2e3e8662fad1da9ce74"
+}

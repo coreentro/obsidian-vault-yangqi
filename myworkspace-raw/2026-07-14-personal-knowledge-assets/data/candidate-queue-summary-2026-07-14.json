@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-14T11:00:00+08:00",
+  "purpose": "可审计候选队列摘要；原始清单仍以 data/inventories/*.json 和 evidence manifests 为准。",
+  "candidate_total": 43176,
+  "decisions": [
+    {"decision": "blocked", "count": 36138},
+    {"decision": "excluded", "count": 747},
+    {"decision": "included", "count": 237},
+    {"decision": "review", "count": 6054}
+  ],
+  "source_reconciliation": {
+    "scanned_total": 43176,
+    "included_total": 237,
+    "excluded_total": 747,
+    "blocked_total": 42192,
+    "delta": 0
+  },
+  "sources": [
+    {"source_id": "chrome-default-bookmarks", "platform": "chrome", "collection_name": "bookmarks", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 96, "included_total": 96, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "chrome-default-history", "platform": "chrome", "collection_name": "history", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 132, "included_total": 0, "excluded_total": 7, "blocked_total": 125, "verification_status": "blocked"},
+    {"source_id": "chrome-guest-bookmarks", "platform": "chrome", "collection_name": "bookmarks", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 0, "included_total": 0, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "chrome-guest-history", "platform": "chrome", "collection_name": "history", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 0, "included_total": 0, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "chrome-profile-1-bookmarks", "platform": "chrome", "collection_name": "bookmarks", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 25, "included_total": 25, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "chrome-profile-1-history", "platform": "chrome", "collection_name": "history", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 37, "included_total": 0, "excluded_total": 3, "blocked_total": 34, "verification_status": "blocked"},
+    {"source_id": "chrome-profile-2-bookmarks", "platform": "chrome", "collection_name": "bookmarks", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 50, "included_total": 50, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "chrome-profile-2-history", "platform": "chrome", "collection_name": "history", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 6231, "included_total": 0, "excluded_total": 714, "blocked_total": 5517, "verification_status": "blocked"},
+    {"source_id": "chrome-profile-3-bookmarks", "platform": "chrome", "collection_name": "bookmarks", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 6, "included_total": 6, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "chrome-profile-3-history", "platform": "chrome", "collection_name": "history", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 15, "included_total": 0, "excluded_total": 2, "blocked_total": 13, "verification_status": "blocked"},
+    {"source_id": "edge-default-bookmarks", "platform": "edge", "collection_name": "bookmarks", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 60, "included_total": 60, "excluded_total": 0, "blocked_total": 0, "verification_status": "verified"},
+    {"source_id": "edge-default-history", "platform": "edge", "collection_name": "history", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 386, "included_total": 0, "excluded_total": 21, "blocked_total": 365, "verification_status": "blocked"},
+    {"source_id": "mac-current-local", "platform": "local-files", "collection_name": "personal-roots", "baseline_at": "2026-07-14T10:17:47+08:00", "scanned_total": 36138, "included_total": 0, "excluded_total": 0, "blocked_total": 36138, "verification_status": "blocked"}
+  ]
+}

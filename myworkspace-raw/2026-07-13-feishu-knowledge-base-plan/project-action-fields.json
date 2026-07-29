@@ -1,0 +1,11 @@
+[
+  {"type":"text","name":"行动名称","description":"能够被完成或验证的具体行动"},
+  {"type":"select","name":"状态","multiple":false,"options":[{"name":"待办","hue":"Blue"},{"name":"进行中","hue":"Yellow"},{"name":"等待","hue":"Gray"},{"name":"完成","hue":"Green"},{"name":"取消","hue":"Red"}]},
+  {"type":"select","name":"优先级","multiple":false,"options":[{"name":"P0","hue":"Red"},{"name":"P1","hue":"Orange"},{"name":"P2","hue":"Blue"},{"name":"P3","hue":"Gray"}]},
+  {"type":"datetime","name":"截止日期","style":{"format":"yyyy-MM-dd"}},
+  {"type":"link","name":"所属主题","link_table":"主题地图","bidirectional":true,"bidirectional_link_field_name":"关联行动"},
+  {"type":"text","name":"验证标准"},
+  {"type":"text","name":"复盘结果"},
+  {"type":"created_at","name":"创建时间","style":{"format":"yyyy-MM-dd HH:mm"}},
+  {"type":"updated_at","name":"更新时间","style":{"format":"yyyy-MM-dd HH:mm"}}
+]

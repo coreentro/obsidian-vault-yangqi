@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T20:21:00+08:00",
+  "policy": "Aliases are additive retrieval metadata. They never replace or rewrite source text, titles, evidence packages, or prior index records.",
+  "items": [
+    {"asset_id": "asset-4aa881d09db219e0cd886bb6", "aliases": ["green chemistry of chalcones", "chalcone drug discovery", "green organic synthesis", "查尔酮绿色合成", "药物发现优势骨架"]},
+    {"asset_id": "asset-5cb1e04f3a38c571dbf2be3d", "aliases": ["solar hydrogen production", "photocatalytic hydrogen", "thermochemical water splitting", "太阳能制氢技术", "光催化制氢路线"]},
+    {"asset_id": "asset-95191c77b81506cc30141d85", "aliases": ["text AIGC tutorial", "prompt engineering practice", "AI document analysis", "文本生成式人工智能实验", "提示词设计教程"]},
+    {"asset_id": "asset-4e90929cea233faf04959aaa", "aliases": ["bio-derived ZnO nanoflower", "ZnO catalyzed chalcone synthesis", "Claisen Schmidt condensation", "氧化锌纳米花催化剂", "查尔酮微波合成"]},
+    {"asset_id": "asset-5ef1ee75c15e6bffb2c9b908", "aliases": ["Becoming a Marxist in Philosophy", "Louis Althusser philosophy", "Marxist philosophical practice", "阿尔都塞哲学文集", "马克思主义哲学实践"]}
+  ]
+}

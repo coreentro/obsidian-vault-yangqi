@@ -1,0 +1,1048 @@
+diff --git a/hermes_cli/config.py b/hermes_cli/config.py
+index ee0bbf9d68..4d72d045d0 100644
+--- a/hermes_cli/config.py
++++ b/hermes_cli/config.py
+@@ -3668,6 +3668,12 @@ DEFAULT_CONFIG = {
+         #   false   - always keep GPU acceleration on, even over a remote display.
+         # Bridged to the HERMES_DESKTOP_DISABLE_GPU env var the Electron app reads.
+         "disable_gpu": "auto",
++        # Optional persistent Keychain code-signing identity used for locally
++        # rebuilt macOS apps. A certificate-based Designated Requirement stays
++        # stable across rebuilds, so TCC grants such as Full Disk Access and
++        # Accessibility do not reset with every update. Empty keeps the
++        # historical ad-hoc signing fallback. Prefer the identity fingerprint.
++        "macos_signing_identity": "",
+         # Auto-continue a turn that was killed mid-run by an app/backend/machine
+         # crash: resuming that session re-submits the interrupted prompt (shown
+         # as a "resumed interrupted turn" event) if the interruption is fresh.
+diff --git a/hermes_cli/main.py b/hermes_cli/main.py
+index be6b7fce04..1bedabae3c 100644
+--- a/hermes_cli/main.py
++++ b/hermes_cli/main.py
+@@ -6145,8 +6145,41 @@ def _stop_desktop_processes_locking_build(desktop_dir: Path) -> list[int]:
+     return stopped
+ 
+ 
+-def _desktop_macos_relaunchable_fixup(desktop_dir: Path) -> None:
+-    """Make a locally-built (unsigned) macOS desktop app survive in-place self-update.
++def _desktop_macos_local_signing_identity() -> str | None:
++    """Return the opt-in identity used to keep local macOS TCC grants stable."""
++    if sys.platform != "darwin":
++        return None
++    from hermes_cli.config import load_config
++
++    config = load_config()
++    desktop = config.get("desktop", {})
++    if not isinstance(desktop, dict):
++        return None
++    identity = desktop.get("macos_signing_identity")
++    if not isinstance(identity, str):
++        return None
++    identity = identity.strip()
++    return identity or None
++
++
++def _desktop_macos_signing_identity_or_adhoc() -> str:
++    """Resolve local signing policy without masking an unreadable config."""
++    try:
++        return _desktop_macos_local_signing_identity() or "-"
++    except Exception as exc:
++        print(
++            "  (warning: could not load desktop.macos_signing_identity: "
++            f"{exc}; refusing to fall back to ad-hoc signing)"
++        )
++        raise
++
++
++def _desktop_macos_relaunchable_fixup(
++    desktop_dir: Path,
++    *,
++    publisher_signing_configured: bool | None = None,
++) -> bool:
++    """Make a locally-built macOS desktop app survive in-place self-update.
+ 
+     An ad-hoc-signed .app has no stable Designated Requirement (no Team ID), so
+     when the self-updater rebuilds the bundle in place with a fresh build (a new,
+@@ -6155,31 +6188,74 @@ def _desktop_macos_relaunchable_fixup(desktop_dir: Path) -> None:
+     bundle also inherits the com.apple.quarantine flag from the downloaded
+     installer process chain. Both make the relaunch fail.
+ 
+-    Clearing the quarantine xattrs and re-applying a clean deep ad-hoc signature
+-    (omitting the hardened-runtime flag, which is meaningless without a real
+-    Developer ID) lets the rebuilt app relaunch. No-op when a real signing
+-    identity is configured (CSC_LINK / APPLE_SIGNING_IDENTITY) so a properly
+-    signed/notarized build is never clobbered. Best-effort: never raises.
++    Clearing quarantine and re-applying a clean deep signature lets the rebuilt
++    app relaunch. By default that signature remains ad-hoc. Users who grant the
++    app TCC permissions such as Full Disk Access may set
++    ``desktop.macos_signing_identity`` to a persistent identity in their login
++    keychain; codesign then emits a certificate-based Designated Requirement
++    that survives future rebuilds instead of changing with every cdhash.
++
++    Publisher signing (CSC_LINK / APPLE_SIGNING_IDENTITY) still wins and is
++    never clobbered. Callers that already made the publisher-signing decision
++    for the build may pass it explicitly so later dotenv loading cannot change
++    the fixup policy. Returns whether no fixup was needed or signing and strict
++    verification succeeded. Best-effort: never raises.
+     """
+     if sys.platform != "darwin":
+-        return
+-    if os.environ.get("CSC_LINK") or os.environ.get("APPLE_SIGNING_IDENTITY"):
+-        return
++        return True
++    if publisher_signing_configured is None:
++        publisher_signing_configured = bool(
++            os.environ.get("CSC_LINK") or os.environ.get("APPLE_SIGNING_IDENTITY")
++        )
++    if publisher_signing_configured:
++        return True
+     exe = _desktop_packaged_executable(desktop_dir)
+     if exe is None:
+-        return
++        return False
+     # exe = .../Hermes.app/Contents/MacOS/Hermes  ->  app bundle = .../Hermes.app
+     app = exe.parents[2]
+     if not str(app).endswith(".app") or not app.is_dir():
+-        return
++        return False
+     codesign = shutil.which("codesign")
+     if not codesign:
+-        return
++        return False
+     try:
++        identity = _desktop_macos_signing_identity_or_adhoc()
+         subprocess.run(["xattr", "-cr", str(app)], check=False)
+-        subprocess.run([codesign, "--force", "--deep", "--sign", "-", str(app)], check=False)
++        command = [codesign, "--force", "--deep", "--sign", identity]
++        if identity != "-":
++            # Preserve electron-builder's entitlements and hardened-runtime
++            # flags while allowing codesign to derive a new stable requirement
++            # from the selected certificate.
++            command.extend([
++                "--timestamp=none",
++                "--preserve-metadata=entitlements,flags,runtime",
++            ])
++        command.append(str(app))
++        result = subprocess.run(command, check=False)
++        if result.returncode != 0:
++            if identity != "-":
++                print(
++                    "  (warning: configured macOS signing identity failed: "
++                    f"{identity!r}; Full Disk Access may need to be granted again)"
++                )
++            else:
++                print("  (warning: macOS signing failed; app may not relaunch)")
++            return False
++        verification = subprocess.run(
++            [codesign, "--verify", "--deep", "--strict", str(app)],
++            check=False,
++        )
++        if verification.returncode != 0:
++            print(
++                "  (warning: macOS signature verification failed; "
++                "app may not relaunch)"
++            )
++            return False
++        return True
+     except Exception as exc:
+         print(f"  (warning: macOS relaunch fixup skipped: {exc})")
++        return False
+ 
+ 
+ def _force_adhoc_macos_signing(env: dict, *, source_mode: bool) -> bool:
+@@ -6506,7 +6582,18 @@ def cmd_gui(args: argparse.Namespace):
+                 # Locally-built apps are ad-hoc signed; make them relaunchable after
+                 # an in-place self-update (otherwise macOS reports "Hermes is
+                 # damaged"). No-op on non-macOS and on real-identity builds.
+-                _desktop_macos_relaunchable_fixup(desktop_dir)
++                if not _desktop_macos_relaunchable_fixup(desktop_dir):
++                    # A failed codesign --force may have partially rewritten
++                    # the bundle. Invalidate any older matching stamp so the
++                    # next ordinary launch cannot skip the repair rebuild.
++                    try:
++                        _desktop_stamp_path().unlink()
++                    except OSError:
++                        pass
++                    print(
++                        "✗ Desktop macOS signature could not be applied and verified"
++                    )
++                    sys.exit(1)
+ 
+                 # Windows integrity gate (#69179): never declare the rebuild a
+                 # success on a Hermes.exe Windows cannot load (truncated PE from
+diff --git a/scripts/install.sh b/scripts/install.sh
+index 43755a59a7..38cad28699 100755
+--- a/scripts/install.sh
++++ b/scripts/install.sh
+@@ -2909,16 +2909,39 @@ install_desktop() {
+         fi
+     fi
+ 
+-    # macOS: make the locally-built (ad-hoc) app relaunchable after an in-place
+-    # self-update. An ad-hoc bundle has no stable Designated Requirement, so a
+-    # later in-place rebuild (new cdhash) plus the inherited quarantine flag
+-    # trips Gatekeeper's tamper check ("Hermes is damaged and can't be opened").
+-    # Strip quarantine + re-apply a clean deep ad-hoc signature (no
+-    # hardened-runtime flag, which an ad-hoc build can't satisfy). Skipped when a
+-    # real signing identity is configured so a signed build isn't clobbered.
++    # macOS: use the same config-aware signing fixup as `hermes desktop` so
++    # install/repair and self-update cannot disagree about the app's identity.
++    # The shell's publisher-signing decision governed the build and is passed
++    # explicitly so importing Python cannot reverse it by loading HERMES_HOME/.env.
++    # A helper failure is fatal: silently downgrading to ad-hoc signing would
++    # change the app's TCC identity and force the user to grant permissions again.
++    # The historical fallback is used only when the helper runtime is unavailable,
++    # and its result must pass strict verification before installation continues.
+     if [ "$OS" = "macos" ] && [ -z "${CSC_LINK:-}" ] && [ -z "${APPLE_SIGNING_IDENTITY:-}" ] && command -v codesign >/dev/null 2>&1; then
+-        xattr -cr "$app" 2>/dev/null || true
+-        codesign --force --deep --sign - "$app" >/dev/null 2>&1 || true
++        local config_python="$INSTALL_DIR/venv/bin/python"
++        if [ -x "$config_python" ]; then
++            if ! HERMES_HOME="$HERMES_HOME" "$config_python" -c '
++import sys
++from pathlib import Path
++from hermes_cli.main import _desktop_macos_relaunchable_fixup
++success = _desktop_macos_relaunchable_fixup(
++    Path(sys.argv[1]), publisher_signing_configured=False
++)
++sys.exit(0 if success else 1)
++' "$desktop_dir"; then
++                log_error "Config-aware macOS signing fixup failed; refusing to install an ad-hoc downgrade."
++                return 1
++            fi
++        else
++            xattr -cr "$app" 2>/dev/null || true
++            if ! codesign --force --deep --sign - \
++                    --preserve-metadata=entitlements,flags,runtime \
++                    "$app" >/dev/null 2>&1 ||
++               ! codesign --verify --deep --strict "$app" >/dev/null 2>&1; then
++                log_error "Historical macOS signing fallback failed strict verification."
++                return 1
++            fi
++        fi
+     fi
+ 
+     # `npm install` + `npm run pack` rewrite lockfiles; restore them so the
+diff --git a/tests/hermes_cli/test_gui_command.py b/tests/hermes_cli/test_gui_command.py
+index b5fd1ab8d3..66c743c5e8 100644
+--- a/tests/hermes_cli/test_gui_command.py
++++ b/tests/hermes_cli/test_gui_command.py
+@@ -3,6 +3,9 @@
+ from __future__ import annotations
+ 
+ import argparse
++import os
++import plistlib
++import re
+ import subprocess
+ import sys
+ from pathlib import Path
+@@ -390,6 +393,39 @@ def test_desktop_force_build_overrides_stamp(tmp_path, monkeypatch):
+     assert mock_run.call_count == 2
+ 
+ 
++def test_desktop_build_only_fails_closed_when_macos_signing_fails(
++    tmp_path, monkeypatch, capsys
++):
++    root = _make_desktop_tree(tmp_path)
++    monkeypatch.setattr(cli_main, "PROJECT_ROOT", root)
++    _make_packaged_executable(root, monkeypatch)
++    stamp = tmp_path / "desktop-build-stamp.json"
++    stamp.write_text('{"contentHash": "still-matches"}\n', encoding="utf-8")
++
++    ok = subprocess.CompletedProcess([], 0)
++    with (
++        patch("hermes_cli.main.shutil.which", return_value="/usr/bin/npm"),
++        patch(
++            "hermes_cli.main._run_npm_install_deterministic", return_value=ok
++        ),
++        patch("hermes_cli.main._desktop_build_needed", return_value=False),
++        patch("hermes_cli.main._desktop_stamp_path", return_value=stamp),
++        patch(
++            "hermes_cli.main._desktop_macos_relaunchable_fixup",
++            return_value=False,
++        ),
++        patch("hermes_cli.main._write_desktop_build_stamp") as write_stamp,
++        patch("hermes_cli.main.subprocess.run", return_value=ok),
++        pytest.raises(SystemExit) as exc,
++    ):
++        cli_main.cmd_gui(_ns(build_only=True, force_build=True))
++
++    assert exc.value.code == 1
++    write_stamp.assert_not_called()
++    assert not stamp.exists()
++    assert "signature" in capsys.readouterr().out.lower()
++
++
+ def test_compute_desktop_content_hash_stable(tmp_path, monkeypatch):
+     """_compute_desktop_content_hash returns the same digest for identical trees."""
+     root = _make_desktop_tree(tmp_path)
+@@ -1054,6 +1090,318 @@ def test_force_adhoc_signing_respects_explicit_caller_flag(monkeypatch):
+     assert env["CSC_IDENTITY_AUTO_DISCOVERY"] == "true"
+ 
+ 
++def test_desktop_macos_local_signing_identity_reads_config(monkeypatch):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    config = {"desktop": {"macos_signing_identity": "  Hermes Local  "}}
++    with patch("hermes_cli.config.load_config", return_value=config):
++        assert cli_main._desktop_macos_local_signing_identity() == "Hermes Local"
++
++
++@pytest.mark.parametrize(
++    "platform,config",
++    [
++        ("linux", {"desktop": {"macos_signing_identity": "Hermes Local"}}),
++        ("darwin", {}),
++        ("darwin", {"desktop": {"macos_signing_identity": "  "}}),
++        ("darwin", {"desktop": {"macos_signing_identity": True}}),
++    ],
++)
++def test_desktop_macos_local_signing_identity_ignores_unusable_values(
++    monkeypatch, platform, config
++):
++    monkeypatch.setattr(cli_main.sys, "platform", platform)
++    with patch("hermes_cli.config.load_config", return_value=config):
++        assert cli_main._desktop_macos_local_signing_identity() is None
++
++
++def test_desktop_macos_fixup_uses_configured_stable_identity(monkeypatch, tmp_path):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.delenv("CSC_LINK", raising=False)
++    monkeypatch.delenv("APPLE_SIGNING_IDENTITY", raising=False)
++    app = tmp_path / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++    completed = subprocess.CompletedProcess([], 0)
++
++    with patch("hermes_cli.main._desktop_packaged_executable", return_value=executable), \
++         patch("hermes_cli.main._desktop_macos_local_signing_identity", return_value="Hermes Local"), \
++         patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"), \
++         patch("hermes_cli.main.subprocess.run", return_value=completed) as mock_run:
++        result = cli_main._desktop_macos_relaunchable_fixup(tmp_path)
++
++    assert result is True
++    assert mock_run.call_args_list[1].args[0] == [
++        "/usr/bin/codesign",
++        "--force",
++        "--deep",
++        "--sign",
++        "Hermes Local",
++        "--timestamp=none",
++        "--preserve-metadata=entitlements,flags,runtime",
++        str(app),
++    ]
++    assert mock_run.call_args_list[2].args[0] == [
++        "/usr/bin/codesign", "--verify", "--deep", "--strict", str(app)
++    ]
++
++
++def test_desktop_macos_fixup_defaults_to_adhoc_signature(monkeypatch, tmp_path):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.delenv("CSC_LINK", raising=False)
++    monkeypatch.delenv("APPLE_SIGNING_IDENTITY", raising=False)
++    app = tmp_path / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++    completed = subprocess.CompletedProcess([], 0)
++
++    with patch("hermes_cli.main._desktop_packaged_executable", return_value=executable), \
++         patch("hermes_cli.main._desktop_macos_local_signing_identity", return_value=None), \
++         patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"), \
++         patch("hermes_cli.main.subprocess.run", return_value=completed) as mock_run:
++        result = cli_main._desktop_macos_relaunchable_fixup(tmp_path)
++
++    assert result is True
++    assert mock_run.call_args_list[1].args[0] == [
++        "/usr/bin/codesign", "--force", "--deep", "--sign", "-", str(app)
++    ]
++    assert mock_run.call_args_list[2].args[0] == [
++        "/usr/bin/codesign", "--verify", "--deep", "--strict", str(app)
++    ]
++
++
++@pytest.mark.parametrize("key", ["CSC_LINK", "APPLE_SIGNING_IDENTITY"])
++def test_desktop_macos_fixup_honors_authoritative_no_publisher_decision(
++    monkeypatch, tmp_path, key
++):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.setenv(key, "loaded-later-from-dotenv")
++    app = tmp_path / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++    completed = subprocess.CompletedProcess([], 0)
++
++    with patch("hermes_cli.main._desktop_packaged_executable", return_value=executable), \
++         patch("hermes_cli.main._desktop_macos_local_signing_identity", return_value=None), \
++         patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"), \
++         patch("hermes_cli.main.subprocess.run", return_value=completed) as mock_run:
++        result = cli_main._desktop_macos_relaunchable_fixup(
++            tmp_path, publisher_signing_configured=False
++        )
++
++    assert result is True
++    assert mock_run.call_args_list[1].args[0] == [
++        "/usr/bin/codesign", "--force", "--deep", "--sign", "-", str(app)
++    ]
++
++
++def test_desktop_macos_fixup_reports_sign_failure(monkeypatch, tmp_path, capsys):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.delenv("CSC_LINK", raising=False)
++    monkeypatch.delenv("APPLE_SIGNING_IDENTITY", raising=False)
++    app = tmp_path / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++    succeeded = subprocess.CompletedProcess([], 0)
++    failed = subprocess.CompletedProcess([], 1)
++
++    with patch("hermes_cli.main._desktop_packaged_executable", return_value=executable), \
++         patch("hermes_cli.main._desktop_macos_local_signing_identity", return_value=None), \
++         patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"), \
++         patch("hermes_cli.main.subprocess.run", side_effect=[succeeded, failed]) as mock_run:
++        result = cli_main._desktop_macos_relaunchable_fixup(tmp_path)
++
++    assert result is False
++    assert len(mock_run.call_args_list) == 2
++    assert "macOS signing failed" in capsys.readouterr().out
++
++
++def test_desktop_macos_fixup_strictly_verifies_signature(monkeypatch, tmp_path, capsys):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.delenv("CSC_LINK", raising=False)
++    monkeypatch.delenv("APPLE_SIGNING_IDENTITY", raising=False)
++    app = tmp_path / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++    succeeded = subprocess.CompletedProcess([], 0)
++    failed = subprocess.CompletedProcess([], 1)
++
++    with patch("hermes_cli.main._desktop_packaged_executable", return_value=executable), \
++         patch("hermes_cli.main._desktop_macos_local_signing_identity", return_value=None), \
++         patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"), \
++         patch(
++             "hermes_cli.main.subprocess.run",
++             side_effect=[succeeded, succeeded, failed],
++         ) as mock_run:
++        result = cli_main._desktop_macos_relaunchable_fixup(tmp_path)
++
++    assert result is False
++    assert mock_run.call_args_list[2].args[0] == [
++        "/usr/bin/codesign", "--verify", "--deep", "--strict", str(app)
++    ]
++    assert "macOS signature verification failed" in capsys.readouterr().out
++
++
++def test_desktop_macos_signing_config_error_fails_closed(
++    monkeypatch, tmp_path, capsys
++):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    app = tmp_path / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++
++    with (
++        patch(
++            "hermes_cli.main._desktop_packaged_executable",
++            return_value=executable,
++        ),
++        patch("hermes_cli.config.load_config", side_effect=OSError("unreadable")),
++        patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"),
++        patch("hermes_cli.main.subprocess.run") as run_command,
++    ):
++        assert cli_main._desktop_macos_relaunchable_fixup(tmp_path) is False
++
++    run_command.assert_not_called()
++    output = capsys.readouterr().out
++    assert "could not load desktop.macos_signing_identity" in output
++    assert "unreadable" in output
++
++
++@pytest.mark.parametrize("key", ["CSC_LINK", "APPLE_SIGNING_IDENTITY"])
++def test_desktop_macos_fixup_never_clobbers_publisher_signing(
++    monkeypatch, tmp_path, key
++):
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.setenv(key, "publisher-signing-configured")
++    with patch("hermes_cli.main._desktop_packaged_executable") as mock_executable, \
++         patch("hermes_cli.main.subprocess.run") as mock_run:
++        result = cli_main._desktop_macos_relaunchable_fixup(tmp_path)
++    assert result is True
++    mock_executable.assert_not_called()
++    mock_run.assert_not_called()
++
++
++@pytest.mark.skipif(sys.platform != "darwin", reason="requires macOS codesign")
++def test_desktop_macos_stable_signing_real_config_and_codesign(monkeypatch, tmp_path):
++    identity = os.environ.get("HERMES_TEST_CODESIGN_IDENTITY")
++    if not identity:
++        pytest.skip("set HERMES_TEST_CODESIGN_IDENTITY to run the real signing test")
++    assert identity is not None
++
++    hermes_home = tmp_path / "hermes-home"
++    desktop_dir = tmp_path / "desktop"
++    app = desktop_dir / "release" / "mac-arm64" / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    source = tmp_path / "main.c"
++    clang = Path("/usr/bin/clang")
++    if not clang.exists():
++        pytest.skip("requires clang to build a disposable Mach-O executable")
++    with (app / "Contents" / "Info.plist").open("wb") as handle:
++        plistlib.dump(
++            {
++                "CFBundleIdentifier": "com.nousresearch.hermes.integration-test",
++                "CFBundleExecutable": "Hermes",
++            },
++            handle,
++        )
++    entitlements = tmp_path / "entitlements.plist"
++    with entitlements.open("wb") as handle:
++        plistlib.dump({"com.apple.security.cs.allow-jit": True}, handle)
++
++    monkeypatch.setenv("HERMES_HOME", str(hermes_home))
++    monkeypatch.delenv("CSC_LINK", raising=False)
++    monkeypatch.delenv("APPLE_SIGNING_IDENTITY", raising=False)
++    repo_root = Path(__file__).resolve().parents[2]
++    subprocess.run(
++        [
++            sys.executable,
++            "-m",
++            "hermes_cli.main",
++            "config",
++            "set",
++            "desktop.macos_signing_identity",
++            identity,
++        ],
++        cwd=repo_root,
++        env={**os.environ, "HERMES_HOME": str(hermes_home)},
++        check=True,
++        capture_output=True,
++        text=True,
++    )
++
++    requirements = []
++    cdhashes = []
++    for return_code in (0, 1):
++        source.write_text(f"int main(void) {{ return {return_code}; }}\n")
++        subprocess.run(
++            [str(clang), str(source), "-o", str(executable)],
++            check=True,
++            capture_output=True,
++            text=True,
++        )
++        subprocess.run(
++            [
++                "/usr/bin/codesign",
++                "--force",
++                "--sign",
++                "-",
++                "--options",
++                "runtime",
++                "--entitlements",
++                str(entitlements),
++                str(app),
++            ],
++            check=True,
++            capture_output=True,
++            text=True,
++        )
++        cli_main._desktop_macos_relaunchable_fixup(desktop_dir)
++        subprocess.run(
++            ["/usr/bin/codesign", "--verify", "--deep", "--strict", str(app)],
++            check=True,
++            capture_output=True,
++            text=True,
++        )
++        requirement_result = subprocess.run(
++            ["/usr/bin/codesign", "-dr", "-", str(app)],
++            check=True,
++            capture_output=True,
++            text=True,
++        )
++        requirement = requirement_result.stdout + requirement_result.stderr
++        entitlements_result = subprocess.run(
++            ["/usr/bin/codesign", "-d", "--entitlements", ":-", str(app)],
++            check=True,
++            capture_output=True,
++        )
++        entitlements_output = entitlements_result.stdout + entitlements_result.stderr
++        assert b"com.apple.security.cs.allow-jit" in entitlements_output
++        details_result = subprocess.run(
++            ["/usr/bin/codesign", "-dvvv", str(app)],
++            check=True,
++            capture_output=True,
++            text=True,
++        )
++        details = details_result.stdout + details_result.stderr
++        cdhash_match = re.search(r"^CDHash=([0-9a-f]+)$", details, re.MULTILINE)
++        assert cdhash_match is not None
++        assert "runtime" in details
++        requirements.append(requirement)
++        cdhashes.append(cdhash_match.group(1))
++
++    assert requirements[0] == requirements[1]
++    assert 'identifier "com.nousresearch.hermes.integration-test"' in requirements[0]
++    assert re.search(r"certificate (?:leaf|root)", requirements[0])
++    assert "cdhash" not in requirements[0].lower()
++    assert cdhashes[0] != cdhashes[1]
++
++
+ # --- desktop.* launch options (config.yaml) -------------------------------
+ 
+ 
+diff --git a/tests/hermes_cli/test_macos_persistent_signing.py b/tests/hermes_cli/test_macos_persistent_signing.py
+new file mode 100644
+index 0000000000..546108a31a
+--- /dev/null
++++ b/tests/hermes_cli/test_macos_persistent_signing.py
+@@ -0,0 +1,61 @@
++from __future__ import annotations
++
++import subprocess
++from unittest.mock import patch
++
++from hermes_cli import main as cli_main
++
++
++def test_local_rebuild_signs_and_verifies_with_configured_identity(
++    monkeypatch, tmp_path
++):
++    """Catch regressions that make a rebuilt app lose its stable TCC identity."""
++    identity = "0123456789ABCDEF0123456789ABCDEF01234567"
++    monkeypatch.setattr(cli_main.sys, "platform", "darwin")
++    monkeypatch.delenv("CSC_LINK", raising=False)
++    monkeypatch.delenv("APPLE_SIGNING_IDENTITY", raising=False)
++
++    desktop_dir = tmp_path / "desktop"
++    executable = (
++        desktop_dir
++        / "release"
++        / "mac-arm64"
++        / "Hermes.app"
++        / "Contents"
++        / "MacOS"
++        / "Hermes"
++    )
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++    completed = subprocess.CompletedProcess([], 0)
++
++    with (
++        patch(
++            "hermes_cli.config.load_config",
++            return_value={"desktop": {"macos_signing_identity": identity}},
++        ),
++        patch("hermes_cli.main.shutil.which", return_value="/usr/bin/codesign"),
++        patch(
++            "hermes_cli.main.subprocess.run", return_value=completed
++        ) as run_command,
++    ):
++        result = cli_main._desktop_macos_relaunchable_fixup(desktop_dir)
++
++    assert run_command.call_args_list[1].args[0] == [
++        "/usr/bin/codesign",
++        "--force",
++        "--deep",
++        "--sign",
++        identity,
++        "--timestamp=none",
++        "--preserve-metadata=entitlements,flags,runtime",
++        str(executable.parents[2]),
++    ]
++    assert run_command.call_args_list[2].args[0] == [
++        "/usr/bin/codesign",
++        "--verify",
++        "--deep",
++        "--strict",
++        str(executable.parents[2]),
++    ]
++    assert result is True
+diff --git a/tests/hermes_cli/test_set_config_value.py b/tests/hermes_cli/test_set_config_value.py
+index 0e2cb6fd57..fa522b96c0 100644
+--- a/tests/hermes_cli/test_set_config_value.py
++++ b/tests/hermes_cli/test_set_config_value.py
+@@ -529,6 +529,18 @@ class TestSchemaValidation:
+         assert saved["approvals"]["mode"] == "off"
+         assert "not a recognized config key" not in capsys.readouterr().out
+ 
++    def test_desktop_macos_signing_identity_is_accepted(
++        self, _isolated_hermes_home, capsys
++    ):
++        """The documented TCC identity setting must be part of the schema."""
++        fingerprint = "A" * 40
++        set_config_value("desktop.macos_signing_identity", fingerprint)
++        import yaml
++
++        saved = yaml.safe_load(_read_config(_isolated_hermes_home))
++        assert saved["desktop"]["macos_signing_identity"] == fingerprint
++        assert "not a recognized config key" not in capsys.readouterr().out
++
+     def test_close_typo_suggests_correct_key(self, _isolated_hermes_home, capsys):
+         """Typo'd top-level keys should get a fuzzy-match suggestion."""
+         set_config_value("disco", "false")
+diff --git a/tests/test_install_sh_macos_signing_fallback.py b/tests/test_install_sh_macos_signing_fallback.py
+new file mode 100644
+index 0000000000..da69ec5019
+--- /dev/null
++++ b/tests/test_install_sh_macos_signing_fallback.py
+@@ -0,0 +1,308 @@
++"""Regression coverage for the macOS desktop signing fallback in install.sh."""
++
++from __future__ import annotations
++
++import os
++import plistlib
++import re
++import subprocess
++import sys
++from pathlib import Path
++
++import pytest
++
++
++REPO_ROOT = Path(__file__).resolve().parent.parent
++INSTALL_SH = REPO_ROOT / "scripts" / "install.sh"
++
++
++def _extract_macos_signing_block() -> str:
++    text = INSTALL_SH.read_text()
++    match = re.search(
++        r'    # macOS: use the same config-aware signing fixup.*?^    fi\n',
++        text,
++        re.DOTALL | re.MULTILINE,
++    )
++    assert match is not None, "macOS signing block not found"
++    return match.group(0)
++
++
++def _write_executable(path: Path, content: str) -> None:
++    path.write_text(content)
++    path.chmod(0o755)
++
++
++def test_executable_python_failure_stops_without_adhoc_downgrade(
++    tmp_path: Path, monkeypatch
++) -> None:
++    monkeypatch.setenv("CSC_LINK", "inherited-publisher-config")
++    monkeypatch.setenv("APPLE_SIGNING_IDENTITY", "inherited-publisher-identity")
++    install_dir = tmp_path / "hermes-agent"
++    python = install_dir / "venv" / "bin" / "python"
++    python.parent.mkdir(parents=True)
++    _write_executable(python, "#!/bin/sh\nexit 42\n")
++
++    desktop_dir = install_dir / "apps" / "desktop"
++    app = desktop_dir / "release" / "mac-arm64" / "Hermes.app"
++    app.mkdir(parents=True)
++
++    fake_bin = tmp_path / "bin"
++    fake_bin.mkdir()
++    calls = tmp_path / "calls.log"
++    for command in ("xattr", "codesign"):
++        _write_executable(
++            fake_bin / command,
++            f'#!/bin/sh\nprintf "%s\\n" "{command} $*" >> "$CALLS"\n',
++        )
++
++    script = f"""
++set -e
++log_warn() {{ printf 'WARN: %s\\n' "$*"; }}
++log_error() {{ printf 'ERROR: %s\\n' "$*"; }}
++run_signing_block() {{
++{_extract_macos_signing_block()}
++}}
++run_signing_block
++"""
++    env = {
++        **os.environ,
++        "PATH": f"{fake_bin}:/usr/bin:/bin",
++        "CALLS": str(calls),
++        "OS": "macos",
++        "INSTALL_DIR": str(install_dir),
++        "HERMES_HOME": str(tmp_path / "home"),
++        "desktop_dir": str(desktop_dir),
++        "app": str(app),
++    }
++    env.pop("CSC_LINK", None)
++    env.pop("APPLE_SIGNING_IDENTITY", None)
++    result = subprocess.run(
++        ["bash", "-c", script],
++        env=env,
++        capture_output=True,
++        text=True,
++    )
++
++    assert result.returncode != 0
++    assert "config-aware macos signing fixup failed" in result.stdout.lower()
++    assert not calls.exists() or calls.read_text() == ""
++
++
++def test_missing_python_uses_strictly_verified_historical_fallback(
++    tmp_path: Path,
++) -> None:
++    install_dir = tmp_path / "hermes-agent"
++    desktop_dir = install_dir / "apps" / "desktop"
++    app = desktop_dir / "release" / "mac-arm64" / "Hermes.app"
++    app.mkdir(parents=True)
++
++    fake_bin = tmp_path / "bin"
++    fake_bin.mkdir()
++    calls = tmp_path / "calls.log"
++    for command in ("xattr", "codesign"):
++        _write_executable(
++            fake_bin / command,
++            f'#!/bin/sh\nprintf "%s\\n" "{command} $*" >> "$CALLS"\n',
++        )
++
++    script = f"""
++set -e
++log_warn() {{ printf 'WARN: %s\\n' "$*"; }}
++log_error() {{ printf 'ERROR: %s\\n' "$*"; }}
++run_signing_block() {{
++{_extract_macos_signing_block()}
++}}
++run_signing_block
++"""
++    env = {
++        **os.environ,
++        "PATH": f"{fake_bin}:/usr/bin:/bin",
++        "CALLS": str(calls),
++        "OS": "macos",
++        "INSTALL_DIR": str(install_dir),
++        "HERMES_HOME": str(tmp_path / "home"),
++        "desktop_dir": str(desktop_dir),
++        "app": str(app),
++    }
++    env.pop("CSC_LINK", None)
++    env.pop("APPLE_SIGNING_IDENTITY", None)
++    result = subprocess.run(
++        ["bash", "-c", script],
++        env=env,
++        capture_output=True,
++        text=True,
++    )
++
++    assert result.returncode == 0, result.stderr
++    assert calls.read_text().splitlines() == [
++        f"xattr -cr {app}",
++        (
++            "codesign --force --deep --sign - "
++            "--preserve-metadata=entitlements,flags,runtime "
++            f"{app}"
++        ),
++        f"codesign --verify --deep --strict {app}",
++    ]
++
++
++@pytest.mark.skipif(sys.platform != "darwin", reason="requires macOS codesign")
++def test_real_missing_python_fallback_preserves_runtime_and_entitlements(
++    tmp_path: Path,
++) -> None:
++    install_dir = tmp_path / "hermes-agent"
++    desktop_dir = install_dir / "apps" / "desktop"
++    app = desktop_dir / "release" / "mac-arm64" / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++
++    source = tmp_path / "main.c"
++    source.write_text("int main(void) { return 0; }\n")
++    subprocess.run(
++        ["/usr/bin/clang", str(source), "-o", str(executable)],
++        check=True,
++        capture_output=True,
++        text=True,
++    )
++    with (app / "Contents" / "Info.plist").open("wb") as handle:
++        plistlib.dump(
++            {
++                "CFBundleIdentifier": "com.nousresearch.hermes.fallback-test",
++                "CFBundleExecutable": "Hermes",
++            },
++            handle,
++        )
++    entitlements = tmp_path / "entitlements.plist"
++    with entitlements.open("wb") as handle:
++        plistlib.dump({"com.apple.security.cs.allow-jit": True}, handle)
++    subprocess.run(
++        [
++            "/usr/bin/codesign",
++            "--force",
++            "--sign",
++            "-",
++            "--options",
++            "runtime",
++            "--entitlements",
++            str(entitlements),
++            str(app),
++        ],
++        check=True,
++        capture_output=True,
++        text=True,
++    )
++
++    script = f"""
++set -e
++log_warn() {{ printf 'WARN: %s\\n' "$*"; }}
++log_error() {{ printf 'ERROR: %s\\n' "$*"; }}
++run_signing_block() {{
++{_extract_macos_signing_block()}
++}}
++run_signing_block
++"""
++    env = {
++        **os.environ,
++        "PATH": "/usr/bin:/bin",
++        "OS": "macos",
++        "INSTALL_DIR": str(install_dir),
++        "HERMES_HOME": str(tmp_path / "home"),
++        "desktop_dir": str(desktop_dir),
++        "app": str(app),
++    }
++    env.pop("CSC_LINK", None)
++    env.pop("APPLE_SIGNING_IDENTITY", None)
++    result = subprocess.run(
++        ["bash", "-c", script],
++        env=env,
++        capture_output=True,
++        text=True,
++    )
++    assert result.returncode == 0, result.stderr
++
++    subprocess.run(
++        ["/usr/bin/codesign", "--verify", "--deep", "--strict", str(app)],
++        check=True,
++        capture_output=True,
++        text=True,
++    )
++    details = subprocess.run(
++        ["/usr/bin/codesign", "-dvvv", str(app)],
++        check=True,
++        capture_output=True,
++        text=True,
++    )
++    assert "runtime" in details.stdout + details.stderr
++    entitlements_result = subprocess.run(
++        ["/usr/bin/codesign", "-d", "--entitlements", ":-", str(app)],
++        check=True,
++        capture_output=True,
++    )
++    assert b"com.apple.security.cs.allow-jit" in (
++        entitlements_result.stdout + entitlements_result.stderr
++    )
++
++
++def test_python_helper_keeps_shell_publisher_decision_after_dotenv_load(
++    tmp_path: Path,
++) -> None:
++    install_dir = tmp_path / "hermes-agent"
++    python = install_dir / "venv" / "bin" / "python"
++    python.parent.mkdir(parents=True)
++    _write_executable(python, '#!/bin/sh\nexec "$TEST_PYTHON" "$@"\n')
++
++    hermes_home = tmp_path / "home"
++    hermes_home.mkdir()
++    (hermes_home / ".env").write_text("CSC_LINK=dotenv-publisher-config\n")
++
++    desktop_dir = install_dir / "apps" / "desktop"
++    app = desktop_dir / "release" / "mac-arm64" / "Hermes.app"
++    executable = app / "Contents" / "MacOS" / "Hermes"
++    executable.parent.mkdir(parents=True)
++    executable.touch()
++
++    fake_bin = tmp_path / "bin"
++    fake_bin.mkdir()
++    calls = tmp_path / "calls.log"
++    for command in ("xattr", "codesign"):
++        _write_executable(
++            fake_bin / command,
++            f'#!/bin/sh\nprintf "%s\\n" "{command} $*" >> "$CALLS"\n',
++        )
++
++    script = f"""
++set -e
++log_warn() {{ printf 'WARN: %s\\n' "$*"; }}
++log_error() {{ printf 'ERROR: %s\\n' "$*"; }}
++run_signing_block() {{
++{_extract_macos_signing_block()}
++}}
++run_signing_block
++"""
++    env = {
++        **os.environ,
++        "PATH": f"{fake_bin}:/usr/bin:/bin",
++        "PYTHONPATH": str(REPO_ROOT),
++        "CALLS": str(calls),
++        "TEST_PYTHON": sys.executable,
++        "OS": "macos",
++        "INSTALL_DIR": str(install_dir),
++        "HERMES_HOME": str(hermes_home),
++        "desktop_dir": str(desktop_dir),
++        "app": str(app),
++    }
++    env.pop("CSC_LINK", None)
++    env.pop("APPLE_SIGNING_IDENTITY", None)
++    result = subprocess.run(
++        ["bash", "-c", script],
++        env=env,
++        capture_output=True,
++        text=True,
++    )
++
++    assert result.returncode == 0, result.stderr
++    assert "config-aware macos signing fixup failed" not in result.stdout.lower()
++    assert calls.read_text().splitlines() == [
++        f"xattr -cr {app}",
++        f"codesign --force --deep --sign - {app}",
++        f"codesign --verify --deep --strict {app}",
++    ]
+diff --git a/website/docs/user-guide/desktop.md b/website/docs/user-guide/desktop.md
+index 34ccf2a810..d6cec457f8 100644
+--- a/website/docs/user-guide/desktop.md
++++ b/website/docs/user-guide/desktop.md
+@@ -289,6 +289,41 @@ rm -f "$HOME/Library/Caches/electron"/electron-*.zip   # macOS
+ rm -f "$HOME/.cache/electron"/electron-*.zip            # Linux
+ ```
+ 
++### Keep macOS privacy permissions across local rebuilds
++
++Hermes normally ad-hoc signs a locally rebuilt desktop app. That is enough to
++launch it, but the signature's Designated Requirement changes whenever the app
++changes. macOS may therefore ask you to grant Full Disk Access, Accessibility,
++or other TCC permissions again after an update.
++
++To keep those grants stable, create a persistent **Code Signing** identity in
++your login keychain (Keychain Access → Certificate Assistant → Create a
++Certificate), then opt Hermes into that identity:
++
++```bash
++# Copy the 40-character fingerprint from this command:
++security find-identity -v -p codesigning
++hermes config set desktop.macos_signing_identity FC28EA62B943BB9653345007C2219287DCB912AC
++hermes desktop --force-build
++```
++
++Use the certificate fingerprint rather than its display name so another
++certificate with the same name cannot be selected accidentally. Hermes
++preserves electron-builder's entitlements and runtime flags while re-signing
++each local rebuild with that certificate. You should then grant the rebuilt
++Hermes app the desired privacy permissions one final time.
++
++Keep the certificate and its private key in the keychain: deleting or replacing
++them changes the app's identity and invalidates existing grants. Anyone who can
++use that private key can also sign a `com.nousresearch.hermes` build that macOS
++may recognize as the same Full Disk Access identity. Use a dedicated local
++certificate, do not export or share its private key, and keep this feature
++opt-in.
++
++Official release builds configured with `CSC_LINK` or
++`APPLE_SIGNING_IDENTITY` retain publisher signing and ignore this local
++setting.
++
+ ## Building from source
+ 
+ If you want to hack on the app itself, install workspace deps from the repo root once, then run the dev server from `apps/desktop`:

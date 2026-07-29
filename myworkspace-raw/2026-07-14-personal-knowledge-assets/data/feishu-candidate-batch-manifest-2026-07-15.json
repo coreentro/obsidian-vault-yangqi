@@ -1,0 +1,1954 @@
+{
+  "schema_version": 1,
+  "table_id": "tblGTlCcdRYdBTis",
+  "total_rows": 43176,
+  "batch_size": 200,
+  "batch_total": 216,
+  "batches": [
+    {
+      "batch": 1,
+      "file": "0001.json",
+      "row_start": 0,
+      "row_count": 200,
+      "first_candidate_id": "chrome-default-bookmarks:item:00000000",
+      "last_candidate_id": "chrome-default-history:item:00000103",
+      "sha256": "cd200c3efcbbf52061bcaff1d6972d10322169b342bddec583eea8670e30a163"
+    },
+    {
+      "batch": 2,
+      "file": "0002.json",
+      "row_start": 200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-default-history:item:00000104",
+      "last_candidate_id": "chrome-profile-2-history:item:00000059",
+      "sha256": "6a7ab3b5d0d60ffed04d4f9ca6f6ff846d4dfa2b884cb86a510fb09b6fbe2ddf"
+    },
+    {
+      "batch": 3,
+      "file": "0003.json",
+      "row_start": 400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00000060",
+      "last_candidate_id": "chrome-profile-2-history:item:00000259",
+      "sha256": "f65809825f3881ac75f2be544c4c33f78dd39b609be3d287f55beca25b574851"
+    },
+    {
+      "batch": 4,
+      "file": "0004.json",
+      "row_start": 600,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00000260",
+      "last_candidate_id": "chrome-profile-2-history:item:00000459",
+      "sha256": "652eb8ca77d05263e2278f52f556cd055b49abb17290bc7c65a31cb7db668265"
+    },
+    {
+      "batch": 5,
+      "file": "0005.json",
+      "row_start": 800,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00000460",
+      "last_candidate_id": "chrome-profile-2-history:item:00000659",
+      "sha256": "2728e19fdf9280a07de91f5d7c00223f0b27dbca2f64984d05f6f91ffd012e83"
+    },
+    {
+      "batch": 6,
+      "file": "0006.json",
+      "row_start": 1000,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00000660",
+      "last_candidate_id": "chrome-profile-2-history:item:00000859",
+      "sha256": "8d32d47b1bab1407d22c83e6512bf080de64df336c1b16a39e2dab1f7d352efd"
+    },
+    {
+      "batch": 7,
+      "file": "0007.json",
+      "row_start": 1200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00000860",
+      "last_candidate_id": "chrome-profile-2-history:item:00001059",
+      "sha256": "1a01a12e65fdee30655c21bcdd652c0bb9ebf69c13b04a81591238c728137050"
+    },
+    {
+      "batch": 8,
+      "file": "0008.json",
+      "row_start": 1400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00001060",
+      "last_candidate_id": "chrome-profile-2-history:item:00001259",
+      "sha256": "1eadb4d084480f11cf5fb52e8201c6a7cca1a95bb4c158480c7435d067bd4c25"
+    },
+    {
+      "batch": 9,
+      "file": "0009.json",
+      "row_start": 1600,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00001260",
+      "last_candidate_id": "chrome-profile-2-history:item:00001459",
+      "sha256": "686b0c626eb5ee1747c9b7b438fa0ffee335220d09e9d4e10a4d61dffcf52631"
+    },
+    {
+      "batch": 10,
+      "file": "0010.json",
+      "row_start": 1800,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00001460",
+      "last_candidate_id": "chrome-profile-2-history:item:00001659",
+      "sha256": "0265d30e2e7a6e0fd366527b316a21aad43614429d531aba6b73a3a8b4eef68b"
+    },
+    {
+      "batch": 11,
+      "file": "0011.json",
+      "row_start": 2000,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00001660",
+      "last_candidate_id": "chrome-profile-2-history:item:00001859",
+      "sha256": "b3b9c1db0528b4e88f719ae28cf59ed2a5675eb97336a3d2e61e27938b7f7a58"
+    },
+    {
+      "batch": 12,
+      "file": "0012.json",
+      "row_start": 2200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00001860",
+      "last_candidate_id": "chrome-profile-2-history:item:00002059",
+      "sha256": "03dd5b37d41f9002ac72fdc5d5a678ced4e21942d2302aea67434a2549688a9c"
+    },
+    {
+      "batch": 13,
+      "file": "0013.json",
+      "row_start": 2400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00002060",
+      "last_candidate_id": "chrome-profile-2-history:item:00002259",
+      "sha256": "79e288f164b0d68d5236b9cbbad75f9ff792e8419d6767cdeadfe394922e78ba"
+    },
+    {
+      "batch": 14,
+      "file": "0014.json",
+      "row_start": 2600,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00002260",
+      "last_candidate_id": "chrome-profile-2-history:item:00002459",
+      "sha256": "9ff047d817822c8809380f8d23fbd2888789bf8a180732fb0e89432a9bcf39af"
+    },
+    {
+      "batch": 15,
+      "file": "0015.json",
+      "row_start": 2800,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00002460",
+      "last_candidate_id": "chrome-profile-2-history:item:00002659",
+      "sha256": "b9b2845e55f794fc12897bae9112d5b0f0106ad4d30be84819ead1a690a2da28"
+    },
+    {
+      "batch": 16,
+      "file": "0016.json",
+      "row_start": 3000,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00002660",
+      "last_candidate_id": "chrome-profile-2-history:item:00002859",
+      "sha256": "5a7aa8405ecb017646566f0788cc9d10990580168bfaac9a688889fb01a8a1cc"
+    },
+    {
+      "batch": 17,
+      "file": "0017.json",
+      "row_start": 3200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00002860",
+      "last_candidate_id": "chrome-profile-2-history:item:00003059",
+      "sha256": "3adc8cd7429c137c8b971b9dfa3d23e83553213a3bc410c6331d7ffb8a5b256c"
+    },
+    {
+      "batch": 18,
+      "file": "0018.json",
+      "row_start": 3400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00003060",
+      "last_candidate_id": "chrome-profile-2-history:item:00003259",
+      "sha256": "c357b97c1a6d879c9f43563d3defef123512d6bd3363357bf24357b49f44fdde"
+    },
+    {
+      "batch": 19,
+      "file": "0019.json",
+      "row_start": 3600,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00003260",
+      "last_candidate_id": "chrome-profile-2-history:item:00003459",
+      "sha256": "7ed462cbe837fe64447345102d2883e99ed23825234e737e936fa41bde4429b3"
+    },
+    {
+      "batch": 20,
+      "file": "0020.json",
+      "row_start": 3800,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00003460",
+      "last_candidate_id": "chrome-profile-2-history:item:00003659",
+      "sha256": "f014755424548258281e6d9633e0fb8bca61c8c15007584072330da5c59f8a5b"
+    },
+    {
+      "batch": 21,
+      "file": "0021.json",
+      "row_start": 4000,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00003660",
+      "last_candidate_id": "chrome-profile-2-history:item:00003859",
+      "sha256": "37f82b0a5110162036e42fa58e4674dc4ee259907cdfe9e21b322559c44f6774"
+    },
+    {
+      "batch": 22,
+      "file": "0022.json",
+      "row_start": 4200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00003860",
+      "last_candidate_id": "chrome-profile-2-history:item:00004059",
+      "sha256": "f28d8b6112803a0659007dfeb8aaf9ff9ddf807f36c9eff9765de1241200a3bd"
+    },
+    {
+      "batch": 23,
+      "file": "0023.json",
+      "row_start": 4400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00004060",
+      "last_candidate_id": "chrome-profile-2-history:item:00004259",
+      "sha256": "5cbb68f0b55ee5b3c5645b6f747c5b81d677febcce8c80ff8715a2c024774779"
+    },
+    {
+      "batch": 24,
+      "file": "0024.json",
+      "row_start": 4600,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00004260",
+      "last_candidate_id": "chrome-profile-2-history:item:00004459",
+      "sha256": "6e09554b88398051182e737d41251dc8dc13e50ea72fd3c559d76ed16e54aff7"
+    },
+    {
+      "batch": 25,
+      "file": "0025.json",
+      "row_start": 4800,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00004460",
+      "last_candidate_id": "chrome-profile-2-history:item:00004659",
+      "sha256": "7c3b2f1d860a6ebc56984cfaca77c226a284a2dcd42863a22941e5592b7722ec"
+    },
+    {
+      "batch": 26,
+      "file": "0026.json",
+      "row_start": 5000,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00004660",
+      "last_candidate_id": "chrome-profile-2-history:item:00004859",
+      "sha256": "e75833ae484276f9f0765b6af5a6e0d13075737213263a36873985db614d00a6"
+    },
+    {
+      "batch": 27,
+      "file": "0027.json",
+      "row_start": 5200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00004860",
+      "last_candidate_id": "chrome-profile-2-history:item:00005059",
+      "sha256": "6531681a9c9e2f7857bd242fe85b0e179dff9e4999bfadd92d41caf0fa4b9a57"
+    },
+    {
+      "batch": 28,
+      "file": "0028.json",
+      "row_start": 5400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00005060",
+      "last_candidate_id": "chrome-profile-2-history:item:00005259",
+      "sha256": "2c84bd07ee1c10fb91da6c4813e8d0aad20518e80fce2ba3c0c3415ff81934b6"
+    },
+    {
+      "batch": 29,
+      "file": "0029.json",
+      "row_start": 5600,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00005260",
+      "last_candidate_id": "chrome-profile-2-history:item:00005459",
+      "sha256": "18a7c83dd53831034e68faf6ca9fdfd973591197a9b68e24290a08824fe5f118"
+    },
+    {
+      "batch": 30,
+      "file": "0030.json",
+      "row_start": 5800,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00005460",
+      "last_candidate_id": "chrome-profile-2-history:item:00005659",
+      "sha256": "efb5c88f107b1bd760226ae79050cde1e8dc58f39899602b1a907aeaaf736b0c"
+    },
+    {
+      "batch": 31,
+      "file": "0031.json",
+      "row_start": 6000,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00005660",
+      "last_candidate_id": "chrome-profile-2-history:item:00005859",
+      "sha256": "2a1cd1bf05fa016bbc07b2bca241b586c7989eb8b9e9c9a283ef802369ba8484"
+    },
+    {
+      "batch": 32,
+      "file": "0032.json",
+      "row_start": 6200,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00005860",
+      "last_candidate_id": "chrome-profile-2-history:item:00006059",
+      "sha256": "fb4ee1a287502b9c4944f4d2bc379f7291596dff2d21b131e8f1fc7a9e07a0b2"
+    },
+    {
+      "batch": 33,
+      "file": "0033.json",
+      "row_start": 6400,
+      "row_count": 200,
+      "first_candidate_id": "chrome-profile-2-history:item:00006060",
+      "last_candidate_id": "edge-default-bookmarks:item:00000007",
+      "sha256": "d13de330c27d7309aff933094f55a9c42f4fee44307a9e00b6c2c0ef28256ba1"
+    },
+    {
+      "batch": 34,
+      "file": "0034.json",
+      "row_start": 6600,
+      "row_count": 200,
+      "first_candidate_id": "edge-default-bookmarks:item:00000008",
+      "last_candidate_id": "edge-default-history:item:00000147",
+      "sha256": "1d0b3180948006692cf6f739cffff75cea3874cc21c3da6f81c62ea91630f5df"
+    },
+    {
+      "batch": 35,
+      "file": "0035.json",
+      "row_start": 6800,
+      "row_count": 200,
+      "first_candidate_id": "edge-default-history:item:00000148",
+      "last_candidate_id": "edge-default-history:item:00000347",
+      "sha256": "265ec9f60fc6d8bf72fbc5ee801e26c50570d1035091580ada09a46830e138df"
+    },
+    {
+      "batch": 36,
+      "file": "0036.json",
+      "row_start": 7000,
+      "row_count": 200,
+      "first_candidate_id": "edge-default-history:item:00000348",
+      "last_candidate_id": "mac-current-local:item:00000161",
+      "sha256": "9c412a9e9ac7f65cd53437c3479cb811e9742b644c349f8e80e97fb6bb3e9534"
+    },
+    {
+      "batch": 37,
+      "file": "0037.json",
+      "row_start": 7200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00000162",
+      "last_candidate_id": "mac-current-local:item:00000361",
+      "sha256": "24f21bfdd8ee1270fe4debb29a147e4841af8b9c295286d8adf4b26b1ccc82e9"
+    },
+    {
+      "batch": 38,
+      "file": "0038.json",
+      "row_start": 7400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00000362",
+      "last_candidate_id": "mac-current-local:item:00000561",
+      "sha256": "50c5c740f34ae2d2154f608aec49766e8f60847aeac9011cfccd24423f9a6bf6"
+    },
+    {
+      "batch": 39,
+      "file": "0039.json",
+      "row_start": 7600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00000562",
+      "last_candidate_id": "mac-current-local:item:00000761",
+      "sha256": "b1aefda02400792f31d20431f82adf1be9ca220206c453603e940a9c8f81aa20"
+    },
+    {
+      "batch": 40,
+      "file": "0040.json",
+      "row_start": 7800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00000762",
+      "last_candidate_id": "mac-current-local:item:00000961",
+      "sha256": "fa4eb952fdafc5047d6917c883cb0b90f6ba775162ffe660522907ba609b47c3"
+    },
+    {
+      "batch": 41,
+      "file": "0041.json",
+      "row_start": 8000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00000962",
+      "last_candidate_id": "mac-current-local:item:00001161",
+      "sha256": "df973d30d970658918f843937eaf63c0fdeae7307c2da3505afb49dbae8196ac"
+    },
+    {
+      "batch": 42,
+      "file": "0042.json",
+      "row_start": 8200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00001162",
+      "last_candidate_id": "mac-current-local:item:00001361",
+      "sha256": "a12503ff5532ef48f4ff5c24a41d4b0344d0baf517784af634ed229c6f1b28f0"
+    },
+    {
+      "batch": 43,
+      "file": "0043.json",
+      "row_start": 8400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00001362",
+      "last_candidate_id": "mac-current-local:item:00001561",
+      "sha256": "84e5e7fe818c8b29661681992e2d75f52308ded047e13c16b10a58d462a51439"
+    },
+    {
+      "batch": 44,
+      "file": "0044.json",
+      "row_start": 8600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00001562",
+      "last_candidate_id": "mac-current-local:item:00001761",
+      "sha256": "ef2ac47e225c6430b5479665f75de8f2c4adcb55d8454699d06b055913931d7b"
+    },
+    {
+      "batch": 45,
+      "file": "0045.json",
+      "row_start": 8800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00001762",
+      "last_candidate_id": "mac-current-local:item:00001961",
+      "sha256": "f08529d70b2c6cd9b989d524e82e3d02f31634c523088ecba21fd167d27e4394"
+    },
+    {
+      "batch": 46,
+      "file": "0046.json",
+      "row_start": 9000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00001962",
+      "last_candidate_id": "mac-current-local:item:00002161",
+      "sha256": "ddab26591401755367beee67b430a6be8f919598a125d133e190af13876a2534"
+    },
+    {
+      "batch": 47,
+      "file": "0047.json",
+      "row_start": 9200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00002162",
+      "last_candidate_id": "mac-current-local:item:00002361",
+      "sha256": "9ffc801a22485d75d865713e89df8ad8f9c538bac675c534239f906294faf26d"
+    },
+    {
+      "batch": 48,
+      "file": "0048.json",
+      "row_start": 9400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00002362",
+      "last_candidate_id": "mac-current-local:item:00002561",
+      "sha256": "b441eb5fe8782cbd37220f887a8f7b1c1e841bc9c4dc454794aa6eead2bfe740"
+    },
+    {
+      "batch": 49,
+      "file": "0049.json",
+      "row_start": 9600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00002562",
+      "last_candidate_id": "mac-current-local:item:00002761",
+      "sha256": "f598c06e2dbb050b64ed7306906b168fa0e166bae43c637de6b48bf83ab4056d"
+    },
+    {
+      "batch": 50,
+      "file": "0050.json",
+      "row_start": 9800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00002762",
+      "last_candidate_id": "mac-current-local:item:00002961",
+      "sha256": "861b8437adb87ce1190de817a78430bbaceda69a2ea94d15d1e65f1542140876"
+    },
+    {
+      "batch": 51,
+      "file": "0051.json",
+      "row_start": 10000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00002962",
+      "last_candidate_id": "mac-current-local:item:00003161",
+      "sha256": "5a7dd4e416c2376d73e687cb627e63cdb483caad6aba59c7d06bcb2d04ddee8b"
+    },
+    {
+      "batch": 52,
+      "file": "0052.json",
+      "row_start": 10200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00003162",
+      "last_candidate_id": "mac-current-local:item:00003361",
+      "sha256": "67cab9054607c5819b599756b648871657fdba1940177d6f1ff9d4aac4292e31"
+    },
+    {
+      "batch": 53,
+      "file": "0053.json",
+      "row_start": 10400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00003362",
+      "last_candidate_id": "mac-current-local:item:00003561",
+      "sha256": "2d4e6805da7d0e20202cc140b643c8506c9209b1569e518363f6a364f5719671"
+    },
+    {
+      "batch": 54,
+      "file": "0054.json",
+      "row_start": 10600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00003562",
+      "last_candidate_id": "mac-current-local:item:00003761",
+      "sha256": "cf19d23c2023f83a59b3d98dbbeb2abe85a2995bf7275d4af5e5236cedcdef7e"
+    },
+    {
+      "batch": 55,
+      "file": "0055.json",
+      "row_start": 10800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00003762",
+      "last_candidate_id": "mac-current-local:item:00003961",
+      "sha256": "88d6af3af5fbb153ad078ec74cf37ab3e09e9ceb3d4fc1762caba46c4a320c84"
+    },
+    {
+      "batch": 56,
+      "file": "0056.json",
+      "row_start": 11000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00003962",
+      "last_candidate_id": "mac-current-local:item:00004161",
+      "sha256": "30597e79043d36d879d5a8ab94ce5f871d3b1fd9ec2a20ba8359a4a710ca5bf5"
+    },
+    {
+      "batch": 57,
+      "file": "0057.json",
+      "row_start": 11200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00004162",
+      "last_candidate_id": "mac-current-local:item:00004361",
+      "sha256": "467c228dff8800d6c609fa32fd43831f27ba0bd38201c3054c89c3b630a0b552"
+    },
+    {
+      "batch": 58,
+      "file": "0058.json",
+      "row_start": 11400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00004362",
+      "last_candidate_id": "mac-current-local:item:00004561",
+      "sha256": "e345311ac2e8b16c0e9abc10a8fe38f1fb054a41cbc4206b9ac5cb2648fcc447"
+    },
+    {
+      "batch": 59,
+      "file": "0059.json",
+      "row_start": 11600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00004562",
+      "last_candidate_id": "mac-current-local:item:00004761",
+      "sha256": "86cb9617203793474ffa359c37caeef91768b720dcd1edb2d6fc72343dff41be"
+    },
+    {
+      "batch": 60,
+      "file": "0060.json",
+      "row_start": 11800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00004762",
+      "last_candidate_id": "mac-current-local:item:00004961",
+      "sha256": "25105ef81a07772b59a38edb677b2bf9edaaf96dd8de06b376afce9fbbd42cf2"
+    },
+    {
+      "batch": 61,
+      "file": "0061.json",
+      "row_start": 12000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00004962",
+      "last_candidate_id": "mac-current-local:item:00005161",
+      "sha256": "4ccdd4a08bad85d1028308c22306b761d230839ab9a265efb1c979a07141ffcd"
+    },
+    {
+      "batch": 62,
+      "file": "0062.json",
+      "row_start": 12200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00005162",
+      "last_candidate_id": "mac-current-local:item:00005361",
+      "sha256": "06a0dbed6d6846adebc0442ad4307142bdbea517cf1ffbbc46575e119b7c6832"
+    },
+    {
+      "batch": 63,
+      "file": "0063.json",
+      "row_start": 12400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00005362",
+      "last_candidate_id": "mac-current-local:item:00005561",
+      "sha256": "de2145af64a5a97947a40bbe29ece3068a8041d429e4449c0dbc425b8770248a"
+    },
+    {
+      "batch": 64,
+      "file": "0064.json",
+      "row_start": 12600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00005562",
+      "last_candidate_id": "mac-current-local:item:00005761",
+      "sha256": "c482013933a80df4b555228eb5f71d97556e16e7ac6587239b2a5d6ddd39330e"
+    },
+    {
+      "batch": 65,
+      "file": "0065.json",
+      "row_start": 12800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00005762",
+      "last_candidate_id": "mac-current-local:item:00005961",
+      "sha256": "9ca8a9765c0de07d5a0de82adfd7934fe06cc80c79ce0643fe1c4d948e70219b"
+    },
+    {
+      "batch": 66,
+      "file": "0066.json",
+      "row_start": 13000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00005962",
+      "last_candidate_id": "mac-current-local:item:00006161",
+      "sha256": "4d6c7b6ce8feeb7fad6a246906e3edacb38fcfeb03546f62af133fb7af339216"
+    },
+    {
+      "batch": 67,
+      "file": "0067.json",
+      "row_start": 13200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00006162",
+      "last_candidate_id": "mac-current-local:item:00006361",
+      "sha256": "e1510e73a1eac354db5c70cd502ab052db17d50d9d48d0d016cb8e35d0b998de"
+    },
+    {
+      "batch": 68,
+      "file": "0068.json",
+      "row_start": 13400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00006362",
+      "last_candidate_id": "mac-current-local:item:00006561",
+      "sha256": "19e788c553fee692d0819e1d6e19f7aa4160cf0eaab59832627a8f648c6a13e1"
+    },
+    {
+      "batch": 69,
+      "file": "0069.json",
+      "row_start": 13600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00006562",
+      "last_candidate_id": "mac-current-local:item:00006761",
+      "sha256": "919d30f5224be80cf3aa2e9327a0592c7017a8e828e1006fe412dabc1b133258"
+    },
+    {
+      "batch": 70,
+      "file": "0070.json",
+      "row_start": 13800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00006762",
+      "last_candidate_id": "mac-current-local:item:00006961",
+      "sha256": "8d2350b6ebda6e7a888b607184840e736617ecd26342a39dc3778bc1915cd494"
+    },
+    {
+      "batch": 71,
+      "file": "0071.json",
+      "row_start": 14000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00006962",
+      "last_candidate_id": "mac-current-local:item:00007161",
+      "sha256": "e4e3a01558005127d71a733112601ef796b0260b323cca796ef4994b65ff437e"
+    },
+    {
+      "batch": 72,
+      "file": "0072.json",
+      "row_start": 14200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00007162",
+      "last_candidate_id": "mac-current-local:item:00007361",
+      "sha256": "15a1709a508731ae9fd90b4f7a9b84b18ff5ef18739ca06369b0bfe693e2eb4f"
+    },
+    {
+      "batch": 73,
+      "file": "0073.json",
+      "row_start": 14400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00007362",
+      "last_candidate_id": "mac-current-local:item:00007561",
+      "sha256": "afb6b9d13d1ec930bba3d803e82b6cbdb54f96d6d7471478e0a4b0f95cfdf3f7"
+    },
+    {
+      "batch": 74,
+      "file": "0074.json",
+      "row_start": 14600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00007562",
+      "last_candidate_id": "mac-current-local:item:00007761",
+      "sha256": "9cc95432f225bf377de706bdaff62e28f43ebd889f15db666969f66a21aeb880"
+    },
+    {
+      "batch": 75,
+      "file": "0075.json",
+      "row_start": 14800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00007762",
+      "last_candidate_id": "mac-current-local:item:00007961",
+      "sha256": "15eb2170377a7a0b108b7282c9a5a78acdc968b5db4a5b0607c72929a5f439b9"
+    },
+    {
+      "batch": 76,
+      "file": "0076.json",
+      "row_start": 15000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00007962",
+      "last_candidate_id": "mac-current-local:item:00008161",
+      "sha256": "40842da3e419ba59f8f6df420a22f0568d72658cee8831cb743ee398bd1d9f1a"
+    },
+    {
+      "batch": 77,
+      "file": "0077.json",
+      "row_start": 15200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00008162",
+      "last_candidate_id": "mac-current-local:item:00008361",
+      "sha256": "f387adc9891a3e7261d5f69c0eb3e8c92cd879558cfd61d20c593c64ff3e0e94"
+    },
+    {
+      "batch": 78,
+      "file": "0078.json",
+      "row_start": 15400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00008362",
+      "last_candidate_id": "mac-current-local:item:00008561",
+      "sha256": "7bade3f5b7ebee79fdf787504e77cb1419c4e4eb93f4bf184b26590504ff956a"
+    },
+    {
+      "batch": 79,
+      "file": "0079.json",
+      "row_start": 15600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00008562",
+      "last_candidate_id": "mac-current-local:item:00008761",
+      "sha256": "c5830c6ca91024073b7943925e998986e50ac695adc5d7811d4f310406f5d1c4"
+    },
+    {
+      "batch": 80,
+      "file": "0080.json",
+      "row_start": 15800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00008762",
+      "last_candidate_id": "mac-current-local:item:00008961",
+      "sha256": "056edb0440f39f41debe6633ce2c06bee210a2114161374da1b12c692a376a56"
+    },
+    {
+      "batch": 81,
+      "file": "0081.json",
+      "row_start": 16000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00008962",
+      "last_candidate_id": "mac-current-local:item:00009161",
+      "sha256": "69316a7873fc69c9a2a14d46df2f80634da9857b2a912413438cbb4f06c69f30"
+    },
+    {
+      "batch": 82,
+      "file": "0082.json",
+      "row_start": 16200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00009162",
+      "last_candidate_id": "mac-current-local:item:00009361",
+      "sha256": "7f045fa2cad14bd258f16c92166b0fbac2228de21680d871cc7505b9c851231e"
+    },
+    {
+      "batch": 83,
+      "file": "0083.json",
+      "row_start": 16400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00009362",
+      "last_candidate_id": "mac-current-local:item:00009561",
+      "sha256": "e39692c00072f342925d8f8fd859c4602d9c3169a0bfa61f4b79cf0c66d857c7"
+    },
+    {
+      "batch": 84,
+      "file": "0084.json",
+      "row_start": 16600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00009562",
+      "last_candidate_id": "mac-current-local:item:00009761",
+      "sha256": "ca1be6f0e0ec378f821a6c76890abcda8c501fa4a508d7ca77f7a8b6f53129e3"
+    },
+    {
+      "batch": 85,
+      "file": "0085.json",
+      "row_start": 16800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00009762",
+      "last_candidate_id": "mac-current-local:item:00009961",
+      "sha256": "9c00e72a15b04a1452cbc2fe9621746d7ab9e0ce0fefe42dbb3ce2ea17d2cd16"
+    },
+    {
+      "batch": 86,
+      "file": "0086.json",
+      "row_start": 17000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00009962",
+      "last_candidate_id": "mac-current-local:item:00010161",
+      "sha256": "e2f8893657c88fc5dcdccb618a6382e0961960d093ce90fea5ad3823f6312dda"
+    },
+    {
+      "batch": 87,
+      "file": "0087.json",
+      "row_start": 17200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00010162",
+      "last_candidate_id": "mac-current-local:item:00010361",
+      "sha256": "17522232a23d6d6bf0643199453bee170d83c35da609421ae99ca805c7b67cc6"
+    },
+    {
+      "batch": 88,
+      "file": "0088.json",
+      "row_start": 17400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00010362",
+      "last_candidate_id": "mac-current-local:item:00010561",
+      "sha256": "0c3ffa028746dad5260b1aeb14d15b5fc78c6fbe200941b2b07ebb2839dd82a3"
+    },
+    {
+      "batch": 89,
+      "file": "0089.json",
+      "row_start": 17600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00010562",
+      "last_candidate_id": "mac-current-local:item:00010761",
+      "sha256": "5e5b33226046dc237d184a2f329b0b85c8f4ffe15fb4531f946a06360acdd152"
+    },
+    {
+      "batch": 90,
+      "file": "0090.json",
+      "row_start": 17800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00010762",
+      "last_candidate_id": "mac-current-local:item:00010961",
+      "sha256": "28cbafd2fc53a59019210d2ae2f70085510984bc11ca6ef91f41dee1d677d845"
+    },
+    {
+      "batch": 91,
+      "file": "0091.json",
+      "row_start": 18000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00010962",
+      "last_candidate_id": "mac-current-local:item:00011161",
+      "sha256": "1637d2957c5fc0e4b6814a4526f3a50a8d004dff8c1947bc37b3b220dc0c1645"
+    },
+    {
+      "batch": 92,
+      "file": "0092.json",
+      "row_start": 18200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00011162",
+      "last_candidate_id": "mac-current-local:item:00011361",
+      "sha256": "fb5e27cab1318a871ade7be48fff1340f34bfad71aebbe5ce6a6e72ff7758038"
+    },
+    {
+      "batch": 93,
+      "file": "0093.json",
+      "row_start": 18400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00011362",
+      "last_candidate_id": "mac-current-local:item:00011561",
+      "sha256": "4104d24970b206627826ee12a1388bcffb83c18eae78c5595ae5a2d8c3697ca9"
+    },
+    {
+      "batch": 94,
+      "file": "0094.json",
+      "row_start": 18600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00011562",
+      "last_candidate_id": "mac-current-local:item:00011761",
+      "sha256": "48375e2795ff2dab9ca7c9834530b3be868c53f6b59004ce658788d2249c55af"
+    },
+    {
+      "batch": 95,
+      "file": "0095.json",
+      "row_start": 18800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00011762",
+      "last_candidate_id": "mac-current-local:item:00011961",
+      "sha256": "72583322824f1e93ed57832df23b75a7338fc674458bc118866ae37263292765"
+    },
+    {
+      "batch": 96,
+      "file": "0096.json",
+      "row_start": 19000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00011962",
+      "last_candidate_id": "mac-current-local:item:00012161",
+      "sha256": "859e172e3c94e61661d6fed5b9d2811d3addc9a4ec45e6077e064379b64dcbe9"
+    },
+    {
+      "batch": 97,
+      "file": "0097.json",
+      "row_start": 19200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00012162",
+      "last_candidate_id": "mac-current-local:item:00012361",
+      "sha256": "d3c3b9a44826f8acb26eda034d0c62406853ea8dd9d839c9917c9e01ba516a02"
+    },
+    {
+      "batch": 98,
+      "file": "0098.json",
+      "row_start": 19400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00012362",
+      "last_candidate_id": "mac-current-local:item:00012561",
+      "sha256": "43ddf42c98431a0f81312d6e956fed587c325bc32545eb9a579872b2953e1087"
+    },
+    {
+      "batch": 99,
+      "file": "0099.json",
+      "row_start": 19600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00012562",
+      "last_candidate_id": "mac-current-local:item:00012761",
+      "sha256": "001e9ed41267b564b7e791a349944cb9354375c91e2f0389dbe0c5a46bb769a0"
+    },
+    {
+      "batch": 100,
+      "file": "0100.json",
+      "row_start": 19800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00012762",
+      "last_candidate_id": "mac-current-local:item:00012961",
+      "sha256": "73f6552b4680943375b6031214c6165ea84d0814d4058bf3f755df0178c80b60"
+    },
+    {
+      "batch": 101,
+      "file": "0101.json",
+      "row_start": 20000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00012962",
+      "last_candidate_id": "mac-current-local:item:00013161",
+      "sha256": "17b5fdb10d3b6aee32ce396037fef713a531e02e559a036734a85012512a7d8e"
+    },
+    {
+      "batch": 102,
+      "file": "0102.json",
+      "row_start": 20200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00013162",
+      "last_candidate_id": "mac-current-local:item:00013361",
+      "sha256": "a41f012acfcca4fa9475e7f47dbef1da482e52009a9b3a1a37b166feb32589c1"
+    },
+    {
+      "batch": 103,
+      "file": "0103.json",
+      "row_start": 20400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00013362",
+      "last_candidate_id": "mac-current-local:item:00013561",
+      "sha256": "f169793b4ab2767191fa77cff0583338333af7419164fa1acb226fcedb1c1cac"
+    },
+    {
+      "batch": 104,
+      "file": "0104.json",
+      "row_start": 20600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00013562",
+      "last_candidate_id": "mac-current-local:item:00013761",
+      "sha256": "9d70b6449f3e050ac78784062d8dec5a3d330c5da0e5b6a91e9b773138f50537"
+    },
+    {
+      "batch": 105,
+      "file": "0105.json",
+      "row_start": 20800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00013762",
+      "last_candidate_id": "mac-current-local:item:00013961",
+      "sha256": "2644045ecc309ab5c5d7bf840d679737cc3e5c97816fb831523b544767af7606"
+    },
+    {
+      "batch": 106,
+      "file": "0106.json",
+      "row_start": 21000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00013962",
+      "last_candidate_id": "mac-current-local:item:00014161",
+      "sha256": "2eed572220e5f99b924a5ae75201978ab6485a2045aacfa62c3f12af89e387b3"
+    },
+    {
+      "batch": 107,
+      "file": "0107.json",
+      "row_start": 21200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00014162",
+      "last_candidate_id": "mac-current-local:item:00014361",
+      "sha256": "66f23c471a9bca731f740016e75d96271d61409d745f85f68d790d154fba7ffb"
+    },
+    {
+      "batch": 108,
+      "file": "0108.json",
+      "row_start": 21400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00014362",
+      "last_candidate_id": "mac-current-local:item:00014561",
+      "sha256": "bad1839b3c8361bddd642f261154c38d8fd48334929bb29ee2b0015a3a9847f0"
+    },
+    {
+      "batch": 109,
+      "file": "0109.json",
+      "row_start": 21600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00014562",
+      "last_candidate_id": "mac-current-local:item:00014761",
+      "sha256": "1f48833b69fdbb0a33fe5af05cf7b56ed0094db4fb3afee6322a9b3d50511df9"
+    },
+    {
+      "batch": 110,
+      "file": "0110.json",
+      "row_start": 21800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00014762",
+      "last_candidate_id": "mac-current-local:item:00014961",
+      "sha256": "053b943467380e2eba4eb914a26cad1fd993151058a5049e58d09e59ee2439cb"
+    },
+    {
+      "batch": 111,
+      "file": "0111.json",
+      "row_start": 22000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00014962",
+      "last_candidate_id": "mac-current-local:item:00015161",
+      "sha256": "cf5c3103e8b22b5edc8843e67f0cef32e99c49d86567d29041ca3f41071c77b5"
+    },
+    {
+      "batch": 112,
+      "file": "0112.json",
+      "row_start": 22200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00015162",
+      "last_candidate_id": "mac-current-local:item:00015361",
+      "sha256": "b895ff40dcde4be39325d80f4c81280b57f70294bd25cd043ae3b27cfb7dd5cd"
+    },
+    {
+      "batch": 113,
+      "file": "0113.json",
+      "row_start": 22400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00015362",
+      "last_candidate_id": "mac-current-local:item:00015561",
+      "sha256": "8c1e3e04eb1565419f3c2599a37d04028c6b052e64b189c4e5e96691c26ec72a"
+    },
+    {
+      "batch": 114,
+      "file": "0114.json",
+      "row_start": 22600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00015562",
+      "last_candidate_id": "mac-current-local:item:00015761",
+      "sha256": "01f209808da7c20448b12a7ecbc2364052912dac179a5878d00c00a3e7c0a812"
+    },
+    {
+      "batch": 115,
+      "file": "0115.json",
+      "row_start": 22800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00015762",
+      "last_candidate_id": "mac-current-local:item:00015961",
+      "sha256": "1bb3e18aa1f2353f934d85bb22e89fca21984d28f81e24fd47bd286fbb23e2eb"
+    },
+    {
+      "batch": 116,
+      "file": "0116.json",
+      "row_start": 23000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00015962",
+      "last_candidate_id": "mac-current-local:item:00016161",
+      "sha256": "9ac820dcdbad7ed37a21d537666beba5f71e48eda0cbc7a7ab85d3d8b011aee1"
+    },
+    {
+      "batch": 117,
+      "file": "0117.json",
+      "row_start": 23200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00016162",
+      "last_candidate_id": "mac-current-local:item:00016361",
+      "sha256": "6e842ca38131a720da2b2f27f43c53b24f7adb2d5d3542fd875a43667862a671"
+    },
+    {
+      "batch": 118,
+      "file": "0118.json",
+      "row_start": 23400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00016362",
+      "last_candidate_id": "mac-current-local:item:00016561",
+      "sha256": "6eac527bd72752920aea551514452487c3ac7ed3f6771c7a98fd3c07a1c58082"
+    },
+    {
+      "batch": 119,
+      "file": "0119.json",
+      "row_start": 23600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00016562",
+      "last_candidate_id": "mac-current-local:item:00016761",
+      "sha256": "4d79da7808d902266204c98bfe28971fd9e59746833bb7d789136053d107d00c"
+    },
+    {
+      "batch": 120,
+      "file": "0120.json",
+      "row_start": 23800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00016762",
+      "last_candidate_id": "mac-current-local:item:00016961",
+      "sha256": "9d6a5123bbd494859e2d74e8e193e8ccc7d87989c4a7da762eef88c3831521b7"
+    },
+    {
+      "batch": 121,
+      "file": "0121.json",
+      "row_start": 24000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00016962",
+      "last_candidate_id": "mac-current-local:item:00017161",
+      "sha256": "af6adb4734ea1ddb412c1e876845d2aff0421c267daf4456097b95327f23ae65"
+    },
+    {
+      "batch": 122,
+      "file": "0122.json",
+      "row_start": 24200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00017162",
+      "last_candidate_id": "mac-current-local:item:00017361",
+      "sha256": "0e97d177fdc5d26f104cab7551b01c3237ca525bcb9db3b658cdbda6529236df"
+    },
+    {
+      "batch": 123,
+      "file": "0123.json",
+      "row_start": 24400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00017362",
+      "last_candidate_id": "mac-current-local:item:00017561",
+      "sha256": "d3f733bf1f69e11cdc97312e3c5a6678b87ca5ab64e307bbf2e674d92320f334"
+    },
+    {
+      "batch": 124,
+      "file": "0124.json",
+      "row_start": 24600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00017562",
+      "last_candidate_id": "mac-current-local:item:00017761",
+      "sha256": "14702580d4db4f38a25ccd12b2ee988979d942f3afb345f8c004d00b00d67622"
+    },
+    {
+      "batch": 125,
+      "file": "0125.json",
+      "row_start": 24800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00017762",
+      "last_candidate_id": "mac-current-local:item:00017961",
+      "sha256": "5e21b00d629638374b031f1c7ba7ae8f1f27bd79e471f2f9f71ca2b515f89aa7"
+    },
+    {
+      "batch": 126,
+      "file": "0126.json",
+      "row_start": 25000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00017962",
+      "last_candidate_id": "mac-current-local:item:00018161",
+      "sha256": "dc177cf32eb27f42e0d3b4df0cb95e83d4defc25bc144d4d74331802916ca022"
+    },
+    {
+      "batch": 127,
+      "file": "0127.json",
+      "row_start": 25200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00018162",
+      "last_candidate_id": "mac-current-local:item:00018361",
+      "sha256": "7d9effb6525eae920cf277412098c578c8e4aaab29727af01368e973201e5543"
+    },
+    {
+      "batch": 128,
+      "file": "0128.json",
+      "row_start": 25400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00018362",
+      "last_candidate_id": "mac-current-local:item:00018561",
+      "sha256": "f742451101a84de520952a81fc516fa2db877e65a29c5577249416721d00e0c4"
+    },
+    {
+      "batch": 129,
+      "file": "0129.json",
+      "row_start": 25600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00018562",
+      "last_candidate_id": "mac-current-local:item:00018761",
+      "sha256": "31f1a307bf589d4b0c63e39462755fb4687488d35c0851fa2114f6fc50e63202"
+    },
+    {
+      "batch": 130,
+      "file": "0130.json",
+      "row_start": 25800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00018762",
+      "last_candidate_id": "mac-current-local:item:00018961",
+      "sha256": "983073bfd5151ba170d10f6c0bde2ab88b882b1090779d380657bc16f3ef8c1c"
+    },
+    {
+      "batch": 131,
+      "file": "0131.json",
+      "row_start": 26000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00018962",
+      "last_candidate_id": "mac-current-local:item:00019161",
+      "sha256": "c8c7247d3479369634b86bade5c63da71e5a3750ea4574c0bd8b90cc8579a0bc"
+    },
+    {
+      "batch": 132,
+      "file": "0132.json",
+      "row_start": 26200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00019162",
+      "last_candidate_id": "mac-current-local:item:00019361",
+      "sha256": "d82e15347f0212ed51244bbc6020495cecc724f968bed20e339df270fe287b13"
+    },
+    {
+      "batch": 133,
+      "file": "0133.json",
+      "row_start": 26400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00019362",
+      "last_candidate_id": "mac-current-local:item:00019561",
+      "sha256": "1cb7a4121ab81e410e342dcfd050c14a456aab67a90d280854495ed4bafc8a18"
+    },
+    {
+      "batch": 134,
+      "file": "0134.json",
+      "row_start": 26600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00019562",
+      "last_candidate_id": "mac-current-local:item:00019761",
+      "sha256": "991d3af1c58b2930ca56eac2d17fd0166b8aa6727929e3395f14d227095a2972"
+    },
+    {
+      "batch": 135,
+      "file": "0135.json",
+      "row_start": 26800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00019762",
+      "last_candidate_id": "mac-current-local:item:00019961",
+      "sha256": "990dbb40c2d41ad891251020323dce4a6c4b2278419a2b2767af4ea462d8e85e"
+    },
+    {
+      "batch": 136,
+      "file": "0136.json",
+      "row_start": 27000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00019962",
+      "last_candidate_id": "mac-current-local:item:00020161",
+      "sha256": "543a7688fe6c7599e05d93c9ff2d7e34479dd0a852994e95d8ccc2f16159cf66"
+    },
+    {
+      "batch": 137,
+      "file": "0137.json",
+      "row_start": 27200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00020162",
+      "last_candidate_id": "mac-current-local:item:00020361",
+      "sha256": "70138796c461ac70bf23f08469c05fa417176f2e505ca676c401341f34052638"
+    },
+    {
+      "batch": 138,
+      "file": "0138.json",
+      "row_start": 27400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00020362",
+      "last_candidate_id": "mac-current-local:item:00020561",
+      "sha256": "4d0343f3ec0566c8b69e1b4ce6c08927589838b742fa2ee5d16248ee6072c9b1"
+    },
+    {
+      "batch": 139,
+      "file": "0139.json",
+      "row_start": 27600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00020562",
+      "last_candidate_id": "mac-current-local:item:00020761",
+      "sha256": "56f4c202b93d49745b7cbe2b1b41339998f4312ae2ce1985fcc2856a39afdf49"
+    },
+    {
+      "batch": 140,
+      "file": "0140.json",
+      "row_start": 27800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00020762",
+      "last_candidate_id": "mac-current-local:item:00020961",
+      "sha256": "f4d8a4a41acd3034cb5c44e7ac0c96426e5cee8ac1ac6ae963d0e588634843c8"
+    },
+    {
+      "batch": 141,
+      "file": "0141.json",
+      "row_start": 28000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00020962",
+      "last_candidate_id": "mac-current-local:item:00021161",
+      "sha256": "e5f6c07863386fd42ae2aa266cb00e05a7b2f69c86048d02985296fcc14ddb20"
+    },
+    {
+      "batch": 142,
+      "file": "0142.json",
+      "row_start": 28200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00021162",
+      "last_candidate_id": "mac-current-local:item:00021361",
+      "sha256": "6ddcac070bd549fa34b64c0cd562acde8b0af910ba7701dae4a402401dfeb2fe"
+    },
+    {
+      "batch": 143,
+      "file": "0143.json",
+      "row_start": 28400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00021362",
+      "last_candidate_id": "mac-current-local:item:00021561",
+      "sha256": "e487ade7d2e02a38a29e4763a63cddbe07bea2a3efddf964e4fe87368d208e48"
+    },
+    {
+      "batch": 144,
+      "file": "0144.json",
+      "row_start": 28600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00021562",
+      "last_candidate_id": "mac-current-local:item:00021761",
+      "sha256": "a171f9612dd82cea3d127278bd6b36c6a78ec35abd1a34c909a895cff529373b"
+    },
+    {
+      "batch": 145,
+      "file": "0145.json",
+      "row_start": 28800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00021762",
+      "last_candidate_id": "mac-current-local:item:00021961",
+      "sha256": "e7c068d2760b9f08e4140accdda97588b4065c81b3c4522ac1a4a022292696fb"
+    },
+    {
+      "batch": 146,
+      "file": "0146.json",
+      "row_start": 29000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00021962",
+      "last_candidate_id": "mac-current-local:item:00022161",
+      "sha256": "07a473b11f04e7a203437e47aac45fc834cadb406c61583b9602cda63e529ea2"
+    },
+    {
+      "batch": 147,
+      "file": "0147.json",
+      "row_start": 29200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00022162",
+      "last_candidate_id": "mac-current-local:item:00022361",
+      "sha256": "66e14cbb1a6e64c730389b60e89dce5e44da180555c4fce79b87043fa1b1c9ae"
+    },
+    {
+      "batch": 148,
+      "file": "0148.json",
+      "row_start": 29400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00022362",
+      "last_candidate_id": "mac-current-local:item:00022561",
+      "sha256": "a7e09fd193200b452e15fb1c9e759ec878b8dd13eab23fc057fd1cea41b23042"
+    },
+    {
+      "batch": 149,
+      "file": "0149.json",
+      "row_start": 29600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00022562",
+      "last_candidate_id": "mac-current-local:item:00022761",
+      "sha256": "99bfce076c84f1c607ffdad086f28319e29643b8497d6edddec36b1040ebb90a"
+    },
+    {
+      "batch": 150,
+      "file": "0150.json",
+      "row_start": 29800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00022762",
+      "last_candidate_id": "mac-current-local:item:00022961",
+      "sha256": "8f4ef65a4fe603eb793f72e256d05b1107a7063ff40864b8fb13bc190087567b"
+    },
+    {
+      "batch": 151,
+      "file": "0151.json",
+      "row_start": 30000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00022962",
+      "last_candidate_id": "mac-current-local:item:00023161",
+      "sha256": "5f7c40a716ea685da23d741934eb5e054d98010141340aa5f430082cf79e7e4c"
+    },
+    {
+      "batch": 152,
+      "file": "0152.json",
+      "row_start": 30200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00023162",
+      "last_candidate_id": "mac-current-local:item:00023361",
+      "sha256": "769d6dfb56b3ae5b80ea53ac4e253c43079b801b2a571849afc3d0dc9a00da2b"
+    },
+    {
+      "batch": 153,
+      "file": "0153.json",
+      "row_start": 30400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00023362",
+      "last_candidate_id": "mac-current-local:item:00023561",
+      "sha256": "8206112ff23d9d4a17d87ea485513d85477e2f68e32360acae5623a97c1da97a"
+    },
+    {
+      "batch": 154,
+      "file": "0154.json",
+      "row_start": 30600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00023562",
+      "last_candidate_id": "mac-current-local:item:00023761",
+      "sha256": "ed64b30f17882fee6c5131863b75b70320c2b40c7759ae27db841ba45187f643"
+    },
+    {
+      "batch": 155,
+      "file": "0155.json",
+      "row_start": 30800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00023762",
+      "last_candidate_id": "mac-current-local:item:00023961",
+      "sha256": "6cea8cd47712a3972f2cb0d3f69f1812481f2edd6e405d91a7852fc809bb2dd2"
+    },
+    {
+      "batch": 156,
+      "file": "0156.json",
+      "row_start": 31000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00023962",
+      "last_candidate_id": "mac-current-local:item:00024161",
+      "sha256": "5e1f27314a11b825c58f499b2b995435ff56cb68c3ec3624c47c463943e50613"
+    },
+    {
+      "batch": 157,
+      "file": "0157.json",
+      "row_start": 31200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00024162",
+      "last_candidate_id": "mac-current-local:item:00024361",
+      "sha256": "4b96c7815ba16e656b80f8e8a33c1148416b3f47064b2b0e3b95e3103e3a8a36"
+    },
+    {
+      "batch": 158,
+      "file": "0158.json",
+      "row_start": 31400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00024362",
+      "last_candidate_id": "mac-current-local:item:00024561",
+      "sha256": "94fb2e2c4fc6859e0ed1e1efdad96a0ac932df3a755d1052b10b4fa606bdd74a"
+    },
+    {
+      "batch": 159,
+      "file": "0159.json",
+      "row_start": 31600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00024562",
+      "last_candidate_id": "mac-current-local:item:00024761",
+      "sha256": "34f34c5444f378043d6d577093c52be973b080fba01f4ec2b5cdb1377d6c319a"
+    },
+    {
+      "batch": 160,
+      "file": "0160.json",
+      "row_start": 31800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00024762",
+      "last_candidate_id": "mac-current-local:item:00024961",
+      "sha256": "63bfb4e1a96ed49a8fc9063fa70fc6d84c5fbd25a964387cbf114d71f8dfa66b"
+    },
+    {
+      "batch": 161,
+      "file": "0161.json",
+      "row_start": 32000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00024962",
+      "last_candidate_id": "mac-current-local:item:00025161",
+      "sha256": "80146ad176efd47be29197bee511a2d201ecc0f63f3ebb75ba374a6e2758a563"
+    },
+    {
+      "batch": 162,
+      "file": "0162.json",
+      "row_start": 32200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00025162",
+      "last_candidate_id": "mac-current-local:item:00025361",
+      "sha256": "77d449563272a68efae6a36ed6de77ef4179012a80ee1312eb6ec2e270d111bd"
+    },
+    {
+      "batch": 163,
+      "file": "0163.json",
+      "row_start": 32400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00025362",
+      "last_candidate_id": "mac-current-local:item:00025561",
+      "sha256": "12c662595290891b6fbab3abf0f3331135c64b4be97df84cd9719e77667e8a7e"
+    },
+    {
+      "batch": 164,
+      "file": "0164.json",
+      "row_start": 32600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00025562",
+      "last_candidate_id": "mac-current-local:item:00025761",
+      "sha256": "11a0ba934348eb15d0ac61b89a4f2ecf43835278e2034640d7eeed4ae3925113"
+    },
+    {
+      "batch": 165,
+      "file": "0165.json",
+      "row_start": 32800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00025762",
+      "last_candidate_id": "mac-current-local:item:00025961",
+      "sha256": "2c95cc9bbd066833f3e647e70c296d793e59b08c850be3898f7f34325cafa37a"
+    },
+    {
+      "batch": 166,
+      "file": "0166.json",
+      "row_start": 33000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00025962",
+      "last_candidate_id": "mac-current-local:item:00026161",
+      "sha256": "4f37764657aad75389b61e6e2f4728bba17c3339ef298878c24141f277409a7c"
+    },
+    {
+      "batch": 167,
+      "file": "0167.json",
+      "row_start": 33200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00026162",
+      "last_candidate_id": "mac-current-local:item:00026361",
+      "sha256": "796db776595148ecc229333696769d350f91c2f57a6d2bcc1e49660624031e6e"
+    },
+    {
+      "batch": 168,
+      "file": "0168.json",
+      "row_start": 33400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00026362",
+      "last_candidate_id": "mac-current-local:item:00026561",
+      "sha256": "0145e0bc76483a1af6002567b99cb89370a6f144c606af4803e9543744ad28e6"
+    },
+    {
+      "batch": 169,
+      "file": "0169.json",
+      "row_start": 33600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00026562",
+      "last_candidate_id": "mac-current-local:item:00026761",
+      "sha256": "4ab45e144e2dc691dcd3a59ced80deef7a0f9f910e9e66e8502399a28bd3175a"
+    },
+    {
+      "batch": 170,
+      "file": "0170.json",
+      "row_start": 33800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00026762",
+      "last_candidate_id": "mac-current-local:item:00026961",
+      "sha256": "730d351b93dedf4c9b754bab7fbad62f065534417bcd658b595c3bccabd7b23f"
+    },
+    {
+      "batch": 171,
+      "file": "0171.json",
+      "row_start": 34000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00026962",
+      "last_candidate_id": "mac-current-local:item:00027161",
+      "sha256": "4438510e7c27ef31c3ea38e99be6500b218ca5f2c8b3aaf4c8b16fb3c1b5f8e5"
+    },
+    {
+      "batch": 172,
+      "file": "0172.json",
+      "row_start": 34200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00027162",
+      "last_candidate_id": "mac-current-local:item:00027361",
+      "sha256": "bceb77bb83b61aa446a4cdf9e780c6f9e3d93e368e852ee28c66a6025242da9b"
+    },
+    {
+      "batch": 173,
+      "file": "0173.json",
+      "row_start": 34400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00027362",
+      "last_candidate_id": "mac-current-local:item:00027561",
+      "sha256": "368894065b0f0a39b605a19744b41be8cce8dbde33d642f8dcb3d540f7eb4c2d"
+    },
+    {
+      "batch": 174,
+      "file": "0174.json",
+      "row_start": 34600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00027562",
+      "last_candidate_id": "mac-current-local:item:00027761",
+      "sha256": "fbad2200558638b2263633877736bf8d6d1abb9cfabff9bb835d0ad0a61a4d06"
+    },
+    {
+      "batch": 175,
+      "file": "0175.json",
+      "row_start": 34800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00027762",
+      "last_candidate_id": "mac-current-local:item:00027961",
+      "sha256": "4c8db86ef1ec05b4dd668e0427ffc9c34da25e84ecafb8982d7efeda7b23d4a4"
+    },
+    {
+      "batch": 176,
+      "file": "0176.json",
+      "row_start": 35000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00027962",
+      "last_candidate_id": "mac-current-local:item:00028161",
+      "sha256": "de569370e4fc6daa02b07823a7389522d143f6c41e11cd9e639e677570614fad"
+    },
+    {
+      "batch": 177,
+      "file": "0177.json",
+      "row_start": 35200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00028162",
+      "last_candidate_id": "mac-current-local:item:00028361",
+      "sha256": "74cadf35aba61ae3a0d3bbfca01566560b08eac7fc770d646056e5f10c8a4a63"
+    },
+    {
+      "batch": 178,
+      "file": "0178.json",
+      "row_start": 35400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00028362",
+      "last_candidate_id": "mac-current-local:item:00028561",
+      "sha256": "bef74088a1a7b0405e3af9707cb4e4e0e3e8432ae04cf497ef81da587e8ea26e"
+    },
+    {
+      "batch": 179,
+      "file": "0179.json",
+      "row_start": 35600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00028562",
+      "last_candidate_id": "mac-current-local:item:00028761",
+      "sha256": "28b992ac6c04e94011c07f69a37a58aa7c2f53d5e435c585a74868d4781d8704"
+    },
+    {
+      "batch": 180,
+      "file": "0180.json",
+      "row_start": 35800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00028762",
+      "last_candidate_id": "mac-current-local:item:00028961",
+      "sha256": "ba77172748134fc78118763ac00842625bfcce569beef0bace9937a9dcd66d8d"
+    },
+    {
+      "batch": 181,
+      "file": "0181.json",
+      "row_start": 36000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00028962",
+      "last_candidate_id": "mac-current-local:item:00029161",
+      "sha256": "de0f1e5af306991227a58c69dda031f185fd964e25d71b27d28c06dbc801901f"
+    },
+    {
+      "batch": 182,
+      "file": "0182.json",
+      "row_start": 36200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00029162",
+      "last_candidate_id": "mac-current-local:item:00029361",
+      "sha256": "1094f59fe8dcb0938e815fef2124779a655851ae2a9138b4b5f010b3ba62d7f0"
+    },
+    {
+      "batch": 183,
+      "file": "0183.json",
+      "row_start": 36400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00029362",
+      "last_candidate_id": "mac-current-local:item:00029561",
+      "sha256": "783b86347b56258237f91272ba610e8eb27ec1f7e173fc1044b30f84f370db6f"
+    },
+    {
+      "batch": 184,
+      "file": "0184.json",
+      "row_start": 36600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00029562",
+      "last_candidate_id": "mac-current-local:item:00029761",
+      "sha256": "b8573459a0f2b587bcf57eb8714b50274cd3c6f2fb6ced89c944b52fa7eaf359"
+    },
+    {
+      "batch": 185,
+      "file": "0185.json",
+      "row_start": 36800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00029762",
+      "last_candidate_id": "mac-current-local:item:00029961",
+      "sha256": "4245980e12660c9be4a5495537e33bd158f4ad83796cdf7f1d89f12ef3797467"
+    },
+    {
+      "batch": 186,
+      "file": "0186.json",
+      "row_start": 37000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00029962",
+      "last_candidate_id": "mac-current-local:item:00030161",
+      "sha256": "97d66322ee37f9bd24b1f677814f9add0a8deea038c00311b1389fb1f138042c"
+    },
+    {
+      "batch": 187,
+      "file": "0187.json",
+      "row_start": 37200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00030162",
+      "last_candidate_id": "mac-current-local:item:00030361",
+      "sha256": "f90789a605f08235f5e120f3671bf22ceba07ae972ff8e7ed872c8ecae9900e7"
+    },
+    {
+      "batch": 188,
+      "file": "0188.json",
+      "row_start": 37400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00030362",
+      "last_candidate_id": "mac-current-local:item:00030561",
+      "sha256": "d75d332e0e54284aa7ea3d8667c8bcdd4f1e44475eec098cb42251738ef4500b"
+    },
+    {
+      "batch": 189,
+      "file": "0189.json",
+      "row_start": 37600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00030562",
+      "last_candidate_id": "mac-current-local:item:00030761",
+      "sha256": "ce9c7c6419b13659c290d1066b8c4019230d7ea3f1a4def1866429f898db0537"
+    },
+    {
+      "batch": 190,
+      "file": "0190.json",
+      "row_start": 37800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00030762",
+      "last_candidate_id": "mac-current-local:item:00030961",
+      "sha256": "31758b754b2e1efc579f0ff8c47b6647b320c63ec06594d605b4385dbc17f87d"
+    },
+    {
+      "batch": 191,
+      "file": "0191.json",
+      "row_start": 38000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00030962",
+      "last_candidate_id": "mac-current-local:item:00031161",
+      "sha256": "5f13e63d35d0318ca1a465892271760c6eea3e4be9f34823cbaf969da35c727d"
+    },
+    {
+      "batch": 192,
+      "file": "0192.json",
+      "row_start": 38200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00031162",
+      "last_candidate_id": "mac-current-local:item:00031361",
+      "sha256": "fea3aca743251973fc529b45a069ddba14c46f04edf8f4c9b503e34e6a63fc9b"
+    },
+    {
+      "batch": 193,
+      "file": "0193.json",
+      "row_start": 38400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00031362",
+      "last_candidate_id": "mac-current-local:item:00031561",
+      "sha256": "6fe5f9ae01dc3f817ee104a289d2bede9272d83b7e90f5af75373c2ba1ded40d"
+    },
+    {
+      "batch": 194,
+      "file": "0194.json",
+      "row_start": 38600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00031562",
+      "last_candidate_id": "mac-current-local:item:00031761",
+      "sha256": "8fcc976c82f457ec615f1334a6278a6f5bcc743cc4595310e32bbcb9f6917d4a"
+    },
+    {
+      "batch": 195,
+      "file": "0195.json",
+      "row_start": 38800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00031762",
+      "last_candidate_id": "mac-current-local:item:00031961",
+      "sha256": "ac99cbb554fb351b25817dfb1d5364ee6924a780a75817618e243a700fab36bd"
+    },
+    {
+      "batch": 196,
+      "file": "0196.json",
+      "row_start": 39000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00031962",
+      "last_candidate_id": "mac-current-local:item:00032161",
+      "sha256": "0c6d8c81a6a8fa8a4c6318680c461d489c327b6b03045151c15afa419d5d4672"
+    },
+    {
+      "batch": 197,
+      "file": "0197.json",
+      "row_start": 39200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00032162",
+      "last_candidate_id": "mac-current-local:item:00032361",
+      "sha256": "500c33c8b2190ebb1f55dbe4d4f56f837ed570b54614474ce38a6ae1597833f6"
+    },
+    {
+      "batch": 198,
+      "file": "0198.json",
+      "row_start": 39400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00032362",
+      "last_candidate_id": "mac-current-local:item:00032561",
+      "sha256": "4502be197fa0351d4aa719aa7f36163410bfafa11447902322f2ccc19e355d9c"
+    },
+    {
+      "batch": 199,
+      "file": "0199.json",
+      "row_start": 39600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00032562",
+      "last_candidate_id": "mac-current-local:item:00032761",
+      "sha256": "f0ea1e316a1644c2cb0b88edfce543a6ba6b53c955d5dd8050270909ca654151"
+    },
+    {
+      "batch": 200,
+      "file": "0200.json",
+      "row_start": 39800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00032762",
+      "last_candidate_id": "mac-current-local:item:00032961",
+      "sha256": "bc286bda2a6ce24b598ae7bd6072757e18a6d50f16fd99313f64f904848eda7d"
+    },
+    {
+      "batch": 201,
+      "file": "0201.json",
+      "row_start": 40000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00032962",
+      "last_candidate_id": "mac-current-local:item:00033161",
+      "sha256": "1a066a26a351e7dadebd56f4b0edb41e81cd86fce5cb7bd44f225e1f3f565aa8"
+    },
+    {
+      "batch": 202,
+      "file": "0202.json",
+      "row_start": 40200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00033162",
+      "last_candidate_id": "mac-current-local:item:00033361",
+      "sha256": "337aba97205c919eaeb35f5ccdfab6f740a3803ed31966c86fece8fa0a4ed0c1"
+    },
+    {
+      "batch": 203,
+      "file": "0203.json",
+      "row_start": 40400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00033362",
+      "last_candidate_id": "mac-current-local:item:00033561",
+      "sha256": "2b77aa5fc5ee38d75f0bd8e761ef78c7ab17dc643f7793ce5fb93a596c505233"
+    },
+    {
+      "batch": 204,
+      "file": "0204.json",
+      "row_start": 40600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00033562",
+      "last_candidate_id": "mac-current-local:item:00033761",
+      "sha256": "e9bd49117562ebedef7081a75eefde0417d39743dd0b4eceda0434c3577b47dd"
+    },
+    {
+      "batch": 205,
+      "file": "0205.json",
+      "row_start": 40800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00033762",
+      "last_candidate_id": "mac-current-local:item:00033961",
+      "sha256": "06d367557490e966543d35a46337b0759cedfc2a628b0f4126ef5ff76fd28bc7"
+    },
+    {
+      "batch": 206,
+      "file": "0206.json",
+      "row_start": 41000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00033962",
+      "last_candidate_id": "mac-current-local:item:00034161",
+      "sha256": "e546d1c724056b3b1656176e6be145c71e530a64eaa050385e1ceb3bcca8d566"
+    },
+    {
+      "batch": 207,
+      "file": "0207.json",
+      "row_start": 41200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00034162",
+      "last_candidate_id": "mac-current-local:item:00034361",
+      "sha256": "e8d3a6b692230d27a279c1a6d5b8248042dabbea10077223e1bfff35f7fa6d3d"
+    },
+    {
+      "batch": 208,
+      "file": "0208.json",
+      "row_start": 41400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00034362",
+      "last_candidate_id": "mac-current-local:item:00034561",
+      "sha256": "6489b637c941677754c4780ac00e185347aab78725c5c27b14d72663bbe63ae3"
+    },
+    {
+      "batch": 209,
+      "file": "0209.json",
+      "row_start": 41600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00034562",
+      "last_candidate_id": "mac-current-local:item:00034761",
+      "sha256": "a7a2e469888a2dffb9752fd0468a224d6126c52bea7b05e43e61558f24a94b58"
+    },
+    {
+      "batch": 210,
+      "file": "0210.json",
+      "row_start": 41800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00034762",
+      "last_candidate_id": "mac-current-local:item:00034961",
+      "sha256": "d8964d0a8b839f30f8dfda8f5602205107e414350c2994fefa03d47a953ad906"
+    },
+    {
+      "batch": 211,
+      "file": "0211.json",
+      "row_start": 42000,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00034962",
+      "last_candidate_id": "mac-current-local:item:00035161",
+      "sha256": "3b5de38a1939e90b7dee2cd0d96c97b14d6f0d9ec581c4b2ea0cb7ea0c738c98"
+    },
+    {
+      "batch": 212,
+      "file": "0212.json",
+      "row_start": 42200,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00035162",
+      "last_candidate_id": "mac-current-local:item:00035361",
+      "sha256": "d908f8e9cbbdd25d96edb28b0fd3459e97baaaf6ff7723f5ec26b32be75cd94b"
+    },
+    {
+      "batch": 213,
+      "file": "0213.json",
+      "row_start": 42400,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00035362",
+      "last_candidate_id": "mac-current-local:item:00035561",
+      "sha256": "a7b16284974bb94279b50da149f65190e07a7bcb881e1b976ffeb51339c2676e"
+    },
+    {
+      "batch": 214,
+      "file": "0214.json",
+      "row_start": 42600,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00035562",
+      "last_candidate_id": "mac-current-local:item:00035761",
+      "sha256": "d5580d62e6dc835d70018109288d2cd37dde608f367ba8c21483d77cc7ba4549"
+    },
+    {
+      "batch": 215,
+      "file": "0215.json",
+      "row_start": 42800,
+      "row_count": 200,
+      "first_candidate_id": "mac-current-local:item:00035762",
+      "last_candidate_id": "mac-current-local:item:00035961",
+      "sha256": "89a589d5c4104bcccb685b6f21089820f3ec98b81c9e654a942685d40e6c29c9"
+    },
+    {
+      "batch": 216,
+      "file": "0216.json",
+      "row_start": 43000,
+      "row_count": 176,
+      "first_candidate_id": "mac-current-local:item:00035962",
+      "last_candidate_id": "mac-current-local:item:00036137",
+      "sha256": "5991331a17f6fdb7bfd9ce1f1afe675dcd06d17653ccdf526dd4c574937d040e"
+    }
+  ],
+  "policy": "Append-only initial load. Resume only from verified Base record count; never replay an already committed batch."
+}

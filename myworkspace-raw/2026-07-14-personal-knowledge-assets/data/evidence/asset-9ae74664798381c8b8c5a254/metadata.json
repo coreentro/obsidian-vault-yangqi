@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-9ae74664798381c8b8c5a254",
+  "candidate_id": "chrome-default-bookmarks:item:00000057",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Way to AGI | 通往AGI之路",
+  "original_url": "https://blog.waytoagi.com/",
+  "requested_url": "https://blog.waytoagi.com/",
+  "final_url": "https://blog.waytoagi.com/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:05.528330+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 18718,
+  "body_sha256": "563a19eac477348a317e61637b6216bbae4544eb2a48622beaa1dd379d26b25e"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:45:29+08:00",
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v004.json",
+  "assessment_scope": "All pages were traversed for text extraction and privacy review; first, middle, and last pages were rendered and visually inspected for each PDF.",
+  "visual_quality_result": "Four scholarly articles were legible, correctly oriented, and unclipped. The three-page SEM article retained readable diagrams and identifiable structure, but its embedded Traditional Chinese font encoding caused partial glyph loss in extraction and rendering; no missing text was guessed, and the exact original PDF remains authoritative.",
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001400",
+      "decision": "accepted",
+      "title": "扫描式电子显微镜（SEM）",
+      "authors": "作者姓名未可靠识别（原始字体编码异常）",
+      "value_score": 82,
+      "topics": ["scientific-instrumentation", "scanning-electron-microscopy", "sem", "electron-microscopy", "materials-characterization"],
+      "page_count": 3,
+      "extracted_text_characters": 1913,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 2, 3],
+      "safety_hits": [],
+      "additional_limitations": ["The embedded Traditional Chinese font encoding causes partial glyph loss in derived text extraction and sampled rendering. The exact source-original.pdf is authoritative; missing glyphs were not guessed or reconstructed."],
+      "reason": "Reusable introductory SEM material with instrument structure, resolution comparison, imaging examples, and EDS context. The exact PDF is valuable, while derived text is explicitly low-confidence because of embedded-font glyph loss."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001403",
+      "decision": "accepted",
+      "title": "Colorimetric Method for Detection of Hydrazine Decomposition in Chemical Decontamination Process",
+      "authors": "Jungsoon Park et al.",
+      "value_score": 91,
+      "topics": ["chemistry", "hydrazine-detection", "colorimetry", "chemical-decontamination", "nuclear-decommissioning"],
+      "page_count": 11,
+      "extracted_text_characters": 49640,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 6, 11],
+      "safety_hits": [],
+      "reason": "High-value analytical method connecting hydrazine decomposition, Fenton chemistry, colorimetric response, calibration, and on-site nuclear decontamination."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001421",
+      "decision": "accepted",
+      "title": "元素掺杂石墨相氮化碳的光催化产氢研究进展",
+      "authors": "闫竹云、王奕琛",
+      "value_score": 93,
+      "topics": ["chemistry", "graphitic-carbon-nitride", "element-doping", "photocatalysis", "hydrogen-production"],
+      "page_count": 11,
+      "extracted_text_characters": 22152,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 6, 11],
+      "safety_hits": [],
+      "reason": "Reusable current review of non-metal and metal doping strategies for g-C3N4, with mechanisms for band engineering, charge separation, and photocatalytic hydrogen evolution."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001427",
+      "decision": "accepted",
+      "title": "光催化剂分解水制取氢气的研究进展",
+      "authors": "郭鹏宇、张栢宁、游传绪、张宗弢",
+      "value_score": 92,
+      "topics": ["chemistry", "photocatalysts", "water-splitting", "hydrogen-production", "heterojunctions"],
+      "page_count": 13,
+      "extracted_text_characters": 26922,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 7, 13],
+      "safety_hits": [],
+      "reason": "Broad recent review of photocatalytic water-splitting principles, common catalyst families, heterojunction design, charge transport, and visible-light response."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001429",
+      "decision": "accepted",
+      "title": "光催化分解水产氢用 CdS 光催化剂改性研究进展",
+      "authors": "刘家如、刘喆、杨春维",
+      "value_score": 93,
+      "topics": ["chemistry", "cadmium-sulfide", "photocatalysis", "photocorrosion", "hydrogen-production"],
+      "page_count": 7,
+      "extracted_text_characters": 21211,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 4, 7],
+      "safety_hits": [],
+      "reason": "Focused review of CdS band engineering, photocorrosion protection, oxygen removal, built-in electric fields, active sites, morphology, and carrier migration."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "classification_jsonl": "data/local-file-classification-2026-07-15.jsonl",
+  "classification_sha256": "619a204956450f3379f182508dcab64bc001b66448a11420ba00a40c774f7ba6",
+  "decision_policy": "Derived recommendations only. Frozen ledger decisions and source files are unchanged; exclusions retain full audit metadata.",
+  "flag_counts": {
+    "generated-or-dependency": 80,
+    "metadata-or-empty": 795,
+    "sensitive": 242,
+    "unknown-binary-or-format": 16924
+  },
+  "generated_at": "2026-07-15T16:37:33+08:00",
+  "recommendation_counts": {
+    "excluded": 875,
+    "review": 35263
+  },
+  "sensitive_review_count": 242,
+  "signal_counts": {
+    "document": 17422,
+    "media": 675
+  },
+  "source_baseline_at": "2026-07-14T10:17:47+08:00",
+  "source_inventory": "data/inventories/mac-current-local-2026-07-14.json",
+  "total_records": 36138
+}

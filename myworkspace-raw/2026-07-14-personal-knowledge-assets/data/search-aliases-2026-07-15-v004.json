@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:48:29+08:00",
+  "policy": "Aliases are additive retrieval metadata. They never replace or rewrite source text, titles, evidence packages, or prior index records.",
+  "items": [
+    {"asset_id": "asset-1dbce93721de460be8fd8647", "aliases": ["scanning electron microscope", "SEM instrument", "electron microscopy", "materials characterization", "能谱分析 EDS"]},
+    {"asset_id": "asset-4c75cb1e8747e779a0d084cc", "aliases": ["肼分解检测", "比色法检测肼", "化学去污过程", "核设施退役", "Fenton reaction hydrazine"]},
+    {"asset_id": "asset-b52f87b52caf0c4cff1a0e21", "aliases": ["element-doped graphitic carbon nitride", "g-C3N4 doping", "photocatalytic hydrogen evolution", "石墨相氮化碳元素掺杂", "光生载流子分离"]},
+    {"asset_id": "asset-ea261f4a88e8e35ed4dc9829", "aliases": ["photocatalysts for water splitting", "solar hydrogen production", "visible-light photocatalysts", "异质结光催化剂", "光解水制氢综述"]},
+    {"asset_id": "asset-f3cb56ca03e2f6f6ee5aed11", "aliases": ["CdS photocatalyst modification", "cadmium sulfide hydrogen evolution", "CdS photocorrosion", "硫化镉光腐蚀防护", "内建电场载流子迁移"]}
+  ]
+}

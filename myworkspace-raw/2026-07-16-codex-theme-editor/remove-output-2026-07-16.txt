@@ -1,0 +1,31 @@
+== remove live DOM/CSS ==
+{
+  "mode": "remove",
+  "version": "1.0.0",
+  "port": 9341,
+  "targets": [
+    {
+      "targetId": "7A8751A661C248CD2818454FBD7963BF",
+      "title": "Codex",
+      "url": "app://-/index.html",
+      "probe": {
+        "title": "Codex",
+        "href": "app://-/index.html",
+        "markers": {
+          "shell": true,
+          "sidebar": true,
+          "composer": true,
+          "main": false
+        },
+        "codex": true
+      },
+      "result": true
+    }
+  ]
+}
+== stop verified injector ==
+Stopped verified injector PID 96070.
+== restore original Codex settings ==
+Restored the saved base-theme keys.
+== remove failed CDP launch job ==
+== restart official Codex normally ==

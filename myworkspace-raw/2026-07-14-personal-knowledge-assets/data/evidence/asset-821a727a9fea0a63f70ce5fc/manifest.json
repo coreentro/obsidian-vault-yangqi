@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "asset_id": "asset-821a727a9fea0a63f70ce5fc",
+  "source_id": "chrome-default-bookmarks",
+  "created_at": "2026-07-15T07:52:41.836745+00:00",
+  "completeness": "limited",
+  "immutable_files": [
+    {
+      "path": "capture-log.json",
+      "byte_length": 330,
+      "sha256": "b6cbaa31813ca44f726c99758c9d1a1de7626ecbd6ca6647410ecd3225fd9891",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "comments.json",
+      "byte_length": 64,
+      "sha256": "afe9c85a0b8ed4b00af3686683be910debc58588d092f815eb4fe64b7ff65458",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "metadata.json",
+      "byte_length": 720,
+      "sha256": "6928a95e4d772d276f94f42cd308b410ed422f8e84b2d3451165dc13eccbfe16",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "source.html",
+      "byte_length": 1166,
+      "sha256": "c8222d2c9ca35b314fcdfe04c75043eefe47a94217c9d01e9c110394c52e5d65",
+      "mime_type": "text/html",
+      "role": "source"
+    }
+  ],
+  "derived_files": [],
+  "limitations": [],
+  "capture_events": []
+}

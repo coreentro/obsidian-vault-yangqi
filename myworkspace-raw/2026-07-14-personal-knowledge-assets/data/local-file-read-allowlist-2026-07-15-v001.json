@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T18:30:00+08:00",
+  "source_inventory": "data/inventories/mac-current-local-2026-07-14.json",
+  "source_classification": "data/local-file-classification-2026-07-15.jsonl",
+  "policy": {
+    "access": "read-only",
+    "source_mutation": "forbidden",
+    "sensitive_content": "excluded-before-content-read",
+    "pre_read_gate": "path, extension, frozen byte length and frozen SHA-256 only",
+    "post_read_decision": "capture only when the complete content is reusable and contains no detected secret or private third-party material"
+  },
+  "limits": {
+    "batch_files": 5,
+    "batch_bytes": 15433,
+    "per_file_bytes": 1048576
+  },
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00000870",
+      "path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/Obsidian Vault/GitHub Trending/2026-05-31.md",
+      "byte_length": 5999,
+      "sha256": "bd53583223b80c8d5dd81c94ee5a65c925191619a1b2a5a12de86198aa58ed09",
+      "mime_type": "text/markdown",
+      "selection_reason": "Personal knowledge-note path; non-sensitive filename; plain Markdown; reusable technology discovery content."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00000983",
+      "path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/自动发推/README.md",
+      "byte_length": 3354,
+      "sha256": "ba7b2829d0f2b3e9adfdba7e7c1106b37c19736f3e0ca4b9115455b4659b647c",
+      "mime_type": "text/markdown",
+      "selection_reason": "Project documentation path; non-sensitive filename; plain Markdown; potentially reusable workflow knowledge."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001013",
+      "path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/自动发推/posts/example-codex-x-assets.md",
+      "byte_length": 1694,
+      "sha256": "52ac44fada4f2ab75ea122528267a0651cd1e680b3ada1b4337cf33f4693506f",
+      "mime_type": "text/markdown",
+      "selection_reason": "Published-draft path; non-sensitive filename; plain Markdown; potentially reusable content asset."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001014",
+      "path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/自动发推/posts/github-spec-kit-trending.md",
+      "byte_length": 2577,
+      "sha256": "5c5ea8a5df5ab806a5752d40cfe8f1282c0a7e7a56067a0d3d95b58fb614ef72",
+      "mime_type": "text/markdown",
+      "selection_reason": "Published-draft path; non-sensitive filename; plain Markdown; potentially reusable technology-analysis content."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001290",
+      "path": "/Users/yangqi/Documents/文稿 - 氧气的MacBook Air/飞书自动播放课程/README.md",
+      "byte_length": 1809,
+      "sha256": "33d8e39aa34ea34078bc1e495cd75df73c06fb9ddb37d340472a5c383cfebbba",
+      "mime_type": "text/markdown",
+      "selection_reason": "Project documentation path; non-sensitive filename; plain Markdown; potentially reusable automation knowledge."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-0c87fad3607dc32ece70889b",
+  "candidate_id": "chrome-default-bookmarks:item:00000050",
+  "source_id": "chrome-default-bookmarks",
+  "title": "如何增强自己搜索的能力 ｜ 千玄洞",
+  "original_url": "https://zjuyk.gitlab.io/posts/how-to-search/",
+  "requested_url": "https://zjuyk.gitlab.io/posts/how-to-search/",
+  "final_url": "https://zjuyk.gitlab.io/posts/how-to-search/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:05.611014+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 13124,
+  "body_sha256": "9fd192cd23754f770f46b38e1c9c2f2baf95610268088778f1d14f10f25a7cf3"
+}

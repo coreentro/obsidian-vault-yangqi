@@ -1,0 +1,19 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "DFrmZooSDOkAmx1ILjkgR9AWOpgAbKpL90NZGeqh8ccaRlnr",
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:3001",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-opus-4-7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-opus-4-7",
+    "ANTHROPIC_MODEL": "claude-opus-4-7",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME": "claude-opus-4-7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "claude-opus-4-7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "claude-opus-4-7"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "enableWorkflows": true
+}

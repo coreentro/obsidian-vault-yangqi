@@ -1,0 +1,13 @@
+{
+  "requested_url": "https://duozhongcao.com/apps/redbook-zhengwen",
+  "final_url": null,
+  "redirects": [
+    "https://ai.baigua.com/apps/redbook-zhengwen"
+  ],
+  "complete_response": false,
+  "error": "HTTPError: HTTP Error 500: Internal Server Error",
+  "limitations": [
+    "页面发生重定向；原始链接和重定向链分别保留。",
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

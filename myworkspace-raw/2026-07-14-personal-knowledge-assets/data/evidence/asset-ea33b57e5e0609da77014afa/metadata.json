@@ -1,0 +1,17 @@
+{
+  "asset_id": "asset-ea33b57e5e0609da77014afa",
+  "candidate_id": "edge-default-bookmarks:item:00000019",
+  "source_id": "edge-default-bookmarks",
+  "title": "文档支持的快捷键",
+  "original_url": "https://www.feishu.cn/hc/zh-CN/articles/500625665207-%E6%96%87%E6%A1%A3%E6%94%AF%E6%8C%81%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE",
+  "requested_url": "https://www.feishu.cn/hc/zh-CN/articles/500625665207-%E6%96%87%E6%A1%A3%E6%94%AF%E6%8C%81%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE",
+  "final_url": "https://www.feishu.cn/hc/zh-CN/articles/500625665207-%E5%9C%A8%E6%96%87%E6%A1%A3%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE",
+  "redirects": [
+    "https://www.feishu.cn/hc/zh-CN/articles/500625665207-%E5%9C%A8%E6%96%87%E6%A1%A3%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE"
+  ],
+  "captured_at": "2026-07-15T08:07:09.232125+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 644958,
+  "body_sha256": "81553163228b5cea3e3b513337eefade2eab8b5152cb199b0906fade072f19bb"
+}

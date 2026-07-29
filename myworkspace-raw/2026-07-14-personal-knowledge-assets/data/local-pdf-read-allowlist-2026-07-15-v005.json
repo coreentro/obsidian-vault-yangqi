@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T20:03:16+08:00",
+  "source_inventory": "data/inventories/mac-current-local-2026-07-14.json",
+  "source_classification": "data/local-file-classification-2026-07-15.jsonl",
+  "policy": {
+    "access": "read-only",
+    "source_mutation": "forbidden",
+    "sensitive_content": "excluded-before-content-read",
+    "pre_read_gate": "knowledge-oriented filename, PDF extension, frozen byte length and frozen SHA-256 only",
+    "post_read_gate": "accept only after complete page traversal, text extraction assessment, visual page sampling, privacy review, and personal-research-use confirmation",
+    "preservation": "exact PDF bytes remain the immutable source; extracted text and page renders are separate derivatives",
+    "publication_scope": "private personal research only; no third-party full-text republication"
+  },
+  "limits": {"batch_files": 5, "batch_bytes": 21947340, "per_file_bytes": 26214400, "rendered_pages_per_file": 3},
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001411",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2022-04-08_fchem-2022-988376 1..22.pdf",
+      "byte_length": 3328072,
+      "sha256": "99b7d785f86eb0d18d3189a726d7a945a29c41e05572ed5eac466ed86379f69c",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly chemistry article identifier; non-sensitive path; selected for full-title and value verification."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001414",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2022_ACTA ENERGIAE SOLARIS SINICA 基金项目：北京市百千万人才工程资助项目（2020A30）；全球能源互联网研究院有限公司科技项目（氢能系统参与电网辅助服务协调互动技术 开....pdf",
+      "byte_length": 2265676,
+      "sha256": "26435a53a66ab791b88461361659ae18f2bf560e0dcfeb408dd4943a7bff7a89",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly solar-energy and hydrogen-system journal title; non-sensitive path; reusable energy-system literature."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001428",
+      "path": "/Users/yangqi/Downloads/2026-04-08_2025_林子雨编著《数字素养通识教程》教材配套上机实验 教材官网：httpsdblab.xmu.edu.cnpostdigital-literacy 实验4：文本类AIGC 的应用与实践.pdf",
+      "byte_length": 1391177,
+      "sha256": "b02dc7e8849620e561ff74b88b28134cc211ce8237ccb661c3983d1b2136f0f4",
+      "mime_type": "application/pdf",
+      "selection_reason": "Educational AIGC laboratory material; non-sensitive path; reusable practical digital-literacy knowledge."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001438",
+      "path": "/Users/yangqi/Downloads/2026-04-08_Unknown_www.rsc.orgadvances Royal Society of Chemistry peer review process and has been acceptance, befor....pdf",
+      "byte_length": 874754,
+      "sha256": "31b1964a58ca15bbc95c82693588fb0237fe96828e4bb6b9f575886c0b8a4991",
+      "mime_type": "application/pdf",
+      "selection_reason": "Scholarly RSC chemistry manuscript; non-sensitive path; selected for title, publication-state, and value verification."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001443",
+      "path": "/Users/yangqi/Downloads/2026-04-08_Unknown_在哲学中成为马克思主义者_1.pdf",
+      "byte_length": 14087661,
+      "sha256": "2560a64166e9ad94740c8cfdb26f12d12df3e507db809b903c3fc43202d904f8",
+      "mime_type": "application/pdf",
+      "selection_reason": "Marxist philosophy study text; non-sensitive path; high reusable value for the user's stated analytical framework; private research use only."
+    }
+  ]
+}

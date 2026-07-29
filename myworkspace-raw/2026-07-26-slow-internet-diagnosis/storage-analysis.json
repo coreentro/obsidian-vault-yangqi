@@ -1,0 +1,460 @@
+{
+  "generated_at": "2026-07-26 17:26:49 CST",
+  "scan_seconds": 118.8,
+  "system": {
+    "os": "macOS 26.5.2",
+    "build": "25F84",
+    "arch": "Apple Silicon (arm64) / Apple M4",
+    "user": "yangqi",
+    "home": "/Users/yangqi",
+    "filesystem": "APFS",
+    "disk_total": "228.3 GB",
+    "disk_used": "215.7 GB",
+    "disk_free": "12.6 GB",
+    "purgeable": ""
+  },
+  "top5": [
+    {
+      "rank": 1,
+      "tier": "red",
+      "size": "约 17.0 GB",
+      "type": "应用运行时与虚拟机",
+      "name": "Claude 与 Claude-3p 本地 VM",
+      "path": "/Users/yangqi/Library/Application Support/Claude",
+      "note": "两套 VM 数据近期仍有修改，不是普通缓存；只能通过 Claude 的 Reset、Repair 或正式卸载流程处理。"
+    },
+    {
+      "rank": 2,
+      "tier": "yellow",
+      "size": "约 14.2 GB",
+      "type": "浏览器与视频缓存",
+      "name": "Quark 应用数据",
+      "path": "/Users/yangqi/Library/Application Support/Quark",
+      "note": "其中约 13.8 GB 明确位于 videoCache，是本次最值得优先处理的单项。"
+    },
+    {
+      "rank": 3,
+      "tier": "yellow",
+      "size": "约 13.1 GB",
+      "type": "浏览器资料、缓存与本地模型",
+      "name": "Google Chrome 数据",
+      "path": "/Users/yangqi/Library/Application Support/Google",
+      "note": "用户已明确选择保留全部 Chrome 数据，本报告不再提供任何 Chrome 清理按钮。"
+    },
+    {
+      "rank": 4,
+      "tier": "yellow",
+      "size": "约 9.1 GB",
+      "type": "办公应用数据",
+      "name": "LarkShell 数据",
+      "path": "/Users/yangqi/Library/Application Support/LarkShell",
+      "note": "大头是 Service Worker 离线资源；不要整删 profile、WebStorage、IndexedDB 或账号目录。"
+    },
+    {
+      "rank": 5,
+      "tier": "yellow",
+      "size": "约 7.7 GB",
+      "type": "聊天文件与数据库",
+      "name": "微信沙盒数据",
+      "path": "/Users/yangqi/Library/Containers/com.tencent.xinWeChat",
+      "note": "主要是聊天文件、附件和视频，应通过微信的存储空间管理按聊天或时间清理。"
+    }
+  ],
+  "green": [
+    {
+      "name": "Ego Lite 与 Edge 普通缓存",
+      "path": "/Users/yangqi/Library/Caches",
+      "size_estimate": "约 1.2 GB",
+      "kill_processes": [
+        "Ego Lite",
+        "EgoUpdater",
+        "Microsoft Edge",
+        "Microsoft Edge Helper",
+        "EdgeUpdater"
+      ],
+      "trash_paths": [
+        "/Users/yangqi/Library/Caches/Citro Labs/ego lite",
+        "/Users/yangqi/Library/Application Support/Citro Labs/EgoUpdater/crx_cache",
+        "/Users/yangqi/Library/Application Support/Citro Labs/ego lite/component_crx_cache",
+        "/Users/yangqi/Library/Application Support/Citro Labs/ego lite/extensions_crx_cache",
+        "/Users/yangqi/Library/Caches/Microsoft Edge",
+        "/Users/yangqi/Library/Caches/com.microsoft.edgemac",
+        "/Users/yangqi/Library/Application Support/Microsoft Edge/extensions_crx_cache",
+        "/Users/yangqi/Library/Application Support/Microsoft Edge/component_crx_cache"
+      ],
+      "commands": [
+        {
+          "label": "确认应用已退出后直接清理",
+          "cmd": "rm -rf '/Users/yangqi/Library/Caches/Citro Labs/ego lite' '/Users/yangqi/Library/Application Support/Citro Labs/EgoUpdater/crx_cache' '/Users/yangqi/Library/Application Support/Citro Labs/ego lite/component_crx_cache' '/Users/yangqi/Library/Application Support/Citro Labs/ego lite/extensions_crx_cache' '/Users/yangqi/Library/Caches/Microsoft Edge' '/Users/yangqi/Library/Caches/com.microsoft.edgemac' '/Users/yangqi/Library/Application Support/Microsoft Edge/extensions_crx_cache' '/Users/yangqi/Library/Application Support/Microsoft Edge/component_crx_cache'"
+        }
+      ]
+    },
+    {
+      "name": "Claude 与 Codex 明确缓存",
+      "path": "/Users/yangqi/Library/Caches",
+      "size_estimate": "约 2.0 GB",
+      "kill_processes": [
+        "Claude",
+        "Claude CLI",
+        "Claude local agent",
+        "Codex",
+        "Codex CLI",
+        "Codex plugin services"
+      ],
+      "trash_paths": [
+        "/Users/yangqi/Library/Caches/com.anthropic.claudefordesktop.ShipIt",
+        "/Users/yangqi/Library/Caches/com.anthropic.claudefordesktop",
+        "/Users/yangqi/Library/Caches/claude-cli-nodejs",
+        "/Users/yangqi/Library/Application Support/Claude/Cache",
+        "/Users/yangqi/Library/Application Support/Claude/Code Cache",
+        "/Users/yangqi/Library/Application Support/Claude/GPUCache",
+        "/Users/yangqi/Library/Application Support/Claude/DawnWebGPUCache",
+        "/Users/yangqi/Library/Application Support/Claude/DawnGraphiteCache",
+        "/Users/yangqi/Library/Application Support/Claude-3p/Cache",
+        "/Users/yangqi/Library/Application Support/Claude-3p/Code Cache",
+        "/Users/yangqi/Library/Application Support/Claude-3p/GPUCache",
+        "/Users/yangqi/Library/Application Support/Claude-3p/DawnWebGPUCache",
+        "/Users/yangqi/Library/Application Support/Claude-3p/DawnGraphiteCache",
+        "/Users/yangqi/Library/Caches/Codex",
+        "/Users/yangqi/Library/Caches/com.openai.codex",
+        "/Users/yangqi/.codex/cache",
+        "/Users/yangqi/.codex/.tmp",
+        "/Users/yangqi/.codex/plugins/cache",
+        "/Users/yangqi/Library/Application Support/Codex/Cache",
+        "/Users/yangqi/Library/Application Support/Codex/Code Cache",
+        "/Users/yangqi/Library/Application Support/Codex/GPUCache",
+        "/Users/yangqi/Library/Application Support/Codex/ShaderCache",
+        "/Users/yangqi/Library/Application Support/Codex/GrShaderCache",
+        "/Users/yangqi/Library/Application Support/Codex/DawnWebGPUCache",
+        "/Users/yangqi/Library/Application Support/Codex/DawnGraphiteCache",
+        "/Users/yangqi/Library/Application Support/Codex/GraphiteDawnCache",
+        "/Users/yangqi/Library/Application Support/Codex/component_crx_cache",
+        "/Users/yangqi/Library/Application Support/Codex/extensions_crx_cache"
+      ],
+      "commands": [
+        {
+          "label": "确认相关任务已结束后直接清理",
+          "cmd": "rm -rf '/Users/yangqi/Library/Caches/com.anthropic.claudefordesktop.ShipIt' '/Users/yangqi/Library/Caches/com.anthropic.claudefordesktop' '/Users/yangqi/Library/Caches/claude-cli-nodejs' '/Users/yangqi/Library/Application Support/Claude/Cache' '/Users/yangqi/Library/Application Support/Claude/Code Cache' '/Users/yangqi/Library/Application Support/Claude/GPUCache' '/Users/yangqi/Library/Application Support/Claude-3p/Cache' '/Users/yangqi/Library/Application Support/Claude-3p/Code Cache' '/Users/yangqi/Library/Application Support/Claude-3p/GPUCache' '/Users/yangqi/Library/Caches/Codex' '/Users/yangqi/Library/Caches/com.openai.codex' '/Users/yangqi/.codex/cache' '/Users/yangqi/.codex/.tmp' '/Users/yangqi/.codex/plugins/cache' '/Users/yangqi/Library/Application Support/Codex/Cache' '/Users/yangqi/Library/Application Support/Codex/Code Cache' '/Users/yangqi/Library/Application Support/Codex/GPUCache'"
+        }
+      ]
+    },
+    {
+      "name": "npm、uv、Colima 与 Hermes 可再生缓存",
+      "path": "/Users/yangqi/.cache",
+      "size_estimate": "约 1.6 GB",
+      "kill_processes": [
+        "npm",
+        "npx",
+        "node",
+        "uv",
+        "Python installers",
+        "Colima",
+        "Docker clients",
+        "Hermes daemon and workers"
+      ],
+      "trash_paths": [
+        "/Users/yangqi/.npm/_cacache",
+        "/Users/yangqi/.npm/_npx",
+        "/Users/yangqi/.npm/_logs",
+        "/Users/yangqi/.cache/uv",
+        "/Users/yangqi/.cache/fontconfig",
+        "/Users/yangqi/Library/Caches/colima",
+        "/Users/yangqi/Library/Caches/hermes-setup",
+        "/Users/yangqi/Library/Caches/com.nousresearch.hermes.setup",
+        "/Users/yangqi/.hermes/cache",
+        "/Users/yangqi/.hermes/bootstrap-cache",
+        "/Users/yangqi/.hermes/logs",
+        "/Users/yangqi/.hermes/hermes-agent/__pycache__",
+        "/Users/yangqi/.hermes/hermes-agent/.pytest_cache"
+      ],
+      "commands": [
+        {
+          "label": "确认无安装或构建任务后直接清理",
+          "cmd": "rm -rf '/Users/yangqi/.npm/_cacache' '/Users/yangqi/.npm/_npx' '/Users/yangqi/.npm/_logs' '/Users/yangqi/.cache/uv' '/Users/yangqi/.cache/fontconfig' '/Users/yangqi/Library/Caches/colima' '/Users/yangqi/Library/Caches/hermes-setup' '/Users/yangqi/Library/Caches/com.nousresearch.hermes.setup' '/Users/yangqi/.hermes/cache' '/Users/yangqi/.hermes/bootstrap-cache' '/Users/yangqi/.hermes/logs' '/Users/yangqi/.hermes/hermes-agent/__pycache__' '/Users/yangqi/.hermes/hermes-agent/.pytest_cache'"
+        }
+      ]
+    },
+    {
+      "name": "飞书、豆包与微信日志和普通缓存",
+      "path": "/Users/yangqi/Library/Caches",
+      "size_estimate": "约 4.0 GB",
+      "kill_processes": [
+        "Lark",
+        "Lark Helper",
+        "lark-channel-bridge",
+        "Doubao",
+        "Doubao Browser Helper",
+        "WeChat"
+      ],
+      "trash_paths": [
+        "/Users/yangqi/Library/Caches/LarkShell",
+        "/Users/yangqi/Library/Application Support/LarkShell/sdk_storage/log",
+        "/Users/yangqi/Library/Application Support/LarkShell/CodeCache",
+        "/Users/yangqi/Library/Application Support/LarkShell/GrShaderCache",
+        "/Users/yangqi/Library/Application Support/LarkShell/ShaderCache",
+        "/Users/yangqi/Library/Application Support/LarkShell/GraphiteDawnCache",
+        "/Users/yangqi/Library/Caches/Doubao",
+        "/Users/yangqi/Library/Application Support/Doubao/sdk_storage/log",
+        "/Users/yangqi/Library/Application Support/Doubao/extensions_crx_cache",
+        "/Users/yangqi/Library/Application Support/Doubao/gecko_cache",
+        "/Users/yangqi/Library/Application Support/Doubao/GraphiteDawnCache",
+        "/Users/yangqi/Library/Application Support/Doubao/Default/GPUCache",
+        "/Users/yangqi/Library/Application Support/Doubao/Profile 1/GPUCache",
+        "/Users/yangqi/Library/Application Support/Doubao/Default/Shared Dictionary/cache",
+        "/Users/yangqi/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/log"
+      ],
+      "commands": [
+        {
+          "label": "确认三个应用均已退出后直接清理",
+          "cmd": "rm -rf '/Users/yangqi/Library/Caches/LarkShell' '/Users/yangqi/Library/Application Support/LarkShell/sdk_storage/log' '/Users/yangqi/Library/Application Support/LarkShell/CodeCache' '/Users/yangqi/Library/Caches/Doubao' '/Users/yangqi/Library/Application Support/Doubao/sdk_storage/log' '/Users/yangqi/Library/Application Support/Doubao/extensions_crx_cache' '/Users/yangqi/Library/Application Support/Doubao/gecko_cache' '/Users/yangqi/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/log'"
+        }
+      ]
+    },
+    {
+      "name": "其他应用更新器与工具缓存",
+      "path": "/Users/yangqi/Library/Caches",
+      "size_estimate": "约 1.3 GB",
+      "kill_processes": [
+        "Antigravity",
+        "TRAE SOLO",
+        "ChatGPT Atlas",
+        "Electron applications",
+        "Homebrew tasks"
+      ],
+      "trash_paths": [
+        "/Users/yangqi/Library/Caches/antigravity-updater",
+        "/Users/yangqi/Library/Caches/Homebrew",
+        "/Users/yangqi/Library/Caches/TRAE SOLO",
+        "/Users/yangqi/Library/Caches/com.openai.atlas",
+        "/Users/yangqi/Library/Caches/electron",
+        "/Users/yangqi/Library/Caches/GeoServices",
+        "/Users/yangqi/Library/Caches/node-gyp"
+      ],
+      "commands": [
+        {
+          "label": "确认更新和构建任务已结束后直接清理",
+          "cmd": "rm -rf '/Users/yangqi/Library/Caches/antigravity-updater' '/Users/yangqi/Library/Caches/Homebrew' '/Users/yangqi/Library/Caches/TRAE SOLO' '/Users/yangqi/Library/Caches/com.openai.atlas' '/Users/yangqi/Library/Caches/electron' '/Users/yangqi/Library/Caches/GeoServices' '/Users/yangqi/Library/Caches/node-gyp'"
+        }
+      ]
+    },
+    {
+      "name": "已安装软件的 DMG 安装包",
+      "path": "/Users/yangqi/Downloads",
+      "size_estimate": "约 0.6 GB",
+      "kill_processes": [],
+      "trash_paths": [
+        "/Users/yangqi/Downloads/WorkBuddy-darwin-arm64-5.2.5.32793105-1067a2de.dmg",
+        "/Users/yangqi/Downloads/GoogleDrive.dmg",
+        "/Users/yangqi/Downloads/Clash.Verge_2.5.1_aarch64 (1).dmg",
+        "/Users/yangqi/Downloads/Clash.Verge_2.5.1_aarch64.dmg"
+      ],
+      "commands": [
+        {
+          "label": "移到废纸篓",
+          "cmd": "osascript -e 'tell application \"Finder\" to delete POSIX file \"/Users/yangqi/Downloads/WorkBuddy-darwin-arm64-5.2.5.32793105-1067a2de.dmg\"' && osascript -e 'tell application \"Finder\" to delete POSIX file \"/Users/yangqi/Downloads/GoogleDrive.dmg\"' && osascript -e 'tell application \"Finder\" to delete POSIX file \"/Users/yangqi/Downloads/Clash.Verge_2.5.1_aarch64 (1).dmg\"' && osascript -e 'tell application \"Finder\" to delete POSIX file \"/Users/yangqi/Downloads/Clash.Verge_2.5.1_aarch64.dmg\"'"
+        }
+      ]
+    },
+    {
+      "name": "Quark 小型普通缓存",
+      "path": "/Users/yangqi/Library/Application Support/Quark",
+      "size_estimate": "约 0.2 GB",
+      "kill_processes": [
+        "Quark",
+        "Quark Helper",
+        "夸克播放器"
+      ],
+      "trash_paths": [
+        "/Users/yangqi/Library/Application Support/Quark/Default/remote_resource_cache",
+        "/Users/yangqi/Library/Caches/Quark",
+        "/Users/yangqi/Library/Caches/com.quark.desktop",
+        "/Users/yangqi/Library/Caches/com.quark.desktop.helper.player"
+      ],
+      "commands": [
+        {
+          "label": "确认夸克已退出后直接清理",
+          "cmd": "rm -rf '/Users/yangqi/Library/Application Support/Quark/Default/remote_resource_cache' '/Users/yangqi/Library/Caches/Quark' '/Users/yangqi/Library/Caches/com.quark.desktop' '/Users/yangqi/Library/Caches/com.quark.desktop.helper.player'"
+        }
+      ]
+    }
+  ],
+  "yellow": [
+    {
+      "name": "Quark 视频缓存",
+      "path": "/Users/yangqi/Library/Application Support/Quark/Quark/Cache/videoCache",
+      "size": "约 13.8 GB",
+      "content_profile": "夸克播放器生成的视频缓存，可能包含离线视频和续播缓存。",
+      "why_manual": "这是单项收益最高的目录，但清理后已缓存视频会消失，因此应先确认没有仍需离线观看的内容。",
+      "disposal": "优先完全退出夸克和夸克播放器，在夸克的清理缓存入口处理；也可在本报告中先移到废纸篓，确认夸克正常后再清空废纸篓。",
+      "risk": "不会删除书签或账号资料，但会丢失已缓存、离线或待续播的视频内容。",
+      "trash_paths": [
+        "/Users/yangqi/Library/Application Support/Quark/Quark/Cache/videoCache"
+      ],
+      "open_note": "该目录内容由夸克内部管理，不适合按文件名手工挑选；精细操作应使用夸克的缓存管理。"
+    },
+    {
+      "name": "飞书网站与小程序离线缓存",
+      "path": "/Users/yangqi/Library/Application Support/LarkShell",
+      "size": "约 6.9 GB",
+      "content_profile": "多个飞书账号环境下的 Service Worker CacheStorage，主要是网页和小程序离线资源。",
+      "why_manual": "这些资源可再下载，但可能影响离线使用、微应用启动和当前账号环境。",
+      "disposal": "先完全退出飞书、Lark Helper 和 lark-channel-bridge；优先使用飞书应用内清理入口，或仅移动列出的 CacheStorage。",
+      "risk": "会触发重新下载并可能让部分小程序首次启动变慢；不要删除 profile_main、WebStorage、IndexedDB 或账号目录。",
+      "trash_paths": [
+        "/Users/yangqi/Library/Application Support/LarkShell/aha/users/b080780fbd59945cfb60b70a985c7a1b/profile_explorer/Service Worker/CacheStorage",
+        "/Users/yangqi/Library/Application Support/LarkShell/aha/users/87a9a1b70ea38d00a587d085fd7a6666/profile_explorer/Service Worker/CacheStorage",
+        "/Users/yangqi/Library/Application Support/LarkShell/aha/users/85882130fca470c1b3fa89949e291e69/profile_explorer/Service Worker/CacheStorage",
+        "/Users/yangqi/Library/Application Support/LarkShell/aha/users/c1d2a125bd1776757dc153538e3fe993/profile_explorer/Service Worker/CacheStorage"
+      ],
+      "open_note": "飞书内部目录按账号哈希组织，不适合在访达中逐个判断；精细清理应从飞书应用内完成。"
+    },
+    {
+      "name": "豆包网站离线缓存",
+      "path": "/Users/yangqi/Library/Application Support/Doubao/Profile 1/Service Worker/CacheStorage",
+      "size": "约 1.2 GB",
+      "content_profile": "豆包浏览器 Profile 1 的 Service Worker 离线资源。",
+      "why_manual": "可再生成，但可能影响离线资源、内嵌网页与小程序状态。",
+      "disposal": "先完全退出豆包及全部 Browser Helper；优先使用豆包应用内清理，或把该目录移到废纸篓。",
+      "risk": "首次使用会重新下载；不要手动删除 sandbox_envs_dir、Extensions、IndexedDB、WebStorage 或 Local Storage。",
+      "trash_paths": [
+        "/Users/yangqi/Library/Application Support/Doubao/Profile 1/Service Worker/CacheStorage"
+      ],
+      "open_note": "豆包另有约 1.55 GB 本地沙盒运行环境，不属于缓存，不能在此处一并删除。"
+    },
+    {
+      "name": "微信聊天文件与媒体",
+      "path": "/Users/yangqi/Library/Containers/com.tencent.xinWeChat",
+      "size": "约 7.6 GB",
+      "content_profile": "聊天文件、附件、视频、数据库和小程序运行数据；其中 msg/file 约 5.5 GB。",
+      "why_manual": "这些是用户数据并且与聊天数据库和索引关联，不能按目录名直接判断可删性。",
+      "disposal": "打开微信“设置 → 存储空间管理”，按聊天、文件类型或时间范围清理；重要文件先另存。",
+      "risk": "手工删除 msg、db_storage 或整个 Container 可能导致附件关联、聊天索引或登录状态损坏。",
+      "open_note": "微信沙盒是应用内部结构，不适合在访达里手工删除；本报告只提供定位，实际清理由微信完成。"
+    },
+    {
+      "name": "WorkBuddy 升级迁移残留",
+      "path": "/Users/yangqi/Library/Caches/com.workbuddy.workbuddy.BundleMigration",
+      "size": "约 2.1 GB",
+      "content_profile": "已下载的新版本、解压目录和回滚备份。",
+      "why_manual": "当前运行版本为 5.3.3，而迁移目录中出现 5.3.5，升级可能尚未完成，回滚备份仍有用途。",
+      "disposal": "先完成 WorkBuddy 5.3.5 升级并确认能正常启动；随后完全退出 WorkBuddy、Helper 和 sidecar，再处理整个 BundleMigration。",
+      "risk": "现在删除可能中断升级或失去回滚能力，因此暂不提供删除按钮。",
+      "open_note": "确认升级完成之前只查看，不要移动或删除其中的 extracted、backups、downloads。"
+    },
+    {
+      "name": "Codex 恢复备份",
+      "path": "/Users/yangqi/.codex/backups",
+      "size": "约 3.6 GB",
+      "content_profile": "聊天恢复、历史修复、回滚和界面修复等恢复点；多数名称带创建日期。",
+      "why_manual": "它们不是缓存，删除会失去相应回滚能力；但存在多个用途相近、日期接近的备份。",
+      "disposal": "在访达按日期和名称审查，只保留少量关键恢复点；至少保留最近一次完整备份和仍可能使用的专项修复备份。",
+      "risk": "误删后无法依赖这些目录恢复旧聊天或修复前状态。",
+      "open_note": "目录内容是恢复数据，不适合一键清理；应先确认当前 Codex 状态稳定并另做必要备份。"
+    },
+    {
+      "name": "Codex 可重新下载运行时",
+      "path": "/Users/yangqi/.cache/codex-runtimes",
+      "size": "约 1.6 GB",
+      "content_profile": "Codex 下载的本地运行时和少量安装暂存。",
+      "why_manual": "可以重新下载，但清理后首次使用相关能力需要重新安装，且必须确认当前没有运行时安装任务。",
+      "disposal": "完全退出 Codex 桌面端、CLI、插件服务和安装任务后移到废纸篓；确认功能恢复后再清空。",
+      "risk": "短期内会导致相关功能不可用并重新下载约 1.6 GB。",
+      "trash_paths": [
+        "/Users/yangqi/.cache/codex-runtimes"
+      ],
+      "open_note": "若近期频繁使用 Codex 本地运行时，保留它比反复下载更合适。"
+    },
+    {
+      "name": "本地项目与 Downloads 用户文件",
+      "path": "/Users/yangqi/Downloads",
+      "size": "约 7.0 GB",
+      "content_profile": "~/codex 约 4.9 GB，Downloads 约 2.1 GB，另有一份约 0.5 GB 的项目 ZIP 备份。",
+      "why_manual": "这些是项目代码、工具目录、PDF、媒体和压缩包，不是缓存；是否可删取决于工作状态和备份情况。",
+      "disposal": "在访达按大小和修改日期审查；已归档项目移到外置盘或云盘，确认目录内容完整后再决定是否保留对应 ZIP。",
+      "risk": "可能丢失源码、资料、工具配置或唯一备份，不能自动清理。",
+      "open_note": "Downloads 中 google-cloud-sdk 是展开后的工具而非缓存；确认不再使用 gcloud 后才能删除。"
+    }
+  ],
+  "red": [
+    {
+      "name": "Claude 与 Claude-3p 本地 VM",
+      "path": "/Users/yangqi/Library/Application Support/Claude",
+      "size": "约 17.0 GB",
+      "why_keep": "vm_bundles、claude-code-vm 和本地 agent/session 是 Claude 的运行环境与状态，两套数据在 2026-07-26 都仍有修改。",
+      "indirect_release": "先退出所有 Claude 本地任务，在 Claude 设置中寻找本地代理或 VM 的 Reset/Repair；若确认某套配置已弃用，使用 Claude 官方卸载或重装流程处理，完成后再核对对应数据目录是否仍需保留。",
+      "app_paths": [
+        "/Applications/Claude.app"
+      ]
+    },
+    {
+      "name": "Colima 容器虚拟机",
+      "path": "/Users/yangqi/.colima",
+      "size": "约 3.4 GB",
+      "why_keep": "其中是 VM 磁盘、容器镜像和 volume 数据，手删可能破坏开发环境或丢失数据库。",
+      "indirect_release": "先运行 docker system df 审查镜像、容器和 volume；只清明确无用的 Docker 资源。只有确认整个环境可抛弃时，先 colima stop，再通过 colima delete 正式删除 VM。"
+    },
+    {
+      "name": "Hermes 运行时与源码环境",
+      "path": "/Users/yangqi/.hermes",
+      "size": "约 4.2 GB",
+      "why_keep": "包含 node_modules、Python venv、Git 仓库、捆绑 Node、状态数据库、会话和恢复快照，直接删会使 Hermes 失效。",
+      "indirect_release": "若不再使用 Hermes，先导出需要的会话和配置，再通过 Hermes 自身卸载或官方重装流程移除；若继续使用，只处理报告中的绿色缓存。",
+      "app_paths": [
+        "/Applications/Hermes.app"
+      ]
+    },
+    {
+      "name": "重叠的 Office 套件",
+      "path": "/Applications",
+      "size": "约 9.4 GB",
+      "why_keep": "Microsoft Word、Excel、PowerPoint、OneNote 与 LibreOffice 合计约 9.4 GB；系统元数据没有记录它们的最近使用日期，但这不能证明从未使用。",
+      "indirect_release": "如果日常主要使用 WPS，可先逐个打开旧文档确认兼容性，再卸载不用的 Microsoft Office 或 LibreOffice。优先用应用自带卸载器、AppCleaner，或在访达中把确认不用的 .app 移到废纸篓；不要手动拆应用包。",
+      "app_paths": [
+        "/Applications/Microsoft Word.app",
+        "/Applications/Microsoft Excel.app",
+        "/Applications/Microsoft PowerPoint.app",
+        "/Applications/Microsoft OneNote.app",
+        "/Applications/LibreOffice.app"
+      ]
+    },
+    {
+      "name": "可能不再需要的替代应用",
+      "path": "/Applications",
+      "size": "约 2.6 GB",
+      "why_keep": "Microsoft Edge、Cursor、Gemini 和 Clash Verge 与当前常用的 Chrome、其他 IDE、AI 客户端及 Shadowrocket 存在功能重叠，但是否仍需使用只能由本人判断。",
+      "indirect_release": "逐个确认书签、扩展、项目配置和登录数据是否已同步；确认不用后从访达或应用自带卸载器移除。Clash Verge 应用本体仅约 156 MB，卸载它对释放空间帮助很小。",
+      "app_paths": [
+        "/Applications/Microsoft Edge.app",
+        "/Applications/Cursor.app",
+        "/Applications/Gemini.app",
+        "/Applications/Clash Verge.app"
+      ]
+    }
+  ],
+  "denied": [
+    "/Users/yangqi/.Trash"
+  ],
+  "summary": {
+    "overview": "完全保留 Chrome，不碰聊天记录和项目文件；清理其余高置信缓存、夸克视频缓存、飞书与豆包离线缓存后，仍可释放约 33 GB。",
+    "tier_stats": {
+      "green": "约 11.0 GB",
+      "yellow": "约 43.1 GB",
+      "red": "约 36.6 GB"
+    },
+    "priority": [
+      "第一优先：退出夸克和夸克播放器，通过应用内入口清理约 13.8 GB 视频缓存。",
+      "第二优先：分批退出豆包、飞书、Claude、Codex、Ego Lite 和 Edge 等应用，清理约 11.0 GB 高置信缓存；优先使用“移到废纸篓”以便回退。",
+      "第三优先：清理飞书约 6.9 GB、豆包约 1.2 GB 的 Service Worker 离线资源；Chrome 全部保留。",
+      "第四优先：完成 WorkBuddy 5.3.5 升级并确认稳定后，再清理约 2.1 GB BundleMigration。",
+      "微信、Claude VM、Codex 恢复备份、Colima 和本地项目不做一键删除，分别走应用内清理、Reset/Repair、人工筛选或正式卸载流程。"
+    ],
+    "long_term": [
+      "将可用空间长期维持在 30–40 GB 以上，避免 APFS、缓存、更新和 swap 同时争抢最后空间。",
+      "每月检查夸克、Chrome、飞书、豆包和微信的应用内存储管理；离线媒体和 Service Worker 缓存是本机增长最快的来源。",
+      "定期运行 brew cleanup --prune=all，并审查 npm、uv、Codex 运行时和 Xcode/容器开发缓存。",
+      "不再使用某套 AI 客户端、浏览器、IDE 或虚拟机时，优先正式卸载，而不是只删除缓存；应用本体和 Application Support 往往分别占空间。",
+      "大型项目、毕业照、媒体和长期备份适合归档到外置盘、iCloud 或 NAS；在 macOS“系统设置 → 通用 → 储存空间”中开启适合自己的优化选项。",
+      "废纸篓当前因 macOS 权限不可读；移入废纸篓只提供回退能力，必须在确认无误后清空才会真正释放空间。"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-2ead5662b517f5cff3707296",
+  "candidate_id": "chrome-default-bookmarks:item:00000062",
+  "source_id": "chrome-default-bookmarks",
+  "title": "考研资料到底去哪里找？ | LUCEN",
+  "original_url": "https://www.lucenczz.top/article/342652eb-4c65-425d-99d3-9d2fdf308af7",
+  "requested_url": "https://www.lucenczz.top/article/342652eb-4c65-425d-99d3-9d2fdf308af7",
+  "final_url": "https://www.lucenczz.top/article/342652eb-4c65-425d-99d3-9d2fdf308af7",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:07.881058+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 22503,
+  "body_sha256": "0817ecf44b61c9471916086b2d316dabcf082c6b855ca3f50d15560bb298b09b"
+}

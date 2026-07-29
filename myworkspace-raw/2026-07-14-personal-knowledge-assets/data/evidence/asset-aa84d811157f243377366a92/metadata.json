@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-aa84d811157f243377366a92",
+  "candidate_id": "edge-default-bookmarks:item:00000023",
+  "source_id": "edge-default-bookmarks",
+  "title": "河北科技大学_图书馆",
+  "original_url": "https://lib.web.hebust.edu.cn/",
+  "requested_url": "https://lib.web.hebust.edu.cn/",
+  "final_url": "https://lib.web.hebust.edu.cn/",
+  "redirects": [],
+  "captured_at": "2026-07-15T09:16:18.782057+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

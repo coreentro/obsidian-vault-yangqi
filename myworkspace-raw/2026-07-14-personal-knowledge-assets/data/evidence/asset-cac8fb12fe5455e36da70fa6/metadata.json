@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-cac8fb12fe5455e36da70fa6",
+  "candidate_id": "chrome-default-bookmarks:item:00000038",
+  "source_id": "chrome-default-bookmarks",
+  "title": "有了这八个网站，帮你找到90%的电子书 - 夜半春风 - 简书",
+  "original_url": "https://www.jianshu.com/p/314cab13cdd8",
+  "requested_url": "https://www.jianshu.com/p/314cab13cdd8",
+  "final_url": "https://www.jianshu.com/p/314cab13cdd8",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:42.523677+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 145249,
+  "body_sha256": "afd62247a1e59c5c3013280efff6eb0dc90b05b3f17447d8fee4231c61ece31f"
+}

@@ -1,0 +1,140 @@
+{
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v001.json",
+  "assessment": "data/local-pdf-content-assessment-2026-07-15-v001.json",
+  "captured_total": 5,
+  "created_at": "2026-07-15T18:10:00+08:00",
+  "ledger_assets_in_batch": 5,
+  "results": [
+    {
+      "asset_id": "asset-3fbcf67ed7a98b00ee486d7e",
+      "authors": "Min Yang et al.",
+      "candidate_id": "mac-current-local:item:00001407",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-3fbcf67ed7a98b00ee486d7e",
+      "extracted_text_characters": 68222,
+      "page_count": 15,
+      "source_byte_length": 7843153,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2021-04-08_Roles of Oxygen Vacancies of CeO2 and Mn-Doped CeO2 with the Same Morphology in Benzene Catalytic....pdf",
+      "source_sha256": "bfb9dfdd8471b7ee70eada95661dbd848da311cca8aabb2619f141f6747ce2c7",
+      "title": "Roles of Oxygen Vacancies of CeO2 and Mn-Doped CeO2 with the Same Morphology in Benzene Catalytic Oxidation",
+      "topics": [
+        "chemistry",
+        "ceria",
+        "oxygen-vacancies",
+        "benzene-oxidation",
+        "catalysis"
+      ],
+      "value_score": 90,
+      "visually_reviewed_pages": [
+        1,
+        8,
+        15
+      ]
+    },
+    {
+      "asset_id": "asset-86113a802617c36dbd457196",
+      "authors": "Yvette Lock Toy Ki et al.",
+      "candidate_id": "mac-current-local:item:00001409",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-86113a802617c36dbd457196",
+      "extracted_text_characters": 91402,
+      "page_count": 15,
+      "source_byte_length": 9119643,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2022-04-08_Mechanochemistry and Eco-Bases for Sustainable Michael Addition Reactions.pdf",
+      "source_sha256": "3045a82e4ec2c2706a6ad14ad029362935d77a538900e76e023bf4594f97ee77",
+      "title": "Mechanochemistry and Eco-Bases for Sustainable Michael Addition Reactions",
+      "topics": [
+        "chemistry",
+        "mechanochemistry",
+        "green-chemistry",
+        "michael-addition",
+        "heterogeneous-catalysis"
+      ],
+      "value_score": 92,
+      "visually_reviewed_pages": [
+        1,
+        8,
+        15
+      ]
+    },
+    {
+      "asset_id": "asset-ff5229e120d76f1a75763aa0",
+      "authors": "Xin Zhang et al.",
+      "candidate_id": "mac-current-local:item:00001410",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-ff5229e120d76f1a75763aa0",
+      "extracted_text_characters": 38215,
+      "page_count": 8,
+      "source_byte_length": 3943284,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2022-04-08_Sulfur vacancies-induced ⠜Electron Bridge⠀ in Ni4MoSv-ZnxCd1-xS regulates electron transfer for e....pdf",
+      "source_sha256": "87ea6c6edc4c2f203e8b758a28c9b3d24a56e902172be2afeb5385ea65f43d4b",
+      "title": "Sulfur vacancies-induced Electron Bridge in Ni4Mo/Sv-ZnxCd1-xS regulates electron transfer for efficient H2-releasing photocatalysis",
+      "topics": [
+        "chemistry",
+        "photocatalysis",
+        "hydrogen-evolution",
+        "sulfur-vacancies",
+        "electron-transfer"
+      ],
+      "value_score": 94,
+      "visually_reviewed_pages": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "asset_id": "asset-7cd584c251dc4632357147b1",
+      "authors": "Yong-Hui Wu et al.",
+      "candidate_id": "mac-current-local:item:00001419",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-7cd584c251dc4632357147b1",
+      "extracted_text_characters": 40722,
+      "page_count": 8,
+      "source_byte_length": 2255036,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2024-04-08_Rational construction of S-scheme CdS quantum dotsIn2O3 hollow nanotubes heterojunction for enhan....pdf",
+      "source_sha256": "d9ebf7946c67bd88023405b2ac214edf4416290de328050037d7cbfebb6cb1b6",
+      "title": "Rational construction of S-scheme CdS quantum dots/In2O3 hollow nanotubes heterojunction for enhanced photocatalytic H2 evolution",
+      "topics": [
+        "chemistry",
+        "photocatalysis",
+        "hydrogen-evolution",
+        "s-scheme-heterojunction",
+        "quantum-dots"
+      ],
+      "value_score": 94,
+      "visually_reviewed_pages": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "asset_id": "asset-fee4796ca698d53aff87fa76",
+      "authors": "Alexandra-Elisabeta Stamate et al.",
+      "candidate_id": "mac-current-local:item:00028213",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-fee4796ca698d53aff87fa76",
+      "extracted_text_characters": 53544,
+      "page_count": 16,
+      "source_byte_length": 21289111,
+      "source_path": "/Users/yangqi/Downloads/molecules-26-06191-v3.pdf",
+      "source_sha256": "8380f4e29b1af3227de9632e55818fc76827a1fd325bb60e170611213425bd65",
+      "title": "The Influence of the Preparation Method on the Physico-Chemical Properties and Catalytic Activities of Ce-Modified LDH Structures Used as Catalysts in Condensation Reactions",
+      "topics": [
+        "chemistry",
+        "catalysis",
+        "layered-double-hydroxides",
+        "mechanochemistry",
+        "condensation-reactions"
+      ],
+      "value_score": 87,
+      "visually_reviewed_pages": [
+        1,
+        8,
+        16
+      ]
+    }
+  ],
+  "schema_version": 1
+}

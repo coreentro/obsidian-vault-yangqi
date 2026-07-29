@@ -1,0 +1,1016 @@
+{
+  "experimentIds": [
+    106018681,
+    105979538,
+    105979560,
+    106015337,
+    105979579,
+    105867471,
+    105979522,
+    105995634,
+    106121401,
+    106100625,
+    104638466,
+    101868197,
+    104817729,
+    105695344,
+    104913215,
+    105821930,
+    106413419,
+    104922093,
+    103012598,
+    106143956,
+    106451072,
+    105856899,
+    106312323,
+    106064030,
+    105757908,
+    105723762,
+    105822884,
+    105785684,
+    105721273,
+    105897325,
+    105658067,
+    106240758,
+    105885550,
+    105864341,
+    105943702,
+    106106762,
+    106057393,
+    106106760,
+    106283618,
+    105620019,
+    106038160,
+    106281951,
+    106264532,
+    106222835,
+    106094629,
+    105887313,
+    105849474,
+    106032303,
+    106228452,
+    106113886,
+    106121607,
+    103118072,
+    105979531,
+    105979553,
+    106015328,
+    105867469,
+    105979517,
+    106121399,
+    106100654,
+    104638459,
+    101551624,
+    104673683,
+    105695346,
+    104913210,
+    105821928,
+    106413417,
+    104922082,
+    103012592,
+    106064028,
+    105011762,
+    105822881,
+    105721268,
+    105895316,
+    105658064,
+    106240748,
+    105885549,
+    105863625,
+    105943694,
+    106057389,
+    106283614,
+    105620012,
+    106038153,
+    105887311,
+    106032301,
+    106113877,
+    106121604,
+    103118069,
+    106018680
+  ],
+  "flags": [
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45752213,
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45743869,
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45773188,
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45750526,
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45761848,
+      "boolValue": true
+    },
+    {
+      "flagId": 45760185,
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45771641,
+      "boolValue": true
+    },
+    {
+      "flagId": 45740196,
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45784352,
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45773187,
+      "stringValue": ""
+    },
+    {
+      "flagId": 45740199,
+      "stringValue": ""
+    },
+    {
+      "stringValue": "CHAT_CLIENT_CLOUD_CODE_GEMINI_2_0_FLASH_001"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "flagId": 45773036,
+      "stringValue": ""
+    },
+    {
+      "stringValue": "whitespace"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "flagId": 45740200,
+      "stringValue": "Gemini CLI stopped serving requests to Google One and unpaid tiers on June 18 2026. Please migrate to Antigravity CLI at https://antigravity.google/product/antigravity-cli\nLearn more: https://goo.gle/gemini-cli-migration"
+    },
+    {
+      "stringValue": "wald_word3"
+    },
+    {
+      "stringValue": "wholefile"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": "/ml/m2p-role-prod-intentclassifiergca-servo-owner/prod.intentclassifiergca"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "flagId": 45774515,
+      "intValue": "10"
+    },
+    {
+      "intValue": "2"
+    },
+    {
+      "intValue": "-1"
+    },
+    {
+      "intValue": "2"
+    },
+    {
+      "intValue": "40"
+    },
+    {
+      "intValue": "-1"
+    },
+    {
+      "intValue": "64000"
+    },
+    {
+      "intValue": "3500000"
+    },
+    {
+      "intValue": "10"
+    },
+    {
+      "flagId": 45773189,
+      "intValue": "30"
+    },
+    {
+      "flagId": 45773134,
+      "intValue": "300"
+    },
+    {
+      "intValue": "3500000"
+    },
+    {
+      "intValue": "35000"
+    },
+    {
+      "intValue": "0"
+    },
+    {
+      "intValue": "43200000"
+    },
+    {
+      "intValue": "10"
+    },
+    {
+      "intValue": "2"
+    },
+    {
+      "intValue": "3"
+    },
+    {
+      "flagId": 45773190,
+      "intValue": "15"
+    },
+    {
+      "intValue": "60"
+    },
+    {
+      "intValue": "100"
+    },
+    {
+      "intValue": "25000"
+    },
+    {
+      "intValue": "2"
+    },
+    {
+      "intValue": "20"
+    },
+    {
+      "intValue": "300"
+    },
+    {
+      "intValue": "0"
+    },
+    {
+      "intValue": "2"
+    },
+    {
+      "intValue": "4"
+    },
+    {
+      "intValue": "60000"
+    },
+    {
+      "flagId": 45773135,
+      "intValue": "600"
+    },
+    {
+      "intValue": "15"
+    },
+    {
+      "flagId": 45750527,
+      "intValue": "90"
+    },
+    {
+      "intValue": "15"
+    },
+    {
+      "intValue": "2"
+    },
+    {
+      "floatValue": 20
+    },
+    {
+      "floatValue": 4194300
+    },
+    {
+      "floatValue": 250
+    },
+    {
+      "floatValue": 0
+    },
+    {
+      "floatValue": 0.8
+    },
+    {
+      "floatValue": 0.8
+    },
+    {
+      "floatValue": 0.4
+    },
+    {
+      "flagId": 45740197,
+      "floatValue": 0.7
+    },
+    {
+      "int32ListValue": {}
+    },
+    {
+      "int32ListValue": {}
+    },
+    {
+      "stringListValue": {
+        "values": [
+          "document",
+          "comment"
+        ]
+      }
+    },
+    {
+      "stringListValue": {
+        "values": [
+          "test"
+        ]
+      }
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "flagId": 45807049,
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": true
+    },
+    {
+      "flagId": 45808439,
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "boolValue": false
+    },
+    {
+      "stringValue": "{\"max_fuzzy_edit_distance_fraction\": 0.001, \"allow_partial_replacement_success\": true, \"use_line_range\": true, \"tool_variant\": \"REPLACE_TOOL_VARIANT_SINGLE_MULTI\", \"fast_apply_fallback_config\": {\"enabled\": true, \"prompt_unchanged_threshold\": 5, \"content_view_radius_lines\": 200, \"content_edit_radius_lines\": 5}}"
+    },
+    {
+      "stringValue": "{\"system_allowlist\": [], \"sandbox_system_allowlist\": [\"head\", \"tail\", \"mkdir\", \"cd\", \"cp\", \"mv\", \"cat\", \"find\", \"grep\", \"rm\", \"touch\", \"less\", \"clear\", \"ls\"]}"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": "{}"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": "{\n      \"dangerous_binaries\": [\n        \"python\", \"python3\", \"python2\", \"node\", \"ruby\", \"perl\", \"lua\", \"php\",\n        \"bash\", \"sh\", \"zsh\", \"fish\", \"csh\", \"tcsh\", \"ksh\", \"dash\", \"ash\", \"source\", \"eval\", \"exec\",\n        \"rm\", \"rmdir\", \"shred\",\n        \"sudo\", \"su\", \"doas\",\n        \"curl\", \"wget\", \"ssh\", \"scp\", \"rsync\", \"nc\", \"ncat\",\n        \"pip\", \"pip3\", \"pipx\", \"cargo\", \"go\",\n        \"dd\", \"mkfs\", \"fdisk\", \"mount\", \"umount\", \"chown\", \"chmod\", \"chroot\", \"kill\", \"killall\", \"reboot\", \"halt\"\n      ],\n      \"subcommand_tools\": [\n        \"git\", \"hg\", \"g4\", \"jj\", \"svn\",\n        \"blaze\", \"bazel\", \"make\", \"ninja\", \"gradle\", \"mvn\", \"buck\", \"buck2\", \"pants\", \"scons\", \"cmake\", \"meson\", \"just\", \"forge\", \"glaze\", \"buildozer\",\n        \"npm\", \"yarn\", \"pnpm\", \"bun\", \"brew\", \"apt\", \"apt-get\", \"dnf\", \"pacman\",\n        \"docker\", \"podman\", \"kubectl\",\n        \"gcloud\", \"gsutil\", \"bq\", \"firebase\", \"az\", \"aws\",\n        \"fileutil\", \"build_cleaner\", \"stubby\", \"rapid\", \"mendel\", \"guitar\", \"boq\", \"gcl\", \"f1-sql\", \"bluze\", \"rpcreplay\", \"flex\",\n        \"systemctl\", \"journalctl\", \"launchctl\"\n      ],\n      \"dangerous_subcommands\": {\n        \"kubectl\": {\n          \"subcommands\": [\"delete\", \"drain\", \"cordon\", \"taint\"]\n        },\n        \"docker\": {\n          \"subcommands\": [\"run\", \"exec\", \"rm\", \"rmi\"]\n        },\n        \"podman\": {\n          \"subcommands\": [\"run\", \"exec\", \"rm\", \"rmi\"]\n        },\n        \"systemctl\": {\n          \"subcommands\": [\"restart\", \"stop\", \"start\", \"enable\", \"disable\", \"mask\"]\n        },\n        \"launchctl\": {\n          \"subcommands\": [\"unload\", \"remove\"]\n        },\n        \"git\": {\n          \"subcommands\": [\"push\", \"clean\", \"reset\"]\n        },\n        \"brew\": {\n          \"subcommands\": [\"uninstall\", \"remove\"]\n        }\n      }\n    }"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": "v2"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": "MODEL_PLACEHOLDER_M18"
+    },
+    {
+      "stringValue": "{\"enabled\": true, \"max_conversations\": 20}"
+    },
+    {
+      "stringValue": "{\"enabled\": false, \"min_turns_between_knowledge_generation\": 10000}"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "stringValue": "{\"enabled\": true, \"hideNominalToolSteps\": false, \"hidePlannerResponseText\": false, \"maxBytesPerStep\": 4096, \"maxBytesPerToolArg\": 2048, \"hideSystemSteps\": false, \"hideUserImplicitSteps\": false}"
+    },
+    {
+      "stringValue": ""
+    },
+    {
+      "intValue": "16384"
+    },
+    {
+      "intValue": "150"
+    },
+    {
+      "intValue": "10"
+    },
+    {
+      "intValue": "60"
+    },
+    {
+      "intValue": "10"
+    },
+    {
+      "intValue": "500"
+    },
+    {
+      "intValue": "0"
+    },
+    {
+      "intValue": "30"
+    },
+    {
+      "intValue": "30"
+    },
+    {
+      "stringListValue": {}
+    },
+    {
+      "stringListValue": {}
+    }
+  ]
+}

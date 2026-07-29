@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-78f2c8d023434db6f6e9fd2c",
+  "candidate_id": "edge-default-bookmarks:item:00000021",
+  "source_id": "edge-default-bookmarks",
+  "title": "河北科技大学_教务处",
+  "original_url": "https://jiaowu.web.hebust.edu.cn/",
+  "requested_url": "https://jiaowu.web.hebust.edu.cn/",
+  "final_url": "https://jiaowu.web.hebust.edu.cn/",
+  "redirects": [],
+  "captured_at": "2026-07-15T09:16:18.780995+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-5d9cc1f0c369925c9c338cd2",
+  "candidate_id": "chrome-default-bookmarks:item:00000052",
+  "source_id": "chrome-default-bookmarks",
+  "title": "考研云-分享考研资料真题及考研笔记 - A姐分享",
+  "original_url": "https://www.ahhhhfs.com/54221/",
+  "requested_url": "https://www.ahhhhfs.com/54221/",
+  "final_url": "https://www.ahhhhfs.com/54221/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:06.394837+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 96433,
+  "body_sha256": "bdfd136c60224e6e05d2128d6b523cb04a6a942ce61f170cebbd2e75c62ce8bf"
+}

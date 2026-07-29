@@ -1,0 +1,56 @@
+{
+  "schema_version": "sync-verification-v005",
+  "generated_at": "2026-07-15T20:20:28.698556+08:00",
+  "batch": "local-pdf-capture-batch-005-2026-07-15",
+  "google_drive": {
+    "root": "personal-knowledge-assets/01-raw-evidence",
+    "packages": [
+      {
+        "asset_id": "asset-4aa881d09db219e0cd886bb6",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-5cb1e04f3a38c571dbf2be3d",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-95191c77b81506cc30141d85",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-4e90929cea233faf04959aaa",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      },
+      {
+        "asset_id": "asset-5ef1ee75c15e6bffb2c9b908",
+        "local_files": 9,
+        "drive_files": 9,
+        "hashes_match": true
+      }
+    ],
+    "all_package_hashes_match": true
+  },
+  "feishu": {
+    "folder": "01-indexes",
+    "uploaded_artifact_tokens": {
+      "allowlist": "BbQzbhhXHo9OJLxypPhcaMm8nzb",
+      "assessment": "C9NgbQHjLozQ8rx9QZscc0fYnHe",
+      "batch": "YnbdbZdDso2T8Sxodnpce2WPnPg",
+      "replay": "P2AcbjDbmoMiFaxZHStcuZXHnkh",
+      "aliases": "UOxdb5LploZEzzxmBcecnX3ynrb",
+      "search_index": "EwbAbOKCOo1pSPxkuX1cmftvnth",
+      "ledger": "HgirbleleoJak0xAq8KcysRinBe"
+    },
+    "assets_table_rows_added": 5,
+    "review_queue_rows_added": 5
+  },
+  "no_overwrite": true
+}

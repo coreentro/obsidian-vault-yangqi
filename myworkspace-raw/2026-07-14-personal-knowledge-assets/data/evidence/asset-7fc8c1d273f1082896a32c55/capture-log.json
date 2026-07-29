@@ -1,0 +1,10 @@
+{
+  "limitations": [],
+  "method": "read-only local file capture",
+  "post_read_hash_verified": true,
+  "post_read_identity_verified": true,
+  "pre_read_frozen_hash_verified": true,
+  "source_mutated": false,
+  "text_decoding": "utf-8 strict",
+  "transcript": "not applicable to a native text document"
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "run_dir": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-13-avatar-pet/xiao-mo-run",
+  "spritesheet": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-13-avatar-pet/xiao-mo-run/final/spritesheet.webp",
+  "validation": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-13-avatar-pet/xiao-mo-run/final/validation.json",
+  "contact_sheet": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-13-avatar-pet/xiao-mo-run/qa/contact-sheet.png",
+  "review": "/Users/yangqi/Documents/Codex/MyWorkspace/2026-07-13-avatar-pet/xiao-mo-run/qa/review.json",
+  "package": "/Users/yangqi/.codex/pets/xiao-mo",
+  "versioned_install": false
+}

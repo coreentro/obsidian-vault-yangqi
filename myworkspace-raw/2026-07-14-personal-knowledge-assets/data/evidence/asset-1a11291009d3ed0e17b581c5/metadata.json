@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-1a11291009d3ed0e17b581c5",
+  "candidate_id": "edge-default-bookmarks:item:00000028",
+  "source_id": "edge-default-bookmarks",
+  "title": "Zotero 插件商店 | Zotero 中文社区",
+  "original_url": "https://zotero-chinese.com/plugins/",
+  "requested_url": "https://zotero-chinese.com/plugins/",
+  "final_url": "https://zotero-chinese.com/plugins/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:49.905158+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 15143,
+  "body_sha256": "6457b9b5120f2723ccbed73dd450cc4ab36533cec4aec7cb29f53b1801b19972"
+}

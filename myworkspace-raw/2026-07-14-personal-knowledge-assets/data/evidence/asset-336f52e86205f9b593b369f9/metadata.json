@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-336f52e86205f9b593b369f9",
+  "candidate_id": "chrome-profile-1-bookmarks:item:00000024",
+  "source_id": "chrome-profile-1-bookmarks",
+  "title": "GitHub - kjfx/QuantumultX: Quantumult X 新手入门教程",
+  "original_url": "https://github.com/kjfx/QuantumultX/",
+  "requested_url": "https://github.com/kjfx/QuantumultX/",
+  "final_url": "https://github.com/kjfx/QuantumultX/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:44.575598+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 320363,
+  "body_sha256": "09e6b95e241c30184676dbf72d01155b4fc82b05117da62abdb3aefa1312aab1"
+}

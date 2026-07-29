@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "asset_id": "asset-86113a802617c36dbd457196",
+  "source_id": "mac-current-local",
+  "created_at": "2026-07-15T10:38:59.944767+00:00",
+  "completeness": "complete",
+  "immutable_files": [
+    {
+      "path": "capture-log.json",
+      "byte_length": 432,
+      "sha256": "cb89051c8a240d8fae85faad2a3b014505c8baac22a4e2c50eeb398d1e5a1394",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "comments.json",
+      "byte_length": 121,
+      "sha256": "db35224487c6075a440912480e303f8da0c2d4f2f5ee12a14c1a39714b1e210d",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "extraction.json",
+      "byte_length": 330,
+      "sha256": "b110f67dc55bb90249a1920c34bdba961069d03b9b8bf8cf00361920e432ca11",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "metadata.json",
+      "byte_length": 634,
+      "sha256": "17a8a09147710e31e55cbbb2c99fd450e3a2d0430631c320938fa2e8db80e344",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "source-original.pdf",
+      "byte_length": 9119643,
+      "sha256": "3045a82e4ec2c2706a6ad14ad029362935d77a538900e76e023bf4594f97ee77",
+      "mime_type": "application/pdf",
+      "role": "source"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "source.md",
+      "byte_length": 92232,
+      "sha256": "016a981d10eae919e527e2d756a50eef14f0e1b5bd61f15967cf873ae697f65e",
+      "mime_type": "text/markdown",
+      "parent": "transcript-raw.txt",
+      "transformation": "exact UTF-8 copy of transcript-raw.txt; no characters added, removed, or reordered"
+    },
+    {
+      "path": "transcript-raw.txt",
+      "byte_length": 92232,
+      "sha256": "016a981d10eae919e527e2d756a50eef14f0e1b5bd61f15967cf873ae697f65e",
+      "mime_type": "text/plain",
+      "parent": "source-original.pdf",
+      "transformation": "pypdf page-by-page text extraction with explicit page boundaries; no extracted page text omitted"
+    }
+  ],
+  "limitations": [],
+  "capture_events": []
+}

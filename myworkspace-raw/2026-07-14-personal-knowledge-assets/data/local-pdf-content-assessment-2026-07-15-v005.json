@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T20:16:00+08:00",
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v005.json",
+  "assessment_scope": "All 494 pages were traversed for text extraction and privacy review; first, middle, and last pages were rendered and visually inspected for each PDF.",
+  "visual_quality_result": "All fifteen sampled pages were legible, correctly oriented, and unclipped. The AIGC laboratory material contains screenshots whose visual information is not fully represented by extracted text. The Althusser volume is a scanned book with fourteen pages yielding no extracted text; sampled content and cover-spread pages are visually legible, while the exact original PDF remains authoritative.",
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001411",
+      "decision": "accepted",
+      "title": "The Green Chemistry of Chalcones: Valuable Sources of Privileged Core Structures for Drug Discovery",
+      "authors": "Ludovica Marotta et al.",
+      "value_score": 94,
+      "topics": ["chemistry", "chalcones", "green-chemistry", "drug-discovery", "organic-synthesis"],
+      "page_count": 22,
+      "extracted_text_characters": 96725,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 11, 22],
+      "safety_hits": [],
+      "reason": "High-value open-access review connecting green synthetic methods, chalcone derivatization, privileged medicinal-chemistry scaffolds, and drug-discovery applications."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001414",
+      "decision": "accepted",
+      "title": "太阳能制氢关键技术研究",
+      "authors": "李建林、梁忠豪、李光辉、宋洁、徐桂芝",
+      "value_score": 92,
+      "topics": ["solar-energy", "hydrogen-production", "photocatalysis", "thermochemical-cycles", "energy-systems"],
+      "page_count": 10,
+      "extracted_text_characters": 29783,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 5, 10],
+      "safety_hits": [],
+      "reason": "Reusable overview comparing photocatalytic, thermochemical-cycle, and photosynthetic solar-hydrogen routes, including technical bottlenecks and deployment considerations."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001428",
+      "decision": "accepted",
+      "title": "实验 4：文本类 AIGC 的应用与实践",
+      "authors": "林子雨",
+      "value_score": 85,
+      "topics": ["artificial-intelligence", "aigc", "prompt-design", "digital-literacy", "practical-tutorial"],
+      "page_count": 12,
+      "extracted_text_characters": 5826,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 6, 12],
+      "safety_hits": [],
+      "additional_limitations": ["The tutorial contains interface screenshots and visual examples that are not fully represented in derived text extraction. The exact source-original.pdf is authoritative for all screenshot content; no visual text was guessed or reconstructed."],
+      "reason": "Practical instructional material covering prompt design, text generation, academic-summary drafting, and document-analysis workflows, with reproducible visual examples."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001438",
+      "decision": "accepted",
+      "title": "Bio-derived ZnO Nanoflower: A Highly Efficient Catalyst for Synthesis of Chalcones Derivatives",
+      "authors": "Chandan Tamuly et al.",
+      "value_score": 90,
+      "topics": ["chemistry", "zinc-oxide", "nanoflowers", "chalcones", "heterogeneous-catalysis"],
+      "page_count": 7,
+      "extracted_text_characters": 23489,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 4, 7],
+      "safety_hits": [],
+      "additional_limitations": ["This file is an accepted manuscript produced before final technical editing, formatting, and proof reading. Publication-state differences are preserved explicitly; the exact accepted-manuscript PDF is authoritative for this captured source version."],
+      "reason": "Reusable experimental study of bio-derived ZnO nanoflower synthesis, material characterization, and microwave-assisted Claisen-Schmidt condensation for chalcone derivatives."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001443",
+      "decision": "accepted",
+      "title": "在哲学中成为马克思主义者",
+      "authors": "路易·阿尔都塞；吴子枫译；陈越编",
+      "value_score": 95,
+      "topics": ["marxist-philosophy", "althusser", "historical-materialism", "dialectics", "philosophy"],
+      "page_count": 443,
+      "extracted_text_characters": 324263,
+      "empty_text_pages": [3, 4, 5, 7, 11, 13, 15, 87, 357, 359, 437, 438, 439, 440],
+      "visually_reviewed_pages": [1, 222, 443],
+      "safety_hits": [],
+      "additional_limitations": ["This is a scanned book. Fourteen pages yielded no extracted text; these may be blank, image-only, front/back matter, or OCR-limited pages. The exact source-original.pdf is authoritative, and no absent OCR text was guessed or reconstructed.", "Derived OCR may contain recognition errors even where text was extracted. Use the original page image for quotation or close textual interpretation.", "Private personal research use only; no third-party full-text republication."],
+      "reason": "High-value Marxist philosophy collection directly relevant to the user's stated analytical framework, including philosophical practice, Marx, Spinoza, dialectics, ideology, politics, and history."
+    }
+  ]
+}

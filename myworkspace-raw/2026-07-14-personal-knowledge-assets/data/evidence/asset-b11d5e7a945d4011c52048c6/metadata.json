@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-b11d5e7a945d4011c52048c6",
+  "candidate_id": "chrome-profile-2-bookmarks:item:00000042",
+  "source_id": "chrome-profile-2-bookmarks",
+  "title": "Cool Papers - Immersive Paper Discovery",
+  "original_url": "https://papers.cool/",
+  "requested_url": "https://papers.cool/",
+  "final_url": "https://papers.cool/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:46.805113+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 328332,
+  "body_sha256": "019314e97e081acc3a8bebb3fd559ae54ae1c15448e896a4b5268ac554187936"
+}

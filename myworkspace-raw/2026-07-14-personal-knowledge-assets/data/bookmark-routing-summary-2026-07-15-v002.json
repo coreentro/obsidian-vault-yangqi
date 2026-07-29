@@ -1,0 +1,22 @@
+{
+  "attempted": 46,
+  "duplicate_excess_total": 39,
+  "generated_at": "2026-07-15T17:33:27+08:00",
+  "policy": "All remaining rows are manual queues. No routing record authorizes capture, login, download, or access-control bypass.",
+  "route_counts": {
+    "attempted::manual-platform-or-session": 1,
+    "attempted::manual-private-or-account": 2,
+    "attempted::manual-sensitive-resource": 3,
+    "attempted::public-anonymous-review": 40,
+    "unattempted::manual-platform-or-session": 23,
+    "unattempted::manual-private-or-account": 12,
+    "unattempted::manual-sensitive-resource": 34,
+    "unattempted::manual-unresolved-conservative": 122
+  },
+  "routing_file": "data/bookmark-routing-2026-07-15-v002.jsonl",
+  "routing_sha256": "9d0e586c2ca30664e6229651cce1091ab5c9167a9820605db35e24f9db097e84",
+  "schema_version": 2,
+  "total_bookmarks": 237,
+  "unattempted": 191,
+  "unique_canonical_groups": 198
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-b67c2a52161c34ac6f51f353",
+  "candidate_id": "chrome-default-bookmarks:item:00000053",
+  "source_id": "chrome-default-bookmarks",
+  "title": "研究生招生信息网",
+  "original_url": "https://yzxc.ustb.edu.cn/sssbkzn/sszszyml/2023/index.htm",
+  "requested_url": "https://yzxc.ustb.edu.cn/sssbkzn/sszszyml/2023/index.htm",
+  "final_url": "https://yzxc.ustb.edu.cn/sssbkzn/sszszyml/2023/index.htm",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:04.512796+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 36339,
+  "body_sha256": "560a82f4f0eee47137a03c6386ef8ecd4f5cbce484f884c18f33c6dbf1a75689"
+}

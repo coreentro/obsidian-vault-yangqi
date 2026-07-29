@@ -1,0 +1,17 @@
+{
+  "asset_id": "asset-700f77c332f64cc6421c0954",
+  "candidate_id": "edge-default-bookmarks:item:00000030",
+  "source_id": "edge-default-bookmarks",
+  "title": "河北科技大学_理学院导师简介",
+  "original_url": "https://lxy.web.hebust.edu.cn/rcpy/yjsjy/dsjj/index.htm",
+  "requested_url": "https://lxy.web.hebust.edu.cn/rcpy/yjsjy/dsjj/index.htm",
+  "final_url": "https://www.hebust.edu.cn/404.html",
+  "redirects": [
+    "https://www.hebust.edu.cn/404.html"
+  ],
+  "captured_at": "2026-07-15T08:07:10.080284+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 1237,
+  "body_sha256": "7841733cd49c228ae4c17183b053e3a19cc7fcde36dedadee9b02d2dffb922f1"
+}

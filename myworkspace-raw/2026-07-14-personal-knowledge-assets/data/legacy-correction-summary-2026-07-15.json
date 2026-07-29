@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-15T16:43:00+08:00",
+  "legacy_package_count": 40,
+  "legacy_package_file_tree_sha256": "09084abfaeb626f4159d70f024398522e90064b4d5077598497ff41a4bacac67",
+  "correction_root": "data/evidence-corrections/legacy-v2-2026-07-15",
+  "correction_file_count": 80,
+  "manifest_v2_aggregate_sha256": "43bbc0b6b8c92da67f690668dc64f64f478ce7876dc2f7ce4a6a65ec27375f63",
+  "original_package_mutation_count": 0,
+  "purpose": "Additive audit correction for legacy packages created before exact raw HTTP response bytes and manifest self-check coverage were required.",
+  "limitations": [
+    "The correction records do not invent or reconstruct missing raw HTTP response bytes.",
+    "They do not change legacy completeness classifications.",
+    "They do not replace any legacy manifest, checksum list, source representation, metadata, or capture log."
+  ]
+}

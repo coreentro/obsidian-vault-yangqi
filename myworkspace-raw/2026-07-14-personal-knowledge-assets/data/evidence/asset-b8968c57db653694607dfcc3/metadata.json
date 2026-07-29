@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-b8968c57db653694607dfcc3",
+  "candidate_id": "chrome-profile-2-bookmarks:item:00000047",
+  "source_id": "chrome-profile-2-bookmarks",
+  "title": "秋风广告规则",
+  "original_url": "https://awavenue.top/",
+  "requested_url": "https://awavenue.top/",
+  "final_url": "https://awavenue.top/",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:12.335716+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 16620,
+  "body_sha256": "ff116bbe10fec4cebeef6b0f5520da932e06ebe6cd17ec04d2e59cfc74652fd8"
+}

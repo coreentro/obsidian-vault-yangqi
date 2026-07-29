@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:15:00+08:00",
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v002.json",
+  "assessment_scope": "All pages were traversed for text extraction; first, middle, and last pages were rendered and visually inspected for each PDF.",
+  "visual_quality_result": "All fifteen sampled renders were legible, correctly oriented, unclipped, and consistent with scholarly article layouts; reaction schemes, spectra, kinetic plots, tables, and references rendered correctly.",
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001402",
+      "decision": "accepted",
+      "title": "Nano-structured Magnesium Oxide as Efficient Recyclable Catalyst for Knoevenagel and Claisen-Schmidt Condensation Reactions",
+      "authors": "Biplab Roy et al.",
+      "value_score": 90,
+      "topics": ["chemistry", "magnesium-oxide", "heterogeneous-catalysis", "knoevenagel-condensation", "claisen-schmidt-condensation"],
+      "page_count": 7,
+      "extracted_text_characters": 25975,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 4, 7],
+      "safety_hits": [],
+      "reason": "Reusable heterogeneous-catalysis study covering recyclable nano-MgO and solvent-free carbon-carbon bond formation."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001406",
+      "decision": "accepted",
+      "title": "Continuous production of benzylideneacetophenone via gas phase reaction of benzaldehyde and acetophenone: Mechanism and reaction kinetics",
+      "authors": "Chiara Pischetola et al.",
+      "value_score": 93,
+      "topics": ["chemistry", "continuous-production", "gas-phase-condensation", "chalcone", "reaction-kinetics"],
+      "page_count": 11,
+      "extracted_text_characters": 64394,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 6, 11],
+      "safety_hits": [],
+      "reason": "High-value process and kinetics study linking catalyst basicity, selectivity, continuous operation, and Langmuir-Hinshelwood modelling."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001408",
+      "decision": "accepted",
+      "title": "Effective Heterogeneous MoOx-Modified CeO2 Catalyst for Michael Addition of Dimethyl Malonate to 2-Cyclohexen-1-one",
+      "authors": "Masazumi Tamura et al.",
+      "value_score": 92,
+      "topics": ["chemistry", "molybdenum-oxide", "ceria", "michael-addition", "heterogeneous-catalysis"],
+      "page_count": 5,
+      "extracted_text_characters": 25297,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 3, 5],
+      "safety_hits": [],
+      "reason": "High-value mechanistic catalyst study identifying the isolated MoOx-CeO2 interface as an active site for reusable Michael addition."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001415",
+      "decision": "accepted",
+      "title": "Synthesis of Chalcones: An Improved High-Yield and Substituent-Independent Protocol for an Old Structure",
+      "authors": "Ana Donaire-Arias et al.",
+      "value_score": 91,
+      "topics": ["chemistry", "chalcone-synthesis", "aldol-condensation", "wittig-reaction", "reaction-protocol"],
+      "page_count": 11,
+      "extracted_text_characters": 68667,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 6, 11],
+      "safety_hits": [],
+      "reason": "Reusable robust synthesis protocol comparing aldol and Wittig routes across substituent classes with yield and purity evidence."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001416",
+      "decision": "accepted",
+      "title": "Synthesis, reactions and application of chalcones: a systematic review",
+      "authors": "Mona A. Shalaby et al.",
+      "value_score": 94,
+      "topics": ["chemistry", "chalcones", "systematic-review", "organic-synthesis", "medicinal-chemistry"],
+      "page_count": 30,
+      "extracted_text_characters": 85880,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [1, 15, 30],
+      "safety_hits": [],
+      "reason": "Broad systematic review connecting chalcone synthesis, transformations, structure-activity relations, biological applications, toxicity, and safety."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v005.json",
+  "assessment": "data/local-pdf-content-assessment-2026-07-15-v005.json",
+  "captured_total": 5,
+  "created_at": "2026-07-15T20:16:00+08:00",
+  "ledger_assets_in_batch": 5,
+  "results": [
+    {
+      "asset_id": "asset-4aa881d09db219e0cd886bb6",
+      "authors": "Ludovica Marotta et al.",
+      "candidate_id": "mac-current-local:item:00001411",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-4aa881d09db219e0cd886bb6",
+      "extracted_text_characters": 96725,
+      "page_count": 22,
+      "source_byte_length": 3328072,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2022-04-08_fchem-2022-988376 1..22.pdf",
+      "source_sha256": "99b7d785f86eb0d18d3189a726d7a945a29c41e05572ed5eac466ed86379f69c",
+      "title": "The Green Chemistry of Chalcones: Valuable Sources of Privileged Core Structures for Drug Discovery",
+      "topics": [
+        "chemistry",
+        "chalcones",
+        "green-chemistry",
+        "drug-discovery",
+        "organic-synthesis"
+      ],
+      "value_score": 94,
+      "visually_reviewed_pages": [
+        1,
+        11,
+        22
+      ]
+    },
+    {
+      "asset_id": "asset-5cb1e04f3a38c571dbf2be3d",
+      "authors": "李建林、梁忠豪、李光辉、宋洁、徐桂芝",
+      "candidate_id": "mac-current-local:item:00001414",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-5cb1e04f3a38c571dbf2be3d",
+      "extracted_text_characters": 29783,
+      "page_count": 10,
+      "source_byte_length": 2265676,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2022_ACTA ENERGIAE SOLARIS SINICA 基金项目：北京市百千万人才工程资助项目（2020A30）；全球能源互联网研究院有限公司科技项目（氢能系统参与电网辅助服务协调互动技术 开....pdf",
+      "source_sha256": "26435a53a66ab791b88461361659ae18f2bf560e0dcfeb408dd4943a7bff7a89",
+      "title": "太阳能制氢关键技术研究",
+      "topics": [
+        "solar-energy",
+        "hydrogen-production",
+        "photocatalysis",
+        "thermochemical-cycles",
+        "energy-systems"
+      ],
+      "value_score": 92,
+      "visually_reviewed_pages": [
+        1,
+        5,
+        10
+      ]
+    },
+    {
+      "asset_id": "asset-95191c77b81506cc30141d85",
+      "authors": "林子雨",
+      "candidate_id": "mac-current-local:item:00001428",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-95191c77b81506cc30141d85",
+      "extracted_text_characters": 5826,
+      "page_count": 12,
+      "source_byte_length": 1391177,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_2025_林子雨编著《数字素养通识教程》教材配套上机实验 教材官网：httpsdblab.xmu.edu.cnpostdigital-literacy 实验4：文本类AIGC 的应用与实践.pdf",
+      "source_sha256": "b02dc7e8849620e561ff74b88b28134cc211ce8237ccb661c3983d1b2136f0f4",
+      "title": "实验 4：文本类 AIGC 的应用与实践",
+      "topics": [
+        "artificial-intelligence",
+        "aigc",
+        "prompt-design",
+        "digital-literacy",
+        "practical-tutorial"
+      ],
+      "value_score": 85,
+      "visually_reviewed_pages": [
+        1,
+        6,
+        12
+      ]
+    },
+    {
+      "asset_id": "asset-4e90929cea233faf04959aaa",
+      "authors": "Chandan Tamuly et al.",
+      "candidate_id": "mac-current-local:item:00001438",
+      "completeness": "complete",
+      "evidence_package_ref": "data/evidence/asset-4e90929cea233faf04959aaa",
+      "extracted_text_characters": 23489,
+      "page_count": 7,
+      "source_byte_length": 874754,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_Unknown_www.rsc.orgadvances Royal Society of Chemistry peer review process and has been acceptance, befor....pdf",
+      "source_sha256": "31b1964a58ca15bbc95c82693588fb0237fe96828e4bb6b9f575886c0b8a4991",
+      "title": "Bio-derived ZnO Nanoflower: A Highly Efficient Catalyst for Synthesis of Chalcones Derivatives",
+      "topics": [
+        "chemistry",
+        "zinc-oxide",
+        "nanoflowers",
+        "chalcones",
+        "heterogeneous-catalysis"
+      ],
+      "value_score": 90,
+      "visually_reviewed_pages": [
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "asset_id": "asset-5ef1ee75c15e6bffb2c9b908",
+      "authors": "路易·阿尔都塞；吴子枫译；陈越编",
+      "candidate_id": "mac-current-local:item:00001443",
+      "completeness": "limited",
+      "evidence_package_ref": "data/evidence/asset-5ef1ee75c15e6bffb2c9b908",
+      "extracted_text_characters": 324263,
+      "page_count": 443,
+      "source_byte_length": 14087661,
+      "source_path": "/Users/yangqi/Downloads/2026-04-08_Unknown_在哲学中成为马克思主义者_1.pdf",
+      "source_sha256": "2560a64166e9ad94740c8cfdb26f12d12df3e507db809b903c3fc43202d904f8",
+      "title": "在哲学中成为马克思主义者",
+      "topics": [
+        "marxist-philosophy",
+        "althusser",
+        "historical-materialism",
+        "dialectics",
+        "philosophy"
+      ],
+      "value_score": 95,
+      "visually_reviewed_pages": [
+        1,
+        222,
+        443
+      ]
+    }
+  ],
+  "schema_version": 1
+}

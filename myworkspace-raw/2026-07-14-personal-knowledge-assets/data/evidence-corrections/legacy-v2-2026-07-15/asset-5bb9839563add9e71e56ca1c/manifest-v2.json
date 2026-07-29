@@ -1,0 +1,55 @@
+{
+  "asset_id": "asset-5bb9839563add9e71e56ca1c",
+  "created_at": "2026-07-15T08:44:29.005227+00:00",
+  "legacy_package_files": [
+    {
+      "byte_length": 229,
+      "path": "capture-log.json",
+      "sha256": "856ae6c413a565dfab351056e6ac2d798a813dc4cec1f3bb40da3485bad3a96f"
+    },
+    {
+      "byte_length": 397,
+      "path": "checksums.sha256",
+      "sha256": "58864eb95a5f7cbd46fa220984fcb9598110c6fe612c8e85861d5876b8462f18"
+    },
+    {
+      "byte_length": 64,
+      "path": "comments.json",
+      "sha256": "afe9c85a0b8ed4b00af3686683be910debc58588d092f815eb4fe64b7ff65458"
+    },
+    {
+      "byte_length": 1362,
+      "path": "manifest.json",
+      "sha256": "c11787c997a6e37e2480396bfaa32781523412d63095d3f23426788ee7f8aa51"
+    },
+    {
+      "byte_length": 635,
+      "path": "metadata.json",
+      "sha256": "521e7d1537635a0a219f949b4e48a4ea794501f512bd0dd10ffcc699f7b552fc"
+    },
+    {
+      "byte_length": 115792,
+      "path": "source.html",
+      "sha256": "65a6a3f8f381b80692bd9a60718b32f997e2145fad27a18bf283a9ceb94f9a6a"
+    },
+    {
+      "byte_length": 9939,
+      "path": "source.md",
+      "sha256": "48007116455baf0079064a2c1907e73d98742511f35340b2f72b6b81a037bf1a"
+    }
+  ],
+  "legacy_package_ref": "data/evidence/asset-5bb9839563add9e71e56ca1c",
+  "limitations": [
+    "The legacy package did not preserve separately verifiable raw HTTP response bytes.",
+    "The historical response-body SHA recorded in metadata cannot always be recomputed from the legacy package.",
+    "Comments, embedded media, dynamic state, login-only content, and inaccessible material may be absent as recorded in the legacy capture log."
+  ],
+  "preservation_policy": "This correction is additive and external. No legacy package file was edited, deleted, renamed, or replaced.",
+  "record_type": "external-legacy-correction",
+  "role_corrections": {
+    "comments.json": "collection-scope record; an empty/not-collected value is not evidence that the source had no comments",
+    "source.html": "decoded-or-normalized response representation; not guaranteed byte-identical to the HTTP body",
+    "source.md": "derived visible-text reading layer; does not replace the captured response representation"
+  },
+  "schema_version": 2
+}

@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-15T17:36:00+08:00",
+  "source_database": "data/knowledge-assets.sqlite3",
+  "source_database_sha256": "7401d8273441ce9fe29a6241b2eae6397cd0b779273c5d493ab96619ea55059f",
+  "total_records": 41507,
+  "status_counts": {
+    "pending": 41507,
+    "reviewed": 0,
+    "blocked": 0
+  },
+  "target_counts": {
+    "asset_linked": 46,
+    "candidate_only": 41461
+  },
+  "flag_counts": {
+    "low-confidence": 4950,
+    "non-knowledge-or-sensitive": 849,
+    "weak-signal": 208,
+    "capture-anomaly-review": 44,
+    "blocked-capture": 13,
+    "limited-capture": 8,
+    "document": 17422,
+    "unknown-binary-or-format": 16924,
+    "media": 675,
+    "sensitive": 288,
+    "high-risk": 46,
+    "user-decision": 145
+  },
+  "question_answer_records": 0,
+  "scope_note": "A review record may carry multiple flags, so flag counts are not mutually exclusive and do not sum to the queue total. No review decision changes the frozen candidate or immutable evidence records."
+}

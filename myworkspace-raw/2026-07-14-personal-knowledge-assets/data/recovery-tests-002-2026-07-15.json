@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "recovery_test_id": "recovery-sample-002-2026-07-15",
+  "created_at": "2026-07-15T08:10:04.271493+00:00",
+  "source": "Google Drive mounted File Provider path",
+  "sample_rule": "lexicographically first 10 batch-002 assets",
+  "sample_total": 10,
+  "passed_total": 10,
+  "records": [
+    {
+      "asset_id": "asset-0c87fad3607dc32ece70889b",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-2492b7c3b8a397dc2e528112",
+      "restored_file_total": 3,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-2ead5662b517f5cff3707296",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-4c47df870a24d38278be79e0",
+      "restored_file_total": 4,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-5bb9839563add9e71e56ca1c",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-5d9cc1f0c369925c9c338cd2",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-6186bf6f78c6abea02b5ef15",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-61cea58dba4763e0f72141ea",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-700f77c332f64cc6421c0954",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    },
+    {
+      "asset_id": "asset-810279e3a4b8b36d14f4a6c2",
+      "restored_file_total": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": [],
+      "ok": true
+    }
+  ]
+}

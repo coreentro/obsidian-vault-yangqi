@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://ankiweb.net/shared/decks?search=chinese",
+  "final_url": "https://ankiweb.net/shared/decks?search=chinese",
+  "redirects": [],
+  "complete_response": true,
+  "error": null,
+  "limitations": [
+    "HTML 中未提取到可见正文文本。"
+  ]
+}

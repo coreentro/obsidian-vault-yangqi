@@ -1,0 +1,12 @@
+[project]
+name = "knowledge-assets-media-tools"
+version = "0.1.0"
+description = "Pinned, isolated media caption and transcription tools for the personal knowledge asset system."
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "openai-whisper==20250625",
+  "yt-dlp==2026.7.4",
+]
+
+[tool.uv]
+package = false

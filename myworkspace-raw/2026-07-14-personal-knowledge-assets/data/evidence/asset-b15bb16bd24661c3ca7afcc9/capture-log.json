@@ -1,0 +1,10 @@
+{
+  "events": [
+    "Exact frozen bookmark record preserved.",
+    "Page body was not re-fetched because an existing complete asset has the same original URL."
+  ],
+  "limitations": [
+    "This package preserves the distinct bookmark source context and references the prior complete page evidence; it is not a second page-body capture."
+  ],
+  "status": "limited"
+}

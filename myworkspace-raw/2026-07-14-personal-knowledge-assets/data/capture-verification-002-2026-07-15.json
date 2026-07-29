@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "verification_id": "capture-verification-002-2026-07-15",
+  "created_at": "2026-07-15T08:07:47.302232+00:00",
+  "result_sha256": "8d8fa4171b11553dbe455bfa8090340d95a0e860e5cee64b4b238939ecd1f7b1",
+  "batch_counts": {
+    "attempted": 20,
+    "complete": 13,
+    "limited": 4,
+    "blocked": 3,
+    "http_success": 17
+  },
+  "package_checks": [
+    {
+      "asset_id": "asset-4c47df870a24d38278be79e0",
+      "completeness": "limited",
+      "file_count": 4,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-863198e73d2c3a100f0d3e51",
+      "completeness": "limited",
+      "file_count": 4,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-0c87fad3607dc32ece70889b",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-9479662aeac7cf806c6f0ff3",
+      "completeness": "blocked",
+      "file_count": 3,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-5d9cc1f0c369925c9c338cd2",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-b67c2a52161c34ac6f51f353",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-9ae74664798381c8b8c5a254",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-2ead5662b517f5cff3707296",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-f20a783812eaea82f98d8239",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-a660191974f169e3aee9f01a",
+      "completeness": "blocked",
+      "file_count": 3,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-6186bf6f78c6abea02b5ef15",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-2492b7c3b8a397dc2e528112",
+      "completeness": "blocked",
+      "file_count": 3,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-fe94732a1afaec316bcbfc4b",
+      "completeness": "limited",
+      "file_count": 4,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-810279e3a4b8b36d14f4a6c2",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-dc46bec09e9e39c508c200ba",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-61cea58dba4763e0f72141ea",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-b8968c57db653694607dfcc3",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-ea33b57e5e0609da77014afa",
+      "completeness": "limited",
+      "file_count": 4,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-5bb9839563add9e71e56ca1c",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    },
+    {
+      "asset_id": "asset-700f77c332f64cc6421c0954",
+      "completeness": "complete",
+      "file_count": 5,
+      "missing": [],
+      "mismatches": [],
+      "extra": []
+    }
+  ],
+  "package_errors": 0,
+  "drive_copy": {
+    "local_file_total": 130,
+    "cloud_file_total": 130,
+    "missing": [],
+    "sha256_mismatches": []
+  },
+  "ledger_asset_total": 40,
+  "ledger_assets_by_completeness": {
+    "complete": 25,
+    "limited": 6,
+    "blocked": 9
+  },
+  "source_reconciliation": {
+    "scanned_total": 43176,
+    "included_total": 237,
+    "excluded_total": 747,
+    "blocked_total": 42192,
+    "delta": 0
+  }
+}

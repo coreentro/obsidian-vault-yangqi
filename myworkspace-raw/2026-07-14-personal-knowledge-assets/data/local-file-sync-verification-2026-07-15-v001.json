@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-07-15T17:50:40+08:00",
+  "batch": "data/local-file-capture-batch-001-2026-07-15.json",
+  "batch_sha256": "c87eb0ee0eb412a4d55f239c1ad382dc25d1c837c6ac503ae8d6691ff369401c",
+  "local_verification": {
+    "package_total": 5,
+    "package_file_total": 35,
+    "checksum_lists_passed": 5,
+    "frozen_source_hashes_passed": 5,
+    "source_to_original_byte_comparisons_passed": 5,
+    "ledger_integrity": "ok",
+    "foreign_key_violations": 0,
+    "replay_new_assets": 0
+  },
+  "google_drive_verification": {
+    "root": "/Users/yangqi/Library/CloudStorage/GoogleDrive-yangqihello@gmail.com/我的云端硬盘/personal-knowledge-assets",
+    "package_file_sets_matched": 5,
+    "package_file_hashes_matched": 35,
+    "versioned_ledger": "00-indexes/knowledge-assets-2026-07-15-v006.sqlite3",
+    "versioned_search_index": "00-indexes/search-index-2026-07-15-v002.sqlite3"
+  },
+  "feishu_verification": {
+    "assets_offset": 46,
+    "assets_returned": 5,
+    "assets_has_more": false,
+    "reviews_offset": 41507,
+    "reviews_returned": 5,
+    "reviews_has_more": false,
+    "candidate_asset_links_verified": 5,
+    "total_assets": 51,
+    "total_reviews": 41512,
+    "uploaded_tokens": {
+      "knowledge-assets-2026-07-15-v006.sqlite3": "M0ocbYsC1okH1ExIdCIcQ4genoh",
+      "search-index-2026-07-15-v002.sqlite3": "GlsDbh77Eo5tZkxf08RcXxuqnnf",
+      "local-file-read-allowlist-2026-07-15-v001.json": "MjqUbBHAxonqduxge3mcoMB7nDH",
+      "local-file-content-assessment-2026-07-15-v001.json": "NSwybev74omVzUx8ZefcgWkhnbd",
+      "local-file-capture-batch-001-2026-07-15.json": "GLY8bABwDo9GMdxvUYbcJgZjnid"
+    }
+  },
+  "asset_ids": [
+    "asset-b949dc8a2ee124c6e5438e39",
+    "asset-72f8e8b03fc10d4e9cf22fff",
+    "asset-52eb7b045a611f8c337add2c",
+    "asset-144f4039c0c4d4f1e4f2d0fe",
+    "asset-7fc8c1d273f1082896a32c55"
+  ],
+  "preservation_statement": "All accepted source bytes remain unchanged and complete. Derived text is an exact UTF-8 decoding stored separately; no summary or cleaned text replaces source evidence."
+}

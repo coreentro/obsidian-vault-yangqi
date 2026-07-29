@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-0bcb7e0558d0b81d8cdce72b",
+  "candidate_id": "chrome-default-bookmarks:item:00000076",
+  "source_id": "chrome-default-bookmarks",
+  "title": "Apple小火箭跳过开屏广告 | ALLBS",
+  "original_url": "https://blog.allbs.cn/posts/10392/index.html",
+  "requested_url": "https://blog.allbs.cn/posts/10392/index.html",
+  "final_url": "https://blog.allbs.cn/posts/10392/index.html",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:41.454940+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 55686,
+  "body_sha256": "d59e3c27015a3f739fbd0983ca9727fcfecb279091f810c3c32070b05aeffce6"
+}

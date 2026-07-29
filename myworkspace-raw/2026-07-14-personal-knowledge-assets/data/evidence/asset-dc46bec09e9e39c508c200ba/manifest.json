@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "asset_id": "asset-dc46bec09e9e39c508c200ba",
+  "source_id": "chrome-default-bookmarks",
+  "created_at": "2026-07-15T08:07:11.616368+00:00",
+  "completeness": "complete",
+  "immutable_files": [
+    {
+      "path": "capture-log.json",
+      "byte_length": 336,
+      "sha256": "0e171695dd4c9b08a5d57256da31ceb1b0ff0ca06b3116e8f6b87e275c0fd72d",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "comments.json",
+      "byte_length": 64,
+      "sha256": "afe9c85a0b8ed4b00af3686683be910debc58588d092f815eb4fe64b7ff65458",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "metadata.json",
+      "byte_length": 698,
+      "sha256": "d5068975769c299bf125fc87210228d5b07169c1373da9cadbb96456fed8a5ba",
+      "mime_type": "application/json",
+      "role": "source"
+    },
+    {
+      "path": "source.html",
+      "byte_length": 269820,
+      "sha256": "8636777a78effeb20c7b3d220031da168828424fd49891560d85a77ebdf2ae8a",
+      "mime_type": "text/html",
+      "role": "source"
+    },
+    {
+      "path": "source.md",
+      "byte_length": 6336,
+      "sha256": "7ca22444cff06740e5873849ca76991734c877aad4af58c061b05d6b608dc49d",
+      "mime_type": "text/markdown",
+      "role": "source"
+    }
+  ],
+  "derived_files": [],
+  "limitations": [],
+  "capture_events": []
+}

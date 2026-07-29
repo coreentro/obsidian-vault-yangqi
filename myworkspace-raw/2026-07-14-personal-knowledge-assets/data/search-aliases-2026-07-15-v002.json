@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T19:25:00+08:00",
+  "policy": "Aliases are additive retrieval metadata. They never replace or rewrite source text, titles, evidence packages, or prior index records.",
+  "items": [
+    {
+      "asset_id": "asset-9a3afc322893d701966cbd8d",
+      "aliases": ["纳米氧化镁催化剂", "Knoevenagel 缩合", "Claisen-Schmidt 缩合", "可回收非均相催化", "无溶剂合成"]
+    },
+    {
+      "asset_id": "asset-9b32a78c63f3963223376043",
+      "aliases": ["查尔酮连续生产", "苯甲醛与苯乙酮气相缩合", "反应动力学", "Langmuir-Hinshelwood 模型", "催化剂碱性"]
+    },
+    {
+      "asset_id": "asset-0b6910a615841d225a176455",
+      "aliases": ["氧化钼改性二氧化铈", "Michael 加成", "丙二酸二甲酯", "非均相催化", "界面活性位"]
+    },
+    {
+      "asset_id": "asset-62cb8a0060dd31e441c43ca6",
+      "aliases": ["查尔酮合成", "高收率通用方法", "醛醇缩合", "Wittig 反应", "取代基适用性"]
+    },
+    {
+      "asset_id": "asset-6fe74235d2586f526ae8813d",
+      "aliases": ["查尔酮系统综述", "查尔酮反应与应用", "构效关系", "药物化学", "毒性与安全性"]
+    }
+  ]
+}

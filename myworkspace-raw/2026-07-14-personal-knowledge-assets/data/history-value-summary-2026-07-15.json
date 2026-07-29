@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-15T08:25:00.966269+00:00",
+  "profile_id": "personal-value-profile-2026-07-15",
+  "profile_sha256": "82ce29f7c86433f5a4507e26be8c7654916a14c56cb629469cf4365234cf26cb",
+  "score_file": "data/history-value-scores-2026-07-15.jsonl",
+  "score_file_sha256": "ae185d56585a16311b7184bc3f80752c31984557125521905933f3318cd2e0de",
+  "candidate_total": 6054,
+  "recommended_decisions": {
+    "excluded": 849,
+    "included": 47,
+    "review": 5158
+  },
+  "score_bands": {
+    "0-24": 4426,
+    "25-49": 1384,
+    "50-74": 197,
+    "75-100": 47
+  },
+  "flags": {
+    "low-confidence": 4950,
+    "non-knowledge-or-sensitive": 849
+  },
+  "policy": "Recommendations are derived review aids. Frozen candidate decisions and source evidence are unchanged."
+}

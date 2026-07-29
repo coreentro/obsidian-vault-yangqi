@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://nav.guidebook.top/",
+  "final_url": null,
+  "redirects": [],
+  "complete_response": false,
+  "error": "URLError: <urlopen error Tunnel connection failed: 503 Service Unavailable>",
+  "limitations": [
+    "响应未完整取得；未写入 source.html 或 source.md，不猜测缺失内容。"
+  ]
+}

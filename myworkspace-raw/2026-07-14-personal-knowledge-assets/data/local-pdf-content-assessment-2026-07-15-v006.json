@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T20:30:00+08:00",
+  "allowlist": "data/local-pdf-read-allowlist-2026-07-15-v006.json",
+  "assessment_scope": "Both PDFs were traversed for text extraction; page 1 of the one-page review and pages 1, 2, and 3 of the SEM note were rendered and visually inspected.",
+  "visual_quality_result": "The review page is legible and unclipped. The SEM note pages are legible image scans with instrument labels and elemental-map annotations; text extraction is empty, so the original PDF remains authoritative.",
+  "items": [
+    {
+      "candidate_id": "mac-current-local:item:00001404",
+      "decision": "accepted",
+      "title": "Book review: The Anthropology of Conservation NGOs: Rethinking the Boundaries Edited by Peter Larsen and Ian Brockington",
+      "authors": "Rob Small (review author)",
+      "value_score": 78,
+      "topics": [
+        "conservation",
+        "anthropology",
+        "environmental-governance",
+        "book-review"
+      ],
+      "page_count": 1,
+      "extracted_text_characters": 1623,
+      "empty_text_pages": [],
+      "visually_reviewed_pages": [
+        1
+      ],
+      "safety_hits": [],
+      "reason": "Public scholarly book review with reusable analysis of conservation NGOs, collaboration, and environmental governance."
+    },
+    {
+      "candidate_id": "mac-current-local:item:00001489",
+      "decision": "accepted",
+      "title": "SEM application note: Ni-Mo-O sample characterization",
+      "authors": "Not legible from extracted text; original image PDF retained as authority",
+      "value_score": 72,
+      "topics": [
+        "SEM",
+        "materials-characterization",
+        "nickel",
+        "molybdenum",
+        "oxygen"
+      ],
+      "page_count": 3,
+      "extracted_text_characters": 0,
+      "empty_text_pages": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "additional_limitations": [
+        "All pages are image-based and yielded no reliable text extraction. Instrument labels and elemental-map annotations are visible in the original PDF; no text was reconstructed."
+      ],
+      "safety_hits": [],
+      "reason": "Non-sensitive personal research characterization record with reusable SEM/EDS visual evidence; original image PDF must remain authoritative."
+    }
+  ]
+}

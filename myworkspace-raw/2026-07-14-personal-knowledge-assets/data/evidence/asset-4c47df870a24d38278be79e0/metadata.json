@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-4c47df870a24d38278be79e0",
+  "candidate_id": "chrome-default-bookmarks:item:00000045",
+  "source_id": "chrome-default-bookmarks",
+  "title": "一些宝藏网站分享",
+  "original_url": "https://cloths-read-s05.craft.me/qGNliFnfnEfzAa",
+  "requested_url": "https://cloths-read-s05.craft.me/qGNliFnfnEfzAa",
+  "final_url": "https://cloths-read-s05.craft.me/qGNliFnfnEfzAa",
+  "redirects": [],
+  "captured_at": "2026-07-15T08:07:08.374889+00:00",
+  "status_code": 200,
+  "content_type": "text/html",
+  "body_byte_length": 4958,
+  "body_sha256": "3798fab2a92e7b1e359bbfebd373966c75dfc09c30cb42b33549459801ab591b"
+}

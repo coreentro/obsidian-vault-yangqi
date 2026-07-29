@@ -1,0 +1,15 @@
+{
+  "asset_id": "asset-e00bb676baf452580ccd8c27",
+  "candidate_id": "chrome-default-bookmarks:item:00000083",
+  "source_id": "chrome-default-bookmarks",
+  "title": "数字生活指南 | 让工作学习生活更高效便捷实用有序！guidebook.top",
+  "original_url": "https://nav.guidebook.top/",
+  "requested_url": "https://nav.guidebook.top/",
+  "final_url": "https://nav.guidebook.top/",
+  "redirects": [],
+  "captured_at": "2026-07-15T07:52:42.045696+00:00",
+  "status_code": null,
+  "content_type": null,
+  "body_byte_length": 0,
+  "body_sha256": null
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "batch_id": "capture-batch-003-2026-07-15",
+  "created_at": "2026-07-15T16:40:00+08:00",
+  "purpose": "剩余书签边界审计后可匿名只读采集的四个新公开页面；动态平台、登录账户、支付后台、工具资源和敏感页面不进入本批。",
+  "selection_rule": "冻结书签中未尝试且通过保守离线边界的公开HTTP(S)页面；仅匿名GET，不携带Cookie或凭据，不提交表单；初始目标及每次重定向都必须保持公共网络地址。",
+  "capture_status": "pending",
+  "items": [
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000000",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 0,
+      "title": "李颜控！2024！ – 李颜控",
+      "url": "https://xn--izu34f5t3d.com/?page_id=11688",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "chrome-default-bookmarks:item:00000049",
+      "source_id": "chrome-default-bookmarks",
+      "bookmark_index": 49,
+      "title": "网站地图 - 出国留学网",
+      "url": "https://m.liuxue86.com/sitemap.html",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000021",
+      "source_id": "edge-default-bookmarks",
+      "bookmark_index": 21,
+      "title": "河北科技大学_教务处",
+      "url": "https://jiaowu.web.hebust.edu.cn/",
+      "capture_status": "pending"
+    },
+    {
+      "candidate_id": "edge-default-bookmarks:item:00000023",
+      "source_id": "edge-default-bookmarks",
+      "bookmark_index": 23,
+      "title": "河北科技大学_图书馆",
+      "url": "https://lib.web.hebust.edu.cn/",
+      "capture_status": "pending"
+    }
+  ]
+}

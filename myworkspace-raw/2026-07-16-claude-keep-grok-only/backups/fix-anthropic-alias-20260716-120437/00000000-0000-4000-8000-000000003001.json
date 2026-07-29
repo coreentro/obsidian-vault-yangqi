@@ -1,0 +1,74 @@
+{
+  "inferenceProvider": "gateway",
+  "inferenceGatewayBaseUrl": "http://127.0.0.1:8317",
+  "inferenceGatewayApiKey": "cpa-local-7c29f1a6-1e84-4d6d-93b2-64af7a8f35ce",
+  "inferenceGatewayAuthScheme": "bearer",
+  "inferenceModels": [
+    {
+      "name": "grok-4.5",
+      "labelOverride": "grok-4.5",
+      "supports1m": false
+    },
+    {
+      "name": "grok-4.3",
+      "labelOverride": "grok-4.3",
+      "supports1m": false
+    },
+    {
+      "name": "grok-4.20-0309-reasoning",
+      "labelOverride": "grok-4.20-0309-reasoning",
+      "supports1m": false
+    },
+    {
+      "name": "grok-4.20-0309-non-reasoning",
+      "labelOverride": "grok-4.20-0309-non-reasoning",
+      "supports1m": false
+    },
+    {
+      "name": "grok-4.20-multi-agent-0309",
+      "labelOverride": "grok-4.20-multi-agent-0309",
+      "supports1m": false
+    },
+    {
+      "name": "grok-composer-2.5-fast",
+      "labelOverride": "grok-composer-2.5-fast",
+      "supports1m": false
+    },
+    {
+      "name": "grok-build-0.1",
+      "labelOverride": "grok-build-0.1",
+      "supports1m": false
+    },
+    {
+      "name": "grok-3-mini",
+      "labelOverride": "grok-3-mini",
+      "supports1m": false
+    },
+    {
+      "name": "grok-3-mini-fast",
+      "labelOverride": "grok-3-mini-fast",
+      "supports1m": false
+    },
+    {
+      "name": "grok-imagine-image",
+      "labelOverride": "grok-imagine-image",
+      "supports1m": false
+    },
+    {
+      "name": "grok-imagine-image-quality",
+      "labelOverride": "grok-imagine-image-quality",
+      "supports1m": false
+    },
+    {
+      "name": "grok-imagine-video",
+      "labelOverride": "grok-imagine-video",
+      "supports1m": false
+    },
+    {
+      "name": "grok-imagine-video-1.5-preview",
+      "labelOverride": "grok-imagine-video-1.5-preview",
+      "supports1m": false
+    }
+  ],
+  "modelDiscoveryEnabled": false
+}
