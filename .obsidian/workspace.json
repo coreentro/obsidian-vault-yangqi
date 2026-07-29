@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI使用技巧/主页.md",
+                "file": "2026-07-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "主页"
+              "title": "2026-07-29"
             }
           },
           {
@@ -69,16 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyWorkspace/MyWorkspace-Obsidian-Notes.md",
+                "file": "00-导航.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MyWorkspace-Obsidian-Notes"
+              "title": "00-导航"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,8 +241,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0b40e83bafe90f14",
+  "active": "1264dea725547ba5",
   "lastOpenFiles": [
+    "AI使用技巧/主页.md",
+    "2026-07-29.md",
+    "00-导航.md",
     "Clippings/有人一起打野吗 准备开源 - 开发调优.md",
     "MyWorkspace/MyWorkspace-Obsidian-Notes.md",
     "MyWorkspace",
@@ -274,9 +276,6 @@
     "Coze实战课程/成为Agent工程师/资源/分销版本课程介绍/分销版本课程介绍.md",
     "Coze实战课程/成为Agent工程师/资源/分销版本课程介绍/成为Agent工程师之Coze实战课程介绍.md",
     "Coze实战课程/成为Agent工程师/资源/通知信息",
-    "Coze实战课程/成为Agent工程师/资源/资源.md",
-    "Coze实战课程/成为Agent工程师/资源/我的AI学习路径分享.md",
-    "Coze实战课程/成为Agent工程师/资源/课程介绍素材.md",
     "Coze实战课程/成为Agent工程师/资源/课程辅助文档",
     "Coze实战课程/成为Agent工程师/资源/分销版本课程介绍",
     "Coze实战课程/成为Agent工程师/资源",
