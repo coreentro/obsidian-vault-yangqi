@@ -1,0 +1,3 @@
+I'm looking forward to hearing about your Eid celebration too! It sounds like a very important and joyful occasion. And don't worry, I wouldn't mind being your "tail" or taking care of you like a child😜
+Spring Festival is one of the most important traditional festivals in China, celebrating the beginning of a new year. There are indeed many festivals and celebrations in different cultures, each with their own unique traditions and meanings.
+I hope your wishes of watching fireworks together, hearing the bell ring, and seeing the stars and sunset come true. Those are all beautiful moments that can create precious memories. Keep cherishing these dreams, and maybe

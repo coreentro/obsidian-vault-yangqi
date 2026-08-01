@@ -76,8 +76,21 @@
               "icon": "lucide-file",
               "title": "00-导航"
             }
+          },
+          {
+            "id": "18f048cdd58725cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -242,53 +257,53 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "1264dea725547ba5",
+  "active": "18f048cdd58725cd",
   "lastOpenFiles": [
-    "00-收件箱/华为云备忘录/apple-notes-export",
-    "00-导航.md",
-    "myworkspace-knowledge/07-troubleshooting-decision-tree.md",
-    "myworkspace-knowledge/06-ai-identity-avatar-design.md",
-    "assets/飞书/file-20260529230502325.png",
-    "assets/飞书/file-20260529230610176.png",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/一个框架看清楚所有AI工具.md",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/使用飞书搭建自己AI时代的知识管理体系.md",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/为什么需要海外大模型？以及五种主流路径全景图.md",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段 1】：AI 通识与底层逻辑/第二章：AIGC与大模型通识/优化大模型的3种手段.md",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段 1】：AI 通识与底层逻辑/第二章：AIGC与大模型通识/第二章：AIGC与大模型通识.md",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段 1】：AI 通识与底层逻辑/第二章：AIGC与大模型通识/AIGC软件的本质.md",
-    "Coze实战课程/【启程必看】从这里开始/【加餐 1】企业培训板块/【内部分享】如何做好一场企业培训.md",
-    "Coze实战课程/【启程必看】从这里开始/【加餐 2】飞书多维表格/多维表格插件，轻松获取各种外部数据.md",
-    "Coze实战课程/【启程必看】从这里开始/【必看】课程先导·学什么与怎么学.md",
-    "Coze实战课程/【启程必看】从这里开始/【正课阶段2】上手智能体：从现成工具开始/第八章：AI工具梳理/【AI搜索】秘塔搜索：大众的AI搜索神器.md",
-    "myworkspace-knowledge/04-personal-knowledge-asset-system.md",
-    "Coze实战课程/_数据表/csv原始备份/👩卧底领取小礼品申报__问卷.csv",
-    "Coze实战课程/_数据表/csv原始备份/🏆获奖Bot领奖申报__问卷.csv",
-    "Coze实战课程/_数据表/csv原始备份/飞书数据写入错误演示__数据表.csv",
-    "Coze实战课程/_数据表/csv原始备份/问卷__问卷.csv",
-    "Coze实战课程/_数据表/csv原始备份/谁是人类 专属通义Token__数据表.csv",
-    "Coze实战课程/_数据表/csv原始备份/话题收集__问卷.csv",
-    "Coze实战课程/_数据表/csv原始备份/评论数据__文章收藏表.csv",
-    "Coze实战课程/_数据表/csv原始备份/组队表__数据表.csv",
-    "Coze实战课程/_数据表/csv原始备份/第二战报名__收集表.csv",
-    "Coze实战课程/_数据表/csv原始备份/第二战投票__统计结果.csv",
-    "Coze实战课程/_数据表/👩卧底领取小礼品申报.md",
-    "Coze实战课程/_数据表/🏆获奖Bot领奖申报.md",
-    "Coze实战课程/_数据表/飞书数据写入错误演示.md",
-    "Coze实战课程/_数据表/问卷.md",
-    "Coze实战课程/_数据表/谁是人类 专属通义Token.md",
-    "Coze实战课程/_数据表/话题收集.md",
-    "Coze实战课程/_数据表/评论数据.md",
-    "Coze实战课程/_数据表/舆情管理大师-汽车bot小队.pptx.md",
-    "Coze实战课程/_数据表/组队表.md",
-    "Coze实战课程/_数据表/第二战报名.md",
-    "Coze实战课程/_数据表/第二战投票.md",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/contact-sheet.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-10.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-09.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-08.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-07.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-06.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-05.png",
-    "outputs/019e7691-86c8-77e1-87e4-62d6545ad6ab/presentations/zscheme-lvfx-paper/preview/slide-04.png"
+    "00-收件箱/华为云备忘录/apple-notes-export/locked-note-import.md",
+    "locked-note-import.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/目的是，既能一锅出，又能反应快.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/减肥，.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/谷歌密码工具.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/土区.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/我只需要看元认知之类的东西，.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/以前我也认为，跟人交流不能get到他的点就不好，现在我突然明白了就是，你不必关注到他强调的点，你从他的讲话里得到了什么你想要的点，就….md",
+    "00-收件箱/华为云备忘录/apple-notes-export/游戏.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/0833038.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/一定要发作品，深度好作品.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/氧化铈1.md",
+    "YQyyds8848.github.jpeg",
+    "00-收件箱/华为云备忘录/apple-notes-export/YQyyds8848.github.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/entro.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/剪发败笔：就因为剪短了一点，下次一点也不要剪短.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/买衣服两大暴论.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/真空步骤.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/做自媒体可以先给出答案，再说问题，就是那种播客的形式.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/1   7.24.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/2  8.2.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/无忧图书馆.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/我的生活经常发生这样的事，当我全力对一个人好时，我总是会把这段关系搞砸，可是如果不维护这段关系，这段关系也会结束，这很矛盾，确实发生….md",
+    "00-收件箱/华为云备忘录/apple-notes-export/发了疯似的提升自己.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/腰带，裤子，鞋子，袜子，.md",
+    "Scan.pdf",
+    "00-收件箱/华为云备忘录/apple-notes-export/额观性：以被主报去点，写三人游有主要来出太.md",
+    "00-收件箱/华为云备忘录/apple-notes-export/EA.md",
+    "通话录音 2.m4a",
+    "通话录音 1.m4a",
+    "通话录音.m4a",
+    "IMG_1315.heic",
+    "不要符合书写习惯，要符合思维习惯.jpeg",
+    "新备忘录 1.jpeg",
+    "新备忘录.jpeg",
+    "爱是安抚疯子的良药.jpeg",
+    "王小波 时代三部曲系列((作家出版社典藏版本《黄金时代》《白银时代》《青铜时代》套装共3册) (王小波) (Z-Library).epub",
+    "IMG_9356.jpeg",
+    "IMG_9355.jpeg",
+    "IMG_9354.jpeg",
+    "IMG_9353.jpeg",
+    "IMG_9352.jpeg",
+    "IMG_9333.heic",
+    "IMG_9332.heic",
+    "IMG_8109.heic",
+    "图像.heic"
   ]
 }
