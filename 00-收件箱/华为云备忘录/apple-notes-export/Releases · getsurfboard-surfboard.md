@@ -1,1 +1,0 @@
-https://github.com/Kr328/ClashForAndroid/releases

@@ -1,1 +1,0 @@
-Yesterday because I have been unable to connect to the external network, I went to bed early, this morning a little late, the external network is still not connected, I went to eat. I am going to climb the mountain today, now I am on the way to climb the mountain finally contact you, how are you today?

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1264dea725547ba5",
+            "id": "0927e0ec2283c0c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,34 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "华为云备忘录导出"
-            }
-          },
-          {
-            "id": "ef45039988991adf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Any牌路由器使用清障！.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Any牌路由器使用清障！"
-            }
-          },
-          {
-            "id": "0927e0ec2283c0c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里"
             }
           },
           {
@@ -89,8 +61,7 @@
               "title": "版本说明 1.13.4"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,8 +228,25 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "18f048cdd58725cd",
+  "active": "0927e0ec2283c0c0",
   "lastOpenFiles": [
+    "AI/编程基础知识.md",
+    "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
+    "00-收件箱/华为云备忘录/华为云备忘录导出.md",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/YQyyds8848.github.jpeg",
+    "Clippings/Any牌路由器使用清障！.md",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出 2",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 37.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 26.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/图像.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/图像 2.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 23.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 20.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 34.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 17.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 18.png",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/通话录音 1.m4a",
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/通话录音 2.m4a",
     "00-收件箱/华为云备忘录/apple-notes-export/locked-note-import.md",
     "locked-note-import.md",
     "00-收件箱/华为云备忘录/apple-notes-export/目的是，既能一锅出，又能反应快.md",
@@ -271,7 +259,6 @@
     "00-收件箱/华为云备忘录/apple-notes-export/0833038.md",
     "00-收件箱/华为云备忘录/apple-notes-export/一定要发作品，深度好作品.md",
     "00-收件箱/华为云备忘录/apple-notes-export/氧化铈1.md",
-    "YQyyds8848.github.jpeg",
     "00-收件箱/华为云备忘录/apple-notes-export/YQyyds8848.github.md",
     "00-收件箱/华为云备忘录/apple-notes-export/entro.md",
     "00-收件箱/华为云备忘录/apple-notes-export/剪发败笔：就因为剪短了一点，下次一点也不要剪短.md",
@@ -282,28 +269,12 @@
     "00-收件箱/华为云备忘录/apple-notes-export/2  8.2.md",
     "00-收件箱/华为云备忘录/apple-notes-export/无忧图书馆.md",
     "00-收件箱/华为云备忘录/apple-notes-export/我的生活经常发生这样的事，当我全力对一个人好时，我总是会把这段关系搞砸，可是如果不维护这段关系，这段关系也会结束，这很矛盾，确实发生….md",
-    "00-收件箱/华为云备忘录/apple-notes-export/发了疯似的提升自己.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/腰带，裤子，鞋子，袜子，.md",
     "Scan.pdf",
-    "00-收件箱/华为云备忘录/apple-notes-export/额观性：以被主报去点，写三人游有主要来出太.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/EA.md",
     "通话录音 2.m4a",
     "通话录音 1.m4a",
     "通话录音.m4a",
     "IMG_1315.heic",
-    "不要符合书写习惯，要符合思维习惯.jpeg",
-    "新备忘录 1.jpeg",
-    "新备忘录.jpeg",
-    "爱是安抚疯子的良药.jpeg",
     "王小波 时代三部曲系列((作家出版社典藏版本《黄金时代》《白银时代》《青铜时代》套装共3册) (王小波) (Z-Library).epub",
-    "IMG_9356.jpeg",
-    "IMG_9355.jpeg",
-    "IMG_9354.jpeg",
-    "IMG_9353.jpeg",
-    "IMG_9352.jpeg",
-    "IMG_9333.heic",
-    "IMG_9332.heic",
-    "IMG_8109.heic",
-    "图像.heic"
+    "IMG_9333.heic"
   ]
 }
