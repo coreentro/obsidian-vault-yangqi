@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "2a6e8070ab65ba99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "看完L站小朋友的一些反思.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "看完L站小朋友的一些反思"
+            }
+          },
+          {
             "id": "083d90260899ab55",
             "type": "leaf",
             "state": {
@@ -61,7 +75,8 @@
               "title": "版本说明 1.13.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,10 +243,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0927e0ec2283c0c0",
+  "active": "2a6e8070ab65ba99",
   "lastOpenFiles": [
-    "00-收件箱/华为云备忘录/华为云备忘录导出.md",
     "Clippings/小孩子可以学 AI 原理吗？作为一名 11 岁接触 LLM 的小孩子，分享一些看法~.md",
+    "看完L站小朋友的一些反思.md",
+    "00-收件箱/华为云备忘录/华为云备忘录导出.md",
     "AI/编程基础知识.md",
     "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/YQyyds8848.github.jpeg",
@@ -268,7 +284,6 @@
     "00-收件箱/华为云备忘录/apple-notes-export/做自媒体可以先给出答案，再说问题，就是那种播客的形式.md",
     "00-收件箱/华为云备忘录/apple-notes-export/1   7.24.md",
     "00-收件箱/华为云备忘录/apple-notes-export/2  8.2.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/无忧图书馆.md",
     "Scan.pdf",
     "通话录音 2.m4a",
     "通话录音 1.m4a",
