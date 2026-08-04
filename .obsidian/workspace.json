@@ -8,45 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0927e0ec2283c0c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/小孩子可以学 AI 原理吗？作为一名 11 岁接触 LLM 的小孩子，分享一些看法~.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "小孩子可以学 AI 原理吗？作为一名 11 岁接触 LLM 的小孩子，分享一些看法~"
-            }
-          },
-          {
-            "id": "2a6e8070ab65ba99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "看完L站小朋友的一些反思.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "看完L站小朋友的一些反思"
-            }
-          },
-          {
             "id": "083d90260899ab55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/无穷的开始：世界进步的本源.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "无穷的开始：世界进步的本源"
+              "title": "新标签页"
             }
           },
           {
@@ -75,8 +43,7 @@
               "title": "版本说明 1.13.4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,16 +210,45 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2a6e8070ab65ba99",
+  "active": "083d90260899ab55",
   "lastOpenFiles": [
-    "Clippings/小孩子可以学 AI 原理吗？作为一名 11 岁接触 LLM 的小孩子，分享一些看法~.md",
+    "01-地图/本库方法论.md",
+    "10-项目/00-项目索引.md",
+    "01-地图/MOC-档案.md",
+    "01-地图/MOC-资源.md",
+    "01-地图/MOC-课程.md",
+    "01-地图/MOC-AI.md",
+    "01-地图/MOC-科研.md",
+    "01-地图/MOC-领域总览.md",
+    "01-地图/00-HOME.md",
     "看完L站小朋友的一些反思.md",
-    "00-收件箱/华为云备忘录/华为云备忘录导出.md",
-    "AI/编程基础知识.md",
-    "把newapi里的全部删除，然后用以下这些重新配置newapi，然后配置到Claude里.md",
+    "01-地图/_reorg-manifest.json",
+    "00-收件箱/待整理/我想学着用英语回答这个评论，但是我的英文很差，所以，我将会给你发一个很差的我自己写的英文回答，里面可能夹杂着中文，可能语法错误，可能表达的重复啰嗦不地道，希望你优化这个.md",
+    "00-收件箱/待整理/2026-07-29.md",
+    "00-收件箱/待整理/NODESEEK.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/skills/skills/greeter/SKILL.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/custom-commands/commands/fs/grep-code.toml",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/skills/skills/greeter",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/policies/policies/policies.toml",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/hooks/hooks/hooks.json",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/custom-commands/commands/fs",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/themes-example/gemini-extension.json",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/themes-example/README.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/skills/skills",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/skills/gemini-extension.json",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/policies/policies",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/policies/README.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/commands/extensions/examples/mcp-server/README.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/core/src/skills/builtin/antigravity-support/SKILL.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/core/src/skills/builtin/skill-creator/SKILL.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/sdk/test-data/skills/pirate-skill/SKILL.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/packages/cli/src/acp/README.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/tools/gemini-cli-bot/brain/scheduled.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/tools/gemini-cli-bot/brain/interactive.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/docs/cli/tutorials/web-tools.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/docs/cli/tutorials/task-planning.md",
+    "40-档案/myworkspace-raw/2026-07-16-gemini-subscription/official-gemini-cli-source/docs/cli/tutorials/skills-getting-started.md",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/YQyyds8848.github.jpeg",
-    "Clippings/Any牌路由器使用清障！.md",
-    "00-收件箱/华为云备忘录/assets/华为云备忘录导出 2",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 37.png",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 26.png",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/图像.png",
@@ -261,35 +257,6 @@
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 20.png",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 34.png",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 17.png",
-    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 18.png",
-    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/通话录音 1.m4a",
-    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/通话录音 2.m4a",
-    "00-收件箱/华为云备忘录/apple-notes-export/locked-note-import.md",
-    "locked-note-import.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/目的是，既能一锅出，又能反应快.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/减肥，.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/谷歌密码工具.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/土区.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/我只需要看元认知之类的东西，.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/以前我也认为，跟人交流不能get到他的点就不好，现在我突然明白了就是，你不必关注到他强调的点，你从他的讲话里得到了什么你想要的点，就….md",
-    "00-收件箱/华为云备忘录/apple-notes-export/游戏.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/0833038.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/一定要发作品，深度好作品.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/氧化铈1.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/YQyyds8848.github.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/entro.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/剪发败笔：就因为剪短了一点，下次一点也不要剪短.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/买衣服两大暴论.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/真空步骤.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/做自媒体可以先给出答案，再说问题，就是那种播客的形式.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/1   7.24.md",
-    "00-收件箱/华为云备忘录/apple-notes-export/2  8.2.md",
-    "Scan.pdf",
-    "通话录音 2.m4a",
-    "通话录音 1.m4a",
-    "通话录音.m4a",
-    "IMG_1315.heic",
-    "王小波 时代三部曲系列((作家出版社典藏版本《黄金时代》《白银时代》《青铜时代》套装共3册) (王小波) (Z-Library).epub",
-    "IMG_9333.heic"
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 18.png"
   ]
 }

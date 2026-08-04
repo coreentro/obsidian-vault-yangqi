@@ -10,9 +10,9 @@ tags:
 
 PPT：[[ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.pptx]]
 
-对应文献笔记：[[科研/文献笔记/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化]]
+对应文献笔记：[[20-领域/科研/文献笔记/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化]]
 
-原始 PDF：[[科研/附件PDF/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z-scheme-LVFX.pdf]]
+原始 PDF：[[20-领域/科研/附件PDF/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z-scheme-LVFX.pdf]]
 
 ## 汇报结构
 
