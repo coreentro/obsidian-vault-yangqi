@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大词.md",
+                "file": "30-资源/课程/Coze实战课程/10-课本章/_妙记回放/Manus渠道分享（不免费）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大词"
+              "title": "Manus渠道分享（不免费）"
             }
           },
           {
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/What is something someone said to you years ago that completely changed your life, but they probably don't even remember saying it?           What is something someone said to you years ago that completely changed your life, but they probably do.md",
+                "file": "30-资源/课程/Coze实战课程/10-课本章/_妙记回放/Manus渠道分享（不免费）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "What is something someone said to you years ago that completely changed your life, but they probably don't even remember saying it?           What is something someone said to you years ago that completely changed your life, but they probably do 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -259,8 +259,15 @@
   },
   "active": "0fbb16c757cd857c",
   "lastOpenFiles": [
-    "从零开始，这件事情该怎么做.md",
+    "20-领域/AI/使用技巧/主页.md",
+    "20-领域/AI/看完L站小朋友的一些反思.md",
+    "01-地图/MOC-AI.md",
+    "01-地图/MOC-资源.md",
+    "01-地图/MOC-课程.md",
+    "00-导航.md",
+    "assets/飞书/file-20260529230610176.png",
     "大词.md",
+    "从零开始，这件事情该怎么做.md",
     "技术练着学.md",
     "01-地图/00-HOME.md",
     "30-资源/文献/00-文献库首页.md",
@@ -282,12 +289,6 @@
     "30-资源/文献/00-系统/模板/有机合成文献阅读模板.md",
     "30-资源/文献/40-课题关联/Knoevenagel文献对查尔酮课题的启发.md",
     "30-资源/文献/30-实验条件/Knoevenagel水介导通用条件.md",
-    "30-资源/文献/20-概念卡片/水介导反应.md",
-    "30-资源/文献/20-概念卡片/活泼亚甲基化合物.md",
-    "30-资源/文献/20-概念卡片/Knoevenagel缩合.md",
-    "30-资源/文献/20-概念卡片/绿色化学指标.md",
-    "30-资源/文献/10-文献卡片/2024-Knoevenagel-water-mediated.md",
-    "30-资源/文献/50-汇报PPT/ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.md",
     "30-资源/文献/50-汇报PPT/ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.pptx",
     "30-资源/文献/90-附件PDF/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z-scheme-LVFX.pdf",
     "30-资源/文献/专题",
@@ -303,7 +304,6 @@
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 23.png",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 20.png",
     "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 34.png",
-    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 17.png",
-    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 18.png"
+    "00-收件箱/华为云备忘录/assets/华为云备忘录导出/Drawing 17.png"
   ]
 }
