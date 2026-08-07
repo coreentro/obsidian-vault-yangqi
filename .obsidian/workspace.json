@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "d85525c3b8998415",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub 基础教程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GitHub 基础教程"
+            }
+          },
+          {
             "id": "0b40e83bafe90f14",
             "type": "leaf",
             "state": {
@@ -90,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -257,10 +271,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0fbb16c757cd857c",
+  "active": "d85525c3b8998415",
   "lastOpenFiles": [
-    "30-资源/课程/Coze实战课程/10-课本章/_妙记回放/Manus渠道分享（不免费）.md",
     "Clippings/一想到书架有上限就有点焦虑要尽早做打算.md",
+    "GitHub 基础教程.md",
+    "30-资源/课程/Coze实战课程/10-课本章/_妙记回放/Manus渠道分享（不免费）.md",
     "Clippings",
     "20-领域/AI/使用技巧/主页.md",
     "20-领域/AI/看完L站小朋友的一些反思.md",
@@ -289,7 +304,6 @@
     "30-资源/文献/90-附件PDF/d4ob01420k-中文翻译.md",
     "30-资源/文献/90-附件PDF/d4ob01420k-中文翻译.pdf",
     "30-资源/文献/90-附件PDF/d4ob01420k.pdf",
-    "30-资源/文献/00-系统/模板/有机合成文献阅读模板.md",
     "30-资源/文献/50-汇报PPT/ZnFe2O4-NCDs-Ag2CO3-Z型异质结光催化文献汇报.pptx",
     "30-资源/文献/90-附件PDF/2020-Li-ZnFe2O4-NCDs-Ag2CO3-Z-scheme-LVFX.pdf",
     "30-资源/文献/专题",
