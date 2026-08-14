@@ -216,6 +216,18 @@
             }
           },
           {
+            "id": "02fdfab91de78e4a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.7"
+            }
+          },
+          {
             "id": "0b40e83bafe90f14",
             "type": "leaf",
             "state": {
@@ -242,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -410,7 +422,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8511195b7e37660a",
+  "active": "02fdfab91de78e4a",
   "lastOpenFiles": [
     "怪诞小镇/S01E04-灵媒吉迪恩/00-索引.md",
     "怪诞小镇/00-系列地图.md",

@@ -39,10 +39,14 @@
             "id": "09afad76fb74b429",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大词.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "大词"
             }
           }
         ],
@@ -194,6 +198,10 @@
   },
   "active": "09afad76fb74b429",
   "lastOpenFiles": [
+    "怪诞小镇/S01E04-灵媒吉迪恩/01-剧情梗概.md",
+    "01-地图/MOC-档案.md",
+    "01-地图/本库方法论.md",
+    "大词.md",
     "做笔记.md",
     "AI.md",
     "做自媒体.md",
@@ -225,9 +233,6 @@
     "读书/查拉图斯特拉如是说.md",
     "你你你你.md",
     "科研/阳离子和非离子胶束介质中通过绿色克莱森-施密特反应合成查尔酮.md",
-    "AI/基础知识.md",
-    "yunduan/查拉图斯特拉如是说.md",
-    "yunduan/欢迎.md",
-    "yunduan/欧丹森；赛络纺.md"
+    "AI/基础知识.md"
   ]
 }
