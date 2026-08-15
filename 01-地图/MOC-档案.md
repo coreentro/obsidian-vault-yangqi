@@ -52,5 +52,11 @@ tags: [MOC]
 - `2026-07-16-model-vs-agent-relationship/`（1 md）
 - … 其余 22 个目录略
 
+## Hermes对话
+
+Hermes Agent 桌面端原始对话转储。
+
+- `2026-08-15-怎么提出一个好问题-完整对话.md` → 蒸馏见 [[20-领域/AI/使用技巧/怎么提出一个好问题]]
+
 ## 相关蒸馏
 - [[20-领域/AI/工作区知识/00-MOC-myworkspace-knowledge-map|工作区知识地图]]
