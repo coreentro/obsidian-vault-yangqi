@@ -38,7 +38,12 @@ Hermes 桌面端是 Electron（用 Web 技术做的桌面程序）应用，聊�
   - 助手消息：2px 淡左边界 + 「HERMES」小标签
   - 监听 `host.onEvent('*')` 幂等重注入，防主题切换后样式丢失
 - `2026-08-17` 验证：node 可加载 ESM；4 个 `data-slot` 选择器在当前版本真实存在（9/1/3/7 处）；4 个主题变量均有定义。
-- `2026-08-17` **按用户反馈删除 `chat-role-contrast`**，改建 `chat-sides`（你右 / AI 左）：
+- `2026-08-17` **两版自制插件均已按用户要求删除**，`~/.hermes/desktop-plugins/` 现为空，桌面端恢复原生外观。
+- `2026-08-17` GitHub 调研结论（用户要求「找成熟方案而非自制」）：
+  - 官方仓库 **Issue #41302** `[Feature]: Desktop chat bubble layout — dual-column left/right message alignment with configurable toggle`，需求与用户描述几乎一致（用户右/AI左、气泡、可开关、存 `display.chat.layout`），但**状态 `open`（未实现）**。
+  - 社区目录 `0xNyk/awesome-hermes-agent`（5.3k★，200+ 条目）**无**做左右分栏的插件。
+  - 结论：**当前无现成方案可装**，只有「等官方 / 自制 / 保持原样」三条路。
+- `2026-08-17` ~~按用户反馈删除 `chat-role-contrast`~~，改建 `chat-sides`（你右 / AI 左）：
   - 用户 root 保持满宽（不破 sticky），内部包裹层 `max-width:82%` + `margin-left:auto` 推到右侧
   - 气泡 `.composer-human-message`：`width:fit-content` + 强调色底(14%)/边框(42%) + 圆角 `14/14/4/14`（右下收尖）
   - 助手 root：`align-self:flex-start` + `max-width:88%` 靠左
@@ -47,12 +52,14 @@ Hermes 桌面端是 Electron（用 Web 技术做的桌面程序）应用，聊�
 
 ## 📍 当前进度
 
-**根因**（读打包 CSS 得出）：浅色模式 `--theme-mix-bubble: 0%`（气泡底色被完全混掉）+ 边框 `--ui-stroke-tertiary` 仅约 5% 不透明度 → 用户消息几乎无视觉边界。深色模式为 `46%`，本来可见。
+**已回到原生状态**：`~/.hermes/desktop-plugins/` 为空，两版自制插件都已删除。
 
-**现行方案**：插件 `chat-sides`（你右 / AI 左），已落盘并通过静态验证。
-**关键结构约束**：用户 root 是 `sticky z-40 -mx-4 w-[calc(100%+2rem)] self-end`，**不能改它的宽度**，只能收窄内部气泡。助手 root 本身已是 `self-start`。
+**根因仍然成立**（读打包 CSS 得出）：浅色模式 `--theme-mix-bubble: 0%`（用户气泡底色被完全混掉）+ 边框 `--ui-stroke-tertiary` 仅约 5% 不透明度 → 用户消息几乎无视觉边界。深色模式为 `46%`，本来可见。
+→ **可低成本缓解**：切到深色皮肤即可显著改善（未验证，待用户想试时再说）。
 
-等用户 ⌘K →「Reload desktop plugins」后确认观感。
+**功能缺口**：左右分栏是官方 Issue #41302（open，未实现），社区无插件。用户已表态不要自制。
+
+**下次从哪接**：见「⏭️ 下一步」。
 
 
 ## ❌ 失败方案
@@ -83,8 +90,10 @@ grep -o -- "--ui-chat-bubble-background:[^;]*;" /tmp/out/dist/assets/index-*.css
 
 ## ⏭️ 下一步
 
-1. 让用户 ⌘K →「Reload desktop plugins」，确认区分度是否够；不够就调 `--ui-accent` 混色比例（10%/38%）或加大间距。
-2. 若用户想要更强区分，可考虑把用户消息改为右对齐（需确认不影响长文本与代码块）。
+1. 🅿️ **搁置**：用户不要自制插件。除非用户主动提起，不要再写 UI 插件。
+2. 若用户重提「分不清谁说的」：优先建议**切深色皮肤**（`--theme-mix-bubble` 在 `.dark` 下为 46%，气泡本来就可见），成本最低且不装任何东西。
+3. 可选：到官方 Issue #41302 表达需求（+1 / 评论），推动官方实现。
+
 
 ---
 返回：[[50-记忆/00-记忆索引]]
