@@ -91,12 +91,16 @@ tags:
 
 ## ⏭️ 下一步
 
-1. ⏳ **待用户点头**：给两条 `AgentRouter` 补一行 `extra_headers.User-Agent: codex_cli_rs/…`。
-   - **收益**：消除 401 风险；与 `Muyuan` 写法一致。
-   - **风险评估**：改动仅一行、可秒回滚；不涉及密钥；不改 `model.default`。
-   - **注意**：当前**能正常工作**，说明 Hermes 走的路径已带合规 UA；补头属**加固**而非救火。
+1. 🅿️ **已搁置**（用户 `2026-08-17` 决定：**没出问题就先别动**）—— 不给 `AgentRouter` 补 UA 头。
+   - **触发条件**：若 agentrouter 开始返回 `401 unauthorized client detected` → 立刻在 `config.yaml` 两条 `AgentRouter` 下补：
+     ```yaml
+     extra_headers:
+       User-Agent: codex_cli_rs/0.104.0 (Mac OS 26.6.1; arm64)
+     ```
+     照抄 `Muyuan` 写法即可，改完重启桌面端。**不必重新排查**，门禁规则见「🕳️ 踩坑」。
+   - 现状：能正常工作，Hermes 实际请求已带合规 UA（具体在哪一层补的未定位到确切代码行，属已知未知）。
 2. 探测任何站点前先 `GET /v1/models` 选探针，不再默认 haiku。
-3. 不要默认重启 NewAPI（已弃用）。
+3. 不要默认重启 NewAPI（已弃用；文件未删，勿自行拉起）。
 
 
 ---
