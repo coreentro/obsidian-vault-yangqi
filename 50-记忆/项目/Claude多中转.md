@@ -66,7 +66,8 @@ tags:
 ## 🕳️ 踩坑
 
 - deepflood 常遇 CF 真人验证；机房 IP 节点（如 JP BAGE）容易卡住 → 换干净节点或人工点验证。
-- **`agentrouter.org` 是 UA 门禁站**：不带 `User-Agent` 一律 `401 unauthorized client detected`，与 `muyuan.do` 的 `403 client_restricted` **同类**。配置里 `Muyuan` 有 `extra_headers` 的 UA，两条 `AgentRouter` **没有** → 这是当前 default provider 的隐患。
+- **`agentrouter.org` 门禁规则已完整摸清**（`2026-08-17` 每组复测 3 次，全稳定）：放行需满足**任一**条件 —— ① `User-Agent` 以 `codex_cli_rs/` 或 `claude-cli/` **开头**（版本号任意）；② 同时带**任意 UA + `originator: codex_cli_rs`** 头。⚠️ **只给 `originator` 而不带 UA 仍 401**（两者需配合）。被拦的 UA：无UA / `python-httpx` / `curl` / `Python-urllib` / Chrome / `anthropic-sdk-python`（连官方 SDK 都拦）。`/v1/chat/completions` 路径**同样受门禁**。
+- **原 UA 门禁描述**：不带 `User-Agent` 一律 `401 unauthorized client detected`，与 `muyuan.do` 的 `403 client_restricted` **同类**。配置里 `Muyuan` 有 `extra_headers` 的 UA，两条 `AgentRouter` **没有** → 这是当前 default provider 的隐患。
 - **探测 localhost 必须绕过系统代理**：走代理时 `127.0.0.1:3001` 会返回**瞬时 503（0.0s）**，看起来像"服务在但坏了"；绕过后真相是 `Connection refused`（根本没起）。误判方向会完全跑偏。
 - **别用 haiku 当通用探针**：haiku 只是"某些站点便宜稳定"的选择，站点没有该模型时 403 会被误读成站点故障。**先 `GET /v1/models` 看目录，再选探针模型。**
 - 详见 [[50-记忆/03-踩坑与失败方案]]
@@ -75,6 +76,12 @@ tags:
 
 - `d` 登录页：`https://new.sharedchat.cc/list/#/login`
 - 完整前缀表与网关口径见 [[50-记忆/04-技术方案库]]
+- **agentrouter 放行头**（二选一，`2026-08-17` 实测）：
+  ```yaml
+  extra_headers:
+    User-Agent: codex_cli_rs/0.104.0 (Mac OS 26.6.1; arm64)   # 方案A：仅此一行即可
+  ```
+  Hermes 源码 `agent/auxiliary_client.py::_codex_cloudflare_headers` 里已有同类逻辑，但**只用于 ChatGPT backend，不覆盖 custom_providers** —— 所以 custom provider 必须自己在 `extra_headers` 里声明。
 - **健康探测正确姿势**（`2026-08-17` 实测可用）：
   1. `GET {base}/v1/models` 拿真实目录 → 选一个该站确实提供的模型当探针
   2. `POST {base}/v1/messages`，头带 `anthropic-version: 2023-06-01` + `x-api-key` + `authorization`
@@ -84,9 +91,12 @@ tags:
 
 ## ⏭️ 下一步
 
-1. ⏳ **待用户点头**：给 `config.yaml` 里两条 `AgentRouter` 补 `extra_headers` 的 `User-Agent: codex_cli_rs/…`，消除 401 隐患（当前 default provider）。
+1. ⏳ **待用户点头**：给两条 `AgentRouter` 补一行 `extra_headers.User-Agent: codex_cli_rs/…`。
+   - **收益**：消除 401 风险；与 `Muyuan` 写法一致。
+   - **风险评估**：改动仅一行、可秒回滚；不涉及密钥；不改 `model.default`。
+   - **注意**：当前**能正常工作**，说明 Hermes 走的路径已带合规 UA；补头属**加固**而非救火。
 2. 探测任何站点前先 `GET /v1/models` 选探针，不再默认 haiku。
-3. 不要默认重启 NewAPI；若将来仍想要统一入口，另行评估方案。
+3. 不要默认重启 NewAPI（已弃用）。
 
 
 ---
