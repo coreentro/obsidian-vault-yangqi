@@ -28,6 +28,8 @@ tags:
 - **前缀映射固定**：`a=jianzhile` `b=denxio` `c=agentrouter` `d=sharedchat` `e=CPA` `f=zscc`。
 - **Claude Desktop / Claude Code 统一指向本地 NewAPI `:3001`**，不直连各站，便于集中切换。
 - **健康探测固定用 haiku，优先 `e-cpa`** — 便宜且稳定。
+- `2026-08-17` **弃用本地 NewAPI `:3001`**，改客户端直连各站 — 详见 [[50-记忆/02-决策记录]]
+- `2026-08-17` 健康探测改「先查目录再选探针」，**不再固定用 haiku** — 详见 [[50-记忆/02-决策记录]]
 
 ## ✅ 已完成
 
@@ -37,18 +39,22 @@ tags:
 - `2026-08-17` 跑了一次**只读健康探测**（未改任何配置），实测结论见下「当前进度」：
   - `~/.hermes/config.yaml` 现有 4 条 `custom_providers`：New(3.145.132.202) / AgentRouter Claude / AgentRouter OpenAI Compatible / Muyuan，其中 **AgentRouter 重复两条**（anthropic + openai 两种 api_mode，属有意设计）。
   - Claude Code 实际指向 `~/.claude/settings.json` 的 `anyrouter.top`，**不是**记忆里以为的本地 NewAPI `:3001`。
+- `2026-08-17` 用户决定**弃用本地 NewAPI `:3001`**，架构简化为「客户端直连各中转站」。**未删除任何文件、容器或配置**，仅停止依赖。
 
 ## 📍 当前进度
 
-`2026-08-17` 实测（只读，未改配置）——**记忆与现状已漂移，需要择期对齐**：
+`2026-08-17` 实测 + 用户决策后的现状：
 
-| 站点 / 路径 | 实测结果 |
+| 站点 / 路径 | 状态 |
 |---|---|
-| **c = agentrouter.org**（Hermes 当前 default）| 裸请求 **401 `unauthorized client detected`**；**补 `User-Agent: codex_cli_rs/…` 后 200，回 `OK`** ✅ |
-| anyrouter.top（Claude Code 实际指向）| 站点活着但 **目录里只有 3 个模型**：`claude-fable-5` / `claude-opus-5` / `gpt-5.6-sol`；**没有任何 haiku**。haiku 探测必然 403「该令牌无权访问」。opus/fable 报「需启用 1m 上下文」，补 beta 头后转 503 |
-| **本地 NewAPI `:3001`** | ❌ **没在跑**（绕过代理后 `Connection refused`；colima 未启动，无 newapi 进程）。`:3080` 是 DeepSeek Harness，不是 NewAPI |
+| **c = agentrouter.org**（Hermes 当前 default）| 可用，但**必须带 `User-Agent` 头**，裸请求 401。当前配置里两条 `AgentRouter` **都没有** UA 头 → ⏳ 待用户决定是否补 |
+| anyrouter.top（Claude Code 实际指向）| 目录仅 3 个模型（`claude-fable-5` / `claude-opus-5` / `gpt-5.6-sol`），**无 haiku**；opus/fable 补 1m beta 头后仍 503 |
+| ~~本地 NewAPI `:3001`~~ | ⛔ **已弃用**（`2026-08-17` 用户决定）。**未删除任何文件/容器/配置**，仅停止依赖 |
 
-**下次从哪接**：`50-记忆/04-技术方案库` 里「Claude Desktop/Code → 本地 NewAPI :3001」与「健康探测固定 haiku」两条已**不再反映现状**，已在该页标注实测状态。要恢复 a–f 六站前缀体系，得先把 NewAPI 起回来。
+**架构变更**：不再走「客户端 → 本地 NewAPI 汇聚 → 各站」，改为**客户端直连各中转站**。
+因此 a–f 前缀不再依赖 NewAPI 汇聚，退化为**记忆里的站点代号**；模型列表里的前缀由各客户端自己的配置体现。
+
+**下次从哪接**：见「⏭️ 下一步」第 1 条（AgentRouter 的 UA 头）。
 
 
 ## ❌ 失败方案
@@ -78,7 +84,9 @@ tags:
 
 ## ⏭️ 下一步
 
-1. 定期跑 haiku 健康探测，剔除长期不可用的站点（仅停用，不删配置）。
+1. ⏳ **待用户点头**：给 `config.yaml` 里两条 `AgentRouter` 补 `extra_headers` 的 `User-Agent: codex_cli_rs/…`，消除 401 隐患（当前 default provider）。
+2. 探测任何站点前先 `GET /v1/models` 选探针，不再默认 haiku。
+3. 不要默认重启 NewAPI；若将来仍想要统一入口，另行评估方案。
 
 
 ---
