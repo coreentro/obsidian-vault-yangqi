@@ -35,7 +35,9 @@ Hermes Agent 作为主力入口，需要接多个自定义中转、维护技能�
 
 ## 📍 当前进度
 
-可用。新增供应商后**必须重启**桌面端，否则模型列表走缓存看不到新项。
+新增供应商后**必须重启**桌面端，否则模型列表走缓存看不到新项。
+
+⚠️ `2026-08-19` 实测：`muyuan.do` **UA 门禁已通过、但上游渠道空了**。`GET /v1/models` 200 且只列 `gpt-5.6-sol` 一个模型；调用该模型（`/v1/chat/completions`、`/v1/responses`、`/v1/messages` 三条路径 + Hermes CLI）**全部 503 `model_not_found: No available channel for model gpt-5.6-sol under group default (distributor)`**，30 秒内复测 5 次 0/5 成功 → 是站点侧渠道掉了，不是本地配置问题。配置保持原样待其恢复。
 
 ## ❌ 失败方案
 
