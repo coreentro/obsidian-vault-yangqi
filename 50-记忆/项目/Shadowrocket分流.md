@@ -35,7 +35,20 @@ tags:
 - 路由分组：`Proxy | Config | Direct | Scene`。
 - 定位「改了配置没生效」的真因：生效项看 plist 的 `CurrentRuleFileName`。
 - `2026-08-20`：`Basic.db` 增加 `DOMAIN-SUFFIX,justwoker.icu,PROXY,force-remote-dns`，`api.justwoker.icu/wallet` 恢复 200（New API）。未改 FINAL、未切配置。
+- `2026-08-20`：同法再加 `htai91.com` / `gorouter.app` / `tabitoken.com`（均 CF+New API），全部 200。`jianzhile.vip` 本来就通，无需规则。
 - 流程已做成 skill `chrome-err-tunnel-fix`（Chrome ERR_TUNNEL 单站：权威 NS → 加例外 → 禁关 VPN）。
+
+## 🔑 规则生效链（`2026-08-20` 挖清）
+
+三层，顺序不能反：
+
+| 层 | 文件/进程 | 谁写 | 触发 |
+|---|---|---|---|
+| 源规则 | `Databases/Basic.db` | `sqlite3` INSERT | 立即 |
+| 编译规则 | `Group Containers/…/Basic.db.rule` | **主程序冷启动** | `quit` + `open`（已在跑时 `open` 无效） |
+| 内存规则 | MacPacketTunnel | 隧道启动时读一次 | 重启隧道（=断一下网，需用户同意） |
+
+门禁：`Basic.db.rule` mtime 必须晚于 `Basic.db`，否则重启隧道是白做。
 
 ## 📍 当前进度
 
