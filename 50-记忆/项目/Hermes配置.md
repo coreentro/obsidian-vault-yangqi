@@ -1,6 +1,6 @@
 ---
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-20
 type: 项目记忆
 status: 进行中
 tags:
@@ -32,10 +32,13 @@ Hermes Agent 作为主力入口，需要接多个自定义中转、维护技能�
 
 - 建立 `custom_providers` 机制，桌面端输入框旁选择器按 `name` 分组。
 - `muyuan.do`（`custom:muyuan/gpt-5.6-sol`）接入成功，靠 `extra_headers` 的 `UA=codex_cli_rs*` 绕过限制。
+- `2026-08-20` 接入 `DigitalGleam`（`ai.digitalgleam.pp.ua`）：密钥在 `.env` 的 `DIGITALGLEAM_API_KEY`，`config.yaml` 用 `key_env` 引用；**未改** `model.default`（仍是 `grok-4.6` / `xai-oauth`）。
 
 ## 📍 当前进度
 
 新增供应商后**必须重启**桌面端，否则模型列表走缓存看不到新项。
+
+`2026-08-20` `custom:digitalgleam` 已进选择器（3 个模型）。实测：`glm-5.2` / `glm-5.3` 可用；`kimi-k3` 报 `429 Total quota exceeded (1000/1000)`。该站 Cloudflare **1010** 会拦默认 `OpenAI/Python` UA，条目已带 `UA=codex_cli_rs*`。Hermes CLI `glm-5.2` 冒烟回 `OK`。
 
 ⚠️ `2026-08-19` 实测：`muyuan.do` **UA 门禁已通过、但上游渠道空了**。`GET /v1/models` 200 且只列 `gpt-5.6-sol` 一个模型；调用该模型（`/v1/chat/completions`、`/v1/responses`、`/v1/messages` 三条路径 + Hermes CLI）**全部 503 `model_not_found: No available channel for model gpt-5.6-sol under group default (distributor)`**，30 秒内复测 5 次 0/5 成功 → 是站点侧渠道掉了，不是本地配置问题。配置保持原样待其恢复。
 
