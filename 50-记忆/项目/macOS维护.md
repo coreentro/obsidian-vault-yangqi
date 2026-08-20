@@ -1,6 +1,6 @@
 ---
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-20
 type: 项目记忆
 status: 进行中
 tags:
@@ -29,6 +29,8 @@ macOS 26.6.1 上反复出现授权弹窗、截图失败、Finder 插件异常等
 
 ## ✅ 已完成
 
+- 2026-08-20：打开飞书后键位错乱，定位为 WeType 未在系统输入法列表却被选中；飞书快捷键仍是 Mac 方案（Command+…），本机 hidutil 无改键。
+
 - 定位「授权弹窗反复冒 + computer_use 截图全 `0x0`」真因 = **微信 Sparkle 自动更新循环**，沉淀为 skill `wechat-sparkle-updater-loop`。
 - 定位「一截图就弹录屏框」真因 = Hermes.app 本地签名 TCC 不匹配 → 改用 cua-driver。
 - Claude Code URL Handler.app 反复重建 → 沉淀为 skill `claude-code-url-handler-removal`。
@@ -36,7 +38,7 @@ macOS 26.6.1 上反复出现授权弹窗、截图失败、Finder 插件异常等
 
 ## 📍 当前进度
 
-常见问题均有对应技能可直接套用。
+常见问题均有对应技能可直接套用。2026-08-20：打开飞书后键位错乱 → 真因是微信输入法 WeType 幽灵接管 + 华为键盘修饰键对调（现未连接），不是飞书改键。
 
 ## ❌ 失败方案
 
