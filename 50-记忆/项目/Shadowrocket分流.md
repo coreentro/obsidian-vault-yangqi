@@ -35,6 +35,7 @@ tags:
 - 路由分组：`Proxy | Config | Direct | Scene`。
 - 定位「改了配置没生效」的真因：生效项看 plist 的 `CurrentRuleFileName`。
 - `2026-08-20`：`Basic.db` 增加 `DOMAIN-SUFFIX,justwoker.icu,PROXY,force-remote-dns`，`api.justwoker.icu/wallet` 恢复 200（New API）。未改 FINAL、未切配置。
+- 流程已做成 skill `chrome-err-tunnel-fix`（Chrome ERR_TUNNEL 单站：权威 NS → 加例外 → 禁关 VPN）。
 
 ## 📍 当前进度
 
