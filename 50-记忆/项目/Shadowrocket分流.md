@@ -1,6 +1,6 @@
 ---
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-20
 type: 项目记忆
 status: 暂停
 tags:
@@ -22,6 +22,7 @@ tags:
 
 - 排障**严格限定在授权范围**：不要把代理配置当无关组件随意改动。
 - 不主动删除既有配置文件。
+- **禁止关闭 VPN** / `killall MacPacketTunnel`（`2026-08-20`）。
 
 ## 🧩 关键决策
 
@@ -33,10 +34,11 @@ tags:
 - 建立 utun + fake-IP（`198.18.x.x`）+ 本地代理 `127.0.0.1:1082`。
 - 路由分组：`Proxy | Config | Direct | Scene`。
 - 定位「改了配置没生效」的真因：生效项看 plist 的 `CurrentRuleFileName`。
+- `2026-08-20`：`Basic.db` 增加 `DOMAIN-SUFFIX,justwoker.icu,PROXY,force-remote-dns`，`api.justwoker.icu/wallet` 恢复 200（New API）。未改 FINAL、未切配置。
 
 ## 📍 当前进度
 
-基本可用。遗留问题：部分成人站 TLS 断连（节点侧问题，非规则）；deepflood 等 CF 站偶发真人验证卡住。
+基本可用。`justwoker.icu` 已进 Basic 代理例外。遗留：部分成人站 TLS 断连（节点侧）；deepflood 等 CF 站偶发真人验证。
 
 ## ❌ 失败方案
 
@@ -45,7 +47,8 @@ tags:
 
 ## 🕳️ 踩坑
 
-- 覆盖了 conf 但生效的仍是 `Basic.db`：改完 conf / 切配置后要**重启 `MacPacketTunnel`**，并确认三个键一致。
+- 覆盖了 conf 但生效的仍是 `Basic.db`：改完看三键，**不要**杀隧道。
+- Chrome `ERR_TUNNEL_CONNECTION_FAILED` 在 fake-IP + `FINAL,DIRECT` 下常常只是「这域名不在名单里」，不是 VPN 坏了。
 - 机房 IP 节点（如 JP BAGE）在 CF 真人验证上极易卡住。
 - 详见 [[50-记忆/03-踩坑与失败方案]]
 
