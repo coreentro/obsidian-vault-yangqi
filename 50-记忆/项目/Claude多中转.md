@@ -1,6 +1,6 @@
 ---
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-21
 type: 项目记忆
 status: 进行中
 tags:
@@ -40,10 +40,22 @@ tags:
   - `~/.hermes/config.yaml` 现有 4 条 `custom_providers`：New(3.145.132.202) / AgentRouter Claude / AgentRouter OpenAI Compatible / Muyuan，其中 **AgentRouter 重复两条**（anthropic + openai 两种 api_mode，属有意设计）。
   - Claude Code 实际指向 `~/.claude/settings.json` 的 `anyrouter.top`，**不是**记忆里以为的本地 NewAPI `:3001`。
 - `2026-08-17` 用户决定**弃用本地 NewAPI `:3001`**，架构简化为「客户端直连各中转站」。**未删除任何文件、容器或配置**，仅停止依赖。
+- `2026-08-21` 按 AgentRouter 文档把 **Claude App（Desktop 1.34493.1）** 接到 `agentrouter.org`：写入 `~/Library/Application Support/Claude-3p/configLibrary/`，`deploymentMode=3p`，健康检查 `ConfigHealth=healthy`。密钥在该 JSON + `~/.hermes/.env` 的 `AGENTROUTER_CLAUDEAPP_API_KEY`（不写进知识库）。
 
 ## 📍 当前进度
 
-`2026-08-17` 实测 + 用户决策后的现状：
+`2026-08-21` Claude App 已直连 **c = agentrouter.org**（3P 网关模式）。
+
+| 项 | 值 |
+|---|---|
+| 模式 | `deploymentMode=3p`，userData=`~/Library/Application Support/Claude-3p` |
+| 网关 | `https://agentrouter.org`，auth=`bearer` |
+| 模型 | `[c] claude-opus-5`（默认）、`[c] claude-opus-4-8` |
+| 健康检查 | `ConfigHealth { state: healthy, provider: gateway }` |
+| 本 key 目录 | 仅上述两个 Claude + `gpt-5.6-sol`（后者不是 Claude ID，未进 Desktop 列表） |
+| 本 key **没有** haiku | 健康探针必须用 `inferenceModels` 第一项（opus-5），不能靠默认 haiku |
+
+`2026-08-17` 实测 + 用户决策后的其它站点现状：
 
 | 站点 / 路径 | 状态 |
 |---|---|
@@ -54,7 +66,7 @@ tags:
 **架构变更**：不再走「客户端 → 本地 NewAPI 汇聚 → 各站」，改为**客户端直连各中转站**。
 因此 a–f 前缀不再依赖 NewAPI 汇聚，退化为**记忆里的站点代号**；模型列表里的前缀由各客户端自己的配置体现。
 
-**下次从哪接**：见「⏭️ 下一步」第 1 条（AgentRouter 的 UA 头）。
+**下次从哪接**：Claude App 已可用。其它客户端（Hermes / Claude Code）仍按各自配置，未改。
 
 
 ## ❌ 失败方案
@@ -66,7 +78,8 @@ tags:
 ## 🕳️ 踩坑
 
 - deepflood 常遇 CF 真人验证；机房 IP 节点（如 JP BAGE）容易卡住 → 换干净节点或人工点验证。
-- **`agentrouter.org` 门禁规则已完整摸清**（`2026-08-17` 每组复测 3 次，全稳定）：放行需满足**任一**条件 —— ① `User-Agent` 以 `codex_cli_rs/` 或 `claude-cli/` **开头**（版本号任意）；② 同时带**任意 UA + `originator: codex_cli_rs`** 头。⚠️ **只给 `originator` 而不带 UA 仍 401**（两者需配合）。被拦的 UA：无UA / `python-httpx` / `curl` / `Python-urllib` / Chrome / `anthropic-sdk-python`（连官方 SDK 都拦）。`/v1/chat/completions` 路径**同样受门禁**。
+- **agentrouter.org 门禁规则已完整摸清**（`2026-08-17` 每组复测 3 次，全稳定）：放行需满足**任一**条件 —— ① `User-Agent` 以 `codex_cli_rs/` 或 `claude-cli/` **开头**（版本号任意）；② 同时带**任意 UA + `originator: codex_cli_rs`** 头。⚠️ **只给 `originator` 而不带 UA 仍 401**（两者需配合）。被拦的 UA：无UA / `python-httpx` / `curl` / `Python-urllib` / Chrome / `anthropic-sdk-python`（连官方 SDK 都拦）。`/v1/chat/completions` 路径**同样受门禁**。
+- `2026-08-21` 补测：Claude App 自带的 Electron UA（里面带 `Claude/… Chrome/… Electron/…`）**已经能过门禁**；无 UA 仍 401。Desktop 配置里仍加了 `originator: codex_cli_rs` 作双保险。
 - **原 UA 门禁描述**：不带 `User-Agent` 一律 `401 unauthorized client detected`，与 `muyuan.do` 的 `403 client_restricted` **同类**。配置里 `Muyuan` 有 `extra_headers` 的 UA，两条 `AgentRouter` **没有** → 这是当前 default provider 的隐患。
 - **探测 localhost 必须绕过系统代理**：走代理时 `127.0.0.1:3001` 会返回**瞬时 503（0.0s）**，看起来像"服务在但坏了"；绕过后真相是 `Connection refused`（根本没起）。误判方向会完全跑偏。
 - **别用 haiku 当通用探针**：haiku 只是"某些站点便宜稳定"的选择，站点没有该模型时 403 会被误读成站点故障。**先 `GET /v1/models` 看目录，再选探针模型。**
@@ -91,7 +104,8 @@ tags:
 
 ## ⏭️ 下一步
 
-1. 🅿️ **已搁置**（用户 `2026-08-17` 决定：**没出问题就先别动**）—— 不给 `AgentRouter` 补 UA 头。
+1. Claude App 左下角切 `[c] claude-opus-5` 发一句即可人工确认（进程侧健康检查已通过）。
+2. 🅿️ **已搁置**（用户 `2026-08-17` 决定：**没出问题就先别动**）—— 不给 Hermes 里的 `AgentRouter` 补 UA 头。
    - **触发条件**：若 agentrouter 开始返回 `401 unauthorized client detected` → 立刻在 `config.yaml` 两条 `AgentRouter` 下补：
      ```yaml
      extra_headers:
