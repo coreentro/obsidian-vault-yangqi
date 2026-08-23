@@ -1,0 +1,11 @@
+{
+  "conversation_count": 59,
+  "has_conversations_memory": true,
+  "memory_file_count": 11,
+  "memory_note_count": 12,
+  "source_hashes": {
+    "conversations-000.zip:conversations.json": "4c4ac3c3d09667ba661b1f8038a4045fb548d664d4a605e69d760497e2e0cc8c",
+    "memories-000.zip:memories/822c382e-cc57-426a-8e8d-bcfb3c4c24e2.json": "f3396ea5c265fd0235420acd495d25d1a573e147ac6576f89b36a448ccadbaa8"
+  },
+  "source_message_count": 631
+}
