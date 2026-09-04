@@ -1,6 +1,6 @@
 ---
 created: 2026-08-17
-updated: 2026-08-20
+updated: 2026-09-04
 type: 项目记忆
 status: 进行中
 tags:
@@ -34,12 +34,13 @@ Hermes Agent 作为主力入口，需要接多个自定义中转、维护技能�
 - `muyuan.do`（`custom:muyuan/gpt-5.6-sol`）接入成功，靠 `extra_headers` 的 `UA=codex_cli_rs*` 绕过限制。
 - `2026-08-20` 接入 `DigitalGleam`（`ai.digitalgleam.pp.ua`）：密钥在 `.env` 的 `DIGITALGLEAM_API_KEY`，`config.yaml` 用 `key_env` 引用；**未改** `model.default`（仍是 `grok-4.6` / `xai-oauth`）。
 - `2026-08-20` 接入 `Hcnsec`（`api.hcnsec.cn`）：密钥在 `.env` 的 `HCNSEC_API_KEY`；目录目前只有 `glm-5.2`，无需自定义 UA；**未改** `model.default`。
+- `2026-09-04` 刷新 Hermes 里 4 条 AgentRouter 的模型列表，对齐 `GET https://agentrouter.org/v1/models`（两条 key 目录相同）。下架 `claude-opus-4-6`；Claude 条只留 `claude-opus-4-8` / `claude-opus-5`；OpenAI 条加上 `deepseek-v4-flash` / `glm-5.3`，保留 `gpt-5.6-sol`。**未改** `model.default`（仍是 `claude-opus-5` / `custom:agentrouter-claude`）。未补 UA 头（Hermes CLI 对 `glm-5.3` 已回 `OK`）。
 
 ## 📍 当前进度
 
-新增供应商后**必须重启**桌面端，否则模型列表走缓存看不到新项。
+`2026-09-04` AgentRouter 站点目录 = `claude-opus-4-8`、`claude-opus-5`、`deepseek-v4-flash`、`glm-5.3`、`gpt-5.6-sol`。直连冒烟：后三个 chat + messages 均 200 回 `OK`；两个 Claude 模型两条 key 都是 **402 预算池额度耗尽**（目录仍列出，不是本地配置错）。桌面端选择器要**完全退出再打开**才看得到新模型。
 
-`2026-08-20` `custom:hcnsec` 已写入 `config.yaml`（模型 `glm-5.2`）。直连 chat 3/3 200、Hermes CLI 冒烟回 `OK`。桌面端选择器要重启后才看得到。`model.default` 仍是 `grok-4.6` / `xai-oauth`。
+新增供应商后**必须重启**桌面端，否则模型列表走缓存看不到新项。
 
 ⚠️ `2026-08-19` 实测：`muyuan.do` **UA 门禁已通过、但上游渠道空了**。`GET /v1/models` 200 且只列 `gpt-5.6-sol` 一个模型；调用该模型（`/v1/chat/completions`、`/v1/responses`、`/v1/messages` 三条路径 + Hermes CLI）**全部 503 `model_not_found: No available channel for model gpt-5.6-sol under group default (distributor)`**，30 秒内复测 5 次 0/5 成功 → 是站点侧渠道掉了，不是本地配置问题。配置保持原样待其恢复。
 
