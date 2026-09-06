@@ -1,6 +1,6 @@
 ---
 created: 2026-08-17
-updated: 2026-08-20
+updated: 2026-09-06
 type: 项目记忆
 status: 暂停
 tags:
@@ -36,6 +36,7 @@ tags:
 - 定位「改了配置没生效」的真因：生效项看 plist 的 `CurrentRuleFileName`。
 - `2026-08-20`：`Basic.db` 增加 `DOMAIN-SUFFIX,justwoker.icu,PROXY,force-remote-dns`，`api.justwoker.icu/wallet` 恢复 200（New API）。未改 FINAL、未切配置。
 - `2026-08-20`：同法再加 `htai91.com` / `gorouter.app` / `tabitoken.com`（均 CF+New API），全部 200。`jianzhile.vip` 本来就通，无需规则。
+- `2026-09-06`：`yjsxy.web.hebust.edu.cn` Chrome `ERR_TUNNEL`。权威 NS 活着（CERNET `202.206.64.189`）。加 `DOMAIN-SUFFIX,hebust.edu.cn,DIRECT`（不是 PROXY），编译后用户同意重载隧道 → 200 标题「河北科技大学_研究生院」。百度仍直连快。
 - 流程已做成 skill `chrome-err-tunnel-fix`（Chrome ERR_TUNNEL 单站：权威 NS → 加例外 → 禁关 VPN）。
 
 ## 🔑 规则生效链（`2026-08-20` 挖清）
@@ -52,17 +53,18 @@ tags:
 
 ## 📍 当前进度
 
-基本可用。`justwoker.icu` 已进 Basic 代理例外。遗留：部分成人站 TLS 断连（节点侧）；deepflood 等 CF 站偶发真人验证。
+基本可用。`hebust.edu.cn` 已进 Basic **直连**例外；`justwoker.icu` 等仍是代理例外。遗留：部分成人站 TLS 断连（节点侧）；deepflood 等 CF 站偶发真人验证。
 
 ## ❌ 失败方案
 
 - **靠改分流规则解决 TLS 断连** → 无效。真因是节点 SNI / 机房 IP 被拉黑，只能换节点。
 - CF 站点走 `DIRECT` → 必被拦。
+- 国内 `.edu.cn` 套 `PROXY,force-remote-dns` → 流量绕境外再回教育网，注册/教务可能被校方拦。真 IP 直连已通时只加 `DIRECT`。
 
 ## 🕳️ 踩坑
 
 - 覆盖了 conf 但生效的仍是 `Basic.db`：改完看三键，**不要**杀隧道。
-- Chrome `ERR_TUNNEL_CONNECTION_FAILED` 在 fake-IP + `FINAL,DIRECT` 下常常只是「这域名不在名单里」，不是 VPN 坏了。
+- Chrome `ERR_TUNNEL_CONNECTION_FAILED` 在 fake-IP + `FINAL,DIRECT` 下常常只是「这域名不在名单里」，不是 VPN 坏了。海外漏网加 PROXY；国内大学漏网加 DIRECT。
 - 机房 IP 节点（如 JP BAGE）在 CF 真人验证上极易卡住。
 - 详见 [[50-记忆/03-踩坑与失败方案]]
 
